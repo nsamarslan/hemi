@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Üçüncü Göz</string>
+    <string name="title_activity_main">Üçüncü Göz</string>
+    <string name="package_name">com.nsamarslan.ucuncugoz</string>
+    <string name="custom_url_scheme">com.nsamarslan.ucuncugoz</string>
+</resources>

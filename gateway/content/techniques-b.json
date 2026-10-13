@@ -1,0 +1,297 @@
+{
+  "techniques": [
+    {
+      "id": "nvc",
+      "no": 12,
+      "category": "communication",
+      "title": { "tr": "Sözsüz İletişim (NVC)", "en": "Non-Verbal Communication (NVC)" },
+      "short": { "tr": "Kelimeler olmadan, sezgi ve imgelerle haberleşmek.", "en": "Communicating without words, through intuition and imagery." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "NVC, Non-Verbal Communication — sözsüz iletişim — Focus 12'de gelişen, kelimelere dayanmayan bir algılama ve iletişim biçimidir. El kitabı: NVC, 'sezgisel düşüncenin dilidir'; genelde imgeler, semboller, hisler ve bazen 'resimler' olarak kendini gösterir.", "en": "NVC, Non-Verbal Communication, is a form of perception and communication that develops in Focus 12 and does not rely on words. The manual: NVC is 'the language of intuitive thought'; it usually shows itself as images, symbols, feelings and sometimes 'pictures'." },
+          { "tr": "Gateway'de iki NVC egzersizi vardır (Adventure #4 ve #5). Amaç, kendi 'dilinizi' — imgelerinizi, sembollerinizi — tanımak ve kullanmaktır.", "en": "The Gateway has two NVC exercises (Adventure #4 and #5). The aim is to know and use your own 'language' — your images, your symbols." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 12'de, zihnini aç: bir soru sor ya da bir niyet tut.", "en": "In Focus 12, open your mind: ask a question or hold an intention." },
+          { "tr": "Cevabı beklerken kelime arama; imgeler, renkler, hisler gelsin.", "en": "As you wait for the answer, don't search for words; let images, colors and feelings come." },
+          { "tr": "Gelen her şeyi not et: sembol, renk, his, mekan.", "en": "Note everything that comes: symbol, color, feeling, place." },
+          { "tr": "Zamanla kendi sembol dünyanı tanırsın.", "en": "In time you come to know your own world of symbols." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "NVC I ve NVC II egzersizlerinde; sezgisel sorulara cevap ararken, rehberlikle çalışırken.", "en": "In the NVC I and NVC II exercises; when seeking answers to intuitive questions, when working with guidance." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Sözsüz iletişim, 'anlamlandırma' ile olgunlaşır; sembolleri günlüğe yaz.", "en": "Non-verbal communication matures with 'making meaning'; write the symbols in your journal." },
+        { "tr": "Aynı sembolü tekrar görmek, o sembolün 'sıkılaştığını' gösterir.", "en": "Seeing the same symbol again shows that the symbol is 'setting'." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'NVC I' and 'NVC II' (Adventure #4/#5) from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "compoint",
+      "no": 13,
+      "category": "communication",
+      "title": { "tr": "İletişim Noktası (Compoint)", "en": "Compoint (Point of Communication)" },
+      "short": { "tr": "Yüksek benlikle temas için sabit bir zihinsel 'adres'.", "en": "A fixed mental 'address' for contact with the total self." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Compoint, 'iletişim noktası': toplam benliğinle (daha bilgili halinle) temas kurduğun, zihninde sabitlediğin bir referans noktasıdır. El kitabı: Compoint, NVC'nin üzerine kurulur; ilk temas noktan, 'telefon numaran' gibidir.", "en": "Compoint, 'point of communication': a reference point you fix in your mind for contact with your total self (your wiser self). The manual: Compoint is built on NVC; your first contact point is like 'your phone number'." },
+          { "tr": "Bir kez kuruldu mu, Compoint'e 'uğrayarak' her seferinde aynı temas noktasını bulursun.", "en": "Once established, you find the same point of contact every time you 'stop by' the Compoint." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 12'de, NVC ile ilk temasını yaşa: bir varlık, bir imge, bir his.", "en": "In Focus 12, live your first NVC contact: a being, an image, a feeling." },
+          { "tr": "O temas noktasını zihninde 'sabitle': bir yer, bir renk, bir his.", "en": "'Fix' that point of contact in your mind: a place, a color, a feeling." },
+          { "tr": "Her oturumda o noktaya uğra; temas güçlenir.", "en": "Visit that point in every session; the contact grows stronger." },
+          { "tr": "Oradan sorular sor, mesajlar al; sözsüz iletişimle.", "en": "From there, ask questions, receive messages; through non-verbal communication." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Compoint egzersizinde (Adventure #6) ve thereafter her rehberlik temasinda.", "en": "In the Compoint exercise (Adventure #6) and thereafter in every guidance contact." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Compoint, 'telefon numarası' gibi değerlidir; yerini kaybetme.", "en": "Compoint is as valuable as a 'phone number'; don't lose its place." },
+        { "tr": "Temas noktası kişiye özeldir; başkasınınki seninle aynı olmak zorunda değil.", "en": "The contact point is personal; it doesn't have to be the same as someone else's." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Compoint' (Adventure #6) from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "fiveq",
+      "no": 14,
+      "category": "communication",
+      "title": { "tr": "Beş Soru", "en": "The Five Questions" },
+      "short": { "tr": "Toplam benliğe sorulan, cevabı tüm benlikten gelen beş soru.", "en": "Five questions asked of the total self, answered by the total self." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Beş Soru (Freedom #4), toplam benliğine — daha geniş, daha bilgili haline — sorduğun ve cevabın yine o halden geldiği bir tekniktir. Sorular sözlü de olabilir, zihinsel de; cevaplar NVC ile gelir: imge, his, kelime, içgörü.", "en": "The Five Questions (Freedom #4) is a technique where you ask your total self — your wider, wiser self — and the answer comes from that same self. The questions can be spoken or mental; the answers come through NVC: image, feeling, word, insight." },
+          { "tr": "Adı 'beş soru' olsa da, esas olan sormaktır; sayısı esnektir.", "en": "Although it is called 'five questions', what matters is the asking; the number is flexible." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 12'de, aklındaki soruyu içinden sor.", "en": "In Focus 12, ask your question within." },
+          { "tr": "Cevabı bekle — imge, his, kelime ya da sessizlik.", "en": "Wait for the answer — an image, a feeling, a word or a silence." },
+          { "tr": "Cevabı not et; şüphe duyma, sadece kaydet.", "en": "Note the answer; don't doubt it, just record it." },
+          { "tr": "Gerekirse ardıl sorular sor.", "en": "Ask follow-up questions if needed." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Beş Soru egzersizinde; karar, yön, içgörü ve rehberlik istenen her an.", "en": "In the Five Questions exercise; whenever decision, direction, insight and guidance are needed." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Cevap, sorunun 'arkasından' gelir; sabır, tekniğin yarısıdır.", "en": "The answer follows the question; patience is half the technique." },
+        { "tr": "Günlük, cevapların doğruluğunu zamanla sınar.", "en": "The journal tests the accuracy of the answers over time." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Five Questions' (Freedom #4) from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "freeflow",
+      "no": 15,
+      "category": "exploration",
+      "title": { "tr": "Serbest Akış Yöntemleri (Free Flow)", "en": "Free Flow Methods of Exploration" },
+      "short": { "tr": "Rehber olmadan, kendi hızında keşif yapmanın yolları.", "en": "Ways of exploring without guidance, at your own pace." },
+      "state": "explore",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Serbest akış (free flow), el kitabının 'Free Flow Methods of Exploration' bölümünde anlatılan, yönlendirme olmadan yapılan keşif pratiğidir. Amaç, kendi bilincinin akışına güvenmeyi öğrenmektir: bir hedef koy, akışa bırak, ne gelirse karşıla.", "en": "Free flow is the exploration practice described in the manual's 'Free Flow Methods of Exploration' section, done without guidance. The aim is to learn to trust the flow of your own awareness: set a goal, let go into the flow, meet whatever comes." },
+          { "tr": "Serbest akış egzersizleri seride boldur: Free Flow 10, Free Flow 12, Focus 21'de Serbest Yolculuk, Focus 15'te Serbest Keşif, Focus 27'de Serbest Akış. Özgün seride tüm dalgalar serbest akıştır.", "en": "Free-flow exercises are plentiful in the series: Free Flow 10, Free Flow 12, Free Flow Journey in Focus 21, Exploring Focus 15, Free Flow 27. In the original series, all waves are free flow." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Hazırlık ve giriş fasllarından sonra, bir niyet tut (ya da tutma).", "en": "After preparation and entry, hold an intention (or don't hold one)." },
+          { "tr": "Zihnini akışa bırak; ne gelirse gözlemle.", "en": "Let your mind go into the flow; observe whatever comes." },
+          { "tr": "Yargılama, sadece fark et.", "en": "Don't judge, just notice." },
+          { "tr": "Çanlar seni geri çağırana kadar orada kal.", "en": "Stay there until the bells call you back." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Serbest akış egzersizlerinde; ustalaştıkça kendi oturumlarını tasarlarken.", "en": "In the free-flow exercises; as you grow skilled, while designing your own sessions." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Serbest akış, 'hiçbir şey yapmamak' değildir; 'her şeyi hissetmek'tir.", "en": "Free flow is not 'doing nothing'; it is 'feeling everything'." },
+        { "tr": "İlk serbest akışlar boş geçebilir; bu, pratiğin doğasıdır.", "en": "The first free flows may pass empty; that is the nature of the practice." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Free Flow Methods of Exploration' from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "walks",
+      "no": 16,
+      "category": "exploration",
+      "title": { "tr": "Enerji Yürüyüşleri (Energy Walks)", "en": "Energy Walks" },
+      "short": { "tr": "Genişlemiş farkındalıkta yürümek; çevreden enerji toplamak.", "en": "Walking in expanded awareness; gathering energy from the surroundings." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Enerji Yürüyüşleri, el kitabının 'Energy Walks' bölümünde anlatılan bir tekniktir: Focus 12 farkındalığında, mekan mekan dolaşırsın — gerçek bir yürüyüşte ya da zihinsel olarak. Amaç, hareket ederken farkındalığı korumak ve çevreden enerji toplamaktır.", "en": "Energy Walks is a technique described in the manual's 'Energy Walks' section: in Focus 12 awareness you move from place to place — in a real walk or a mental one. The aim is to keep awareness while moving and to gather energy from the surroundings." },
+          { "tr": "Özellikle açık havada, doğada yapılan yürüyüşlerle birleştirildiğinde güçlüdür.", "en": "Combined with real walks outdoors, in nature, it becomes powerful." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 12'ye geç (oturumla ya da tek başına).", "en": "Enter Focus 12 (with a session or alone)." },
+          { "tr": "Yürümeye başla: her adımda farkındalığı hisset.", "en": "Begin to walk: feel awareness with every step." },
+          { "tr": "Çevreye açıl: ağaçlar, gökyüzü, yer, rüzgar.", "en": "Open to the surroundings: trees, sky, earth, wind." },
+          { "tr": "Her adımda çevreden enerji topla; depola.", "en": "With every step, gather energy from the surroundings; store it." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Doğada yürüyüşlerde; gün içinde farkındalık molalarında; sabah kalkışta.", "en": "In walks in nature; in mindful breaks during the day; on waking in the morning." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Yalınayak yürümek, enerji alışverişini katmerler.", "en": "Walking barefoot multiplies the energy exchange." },
+        { "tr": "Yürüyüş, hareket halindeki meditasyondur.", "en": "Walking is meditation in motion." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Energy Walks' from the Gateway Experience Guidance Manual. Also available as a session in the Ek Pratikler series (ex-walk)."
+    },
+    {
+      "id": "grounding",
+      "no": 17,
+      "category": "exploration",
+      "title": { "tr": "Topraklanma (Grounding)", "en": "Grounding (Need Grounding?)" },
+      "short": { "tr": "Oturumdan sonra bedene dönmenin, 'toprağa basmanın' yolları.", "en": "Ways of returning to the body after a session, of 'touching the earth'." },
+      "state": "return",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "El kitabının 'Need Grounding?' bölümü, oturumdan sonra bedenine dönemediğinde, 'havada kaldığında' ne yapacağını anlatır. Belirtiler: hafif baş dönmesi, sersemlik, bedenden kopukluk hissi, aşırı gevşeme.", "en": "The manual's 'Need Grounding?' section describes what to do when, after a session, you cannot return to your body, when you feel 'left hanging'. Signs: mild dizziness, grogginess, a sense of disconnection from the body, excessive looseness." },
+          { "tr": "Topraklanma, bilinci bedene geri çağırmanın adıdır.", "en": "Grounding is the name for calling awareness back into the body." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Yavaş kalk; bir süre otur ya da ayakta dur.", "en": "Rise slowly; sit or stand for a while." },
+          { "tr": "Ayak tabanlarını hisset; yerin enerjisini içine çek.", "en": "Feel the soles of your feet; draw the energy of the earth in." },
+          { "tr": "Su iç; bir şeyler ye; bedenini 'hatırla'.", "en": "Drink water; eat something; 'remember' your body." },
+          { "tr": "Yalınayak yürü; ellerini toprağa, çimene sürt.", "en": "Walk barefoot; rub your hands on earth, on grass." },
+          { "tr": "Hafif hareket: gerin, kollarını savur, omuzlarını indir.", "en": "Light movement: stretch, swing your arms, drop your shoulders." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Her oturumdan sonra, özellikle derin oturumlardan (Focus 15/21 ve ötesi) sonra.", "en": "After every session, especially after deep ones (Focus 15/21 and beyond)." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Topraklanma, 'geri dönüşün' tamamlayıcısıdır; REBAL'i emmekle başlar.", "en": "Grounding is the complement of 'returning'; it begins with absorbing the REBAL." },
+        { "tr": "Acele etme; beden, kendi hızındageri gelir. gelir.", "en": "Don't rush; the body returns at its own pace." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Need Grounding?' from the Gateway Experience Guidance Manual. Also available as a session in the Ek Pratikler series (ex-ground)."
+    },
+    {
+      "id": "separation",
+      "no": 18,
+      "category": "exploration",
+      "title": { "tr": "Ayrışma Yöntemleri (İlk Aşama Ayrışma)", "en": "Separation Methods (First-Stage Separation)" },
+      "short": { "tr": "Bedenden ayrılmanın beş temel tekniği; ilk beden dışı adımlar.", "en": "The five basic techniques of separation from the body; the first out-of-body steps." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Gateway Intermediate Workbook ve Birinci Aşama Ayrışma (Freedom #6) egzersizi, beden dışı deneyime giden ilk yöntemleri öğretir. Beş temel yöntem vardır: (1) suyun üzerinde yuvarlanan kütük gibi yuvarlanmak, (2) bir direk gibi yukarı çıkmak, (3) bedenden geriye doğru çekilmek, (4) baştan gaz gibi çıkmak, (5) bedenin üzerinde yüzer gibi yükselmek. Her yöntemden sonra REBAL yeniden emilir.", "en": "The Gateway Intermediate Workbook and the First-Stage Separation exercise (Freedom #6) teach the first methods of going out of the body. There are five basic methods: (1) rolling out like a log rolling in water, (2) going up like a stiff pole, (3) backing away from the body, (4) going out of the head like a gas, (5) floating up above the physical body. After each method the REBAL is reabsorbed." },
+          { "tr": "Ayrıca 'ekran' yöntemleri de vardır: bedenin ışık saçan bir silüetini (iki boyutlu bir ekranı) izlemek; ekranı kırmızı, mavi, sarı, turuncu ve beyaza çevirmek; bedeni yarı saydam bir heykel gibi hissetmek.", "en": "There are also 'screen' methods: watching a silhouette of your body that emits light (a two-dimensional screen); turning the screen red, blue, yellow, orange and white; feeling the body as a translucent statue." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 10/12'de, REBAL'i kur. Rahatla.", "en": "In Focus 10/12, build the REBAL. Relax." },
+          { "tr": "Bir yöntem seç ve uygula — örneğin 'kütük gibi yuvarlan': bedeninin suyun üzerinde yuvarlandığını hisset.", "en": "Choose a method and apply it — for example 'roll like a log': feel your body rolling on water." },
+          { "tr": "Hareketi hisset; zorlama. Titreşim, dalga, hafiflik gelebilir.", "en": "Feel the movement; don't force. Vibration, waves, lightness may come." },
+          { "tr": "Yöntem bitince REBAL'i yeniden em; bedene dön.", "en": "When the method is done, reabsorb the REBAL; return to the body." },
+          { "tr": "Her oturumda bir yöntemi dene; sabırla.", "en": "Try one method per session; be patient." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Birinci Aşama Ayrışma egzersizinde ve sonraki beden dışı çalışmalarda.", "en": "In the First-Stage Separation exercise and in later out-of-body work." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Yöntemler 'çıkış kapısıdır'; ilk denemeler titreşim ya da hareket hissi olarak kalabilir — bu, sürecin parçasıdır.", "en": "The methods are 'exit doors'; the first attempts may remain as vibration or a sense of movement — that is part of the process." },
+        { "tr": "REBAL her zaman yanındadır; dönüş garantilidir.", "en": "The REBAL is always with you; the return is guaranteed." },
+        { "tr": "Yöntemleri günlüğe yaz; zamanla sana en uygun olanı bulursun.", "en": "Write the methods in your journal; over time you find the one that suits you best." }
+      ],
+      "warnings": [
+        { "tr": "Ayrışma pratiği, ilk denemelerde korkutucu gelebilir; bedene dönüşü (REBAL) her zaman hatırla.", "en": "Separation practice can feel frightening in the first attempts; always remember the return to the body (REBAL)." }
+      ],
+      "notes": "Monroe techniques: 'First-Stage Separation' (Freedom #6) and the separation methods from the Gateway Intermediate Workbook. Paraphrased from public descriptions."
+    },
+    {
+      "id": "rv",
+      "no": 19,
+      "category": "exploration",
+      "title": { "tr": "Uzak Görme (CRV)", "en": "Coordinate Remote Viewing (CRV)" },
+      "short": { "tr": "Fiziksel mekanın ötesinde algı; CIA raporunun da incelediği teknik.", "en": "Perception beyond physical location; the technique the CIA report also analyzed." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Uzak görme (remote viewing), bedeninin bulunduğu mekanın ötesinde algı kurmaktır. Gateway'de Uzaktan Görme (Freedom #2) egzersizi bu pratiği tanıtır. CIA'nın 1983 Gateway raporu, bu tekniğin ABD ordusundaki (Stargate) kullanımını da inceler.", "en": "Remote viewing is establishing perception beyond the place where your body is. The Gateway's Remote Viewing exercise (Freedom #2) introduces this practice. The CIA's 1983 Gateway report also analyzed this technique's use in the US military (Stargate)." },
+          { "tr": "CRV (Coordinate Remote Viewing), bu alanda geliştirilmiş yapılandırılmış bir yöntemdir: 'hedef koordinatları' ile tanımlanan bir yere algı yönlendirilir; algı, fazlar halinde (renkler, dokular, boyutlar, anlam) raporlanır.", "en": "CRV (Coordinate Remote Viewing) is a structured method developed in this field: perception is directed to a place defined by 'target coordinates'; the perception is reported in phases (colors, textures, dimensions, meaning)." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 12'de, algını bedeninin sınırlarının ötesine genişlet.", "en": "In Focus 12, expand your perception beyond the limits of your body." },
+          { "tr": "Bir hedef tut: koordinatları, bir mekan, bir olay.", "en": "Hold a target: coordinates, a place, an event." },
+          { "tr": "Algını o hedefe yönlendir; ilk izlenimleri kaydet: renk, doku, his.", "en": "Direct your perception to that target; record the first impressions: color, texture, feeling." },
+          { "tr": "Detaylandıkça faz faz ilerle; ve her şeyi günlüğe yaz.", "en": "Progress phase by phase as it becomes detailed; and write everything in the journal." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Uzaktan Görme egzersizinde; Vektörler (Freedom #3) ile hedef yönlendirmede.", "en": "In the Remote Viewing exercise; in target direction with Vectors (Freedom #3)." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "İlk izlenimler en değerlidir; yargılama, algıyı bozar.", "en": "First impressions are the most valuable; judging distorts perception." },
+        { "tr": "Algı, 'görmek'ten çok 'hissetmek'tir; kelimeler sonradan gelir.", "en": "Perception is more 'feeling' than 'seeing'; words come later." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Remote Viewing' (Freedom #2) from the Gateway Experience Guidance Manual, plus the CRV methodology described in the CIA's 1983 Gateway Process report (McDonnell)."
+    },
+    {
+      "id": "colors",
+      "no": 20,
+      "category": "theory",
+      "title": { "tr": "Yedi Rezonans Rengi (Miranon)", "en": "The Seven Resonant Colors (Miranon)" },
+      "short": { "tr": "Miranon'un aktardığı, her biri bir bilinç katmanını temsil eden yedi renk.", "en": "Seven colors, channeled by Miranon, each representing a layer of consciousness." },
+      "state": "explore",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Miranon, Monroe Enstitüsü'nün 'Explorer' oturumlarında beliren ve Focus seviyeleri hakkında bilgi aktaran bir varlıktır (bkz. 'Focus Levels — Seven Resonant Colors Described by Miranon', 2023). Miranon'a göre bilinç, yedi rengin tekrar eden bir döngüsüdür: mavi (varoluş/farkındalık), kırmızı (kendinin farkındalığı/yansıma), sarı (onarım/uzlaşma), gül (rehberlik ve iyileşme), yeşil (mevcut halde yeteneklerin uygulanması), mor (yüksek hallerde yeteneklerin uygulanması), beyaz (tamamlanmışlık).", "en": "Miranon is a being that appeared in the Monroe Institute's 'Explorer' sessions and conveyed knowledge about the Focus levels (see 'Focus Levels — Seven Resonant Colors Described by Miranon', 2023). According to Miranon, consciousness is a repeating cycle of seven colors: blue (existence/awareness), red (awareness of self/reflection), yellow (repair/reconciliation), rose (guidance and healing), green (application of abilities in the current state), purple (application of abilities in higher states), white (completeness)." },
+          { "tr": "Renkler, seviyeler gruplar halinde yinelenir: her 7 seviyede bir döngü tamamlanır. Bu döngüye göre: Focus 10 sarı, Focus 12 yeşil, Focus 15 mavi, Focus 18 gül, Focus 21 beyaz, Focus 23 kırmızı, Focus 25 gül, Focus 27 mor renkle eşleşir.", "en": "The colors repeat in groups as the levels rise: every 7 levels one cycle completes. By this cycle: Focus 10 is yellow, Focus 12 green, Focus 15 blue, Focus 18 rose, Focus 21 white, Focus 23 red, Focus 25 rose, Focus 27 purple." }
+        ] },
+        { "h": { "tr": "Nasıl kullanılır?", "en": "How to use it" }, "steps": [
+          { "tr": "Renk Nefesi egzersizinde yedi rengi sırayla kullan.", "en": "In the Color Breathing exercise, use the seven colors in turn." },
+          { "tr": "Bir olayı yaşarken, hangi renkte olduğunu hissetmeye çalış: yeni bir farkındalık (mavi), kendini yargılama (kırmızı), uzlaşma (sarı).", "en": "While living an event, try to feel which color it is in: new awareness (blue), self-judgment (red), reconciliation (yellow)." },
+          { "tr": "Gül rengi, şifa ve rehberlikle; beyaz, bütünlükle ilişkilidir.", "en": "Rose relates to healing and guidance; white to wholeness." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Kavrayışı derinleştirmek için; renk nefesi, örüntü ve iyileşme çalışmalarında.", "en": "To deepen understanding; in color breathing, patterning and healing work." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Renkler 'durum' değil, 'geçiş'tir; her deneyim birden fazla renk taşır.", "en": "Colors are not 'states' but 'transitions'; every experience carries more than one color." },
+        { "tr": "Mavi ve kırmızı yatayda, gül dikeyde, beyaz dairede; bu geometri, seviyeler arasındaki ilişkiyi anlatır. levels arasındaki ilişkiyi anlatır.", "en": "Blue and red are horizontal, rose vertical, white a circle; this geometry tells the relationship between the levels." }
+      ],
+      "warnings": [],
+      "notes": "Source: 'Focus Levels — Seven Resonant Colors Described by Miranon' (Daniel Erickson, 2023, Monroe Institute digital archives, CC BY-NC-ND) and community guides. Paraphrased; color-to-level mapping per the 7-cycle pattern."
+    },
+    {
+      "id": "focusmap",
+      "no": 21,
+      "category": "theory",
+      "title": { "tr": "Focus Seviyeleri Haritası", "en": "The Focus Level Map" },
+      "short": { "tr": "Monroe'nun bilinç seviyeleri: 10'dan 27'ye, ötesine uzanan merdiven.", "en": "Monroe's levels of consciousness: a ladder from 10 to 27 and beyond." },
+      "state": "explore",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Focus seviyeleri, Monroe'nun harita koyduğu bilinç durumlarıdır. Temel merdiven: Focus 3 (tüm beyin durumu), 10 (zihin uyanık, beden uykuda), 11 (erişim kanalı), 12 (genişlemiş farkındalık), 15 (zamansızlık), 18 (kalp seviyesi), 21 (diğer enerji sistemlerine köprü), 22 (burada-ve-orada), 23 (geçiş bölgesi), 25 (inanç sistemleri toprakları), 27 (yaşamlar arası karşılama merkezi). Daha ötesi (34/35, 42, 49) enstitünün ileri yatılı programlarına aittir.", "en": "The Focus levels are the states of consciousness Monroe mapped. The basic ladder: Focus 3 (whole-brain state), 10 (mind awake, body asleep), 11 (the Access Channel), 12 (expanded awareness), 15 (no-time), 18 (the heart level), 21 (the bridge to other energy systems), 22 (here-and-there), 23 (the transition area), 25 (belief system territories), 27 (the reception center between lives). Beyond (34/35, 42, 49) belongs to the Institute's advanced residential programs." },
+          { "tr": "Bu uygulamadaki binaural ritim değerleri, kamuya açık açıklamalara dayanan yaklaşımlardır; Hemi-Sync'in özgün frekans karışımları tescillidir.", "en": "The binaural beat values in this app are approximations based on public descriptions; Hemi-Sync's original frequency blends are proprietary." }
+        ] },
+        { "h": { "tr": "Nasıl kullanılır?", "en": "How to use it" }, "steps": [
+          { "tr": "Her oturumun başında, o oturumun seviyesini gör (detay ekranındaki Focus rozetleri).", "en": "At the start of every session, see its level (the Focus badges on the detail screen)." },
+          { "tr": "Giriş fazlarında, bir seviyeden diğerine geçişi hisset.", "en": "In the entry phases, feel the transition from one level to the next." },
+          { "tr": "Focus seviyeleri ansiklopedisi için Ayarlar'daki 'Focus seviyeleri' düğmesini kullan.", "en": "Use the 'Focus levels' button in Settings for the focus-level encyclopedia." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Yolculuğu anlamak, seviyeler arası geçişleri tanımak ve nereye vardığını görmek için.", "en": "To understand the journey, to know the transitions between levels and to see where you have arrived." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Seviyeler 'merdiven'dir, 'sınav' değil; her biri kendi hızında açılır.", "en": "Levels are a 'ladder', not an 'exam'; each opens at its own pace." },
+        { "tr": "Focus 21, 'köprü'dür: fiziksel ve fiziksel olmayan sistemler arasında.", "en": "Focus 21 is 'the bridge': between physical and nonphysical systems." }
+      ],
+      "warnings": [],
+      "notes": "Synthesis: Monroe's public descriptions of the Focus levels (manuals, monroeinstitute.org, gateway-experience.fandom.com, the CIA report) plus Miranon's resonant-color mapping."
+    }
+  ]
+}

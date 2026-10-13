@@ -1,0 +1,208 @@
+{
+  "id": "ch14-super-nap",
+  "chapter": 14,
+  "section": "14.2",
+  "category": "night",
+  "title": {"tr": "Süper Şekerleme", "en": "Super-Nap"},
+  "summary": {"tr": "Az vaktin olduğunda gündüz hızla toparlanmak için gece pratiğinin kısa hali: hızlı bir beden turu, seçtiğin bir bölgede nefesi geriye saymak, ardından günün görüntüleri ve kendiliğinden görüntüler. Görüntüler net ve serbestçe akmaya başladığında yoğun bir gevşemeye ulaşmışsın demektir ve enerjin hızla toplanır.", "en": "The short form of night practice for a quick recovery during the day when time is short: a quick round of the body, a breath countdown in an area of your choice, then the images of the day and spontaneous images. Once images flow clearly and freely, you have reached intense relaxation and your energy comes back fast."},
+  "setting": {"tr": "Gündüz, sırtüstü uzanarak; yerde ya da yatakta. Pencereleri örterek odayı yarı karanlık yap. Ayakkabı, kemer ve saat çıkarılmış, kollar iki yanda, bacaklar çaprazlanmamış, üstünde bir battaniye. Sessiz, temiz bir yer; başkalarından yaklaşık 1,5 metre uzakta.", "en": "During the day, lying on your back on the floor or a bed. Cover the windows for semi-darkness. Shoes, belt and watch off, arms by your sides, legs uncrossed, a blanket over you. A quiet, clean place, about 1.5 metres from anyone else."},
+  "prereq": ["ch14-night-practice"],
+  "tips": [
+    {"tr": "Kendiliğinden görüntüler aşaması süper şekerleme için özellikle yararlıdır: görüntüler önünde net ve serbestçe aktığında yoğun bir gevşemeye ve hızlı bir toparlanmaya ulaşmışsın demektir (14.2).", "en": "The spontaneous images phase is especially useful for a super-nap: when images flow clearly and freely in front of you, you have reached intense relaxation and a fast recovery of energy (14.2)."},
+    {"tr": "Yorgunluk çoğu zaman bedenin belli bir noktasında toplanır, örneğin sırtında ya da çok konuştuysan boğazında. O noktayı bulup nefes geri sayımını orada yaparsan yorgunluktan çok hızlı toparlanırsın (14.2).", "en": "Fatigue is often focused in one spot of the body, perhaps somewhere in the back, or in the throat if you have been talking a lot. If you find that spot and do the breath countdown there, you recover very quickly (14.2)."},
+    {"tr": "Gündüz yorgunluk atmak için yapılan geri sayımda arada bir uyuyakalıp geri dönmek, tazelenmenin en iyi yollarından biridir; ses seni çağırdığında saymaya geri dön (15.5).", "en": "When you practise in the daytime to recover from fatigue, the on-and-off dozing that comes with the countdown is one of the best ways to refresh yourself; when the voice calls you back, return to your count (15.5)."},
+    {"tr": "Görüntüler serbestçe akmaya başladığında psişik uykudasın: rüyanın keskin görüntüleriyle uyanıklığın farkındalığı bir arada (15.9).", "en": "When images flow freely you are in psychic sleep: the sharpness of dream images together with the awareness of waking (15.9)."},
+    {"tr": "Gece pratiği sırasında açılan eterik beden ortamdan kolay etkilenir; kısa seansta da sessiz, temiz bir yer seç ve kimseye dokunma (13.5).", "en": "The etheric body opens during night practice and easily picks up what is around it; even for a short session choose a quiet, clean place and don't touch anyone (13.5)."},
+    {"tr": "Gündüz yapılan gece pratiği uykuyu kısaltmak için değil, gece uykusuna ek olarak yapılır (13.9).", "en": "Daytime night practice is done in addition to your night's sleep, not to cut it short (13.9)."}
+  ],
+  "warnings": [
+    {"tr": "Kaşların arasındaki titreşimi uyarma ve gırtlak sürtünmesi yapma; huzursuzlaşabilir ve gevşeyemeyebilirsin (13.6, 15.10).", "en": "Do not stimulate the vibration between the eyebrows and do not use throat friction; it can make you restless and keep you from letting go (13.6, 15.10)."},
+    {"tr": "Kalabalık ya da gürültülü bir yerde, yer çizgisi üzerinde ya da elektrikli cihazların yanında yapma (13.5).", "en": "Do not do it in a crowd or a busy place, on an earth line, or close to electrical equipment (13.5)."}
+  ],
+  "visual": "night-body",
+  "night": true,
+  "partner": false,
+  "params": [
+    {"key": "count", "label": {"tr": "Nefes geri sayımı", "en": "Breath countdown"}, "unit": "min", "min": 1, "max": 15, "step": 1, "def": 5},
+    {"key": "images", "label": {"tr": "Kendiliğinden görüntüler", "en": "Spontaneous images"}, "unit": "min", "min": 1, "max": 15, "step": 1, "def": 5}
+  ],
+  "presets": [
+    {
+      "id": "std",
+      "label": {"tr": "Standart", "en": "Standard"},
+      "values": {"count": 5, "images": 5}
+    },
+    {
+      "id": "quick",
+      "label": {"tr": "Hızlı", "en": "Quick"},
+      "values": {"count": 3, "images": 3}
+    },
+    {
+      "id": "long",
+      "label": {"tr": "Uzun", "en": "Long"},
+      "values": {"count": 8, "images": 8}
+    }
+  ],
+  "phases": [
+    {
+      "id": "prep",
+      "name": {"tr": "Hazırlık", "en": "Preparation"},
+      "bell": "soft",
+      "visual": {"id": "night-body", "state": "rest"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Ayakkabılarını, kemerini ve kol saatini çıkar.", "en": "Remove your shoes, belt and watch."}, "pause": 6},
+        {"id": "l2", "text": {"tr": "Sırtüstü uzan, kolların iki yanında, bedenin dümdüz. Bacaklarını çaprazlama.", "en": "Lie on your back, arms by your sides, body straight. Keep your legs uncrossed."}, "pause": 6},
+        {"id": "l3", "text": {"tr": "Üstünü bir battaniyeyle ört. Derin gevşemede beden serinler.", "en": "Cover yourself with a blanket. The body cools down in deep relaxation."}, "pause": 6},
+        {"id": "l4", "text": {"tr": "Gözlerini kapat.", "en": "Close your eyes."}, "pause": 5}
+      ],
+      "hold": null
+    },
+    {
+      "id": "body",
+      "name": {"tr": "Hızlı beden turu", "en": "Quick body round"},
+      "bell": null,
+      "visual": {"id": "night-body", "state": "parts"},
+      "lines": [
+        {"id": "i1", "text": {"tr": "Bedeninde hızlı bir tur atıyoruz. Bir bölümün adını her duyduğunda, farkındalığını oraya götür.", "en": "We go quickly around the body. Each time a part is named, take your awareness there."}, "pause": 3},
+        {"id": "p1", "text": {"tr": "Başının en tepesinin, tepe noktasının farkına var.", "en": "Become aware of the crown, the very top of your head."}, "pause": 2},
+        {"id": "p2", "text": {"tr": "Sonra başının tepesinin sol yanı. Sağ yanı.", "en": "Then the left side of the top of your head. The right side."}, "pause": 2},
+        {"id": "p3", "text": {"tr": "Alnının sol yanı. Alnının sağ yanı.", "en": "Left side of the forehead. Right side of the forehead."}, "pause": 1.5},
+        {"id": "p4", "text": {"tr": "Sol göz. Sağ göz.", "en": "Left eye. Right eye."}, "pause": 1.5},
+        {"id": "p5", "text": {"tr": "Sol kulak. Sağ kulak.", "en": "Left ear. Right ear."}, "pause": 1.5},
+        {"id": "p6", "text": {"tr": "Sol yanak. Sağ yanak.", "en": "Left cheek. Right cheek."}, "pause": 1.5},
+        {"id": "p7", "text": {"tr": "Sol burun deliği. Sağ burun deliği.", "en": "Left nostril. Right nostril."}, "pause": 1.5},
+        {"id": "p8", "text": {"tr": "Dudakların sol yanı. Dudakların sağ yanı.", "en": "Left side of the lips. Right side of the lips."}, "pause": 1.5},
+        {"id": "p9", "text": {"tr": "Dişlerin sol yanı. Dişlerin sağ yanı.", "en": "Left side of the teeth. Right side of the teeth."}, "pause": 1.5},
+        {"id": "p10", "text": {"tr": "Dilin sol yanı. Dilin sağ yanı.", "en": "Left side of the tongue. Right side of the tongue."}, "pause": 1.5},
+        {"id": "p11", "text": {"tr": "Alt çenenin ve çene ucunun sol yanı. Sağ yanı.", "en": "Left lower jaw and chin. Right lower jaw and chin."}, "pause": 1.5},
+        {"id": "p12", "text": {"tr": "Bütün yüzün sol yarısı. Bütün yüzün sağ yarısı.", "en": "The whole left half of the face. The whole right half of the face."}, "pause": 3},
+        {"id": "p13", "text": {"tr": "Boğazın sol yanı. Boğazın sağ yanı.", "en": "Left side of the throat. Right side of the throat."}, "pause": 1.5},
+        {"id": "p14", "text": {"tr": "Boynun sol yanı. Boynun sağ yanı.", "en": "Left side of the neck. Right side of the neck."}, "pause": 3},
+        {"id": "p15", "text": {"tr": "Sol omuz. Sağ omuz.", "en": "Left shoulder. Right shoulder."}, "pause": 1.5},
+        {"id": "p16", "text": {"tr": "Sol üst kol. Sağ üst kol.", "en": "Left upper arm. Right upper arm."}, "pause": 1.5},
+        {"id": "p17", "text": {"tr": "Sol dirsek. Sağ dirsek.", "en": "Left elbow. Right elbow."}, "pause": 1.5},
+        {"id": "p18", "text": {"tr": "Sol ön kol. Sağ ön kol.", "en": "Left forearm. Right forearm."}, "pause": 1.5},
+        {"id": "p19", "text": {"tr": "Sol bilek. Sağ bilek.", "en": "Left wrist. Right wrist."}, "pause": 1.5},
+        {"id": "p20", "text": {"tr": "Sol el. Sağ el.", "en": "Left hand. Right hand."}, "pause": 1.5},
+        {"id": "p21", "text": {"tr": "Sol başparmak. Sağ başparmak.", "en": "Left thumb. Right thumb."}, "pause": 1.5},
+        {"id": "p22", "text": {"tr": "Sol elin parmakları. Sağ elin parmakları.", "en": "The fingers of the left hand. The fingers of the right hand."}, "pause": 1.5},
+        {"id": "p23", "text": {"tr": "Sol kolun bütünü.", "en": "The left arm as a whole."}, "pause": 3},
+        {"id": "p24", "text": {"tr": "Sağ kolun bütünü.", "en": "The right arm as a whole."}, "pause": 3},
+        {"id": "p25", "text": {"tr": "Sol kalça. Sağ kalça.", "en": "Left hip. Right hip."}, "pause": 1.5},
+        {"id": "p26", "text": {"tr": "Sol uyluk. Sağ uyluk.", "en": "Left thigh. Right thigh."}, "pause": 1.5},
+        {"id": "p27", "text": {"tr": "Sol diz. Sağ diz.", "en": "Left knee. Right knee."}, "pause": 1.5},
+        {"id": "p28", "text": {"tr": "Sol alt bacak. Sağ alt bacak.", "en": "Left lower leg. Right lower leg."}, "pause": 1.5},
+        {"id": "p29", "text": {"tr": "Sol ayak bileği. Sağ ayak bileği.", "en": "Left ankle. Right ankle."}, "pause": 1.5},
+        {"id": "p30", "text": {"tr": "Sol ayak. Sağ ayak.", "en": "Left foot. Right foot."}, "pause": 1.5},
+        {"id": "p31", "text": {"tr": "Sol ayak başparmağı. Sağ ayak başparmağı.", "en": "Left big toe. Right big toe."}, "pause": 1.5},
+        {"id": "p32", "text": {"tr": "Sol ayağın parmakları. Sağ ayağın parmakları.", "en": "The toes of the left foot. The toes of the right foot."}, "pause": 1.5},
+        {"id": "p33", "text": {"tr": "Bütün sol bacak.", "en": "The whole left leg."}, "pause": 3},
+        {"id": "p34", "text": {"tr": "Bütün sağ bacak.", "en": "The whole right leg."}, "pause": 3},
+        {"id": "p35", "text": {"tr": "Karnının sol yanı, göbeğin altında.", "en": "The left side of the belly, below the navel."}, "pause": 3},
+        {"id": "p36", "text": {"tr": "Karnının sağ yanı, göbeğin altında.", "en": "The right side of the belly, below the navel."}, "pause": 3},
+        {"id": "p37", "text": {"tr": "Karnının sol yanı, göbeğin üstünde.", "en": "The left side of the belly, above the navel."}, "pause": 3},
+        {"id": "p38", "text": {"tr": "Karnının sağ yanı, göbeğin üstünde.", "en": "The right side of the belly, above the navel."}, "pause": 3},
+        {"id": "p39", "text": {"tr": "Göğsünün sol yanı.", "en": "The left side of the chest."}, "pause": 3},
+        {"id": "p40", "text": {"tr": "Göğsünün sağ yanı.", "en": "The right side of the chest."}, "pause": 3},
+        {"id": "p41", "text": {"tr": "Bütün bedeninin sol yarısı.", "en": "The whole left half of your body."}, "pause": 3},
+        {"id": "p42", "text": {"tr": "Bütün bedeninin sağ yarısı.", "en": "The whole right half of your body."}, "pause": 3},
+        {"id": "w", "text": {"tr": "Bütün bedeninin farkına var.", "en": "Awareness of the whole body."}, "pause": 15}
+      ],
+      "hold": null
+    },
+    {
+      "id": "count",
+      "name": {"tr": "Nefes geri sayımı", "en": "Breath countdown"},
+      "bell": null,
+      "visual": {"id": "night-body", "state": "breath-belly"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Şimdi bedeninde bir bölge seç ve farkındalığını oraya yerleştir.", "en": "Now choose one area of your body and settle your awareness there."}, "pause": 3},
+        {"id": "l2", "text": {"tr": "Yorgunluğun belli bir noktada toplanmışsa, örneğin sırtında ya da çok konuştuysan boğazında, o noktayı seç.", "en": "If your tiredness is gathered in one spot, perhaps in your back, or in your throat after a lot of talking, choose that spot."}, "pause": 8},
+        {"id": "l3", "text": {"tr": "Nefesine karışmadan, bu bölgede nefesin gelip gidişini izle.", "en": "Without changing the breath, watch it coming and going in that area."}, "pause": 6},
+        {"id": "l4", "text": {"tr": "Şimdi otuz üçten bire doğru geriye say. Alışta otuz üç, verişte otuz üç.", "en": "Now count down from thirty-three to one. Thirty-three on the in-breath, thirty-three on the out-breath."}, "pause": 4},
+        {"id": "l5", "text": {"tr": "Alışta otuz iki, verişte otuz iki. Bedeninin kendi ritmiyle devam et.", "en": "Thirty-two in, thirty-two out. Carry on at your body's own pace."}, "pause": 6},
+        {"id": "l6", "text": {"tr": "Bire varırsan yeniden otuz üçten başla.", "en": "If you reach one, start again from thirty-three."}, "pause": 3}
+      ],
+      "hold": {
+        "param": "count",
+        "essential": true,
+        "every": 90,
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Seçtiğin bölgede geri sayımında kal.", "en": "Stay with your countdown in the area you chose."}},
+          {"id": "r2", "text": {"tr": "Geri saymayı sürdür. Alışta bir sayı, verişte aynı sayı.", "en": "Keep counting down. One number on the in-breath, the same number on the out-breath."}},
+          {"id": "r3", "text": {"tr": "Daldıysan sorun değil. Saymaya kaldığın yerden ya da otuz üçten yeniden başla.", "en": "If you drifted off, that is fine. Pick up the count where you were, or start again at thirty-three."}},
+          {"id": "r4", "text": {"tr": "Nefese karışma. Sadece bedeninin nefes alışını izle.", "en": "Leave the breath alone. Just watch the body breathing."}},
+          {"id": "r5", "text": {"tr": "Bire vardıysan, yeniden otuz üçten başla.", "en": "If you have reached one, begin again at thirty-three."}}
+        ]
+      }
+    },
+    {
+      "id": "day",
+      "name": {"tr": "Günü geriye sarmak", "en": "The day backwards"},
+      "bell": null,
+      "visual": {"id": "night-body", "state": "day"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Saymayı bırak. Şimdi bugünün görüntülerini geri çağır. Bu pratikten hemen önce ne yapıyordun, oradan başla.", "en": "Let the counting go. Now let today come back to you in images, beginning with whatever you were doing right before this practice."}, "pause": 6},
+        {"id": "l2", "text": {"tr": "Bunu yapmaya çalışma, olmasına izin ver. Günün görüntüleri kendiliğinden önüne gelsin.", "en": "This is not something you do. You allow it, and the pictures of the day return by themselves."}, "pause": 6},
+        {"id": "l3", "text": {"tr": "Gün içinde geriye doğru ilerle. Yaptıkların, konuştuğun insanlar.", "en": "Move backwards through the day. What you did, the people you talked with."}, "pause": 30},
+        {"id": "l4", "text": {"tr": "Daha geriye, sabaha doğru.", "en": "Further back, towards the morning."}, "pause": 30},
+        {"id": "l5", "text": {"tr": "Ta sabahın ilk görüntülerine kadar, yataktayken, daha kalkmadan önceki anlara dön.", "en": "All the way back to the first images of the morning, lying in bed before you got up."}, "pause": 30}
+      ],
+      "hold": null
+    },
+    {
+      "id": "images",
+      "name": {"tr": "Kendiliğinden görüntüler", "en": "Spontaneous images"},
+      "bell": null,
+      "visual": {"id": "night-body", "state": "images"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Şimdi kendiliğinden gelen görüntülere geçiyoruz.", "en": "Now come the spontaneous images."}, "pause": 3},
+        {"id": "l2", "text": {"tr": "Önünde herhangi bir görüntünün belirmesine izin ver. Hangisi olursa, ilk gelen.", "en": "Allow an image to appear before you, whatever it is. Simply the first one that shows up."}, "pause": 4},
+        {"id": "l3", "text": {"tr": "Birkaç saniye bu görüntüyle kal.", "en": "Remain with it for a few seconds."}, "pause": 20},
+        {"id": "l4", "text": {"tr": "Sonra başka bir görüntünün gelmesine izin ver.", "en": "Then allow a new image to come."}, "pause": 3},
+        {"id": "l5", "text": {"tr": "Unutma, hayal kurmak yok. Hiçbir şey uydurma, sadece ilk geleni al.", "en": "You are not imagining or building anything. You only receive whatever image comes first."}, "pause": 20},
+        {"id": "l6", "text": {"tr": "Sadece boşlukta ol ve görüntülerin sana gelmesine izin ver.", "en": "Rest in the space and let the images find you."}, "pause": 5}
+      ],
+      "hold": {
+        "param": "images",
+        "every": 120,
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "İlk gelen görüntüyü al. Hiçbir şey uydurma.", "en": "Take the first image that comes. Make nothing up."}},
+          {"id": "r2", "text": {"tr": "Sadece boşlukta ol, görüntüler sana gelsin.", "en": "Just be in the space and let the images come to you."}},
+          {"id": "r3", "text": {"tr": "Bir görüntü gitsin, bir başkası gelsin.", "en": "Let one image go, and let the next one come."}},
+          {"id": "r4", "text": {"tr": "Görüntüleri yönlendirme. Kendiliğinden akmalarına izin ver.", "en": "Don't steer the images. Let them flow by themselves."}}
+        ]
+      }
+    },
+    {
+      "id": "see",
+      "name": {"tr": "Görüntü ve görme hali", "en": "Image and seeingness"},
+      "bell": null,
+      "visual": {"id": "night-body", "state": "images"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Önüne bir görüntü daha gelsin. Ama bu sefer hem görüntünün hem de görmenin kendisinin, görme halinin farkında ol.", "en": "Another image comes. Now be aware of two things, the image, and the fact of seeing, the seeingness."}, "pause": 20},
+        {"id": "l2", "text": {"tr": "Görüntüleri bırak ve yalnızca görme halinin farkında kal.", "en": "Now let the images go. Stay with seeingness alone."}, "pause": 4},
+        {"id": "l3", "text": {"tr": "Hiçbir nesneye bağlı olmayan, saf görme niteliği.", "en": "Pure seeing, with no object at all."}, "pause": 20}
+      ],
+      "hold": null
+    },
+    {
+      "id": "return",
+      "name": {"tr": "Yeniden bağlanma", "en": "Reconnecting"},
+      "bell": "soft",
+      "visual": {"id": "night-body", "state": "return"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Şimdi geri dönüyoruz. Dışarıdaki sesleri dinlemeye başla.", "en": "Now we come back. Start to notice the sounds outside."}, "pause": 30},
+        {"id": "l2", "text": {"tr": "Bedeninin yeniden farkına var. Bedeninin içine geri yerleş.", "en": "Feel your body again, and come back into it."}, "pause": 5},
+        {"id": "l3", "text": {"tr": "Birkaç kez uzun, çok uzun nefes al.", "en": "Breathe in slowly and very deeply, a few times."}, "pause": 30},
+        {"id": "l4", "text": {"tr": "Ellerini biraz oynat. Ayaklarını da.", "en": "Move your hands a little. Your feet as well."}, "pause": 6},
+        {"id": "l5", "text": {"tr": "Bedenini esnet.", "en": "Stretch out your whole body."}, "pause": 8},
+        {"id": "l6", "text": {"tr": "Yan dön ve gözlerini aç.", "en": "Roll onto your side and open your eyes."}, "pause": 5}
+      ],
+      "hold": null
+    }
+  ],
+  "notes": "Book: 14.2 gives only the order (quick rotation through the body parts of phase 2, a breath countdown of phase 3 in a part of the body of your choice, then the images of phases 5 and 6) and the focal-spot-of-fatigue advice; no durations. Choices: a short preparation from 14.1 (eyes closed is implied by the reconnection). Phase 1 and the organs are left out because 14.2 starts with the body parts. The quick rotation is one round of the 14.1 list with shorter pauses (1.5 s between pairs, 3 s after whole limbs and trunk areas, 15 s on the whole body), about 3 min. Countdown: the listener chooses the area (the focal spot of tiredness if there is one), default 5 min with essential reminders every 90 s, as in 14.1 and 15.5 (the dozing and being called back is what refreshes). Phase 5 is shortened and made daytime-neutral (no evening or dinner): from just before the practice back to waking, 30 s per step. Phase 6: 6a with the free flow as a hold (default 5 min, gentle non-essential reminders every 120 s), then 6b and 6c compressed into one short phase (20 s pauses) so the session stays short. Ends with the 14.1 reconnection (soft chime, sounds, body, long in-breaths, hands and feet, stretch, roll to the side, eyes open). night: true for the dark screen; no end bell. Estimated length about 21 min with defaults (quick about 17, long about 27)."
+}

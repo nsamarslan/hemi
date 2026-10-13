@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "id": "basics",
+      "title": { "tr": "Temel: Gırtlak", "en": "Basics: the Larynx" },
+      "chapter": "2",
+      "items": ["ch2-throat-friction", "ch2-humming", "ch2-jaw-open-closed"]
+    },
+    {
+      "id": "meditation",
+      "title": { "tr": "Üçüncü Göz Meditasyonu", "en": "Third Eye Meditation" },
+      "chapter": "3",
+      "items": ["ch3-first-opening", "ch3-meditation", "ch3-humming-meditation"]
+    },
+    {
+      "id": "channel",
+      "title": { "tr": "Kanal Açma", "en": "Channel Release" },
+      "chapter": "4, 6",
+      "items": [
+        "ch4-connected-shaking", "ch4-connected-rubbing", "ch4-heart-constrictor", "ch4-heart-meridian",
+        "ch4-lung-meridian", "ch4-running-water", "ch6-gallbladder", "ch6-bladder", "ch6-stomach", "ch6-six-meridians"
+      ]
+    },
+    {
+      "id": "seeing",
+      "title": { "tr": "Görme", "en": "Seeing" },
+      "chapter": "5, 7",
+      "items": ["ch5-reconnection", "ch5-eye-contact", "ch5-palming", "ch5-triple-vision", "ch7-false-sentence"]
+    },
+    {
+      "id": "protection",
+      "title": { "tr": "Koruma", "en": "Protection" },
+      "chapter": "18, 20",
+      "items": [
+        "ch18-open-close", "ch18-will-centre", "ch18-eye-belly", "ch18-stimulate-fire",
+        "ch20-sealing-aura", "ch20-rapid-alternation", "ch20-stambhasana"
+      ]
+    },
+    {
+      "id": "night",
+      "title": { "tr": "Gece Pratiği", "en": "Night Practice" },
+      "chapter": "13, 14",
+      "items": ["ch13-heart-sleep", "ch14-night-practice", "ch14-super-nap"]
+    }
+  ]
+}

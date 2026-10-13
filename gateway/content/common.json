@@ -1,0 +1,19 @@
+{
+  "focusBeats": { "10": 7.5, "11": 6.0, "12": 4.5, "15": 2.8, "21": 1.2, "23": 0.9, "25": 0.7, "27": 0.5 },
+  "focusCarrier": { "10": 180, "11": 175, "12": 170, "15": 160, "21": 150, "23": 145, "25": 140, "27": 135 },
+  "bedDefaultGain": 0.14,
+  "lines": {
+    "oneMinute": { "tr": "Son bir dakika.", "en": "One minute left." },
+    "done": { "tr": "Oturum tamamlandı. Günlüğüne not düşmek ister misin?", "en": "The session is complete. Would you like to note it in your journal?" },
+    "next": { "tr": "Sıradaki oturuma geçiyoruz.", "en": "Moving on to the next session." },
+    "wake": {
+      "tr": "Günaydın. Rüyanı hatırla ve hemen not al.",
+      "en": "Good morning. Remember your dream and write it down right away."
+    },
+    "wakeWbtb": {
+      "tr": "Uyan. Birkaç dakika uyanık kal, rüyanı not al, sonra yatağa dön.",
+      "en": "Wake up. Stay awake for a few minutes, note your dream, then go back to bed."
+    },
+    "routineDone": { "tr": "Program tamamlandı. Günlüğüne not düşmek ister misin?", "en": "Your programme is complete. Would you like to note it in your journal?" }
+  }
+}

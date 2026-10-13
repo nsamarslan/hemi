@@ -1,0 +1,88 @@
+{
+  "series": [
+    {
+      "id": "early",
+      "no": 1,
+      "title": {
+        "tr": "Erken Dönem · Beden Dışı Yolculuklar (1970'ler)",
+        "en": "Early Works · Journeys Out of the Body (1970s)"
+      },
+      "intro": {
+        "tr": "Monroe'nun 1971'deki kitabının ardından hazırlanan ilk ev tipi Hemi-Sync serisi. Sınır uyku durumuna, oradan beden dışı deneyime adım adım yol alır. Focus seviyesi adlandırması henüz yoktu; bu seri Focus 10 temeline karşılık gelir.",
+        "en": "The first home series prepared after Monroe's 1971 book. It leads step by step into the borderland sleep state and from there to the out-of-body experience. The Focus level naming did not exist yet; this series corresponds to the Focus 10 foundation."
+      }
+    },
+    {
+      "id": "waves-of-change",
+      "no": 2,
+      "title": {
+        "tr": "Waves of Change · Değişim Dalgaları (1998–2022)",
+        "en": "Waves of Change (1998–2022)"
+      },
+      "intro": {
+        "tr": "Gateway Experience'in sekiz dalgası; resmi olarak 50 egzersiz. Dalga I–IV, özgün 1980'ler kaset serisiyle aynı egzersizleri taşır; Dalga V–VIII sesli olarak yeniden kaydedildi ya da yenidir. Her dalga bir öncekine köprü kurar.",
+        "en": "The eight waves of the Gateway Experience; officially 50 exercises. Waves I–IV carry the same exercises as the original 1980s cassette series; Waves V–VIII were re-recorded with voice or are new. Each wave bridges to the next."
+      }
+    },
+    {
+      "id": "gateway-freeflow",
+      "no": 3,
+      "title": {
+        "tr": "Gateway · Özgün Seri, Serbest Akış (1984–1996)",
+        "en": "Gateway · Original Series, Free Flow (1984–1996)"
+      },
+      "intro": {
+        "tr": "Gateway Experience'in özgün hali: sesli anlatım içermeyen, tamamen enstrümantal iki serbest akış dalgası. 1998'den sonra yerlerini sesli Dalga V ve VI aldı; bu uygulama her iki hali de sunar. Bu iki dalga, Waves of Change I–IV üzerine kurulur.",
+        "en": "The original Gateway: two fully instrumental free-flow waves without voice narration. After 1998 they were replaced by the voiced Wave V and VI; this app offers both versions. These two waves build on Waves I–IV."
+      }
+    },
+    {
+      "id": "human-plus",
+      "no": 4,
+      "title": {
+        "tr": "Human Plus (H-Plus®) · Fonksiyon Egzersizleri (1987–1989)",
+        "en": "Human Plus (H-Plus®) · Function Exercises (1987–1989)"
+      },
+      "intro": {
+        "tr": "Monroe'nun öz-gelişim sistemi: her biri kısa bir sözlü komut kazandıran fonksiyon egzersizleri. Erişim Kanalı (Focus 11) açıkken komut kodlanır; günlük hayatta istediğin an içinden çağırırsın. Sonuçlar genellikle ilk denemede değil, birkaç oturumda yerleşir; fonksiyonları bileşik etki için birlikte de kullanabilirsin.",
+        "en": "Monroe's self-enhancement system: function exercises, each encoding a short verbal command. The command is encoded while the Access Channel (Focus 11) is open; you call on it in daily life whenever you wish. Results usually settle in over a few sessions, not on the first try; functions can also be combined for compound effect."
+      }
+    },
+    {
+      "id": "gateway-voyage",
+      "no": 5,
+      "title": {
+        "tr": "Gateway Voyage · Açık Oturumlar",
+        "en": "Gateway Voyage · Open Sessions"
+      },
+      "intro": {
+        "tr": "Enstitünün amiral gemisi programının ev ve çevrimiçi hali: Focus 10'dan 21'e, Waves of Change I–VI oturumlarının üzerine kurulur. Burada programın klasik iki açık oturumu yer alır.",
+        "en": "The home and online form of the Institute's flagship programme: Focus 10 to 21, built on the sessions of Waves of Change I–VI. Here are the programme's two classic open sessions."
+      }
+    },
+    {
+      "id": "hemi-series",
+      "no": 6,
+      "title": {
+        "tr": "Hemi-Sync Serileri · Albüm Koleksiyonları",
+        "en": "Hemi-Sync Album Series"
+      },
+      "intro": {
+        "tr": "Gateway dışı Hemi-Sync albüm serileri: Lucid Dreaming (bilinçli rüya), Chakra Attunement (chakra uyumu) ve 5th Dimensional Transformation (transpersonal yolculuklar). Her biri bağımsız, kendi içinde sıralı çalışır.",
+        "en": "Hemi-Sync album series beyond the Gateway: Lucid Dreaming, Chakra Attunement and 5th Dimensional Transformation (transpersonal journeys). Each is independent and works in sequence within itself."
+      }
+    },
+    {
+      "id": "extras",
+      "no": 7,
+      "title": {
+        "tr": "Ek Pratikler · Tamamlayıcı Teknikler",
+        "en": "Complementary Practices"
+      },
+      "intro": {
+        "tr": "Gateway yolculuğunu destekleyen ek pratikler: el kitabındaki Enerji Yürüyüşü, Topraklanma ve Tek Nefes gibi Monroe teknikleri + beden taraması, kutu nefesi, şefkat meditasyonu, rüya günlüğü gibi bağımsız tamamlayıcı pratikler (Monroe ile ilgisi olmayan, bu projenin önerileri).",
+        "en": "Practices that support the Gateway journey: Monroe manual techniques (Energy Walks, Grounding, One-Breath) plus independent complementary practices (body scan, box breathing, loving-kindness, dream journaling) — the latter are this project's suggestions, not Monroe material."
+      }
+    }
+  ]
+}

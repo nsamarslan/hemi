@@ -1,0 +1,176 @@
+{
+  "id": "ch3-humming-meditation",
+  "chapter": 3,
+  "section": "3.8",
+  "category": "seated",
+  "title": {"tr": "Mırıltıyla Meditasyon", "en": "Humming Meditation"},
+  "summary": {
+    "tr": "Üçüncü Göz Meditasyonu'nun ilk üç aşaması, gırtlak sürtünmesi yerine mırıltıyla yapılır: gırtlakta titreşim, kaşların arasında titreşim, kaşların arasında ışık. Ardından kendini boşluğa ve istersen girdaba bırakırsın; arada bir mırıldanmak boşluğun daha derinine inmeni sağlar.",
+    "en": "The first three phases of the Third Eye Meditation, done with humming instead of the throat friction: vibration in the larynx, vibration between the eyebrows, light between the eyebrows. Then you let yourself sink into the space, and the vortex if you wish, humming now and then to go deeper into the space."
+  },
+  "setting": {
+    "tr": "Üçüncü Göz Meditasyonu'ndaki gibi: yerde bağdaş kurarak ya da bir sandalyede, sırt dik. Gözler baştan sona kapalı.",
+    "en": "As for the Third Eye Meditation: on the floor with legs crossed, or on a chair, back straight. Eyes closed from start to finish."
+  },
+  "prereq": ["ch2-humming", "ch3-meditation"],
+  "tips": [
+    {"tr": "Mırıltı, boşluğa geçmenin güçlü bir aracı. Meditasyonda düşünceler ya da zihinsel hareketlilik seni rahatsız ettiğinde ona başvurmaktan çekinme; bu, Üçüncü Göz Meditasyonu için de geçerli.", "en": "Humming is a strong means of entering the space. Any time thoughts or mental chatter disturb your meditation, feel free to turn to it, in the Third Eye Meditation too."},
+    {
+      "tr": "Mırıltıyı 2.4'teki gibi yap: boğazı titreştiren kesintisiz bir ses, kısa nefes alıp uzun vererek; ses nefes alırken de sürer. Arı vızıltısına benzetebilirsin, ama gırtlakta belirgin bir titreşim hissettiğin sürece her mırıltı olur.",
+      "en": "Hum as in 2.4: a continuous sound that makes the throat vibrate, with short in-breaths and long out-breaths and the sound carrying on as you breathe in. You can make it like a bee's buzzing, but any humming will do as long as you feel a clear vibration in the larynx."
+    },
+    {"tr": "Bağlamak burada da aynı anlama gelir: mırıltının ve kaşların arasındaki titreşimin (ya da ışığın) aynı anda farkında olmak. Mırıltı, sürtünmenin yerini alarak yükseltici görevini üstlenir.", "en": "Connecting means the same here: being aware of the humming and of the vibration (or the light) between the eyebrows at the same time. The humming takes over the friction's role as the amplifier."},
+    {"tr": "Mırıltı oldukça sarhoş edici olabilir ve uzun sürdürüldüğünde hafif, coşkulu bir bilinç değişikliği yaratır (2.4).", "en": "Humming can be quite intoxicating and, kept up long enough, brings a mild, elated shift in consciousness (2.4)."},
+    {"tr": "İlk günlerinde bu meditasyonu da İlk Açılış ve Üçüncü Göz Meditasyonu ile birlikte, yapabildiğin kadar sık uygula (3.9).", "en": "During your first days, practise this meditation as often as you can, alongside the First Opening and the Third Eye Meditation (3.9)."}
+  ],
+  "warnings": [],
+  "visual": "meditation-phases",
+  "night": false,
+  "partner": false,
+  "params": [
+    {"key": "ph1", "label": {"tr": "Gırtlakta mırıltı", "en": "Humming in the larynx"}, "unit": "min", "min": 1, "max": 15, "step": 1, "def": 3},
+    {"key": "ph2", "label": {"tr": "Kaşların arasında titreşim", "en": "Vibration in the eye"}, "unit": "min", "min": 1, "max": 15, "step": 1, "def": 3},
+    {"key": "ph3", "label": {"tr": "Kaşların arasında ışık", "en": "Light in the eye"}, "unit": "min", "min": 1, "max": 15, "step": 1, "def": 3},
+    {"key": "ph4", "label": {"tr": "Boşluk", "en": "Space"}, "unit": "min", "min": 1, "max": 30, "step": 1, "def": 5},
+    {"key": "ph5", "label": {"tr": "Girdap", "en": "Vortex"}, "unit": "min", "min": 1, "max": 30, "step": 1, "def": 5},
+    {"key": "vortex", "label": {"tr": "Girdap aşaması", "en": "Vortex phase"}, "unit": "bool", "def": true}
+  ],
+  "presets": [],
+  "phases": [
+    {
+      "id": "prep",
+      "name": {"tr": "Hazırlık", "en": "Preparation"},
+      "bell": null,
+      "lines": [
+        {"id": "l1", "text": {"tr": "Sırtın dik olacak şekilde otur.", "en": "Sit with your back straight."}, "pause": 5},
+        {"id": "l2", "text": {"tr": "Gözlerini kapat. Meditasyon boyunca kapalı kalacaklar.", "en": "Close your eyes. They stay closed for the whole meditation."}, "pause": 3},
+        {"id": "l3", "text": {"tr": "Farkındalığını boğazına getir.", "en": "Become aware in your throat."}, "pause": 4}
+      ],
+      "hold": null
+    },
+    {
+      "id": "p1",
+      "name": {"tr": "Gırtlakta Mırıltı", "en": "Humming in the Larynx"},
+      "bell": "start",
+      "visual": {"id": "meditation-phases", "state": "larynx"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Mırıltıya başla. Boğazını titreştiren kesintisiz bir vızıltı sesi.", "en": "Begin the humming, a continuous buzzing sound that makes your throat vibrate."}, "pause": 2},
+        {"id": "l2", "text": {"tr": "Kısa nefes al, uzun ver. Ses nefes alırken de sürsün.", "en": "Take short breaths in and long breaths out, and keep the sound going as you breathe in too."}, "pause": 3},
+        {"id": "l3", "text": {"tr": "Mırıltının gırtlağında yarattığı titreşimin farkına var ve sesle bu titreşimi güçlendir.", "en": "Become aware of the vibration the humming creates in your larynx, and let the sound intensify it."}, "pause": 3},
+        {"id": "l4", "text": {"tr": "Boynunu sırtınla aynı hizada, tam dik tut.", "en": "Keep your neck fully upright, in line with your back."}, "pause": 2}
+      ],
+      "hold": {
+        "param": "ph1",
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Gırtlağındaki titreşimin farkında kal.", "en": "Stay aware of the vibration in your larynx."}},
+          {"id": "r2", "text": {"tr": "Kısa nefes al, uzun ver.", "en": "Short breaths in, long breaths out."}},
+          {"id": "r3", "text": {"tr": "Baş, boyun ve sırt tek bir çizgide.", "en": "Head, neck and back in one straight line."}},
+          {"id": "r4", "text": {"tr": "Kıpırdamadan otur.", "en": "Sit still."}}
+        ]
+      }
+    },
+    {
+      "id": "p2",
+      "name": {"tr": "Kaşların Arasında Titreşim", "en": "Vibration in the Eye"},
+      "bell": "soft",
+      "visual": {"id": "meditation-phases", "state": "eyebrows"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Mırıltıyı sürdür ama boğazının farkındalığını bırak.", "en": "Keep humming, but let go of the awareness of your throat."}, "pause": 3},
+        {"id": "l2", "text": {"tr": "Kaşlarının arasındaki titreşimin farkına var.", "en": "Become aware of the vibration between your eyebrows."}, "pause": 4},
+        {"id": "l3", "text": {"tr": "Mırıltıyı bu titreşimle bağla. İkisini birlikte farkındalığında tut.", "en": "Connect the humming with this vibration, holding both in your awareness together."}, "pause": 3},
+        {"id": "l4", "text": {"tr": "Mırıltı kaşlarının arasındaki titreşimi beslesin ki büyüsün.", "en": "Let the humming feed the vibration in the eye so it grows."}, "pause": 2}
+      ],
+      "hold": {
+        "param": "ph2",
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Mırıltı ve kaşlarının arasındaki titreşim, ikisi birden.", "en": "The humming and the vibration between your eyebrows, both together."}},
+          {"id": "r2", "text": {"tr": "İnce karıncalanmayı ağır yoğunluğa tercih et. Deneyimi hafif tut.", "en": "Prefer the fine tingling to heavy density. Keep the experience light."}},
+          {"id": "r3", "text": {"tr": "Gözlerini o noktaya çevirme. Sadece farkında ol.", "en": "Don't turn your eyes toward the spot. Just be aware."}},
+          {"id": "r4", "text": {"tr": "Bir düşünceye kapılırsan kaşlarının arasına geri dön.", "en": "If a thought takes you, go back into the eye."}}
+        ]
+      }
+    },
+    {
+      "id": "p3",
+      "name": {"tr": "Kaşların Arasında Işık", "en": "Light in the Eye"},
+      "bell": "soft",
+      "visual": {"id": "meditation-phases", "state": "light"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Mırıltıyı sürdür. Titreşimi bırak ve kaşlarının arasında bir pus, bir parıltı, herhangi bir ışık ya da renk ara.", "en": "Keep humming. Let go of the vibration and look between your eyebrows for a haze, a glow, any light or colour."}, "pause": 4},
+        {"id": "l2", "text": {"tr": "Hiçbir şey hayal etme, sadece orada olanı fark et.", "en": "Don't imagine anything, only notice what is there."}, "pause": 3},
+        {"id": "l3", "text": {"tr": "En silik bir ışık bile fark ettiğin anda onu mırıltıyla bağla.", "en": "As soon as you notice any light, however faint, connect it with the humming."}, "pause": 2}
+      ],
+      "hold": {
+        "param": "ph3",
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Işığın en parlak kısmıyla kal, puslu kısımları bırak.", "en": "Stay with the brightest part of the light and let the hazy parts go."}},
+          {"id": "r2", "text": {"tr": "Mırıltı ışığı beslesin.", "en": "Let the humming feed the light."}},
+          {"id": "r3", "text": {"tr": "Silik bir pus bile ışıktır.", "en": "Even a faint haze is light."}},
+          {"id": "r4", "text": {"tr": "Hayal yok, canlandırma yok.", "en": "No imagination, no visualisation."}}
+        ]
+      }
+    },
+    {
+      "id": "p4",
+      "name": {"tr": "Boşluk", "en": "Space"},
+      "bell": "soft",
+      "visual": {"id": "meditation-phases", "state": "space"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Şimdi mırıltıyı dinlendir. Farkındalığını ışığın ardındakine, önünde açılan boşluğa çevir.", "en": "Now let the humming rest. Turn your awareness to what lies behind the light, the space opening out in front of you."}, "pause": 4},
+        {"id": "l2", "text": {"tr": "Kendini boşluğa bırak, onun içine dal.", "en": "Let yourself sink into the space."}, "pause": 4},
+        {"id": "l3", "text": {"tr": "Arada bir yeniden mırıldan ve sesle boşluğun daha derinine in.", "en": "From time to time, hum again and let the sound take you deeper into the space."}, "pause": 2}
+      ],
+      "hold": {
+        "param": "ph4",
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Birkaç nefes boyunca mırıldan ve boşluğun daha derinine in.", "en": "Hum for a few breaths and go deeper into the space."}},
+          {"id": "r2", "text": {"tr": "Düşünceler rahatsız ederse mırıltıya başvur.", "en": "If thoughts disturb you, turn to the humming."}},
+          {"id": "r3", "text": {"tr": "Önemli olan renk değil, genişlik hissi.", "en": "What counts is the sense of vastness, not the colour."}},
+          {"id": "r4", "text": {"tr": "Kendini boşluğa bırak.", "en": "Let the space absorb you."}}
+        ]
+      }
+    },
+    {
+      "id": "p5",
+      "name": {"tr": "Girdap", "en": "Vortex"},
+      "when": "vortex",
+      "bell": "soft",
+      "visual": {"id": "meditation-phases", "state": "vortex"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Şimdi boşluğa doğru dönmeye başla, bir tünele düşer gibi ileriye ve saat yönünde.", "en": "Now let yourself turn into the space, in a forward, clockwise spiral, like dropping into a tunnel."}, "pause": 4},
+        {"id": "l2", "text": {"tr": "Hareketi uydurma. Girdabın seni yakalayıp taşımasına izin ver.", "en": "Don't invent the movement. Allow the vortex to seize you and sweep you along."}, "pause": 4},
+        {"id": "l3", "text": {"tr": "Arada bir mırıldanarak daha derine in.", "en": "Now and then, hum to go deeper."}, "pause": 2}
+      ],
+      "hold": {
+        "param": "ph5",
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Arada bir mırıldan ve daha derine in.", "en": "Hum now and then, and go deeper."}},
+          {"id": "r2", "text": {"tr": "Boşluğun rengi ya da niteliği değişirse sadece fark et ve devam et.", "en": "If the colour or quality of the space changes, just notice it and continue."}},
+          {"id": "r3", "text": {"tr": "Enerji seni ters yöne döndürürse onu izle.", "en": "If the energy turns you the other way, follow it."}},
+          {"id": "r4", "text": {"tr": "Girdaba saygı ve huşuyla yaklaş.", "en": "Meet the vortex with reverence and awe."}}
+        ]
+      }
+    },
+    {
+      "id": "return",
+      "name": {"tr": "Dönüş", "en": "Coming Back"},
+      "bell": "start",
+      "visual": {"id": "meditation-phases", "state": "return"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Farkındalığını yeniden kaşlarının arasına getir.", "en": "Bring your awareness back to the area between your eyebrows."}, "pause": 6},
+        {"id": "l2", "text": {"tr": "Dışarıdaki sesleri duymaya başla.", "en": "Start hearing the sounds outside."}, "pause": 8},
+        {"id": "l3", "text": {"tr": "Bedenini yeniden hisset.", "en": "Feel your body again."}, "pause": 6},
+        {"id": "l4", "text": {"tr": "Birkaç kez uzun uzun nefes al.", "en": "Take a few long breaths in."}, "pause": 12},
+        {"id": "l5", "text": {"tr": "Acele yok. Kendi hızında, tamamen geri dön.", "en": "There is no hurry. Return fully, at your own pace."}, "pause": 12},
+        {"id": "l6", "text": {"tr": "Hazır hissettiğinde sağ elinin parmaklarını şıklat, sonra gözlerini aç.", "en": "When you feel ready, snap the fingers of your right hand, then open your eyes."}, "pause": 2}
+      ],
+      "hold": null
+    }
+  ],
+  "notes": "3.8 gives no timings. The three humming phases default to 3 min each (2.4 hums for 'a few minutes', and nine minutes of continuous humming is already a lot for beginners); space and vortex default to 5 min each like the 30-min version of 3.7. Total about 22 min with the spoken lines. The bool 'vortex' applies 3.7's allowance to skip the vortex in the first weeks, since 3.8 says 'as in phases 4 and 5'. The book does not mention the non-technique for 3.8, so it is not included. The coming-back phase is not in 3.8; it reuses the 3.7 ending. In the space and vortex phases the humming is intermittent ('from time to time'), so the lines tell the person to let it rest and hum again now and then."
+}

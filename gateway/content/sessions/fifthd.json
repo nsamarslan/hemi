@@ -1,0 +1,202 @@
+{
+  "wave": "fifthd",
+  "sessions": [
+    {
+      "id": "fifthd-morning",
+      "wave": "fifthd",
+      "no": 1,
+      "focus": ["10"],
+      "title": { "tr": "Sabah Egzersizi", "en": "Morning Exercise" },
+      "summary": {
+        "tr": "Robert Monroe'nun sesiyle klasik bir Hemi-Sync egzersizi (19 dk). Günün aktivitelerini planlar, toplam benliğine erişimle gününü başarı için programlar.",
+        "en": "A classic Hemi-Sync exercise voiced by Robert Monroe (19 min). It plans the day's activities and programs your day for achievement through your total self."
+      },
+      "goal": {
+        "tr": "Günü niyetle başlatmak; sabah zihnini başarıya programlamak.",
+        "en": "Starting the day with intention; programming the morning mind for achievement."
+      },
+      "setting": {
+        "tr": "Sabah, yataktan kalkmadan ya da başı destekli bir koltukta. Kulaklık takılı, ses düşük.",
+        "en": "In the morning, before getting out of bed or in a supported chair. Headphones on, volume low."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Düzenli dinle; güven ve performans artar.",
+          "en": "Listen regularly; confidence and performance grow."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "plan",
+          "name": { "tr": "Günü Planla", "en": "Plan the Day" },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Bugün için en iyi sonucu hayal et. Niyetini kur.", "en": "Imagine the best outcome for today. Set your intention." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Olumlu imgeler ve mesajlar bilincine işlesin.", "en": "Let positive images and messages sink into your awareness." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Bugün, en iyi halinle yaşa.", "en": "Today, be your very best." } },
+              { "id": "r2", "text": { "tr": "Niyet, günün pusulasıdır.", "en": "Intention is the compass of the day." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Hemi-Sync 'Morning Exercise' (19 min, voiced by Robert Monroe), from the 5th Dimensional Transformation collection on monroeinstitute.org. Paraphrased."
+    },
+    {
+      "id": "fifthd-anxiety",
+      "wave": "fifthd",
+      "no": 2,
+      "focus": ["10", "12"],
+      "title": { "tr": "Sabah Kaygısını Bırak", "en": "Releasing Early Morning Anxiety" },
+      "summary": {
+        "tr": "20 dakikalık meditasyon. Zihninin iyileşen, huzuru tam olarak hatırlayan 'İç Terapist' parçasıyla sabah kaygısını yatıştırır.",
+        "en": "A 20-minute meditation. It calms early-morning anxiety with the 'Inner Therapist', the healing part of your mind that fully remembers peace."
+      },
+      "goal": {
+        "tr": "Kaygıyı farkında olmadan dönüştürmek; huzura yönelmek.",
+        "en": "Transforming anxiety with awareness; orienting the mind to peace."
+      },
+      "setting": {
+        "tr": "Uyandığında ya da gün içinde kaygı hissettiğinde. Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "On waking, or any time anxiety visits. Lie on your back, headphones on, volume low."
+      },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "release",
+          "name": { "tr": "Bırakma", "en": "Releasing" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Kaygı, zihnin koruma çabasıdır. Gör onu, tanı.", "en": "Anxiety is the mind's attempt to protect. See it, know it." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "İç terapistinle buluş. Huzur, sende zaten var.", "en": "Meet your inner therapist. Peace already lives in you." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Huzur, korkunun yerini alır.", "en": "Peace takes the place of fear." } },
+              { "id": "r2", "text": { "tr": "İyileşme, hatırlamaktır.", "en": "Healing is remembering." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Hemi-Sync 'Releasing Early Morning Anxiety' (20 min), from the 5th Dimensional Transformation collection on monroeinstitute.org. Paraphrased."
+    },
+    {
+      "id": "fifthd-transformation",
+      "wave": "fifthd",
+      "no": 3,
+      "focus": ["12", "15"],
+      "title": { "tr": "Dönüşüm", "en": "Transformation" },
+      "summary": {
+        "tr": "Micah Sadigh'in bestelediği, Hemi-Sync ve synthesizer müziğiyle transpersonal bir yolculuk (49 dk). Bireysel benlik hissinin ötesine bırakır.",
+        "en": "A transpersonal journey with Hemi-Sync and synthesizer music composed by Micah Sadigh (49 min). It moves you beyond the sense of personal self."
+      },
+      "goal": {
+        "tr": "Kişisel benlik sınırının ötesine geçmek; transpersonal bir deneyim.",
+        "en": "Moving beyond the boundary of the personal self; a transpersonal experience."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": ["fifthd-morning"],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        { "use": "entry", "focus": 15, "id": "entry15", "name": { "tr": "Focus 15'e geçiş", "en": "Moving to Focus 15" } },
+        {
+          "id": "transform",
+          "name": { "tr": "Dönüşüm", "en": "Transformation" },
+          "bell": "soft",
+          "focus": 15,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Düşüncelerden vazgeç. Kendini müziğe ve ritme bırak.", "en": "Let go of thoughts. Surrender to the music and the rhythm." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Kişisel ben, geniş bir alana yayılır.", "en": "The personal self spreads into a wide field." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Sınır, algıdan ibarettir.", "en": "The boundary is only perception." } },
+              { "id": "r2", "text": { "tr": "Dönüşüm, bırakmayla başlar.", "en": "Transformation begins with letting go." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Hemi-Sync 'Transformation' (49 min, composed and performed by Micah Sadigh, PhD), from the 5th Dimensional Transformation collection. Instrumental/transpersonal; paraphrased as a free-flow journey."
+    },
+    {
+      "id": "fifthd-future",
+      "wave": "fifthd",
+      "no": 4,
+      "focus": ["12", "15"],
+      "title": { "tr": "Geleceği Keşfet", "en": "Exploring Our Future" },
+      "summary": {
+        "tr": "Lee Stone'un yönettiği 58 dakikalık egzersiz. Seçtiğin bir yılda dünyanın jeolojik, sosyal, ekonomik ve teknolojik değişimlerini keşfe çıkar.",
+        "en": "A 58-minute exercise guided by Lee Stone. It takes you to explore the world's geophysical, social, economic and technological changes in a year of your choosing."
+      },
+      "goal": {
+        "tr": "Zamanda ileri yolculuk; gelecek perspektifi kazanmak.",
+        "en": "Travelling forward in time; gaining a future perspective."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda. Uzun oturum.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room. A long session."
+      },
+      "prereq": ["fifthd-transformation"],
+      "tips": [
+        {
+          "tr": "Bir yıl seç; o yılın dünyasına odaklan.",
+          "en": "Choose a year; focus on the world of that year."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        { "use": "entry", "focus": 15, "id": "entry15", "name": { "tr": "Focus 15'e geçiş", "en": "Moving to Focus 15" } },
+        {
+          "id": "future",
+          "name": { "tr": "Gelecek", "en": "The Future" },
+          "bell": "soft",
+          "focus": 15,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Bir yıl seç. O yılın dünyasına doğru ilerle.", "en": "Choose a year. Move toward the world of that year." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Jeolojik, sosyal, ekonomik değişimleri gez. Fark et.", "en": "Wander the geophysical, social and economic changes. Notice." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Gelecek, şimdinin tohumudur.", "en": "The future is the seed of the present." } },
+              { "id": "r2", "text": { "tr": "Her yıl, bir aynadır.", "en": "Every year is a mirror." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Hemi-Sync 'Exploring Our Future' (58 min, guided by Lee Stone), from the 5th Dimensional Transformation collection. Paraphrased. The app's Long preset approximates the original length."
+    }
+  ]
+}

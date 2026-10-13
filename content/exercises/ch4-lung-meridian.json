@@ -1,0 +1,294 @@
+{
+  "id": "ch4-lung-meridian",
+  "chapter": 4,
+  "section": "4.8",
+  "category": "seated",
+  "title": { "tr": "Akciğer Meridyeni", "en": "Lung Meridian" },
+  "summary": {
+    "tr": "Kalp Zarı meridyenindeki kanal açmanın aynısı, bu kez kolun iç yüzünde baş parmak tarafından geçen Akciğer meridyeni üzerinde. Önce çizgiyi kabaca buluyor, sonra gözlerin kapalı ovuyor, titreşimi büyütüyor ve nereye uzandığını keşfediyorsun. Önce sağ kol, sonra sol kol.",
+    "en": "The same channel release as on the Heart Constrictor meridian, this time on the Lung meridian, which runs along the thumb side of the inner arm. You first find the line roughly, then, eyes closed, rub it, build up its vibration and explore where it leads. Right arm first, then the left."
+  },
+  "setting": {
+    "tr": "Meditasyon duruşunda oturarak; sandalyedeysen sırtını arkalığa dayama. Çizgiyi bulurken gözler açık, sonra baştan sona kapalı. Çizgi: baş parmak tarafında, avuç dibinde nabzın alındığı çukurdan (radyal arter) dirsek kıvrımında pazı kası tendonunun dış tarafındaki noktaya düz bir hat. Üst kolda pazı kasının dış kenarındaki çukurluk ya da oluk boyunca yukarı çıkar. Ovma, öbür elin avuç köprüsüyle (parmak diplerindeki tümsekler), yumuşak ama sağlam bir baskıyla yapılır.",
+    "en": "Seated in a meditation posture; on a chair, don't lean against its back. Eyes open while you find the line, then closed to the end. The line: straight from the hollow on the thumb side of the wrist where the pulse is taken (radial artery) to a point at the elbow crease just outside the biceps tendon. On the upper arm it goes up along the dip or furrow on the outer side of the biceps. You rub with the bridge of the other palm (the mounts where the fingers join the hand), gently but firmly."
+  },
+  "prereq": ["ch4-heart-constrictor"],
+  "tips": [
+    { "tr": "Pazı kasını hafifçe kastığında tendonunu hissedersin. Kol kasların belirginse pazı kasının dış kenarında çizginin geçtiği oluğu bulursun. Kadınsan bu oluğu önce bir erkek arkadaşının kolunda ara; orada bulmak çok daha kolay (4.8).", "en": "Gently tightening the biceps lets you feel its tendon. If your arm muscles are well defined, you will find the furrow where the line runs on the outer side of the biceps. If you are a woman, look for it first on a male friend's arm; it is much easier to find there (4.8)." },
+    { "tr": "Nereyi ovacağına dair kabaca bir fikrin olması yeter. Bir meridyenin yerini asla kesin kabul etme: kitaplardaki tarifler yalnızca kaba yönlendirmeler; gerçek yol konusunda kesinlik ancak kendi enerji algından doğar. Bu yüzden bölgede biraz farklı çizgileri ov ve dolaşımı en net hissettiğin çizgiyi bul. Çalıştıkça baştaki belirsizlik çabucak dağılır (4.8).", "en": "A rough idea of where to rub is enough. Never take the location of a meridian for granted: book descriptions are only rough guides, and certainty about the real path comes from your own perception of energy alone. So try rubbing a few slightly different lines around there and keep the one where the circulation feels clearest. With practice the early vagueness soon clears (4.8)." },
+    { "tr": "Algının düzeyleri (4.10): önce ovduğun çizgide, kaşlarının arasındakiyle aynı türden bir titreşim hissedersin; sonra bu titreşimin çizgi boyunca yukarı ya da aşağı aktığını fark edersin; en sonunda da enerjiyi çizgi boyunca bilinçli olarak hareket ettirmeyi öğrenirsin. Ayrıntılar Kalp Zarı meridyeni çalışmasında.", "en": "Levels of perception (4.10): first you feel a vibration in the rubbed line of the same kind as the one between your eyebrows; then you sense it flowing up or down along the line; finally you learn to move the energy along the line on purpose. Details are in the Heart Constrictor practice." },
+    { "tr": "Bazı günler titreşimi algılamak çok daha zordur, bazen de hiçbir şey hissetmezsin. Bu, sürecin olağan akışı; başlangıçta algılar senin kontrolünde değildir. Düzenli çalışmayı sürdür (4.5).", "en": "Some days the vibration is much harder to perceive, and sometimes you feel nothing at all. That is simply part of the process: at first, perceptions are not under your control. Keep practising regularly (4.5)." },
+    { "tr": "Bir koldaki meridyende enerjiyi öbür koldakinden daha çok hissetmen bir kez olup geçiyorsa hiçbir anlamı yok. Aynı dengesizlik bir süre boyunca tekrar tekrar çıkıyorsa çizgide bir tıkanıklık var demektir; akış eşitlenene kadar o meridyende daha çok çalış. Çok sayıda dengesizlik hissedersen bunu bir akupunkturcuyla konuş (4.10).", "en": "Feeling the energy more strongly in one arm than in the other means nothing if it happens once and goes away. If the same imbalance keeps coming back over a period of time, something is blocked in the line: work more on that meridian until the flow is even. If you feel many imbalances, talk it over with an acupuncturist (4.10)." },
+    { "tr": "Akışın yönü: çoğu kişi, hangi kanal olursa olsun, enerjiyi başa doğru yükselirken hisseder. Deneyimine güven ve sana doğal gelen akışı destekle; enerjinin her seferinde aynı yöne akması gerekmez (4.10).", "en": "Direction of flow: most people feel the energy rising towards the head, whatever the channel. Trust your experience and encourage the flow that feels natural; it does not have to go the same way every time (4.10)." },
+    { "tr": "Bunu ancak çizginin elde nereye gittiğini kendin bulduktan sonra oku: akupunktura göre Akciğer meridyeni baş parmağın ucunda biter. Bu meridyenle çalışırken işaret parmağında da titreşimin dolaştığını hissetmek sık görülür; bu, Akciğer meridyeniyle yoğun enerji alışverişi yapan Kalın Bağırsak meridyeniyle ilgilidir (4.9).", "en": "Read this only once you have found the path in the hand yourself: acupuncture has the Lung meridian finishing at the thumb tip. During this work, people often sense vibration travelling through the index finger as well; that comes from the Large Intestine meridian, which trades energy heavily with the Lung meridian (4.9)." },
+    { "tr": "Hissettiğin bu değilse dert etme; belki de haklı olan sensin. Yine de karar vermeden önce bir süre çalışmayı sürdür. Doğrudan algı, kitapta yazandan her zaman üstündür. Meridyenler katı borulardan çok, zaman zaman bir yana ya da öbürüne hafifçe sapabilen nefes ırmakları gibi algılanır (4.9).", "en": "If that is not what you felt, don't worry: you may well be right. Still, give it more practice before deciding. What you perceive directly always counts for more than any book. Meridians feel less like rigid pipes and more like rivers of breath that can drift slightly to one side or the other (4.9)." }
+  ],
+  "warnings": [
+    { "tr": "Kanser durumunda birçok terapist, hastalığın yayılmasını kolaylaştırabileceği düşüncesiyle her türlü masaja karşı çıkar. Bazılarına göre masaj, kişi tamamen iyileşmiş olsa bile son ameliyat ya da tedaviden sonra beş yıla kadar uygun değildir. Sen de böyle düşünüyorsan kanal açmayı ovmadan, parmak uçlarını meridyenler boyunca çok hafifçe gezdirerek yapabilirsin (bkz. 6.4).", "en": "Many therapists rule out massage of any kind when there is cancer, fearing it could help the disease spread; some extend that to five years following the final surgery or treatment, even once the person is completely well. If you agree, practise channel release without rubbing: just glide your fingertips very lightly along the meridians (see 6.4)." }
+  ],
+  "visual": "arm-meridians",
+  "night": false,
+  "partner": false,
+  "special": null,
+  "params": [
+    { "key": "locate", "label": { "tr": "Çizgiyi bulma adımı", "en": "Line-finding step" }, "unit": "bool", "def": true },
+    { "key": "rub", "label": { "tr": "Meridyeni ovma süresi", "en": "Rubbing the meridian" }, "unit": "sec", "min": 15, "max": 60, "step": 5, "def": 30 },
+    { "key": "build", "label": { "tr": "Çizgide titreşimi güçlendirme", "en": "Building up the line" }, "unit": "sec", "min": 30, "max": 120, "step": 15, "def": 45 }
+  ],
+  "presets": [],
+  "phases": [
+    {
+      "id": "locate",
+      "name": { "tr": "Çizgiyi bul", "en": "Finding the line" },
+      "when": "locate",
+      "bell": null,
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Gözlerini kapatmadan önce çizgiyi bul. Avucunu yukarı çevir.", "en": "Before closing your eyes, find the line. Turn your palm up." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Baş parmak tarafında, avucunun bileğe birleştiği yerde, genellikle nabzın alındığı çukuru bul.", "en": "On the thumb side, where the palm meets the wrist, find the hollow where the pulse is usually taken." }, "pause": 8 },
+        { "id": "l3", "text": { "tr": "Şimdi pazı kasını hafifçe kas ve tendonunu hisset. Dirsek kıvrımında, tendonun dış tarafındaki noktayı bul.", "en": "Now gently tighten your biceps and feel its tendon. At the elbow crease, find the point just outside the tendon." }, "pause": 12 },
+        { "id": "l4", "text": { "tr": "Ön koldaki kısım, nabız bölgesinden bu noktaya uzanan düz bir çizgi.", "en": "On the forearm, the meridian runs straight between the pulse hollow and this elbow point." }, "pause": 4 },
+        { "id": "l5", "text": { "tr": "Üst kolda çizgi, pazı kasının dış kenarındaki hafif bir çukurluğu izleyerek yukarı çıkar. Kasların belirginse orada bir oluk bulursun.", "en": "On the upper arm it climbs along a slight dip on the outer side of the biceps. If your arm muscles are well defined, you will find a groove there." }, "pause": 8 },
+        { "id": "l6", "text": { "tr": "Nereyi ovacağına dair kabaca bir fikrin olması yeterli.", "en": "A rough idea of where to rub is all you need." }, "pause": 3 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "prep",
+      "name": { "tr": "Hazırlık", "en": "Preparation" },
+      "bell": null,
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Meditasyon duruşunda otur. Sandalyedeysen sırtını arkalığa dayama.", "en": "Sit in a meditation posture. If you are on a chair, don't lean against its back." }, "pause": 4 },
+        { "id": "l2", "text": { "tr": "Akciğer meridyeni kolunun iç yüzünde, bileğin baş parmak tarafındaki nabız noktasından dirsek kıvrımına, oradan pazı kasının dış kenarı boyunca yukarı uzanır.", "en": "The Lung meridian runs on the inner arm, from the pulse point on the thumb side of the wrist to the elbow crease, then up the outer side of the biceps." }, "pause": 4 },
+        { "id": "l3", "text": { "tr": "Gözlerini kapat ve çalışma bitene kadar kapalı tut.", "en": "Close your eyes and keep them closed until the end." }, "pause": 3 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "hands-rub",
+      "name": { "tr": "Elleri ovma", "en": "Rubbing the hands" },
+      "bell": "start",
+      "visual": { "id": "hands-triangle", "state": "rub" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Ellerini birkaç saniye birbirine sürterek ovuştur.", "en": "Rub your hands together for a few seconds." }, "pause": 1 }
+      ],
+      "hold": { "sec": 10, "reminders": [] }
+    },
+    {
+      "id": "hands-connect",
+      "name": { "tr": "Bağlantılı ovma", "en": "Connected rubbing" },
+      "bell": "soft",
+      "visual": { "id": "hands-triangle", "state": "connect" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Dur. Avuçların yukarıda, ellerin hareketsiz.", "en": "Stop. Palms up, hands still." }, "pause": 2 },
+        { "id": "l2", "text": { "tr": "Kaşlarının arasındaki ve ellerindeki titreşimi fark et.", "en": "Notice the vibration between your eyebrows and in your hands." }, "pause": 5 },
+        { "id": "l3", "text": { "tr": "Bağlantılı ovmadaki gibi gırtlak sürtünmesiyle nefes al ve kaşlarının arasındaki titreşimi avuçlarına bağla.", "en": "As in connected rubbing, breathe with the throat friction and link the vibration in your eye with your palms." }, "pause": 1 }
+      ],
+      "hold": {
+        "sec": 45,
+        "every": 20,
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Ellerindeki titreşimin inceldiğini hisset.", "en": "Feel the vibration in your hands becoming finer." } },
+          { "id": "r2", "text": { "tr": "Ellerin havada ve hareketsiz, avuçların yukarıda.", "en": "Hands in the air and still, palms up." } }
+        ]
+      }
+    },
+    {
+      "id": "r-rub",
+      "name": { "tr": "Sağ kol, ovma", "en": "Right arm, rubbing" },
+      "bell": "soft",
+      "visual": { "id": "arm-meridians", "state": "lung-rub" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Sürtünmeye şimdilik ara ver. Sağ kolunla başla.", "en": "Pause the friction for now. Begin with your right arm." }, "pause": 2 },
+        { "id": "l2", "text": { "tr": "Sol elini düz ve gergin tut. Avuç köprüsünü, yani parmak diplerindeki tümsekleri, çizginin üzerine koy.", "en": "Make your left hand flat and firm. Lay the bridge of the palm, the mounts where the fingers join the hand, on the line." }, "pause": 4 },
+        { "id": "l3", "text": { "tr": "Çizgi boyunca yumuşak ama sağlam bir baskıyla ileri geri ov. Bileğin baş parmak tarafından dirseğe, oradan pazı kasının dış kenarı boyunca.", "en": "Rub back and forth along the line, gently but firmly, from the thumb side of the wrist to the elbow, then up the outer side of the biceps." }, "pause": 3 },
+        { "id": "l4", "text": { "tr": "Yakınındaki biraz farklı çizgileri de dene ve dolaşımı en net hissettiğin çizgide kal.", "en": "Try slightly different lines nearby, and keep to the one where you feel the circulation most clearly." }, "pause": 1 }
+      ],
+      "hold": {
+        "param": "rub",
+        "every": 15,
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Yumuşak ama sağlam bir baskıyla, çizginin bütün boyunca.", "en": "Gently but firmly, along the whole length of the line." } }
+        ]
+      }
+    },
+    {
+      "id": "r-feel",
+      "name": { "tr": "Sağ kol, çizgi", "en": "Right arm, the line" },
+      "bell": "soft",
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Dur. İki elin de hareketsiz, avuçların yukarıda.", "en": "Stop. Both hands still, palms up." }, "pause": 2 },
+        { "id": "l2", "text": { "tr": "Ovduğun çizgi boyunca titreşimi fark et.", "en": "Notice the vibration in the line you just rubbed." }, "pause": 8 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "r-build",
+      "name": { "tr": "Sağ kol, sürtünme", "en": "Right arm, friction" },
+      "bell": null,
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Gırtlak sürtünmesine yeniden başla ve onu meridyendeki titreşimle birleştir.", "en": "Start the throat friction again and join it with what you feel in the meridian." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Çizgi boyunca titreşimi adım adım güçlendir.", "en": "Let the vibration along the line build up, step by step." }, "pause": 1 }
+      ],
+      "hold": {
+        "param": "build",
+        "every": 30,
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Bu titreşim, kaşlarının arasındaki titreşimle aynı nitelikte mi?", "en": "Does this vibration feel like the same kind as the one between your eyebrows?" } },
+          { "id": "r2", "text": { "tr": "Titreşim çizgi boyunca akıyor mu? Omzuna doğru mu, eline doğru mu?", "en": "Is the vibration flowing along the line? Up towards the shoulder, or down towards the hand?" } },
+          { "id": "r3", "text": { "tr": "Hiçbir şey hayal etme. Ne hissediyorsan onunla kal.", "en": "Don't imagine anything. Stay with what you feel." } },
+          { "id": "r4", "text": { "tr": "Sürtünme gırtlaktan gelsin, nefesin doğal derinliğinde kalsın.", "en": "Let the friction come from the larynx, with your breath at its natural depth." } },
+          { "id": "r5", "text": { "tr": "Avuçların yukarıda, ellerin hareketsiz.", "en": "Palms up, hands still." } }
+        ]
+      }
+    },
+    {
+      "id": "r-eye",
+      "name": { "tr": "Sağ kol, göz ve çizgi", "en": "Right arm, eye and line" },
+      "bell": null,
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Şimdi aynı anda kaşlarının arasının da farkına var.", "en": "Now be aware between your eyebrows as well, at the same time." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Gırtlak sürtünmesini, kaşlarının arasındaki titreşimi ve çizgideki titreşimi birbirine bağla.", "en": "Join all three, the throat friction, the vibration between your eyebrows and what you feel in the line." }, "pause": 1 }
+      ],
+      "hold": {
+        "sec": 60,
+        "every": 30,
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Sürtünme, kaşlarının arası ve çizgi. Üçü birlikte.", "en": "Friction, eye and line, all three together." } },
+          { "id": "r2", "text": { "tr": "Sürtünme ve gözle bağlantı, çizgideki akışı yavaş yavaş güçlendirir.", "en": "The friction and the link with the eye gradually strengthen the flow in the line." } },
+          { "id": "r3", "text": { "tr": "Meridyende akan bir ışık da görebilirsin. Gelirse sadece izle.", "en": "You may also see light flowing in the meridian. If it comes, simply watch it." } }
+        ]
+      }
+    },
+    {
+      "id": "r-explore",
+      "name": { "tr": "Sağ kol, keşif", "en": "Right arm, exploring" },
+      "bell": null,
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Şimdi aynı koldaki elinin farkına var.", "en": "Now turn your attention to the hand of this same arm." }, "pause": 4 },
+        { "id": "l2", "text": { "tr": "Elini hiç ovmadın. Yine de enerji çizgisinin elinin içine uzandığını hissedebiliyor musun?", "en": "You haven't rubbed it at all. Can you still feel the line of energy carrying on into your hand?" }, "pause": 12 },
+        { "id": "l3", "text": { "tr": "Meridyenin yolu hangi parmağa uzanıyor?", "en": "Which finger does the meridian lead to?" }, "pause": 15 },
+        { "id": "l4", "text": { "tr": "Şimdi omzunun ve göğsünün farkına var. Enerji çizgisi buralarda nereye gidiyor?", "en": "Now be aware in your shoulder and your chest. Where does the energy line go in this area?" }, "pause": 20 },
+        { "id": "l5", "text": { "tr": "Onu organlarından birinde de hissedebiliyor musun?", "en": "Can you sense it in any organ, too?" }, "pause": 15 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "r-rest",
+      "name": { "tr": "Sadece farkında ol", "en": "Just aware" },
+      "bell": "soft",
+      "lines": [
+        { "id": "l1", "text": { "tr": "Her şeyi bırak, sürtünmeyi de. Birkaç saniye sadece farkında ol.", "en": "Let everything go, the friction too. For a few seconds, simply be aware." }, "pause": 10 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "l-rub",
+      "name": { "tr": "Sol kol, ovma", "en": "Left arm, rubbing" },
+      "bell": "soft",
+      "visual": { "id": "arm-meridians", "state": "lung-rub" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Şimdi aynı sırayı sol kolunda yap.", "en": "Now go through the same sequence on your left arm." }, "pause": 2 },
+        { "id": "l2", "text": { "tr": "Sağ elini düz ve gergin tut. Avuç köprüsünü, yani parmak diplerindeki tümsekleri, çizginin üzerine koy.", "en": "Make your right hand flat and firm. Lay the bridge of the palm, the mounts where the fingers join the hand, on the line." }, "pause": 4 },
+        { "id": "l3", "text": { "tr": "Çizgi boyunca yumuşak ama sağlam bir baskıyla ileri geri ov. Bileğin baş parmak tarafından dirseğe, oradan pazı kasının dış kenarı boyunca.", "en": "Rub back and forth along the line, gently but firmly, from the thumb side of the wrist to the elbow, then up the outer side of the biceps." }, "pause": 3 },
+        { "id": "l4", "text": { "tr": "Yakınındaki biraz farklı çizgileri de dene ve dolaşımı en net hissettiğin çizgide kal.", "en": "Try slightly different lines nearby, and keep to the one where you feel the circulation most clearly." }, "pause": 1 }
+      ],
+      "hold": {
+        "param": "rub",
+        "every": 15,
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Yumuşak ama sağlam bir baskıyla, çizginin bütün boyunca.", "en": "Gently but firmly, along the whole length of the line." } }
+        ]
+      }
+    },
+    {
+      "id": "l-feel",
+      "name": { "tr": "Sol kol, çizgi", "en": "Left arm, the line" },
+      "bell": "soft",
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Dur. İki elin de hareketsiz, avuçların yukarıda.", "en": "Stop. Both hands still, palms up." }, "pause": 2 },
+        { "id": "l2", "text": { "tr": "Ovduğun çizgi boyunca titreşimi fark et.", "en": "Notice the vibration in the line you just rubbed." }, "pause": 8 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "l-build",
+      "name": { "tr": "Sol kol, sürtünme", "en": "Left arm, friction" },
+      "bell": null,
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Gırtlak sürtünmesine yeniden başla ve onu meridyendeki titreşimle birleştir.", "en": "Start the throat friction again and join it with what you feel in the meridian." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Çizgi boyunca titreşimi adım adım güçlendir.", "en": "Let the vibration along the line build up, step by step." }, "pause": 1 }
+      ],
+      "hold": {
+        "param": "build",
+        "every": 30,
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Bu titreşim, kaşlarının arasındaki titreşimle aynı nitelikte mi?", "en": "Does this vibration feel like the same kind as the one between your eyebrows?" } },
+          { "id": "r2", "text": { "tr": "Titreşim çizgi boyunca akıyor mu? Omzuna doğru mu, eline doğru mu?", "en": "Is the vibration flowing along the line? Up towards the shoulder, or down towards the hand?" } },
+          { "id": "r3", "text": { "tr": "Hiçbir şey hayal etme. Ne hissediyorsan onunla kal.", "en": "Don't imagine anything. Stay with what you feel." } },
+          { "id": "r4", "text": { "tr": "Sürtünme gırtlaktan gelsin, nefesin doğal derinliğinde kalsın.", "en": "Let the friction come from the larynx, with your breath at its natural depth." } },
+          { "id": "r5", "text": { "tr": "Avuçların yukarıda, ellerin hareketsiz.", "en": "Palms up, hands still." } }
+        ]
+      }
+    },
+    {
+      "id": "l-eye",
+      "name": { "tr": "Sol kol, göz ve çizgi", "en": "Left arm, eye and line" },
+      "bell": null,
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Şimdi aynı anda kaşlarının arasının da farkına var.", "en": "Now be aware between your eyebrows as well, at the same time." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Gırtlak sürtünmesini, kaşlarının arasındaki titreşimi ve çizgideki titreşimi birbirine bağla.", "en": "Join all three, the throat friction, the vibration between your eyebrows and what you feel in the line." }, "pause": 1 }
+      ],
+      "hold": {
+        "sec": 60,
+        "every": 30,
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Sürtünme, kaşlarının arası ve çizgi. Üçü birlikte.", "en": "Friction, eye and line, all three together." } },
+          { "id": "r2", "text": { "tr": "Sürtünme ve gözle bağlantı, çizgideki akışı yavaş yavaş güçlendirir.", "en": "The friction and the link with the eye gradually strengthen the flow in the line." } },
+          { "id": "r3", "text": { "tr": "Meridyende akan bir ışık da görebilirsin. Gelirse sadece izle.", "en": "You may also see light flowing in the meridian. If it comes, simply watch it." } }
+        ]
+      }
+    },
+    {
+      "id": "l-explore",
+      "name": { "tr": "Sol kol, keşif", "en": "Left arm, exploring" },
+      "bell": null,
+      "visual": { "id": "arm-meridians", "state": "lung" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Şimdi aynı koldaki elinin farkına var.", "en": "Now turn your attention to the hand of this same arm." }, "pause": 4 },
+        { "id": "l2", "text": { "tr": "Elini hiç ovmadın. Yine de enerji çizgisinin elinin içine uzandığını hissedebiliyor musun?", "en": "You haven't rubbed it at all. Can you still feel the line of energy carrying on into your hand?" }, "pause": 12 },
+        { "id": "l3", "text": { "tr": "Meridyenin yolu hangi parmağa uzanıyor?", "en": "Which finger does the meridian lead to?" }, "pause": 15 },
+        { "id": "l4", "text": { "tr": "Şimdi omzunun ve göğsünün farkına var. Enerji çizgisi buralarda nereye gidiyor?", "en": "Now be aware in your shoulder and your chest. Where does the energy line go in this area?" }, "pause": 20 },
+        { "id": "l5", "text": { "tr": "Onu organlarından birinde de hissedebiliyor musun?", "en": "Can you sense it in any organ, too?" }, "pause": 15 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "l-rest",
+      "name": { "tr": "Sadece farkında ol", "en": "Just aware" },
+      "bell": "soft",
+      "lines": [
+        { "id": "l1", "text": { "tr": "Her şeyi bırak, sürtünmeyi de. Birkaç saniye sadece farkında ol.", "en": "Let everything go, the friction too. For a few seconds, simply be aware." }, "pause": 10 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "end",
+      "name": { "tr": "Bitiş", "en": "Ending" },
+      "bell": null,
+      "lines": [
+        { "id": "l1", "text": { "tr": "Sağ elinin parmaklarını şıklat ve gözlerini aç.", "en": "Click the fingers of your right hand and open your eyes." }, "pause": 3 }
+      ],
+      "hold": null
+    }
+  ],
+  "notes": "Procedure from 4.6 (4.7 and 4.8 say to repeat it on their meridian). Book times used: half a minute or more building the vibration with friction (param 30-120 s, default 45), about 1 min linking friction + eye + line (60 s fixed). Not given by the book, chosen here: hand rubbing 'a few seconds' = 10 s, then 45 s of connected rubbing (4.3) with friction; meridian rubbing 30 s per arm (param 15-60); 'a few seconds' on the line before the friction = 8 s pause; ~65 s of pauses for the hand/finger, shoulder/chest and organ questions; 'just aware' a few seconds = 10 s. The book says to 'resume' the friction after rubbing the line, so the right-arm rubbing phase pauses it, and 'just aware' lets it go. 'Repeat the same sequence on the other arm' is read as repeating from the meridian rubbing onward; connected rubbing is not repeated. The book does not say which arm first; right then left, as requested. Ends with the finger snap from 4.6. Optional eyes-open locate phase (bool param, default on) follows the 4.8 location steps (pulse hollow, point outside the biceps tendon, outer furrow). The 4.8 advice to try slightly different lines is spoken in the rubbing phases. Shared 4.5/4.10 tips are shortened; the full versions are in ch4-heart-constrictor."
+}

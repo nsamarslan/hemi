@@ -1,0 +1,286 @@
+{
+  "wave": "wave-5x",
+  "sessions": [
+    {
+      "id": "w5x-adv12",
+      "wave": "wave-5x",
+      "no": 1,
+      "focus": ["12"],
+      "title": { "tr": "İleri Focus 12", "en": "Advanced Focus 12" },
+      "summary": {
+        "tr": "Focus 12'yi pekiştirirsin: daha uzun tutuşlar, daha derin genişleme ve enerji balonuyla çalışma. Sezgi çalışmalarının zemini budur.",
+        "en": "You strengthen Focus 12: longer holds, deeper expansion and work with the energy balloon. This is the ground for the intuition exercises."
+      },
+      "goal": {
+        "tr": "Focus 12'de kalış süresini uzatmak; genişlemiş farkındalığı yönetmek.",
+        "en": "Extending the time you hold Focus 12; managing expanded awareness."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["w4-compoint"],
+      "tips": [
+        {
+          "tr": "Enerji balonunu yeniden kur; alanı onunla büyüt.",
+          "en": "Rebuild your energy balloon; grow the field with it."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        {
+          "id": "deepen",
+          "name": { "tr": "Derinleşme", "en": "Deepening" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "On iki durumunu pekiştir. Daha uzun süre tut, daha derine in.", "en": "Strengthen the state of twelve. Hold it longer, go deeper." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Enerji balonunla çalış. Alanı büyüt, daralt, hareket ettir.", "en": "Work with your energy balloon. Grow the field, shrink it, move it." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "On iki, genişlemiş farkındalıktır.", "en": "Twelve is expanded awareness." } },
+              { "id": "r2", "text": { "tr": "Kontrol, niyetle gelir.", "en": "Control comes with intention." } },
+              { "id": "r3", "text": { "tr": "Farkındalık büyüdükçe bedenin sınırı çözülür.", "en": "As awareness grows, the limit of the body dissolves." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Exploring #1, Advanced Focus 12 (voiced Wave V, 1998, A.J. Honeycutt). Strengthening and reinforcing familiarity with Focus 12."
+    },
+    {
+      "id": "w5x-intuition-a",
+      "wave": "wave-5x",
+      "no": 2,
+      "focus": ["12"],
+      "title": { "tr": "Sezgiyi Keşfetmek", "en": "Discovering Intuition" },
+      "summary": {
+        "tr": "Focus 12'yi sezginin doğal zemini olarak kullanırsın. Beş duyunun ötesinden gelen, doğrudan bilgi halini tanırsın.",
+        "en": "You use Focus 12 as the natural foundation of intuition. You get to know the direct knowing that comes beyond the five senses."
+      },
+      "goal": {
+        "tr": "Sezgiyi ilk kez bilinçle deneyimlemek; ona güvenmek.",
+        "en": "Experiencing intuition consciously for the first time; learning to trust it."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["w5x-adv12"],
+      "tips": [
+        {
+          "tr": "Cevabı isteme; soruyu tut, bırak.",
+          "en": "Don't demand the answer; hold the question, let it go."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        {
+          "id": "intuition",
+          "name": { "tr": "Sezgi", "en": "Intuition" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Bir soru tut zihninde. Cevabı bekle, zorlama.", "en": "Hold a question in your mind. Wait for the answer, don't force it." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Sezgi, duyuların ötesinden gelen bilgidir.", "en": "Intuition is knowledge that comes beyond the senses." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Cevap, sorunun ardında gelir.", "en": "The answer follows the question." } },
+              { "id": "r2", "text": { "tr": "Sessizlikte duy.", "en": "Listen in the silence." } },
+              { "id": "r3", "text": { "tr": "Sezgi, yargılamadan akar.", "en": "Intuition flows without judging." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Exploring #2, Discovering Intuition (voiced Wave V, 1998). Using Focus 12 as a natural foundation for enhancing intuitive abilities."
+    },
+    {
+      "id": "w5x-intuition-b",
+      "wave": "wave-5x",
+      "no": 3,
+      "focus": ["12"],
+      "title": { "tr": "Sezgi Keşfi", "en": "Exploring Intuition" },
+      "summary": {
+        "tr": "Sezgi keşfini derinleştirirsin. Sorularını bırakır, cevapların kendi akışında sana ulaşmasını beklersin.",
+        "en": "You deepen the exploration of intuition. You release your questions and let the answers reach you in their own flow."
+      },
+      "goal": {
+        "tr": "Sezgiyle temas süresini uzatmak; sabırlı bekleyiş.",
+        "en": "Extending the time in touch with intuition; patient waiting."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["w5x-intuition-a"],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        {
+          "id": "intuition",
+          "name": { "tr": "Sezgi Keşfi", "en": "Exploring Intuition" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Sorularını bırak. Her biri kendi cevabını getirir.", "en": "Release your questions. Each brings its own answer." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Sezgiyi akışına bırak, izleyici ol.", "en": "Let intuition flow, be the witness." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Zorlama, sezgiyi kaçırır.", "en": "Forcing makes intuition slip away." } },
+              { "id": "r2", "text": { "tr": "Akış seni taşır.", "en": "The flow carries you." } },
+              { "id": "r3", "text": { "tr": "Güven, sezginin yol arkadaşıdır.", "en": "Trust is the companion of intuition." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Exploring #3, Exploring Intuition (voiced Wave V, 1998). Further exploration of intuitive abilities."
+    },
+    {
+      "id": "w5x-intro15",
+      "wave": "wave-5x",
+      "no": 4,
+      "focus": ["15"],
+      "title": { "tr": "Focus 15'e Giriş", "en": "Intro to Focus 15" },
+      "summary": {
+        "tr": "Focus 15'e ilk geçiş: zamansızlık durumu. Zamanın akışı çözülür; geçmiş, şimdi ve gelecek bir aradadır.",
+        "en": "The first transition to Focus 15: the state of no-time. The flow of time dissolves; past, present and future coexist."
+      },
+      "goal": {
+        "tr": "Focus 15 durumuna girmek; zamansızlığı ilk kez hissetmek.",
+        "en": "Entering the state of Focus 15; feeling no-time for the first time."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["w5x-intuition-b"],
+      "tips": [
+        {
+          "tr": "Zaman hissi değiştiğinde şaşırma; bu beklenen bir işarettir.",
+          "en": "Don't be surprised when your sense of time changes; it is an expected sign."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        { "use": "entry", "focus": 15, "id": "entry15", "name": { "tr": "Focus 15'e geçiş", "en": "Moving to Focus 15" } },
+        {
+          "id": "being",
+          "name": { "tr": "Var Oluş", "en": "Being" },
+          "bell": "soft",
+          "focus": 15,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Zamanın akışı çözülüyor. Geçmiş, şimdi ve gelecek bir arada.", "en": "The flow of time dissolves. Past, present and future exist together." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Burada sadece var olmak vardır. Hiçbir şey yapmana gerek yok.", "en": "Here there is only being. You don't need to do anything." }, "pause": 4 }
+          ],
+          "hold": { "sec": 180 }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Exploring #4, Intro to Focus 15 (voiced Wave V, 1998). Guided into Focus 15, the state of no-time."
+    },
+    {
+      "id": "w5x-mission15",
+      "wave": "wave-5x",
+      "no": 5,
+      "focus": ["15"],
+      "title": { "tr": "Görev 15: Yaratım ve Gerçekleşim", "en": "Mission 15: Creation and Manifestation" },
+      "summary": {
+        "tr": "Focus 15'i yaratım ve gerçekleşim hali olarak keşfedersin. Bir niyet tutar, onu çoktan olmuş gibi hissedersin; örüntü, gerçek olur.",
+        "en": "You explore Focus 15 as a state of creation and manifestation. You hold an intention and feel it as already done; the pattern becomes real."
+      },
+      "goal": {
+        "tr": "Focus 15'te niyetle yaratım pratiği yapmak.",
+        "en": "Practising creation with intention in Focus 15."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["w5x-intro15"],
+      "tips": [
+        {
+          "tr": "Niyeti bir cümleyle tut; bulanık niyet, dağınık sonuç getirir.",
+          "en": "Hold the intention in a single sentence; a muddy intention brings a scattered result."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        { "use": "entry", "focus": 15, "id": "entry15", "name": { "tr": "Focus 15'e geçiş", "en": "Moving to Focus 15" } },
+        {
+          "id": "mission",
+          "name": { "tr": "Görev", "en": "Mission" },
+          "bell": "soft",
+          "focus": 15,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Bir niyet tut. Onu çoktan olmuş gibi hisset.", "en": "Hold an intention. Feel it as already done." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "On beşte niyet örüntü olur. Örüntü, gerçek olur.", "en": "In Focus fifteen the intention becomes pattern. The pattern becomes real." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Niyet, yaratımın tohumudur.", "en": "Intention is the seed of creation." } },
+              { "id": "r2", "text": { "tr": "Zamansızlıkta her şey bir aradadır.", "en": "In no-time everything exists together." } },
+              { "id": "r3", "text": { "tr": "Hisset, zaten olmuştur.", "en": "Feel it, it has already happened." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Exploring #5, Mission 15 Creation and Manifestation (voiced Wave V, 1998). Exploring Focus 15 as a powerful state of creation and manifestation."
+    },
+    {
+      "id": "w5x-explore15",
+      "wave": "wave-5x",
+      "no": 6,
+      "focus": ["15"],
+      "title": { "tr": "Focus 15'te Serbest Keşif", "en": "Exploring Focus 15" },
+      "summary": {
+        "tr": "Focus 15'te serbest keşif. Zamansız alanda dilediğince dolaşır, bir şey beklemez, sadece fark edersin.",
+        "en": "Free exploration in Focus 15. You wander the timeless field as you wish, expect nothing, simply notice."
+      },
+      "goal": {
+        "tr": "Focus 15'te serbest akışı deneyimlemek.",
+        "en": "Experiencing free flow in Focus 15."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["w5x-mission15"],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        { "use": "entry", "focus": 15, "id": "entry15", "name": { "tr": "Focus 15'e geçiş", "en": "Moving to Focus 15" } },
+        { "use": "explore", "focus": 15 },
+        { "use": "return" }
+      ],
+      "notes": "Official Exploring #6, Exploring Focus 15 (voiced Wave V, 1998). A free-flow opportunity for further exploration of the state."
+    }
+  ]
+}

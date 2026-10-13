@@ -1,0 +1,610 @@
+{
+  "wave": "wave-4",
+  "sessions": [
+    {
+      "id": "w4-pattern-1y",
+      "wave": "wave-4",
+      "no": 1,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Bir Yıllık Örüntü",
+        "en": "One-Year Patterning"
+      },
+      "summary": {
+        "tr": "Bir yılın örüntüsünü kurarsın: bu yıl nasıl bir yıl olsun istiyorsun? Focus 12'de o yılın halini tutarsın.",
+        "en": "You set the pattern of a year: what kind of year do you want this year to be? In Focus 12 you hold the state of that year."
+      },
+      "goal": {
+        "tr": "Uzun vadeli bir örüntü kurmayı öğrenmek.",
+        "en": "Learning to set a long-term pattern."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w3-separation"
+      ],
+      "tips": [
+        {
+          "tr": "Bir yıl, ayların toplamıdır; örüntü her aya yayılır.",
+          "en": "A year is the sum of months; the pattern spreads into every month."
+        },
+        {
+          "tr": "Yılın örüntüsü, her günkü küçük örüntülerle beslenir.",
+          "en": "The year's pattern is fed by the small daily patterns."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "year",
+          "name": {
+            "tr": "Yıl",
+            "en": "The Year"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Önümüzdeki bir yılı düşün. O yıl senin için nasıl bir yıl olsun?",
+                "en": "Think of the year ahead. What kind of year do you want it to be for you?"
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "O yılın halini hisset. Sanki yıl bitmiş gibi, geriye bakıyorsun.",
+                "en": "Feel the state of that year. As if the year were over and you were looking back."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Örüntü kuruldu. Yıl, bu örüntüye doğru akıyor.",
+                "en": "The pattern is set. The year flows toward this pattern."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Yılın örüntüsü, her güne bir tohum bırakır.",
+                  "en": "The year's pattern drops a seed into every day."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Hisset, yıl bitmiş gibi hisset.",
+                  "en": "Feel it as if the year were already over."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Örüntü, senin iradenden bağımsız akar.",
+                  "en": "The pattern flows independently of your will."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Adventure #1 One-Year Patterning. Same patterning technique as Threshold #3 with a one-year frame."
+    },
+    {
+      "id": "w4-messages",
+      "wave": "wave-4",
+      "no": 2,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Beş Mesaj",
+        "en": "Five Messages"
+      },
+      "summary": {
+        "tr": "Kanalını açarsın ve beş mesaj alırsın. Mesajlar, dönemine göre gelir; not almak en değerli andır.",
+        "en": "You open your channel and receive five messages. The messages come according to your period; taking notes is the most valuable moment."
+      },
+      "goal": {
+        "tr": "Mesaj almayı ve ayırt etmeyi öğrenmek.",
+        "en": "Learning to receive and to discern messages."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Yanında kağıt kalem olsun.",
+        "en": "Lie on your back, headphones on, volume low. Keep paper and pen nearby."
+      },
+      "prereq": [
+        "w4-pattern-1y"
+      ],
+      "tips": [
+        {
+          "tr": "Mesaj, beklediğinden farklı gelebilir; yargılama.",
+          "en": "A message may come differently than you expected; don't judge it."
+        },
+        {
+          "tr": "Beşten sonra kanal kapanır; zorlama.",
+          "en": "After five, the channel closes; don't force it."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "receive",
+          "name": {
+            "tr": "Alış",
+            "en": "Receiving"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Kanalını aç. Beş mesaj bekle.",
+                "en": "Open your channel. Wait for five messages."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Her mesajı al, not et, bir sonrakine geç.",
+                "en": "Take each message, note it, move to the next."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Mesajlar, dönemine göre gelir.",
+                  "en": "Messages come according to your time."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Bir mesaj, bir kelime de olabilir.",
+                  "en": "A message may be a single word."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Kanal açık, zihnin uyanık.",
+                  "en": "The channel is open, the mind is awake."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Adventure #2 Five Messages. Receiving guidance messages for the period ahead."
+    },
+    {
+      "id": "w4-freeflow12",
+      "wave": "wave-4",
+      "no": 3,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Serbest Akış 12",
+        "en": "Free Flow 12"
+      },
+      "summary": {
+        "tr": "Focus 12'de tamamen serbest akış. Planlı keşiflerin arka planıdır; amacı önceden kararlaştırırsan derinleşir.",
+        "en": "Complete free flow in Focus 12. It is the background of planned explorations; it deepens if you decide the purpose beforehand."
+      },
+      "goal": {
+        "tr": "Focus 12'de amaçsız ama niyetli dolaşmak.",
+        "en": "Wandering in Focus 12 without purpose but with intention."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w4-messages"
+      ],
+      "tips": [
+        {
+          "tr": "Bu oturum, her planlı keşfin arka planıdır.",
+          "en": "This session is the background of every planned exploration."
+        },
+        {
+          "tr": "Uykuya dalma tehlikesi en çok burada; zihnin tetikte kalsın.",
+          "en": "The danger of falling asleep is greatest here; keep the mind alert."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "use": "explore",
+          "focus": 12
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Adventure #3 Free Flow 12. Pure template session in Focus 12."
+    },
+    {
+      "id": "w4-nvc1",
+      "wave": "wave-4",
+      "no": 4,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Sözsüz İletişim I",
+        "en": "Non-Verbal Communication I"
+      },
+      "summary": {
+        "tr": "Kelimeler olmadan mesaj gönderirsin: bir his, bir görüntü, bir renk. Sözsüz kanal, sözlü kanaldan daha dürüsttür.",
+        "en": "You send a message without words: a feeling, an image, a colour. The non-verbal channel is more honest than the verbal one."
+      },
+      "goal": {
+        "tr": "Sözsüz gönderme kanalını açmak.",
+        "en": "Opening the channel of non-verbal sending."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w4-freeflow12"
+      ],
+      "tips": [
+        {
+          "tr": "Gönderirken zihnin net olsun; bulanık mesaj bulanık ulaşır.",
+          "en": "Send with a clear mind; a muddy message arrives muddy."
+        },
+        {
+          "tr": "Mesajı sal, tutma; gönderilen şey artık senin değildir.",
+          "en": "Release the message, don't hold it; what is sent is no longer yours."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "send",
+          "name": {
+            "tr": "Gönderme",
+            "en": "Sending"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Zihninde bir mesaj oluştur. Bir his, bir görüntü ya da bir renk.",
+                "en": "Create a message in your mind. A feeling, an image or a colour."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Kelimelere dökmeden, olduğu gibi gönder.",
+                "en": "Send it as it is, without putting it into words."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Gönderdiğin, artık sende kalmaz. Akışa bırak.",
+                "en": "What you send no longer stays with you. Let it go into the flow."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Sözsüz mesaj, en saf halidir.",
+                  "en": "A wordless message is the purest form."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Gönderirken gevşe. Sıkı tutulan mesaj uçamaz.",
+                  "en": "Be loose as you send. A tightly held message cannot fly."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Mesajın, gönderen elden çıkar çıkmaz akışa karışır.",
+                  "en": "The moment the message leaves the sending hand, it joins the flow."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Adventure #4 NVC I. Non-verbal communication: sending simple messages without words."
+    },
+    {
+      "id": "w4-nvc2",
+      "wave": "wave-4",
+      "no": 5,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Sözsüz İletişim II",
+        "en": "Non-Verbal Communication II"
+      },
+      "summary": {
+        "tr": "Bu kez sözsüz kanaldan gelen mesajı alırsın. Kabul et, yargılama, not al.",
+        "en": "This time you receive a message through the wordless channel. Accept it, don't judge it, take notes."
+      },
+      "goal": {
+        "tr": "Sözsüz almayı ve güvenle kabul etmeyi öğrenmek.",
+        "en": "Learning wordless receiving and trusting acceptance."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Yanında kağıt kalem olsun.",
+        "en": "Lie on your back, headphones on, volume low. Keep paper and pen nearby."
+      },
+      "prereq": [
+        "w4-nvc1"
+      ],
+      "tips": [
+        {
+          "tr": "Gelen mesaj, senin beklediğinden farklı olabilir; yine de al.",
+          "en": "The incoming message may differ from what you expected; take it anyway."
+        },
+        {
+          "tr": "Kabul, sözsüz iletişimin yarısıdır.",
+          "en": "Acceptance is half of wordless communication."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "recv",
+          "name": {
+            "tr": "Alış",
+            "en": "Receiving"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Kanalını aç ve bekle. Sözsüz bir mesaj gelecek.",
+                "en": "Open your channel and wait. A wordless message will come."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Geldiğinde kabul et. Ne olduğu önemli değil.",
+                "en": "When it comes, accept it. What it is does not matter."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Alış, güvenin kendisidir.",
+                  "en": "Receiving is trust itself."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Mesajı sorgulama, önce kabul et, sonra anla.",
+                  "en": "Don't interrogate the message, accept it first, understand later."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Kanal açık kaldıkça, akış devam eder.",
+                  "en": "As long as the channel stays open, the flow continues."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Adventure #5 NVC II. Receiving through the non-verbal channel."
+    },
+    {
+      "id": "w4-compoint",
+      "wave": "wave-4",
+      "no": 6,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "İletişim Noktası",
+        "en": "Compoint"
+      },
+      "summary": {
+        "tr": "İletişimin yaşanacağı bir yer kurarsın: bir bahçe, bir salon, bir kabin. Orada bekler, davet edersin.",
+        "en": "You establish a place where communication happens: a garden, a hall, a cabin. You wait there, you invite."
+      },
+      "goal": {
+        "tr": "Kişisel bir iletişim noktası kurmayı öğrenmek.",
+        "en": "Learning to establish a personal communications point."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w4-nvc2"
+      ],
+      "tips": [
+        {
+          "tr": "Yer sana uygun olsun; teknoloji, doğa ya da nostalji.",
+          "en": "Let the place suit you; technology, nature or nostalgia."
+        },
+        {
+          "tr": "İletişim noktası, her oturumda seni bekler.",
+          "en": "The communications point waits for you in every session."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "compoint",
+          "name": {
+            "tr": "Buluşma yeri",
+            "en": "The meeting place"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Zihninde bir yer kur. Bir bahçe, bir salon, bir kabin.",
+                "en": "Build a place in your mind. A garden, a hall, a cabin."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Oraya git. Otur ve bekle. Davet et.",
+                "en": "Go there. Sit and wait. Invite."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "İletişim, beklerken gelir. Acele ettikçe uzağa kaçar.",
+                "en": "Communication comes while you wait. The more you rush, the further it flees."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Yer, her oturumda seni bekler.",
+                  "en": "The place waits for you in every session."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Beklerken gelen, en dürüst iletişimdir.",
+                  "en": "What comes while you wait is the most honest communication."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Davetini yinelerken mekan seni tanır.",
+                  "en": "As you repeat your invitation, the place comes to know you."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Adventure #6 Compoint (communications point). Establishing an inner environment that invites communication."
+    }
+  ]
+}

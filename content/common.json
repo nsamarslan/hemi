@@ -1,0 +1,8 @@
+{
+  "lines": {
+    "oneMinute": { "tr": "Son bir dakika.", "en": "One minute left." },
+    "done": { "tr": "Egzersiz tamamlandı.", "en": "The exercise is complete." },
+    "next": { "tr": "Sıradaki egzersize geçiyoruz.", "en": "Moving on to the next exercise." },
+    "routineDone": { "tr": "Program tamamlandı.", "en": "Your programme is complete." }
+  }
+}

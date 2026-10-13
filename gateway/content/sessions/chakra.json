@@ -1,0 +1,157 @@
+{
+  "wave": "chakra",
+  "sessions": [
+    {
+      "id": "chakra-extended",
+      "wave": "chakra",
+      "no": 1,
+      "focus": ["10", "12"],
+      "title": { "tr": "Çakra Meditasyonu (Uzun)", "en": "Chakra Meditation (Extended)" },
+      "summary": {
+        "tr": "Eluv tarafından yaratılan, yedi çakrayı sırayla uyumlayan 51 dakikalık Hemi-Sync meditasyonu. Dolphin sesleri ve müzik eşliğinde.",
+        "en": "A 51-minute Hemi-Sync meditation by Eluv, attuning the seven chakras in turn. With dolphin sounds and music."
+      },
+      "goal": {
+        "tr": "Yedi enerji merkezini sırayla dengelemek ve açmak.",
+        "en": "Balancing and opening the seven energy centers in turn."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Hangi merkez zayıf hissedilirse ona ekstra nefes ver.",
+          "en": "Give extra breath to whichever center feels weak."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "chakras",
+          "name": { "tr": "Çakra Uyumu", "en": "Chakra Attunement" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Kökünden tepe noktana kadar her merkezi sırayla hisset.", "en": "Feel each center in turn, from the root to the crown." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Her merkez, kendi rengiyle açılır.", "en": "Each center opens in its own color." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Kırmızı, kök. Turuncu, sakral. Sarı, solar pleksus.", "en": "Red, the root. Orange, the sacral. Yellow, the solar plexus." } },
+              { "id": "r2", "text": { "tr": "Yeşil, kalp. Mavi, boğaz. Lacivert, alın. Menekşe, tepe.", "en": "Green, the heart. Blue, the throat. Indigo, the brow. Violet, the crown." } },
+              { "id": "r3", "text": { "tr": "Engeller çözülür, enerji akar.", "en": "Blockages dissolve, energy flows." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Hemi-Sync 'Chakra Meditation with Hemi-Sync' by Eluv, Track 1 (51-minute extended meditation), Chakra Attunement collection. The app's Long preset approximates the original length."
+    },
+    {
+      "id": "chakra-abridged",
+      "wave": "chakra",
+      "no": 2,
+      "focus": ["10", "12"],
+      "title": { "tr": "Çakra Meditasyonu (Kısa)", "en": "Chakra Meditation (Abridged)" },
+      "summary": {
+        "tr": "Aynı meditasyonun 23 dakikalık kısa hali. Günlük denge için ideal.",
+        "en": "The 23-minute abridged version of the same meditation. Ideal for daily balance."
+      },
+      "goal": {
+        "tr": "Kısa bir seansta tüm merkezleri tazelemek.",
+        "en": "Refreshing all centers in a short session."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["chakra-extended"],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "chakras",
+          "name": { "tr": "Hızlı Uyum", "en": "Quick Attunement" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Tüm merkezleri tek nefeste tarayıp tazele.", "en": "Sweep and refresh all centers in a single breath." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Kısa seansta denge, uzun seansta derinlik.", "en": "Balance in the short session, depth in the long one." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Merkezlerin döngüsü, bedenin döngüsüdür.", "en": "The cycle of the centers is the cycle of the body." } },
+              { "id": "r2", "text": { "tr": "Denge, her gün tazelenir.", "en": "Balance is refreshed every day." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Hemi-Sync 'Chakra Meditation with Hemi-Sync' by Eluv, Track 2 (23-minute abridged version), Chakra Attunement collection."
+    },
+    {
+      "id": "chakra-heal",
+      "wave": "chakra",
+      "no": 3,
+      "focus": ["10", "12"],
+      "title": { "tr": "İyileş ve Dengelen", "en": "Heal and Balance" },
+      "summary": {
+        "tr": "Allyn Evans'ın (Monroe Enstitüsü eğitmeni) hazırladığı, Enstitü'nün ücretsiz meditasyonu: hızlı bir çakra ayarı. Günlük yapılması önerilir.",
+        "en": "The Monroe Institute's free meditation by Allyn Evans (Institute trainer): a quick chakra tune-up. Recommended daily."
+      },
+      "goal": {
+        "tr": "Enerji bedenini dengeye döndürmek; günlük ritüele katmak.",
+        "en": "Returning the energy body to balance; making it a daily ritual."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan veya otur, kulaklık takılı, ses düşük. Günün herhangi bir saatinde.",
+        "en": "Lie down or sit, headphones on, volume low. Any time of day."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Enstitü bu meditasyonu günde bir kez önerir.",
+          "en": "The Institute recommends this meditation once a day."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "heal",
+          "name": { "tr": "İyileşme", "en": "Healing" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Enerji bedenindeki dengesizlikleri gör.", "en": "See the imbalances in the energy body." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Her yere iyileştirici enerji gönder. Denge, geri gelsin.", "en": "Send healing energy everywhere. Let balance return." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Dengesizlik, tavırla başlar.", "en": "Imbalance begins with attitude." } },
+              { "id": "r2", "text": { "tr": "Kısa ama tatlı. Her gün tazelenir.", "en": "Short but sweet. Refreshed every day." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Monroe Audio Support Meditation 'Heal and Balance' (16:30 free meditation, extended version 32 min) by Allyn Evans, published by the Monroe Institute as a free meditation. Paraphrased as a chakra tune-up session."
+    }
+  ]
+}

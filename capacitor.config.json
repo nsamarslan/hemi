@@ -1,0 +1,14 @@
+{
+  "appId": "com.nsamarslan.ucuncugoz",
+  "appName": "Üçüncü Göz",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#14122a"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_eye",
+      "iconColor": "#E8A94A"
+    }
+  }
+}

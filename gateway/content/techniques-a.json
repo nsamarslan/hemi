@@ -1,0 +1,323 @@
+{
+  "techniques": [
+    {
+      "id": "prep",
+      "no": 1,
+      "category": "prep",
+      "title": { "tr": "Hazırlık Süreci", "en": "The Preparatory Process" },
+      "short": { "tr": "Her oturumun başı: yerleşme, kutu, afirmasyon, rezonans ayarı.", "en": "The start of every session: settling, the box, the affirmation, resonant tuning." },
+      "state": "prep",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Gateway el kitabının her egzersizden önce yapılan standart hazırlığıdır. Amaç, zihni günün gürültüsünden ayırıp Hemi-Sync sinyallerine açılmaktır. Dört adımdan oluşur: yerleşme ve gevşeme, Enerji Dönüşüm Kutusu, Gateway Afirmasyonu ve rezonans ayarı (uğultu).", "en": "The standard preparation from the Gateway Guidance Manual, done before every exercise. Its aim is to clear the mind of the day's noise and open it to the Hemi-Sync signals. It has four steps: settling and relaxing, the Energy Conversion Box, the Gateway Affirmation and resonant tuning (the hum)." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Rahatça sırt üstü uzan; başının altında alçak bir yastık olsun. Kulaklığını tak, sesi düşük tut.", "en": "Lie down comfortably on your back; a low pillow under your head. Put on your headphones, keep the volume low." },
+          { "tr": "Gözlerini kapat ve her kası tek tek gevşet.", "en": "Close your eyes and relax every muscle, one by one." },
+          { "tr": "Zihninin önüne bir kutu getir; günün kaygılarını, aklındaki soruları içine koy. Kapağını kapat, yanına bırak.", "en": "Bring a box before your mind; put the day's worries and every question into it. Close the lid and set it aside." },
+          { "tr": "Gateway Afirmasyonu'nu içinden söyle: 'Fiziksel bedenimden fazlasıyım...'", "en": "Say the Gateway Affirmation to yourself: 'I am more than my physical body...'" },
+          { "tr": "Rezonans ayarı: burnundan uzun bir nefes al, mırıldanarak ver; boğazında titreşim olsun.", "en": "Resonant tuning: take a long breath in through your nose, hum as you breathe out; let there be vibration in your throat." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Her egzersizden önce, tercihen günün aynı saatinde. Hazırlık, oturumun verimini belirleyen en önemli adımdır; atlama.", "en": "Before every exercise, preferably at the same time of day. Preparation is the single most important step for a session's effectiveness; don't skip it." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Aynı saatte yapmak, bedenin ritme şartlanmasını sağlar.", "en": "Doing it at the same time daily conditions the body to the rhythm." },
+        { "tr": "Kutu 'dışarıda' bir yermiş gibi hisset: onu gerçekten bırakabildiğini hisset.", "en": "Treat the box as a real place outside yourself: feel that you can truly leave it there." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: the Preparatory Process from the Gateway Experience Guidance Manual. The app's `prep` template speaks these steps aloud."
+    },
+    {
+      "id": "ecb",
+      "no": 2,
+      "category": "prep",
+      "title": { "tr": "Enerji Dönüşüm Kutusu (ECB)", "en": "The Energy Conversion Box (ECB)" },
+      "short": { "tr": "Günlük kaygıları 'dışarıya' koymak için zihinsel bir kutu.", "en": "A mental box for putting the day's concerns 'outside' yourself." },
+      "state": "prep",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "ECB, zihninin önüne getirdiğin, her türlü endişe, görev ve gürültüyü içine attığın bir kap. Oturum boyunca orada kalır; oturum bitince geri alırsın. El kitabı ona 'mental' bir konteyner der: kullanım amacın, dikkatini dağıtan her şeyi bertaraf etmektir.", "en": "The ECB is a container you bring before your mind and put every worry, task and noise into. It stays there for the whole session; you take it back when the session ends. The manual calls it a 'mental' container: its purpose is to remove everything that distracts your attention." },
+          { "tr": "Kutu hayalinin şekli önemli değildir: bir kutu, bir sandık, bir çanta, hatta bir gezegen bile olabilir. Önemli olan, içeriği 'orada' bırakmaktır.", "en": "The shape of your box doesn't matter: it can be a box, a chest, a bag, even a planet. What matters is leaving the contents 'over there'." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Gözler kapalıyken zihninin önünde bir kutu gör.", "en": "With eyes closed, see a box before your mind." },
+          { "tr": "Gün boyu aklında dönen her şeyi — yapılacaklar, yarınki toplantı, ödenecek fatura — tek tek kutunun içine koy.", "en": "Put everything that has been circling in your mind all day — to-dos, tomorrow's meeting, the unpaid bill — into the box, one by one." },
+          { "tr": "Kapağını kapat. Kenara koy. 'Burası benim alanım, kutu orası' de.", "en": "Close the lid. Set it aside. 'This is my space, the box is over there.'" },
+          { "tr": "Oturum bitince kutuyu geri getir, içindekileri gözden geçir.", "en": "When the session ends, bring the box back and review what's inside." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Hazırlık sürecinin ikinci adımı olarak, her oturumdan önce. Özellikle zihin dağınıksa vazgeçilmezdir.", "en": "As the second step of the preparatory process, before every session. Indispensable when the mind is scattered." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Kutunun içine 'enerji' de koyabilirsin: günün yorgunluğunu da at.", "en": "You can also put 'energy' into the box: the day's tiredness too." },
+        { "tr": "Kutu, 'yok etmek' için değil, 'ertelemek' içindir. İçindekiler kaybolmaz, sıraya konur.", "en": "The box is for 'postponing', not 'destroying'. Nothing inside is lost; it is put in order." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Energy Conversion Box' from the Gateway Guidance Manual (also called the ECB in community literature)."
+    },
+    {
+      "id": "affirmation",
+      "no": 3,
+      "category": "prep",
+      "title": { "tr": "Gateway Afirmasyonu", "en": "The Gateway Affirmation" },
+      "short": { "tr": "'Fiziksel bedenimden fazlasıyım' ile başlayan niyet cümlesi.", "en": "The intention sentence that begins 'I am more than my physical body'." },
+      "state": "prep",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Afirmasyon, oturumun niyetini belirleyen bir beyandır. El kitabı tam metnini verir ve 'kelimeler değil, niyet önemlidir' der. İki bölümden oluşur: birincisi 'fiziksel bedenimden fazlasıyım' ile başlar; ikincisi daha bilgili varlıklardan yardım ve koruma ister.", "en": "The affirmation is a statement that sets the session's intention. The manual gives its full text and notes that 'the intent rather than the words themselves is what matters'. It has two parts: the first begins 'I am more than my physical body'; the second asks for help and protection from beings whose wisdom is greater than your own." },
+          { "tr": "Tam metin: 'Fiziksel bedenimden fazlasıyım. Fiziksel maddeden fazlası olduğum için, fiziksel dünyanın ötesini algılayabilirim. Bu yüzden, bana ve benden sonra gelenlere faydalı ve yapıcı olacak daha büyük enerjileri ve enerji sistemlerini Genişletmeyi, Deneyimlemeyi; Bilmeyi, Anlamayı; Kontrol Etmeyi, Kullanmayı derinlemesine arzu ederim. Ayrıca, bilgeliği, gelişimi ve deneyimi kendiminkinden eşit ya da büyük olan kişilerin yardımını, işbirliğini, desteğini ve anlayışını; niyetlerimden daha azını verebilecek her etkiden ve her kaynaktan korumalarını dilerim.'", "en": "Full text: 'I am more than my physical body. Because I am more than physical matter, I can perceive that which is greater than the physical world. Therefore, I deeply desire to Expand, to Experience; to Know, to Understand; to Control, to Use such greater energies and energy systems as may be beneficial and constructive to me and to those who follow me. Also, I deeply desire the help and cooperation, the assistance, the understanding of those individuals whose wisdom, development, and experience are equal to or greater than my own. I ask their guidance and protection from any influence or any source that might provide me with less than my stated desires.'" }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Hazırlık sürecinde, kutudan sonra, afirmasyonu içinden söyle.", "en": "During preparation, after the box, say the affirmation to yourself." },
+          { "tr": "Kelimesi kelimesine uymak zorunda değilsin; 'genişlemeyi, deneyimlemeyi, bilmeyi, kontrol etmeyi ve kullanmayı derinden arzuluyorum' niyetini hisset.", "en": "You don't have to match it word for word; feel the intent: 'I deeply desire to expand, experience, know, understand, control and use.'" },
+          { "tr": "İkinci bölümde, senden daha bilgili varlıklardan yardım iste.", "en": "In the second part, ask for help from beings wiser than you." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Her oturumun hazırlığında, tercihen her gün aynı saatte. Niyet, oturumun pusulasıdır.", "en": "In the preparation of every session, preferably at the same time each day. Intention is the compass of the session." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Afirmasyonu yüksek sesle söylemek zorunda değilsin; içinden, ama kalpten söyle.", "en": "You don't have to say it aloud; say it within, but from the heart." },
+        { "tr": "'Koruma' dileği, olumsuz etkileri 'sansürlemek' değil, niyetini korumaktır.", "en": "The 'protection' request is not about censoring negative influences; it is about protecting your intention." }
+      ],
+      "warnings": [],
+      "notes": "Monroe text: 'The Gateway Affirmation' from the Gateway Experience Guidance Manual. Quoted for reference (short, public, non-narrative); the app's spoken guidance paraphrases it."
+    },
+    {
+      "id": "tuning",
+      "no": 4,
+      "category": "breathing",
+      "title": { "tr": "Rezonans Ayarı (Uğultu)", "en": "Resonant Tuning (The Hum)" },
+      "short": { "tr": "Nefesle titreşim: bedenini ve zihnini uyuma hazırlar.", "en": "Breath and vibration: attunes body and mind to the session." },
+      "state": "prep",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Rezonans ayarı, hazırlık sürecinin son adımıdır: burnundan derin bir nefes alır, mırıldanarak (uğultuyla) verirsin; boğazında titreşim oluşur. El kitabı buna 'rezonans ayarı' der ve 'tüm sistemini canlandırıp şarj eden, zihinsel konuşmayı azaltan bir nefes egzersizi' olarak anlatır.", "en": "Resonant tuning is the final step of preparation: you take a deep breath in through your nose and breathe out humming, so that there is vibration in your throat. The manual calls it 'resonant tuning' and describes it as a breathing exercise that vitalizes and charges your entire system while reducing inner dialogue." },
+          { "tr": "Amaç iki yönlüdür: beden genelinde titreşim dalgası yaratmak ve zihnin kendi kendine susmasını sağlamaktır.", "en": "The aim is two-fold: to create a wave of vibration through the body, and to let the mind quiet itself." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Burnundan uzun ve derin bir nefes al.", "en": "Take a long, deep breath in through your nose." },
+          { "tr": "Ağzını hafifçe arala, sesi boğazından çıkar: 'hmmmm' — mırıldanarak ver.", "en": "Part your lips slightly and let the sound come from your throat: 'hmmmm' — hum as you breathe out." },
+          { "tr": "Titreşimi hisset: boğazında, göğsünde, tüm bedende.", "en": "Feel the vibration: in your throat, your chest, your whole body." },
+          { "tr": "Birkaç nefes böyle sür; sonra nefesi kendi haline bırak.", "en": "Continue for a few breaths like this; then let the breath find its own rhythm." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Hazırlık sürecinde, afirmasyondan hemen sonra. Ayrıca gün içinde stres anlarında tek başına da kullanılabilir.", "en": "In the preparatory process, right after the affirmation. It can also be used alone in moments of stress during the day." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Titreşim hafif hafif artar; zorlama.", "en": "The vibration grows gently; don't force it." },
+        { "tr": "Uğultu, Hemi-Sync sinyalleriyle aynı 'rezonans' ilkesinin bedensel halidir.", "en": "The hum is the bodily form of the same 'resonance' principle as the Hemi-Sync signals." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Resonant Tuning' from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "rebal",
+      "no": 5,
+      "category": "protection",
+      "title": { "tr": "REBAL — Rezonans Enerji Balonu", "en": "REBAL — Resonant Energy Balloon" },
+      "short": { "tr": "Seni saran, koruyan ve geri döndüren yumurta şeklinde bir enerji alanı.", "en": "An egg-shaped field of energy that surrounds you, protects you and brings you back." },
+      "state": "focus10",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "REBAL, 'Resonant Energy Balloon' — Rezonans Enerji Balonu — kelimelerinin kısaltmasıdır. Focus 10'da, bedeninin etrafında yumurta şeklinde bir enerji balonu yaratırsın. El kitabı REBAL'i 'enerji bedenin' olarak anlatır: seni sarar, korur ve seni her yerden güvenli bir şekilde geri döndürür.", "en": "REBAL stands for 'Resonant Energy Balloon'. In Focus 10, you create an egg-shaped balloon of energy around your body. The manual describes the REBAL as 'your energy body': it surrounds you, protects you and safely returns you from wherever you go." },
+          { "tr": "REBAL, beden dışı çalışmanın 'güvenlik kemeridir'. Oturum sonunda balonu geri emersin — bu, 'eve dönüş'ün somut halidir.", "en": "The REBAL is the 'seatbelt' of out-of-body work. At the end of the session you reabsorb the balloon — that is the concrete form of 'coming home'." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 10'a geçtikten sonra bedeninin etrafında bir yumurta hayal et.", "en": "Once in Focus 10, imagine an egg around your body." },
+          { "tr": "Yumurtanın içindeki 'enerjiyi' hisset: karıncalanma, bir alan, hafif bir kabuk.", "en": "Feel the 'energy' of the egg: tingling, a field, a light shell." },
+          { "tr": "Balonu büyüt: tepe noktasından yukarı, ayak tabanlarından aşağı genişlet.", "en": "Grow the balloon: widen it above your crown and below your feet." },
+          { "tr": "Oturum boyunca balonun seni sardığını, koruduğunu hisset.", "en": "Throughout the session, feel that the balloon surrounds and protects you." },
+          { "tr": "Dönüşte balonu içeri doğru katla, em. Enerji bedenine dönsün.", "en": "On the return, fold the balloon inward, absorb it. Let the energy return to your body." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Advanced Focus 10 ile öğrenilir; sonra tüm oturumlarda (özellikle ayrışma, görev ve serbest akışlarda) kullanılır.", "en": "It is learned with Advanced Focus 10 and used in all later sessions — especially separation, missions and free flow." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Balon büyüdükçe içindeki hisler hafifler; bu normaldir.", "en": "As the balloon grows, the sensations inside may soften; that is normal." },
+        { "tr": "Dönüşte acele etme: balonu emmek, bedenine 'geri dönmenin' en somutut adımıdır.", "en": "Don't rush on the return: absorbing the balloon is the most concrete step of 'coming back to the body'." },
+        { "tr": "Balon, 'sınır' değil, 'alan'dır: içinde hareket edebilirsin.", "en": "The balloon is not a 'wall' but a 'field': you can move within it." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Resonant Energy Balloon (REBAL)' from the Gateway Experience Guidance Manual and the Advanced Focus 10 exercise."
+    },
+    {
+      "id": "ebt",
+      "no": 6,
+      "category": "tools",
+      "title": { "tr": "Enerji Çubuğu Aracı (EBT)", "en": "The Energy Bar Tool (EBT)" },
+      "short": { "tr": "Bedenindeki enerjiyi temizleyen, yükleyen ve hareket ettiren bir çubuk.", "en": "A bar of energy that cleanses, charges and moves energy in your body." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "EBT, Focus 12'de öğretilen ilk araçtır. Elinde tuttuğun, iki ucundan tutulan bir enerji çubuğu hayal edersin. El kitabı: EBT ile bedenini tarar, kirli veya düğümlü yerleri temizler, enerjiyi toplar, taşır ve dengeler.", "en": "The EBT is the first tool taught in Focus 12. You imagine an energy bar that you hold at both ends. The manual: with the EBT you scan your body, cleanse dirty or knotted places, gather, carry and balance energy." },
+          { "tr": "Araç 'fiziksel' değildir; zihinseldir. Ama hissi gerçektir: çubuğu gezdirdiğin yerde bir akış, bir temizlik hissedersin.", "en": "The tool is not 'physical'; it is mental. But the feeling is real: where you move the bar, you feel a flow, a cleansing." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 12'de, iki elinle bir çubuk tuttuğunu hayal et.", "en": "In Focus 12, imagine holding a bar with both hands." },
+          { "tr": "Çubuğu bedeninin üzerinde gezdir: ayaklar → bacaklar → karın → göğüs → kollar → baş.", "en": "Move the bar over your body: feet → legs → belly → chest → arms → head." },
+          { "tr": "Düğüm, soğukluk, ağırlık hissettiğin yerde dur; temizle: 'burayı topla, taşı, dengele'.", "en": "Where you feel a knot, coldness or heaviness, stop; cleanse: 'gather here, carry, balance.'" },
+          { "tr": "Tüm bedeni taradıktan sonra çubuğu indir, ellerini ovuştur.", "en": "After scanning the whole body, lower the bar and rub your hands together." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Threshold dalgasından itibaren her oturumda; özellikle beden temizliği ve Biyo-Beden (Bio-Body) egzersizinde.", "en": "In every session from the Threshold wave onward; especially in body-cleansing work and the Bio-Body exercise." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Çubuk, 'elektrik süpürgesi' gibidir: çeker, toplar, taşır.", "en": "The bar works like a 'vacuum cleaner': it draws, gathers, carries." },
+        { "tr": "Hızlı tarama, yüzeysel temizlik; yavaş tarama, derin temizlik getirir.", "en": "A fast scan cleans the surface; a slow scan goes deeper." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Energy Bar Tool' (Threshold #5) from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "bodymap",
+      "no": 7,
+      "category": "tools",
+      "title": { "tr": "Canlı Beden Haritası", "en": "The Living Body Map" },
+      "short": { "tr": "Bedeninin zihinsel bir haritası; enerjiyi yerinde bulursun.", "en": "A mental map of your body; you find energy where it is." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Canlı Beden Haritası, bedeninin iç yapısını zihninde canlandırmaktır: kemikler, organlar, damarlar, enerji yolları. El kitabı: harita, bedenindeki enerjiyi 'görmene', 'bulmana' ve üzerinde çalışmana yarar.", "en": "The Living Body Map is bringing the inner structure of your body to life in your mind: bones, organs, vessels, energy pathways. The manual: the map lets you 'see' the energy in your body, 'find' it and work on it." },
+          { "tr": "Harita ne kadar canlıysa, EBT ile taraman o kadar hedefe yönelir.", "en": "The more vivid the map, the more precisely your EBT scan is aimed." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 12'de, bedeninin içinde bir 'harita' hisset: iskelet, organlar, nabız atan noktalar.", "en": "In Focus 12, feel a 'map' inside your body: skeleton, organs, pulsing points." },
+          { "tr": "Dikkatini bir bölgeye ver: örneğin karaciğer, akciğerler, eller.", "en": "Give your attention to a region: for example the liver, the lungs, the hands." },
+          { "tr": "Orada ne hissediyorsan onu izle: sıcaklık, soğukluk, nabız, akış.", "en": "Watch whatever you feel there: warmth, coolness, pulse, flow." },
+          { "tr": "EBT çubuğuyla o bölgeyi destekle.", "en": "Support that region with the EBT bar." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Living Body Map egzersizinde ve bedenle ilgili her çalışmada (Biyo-Beden, iyileştirme).", "en": "In the Living Body Map exercise and in any body-related work (Bio-Body, healing)." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Harita, tıbbi anatomi bilgisi gerektirmez; sezgisel bir haritadır.", "en": "The map doesn't require medical anatomy knowledge; it is an intuitive map." },
+        { "tr": "Nabzını hissettiğin her yer, haritada bir 'düğüm noktasıdır'.", "en": "Every place where you feel your pulse is a 'node' on the map." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Living Body Map' (Threshold #6) from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "color",
+      "no": 8,
+      "category": "breathing",
+      "title": { "tr": "Renk Nefesi", "en": "Color Breathing" },
+      "short": { "tr": "Yedi rengi nefese katıp bedenine yayan bir temizlik nefesi.", "en": "A cleansing breath that weaves seven colors into your body." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Renk Nefesi (el kitabında 'Brain Power' bölümüyle birlikte anlatılır), yedi temel rengi nefese katarak bedene yayar: kırmızı, turuncu, sarı, yeşil, mavi, lacivert, menekşe (ve beyaz). Her renk bir 'temizlik dalgası' gibi bedenden geçer.", "en": "Color Breathing (described in the manual alongside the 'Brain Power' section) weaves the seven basic colors into the breath and spreads them through the body: red, orange, yellow, green, blue, indigo, violet (and white). Each color passes through the body like a 'cleansing wave'." },
+          { "tr": "Amaç, bedenin her bölgesini 'renkle yıkamaktır': kirli, düğümlü, yorgun yerleri temizlemek ve canlandırmak.", "en": "The aim is to 'wash' every part of the body with color: to cleanse and enliven places that are dirty, knotted or tired." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 10 ve 12'de, nefes alırken bir renk 'çek': örneğin kırmızı.", "en": "In Focus 10 and 12, 'draw in' a color as you breathe in: for example red." },
+          { "tr": "Rengi, bedeninin ihtiyaç duyduğu duyduğu yere yönlendir: karaciğere, akciğere, ellerine.", "en": "Direct the color to where your body needs it: the liver, the lungs, the hands." },
+          { "tr": "Nefes verirken kiri, yorgunluğu o renkle dışarı ver.", "en": "As you breathe out, release the dirt and tiredness with that color." },
+          { "tr": "Sırayla tüm renkleri gez: kırmızı, turuncu, sarı, yeşil, mavi, lacivert, menekşe.", "en": "Move through all the colors in turn: red, orange, yellow, green, blue, indigo, violet." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Color Breathing egzersizinde; beden temizliği, canlanma ve iyileştirme çalışmalarında.", "en": "In the Color Breathing exercise; in body cleansing, enlivening and healing work." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Renkleri 'görmek' zordan gelirse, sadece hisset.", "en": "If 'seeing' the colors is hard, just feel them." },
+        { "tr": "Yedi renk, Miranon'un yedi rezonans rengiyle akrabadır (bkz. Teknikler sekmesindeki 'Yedi Rezonans Rengi').", "en": "The seven colors are kin to Miranon's seven resonant colors (see 'Seven Resonant Colors' in the Techniques tab)." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Color Breathing' (Threshold #4, with the 'Brain Power' section) from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "patterning",
+      "no": 9,
+      "category": "mental",
+      "title": { "tr": "Örüntü Çalışması (Patterning)", "en": "Patterning" },
+      "short": { "tr": "İstenen sonucu, sanki olmuş gibi zihinde örüntülemek.", "en": "Weaving a desired outcome in the mind as if it has already happened." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Örüntü (patterning), istenen bir sonucu — bir hedef, bir iyileşme, bir beceri — sanki şimdiden olmuş gibi zihinde canlandırmaktır. El kitabı: örüntü, 'geleceği bugünden kurmaktır'; zihin, yaşanmışı ile henüz yaşanmamış olanı aynı şekilde işler.", "en": "Patterning is bringing a desired outcome — a goal, a healing, a skill — to life in the mind as if it has already happened. The manual: patterning is 'building the future from today'; the mind processes what has been experienced and what has not yet been experienced in the same way." },
+          { "tr": "Gateway'de iki örüntü egzersizi vardır: Bir Aylık Örüntü (Threshold #3) ve Bir Yıllık Örüntü (Adventure #1).", "en": "The Gateway has two patterning exercises: One-Month Patterning (Threshold #3) and One-Year Patterning (Adventure #1)." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 12'de, ulaşmak istediğin sonucu bir cümleyle netleştir.", "en": "In Focus 12, clarify the outcome you want to reach in a single sentence." },
+          { "tr": "O sonucu, sanki şimdi yaşanıyormuş gibi hisset: nerede, kimlerle, nasıl hissediyorsun.", "en": "Feel that outcome as if it is happening now: where, with whom, how does it feel." },
+          { "tr": "Görüntüye duygu kat: sevinç, minnettarlık, gurur. Duygu, örüntünün çimentosudur.", "en": "Add emotion to the image: joy, gratitude, pride. Emotion is the cement of the pattern." },
+          { "tr": "Örüntüyü 'yerine oturt': 'bu, benim yeni halim.' De ve çık.", "en": "'Seat' the pattern: 'this is my new state of being.' Then come out of it." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Örüntü egzersizlerinde; hedef, sağlık, ilişki, iş ve yaratım çalışmalarında. Human Plus'ın Möbius West fonksiyonu da örüntüyle akrabadır.", "en": "In the patterning exercises; for goals, health, relationships, work and creative work. The Human Plus 'Moebius West' function is also kin to patterning." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Bulanık örüntü, dağınık sonuç getirir; hedefi bir cümleyle tut.", "en": "A muddy pattern brings a scattered result; hold the goal in a single sentence." },
+        { "tr": "Örüntü, 'umut etmek' değildir; 'yaşanmışı hissetmektir'.", "en": "Patterning is not 'hoping'; it is 'feeling the already-lived'." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'One-Month Patterning' (Threshold #3) and 'One-Year Patterning' (Adventure #1) from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "food",
+      "no": 10,
+      "category": "mental",
+      "title": { "tr": "Enerji Besini (Energy Food)", "en": "Energy Food" },
+      "short": { "tr": "Çevreden —toprak, güneş, ağaçlar— enerji toplayıp bedene almak.", "en": "Gathering energy from the environment — earth, sun, trees — into the body." },
+      "state": "focus12",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "Enerji Besini, bedenin 'enerji açlığını' çevreden tamamlamaktır: toprak, güneş, ağaçlar, hava, su — hepsi enerji taşır. El kitabı: bu egzersizde çevreden enerji çeker, bedenine depolarsın.", "en": "Energy Food is completing the body's 'energy hunger' from the environment: earth, sun, trees, air, water — all carry energy. The manual: in this exercise you draw energy from the surroundings and store it in your body." },
+          { "tr": "Amaç, bedeni 'doldurmak' ve canlı tutmaktır; yorgunluk, halsizlik anlarında özellikle değerlidir.", "en": "The aim is to 'fill' and enliven the body; it is especially valuable in moments of tiredness and weakness." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Focus 12'de, bedeninin etrafındaki alanı hisset.", "en": "In Focus 12, feel the space around your body." },
+          { "tr": "Bir kaynak seç: güneş, bir ağaç, toprak, deniz.", "en": "Choose a source: the sun, a tree, the earth, the sea." },
+          { "tr": "O kaynaktan bir 'enerji akışı' çek: nefesinle içeri al.", "en": "Draw a 'stream of energy' from that source: take it in with your breath." },
+          { "tr": "Enerjiyi bedeninin merkezinde depola; oradan tüm bedene yay.", "en": "Store the energy at the center of your body; from there let it spread through the whole body." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Energy Food egzersizinde; yorgunluk, stres ve çöküş anlarında.", "en": "In the Energy Food exercise; in moments of tiredness, stress and depletion." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Gerçek bir ağaç, deniz veya güneş yakındaysa, o kaynak daha güçlüdür.", "en": "If a real tree, sea or sun is near, that source is stronger." },
+        { "tr": "Enerji 'besin' gibidir: fazla depolamazsın; ihtiyacın kadarını al.", "en": "Energy is like food: you can't store too much; take what you need." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'Energy Food' (Freedom #5) from the Gateway Experience Guidance Manual."
+    },
+    {
+      "id": "onebreath",
+      "no": 11,
+      "category": "breathing",
+      "title": { "tr": "Tek Nefes Tekniği", "en": "The One-Breath Technique" },
+      "short": { "tr": "Tek nefeste tüm bedenden enerji toplayıp beyne yüklemek.", "en": "Gathering energy from the whole body into the brain in a single breath." },
+      "state": "focus10",
+      "sections": [
+        { "h": { "tr": "Nedir?", "en": "What it is" }, "p": [
+          { "tr": "El kitabının 'One-Breath Technique'ı: tek bir derin nefeste, tüm bedenden enerji toplar, bunu başla tepeye taşır, nefesi tutar, enerjiyi beyinde döndürür ve mırıldanarak verirsin. Anında tazelenme ve zihinsel berraklık sağlar.", "en": "The 'One-Breath Technique' from the manual: in a single deep breath you gather energy from the whole body, carry it up to the crown, hold the breath, swirl the energy around the brain and breathe out humming. It brings instant refreshment and mental clarity." },
+          { "tr": "Gateway egzersizlerinin hazırlık adımlarından biridir; gün içinde tek başına da kullanılabilir.", "en": "It is one of the preparation steps of the Gateway exercises; it can also be used alone during the day." }
+        ] },
+        { "h": { "tr": "Nasıl yapılır?", "en": "How to do it" }, "steps": [
+          { "tr": "Burnundan derin bir nefes al; tüm bedenden enerji topla, başla tepeye taşı.", "en": "Take a deep breath in through your nose; gather energy from the whole body and carry it up to the crown." },
+          { "tr": "Nefesi tut; enerjiyi beyinin etrafında döndür. (Rahat sürenin kadar tut; zamanla on sayıya kadar çık.)", "en": "Hold the breath; swirl the energy around your brain. (Hold for a comfortable length; over time work up to a count of ten.)" },
+          { "tr": "Mırıldanarak ver; boğazında titreşim olsun.", "en": "Breathe out with a hum; let there be vibration in your throat." }
+        ] },
+        { "h": { "tr": "Ne zaman kullanılır?", "en": "When to use it" }, "p": [
+          { "tr": "Hazırlık sürecinde; yorgunluk, sisli zihin ve kalkış öncesi anlarda.", "en": "In the preparatory process; in moments of tiredness, mental fog and before taking off." }
+        ] }
+      ],
+      "tips": [
+        { "tr": "Tek nefes, 'doldurma' nefesi; ritmik nefes, 'sürdürme' nefesidir.", "en": "The one breath is the 'filling' breath; rhythmic breathing is the 'sustaining' breath." },
+        { "tr": "Günde birkaç kez, kalkıştan hemen önce en etkilidir.", "en": "A few times a day, it is most effective right before a session." }
+      ],
+      "warnings": [],
+      "notes": "Monroe technique: 'The One-Breath Technique' from the Gateway Experience Guidance Manual. Also available as a short session in the Ek Pratikler series (ex-onebreath)."
+    }
+  ]
+}

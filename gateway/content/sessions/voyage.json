@@ -1,0 +1,108 @@
+{
+  "wave": "voyage",
+  "sessions": [
+    {
+      "id": "gv-intro",
+      "wave": "voyage",
+      "no": 1,
+      "focus": ["10"],
+      "title": { "tr": "Giriş Egzersizi", "en": "Introductory Exercise" },
+      "summary": {
+        "tr": "Gateway Voyage programının giriş meditasyonu. Programa açılan ilk kapı; Monroe Sound Science'ın tadına ilk kez varırsın.",
+        "en": "The introductory meditation of the Gateway Voyage programme. The first door opening onto the programme; you meet Monroe Sound Science for the first time."
+      },
+      "goal": {
+        "tr": "Programa giriş yapmak; ilk kez açık bir oturum deneyimlemek.",
+        "en": "Entering the programme; experiencing an open session for the first time."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses düşük, oda loş.",
+        "en": "Lie on your back, or sit in a chair with your head supported. Headphones on, volume low, room dim."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Gateway Voyage Online bu egzersizle başlar; programa gerek duymadan tek başına da yapılabilir.",
+          "en": "Gateway Voyage Online begins with this exercise; it can also be done on its own, without the programme."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "open",
+          "name": { "tr": "Açık Oturum", "en": "Open Session" },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Programa hoş geldin. Bu kısa giriş, programa açılan ilk kapı.", "en": "Welcome to the programme. This short introduction is the first door opening onto it." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Bir hedef koyma. Sadece kal, fark et.", "en": "Set no goal. Simply stay, notice." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Açık kal, bekle.", "en": "Stay open, wait." } },
+              { "id": "r2", "text": { "tr": "Sessizlik, her şeyin zemini.", "en": "Silence is the ground of everything." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Gateway Voyage Introductory Exercise (monroeinstitute.org, free meditation): the introductory meditation used in the flagship Gateway Voyage programme. Length approximated; the original is a short introductory meditation."
+    },
+    {
+      "id": "gv-open",
+      "wave": "voyage",
+      "no": 2,
+      "focus": ["10", "12"],
+      "title": { "tr": "Açık Egzersiz", "en": "Open Exercise" },
+      "summary": {
+        "tr": "Gateway Voyage programının klasik açık egzersizi. Arşivden 43 dakikalık bir kayıt: bir hedef koyma, her geleni gör, her gideni bırak.",
+        "en": "The classic open exercise of the Gateway Voyage programme. A 43-minute recording from the archives: set no goal, see whatever comes, let whatever goes pass."
+      },
+      "goal": {
+        "tr": "Uzun, yönlendirilmemiş bir açık oturum deneyimi.",
+        "en": "A long, unguided open session experience."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda. Uzun oturum.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room. A long session."
+      },
+      "prereq": ["gv-intro"],
+      "tips": [
+        {
+          "tr": "Orijinal kayıt 43 dakikadır; en yakın deneyim için Uzun süre ayarını kullan.",
+          "en": "The original recording is 43 minutes; use the Long preset for the closest experience."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "open",
+          "name": { "tr": "Açık Egzersiz", "en": "Open Exercise" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Açık egzersiz. Bir hedef koyma, sadece kal.", "en": "Open exercise. Set no goal, simply stay." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Her geleni gör, her gideni bırak.", "en": "See whatever comes, let whatever goes pass." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Her şey geçer, sen kalırsın.", "en": "Everything passes, you remain." } },
+              { "id": "r2", "text": { "tr": "Sessizlikte bul.", "en": "Find in the silence." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Gateway Voyage Open Exercise: a classic recording from the archives of The Monroe Institute (43:06, 1980), originally part of the residential Gateway Voyage programme, published by the Institute as a free meditation. The app's default length approximates the original; the Long preset (35 min exploration) comes closest."
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+{
+ "clips": {
+  "00de72dc2eb2": {
+   "dur": 2.58,
+   "text": "When you release a burden, the body grows light.",
+   "batch": 3,
+   "check": "asr:0.93/0.78"
+  },
+  "00f9ebe08d99": {
+   "dur": 3.07,
+   "text": "Don't busy yourself with the breath. Just watch it.",
+   "batch": 3,
+   "check": "asr:1.00/1.00"
+  },
+  "017e067f253d": {
+   "dur": 2.64,
+   "text": "Even if you feel nothing, you are in the state.",
+   "batch": 3,
+   "check": "asr:0.93/0.90"
+  },
+  "01e41581c5ff": {
+   "dur": 4.5,
+   "text": "You are more than your physical body. You can perceive beyond physical sensing.",
+   "batch": 1,
+   "check": "asr:0.96/0.92"
+  },
+  "020093ad5cee": {
+   "dur": 2.46,
+   "text": "The answer comes from an unexpected place.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "0228235e1234": {
+   "dur": 2.64,
+   "text": "Close your eyes and feel your body grow heavy.",
+   "batch": 0,
+   "check": "asr:0.72/0.44"
+  },
+  "0409cd53525e": {
+   "dur": 3.46,
+   "text": "Borderland sleep is the door to the out-of-body experience.",
+   "batch": 2,
+   "check": "asr:0.72/0.82"
+  },
+  "0d4a4fb9dbca": {
+   "dur": 4.42,
+   "text": "Your body is sinking into deep sleep, while your mind stays awake and alert.",
+   "batch": 0,
+   "check": "asr:0.94/0.93"
+  },
+  "0f43edf4a0d9": {
+   "dur": 2.48,
+   "text": "Don't look for anything. Simply notice.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "1040a014a2d3": {
+   "dur": 2.54,
+   "text": "Colours, lights, sounds may come.",
+   "batch": 3,
+   "check": "asr:0.95/0.60"
+  },
+  "10ca15d9d290": {
+   "dur": 1.83,
+   "text": "Bring everything you know together.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "12682786733a": {
+   "dur": 3.84,
+   "text": "Place it at the center of your mind and let it flow out in all directions.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "15644acf4003": {
+   "dur": 7.19,
+   "text": "Move from the state of twelve to the state of fifteen. Count slowly in your mind. Thirteen, fourteen, fifteen.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "165b92df1654": {
+   "dur": 6.16,
+   "text": "Lie down comfortably on your back. Let a low pillow rest under your head and your arms fall to your sides.",
+   "batch": 0,
+   "check": "asr:0.78/0.52"
+  },
+  "1b3ba87e4e6f": {
+   "dur": 4.04,
+   "text": "There may be tingling, warmth, colours. Watch them all.",
+   "batch": 3,
+   "check": "asr:1.00/0.89"
+  },
+  "1b4f47324289": {
+   "dur": 2.73,
+   "text": "Mind awake, this expansion is yours.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "1d5972be40c8": {
+   "dur": 2.49,
+   "text": "The body melts, the mind watches.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "1e20eccd6402": {
+   "dur": 3.7,
+   "text": "With every breath you fill one layer more. You grow light.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "221ba290a0ed": {
+   "dur": 1.92,
+   "text": "Carry your awareness to twenty-three.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "22b7a77810fb": {
+   "dur": 2.77,
+   "text": "Relaxation and wakefulness continue together.",
+   "batch": 3,
+   "check": "asr:0.68/0.60"
+  },
+  "24cf8936b7fe": {
+   "dur": 1.9,
+   "text": "Don't try to hold on to a place.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "257185ef72b8": {
+   "dur": 3.81,
+   "text": "The first step. Reach the borderland sleep state and hold it.",
+   "batch": 2,
+   "check": "asr:0.76/0.91"
+  },
+  "25f7617df09c": {
+   "dur": 2.45,
+   "text": "The body is heavy, the mind is light.",
+   "batch": 3,
+   "check": "asr:0.91/0.88"
+  },
+  "26da2d8a0488": {
+   "dur": 4.9,
+   "text": "Now stay in the state of ten. The body is asleep, the mind is awake.",
+   "batch": 3,
+   "check": "asr:1.00/1.00"
+  },
+  "274a92fffb37": {
+   "dur": 2.15,
+   "text": "The mind awake, that is enough.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "28f7af6bd4c5": {
+   "dur": 4.5,
+   "text": "Loosen your body from head to toe. Release every muscle, one by one.",
+   "batch": 2,
+   "check": "asr:0.93/0.92"
+  },
+  "2aaddde24a65": {
+   "dur": 5.28,
+   "text": "Bring your attention to your toes. Starting there, put every region upward to sleep.",
+   "batch": 3,
+   "check": "asr:0.93/0.86"
+  },
+  "2b8dc36b931e": {
+   "dur": 3.1,
+   "text": "The state is yours. Hold it as long as you can.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "2ce80c1ab179": {
+   "dur": 3.73,
+   "text": "Borderland sleep is the threshold of the out-of-body experience.",
+   "batch": 2,
+   "check": "asr:0.79/0.91"
+  },
+  "313b8acdc170": {
+   "dur": 1.72,
+   "text": "Moving on to the next session.",
+   "batch": 0,
+   "check": "asr:1.00/1.00"
+  },
+  "34446c8a1595": {
+   "dur": 2.13,
+   "text": "Awareness expands like a balloon.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "34cc0e9c3848": {
+   "dur": 2.91,
+   "text": "Your belly, your chest, your head fill up.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "3532ad3ca3ae": {
+   "dur": 4.28,
+   "text": "This series builds the path to the out-of-body experience, step by step.",
+   "batch": 2,
+   "check": "asr:0.96/0.93"
+  },
+  "3574137bebad": {
+   "dur": 2.49,
+   "text": "Your breath slows, your body melts.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "361d9f2b334b": {
+   "dur": 2.97,
+   "text": "Now hold the question on your mind in a single sentence.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "377d15649341": {
+   "dur": 1.08,
+   "text": "No forcing.",
+   "batch": 3,
+   "check": "asr:1.00/1.00"
+  },
+  "392db425b508": {
+   "dur": 4.86,
+   "text": "You are opening into systems beyond physical reality. Your boundaries are dissolving.",
+   "batch": 1,
+   "check": "asr:0.97/0.92"
+  },
+  "474d8c44d297": {
+   "dur": 6.03,
+   "text": "Your awareness is expanding. It reaches beyond the limits of your body, into the space that surrounds you.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "49741db721b0": {
+   "dur": 2.47,
+   "text": "Release the question, trust the flow.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "4c6ac700ec86": {
+   "dur": 3.32,
+   "text": "Wait patiently. The result may not come immediately.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "4d4f15259720": {
+   "dur": 2.15,
+   "text": "Carry your awareness to twenty-seven.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "4daaef32a9a5": {
+   "dur": 1.85,
+   "text": "Prepare to go beyond the body.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "52e8f0c965e9": {
+   "dur": 3.24,
+   "text": "There are no boundaries. It is not clear where you end.",
+   "batch": 4,
+   "check": "asr:0.97/0.91"
+  },
+  "55f0590fab82": {
+   "dur": 4.42,
+   "text": "Close your eyes. Relax every muscle of your body, one by one.",
+   "batch": 0,
+   "check": "asr:0.93/0.75"
+  },
+  "5a38c65974d9": {
+   "dur": 2.31,
+   "text": "Don't fall asleep. Stay awake.",
+   "batch": 3,
+   "check": "asr:1.00/1.00"
+  },
+  "5a42c262b87e": {
+   "dur": 5.15,
+   "text": "Put on your headphones. Keep the volume low, just loud enough to hear for the whole session.",
+   "batch": 0,
+   "check": "asr:1.00/1.00"
+  },
+  "5a4b669d411d": {
+   "dur": 6.52,
+   "text": "Lie down comfortably, or sit in a chair with your head supported. Put on your headphones and keep the volume low.",
+   "batch": 0,
+   "check": "asr:1.00/1.00"
+  },
+  "5a68f0a830ca": {
+   "dur": 5.83,
+   "text": "Bring a box to your mind. Put all of today's worries, every question on your mind, into the box.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "642435ba9330": {
+   "dur": 3.01,
+   "text": "Your breath deepens by itself, don't force it.",
+   "batch": 1,
+   "check": "asr:0.84/0.62"
+  },
+  "689d6a771aca": {
+   "dur": 6.21,
+   "text": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions.",
+   "batch": 2,
+   "check": "asr:0.97/0.90"
+  },
+  "696c1b1147a4": {
+   "dur": 4.36,
+   "text": "The mind is awake, the body is asleep. These two exist together.",
+   "batch": 2,
+   "check": "asr:1.00/0.92"
+  },
+  "6c335e0dd10f": {
+   "dur": 4.03,
+   "text": "Before opening your eyes, feel the aliveness everywhere in your body.",
+   "batch": 0,
+   "check": "asr:0.80/0.91"
+  },
+  "6f0116f13709": {
+   "dur": 3.6,
+   "text": "Your programme is complete. Would you like to note it in your journal?",
+   "batch": 0,
+   "check": "asr:0.91/0.69"
+  },
+  "72045028d656": {
+   "dur": 2.3,
+   "text": "Stay here until the bells call you back.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "723bb6f618b4": {
+   "dur": 2.06,
+   "text": "Whatever comes, passes away.",
+   "batch": 3,
+   "check": "asr:1.00/1.00"
+  },
+  "74d98afb9632": {
+   "dur": 5.1,
+   "text": "Your awareness is stepping outside your body. Feel the room, the house, the sky.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "7aba441d55f1": {
+   "dur": 4.53,
+   "text": "Move your fingers, wiggle your toes. Bring your energy back into your body.",
+   "batch": 0,
+   "check": "asr:1.00/1.00"
+  },
+  "7abce257a7ac": {
+   "dur": 6.67,
+   "text": "Move from the state of ten to the state of twelve. Count slowly in your mind. Ten, eleven, twelve.",
+   "batch": 1,
+   "check": "asr:0.97/0.89"
+  },
+  "7c3bbc8d9daa": {
+   "dur": 2.56,
+   "text": "Let your command repeat silently in your mind.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "7cad915de9fd": {
+   "dur": 3.86,
+   "text": "Now wander on your own. There is no direction, no goal.",
+   "batch": 3,
+   "check": "asr:0.85/0.82"
+  },
+  "7f779de841ba": {
+   "dur": 6.0,
+   "text": "Build a bridge to twenty-one. Project your awareness beyond your body, toward other energy systems.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "8251d094211c": {
+   "dur": 2.21,
+   "text": "The mind opens when it stops working.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "86928ec3e818": {
+   "dur": 6.89,
+   "text": "Now move to the state of ten. Take a deep breath in through your nose, hold the number ten in your mind, and breathe out.",
+   "batch": 0,
+   "check": "asr:0.96/0.92"
+  },
+  "87ceecfbc25b": {
+   "dur": 3.44,
+   "text": "A feeling may call you. Go, but without forcing.",
+   "batch": 3,
+   "check": "asr:0.83/0.67"
+  },
+  "8af868be70d1": {
+   "dur": 4.6,
+   "text": "Close the lid and set it aside. It will stay there until the session is over.",
+   "batch": 1,
+   "check": "asr:0.96/0.94"
+  },
+  "8dafe4459d5c": {
+   "dur": 4.63,
+   "text": "Feel your body growing heavy and loose. Your mind watches over the whole body.",
+   "batch": 0,
+   "check": "asr:0.92/0.86"
+  },
+  "8e8161522b0b": {
+   "dur": 3.11,
+   "text": "Each region grows heavy, melts, sleeps.",
+   "batch": 3,
+   "check": "asr:1.00/1.00"
+  },
+  "8fbb986ca778": {
+   "dur": 5.22,
+   "text": "The method is called borderland sleep. The body sleeps, the mind stays awake.",
+   "batch": 2,
+   "check": "asr:0.79/0.92"
+  },
+  "9056b093d61b": {
+   "dur": 3.52,
+   "text": "The session is complete. Would you like to note it in your journal?",
+   "batch": 0,
+   "check": "asr:0.95/0.85"
+  },
+  "910612aa195f": {
+   "dur": 2.24,
+   "text": "Expansion comes before contraction.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "a5efa0ba6ad6": {
+   "dur": 3.74,
+   "text": "When you are full, overflow. It balances itself.",
+   "batch": 4,
+   "check": "asr:0.94/0.75"
+  },
+  "a6ec6d8df2e0": {
+   "dur": 1.23,
+   "text": "One minute left.",
+   "batch": 0,
+   "check": "asr:1.00/1.00"
+  },
+  "a8940c904dbc": {
+   "dur": 1.97,
+   "text": "Release as much as you can release.",
+   "batch": 3,
+   "check": "asr:0.91/0.71"
+  },
+  "a8aefeb4e958": {
+   "dur": 3.13,
+   "text": "The ankles, the calves, the knees, the hips.",
+   "batch": 3,
+   "check": "asr:0.88/0.75"
+  },
+  "a9278838e910": {
+   "dur": 3.01,
+   "text": "The mind awake, that is the most precious feeling.",
+   "batch": 3,
+   "check": "asr:1.00/1.00"
+  },
+  "a975c854014b": {
+   "dur": 4.24,
+   "text": "Now let yourself go. Sleep will take you, your mind will stay awake.",
+   "batch": 4,
+   "check": "asr:0.86/0.77"
+  },
+  "ad665d582026": {
+   "dur": 2.45,
+   "text": "Relaxation does not ask for your effort.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "ae7324af0975": {
+   "dur": 5.81,
+   "text": "Five, four, three, two, one. You are returning to waking awareness.",
+   "batch": 0,
+   "check": "asr:0.95/0.82"
+  },
+  "b06d0647390f": {
+   "dur": 3.89,
+   "text": "Think of the month ahead. What state do you want to be in during that month?",
+   "batch": 4,
+   "check": "asr:0.94/0.88"
+  },
+  "b2a69e74c0c6": {
+   "dur": 3.66,
+   "text": "Feel that state now. As if that month had already arrived.",
+   "batch": 4,
+   "check": "asr:0.67/0.55"
+  },
+  "b38faaee64b4": {
+   "dur": 2.94,
+   "text": "The body is like a blanket. You are outside it.",
+   "batch": 3,
+   "check": "asr:0.77/0.70"
+  },
+  "b3ecb9d67221": {
+   "dur": 4.05,
+   "text": "Feel the movements of energy. Tingling, warmth, lightness.",
+   "batch": 3,
+   "check": "asr:0.92/0.88"
+  },
+  "b7665786d7d0": {
+   "dur": 4.07,
+   "text": "Lie down comfortably. Put on your headphones and keep the volume low.",
+   "batch": 0,
+   "check": "asr:1.00/1.00"
+  },
+  "b7f09a77695b": {
+   "dur": 2.48,
+   "text": "The state is deepening. Don't force it.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "b83918b405de": {
+   "dur": 2.2,
+   "text": "Mind awake, body asleep.",
+   "batch": 0,
+   "check": "asr:0.82/0.50"
+  },
+  "b963d20098f6": {
+   "dur": 1.27,
+   "text": "Let yourself go.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "bc1df24dce36": {
+   "dur": 3.82,
+   "text": "The fourth step. Combine everything into a single exercise.",
+   "batch": 2,
+   "check": "asr:0.95/0.89"
+  },
+  "bf43ae8644f2": {
+   "dur": 2.17,
+   "text": "Wakefulness is a light alertness.",
+   "batch": 2,
+   "check": "asr:0.50/0.20"
+  },
+  "c13af4dd058e": {
+   "dur": 1.88,
+   "text": "The answer follows the question.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "c14cf66a1b54": {
+   "dur": 4.21,
+   "text": "Now begin to return. Come back from where you are to the state of ten.",
+   "batch": 0,
+   "check": "asr:1.00/1.00"
+  },
+  "c298c025981c": {
+   "dur": 3.8,
+   "text": "Be regular and patient. Every session bridges to the next.",
+   "batch": 2,
+   "check": "asr:0.88/0.70"
+  },
+  "c334843aa84b": {
+   "dur": 4.42,
+   "text": "The flow of time slows. Past, present and future exist together.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "cb8da41a2fbc": {
+   "dur": 3.21,
+   "text": "Now breathe in a bright energy. Fill your body with it.",
+   "batch": 3,
+   "check": "asr:0.97/0.91"
+  },
+  "d2ee79f2ce8a": {
+   "dur": 3.62,
+   "text": "With every breath, sink deeper. There is no forcing.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  },
+  "d90f1f3cb74f": {
+   "dur": 3.37,
+   "text": "Release them one by one. Let them out as you breathe out.",
+   "batch": 3,
+   "check": "asr:1.00/1.00"
+  },
+  "d9c742ffd519": {
+   "dur": 3.13,
+   "text": "Let it go. Watch, but don't try to solve.",
+   "batch": 4,
+   "check": "asr:0.46/0.33"
+  },
+  "dab9e3802f1b": {
+   "dur": 4.72,
+   "text": "Think of everything the day has accumulated. Tension, tiredness, rush.",
+   "batch": 3,
+   "check": "asr:1.00/1.00"
+  },
+  "df66f5c120ac": {
+   "dur": 2.4,
+   "text": "The energy fills your hands, your feet.",
+   "batch": 4,
+   "check": "asr:0.84/0.71"
+  },
+  "e03337b81a3a": {
+   "dur": 3.71,
+   "text": "Deep explorations are possible here. You have no limits.",
+   "batch": 2,
+   "check": "asr:0.90/0.67"
+  },
+  "e15f48cee8a1": {
+   "dur": 3.9,
+   "text": "I ask for help and guidance from beings whose wisdom is greater than mine.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "e6916f936229": {
+   "dur": 4.03,
+   "text": "This is the transition area of those who have just completed a physical life.",
+   "batch": 2,
+   "check": "asr:0.94/0.93"
+  },
+  "e78c1df7570a": {
+   "dur": 4.46,
+   "text": "Set no goal. Simply let go into the flow and meet whatever comes.",
+   "batch": 1,
+   "check": "asr:0.91/0.77"
+  },
+  "e8ce404e3458": {
+   "dur": 2.43,
+   "text": "Images and sensations may flow through.",
+   "batch": 1,
+   "check": "asr:1.00/1.00"
+  },
+  "e8d29519aa94": {
+   "dur": 4.92,
+   "text": "Count slowly back in your mind. Nine, eight, seven, six.",
+   "batch": 0,
+   "check": "asr:1.00/1.00"
+  },
+  "eaf04d643be4": {
+   "dur": 4.0,
+   "text": "Hold an intention. When I wake in the morning, I will remember this night.",
+   "batch": 4,
+   "check": "asr:0.98/0.86"
+  },
+  "f0968cf6b3b1": {
+   "dur": 2.02,
+   "text": "Patience is this session itself.",
+   "batch": 4,
+   "check": "asr:1.00/1.00"
+  },
+  "f40f1e82c016": {
+   "dur": 5.19,
+   "text": "The sensations may feel unfamiliar the first time you stay in this state. That is normal.",
+   "batch": 3,
+   "check": "asr:0.97/0.94"
+  },
+  "f82c8756ba4e": {
+   "dur": 7.21,
+   "text": "Now join the hum. Take a long breath in through your nose and hum as you breathe out. Let there be vibration in your throat.",
+   "batch": 1,
+   "check": "asr:0.73/0.52"
+  },
+  "fb57d3fcd319": {
+   "dur": 2.45,
+   "text": "This is the reception center between lives.",
+   "batch": 2,
+   "check": "asr:1.00/1.00"
+  }
+ },
+ "voice": "voice-01 (Arena audition 01)"
+}

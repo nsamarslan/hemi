@@ -1,0 +1,199 @@
+{
+  "wave": "lucid",
+  "sessions": [
+    {
+      "id": "lucid-maba",
+      "wave": "lucid",
+      "no": 1,
+      "focus": ["10"],
+      "title": { "tr": "Zihin Uyanık, Beden Uykuda", "en": "Mind Awake / Body Asleep" },
+      "summary": {
+        "tr": "Lucid Dreaming serisinin ilk egzersizi (90 dk). Doğal uyku döngülerindeki beyin dalgası durumlarına girerek rüya farkındalığının temelini atar.",
+        "en": "The first exercise of the Lucid Dreaming series (90 min). It enters the brain-wave states found in natural sleep cycles, laying the foundation of dream awareness."
+      },
+      "goal": {
+        "tr": "Uykuya dalarken bilincin uyanık kalmasını deneyimlemek; rüya farkındalığına zemin hazırlamak.",
+        "en": "Experiencing awareness staying awake as you fall asleep; preparing the ground for dream awareness."
+      },
+      "setting": {
+        "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.",
+        "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep."
+      },
+      "prereq": ["w1-sleep"],
+      "tips": [
+        {
+          "tr": "Uykuya dalmak bu oturumun amacıdır; çan sesi yoktur, ekran kararır.",
+          "en": "Falling asleep is the aim of this session; there is no bell and the screen dims."
+        }
+      ],
+      "warnings": [{ "tr": "Uzun bir oturumdur (yaklaşık 90 dk); alarm kurun.", "en": "It is a long session (about 90 min); set an alarm." }],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "drift",
+          "name": { "tr": "Sürüklenme", "en": "Drifting" },
+          "bell": null,
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Bedenin uykuya dalarken zihnin uyanık kalsın.", "en": "As your body falls asleep, let your mind stay awake." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Uyku döngülerin seni rüyanın içine taşıyacak.", "en": "Your sleep cycles will carry you into the dream." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "lastMinute": false,
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Zihnin uyanık, bedenin uykuda.", "en": "Mind awake, body asleep." } },
+              { "id": "r2", "text": { "tr": "Rüyanın kapısı her an açılabilir.", "en": "The door of the dream can open at any moment." } }
+            ]
+          }
+        }
+      ],
+      "notes": "Official Hemi-Sync Lucid Dreaming Series, exercise 1 'Mind Awake/Body Asleep' (1999, voiced by Mark Certo; 90 minutes). Night session. The app's explore parameter approximates the 90-minute original; use the Long preset."
+    },
+    {
+      "id": "lucid-imagination",
+      "wave": "lucid",
+      "no": 2,
+      "focus": ["10"],
+      "title": { "tr": "Yaratıcı Hayal Gücü", "en": "Creative Imagination" },
+      "summary": {
+        "tr": "Rüya farkındalığıyla birlikte yaratıcı hayal gücünü eğitirsin (90 dk). Bilinçli rüya kurmanın ikinci adımı.",
+        "en": "You train your creative imagination together with dream awareness (90 min). The second step of conscious dreaming."
+      },
+      "goal": {
+        "tr": "Rüya içinde bilinçli imgeleme pratiği yapmak.",
+        "en": "Practising conscious imagination inside the dream."
+      },
+      "setting": {
+        "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.",
+        "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep."
+      },
+      "prereq": ["lucid-maba"],
+      "tips": [],
+      "warnings": [{ "tr": "Uzun bir oturumdur (yaklaşık 90 dk); alarm kurun.", "en": "It is a long session (about 90 min); set an alarm." }],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "imagine",
+          "name": { "tr": "İmgeleme", "en": "Imagination" },
+          "bell": null,
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Rüya içinde bir nesne yarat. Onu dokun, kokla, izle.", "en": "Create an object inside the dream. Touch it, smell it, watch it." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Hayal gücün, rüya dünyanın tuvalidir.", "en": "Your imagination is the canvas of the dream world." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "lastMinute": false,
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Nesneye dokun. Rüya, dokunuşla şekillenir.", "en": "Touch the object. The dream takes shape with touch." } },
+              { "id": "r2", "text": { "tr": "Yaratıcılığını oyna.", "en": "Play with your creativity." } }
+            ]
+          }
+        }
+      ],
+      "notes": "Official Hemi-Sync Lucid Dreaming Series, exercise 2 'Creative Imagination' (90 minutes). Night session."
+    },
+    {
+      "id": "lucid-flying",
+      "wave": "lucid",
+      "no": 3,
+      "focus": ["10"],
+      "title": { "tr": "Tek Başına Uçuş", "en": "Flying Solo" },
+      "summary": {
+        "tr": "Bilinçli rüya içinde tek başına hareket etmeyi ve uçmayı öğrenirsin (90 dk). Serinin son pratik adımı.",
+        "en": "You learn to move and fly on your own inside the conscious dream (90 min). The final practice step of the series."
+      },
+      "goal": {
+        "tr": "Rüya içinde özgür hareket ve uçuş deneyimi.",
+        "en": "Experiencing free movement and flight inside the dream."
+      },
+      "setting": {
+        "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.",
+        "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep."
+      },
+      "prereq": ["lucid-imagination"],
+      "tips": [],
+      "warnings": [{ "tr": "Uzun bir oturumdur (yaklaşık 90 dk); alarm kurun.", "en": "It is a long session (about 90 min); set an alarm." }],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "fly",
+          "name": { "tr": "Uçuş", "en": "Flight" },
+          "bell": null,
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Rüya içinde tek başasın. Yavaşça havalan.", "en": "You are alone in the dream. Rise slowly." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Yukarı çık, dön, dal. Uçuş, niyetle başlar.", "en": "Go up, turn, dive. Flight begins with intention." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "lastMinute": false,
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Yukarı bak. Ufuk, rüyanın kendisidir.", "en": "Look up. The horizon is the dream itself." } },
+              { "id": "r2", "text": { "tr": "Niyetin yön verir.", "en": "Intention gives direction." } }
+            ]
+          }
+        }
+      ],
+      "notes": "Official Hemi-Sync Lucid Dreaming Series, exercise 3 'Flying Solo' (90 minutes). Night session."
+    },
+    {
+      "id": "lucid-programming",
+      "wave": "lucid",
+      "no": 4,
+      "focus": ["10"],
+      "title": { "tr": "Rüya Durumunu Programlama", "en": "Programming Your Dream State" },
+      "summary": {
+        "tr": "Tüm gece süren (sekiz saat) programlama egzersizi. Gece boyunca rüya durumunu bilinçli katılıma açık tutar.",
+        "en": "The all-night (eight-hour) programming exercise. It keeps the dream state open to conscious participation through the night."
+      },
+      "goal": {
+        "tr": "Gece boyunca bilinçli rüya pratiğine alan açmak.",
+        "en": "Opening space for conscious dream practice through the whole night."
+      },
+      "setting": {
+        "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Tüm gece.",
+        "en": "Lie down in bed, headphones on. Lights off, phone silent. For the whole night."
+      },
+      "prereq": ["lucid-flying"],
+      "tips": [
+        {
+          "tr": "Telefonu şarja takın; kulaklık kablosu rahatsız etmesin.",
+          "en": "Plug the phone in; keep the headphone cable comfortable."
+        }
+      ],
+      "warnings": [{ "tr": "Sekiz saatlik bir oturumdur; sabah alarmı şart.", "en": "It is an eight-hour session; a morning alarm is essential." }],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "program",
+          "name": { "tr": "Programlama", "en": "Programming" },
+          "bell": null,
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Bu gece rüya göreceğimi biliyorum. Hatırlayacağım.", "en": "Tonight I will dream. I will remember." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Uyandığımda rüyam aklımda olacak. Günlüğe yazacağım.", "en": "When I wake, the dream will be in my mind. I will write it down." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "lastMinute": false,
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Rüya kapısı açık.", "en": "The dream door is open." } },
+              { "id": "r2", "text": { "tr": "Hatırla.", "en": "Remember." } }
+            ]
+          }
+        }
+      ],
+      "notes": "Official Hemi-Sync Lucid Dreaming Series, exercise 4 'Programming Your Dream State' (designed for a full eight-hour sleep period). Night session. The app's explore parameter approximates the full night; use the Long preset."
+    }
+  ]
+}

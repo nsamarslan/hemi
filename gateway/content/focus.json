@@ -1,0 +1,136 @@
+{
+  "levels": [
+    {
+      "id": "3",
+      "title": { "tr": "Tüm Beyin Durumu", "en": "Whole-Brain State" },
+      "band": { "tr": "alfa", "en": "alpha" },
+      "beat": null,
+      "wave": null,
+      "text": {
+        "tr": "Hemi-Sync eğitiminin temelini atan ilk durum. İki beyin yarıküresinin aynı genlik ve frekansta, senkronize çalıştığı bir bilinç hali. Gateway serisinde doğrudan bir oturum değil; diğer tüm seviyelerin kapısıdır.",
+        "en": "The foundational state of Hemi-Sync training. A state of consciousness in which both brain hemispheres work at the same amplitude and frequency, in synchrony. Not a session in the Gateway series itself; it is the doorway to all other levels."
+      }
+    },
+    {
+      "id": "10",
+      "title": { "tr": "Zihin Uyanık, Beden Uykuda", "en": "Mind Awake, Body Asleep" },
+      "band": { "tr": "alfa / teta sınırı", "en": "alpha–theta border" },
+      "beat": 7.5,
+      "wave": 1,
+      "text": {
+        "tr": "Serinin temeli. Beden derin bir uykuya dalarken zihin uyanık ve tetikte kalır. Vücut ağırlaşır, gevşer; algı bedenden bağımsız sürer. Tüm pratik bu durumun üzerine kurulur.",
+        "en": "The foundation of the series. While the body sinks into deep sleep, the mind stays awake and alert. The body grows heavy and loose; perception continues independently of the body. All practice builds on this state."
+      }
+    },
+    {
+      "id": "11",
+      "title": { "tr": "Erişim Kanalı", "en": "The Access Channel" },
+      "band": { "tr": "alfa / teta geçişi", "en": "alpha–theta transition" },
+      "beat": 6.0,
+      "wave": null,
+      "text": {
+        "tr": "Focus 10 ile 12 arasındaki geçit. Bilinçle beden arasındaki kapı; Human Plus fonksiyon komutlarının işlendiği seviye. Miranon'un tarifiyle burada bedenini ve zihnini dilediğin yeteneklerle programlayabilirsin.",
+        "en": "The passage between Focus 10 and 12. The door between mind and body; the level where Human Plus function commands are encoded. In Miranon's description, here you can program your body and mind with whatever abilities you want."
+      }
+    },
+    {
+      "id": "12",
+      "title": { "tr": "Genişlemiş Farkındalık", "en": "Expanded Awareness" },
+      "band": { "tr": "teta", "en": "theta" },
+      "beat": 4.5,
+      "wave": 2,
+      "text": {
+        "tr": "Farkındalık bedenin sınırlarının ötesine uzanır. Sezgi güçlenir, iç gör imagery canlanır, beden dışı algı ilk kez hissedilir. Gateway serisinde en çok kullanılan ikinci durumdur.",
+        "en": "Awareness expands beyond the limits of the body. Intuition strengthens, inner imagery vividifies, perception beyond the body is felt for the first time. It is the most-used second state in the Gateway series."
+      }
+    },
+    {
+      "id": "15",
+      "title": { "tr": "Zamansızlık", "en": "No Time" },
+      "band": { "tr": "teta / delta sınırı", "en": "theta–delta border" },
+      "beat": 2.8,
+      "wave": 5,
+      "text": {
+        "tr": "Zamanın akışı çözülür; geçmiş, şimdi ve gelecek bir aradadır. Deneyimler zamansız bir alanda yaşanır. Gateway Experience ev programında bu seviye Dalga V ile temas eder.",
+        "en": "The flow of time dissolves; past, present and future coexist. Experiences happen in a timeless field. In the at-home Gateway Experience this level is touched in Wave V."
+      }
+    },
+    {
+      "id": "21",
+      "title": { "tr": "Diğer Enerji Sistemleri", "en": "Other Energy Systems" },
+      "band": { "tr": "derin delta", "en": "deep delta" },
+      "beat": 1.2,
+      "wave": 6,
+      "text": {
+        "tr": "Fiziksel gerçekliğin ötesindeki enerji sistemlerinin eşiği; Monroe'nun deyimiyle başka bir sisteme açılan köprü. Uzun yıllar yalnızca enstitünün yatılı programlarında çalışılan bu seviye, 2000'lerden sonra ev serisine de girdi.",
+        "en": "The threshold of energy systems beyond physical reality; in Monroe's words, the bridge to other energy systems. For many years worked only in the Institute's residential programs, this level entered the home series after the 2000s."
+      }
+    },
+    {
+      "id": "23",
+      "title": { "tr": "Geçiş Bölgesi", "en": "The Transition Area" },
+      "band": { "tr": "delta ötesi", "en": "beyond delta" },
+      "beat": 0.9,
+      "wave": 7,
+      "text": {
+        "tr": "Fiziksel yaşamı yeni tamamlamış varlıkların bulunduğu geçiş bölgesi. Dalga VII Voyager ile ilk kez ev serisine giren bu seviyede, bu bölgeyi tanımak ve gözlemlemek amaçlanır.",
+        "en": "The transition area inhabited by those who have just completed a physical life. Entering the home series for the first time with Wave VII Voyager, this level is explored here as a place to know and observe."
+      }
+    },
+    {
+      "id": "25",
+      "title": { "tr": "İnanç Sistemleri Toprakları", "en": "Belief System Territories" },
+      "band": { "tr": "delta ötesi", "en": "beyond delta" },
+      "beat": 0.7,
+      "wave": 7,
+      "text": {
+        "tr": "İnanç sistemlerinin, düşünce kalıplarının kendi yapıları olarak deneyimlendiği topraklar. İnançların nasıl işlediğini gözlemlemek, onlardan özgürleşmenin ilk adımıdır.",
+        "en": "The territories where belief systems and thought patterns are experienced as structures of their own. Observing how beliefs work is the first step toward freedom from them."
+      }
+    },
+    {
+      "id": "27",
+      "title": { "tr": "Yaşamlar Arası Karşılama Merkezi", "en": "The Reception Center" },
+      "band": { "tr": "delta ötesi", "en": "beyond delta" },
+      "beat": 0.5,
+      "wave": 7,
+      "text": {
+        "tr": "Fiziksel yaşam ile bir sonraki yaşam arasındaki dinlenme ve değerlendirme merkezi. Dalga VII ve VIII bu seviyede ve ötesinde çalışır.",
+        "en": "The resting and reviewing center between a physical life and the next. Waves VII and VIII work in and beyond this level."
+      }
+    },
+    {
+      "id": "35",
+      "title": { "tr": "Toplanma", "en": "The Gathering" },
+      "band": { "tr": "—", "en": "—" },
+      "beat": null,
+      "wave": null,
+      "text": {
+        "tr": "Robert Monroe'nun Far Journeys kitabında anlattığı, varlıkların toplandığı geniş düzlem. Enstitünün ileri düzey yatılı programlarında çalışılır; ev serisinde bir oturum değildir.",
+        "en": "The vast gathering plane described by Robert Monroe in Far Journeys, where beings come together. Worked in the Institute's advanced residential programs; not a session in the home series."
+      }
+    },
+    {
+      "id": "42",
+      "title": { "tr": "Kırk İki", "en": "Focus 42" },
+      "band": { "tr": "—", "en": "—" },
+      "beat": null,
+      "wave": null,
+      "text": {
+        "tr": "İleri düzey, fiziksel olmayan yaşam programına ait bir bilinç seviyesi. Enstitünün yatılı programlarında çalışılır.",
+        "en": "An advanced level of nonphysical consciousness belonging to the Institute's residential curriculum."
+      }
+    },
+    {
+      "id": "49",
+      "title": { "tr": "Kırk Dokuz", "en": "Focus 49" },
+      "band": { "tr": "—", "en": "—" },
+      "beat": null,
+      "wave": null,
+      "text": {
+        "tr": "Gateway eğitiminin bilinen en yüksek seviyesi. CIA'nın 1983 tarihli Gateway raporunda da adları geçen bu seviyeler, enstitü programlarında deneyimlenir.",
+        "en": "The highest known level of the Gateway training, also named in the CIA's 1983 Gateway report. These levels are experienced in Institute programs."
+      }
+    }
+  ]
+}

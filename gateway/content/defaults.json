@@ -1,0 +1,11 @@
+{
+  "params": [
+    { "key": "entry", "label": { "tr": "Giriş süresi", "en": "Entry time" }, "unit": "min", "min": 2, "max": 12, "step": 1, "def": 4 },
+    { "key": "explore", "label": { "tr": "Keşif süresi", "en": "Exploration time" }, "unit": "min", "min": 5, "max": 45, "step": 1, "def": 20 }
+  ],
+  "presets": [
+    { "id": "standard", "label": { "tr": "Standart", "en": "Standard" }, "values": { "entry": 4, "explore": 20 } },
+    { "id": "short", "label": { "tr": "Kısa", "en": "Short" }, "values": { "entry": 2, "explore": 10 } },
+    { "id": "long", "label": { "tr": "Uzun", "en": "Long" }, "values": { "entry": 6, "explore": 35 } }
+  ]
+}

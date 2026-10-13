@@ -1,0 +1,784 @@
+{
+  "wave": "wave-3",
+  "sessions": [
+    {
+      "id": "w3-liftoff",
+      "wave": "wave-3",
+      "no": 1,
+      "focus": [
+        "10",
+        "12"
+      ],
+      "title": {
+        "tr": "Yükseliş",
+        "en": "Lift Off"
+      },
+      "summary": {
+        "tr": "Hazırlık ve girişten sonra hafiflersin, bedeninin üzerinde yükselirsin. Focus 12'de ilk kez mekanın ötesine uzanırsın.",
+        "en": "After preparation and entry you grow light, you rise above your body. In Focus 12 you reach beyond space for the first time."
+      },
+      "goal": {
+        "tr": "Hafiflik hissini yaşamak, bedenin üzerinde yükselmeyi denemek.",
+        "en": "Experiencing the feeling of lightness, trying to rise above the body."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kollar iki yanda, avuçlar yukarı baksın. Kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, arms at your sides, palms facing up. Headphones on, volume low."
+      },
+      "prereq": [
+        "w2-bodymap"
+      ],
+      "tips": [
+        {
+          "tr": "Ağırlık kalktığında zorlama; hafiflik kendi gelir.",
+          "en": "Don't force when the heaviness lifts; lightness comes by itself."
+        },
+        {
+          "tr": "Yükselme hissi bazen döner, bazen yayılır; her hali izle.",
+          "en": "The lift sometimes spins, sometimes spreads; watch every form it takes."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "rise",
+          "name": {
+            "tr": "Yükseliş",
+            "en": "Rising"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Bedenin ağırlığını hisset. Şimdi o ağırlık kalkıyor.",
+                "en": "Feel the heaviness of the body. Now that heaviness is lifting."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Hafifliyorsun. Odanın içinde, bedeninin üzerinde yüzüyorsun.",
+                "en": "You grow light. You are floating in the room, above your body."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Hafiflik, bedenin unuttuğu bir hal.",
+                  "en": "Lightness is a state the body has forgotten."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Yukarı çıkarken ne görüyorsun?",
+                  "en": "What do you see as you rise?"
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Dönüş vakti gelince çanlar seni çağırır.",
+                  "en": "When it is time to return, the bells will call you."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Freedom #1 Lift Off (Focus 10 on the tape, entered here through Focus 12 for continuity). The rise-and-float structure is paraphrased."
+    },
+    {
+      "id": "w3-rv",
+      "wave": "wave-3",
+      "no": 2,
+      "focus": [
+        "10",
+        "12"
+      ],
+      "title": {
+        "tr": "Uzaktan Görme",
+        "en": "Remote Viewing"
+      },
+      "summary": {
+        "tr": "Enerji çubuğunu dönen bir girdaba dönüştürür, bilincini onunla öteye gönderirsin. Algı, beden duyularının ötesinden veri getirir.",
+        "en": "You turn the energy bar into a spinning vortex and send your awareness through it. Perception brings data from beyond the physical senses."
+      },
+      "goal": {
+        "tr": "Girdap aracıyla algıyı beden ötesine taşımayı denemek.",
+        "en": "Trying to carry perception beyond the body with the vortex tool."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Yanında kağıt kalem olsun; not almak isteyebilirsin.",
+        "en": "Lie on your back, headphones on, volume low. Keep paper and pen nearby; you may want to take notes."
+      },
+      "prereq": [
+        "w3-liftoff"
+      ],
+      "tips": [
+        {
+          "tr": "Ne gördüğünü yargılama; çarpık da olsa kaydet.",
+          "en": "Don't judge what you see; record it even if it is distorted."
+        },
+        {
+          "tr": "Girdap, bilinç için bir kapıdır; içinden geç, arkasına bakma.",
+          "en": "The vortex is a door for awareness; pass through it, don't look back."
+        }
+      ],
+      "warnings": [
+        {
+          "tr": "Algı verisi doğrulanamaz; bu bir keşif aracıdır, kanıt değil.",
+          "en": "Perceptual data cannot be verified; this is a tool of exploration, not proof."
+        }
+      ],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "vortex",
+          "name": {
+            "tr": "Girdap",
+            "en": "Vortex"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Enerji çubuğunu dönen bir girdaba dönüştür.",
+                "en": "Turn the energy bar into a spinning vortex."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Bilincini girdabın içinden öteye gönder.",
+                "en": "Send your awareness through the vortex, far beyond."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Ne algılarsan not al. Şekil, renk, his, ses.",
+                "en": "Note whatever you perceive. Shape, colour, feeling, sound."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Algı beden duyularından gelir. Isim koyma.",
+                  "en": "Perception comes through the body's senses. Don't name it."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Girdap seni evine geri çağırır.",
+                  "en": "The vortex calls you home."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Ne gördüysen, notların exactamente o kadar.",
+                  "en": "Whatever you saw is exactly what your notes hold."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "debrief",
+          "name": {
+            "tr": "Değerlendirme",
+            "en": "Debrief"
+          },
+          "bell": null,
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Geri döndün. Ne algıladığını birkaç cümleyle yaz.",
+                "en": "You are back. Write what you perceived in a few sentences."
+              },
+              "pause": 8
+            }
+          ],
+          "hold": null
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Freedom #2 Remote Viewing. The bar-as-vortex portal is described in the Gateway manual and the CIA report; the session adds a written debrief phase."
+    },
+    {
+      "id": "w3-vectors",
+      "wave": "wave-3",
+      "no": 3,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Vektörler",
+        "en": "Vectors"
+      },
+      "summary": {
+        "tr": "Bir niyeti ok gibi fırlatırsın: bir yön, bir soru, bir yer. Geri dönen veri, o yönden akar.",
+        "en": "You launch an intention like an arrow: a direction, a question, a place. Data flows back along that direction."
+      },
+      "goal": {
+        "tr": "Niyeti yönlendirerek veri çağırmayı öğrenmek.",
+        "en": "Learning to call in data by directing intention."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w3-rv"
+      ],
+      "tips": [
+        {
+          "tr": "Vektör net olursa dönüş net olur.",
+          "en": "The sharper the vector, the sharper the return."
+        },
+        {
+          "tr": "Fırlat ve unut; tutan ok uçamaz.",
+          "en": "Launch and forget; an arrow that is held cannot fly."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "vector",
+          "name": {
+            "tr": "Vektör",
+            "en": "Vector"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Bir yön seç. Bir yer, bir zaman, bir soru.",
+                "en": "Choose a direction. A place, a time, a question."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Niyetini o yöne doğru bir ok gibi fırlat.",
+                "en": "Launch your intention like an arrow toward that direction."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Şimdi bekle. O yönden ne dönerse, al.",
+                "en": "Now wait. Take whatever comes back from that direction."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Okun gittikçe hafiflersin.",
+                  "en": "The further the arrow flies, the lighter you grow."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Dönen veri beklediğinden farklı olabilir.",
+                  "en": "The returning data may differ from what you expected."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Vektörünü değiştirebilirsin. Yenisini fırlat.",
+                  "en": "You can change your vector. Launch a new one."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Freedom #3 Vectors. Directional intention: launch awareness along a vector and receive what returns."
+    },
+    {
+      "id": "w3-fiveq",
+      "wave": "wave-3",
+      "no": 4,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Beş Soru",
+        "en": "Five Questions"
+      },
+      "summary": {
+        "tr": "Beş soru hazırlar, Focus 12'de birer birer sorarsın. Cevaplar, zorlamadan, akış içinde gelir.",
+        "en": "You prepare five questions and ask them one by one in Focus 12. The answers come in the flow, without forcing."
+      },
+      "goal": {
+        "tr": "Soru sormayı ve cevap beklemeyi, alma sanatını öğrenmek.",
+        "en": "Learning the art of asking questions and receiving answers."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Yanında kağıt kalem olsun.",
+        "en": "Lie on your back, headphones on, volume low. Keep paper and pen nearby."
+      },
+      "prereq": [
+        "w3-vectors"
+      ],
+      "tips": [
+        {
+          "tr": "Sorularını önceden yaz; oturumda sadece sor.",
+          "en": "Write your questions beforehand; in the session, only ask."
+        },
+        {
+          "tr": "Cevap, sorunun hemen arkasından gelmeyebilir; bekle.",
+          "en": "The answer may not follow the question immediately; wait."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "ask",
+          "name": {
+            "tr": "Sorular",
+            "en": "Questions"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Birinci sorunu zihninde sor.",
+                "en": "Ask your first question in your mind."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Cevabı bekle. İkinci soruyu sor.",
+                "en": "Wait for the answer. Ask the second question."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Böylece beş sorunu da sor. Her birinin cevabını al.",
+                "en": "So ask all five questions. Receive the answer to each."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Cevap, kelime olmayabilir. Bir his de olabilir.",
+                  "en": "The answer may not be words. It may be a feeling."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Boşluk, cevabın bir parçasıdır.",
+                  "en": "The silence is part of the answer."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Soruyu bırak. Cevabın akışta saklı.",
+                  "en": "Release the question. The answer is hidden in the flow."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Freedom #4 Five Questions. Ask five prepared questions in Focus 12 and record the answers afterwards."
+    },
+    {
+      "id": "w3-food",
+      "wave": "wave-3",
+      "no": 5,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Enerji Besini",
+        "en": "Energy Food"
+      },
+      "summary": {
+        "tr": "Çevrende akan enerjiyi bedenine alır, energy bedenini beslersin. Daha uzun keşiflere güç taşır.",
+        "en": "You take the energy flowing around you into your body; you feed the energy body. It carries strength for longer explorations."
+      },
+      "goal": {
+        "tr": "Enerji bedenini beslemeyi öğrenmek.",
+        "en": "Learning to feed the energy body."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w3-fiveq"
+      ],
+      "tips": [
+        {
+          "tr": "Besin, nefesle çekilir; her nefeste bir yudum.",
+          "en": "The food is drawn in with the breath; a mouthful with every breath."
+        },
+        {
+          "tr": "Doyduğunu hissetmek, fazla yemekten önce gelir.",
+          "en": "Feeling full comes before overeating."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "gather",
+          "name": {
+            "tr": "Toplama",
+            "en": "Gathering"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Çevrende akan enerjiyi gör. Işık gibi, hava gibi.",
+                "en": "See the energy flowing around you. Like light, like air."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Nefes alırken onu kendine çek. Her nefeste bir yudum.",
+                "en": "Breathe it into yourself as you breathe in. A mouthful with every breath."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Enerji bedenin doluyor. Güçleniyorsun.",
+                "en": "The energy body fills up. You grow strong."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Besin, bedende değil, enerji bedeninde birikir.",
+                  "en": "The food accumulates in the energy body, not the physical one."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Dolu bir beden, uzun keşiflere kalkar.",
+                  "en": "A filled body takes off for long explorations."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Doyduğunda içmeyi bırak.",
+                  "en": "When you are full, stop drinking."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Freedom #5 Energy Food. Gathering 'energy food' to sustain nonphysical exploration, paraphrased from the manual."
+    },
+    {
+      "id": "w3-separation",
+      "wave": "wave-3",
+      "no": 6,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "İlk Aşama Ayrışma",
+        "en": "First-Stage Separation"
+      },
+      "summary": {
+        "tr": "Fiziksel bedenden ilk bilinçli ayrışma denemeleri: dönme, yuvarlanma ve sürüklenme. Her yöntem bir kapıdır; zorlamak kapıyı kapatır.",
+        "en": "First deliberate attempts at separating from the physical body: rotation, rolling and drifting. Each method is a door; forcing closes it."
+      },
+      "goal": {
+        "tr": "Beden dışı ayrışmanın ilk tekniklerini denemek.",
+        "en": "Trying the first techniques of out-of-body separation."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kollar iki yanda gevşek. Kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, arms loose at your sides. Headphones on, volume low."
+      },
+      "prereq": [
+        "w3-food"
+      ],
+      "tips": [
+        {
+          "tr": "Ayrışma bekleme; teknikleri dene, gerisini akışa bırak.",
+          "en": "Don't expect separation; try the techniques, leave the rest to the flow."
+        },
+        {
+          "tr": "Korku, ayrışmanın en yaygın engelidir; sakince devam et.",
+          "en": "Fear is the most common obstacle; continue calmly."
+        }
+      ],
+      "warnings": [
+        {
+          "tr": "Beden dışı deneyim bekleme. Bu oturum teknik provasıdır, sonuç değil.",
+          "en": "Don't expect an out-of-body experience. This session is a rehearsal of technique, not a result."
+        }
+      ],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "rotate",
+          "name": {
+            "tr": "Yöntem bir: dönme",
+            "en": "Method one: rotation"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Enerji bedenini hisset. Onu kendi ekseni etrafında yüz seksen derece döndür.",
+                "en": "Feel your energy body. Turn it one hundred and eighty degrees around its own axis."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Dönerken bedenin hafifliyor. Ayrışma, dönmede başlar.",
+                "en": "As you turn, the body grows light. Separation begins in the turning."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "sec": 90,
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Dönüşte sersemlik olursa, yavaşla.",
+                  "en": "If the turning makes you dizzy, slow down."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Bedenin uyuyor, sen dönüyorsun.",
+                  "en": "The body sleeps, you are the one turning."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "roll",
+          "name": {
+            "tr": "Yöntem iki: yuvarlanma",
+            "en": "Method two: roll-out"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Enerji bedenini sağa doğru yuvarla. Yatağın kenarından yuvarlanırmış gibi.",
+                "en": "Roll your energy body to the side. As if rolling off the edge of the bed."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Yuvarlanırken bedenin yerinde kalır. Sen yanına inersin.",
+                "en": "As you roll, the body stays where it is. You come down beside it."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "sec": 90,
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Yuvarlanmak, kalkmanın en eski hali.",
+                  "en": "Rolling is the oldest form of getting up."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Yerdeysen, yukarı bak. Çatı yok.",
+                  "en": "If you are on the floor, look up. There is no ceiling."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "drift",
+          "name": {
+            "tr": "Yöntem üç: sürüklenme",
+            "en": "Method three: drift"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Enerji bedeninle birlikte yukarı sürüklen. Hafif bir sis gibi yüksel.",
+                "en": "Drift upward together with your energy body. Rise like a light mist."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Aşağı bak. Bedenin, bir gezegen gibi, üzerinde dönüyor.",
+                "en": "Look down. The body, like a planet, turns beneath you."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "sec": 90,
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Sürüklenme, çaba gerektirmez.",
+                  "en": "Drifting takes no effort."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Yükseldikçe mekan genişler.",
+                  "en": "The higher you rise, the wider the space grows."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Freedom #6 First Stage Separation: the manual teaches five methods of dissociation. This session teaches three of them (rotation, roll-out, drift) as short method phases with 90-second holds."
+    }
+  ]
+}

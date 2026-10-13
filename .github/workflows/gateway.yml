@@ -1,0 +1,172 @@
+# gateway/ — validate, build and test on every push; publish www/ as an artifact; build the Android APK;
+# deploy to GitHub Pages when enabled.
+#
+# Android: every push builds a signed release APK (artifact "gateway-android-apk"). A tag `gateway-v<version>`
+# (or workflow_dispatch with release=true) also publishes it as a GitHub release. The APK is signed with the
+# development keystore in gateway/android/keystore/ unless these secrets are set: GATEWAY_KEYSTORE_B64
+# (base64 of a .p12/.jks), GATEWAY_KEYSTORE_PASS, GATEWAY_KEY_ALIAS, GATEWAY_KEY_PASS.
+#
+# Pages: Settings → Pages → Source: "GitHub Actions"; then Settings → Secrets and variables → Actions → Variables:
+#   DEPLOY_PAGES = true            (turns the deploy job on)
+#   PAGES_BRANCH = arena/7bfeab7d-eye   (optional: a branch other than the default one to publish)
+# Note: Pages on a private repository needs GitHub Pro/Team; public repositories work with the free plan.
+name: gateway
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["gateway-v*"]
+    paths: ["gateway/**", ".github/workflows/gateway.yml"]
+  pull_request:
+    paths: ["gateway/**", ".github/workflows/gateway.yml"]
+  workflow_dispatch:
+    inputs:
+      release:
+        description: "Publish the APK as a GitHub release (tag gateway-v<version>)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gateway-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: validate · build · tests · smoke
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: gateway
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit and integration tests (content, build, render, voice packs, track matching, PC server)
+        run: npm test
+      - name: Smoke tests (jsdom end-to-end — web, then the Android bridge with a fake Capacitor)
+        run: |
+          mkdir -p /tmp/smoke && cd /tmp/smoke && npm init -y >/dev/null && npm i --no-audit --no-fund jsdom esbuild
+          cd "$GITHUB_WORKSPACE/gateway"
+          /tmp/smoke/node_modules/.bin/esbuild www/js/app.js --bundle --format=iife --outfile=/tmp/smoke/app.bundle.js
+          set +e
+          SMOKE_DIR=/tmp/smoke SMOKE_BUNDLE=/tmp/smoke/app.bundle.js node tools/smoke-test.mjs > /tmp/smoke/out.txt 2>&1
+          rc=$?
+          grep -v '^PASS' /tmp/smoke/out.txt | grep -v 'Not implemented' | tail -40
+          SMOKE_DIR=/tmp/smoke SMOKE_BUNDLE=/tmp/smoke/app.bundle.js node tools/smoke-native.mjs > /tmp/smoke/out-native.txt 2>&1
+          rc2=$?
+          grep -v '^PASS' /tmp/smoke/out-native.txt | grep -v 'Not implemented' | tail -20
+          exit $(( rc || rc2 ))
+      - name: Upload the built app (www/)
+        uses: actions/upload-artifact@v4
+        with:
+          name: gateway-www
+          path: gateway/www
+          retention-days: 14
+
+  android:
+    name: Android APK
+    needs: test
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    defaults:
+      run:
+        working-directory: gateway
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22              # Capacitor CLI 8 needs Node 22+
+          cache: npm
+          cache-dependency-path: gateway/package-lock.json
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: "platform-tools platforms;android-36 build-tools;36.0.0"
+          log-accepted-android-sdk-licenses: false
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Install Capacitor and build the web app
+        run: |
+          npm ci --no-audit --no-fund
+          npm run build
+      - name: Copy the web app into the Android project
+        run: npx cap sync android
+      - name: Keystore from secrets (optional)
+        env:
+          GATEWAY_KEYSTORE_B64: ${{ secrets.GATEWAY_KEYSTORE_B64 }}
+        run: |
+          if [ -n "$GATEWAY_KEYSTORE_B64" ]; then
+            echo "$GATEWAY_KEYSTORE_B64" | base64 -d > android/keystore/ci.keystore
+            echo "GATEWAY_KEYSTORE_FILE=$PWD/android/keystore/ci.keystore" >> "$GITHUB_ENV"
+            echo "Using the keystore from secrets"
+          else
+            echo "Using the development keystore from the repository"
+          fi
+      - name: Build the release APK
+        env:
+          GATEWAY_KEYSTORE_PASS: ${{ secrets.GATEWAY_KEYSTORE_PASS }}
+          GATEWAY_KEY_ALIAS: ${{ secrets.GATEWAY_KEY_ALIAS }}
+          GATEWAY_KEY_PASS: ${{ secrets.GATEWAY_KEY_PASS }}
+        run: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon --stacktrace
+          ls -la app/build/outputs/apk/release/
+      - name: Upload the APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: gateway-android-apk
+          path: gateway/android/app/build/outputs/apk/release/*.apk
+          retention-days: 30
+      - name: Publish a GitHub release
+        if: startsWith(github.ref, 'refs/tags/gateway-v') || (github.event_name == 'workflow_dispatch' && inputs.release)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VER=$(node -p "require('./package.json').version")
+          TAG="gateway-v$VER"
+          APK=$(ls android/app/build/outputs/apk/release/*.apk | head -n 1)
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" "$APK" --clobber --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create "$TAG" "$APK" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Gateway $VER (Android)" \
+              --notes "Android APK of Gateway $VER. Install by opening the file on the phone (allow installs from unknown sources). Updates install over the previous version when the same keystore signed both."
+          fi
+
+  pages:
+    name: deploy to GitHub Pages
+    needs: test
+    if: >-
+      github.event_name != 'pull_request' && vars.DEPLOY_PAGES == 'true' &&
+      (github.ref_name == github.event.repository.default_branch || github.ref_name == vars.PAGES_BRANCH)
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build
+        run: cd gateway && node tools/build.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: gateway/www
+      - id: deployment
+        uses: actions/deploy-pages@v4

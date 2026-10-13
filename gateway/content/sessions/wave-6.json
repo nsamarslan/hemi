@@ -1,0 +1,607 @@
+{
+  "wave": "wave-6",
+  "sessions": [
+    {
+      "id": "w6-sensing",
+      "wave": "wave-6",
+      "no": 1,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Hissetme",
+        "en": "Sensing"
+      },
+      "summary": {
+        "tr": "Enerji bedenini ilk kez bilinçle hissedersin: karıncalanma, alan, hafif bir kabuk. Onu kontrol etmeyi öğrenirsin.",
+        "en": "For the first time you feel the energy body consciously: tingling, a field, a light shell. You learn to control it."
+      },
+      "goal": {
+        "tr": "Enerji bedenini hissetmek ve onu yönetmeye başlamak.",
+        "en": "Feeling the energy body and beginning to control it."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w5x-explore15"
+      ],
+      "tips": [
+        {
+          "tr": "Enerji bedeni, fiziksel bedenin gölgesidir; gölge, ışıkla büyür.",
+          "en": "The energy body is the shadow of the physical body; the shadow grows with the light."
+        },
+        {
+          "tr": "Hissetmek için dokunmaya gerek yok.",
+          "en": "You don't need to touch to feel."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "sense",
+          "name": {
+            "tr": "Hissetme",
+            "en": "Sensing"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Bedeninin etrafındaki alanı hisset. Karıncalanma, bir alan, hafif bir kabuk.",
+                "en": "Feel the space around your body. Tingling, a field, a light shell."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "O alan senin. Onu büyüt, daralt, hareket ettir.",
+                "en": "That field is yours. Grow it, shrink it, move it."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Enerji bedeni, fiziksel bedenin uzantısıdır.",
+                  "en": "The energy body is an extension of the physical body."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Alanı hissettiğin yerde, o vardır.",
+                  "en": "Where you feel the field, there it is."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Kontrol, zorlamayla değil, niyetle gelir.",
+                  "en": "Control comes with intention, not with force."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Odyssey #1 Sensing (Sensing Locale One). Learning to control the energy body, paraphrased from the Wave VI manual."
+    },
+    {
+      "id": "w6-expansion",
+      "wave": "wave-6",
+      "no": 2,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Genişleme",
+        "en": "Expansion"
+      },
+      "summary": {
+        "tr": "Enerji bedenini büyütürsün: titreşimlerin hızlanır, alan bir balon gibi genişler. Farkındalığını en uçlarına kadar götürürsün.",
+        "en": "You expand the energy body: its vibrations speed up, the field grows like a balloon. You carry your awareness to its farthest edges."
+      },
+      "goal": {
+        "tr": "Enerji bedenini genişletmeyi ve sınırlarında dolaşmayı öğrenmek.",
+        "en": "Learning to expand the energy body and to wander its boundaries."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w6-sensing"
+      ],
+      "tips": [
+        {
+          "tr": "Genişleme, nefesle başlar; bedeni zorlamadan.",
+          "en": "Expansion begins with the breath, without straining the body."
+        },
+        {
+          "tr": "Uçlarda hafiflik, merkezde dolgunluk hissedilir.",
+          "en": "At the edges you feel lightness, at the center fullness."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "expand",
+          "name": {
+            "tr": "Genişleme",
+            "en": "Expansion"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Enerji bedeninin titreşimini hızlandır. Bir balon gibi genişlet.",
+                "en": "Speed up the vibration of your energy body. Expand it like a balloon."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Farkındalığını alanın en uçlarına kadar götür. Daha hafif, daha uzak.",
+                "en": "Carry your awareness to the farthest edges of the field. Lighter, further."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Balon büyüdükçe, sen merkezde hafiflersin.",
+                  "en": "As the balloon grows, you grow light at the center."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Uçlar, bedenin unuttuğu yerlerdir.",
+                  "en": "The edges are places the body has forgotten."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Genişleme, daralmanın habercisidir.",
+                  "en": "Expansion is the herald of contraction."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Odyssey #2 Expansion in Locale One. Expanding the energy body like a bubble surrounding the physical body."
+    },
+    {
+      "id": "w6-departure",
+      "wave": "wave-6",
+      "no": 3,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Kalkış Noktası",
+        "en": "Point of Departure"
+      },
+      "summary": {
+        "tr": "Farkındalığını enerji bedenine taşır, onu yüz seksen derece döndürür ve bedenin dışına, faz dışı bir alana yansıtırsın. İlk bilinçli kalkış denemesi.",
+        "en": "You move your awareness into the energy body, rotate it one hundred and eighty degrees and project out of the body, out of phase. The first deliberate attempt at departure."
+      },
+      "goal": {
+        "tr": "Bilinci beden dışına yansıtma tekniğini denemek.",
+        "en": "Trying the technique of projecting awareness outside the body."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kollar iki yanda gevşek. Kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, arms loose at your sides. Headphones on, volume low."
+      },
+      "prereq": [
+        "w6-expansion"
+      ],
+      "tips": [
+        {
+          "tr": "Dönüşten sonra kalkış gelir; acele edersen dönemezsin.",
+          "en": "Departure follows rotation; if you rush, you cannot turn."
+        },
+        {
+          "tr": "Kalkış, çaba değil, terk ediştir.",
+          "en": "Departure is not effort, it is letting go."
+        }
+      ],
+      "warnings": [
+        {
+          "tr": "Kalkış bekleme. Bu oturum teknik provasıdır.",
+          "en": "Don't expect departure. This session is a rehearsal of technique."
+        }
+      ],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "depart",
+          "name": {
+            "tr": "Kalkış",
+            "en": "Departure"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Farkındalığını enerji bedenine taşı. Onu kendi ekseni etrafında yüz seksen derece döndür.",
+                "en": "Move your awareness into the energy body. Turn it one hundred and eighty degrees around its own axis."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Şimdi bedenin dışına, faz dışı bir alana yansıt. Kalk.",
+                "en": "Now project out of the body, into an out-of-phase area. Depart."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Orada kal, dolaş, geri çağrılana kadar.",
+                "en": "Stay there, wander, until you are called back."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Dışarıda, mekan kuralları değişir.",
+                  "en": "Outside, the rules of space change."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Korku, kalkışın frenidir. Sakince devam et.",
+                  "en": "Fear is the brake of departure. Continue calmly."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Dönüş vakti, çanlarla gelir.",
+                  "en": "The time to return comes with the bells."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Odyssey #3 Point of Departure. Rotating the energy body 180 degrees and projecting out of phase, paraphrased from the Wave VI manual."
+    },
+    {
+      "id": "w6-friends",
+      "wave": "wave-6",
+      "no": 4,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Fiziksel Olmayan Arkadaşlar",
+        "en": "Nonphysical Friends"
+      },
+      "summary": {
+        "tr": "Fiziksel olmayan varlıklarla temas kurarsın. Güven, bu temasın anahtarıdır; niyetin benevolent... ",
+        "en": "placeholder"
+      },
+      "goal": {
+        "tr": "Fiziksel olmayan temas kanalını açmak.",
+        "en": "Opening the channel of contact with nonphysical beings."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w6-departure"
+      ],
+      "tips": [
+        {
+          "tr": "Temas, davetle başlar; zorlama itici olur.",
+          "en": "Contact begins with invitation; forcing pushes away."
+        },
+        {
+          "tr": "Güven, her temasın temelidir.",
+          "en": "Trust is the foundation of every contact."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "contact",
+          "name": {
+            "tr": " Temas",
+            "en": "Contact"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Kanalını aç. Yardım ve rehberlik iste.",
+                "en": "Open your channel. Ask for help and guidance."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Bir temas bekle. Karşındaki varlığı hisset.",
+                "en": "Wait for a contact. Feel the presence before you."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Güvenle karşıla. Niyetin yardım olsun.",
+                "en": "Meet with trust. Let your intention be to help."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Temas, iki tarafın da rızasıyla kurulur.",
+                  "en": "Contact is established with the consent of both sides."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Varlıklar, niyetini hisseder.",
+                  "en": "Beings feel your intention."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Korku yoksa, temas derinleşir.",
+                  "en": "Where there is no fear, contact deepens."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Odyssey #4 Nonphysical Friends. Establishing trust through direct personal contact with helpers in energetic form."
+    },
+    {
+      "id": "w6-intro21",
+      "wave": "wave-6",
+      "no": 5,
+      "focus": [
+        "21"
+      ],
+      "title": {
+        "tr": "Focus 21'e Giriş",
+        "en": "Introduction to Focus 21"
+      },
+      "summary": {
+        "tr": "Focus 12'den yirmi bire, başka enerji sistemlerine açılan köprüye geçersin. Titreşimler, hisler, mekan algısı değişir.",
+        "en": "From Focus 12 you cross to twenty-one, the bridge to other energy systems. Vibrations, feelings and the sense of space change."
+      },
+      "goal": {
+        "tr": "Focus 21'e geçişi hissetmek; sınırların çözülmesini izlemek.",
+        "en": "Feeling the transition to Focus 21; watching the boundaries dissolve."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w6-friends"
+      ],
+      "tips": [
+        {
+          "tr": "Köprü, geçişle aşılır; acele edersen tökezlersin.",
+          "en": "The bridge is crossed by passing; if you rush, you stumble."
+        },
+        {
+          "tr": "Focus 21'de zaman ve mekan, bildiğin gibi değildir.",
+          "en": "In Focus 21, time and space are not as you know them."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 21
+        },
+        {
+          "id": "bridge",
+          "name": {
+            "tr": "Köprü",
+            "en": "The Bridge"
+          },
+          "bell": "soft",
+          "focus": 21,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Bilincini ışığın ötesine, başka enerji sistemlerine ilerlet.",
+                "en": "Project your awareness beyond the light, toward other energy systems."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Titreşimler değişiyor. Mekan, bildiğin gibi değil.",
+                "en": "The vibrations are changing. Space is not as you know it."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Sınırlar çözülüyor. Bu beklenen bir histir.",
+                  "en": "Boundaries are dissolving. This is an expected feeling."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Yardım iste. Burada yalnız değilsin.",
+                  "en": "Ask for help. You are not alone here."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Her sistem, kendi diliyle konuşur.",
+                  "en": "Every system speaks its own language."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Odyssey #5 Movement to Locale Two / Intro to Focus 21. The entry template glides the bed from the Focus 12 beat down to the Focus 21 beat across the entry phase."
+    },
+    {
+      "id": "w6-freeflow21",
+      "wave": "wave-6",
+      "no": 6,
+      "focus": [
+        "21"
+      ],
+      "title": {
+        "tr": "Focus 21'de Serbest Yolculuk",
+        "en": "Free Flow Journey in Focus 21"
+      },
+      "summary": {
+        "tr": "Focus 21'de tamamen serbest yolculuk. Yeni topraklarda dolaşır, yardım ve rehberlik istersin. Her oturum yenidir.",
+        "en": "A completely free journey in Focus 21. You wander new territories, you ask for help and guidance. Every session is new."
+      },
+      "goal": {
+        "tr": "Focus 21'de serbestçe dolaşmak, yardım istemeyi ve rehberliği kabul etmeyi öğrenmek.",
+        "en": "Wandering freely in Focus 21, learning to ask for help and to accept guidance."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w6-intro21"
+      ],
+      "tips": [
+        {
+          "tr": "Burası yeni topraktır; harita çiz, acele etme.",
+          "en": "This is new territory; map it, don't rush."
+        },
+        {
+          "tr": "Yardım iste; bilgisi senden geniş olanlardan.",
+          "en": "Ask for help from those whose wisdom is greater than yours."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 21
+        },
+        {
+          "use": "explore",
+          "focus": 21
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Odyssey #6 Free Flow Journey in Focus 21. Pure template session in Focus 21."
+    }
+  ]
+}

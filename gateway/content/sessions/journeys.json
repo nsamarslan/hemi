@@ -1,0 +1,362 @@
+{
+  "wave": "journeys",
+  "sessions": [
+    {
+      "id": "job-intro",
+      "wave": "journeys",
+      "no": 1,
+      "focus": ["10"],
+      "title": { "tr": "Giriş", "en": "Introduction" },
+      "summary": {
+        "tr": "Serinin tanıtımı. Beden dışı deneyime giden yol, sınır uyku denen bir durumla başlar: beden uyur, zihin uyanık kalır.",
+        "en": "The introduction to the series. The path to the out-of-body experience begins with a state called borderland sleep: the body sleeps, the mind stays awake."
+      },
+      "goal": {
+        "tr": "Sınır uyku kavramını tanımak; serinin yapısını anlamak.",
+        "en": "Knowing the concept of borderland sleep; understanding the structure of the series."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses düşük, oda loş.",
+        "en": "Lie on your back, or sit in a chair with your head supported. Headphones on, volume low, room dim."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Seriyi kitaba başvuru olarak gör; her oturum bir öncekine hazırlar.",
+          "en": "Use the series together with the book; every session prepares you for the next."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "id": "settle",
+          "name": { "tr": "Yerleşme", "en": "Settling in" },
+          "bell": null,
+          "focus": 10,
+          "bed": { "beat": "focus", "gain": 0.1 },
+          "lines": [
+            { "id": "l1", "text": { "tr": "Rahatça uzan ya da başı destekli bir koltukta otur. Kulaklığını tak, sesi düşük tut.", "en": "Lie down comfortably, or sit in a chair with your head supported. Put on your headphones and keep the volume low." }, "pause": 4 },
+            { "id": "l2", "text": { "tr": "Gözlerini kapat ve bedeninin ağırlaştığını hisset.", "en": "Close your eyes and feel your body grow heavy." }, "pause": 4 }
+          ],
+          "hold": { "sec": 30 }
+        },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "orient",
+          "name": { "tr": "Yönlendirme", "en": "Orientation" },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Bu seri, beden dışı deneyime giden yolu adım adım kurar.", "en": "This series builds the path to the out-of-body experience, step by step." }, "pause": 4 },
+            { "id": "l2", "text": { "tr": "Yöntemin adı sınır uyku. Beden uyur, zihin uyanık kalır.", "en": "The method is called borderland sleep. The body sleeps, the mind stays awake." }, "pause": 4 },
+            { "id": "l3", "text": { "tr": "Düzenli ve sabırlı ol. Her oturum bir sonrakine köprü kurar.", "en": "Be regular and patient. Every session bridges to the next." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Sınır uyku, beden dışı deneyimin kapısıdır.", "en": "Borderland sleep is the door to the out-of-body experience." } },
+              { "id": "r2", "text": { "tr": "Zihin uyanık, beden uyur.", "en": "Mind awake, body asleep." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official 'Hemi-Sync Support for Journeys Out of the Body' track 1, Introduction by Robert Monroe (1970s series, based on the 1971 book). The series predates the Gateway preparatory process, so this app uses a brief settling phase instead of the full prep. Lengths approximated."
+    },
+    {
+      "id": "job-relax",
+      "wave": "journeys",
+      "no": 2,
+      "focus": ["10"],
+      "title": { "tr": "Gevşeme Egzersizi", "en": "Relaxation Exercise" },
+      "summary": {
+        "tr": "Yönlendirmeli gevşeme egzersizi. Bedeni derinlemesine gevşetir ve sınır uyku durumunun eşiğine taşır.",
+        "en": "The guided relaxation exercise. It loosens the body deeply and carries you to the threshold of borderland sleep."
+      },
+      "goal": {
+        "tr": "Derin gevşemeyi öğrenmek; sınır uykuya hazır olmak.",
+        "en": "Learning deep relaxation; becoming ready for borderland sleep."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses düşük, battaniye yakınında.",
+        "en": "Lie on your back, or sit in a chair with your head supported. Headphones on, volume low, a blanket within reach."
+      },
+      "prereq": ["job-intro"],
+      "tips": [
+        {
+          "tr": "Metabolizma düşebilir, üşüme hissedersen örtün.",
+          "en": "Your metabolism may drop; cover yourself if you feel cold."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "id": "settle",
+          "name": { "tr": "Yerleşme", "en": "Settling in" },
+          "bell": null,
+          "focus": 10,
+          "bed": { "beat": "focus", "gain": 0.1 },
+          "lines": [
+            { "id": "l1", "text": { "tr": "Rahatça uzan ya da başı destekli bir koltukta otur. Kulaklığını tak, sesi düşük tut.", "en": "Lie down comfortably, or sit in a chair with your head supported. Put on your headphones and keep the volume low." }, "pause": 4 },
+            { "id": "l2", "text": { "tr": "Gözlerini kapat ve bedeninin ağırlaştığını hisset.", "en": "Close your eyes and feel your body grow heavy." }, "pause": 4 }
+          ],
+          "hold": { "sec": 30 }
+        },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "relax",
+          "name": { "tr": "Gevşeme", "en": "Relaxation" },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Bedenini baştan aşağı gevşet. Her kası tek tek bırak.", "en": "Loosen your body from head to toe. Release every muscle, one by one." }, "pause": 4 },
+            { "id": "l2", "text": { "tr": "Her nefesle daha derine in. Zorlama yok.", "en": "With every breath, sink deeper. There is no forcing." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Gevşeme, çabalamanı istemez.", "en": "Relaxation does not ask for your effort." } },
+              { "id": "r2", "text": { "tr": "Bedenin eriyor, zihnin izliyor.", "en": "The body melts, the mind watches." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official track 2, Relaxation Exercise. In the original series the five exercises after the introduction are largely unguided; this app adds light original guidance and reminders. Lengths approximated."
+    },
+    {
+      "id": "job-cond-a",
+      "wave": "journeys",
+      "no": 3,
+      "focus": ["10"],
+      "title": { "tr": "Koşul A", "en": "Condition A" },
+      "summary": {
+        "tr": "Sınır uyku yönteminin ilk adımı: sınır uyku durumuna ulaşmak ve onu tutmak. Zihin uyanık, beden uykuda.",
+        "en": "The first step of the borderland sleep method: reaching the borderland sleep state and holding it. Mind awake, body asleep."
+      },
+      "goal": {
+        "tr": "Sınır uyku durumunu bilinçle deneyimlemek.",
+        "en": "Experiencing the borderland sleep state consciously."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir ortam.",
+        "en": "Lie on your back, headphones on, volume low. A quiet environment."
+      },
+      "prereq": ["job-relax"],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "id": "settle",
+          "name": { "tr": "Yerleşme", "en": "Settling in" },
+          "bell": null,
+          "focus": 10,
+          "bed": { "beat": "focus", "gain": 0.1 },
+          "lines": [
+            { "id": "l1", "text": { "tr": "Rahatça uzan. Kulaklığını tak, sesi düşük tut.", "en": "Lie down comfortably. Put on your headphones and keep the volume low." }, "pause": 4 },
+            { "id": "l2", "text": { "tr": "Gözlerini kapat ve bedeninin ağırlaştığını hisset.", "en": "Close your eyes and feel your body grow heavy." }, "pause": 4 }
+          ],
+          "hold": { "sec": 30 }
+        },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "condition",
+          "name": { "tr": "Koşul A", "en": "Condition A" },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Birinci adım. Sınır uyku durumuna ulaş ve onu tut.", "en": "The first step. Reach the borderland sleep state and hold it." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Zihnin uyanık, bedenin uykuda. Bu ikisi bir arada.", "en": "The mind is awake, the body is asleep. These two exist together." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Durum senin, tutabildiğin kadar tut.", "en": "The state is yours. Hold it as long as you can." } },
+              { "id": "r2", "text": { "tr": "Uyanıklık, hafif bir tetikte olmaktır.", "en": "Wakefulness is a light alertness." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official track 3, Condition A: the first of the four borderland sleep conditions (A through D) described in the series booklet. Lengths approximated."
+    },
+    {
+      "id": "job-cond-b",
+      "wave": "journeys",
+      "no": 4,
+      "focus": ["10"],
+      "title": { "tr": "Koşul B", "en": "Condition B" },
+      "summary": {
+        "tr": "Yöntemin ikinci adımı. Orijinal bant yönlendirme içermez; bu uygulamada sessiz bir alana hafif özgün hatırlatmalar eşlik eder.",
+        "en": "The second step of the method. The original tape is unguided; in this app a silent space is accompanied by light original reminders."
+      },
+      "goal": {
+        "tr": "Sınır uyku durumunu derinleştirmek.",
+        "en": "Deepening the borderland sleep state."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir ortam.",
+        "en": "Lie on your back, headphones on, volume low. A quiet environment."
+      },
+      "prereq": ["job-cond-a"],
+      "tips": [
+        {
+          "tr": "Orijinal bantlar yönlendirme içermez; ritim tek başına çalışır.",
+          "en": "The original tapes carry no guidance; the rhythm works on its own."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "id": "settle",
+          "name": { "tr": "Yerleşme", "en": "Settling in" },
+          "bell": null,
+          "focus": 10,
+          "bed": { "beat": "focus", "gain": 0.1 },
+          "lines": [
+            { "id": "l1", "text": { "tr": "Rahatça uzan. Kulaklığını tak, sesi düşük tut.", "en": "Lie down comfortably. Put on your headphones and keep the volume low." }, "pause": 4 },
+            { "id": "l2", "text": { "tr": "Gözlerini kapat ve bedeninin ağırlaştığını hisset.", "en": "Close your eyes and feel your body grow heavy." }, "pause": 4 }
+          ],
+          "hold": { "sec": 30 }
+        },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "condition",
+          "name": { "tr": "Koşul B", "en": "Condition B" },
+          "bell": null,
+          "focus": 10,
+          "lines": [],
+          "hold": {
+            "param": "explore",
+            "lastMinute": false,
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Durum derinleşiyor, zorlama.", "en": "The state is deepening. Don't force it." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official track 4, Condition B. Unguided in the original series (four of the five exercises are unguided); this app adds a brief settling phase and one light reminder. Lengths approximated."
+    },
+    {
+      "id": "job-cond-c",
+      "wave": "journeys",
+      "no": 5,
+      "focus": ["10"],
+      "title": { "tr": "Koşul C", "en": "Condition C" },
+      "summary": {
+        "tr": "Yöntemin üçüncü adımı. Orijinal bant yönlendirme içermez; bedenin ötesine hazırlık sessiz bir alanda sürer.",
+        "en": "The third step of the method. The original tape is unguided; the preparation for going beyond the body continues in a silent space."
+      },
+      "goal": {
+        "tr": "Bedenin ötesine hazırlanmak.",
+        "en": "Preparing to go beyond the body."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir ortam.",
+        "en": "Lie on your back, headphones on, volume low. A quiet environment."
+      },
+      "prereq": ["job-cond-b"],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "id": "settle",
+          "name": { "tr": "Yerleşme", "en": "Settling in" },
+          "bell": null,
+          "focus": 10,
+          "bed": { "beat": "focus", "gain": 0.1 },
+          "lines": [
+            { "id": "l1", "text": { "tr": "Rahatça uzan. Kulaklığını tak, sesi düşük tut.", "en": "Lie down comfortably. Put on your headphones and keep the volume low." }, "pause": 4 },
+            { "id": "l2", "text": { "tr": "Gözlerini kapat ve bedeninin ağırlaştığını hisset.", "en": "Close your eyes and feel your body grow heavy." }, "pause": 4 }
+          ],
+          "hold": { "sec": 30 }
+        },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "condition",
+          "name": { "tr": "Koşul C", "en": "Condition C" },
+          "bell": null,
+          "focus": 10,
+          "lines": [],
+          "hold": {
+            "param": "explore",
+            "lastMinute": false,
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Bedenin ötesine hazırlan.", "en": "Prepare to go beyond the body." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official track 5, Condition C. Unguided in the original series; this app adds a brief settling phase and one light reminder. Lengths approximated."
+    },
+    {
+      "id": "job-cond-d",
+      "wave": "journeys",
+      "no": 6,
+      "focus": ["10"],
+      "title": { "tr": "Koşul D", "en": "Condition D" },
+      "summary": {
+        "tr": "Yöntemin son adımı: tüm öğrenilenleri tek bir egzersizde birleştirir. Serinin en güçlü ritimlerine sahiptir.",
+        "en": "The final step of the method: it combines everything learned into a single exercise. It carries the most powerful rhythms of the series."
+      },
+      "goal": {
+        "tr": "Sınır uyku yöntemini bütün olarak deneyimlemek; beden dışı deneyime zemin hazırlamak.",
+        "en": "Experiencing the borderland sleep method as a whole; preparing the ground for the out-of-body experience."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": ["job-cond-c"],
+      "tips": [
+        {
+          "tr": "Derin keşifler burada mümkün; sınırın yok.",
+          "en": "Deep explorations are possible here; you have no limits."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "id": "settle",
+          "name": { "tr": "Yerleşme", "en": "Settling in" },
+          "bell": null,
+          "focus": 10,
+          "bed": { "beat": "focus", "gain": 0.1 },
+          "lines": [
+            { "id": "l1", "text": { "tr": "Rahatça uzan. Kulaklığını tak, sesi düşük tut.", "en": "Lie down comfortably. Put on your headphones and keep the volume low." }, "pause": 4 },
+            { "id": "l2", "text": { "tr": "Gözlerini kapat ve bedeninin ağırlaştığını hisset.", "en": "Close your eyes and feel your body grow heavy." }, "pause": 4 }
+          ],
+          "hold": { "sec": 30 }
+        },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "condition",
+          "name": { "tr": "Koşul D", "en": "Condition D" },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Dördüncü adım. Tümünü tek bir egzersizde birleştir.", "en": "The fourth step. Combine everything into a single exercise." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Burada derin keşifler mümkün. Sınırın yok.", "en": "Deep explorations are possible here. You have no limits." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Tüm bildiklerini bir araya getir.", "en": "Bring everything you know together." } },
+              { "id": "r2", "text": { "tr": "Sınır uyku, beden dışı deneyimin eşiğidir.", "en": "Borderland sleep is the threshold of the out-of-body experience." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official track 6, Condition D: per the series booklet, it puts all you have learned into a single exercise with the most powerful frequencies of the series. Lengths approximated."
+    }
+  ]
+}

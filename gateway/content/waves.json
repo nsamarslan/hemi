@@ -1,0 +1,467 @@
+{
+  "waves": [
+    {
+      "id": "journeys",
+      "no": 1,
+      "series": "early",
+      "title": {
+        "tr": "Beden Dışı Yolculuklar",
+        "en": "Journeys Out of the Body"
+      },
+      "focus": [
+        "10"
+      ],
+      "intro": {
+        "tr": "Monroe'nun kitabına eşlik eden ilk ev serisi: giriş, gevşeme egzersizi ve sınır uyku yönteminin dört koşulu. Orijinalinde ikinci parçadan itibaren yönlendirme yoktur; bu uygulamada her parça hafif özgün hatırlatmalar içerir.",
+        "en": "The first home series accompanying Monroe's book: the introduction, a relaxation exercise and the four conditions of the borderland sleep method. In the original, the tracks after the second are unguided; in this app each track carries light original reminders."
+      },
+      "items": [
+        "job-intro",
+        "job-relax",
+        "job-cond-a",
+        "job-cond-b",
+        "job-cond-c",
+        "job-cond-d"
+      ]
+    },
+    {
+      "id": "wave-1",
+      "no": 1,
+      "series": "waves-of-change",
+      "title": {
+        "tr": "Dalga I · Keşif",
+        "en": "Wave I · Discovery"
+      },
+      "focus": [
+        "10"
+      ],
+      "intro": {
+        "tr": "Serinin başlangıcı. Hazırlık süreci, enerji dönüşüm kutusu, rezonans ayarı ve Focus 10: zihin uyanık, beden uykuda. Her oturum bir sonrakine köprü kurar.",
+        "en": "The beginning of the series. The preparatory process, the energy conversion box, resonant tuning and Focus 10: mind awake, body asleep. Each session bridges to the next."
+      },
+      "items": [
+        "w1-orientation",
+        "w1-intro-10",
+        "w1-advanced-10",
+        "w1-release",
+        "w1-sleep",
+        "w1-freeflow"
+      ]
+    },
+    {
+      "id": "wave-2",
+      "no": 2,
+      "series": "waves-of-change",
+      "title": {
+        "tr": "Dalga II · Eşik",
+        "en": "Wave II · Threshold"
+      },
+      "focus": [
+        "12"
+      ],
+      "intro": {
+        "tr": "Focus 12: genişlemiş farkındalık. Enerji çubuğu, beden haritası, renk nefesi ve örüntü çalışması gibi ilk araçlar bu dalgada öğretilir.",
+        "en": "Focus 12: expanded awareness. The first tools are taught in this wave: the energy bar tool, the living body map, color breathing and patterning."
+      },
+      "items": [
+        "w2-intro-12",
+        "w2-problem",
+        "w2-pattern-1m",
+        "w2-color",
+        "w2-ebt",
+        "w2-bodymap"
+      ]
+    },
+    {
+      "id": "wave-3",
+      "no": 3,
+      "series": "waves-of-change",
+      "title": {
+        "tr": "Dalga III · Özgürlük",
+        "en": "Wave III · Freedom"
+      },
+      "focus": [
+        "10",
+        "12"
+      ],
+      "intro": {
+        "tr": "Fiziksel olmayan enerjiyi algılamak artık tanıdık bir his. Yükseliş, uzaktan görme, vektörler, beş soru, enerji besini ve ilk ayrışma denemeleri.",
+        "en": "Perceiving nonphysical energy is now a familiar feeling. Lift off, remote viewing, vectors, five questions, energy food and the first attempts at separation."
+      },
+      "items": [
+        "w3-liftoff",
+        "w3-rv",
+        "w3-vectors",
+        "w3-fiveq",
+        "w3-food",
+        "w3-separation"
+      ]
+    },
+    {
+      "id": "wave-4",
+      "no": 4,
+      "series": "waves-of-change",
+      "title": {
+        "tr": "Dalga IV · Macera",
+        "en": "Wave IV · Adventure"
+      },
+      "focus": [
+        "12"
+      ],
+      "intro": {
+        "tr": "Daha uzun örüntüler, sözsüz iletişim ve bir iletişim noktası kurma. Ufuklar genişliyor; amaç artık sadece hissetmek değil, anlamlandırmak.",
+        "en": "Longer patterns, non-verbal communication and establishing a point of communication. Horizons widen; the aim is no longer only to feel, but to make meaning."
+      },
+      "items": [
+        "w4-pattern-1y",
+        "w4-messages",
+        "w4-freeflow12",
+        "w4-nvc1",
+        "w4-nvc2",
+        "w4-compoint"
+      ]
+    },
+    {
+      "id": "wave-5x",
+      "no": 5,
+      "series": "waves-of-change",
+      "title": {
+        "tr": "Dalga V · Keşifler",
+        "en": "Wave V · Exploring"
+      },
+      "focus": [
+        "12",
+        "15"
+      ],
+      "intro": {
+        "tr": "Sesli seri. Focus 12'den Focus 15'e ilk geçiş: sezgiyi keşfetmek, zamansızlık durumuna giriş ve Focus 15'te görevle yaratım. Özgün 1984 serbest akış dalgası için Özgün Seri'ye bakın.",
+        "en": "The voiced series. The first transition from Focus 12 to Focus 15: discovering intuition, entering the state of no-time, and creation with a mission in Focus 15. For the original 1984 free-flow wave, see the Original Series."
+      },
+      "items": [
+        "w5x-adv12",
+        "w5x-intuition-a",
+        "w5x-intuition-b",
+        "w5x-intro15",
+        "w5x-mission15",
+        "w5x-explore15"
+      ]
+    },
+    {
+      "id": "wave-6",
+      "no": 6,
+      "series": "waves-of-change",
+      "title": {
+        "tr": "Dalga VI · Odyssey",
+        "en": "Wave VI · Odyssey"
+      },
+      "focus": [
+        "12",
+        "21"
+      ],
+      "intro": {
+        "tr": "Enerji bedenini hissetmek, genişletmek ve bilinçli olarak hareket ettirmek. Kalkış noktası, fiziksel olmayan dostlar ve Focus 21'e ilk geçiş: başka enerji sistemlerine köprü.",
+        "en": "Sensing the energy body, expanding it and moving it deliberately. The point of departure, nonphysical friends and the first transition to Focus 21: the bridge to other energy systems."
+      },
+      "items": [
+        "w6-sensing",
+        "w6-expansion",
+        "w6-departure",
+        "w6-friends",
+        "w6-intro21",
+        "w6-freeflow21"
+      ]
+    },
+    {
+      "id": "wave-7",
+      "no": 7,
+      "series": "waves-of-change",
+      "title": {
+        "tr": "Dalga VII · Voyager",
+        "en": "Wave VII · Voyager"
+      },
+      "focus": [
+        "23",
+        "25",
+        "27"
+      ],
+      "intro": {
+        "tr": "Fiziksel yaşamın ötesindeki geçiş bölgeleri: Focus 23, 25 ve 27. Tüm kendini keşfetmek, bu bölgelere ilk adımlar, kurtarma ve ötesinden mesajlar.",
+        "en": "The transition areas beyond physical life: Focus 23, 25 and 27. Exploring the total self, first steps into these areas, retrieval and messages from beyond."
+      },
+      "items": [
+        "w7-totalself",
+        "w7-focus23",
+        "w7-focus25",
+        "w7-focus27",
+        "w7-retrieval",
+        "w7-beyond"
+      ]
+    },
+    {
+      "id": "wave-8",
+      "no": 8,
+      "series": "waves-of-change",
+      "title": {
+        "tr": "Dalga VIII · Birlik",
+        "en": "Wave VIII · Union"
+      },
+      "focus": [
+        "27"
+      ],
+      "intro": {
+        "tr": "Focus 27'nin ötesinde, zamanın ve mekânın ötesinde bir yolculuk. Özel tur, giriş rehberiyle buluşma, eğitim fırsatları, iyileşme, planlama merkezi, koordinasyon bölgesi, iç dünya ve Birliğin ötesine ulaşır.",
+        "en": "A journey beyond time and space, beyond Focus 27. Special tour, meeting the entry director, educational opportunities, healing, the planning center, the coordination area, inner earth, and the Absolute."
+      },
+      "items": [
+        "w8-tour",
+        "w8-entry",
+        "w8-education",
+        "w8-healing",
+        "w8-planning",
+        "w8-coordination",
+        "w8-inner",
+        "w8-beyond",
+        "w8-freeflow27"
+      ]
+    },
+    {
+      "id": "wave-5",
+      "no": 1,
+      "series": "gateway-freeflow",
+      "title": {
+        "tr": "Keşifler · Özgün Seri",
+        "en": "Exploring · Original Series"
+      },
+      "focus": [
+        "10",
+        "12"
+      ],
+      "intro": {
+        "tr": "Özgün seri, 1984: sesli anlatım içermeyen serbest akış görevleri. Focus 10 ve 12'de amaçlı görevler; gündüz ve gece, ufuklar ve yollar. 1998'deki sesli Dalga V bu dalganın yerini aldı.",
+        "en": "The original series, 1984: free-flow missions without voice narration. Purposeful missions in Focus 10 and 12; day and night, horizons and pathways. The voiced Wave V of 1998 replaced this wave."
+      },
+      "items": [
+        "w5-mission10",
+        "w5-mission12",
+        "w5-missionday",
+        "w5-missionnight",
+        "w5-horizons",
+        "w5-pathways"
+      ]
+    },
+    {
+      "id": "ff-prospecting",
+      "no": 2,
+      "series": "gateway-freeflow",
+      "title": {
+        "tr": "Arayış · Özgün Seri",
+        "en": "Prospecting · Original Series"
+      },
+      "focus": [
+        "12",
+        "15",
+        "21"
+      ],
+      "intro": {
+        "tr": "Özgün seri, 1984 (1996 yeniden basımı): altı enstrümantal serbest akış parçası. Değişim madenciliği, beden hazinesi, boşluk noktası, artı kutup ve yakın ve uzak ufuklar. 2004'teki sesli Odyssey bu dalganın yerini aldı.",
+        "en": "The original series, 1984 (1996 reissue): six instrumental free-flow tracks. Mining for change, the body's treasure, the null point, plus polarity, and near and far reaches. The voiced Odyssey of 2004 replaced this wave."
+      },
+      "items": [
+        "ffp-metamorphosite",
+        "ffp-biobody",
+        "ffp-nullpoint",
+        "ffp-pluspolarity",
+        "ffp-nearreaches",
+        "ffp-farreaches"
+      ]
+    },
+    {
+      "id": "human-plus",
+      "no": 1,
+      "series": "human-plus",
+      "title": {
+        "tr": "Fonksiyon Egzersizleri",
+        "en": "Function Exercises"
+      },
+      "focus": [
+        "11"
+      ],
+      "intro": {
+        "tr": "Her biri günlük hayata kazandırılan kısa bir komut öğreten 53 fonksiyon egzersizi. Erişim Kanalı (Focus 11) açıkken komut kodlanır; gün içinde istediğin an içinden söylersin. Komutların birçoğu bu listede gösterilir; doğrulanamayanlar özgün komutunu sen seçer.",
+        "en": "53 function exercises, each teaching a short command you carry into daily life. The command is encoded while the Access Channel (Focus 11) is open; you say it to yourself any time during the day. Most commands are shown on this list; for the rest you choose your own original command."
+      },
+      "items": [
+        "hp-access-energy",
+        "hp-attention",
+        "hp-brain",
+        "hp-buy-numbers",
+        "hp-circulation",
+        "hp-contemplation",
+        "hp-de-discomfort",
+        "hp-de-hab",
+        "hp-de-tox",
+        "hp-do-this-now",
+        "hp-eat-no-eat",
+        "hp-eight-great",
+        "hp-emergency-injury",
+        "hp-emergency-toxic",
+        "hp-empathizing",
+        "hp-heart",
+        "hp-hypertension",
+        "hp-immunizing",
+        "hp-imprint",
+        "hp-let-go",
+        "hp-light-foot",
+        "hp-lungs",
+        "hp-make-your-day",
+        "hp-moebius-west",
+        "hp-nutricia",
+        "hp-off-loading",
+        "hp-options",
+        "hp-recall",
+        "hp-recharge",
+        "hp-regenerate",
+        "hp-relax",
+        "hp-release",
+        "hp-reset",
+        "hp-restorative-sleep",
+        "hp-see-be",
+        "hp-sensory-hearing",
+        "hp-sensory-seeing",
+        "hp-sensory-smell",
+        "hp-sensory-taste",
+        "hp-sensory-touch",
+        "hp-sex-drive",
+        "hp-short-fix",
+        "hp-sleep",
+        "hp-sleep-easy",
+        "hp-speak-up",
+        "hp-stay-awake",
+        "hp-strong-quick",
+        "hp-sweet-dreams",
+        "hp-synchronizing",
+        "hp-think-fast",
+        "hp-tune-up",
+        "hp-wake-know",
+        "hp-zoning"
+      ]
+    },
+    {
+      "id": "voyage",
+      "no": 1,
+      "series": "gateway-voyage",
+      "title": {
+        "tr": "Açık Oturumlar",
+        "en": "Open Sessions"
+      },
+      "focus": [
+        "10",
+        "12"
+      ],
+      "intro": {
+        "tr": "Gateway Voyage programının klasik iki açık oturumu: programa giriş egzersizi ve arşivden 43 dakikalık açık egzersiz. Programın geri kalanı Waves of Change I–VI oturumlarından oluşur.",
+        "en": "The two classic open sessions of the Gateway Voyage programme: the introductory exercise and the 43-minute open exercise from the archives. The rest of the programme consists of the Waves of Change I–VI sessions."
+      },
+      "items": [
+        "gv-intro",
+        "gv-open"
+      ]
+    },
+    {
+      "id": "lucid",
+      "no": 1,
+      "series": "hemi-series",
+      "title": {
+        "tr": "Lucid Dreaming · Bilinçli Rüya",
+        "en": "Lucid Dreaming"
+      },
+      "focus": [
+        "10"
+      ],
+      "intro": {
+        "tr": "Hemi-Sync'in Lucid Dreaming serisi (1999): rüya halinde bilinçli kalmayı ve kendi rüya dünyanı yönetmeyi öğretir. İlk üç egzersiz 90 dakika, sonuncusu tüm gece (sekiz saat) sürer.",
+        "en": "The Hemi-Sync Lucid Dreaming series (1999): teaches you to stay conscious in the dream state and to direct your own dreamscape. The first three exercises are 90 minutes; the last one runs a full night (eight hours)."
+      },
+      "items": [
+        "lucid-maba",
+        "lucid-imagination",
+        "lucid-flying",
+        "lucid-programming"
+      ]
+    },
+    {
+      "id": "chakra",
+      "no": 2,
+      "series": "hemi-series",
+      "title": {
+        "tr": "Chakra Attunement · Çakra Uyumu",
+        "en": "Chakra Attunement"
+      },
+      "focus": [
+        "10",
+        "12"
+      ],
+      "intro": {
+        "tr": "Chakra koleksiyonu: yedi enerji merkezini dengeleyen, aktive eden ve uyumlayan meditasyonlar. Eluv'in Chakra Meditation'ı (uzun ve kısa) ve Allyn Evans'ın Heal and Balance'ı.",
+        "en": "The chakra collection: meditations that balance, activate and attune the seven energy centers. Eluv's Chakra Meditation (extended and abridged) and Allyn Evans' Heal and Balance."
+      },
+      "items": [
+        "chakra-extended",
+        "chakra-abridged",
+        "chakra-heal"
+      ]
+    },
+    {
+      "id": "fifthd",
+      "no": 3,
+      "series": "hemi-series",
+      "title": {
+        "tr": "5th Dimensional Transformation · Beşinci Boyut",
+        "en": "5th Dimensional Transformation"
+      },
+      "focus": [
+        "12",
+        "15"
+      ],
+      "intro": {
+        "tr": "5th Dimensional Transformation koleksiyonundan seçme transpersonal yolculuklar: sabah egzersizi, kaygı bırakma, dönüşüm ve geleceği keşif. Kısa, kendi başına dinlenebilen kısa meditasyonlar.",
+        "en": "Selected transpersonal journeys from the 5th Dimensional Transformation collection: morning exercise, anxiety release, transformation and future exploration. Short, self-contained meditations."
+      },
+      "items": [
+        "fifthd-morning",
+        "fifthd-anxiety",
+        "fifthd-transformation",
+        "fifthd-future"
+      ]
+    },
+    {
+      "id": "extras",
+      "no": 1,
+      "series": "extras",
+      "title": {
+        "tr": "Ek Pratikler",
+        "en": "Complementary Practices"
+      },
+      "focus": [
+        "10",
+        "12"
+      ],
+      "intro": {
+        "tr": "Gateway pratiğini güçlendiren kısa ek oturumlar: el kitabı teknikleri (enerji yürüyüşü, topraklanma, tek nefes) ve bağımsız tamamlayıcı pratikler (beden taraması, kutu nefesi, aşamalı gevşeme, şefkat, rüya günlüğü, WBTB, akşam gözden geçirme).",
+        "en": "Short extra sessions that strengthen the Gateway practice: manual techniques (energy walk, grounding, one-breath) and independent complementary practices (body scan, box breathing, progressive relaxation, loving-kindness, dream journal, WBTB, evening review)."
+      },
+      "items": [
+        "ex-walk",
+        "ex-ground",
+        "ex-onebreath",
+        "ex-scan",
+        "ex-boxbreath",
+        "ex-pmr",
+        "ex-metta",
+        "ex-dreamjournal",
+        "ex-wbtb",
+        "ex-evening"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "ch18-stimulate-fire",
+  "chapter": 18,
+  "section": "18.9",
+  "category": "seated",
+  "title": {"tr": "Ateşi Uyarmak", "en": "Stimulating the Fire"},
+  "summary": {
+    "tr": "Yalnızca karından nefes alırken her nefes alışta karın kaslarını kasıp karında bir karşı basınç oluşturur, nefes verirken her şeyi gevşetirsin. Bu sırada kaşlarının arasındaki ve irade merkezindeki titreşimin farkında kalırsın. Basit görünür ama ciddi bir enerji uyandırabilir; irade merkezinin kararlı gücüne ulaşmakta zorlananlara önerilir.",
+    "en": "Breathing from the belly only, you tighten the abdominal muscles on every in-breath to create a counter-pressure in the belly, and relax everything on the out-breath, while your awareness stays on the vibration in the eye and the will centre. It looks simple but can awaken considerable energy; it is recommended for anyone who finds it hard to reach the assertive energy of the will centre."
+  },
+  "setting": {
+    "tr": "Meditasyon oturuşu şart değil ama oturarak yapmak daha iyi. Hayatın her anında olduğu gibi sırt dik. Kitap gözlerden söz etmiyor; farkındalığı kolaylaştırmak için kapatabilirsin.",
+    "en": "A meditation posture is not needed, but it is better to be seated. As always in life, keep the back straight. The book says nothing about the eyes; you may close them to make the awareness easier."
+  },
+  "prereq": ["ch18-eye-belly"],
+  "tips": [
+    {"tr": "Basit görünse de bu çalışma ciddi bir enerji uyandırabilir.", "en": "Simple as it seems, this practice can awaken considerable energy."},
+    {"tr": "Düzenli yapılması, irade merkezinin kararlı, kendini ortaya koyan enerjisine ulaşmakta zorlananlara önerilir.", "en": "Regular practice is recommended for anyone who finds it hard to tap the assertive energy of the will centre."},
+    {"tr": "Bir sınavdan hemen önce dene: kaygıyla başa çıkmana ve ihtiyacın olan enerjiyi uyandırmana yardım eder.", "en": "Try it right before an exam: it eases anxiety and wakes up the energy you need."},
+    {
+      "tr": "Ağır bir yemekten sonra ya da hazımsızlık yaklaşırken de dikkat çekici ölçüde etkilidir: bir yandan içten bir masaj gibi mide ve bağırsakların boşalmasını hızlandırır, öte yandan karındaki enerji merkezlerini harekete geçirerek sindirim ateşini güçlü biçimde uyarır.",
+      "en": "It also works remarkably well after a heavy meal or when indigestion is near: on the one hand it acts like an internal massage that helps the stomach and bowels empty faster, on the other it strongly stimulates the digestive fire by activating the abdominal energy centres."
+    },
+    {
+      "tr": "Auran kapanmıyor, karnın tıkalı gibi geliyorsa: birkaç hafta boyunca günde iki kez sırtüstü yatıp ellerini kaburgalarına koyarak yalnızca karından nefes almayı çalış; göğüs ve köprücük kemikleri kıpırdamasın. Gün içinde de olabildiğince bilinçli olarak karından nefes al ve bu tekniği uygulama fırsatını hiç kaçırma. Amaç ömür boyu karından nefes almak değil; birkaç hafta ya da ay süren yoğun bir farkındalık enerjilerini dengeler (20.14).",
+      "en": "If your aura won't close and your belly feels blocked: for a few weeks, twice a day, lie on your back with your hands flat on your ribs and breathe from the abdomen only, with no movement in the chest or around the collarbones. During the day, breathe consciously from the abdomen as much as you can, and never miss a chance to use this technique. The point is not to breathe from the belly for life; some weeks or months of strong attention to this area help bring your energies back into balance (20.14)."
+    },
+    {
+      "tr": "Bir partnerle: sırtüstü yat ve göğüs ile köprücük kemikleri kıpırdamadan, tam bir karın nefesiyle nefes al. Nefes alırken partnerin göbeğinin altına düz elleriyle bastırsın; sen de her nefes alışta onun ellerine karşı itip basıncı karşıla. Nefes verirken bütün basınç bırakılır. Karın nefesinin gücünü giderek artır, kaburgalar kalkmasın (20.16).",
+      "en": "With a partner: lie on your back and breathe strictly from the abdomen, with no movement of the chest or collarbones. Your partner presses below your navel with flat hands while you breathe in; each time you inhale, push against their hands and match the pressure. On the out-breath all pressure is released. Keep building the force of the abdominal in-breath, without letting the ribcage move (20.16)."
+    }
+  ],
+  "warnings": [
+    {"tr": "Nefesin kendi normal ritminde kalsın; derinliği her zamanki gibi ya da sadece biraz daha derin. Bu bir zorlama ya da hızlı nefes çalışması değil.", "en": "Keep your normal breathing rhythm, with the usual depth or only slightly deeper. This is not a forced or fast breathing exercise."},
+    {"tr": "Göğsün hiç kıpırdamasın: nefes alırken yalnızca karın öne gelir, göğüs kafesi hareketsiz kalır. Basınca geçmeden önce bir iki dakika gövdeni izleyerek bundan emin ol.", "en": "Your chest should not move at all: on the in-breath only the belly moves forward and the ribcage stays still. Before adding the pressure, watch your trunk for a minute or two to make sure of it."},
+    {"tr": "Kasılma yalnızca nefes alırken. Her nefes verişte bütün kasları tamamen gevşet.", "en": "Tighten only while breathing in. On every out-breath, let all the muscles relax completely."}
+  ],
+  "visual": "will-centre",
+  "night": false,
+  "partner": false,
+  "special": null,
+  "params": [
+    {"key": "watch", "label": {"tr": "Karın nefesini izleme", "en": "Watching the belly breath"}, "unit": "min", "min": 1, "max": 5, "step": 1, "def": 2},
+    {"key": "fire", "label": {"tr": "Karşı basınçlı nefes", "en": "Counter-pressure breathing"}, "unit": "min", "min": 1, "max": 60, "step": 1, "def": 10}
+  ],
+  "presets": [
+    {"id": "10", "label": {"tr": "10 dk", "en": "10 min"}, "values": {"fire": 10}},
+    {"id": "20", "label": {"tr": "20 dk", "en": "20 min"}, "values": {"fire": 20}},
+    {"id": "30", "label": {"tr": "30 dk", "en": "30 min"}, "values": {"fire": 30}}
+  ],
+  "phases": [
+    {
+      "id": "prep",
+      "name": {"tr": "Hazırlık", "en": "Preparation"},
+      "bell": null,
+      "lines": [
+        {"id": "l1", "text": {"tr": "Otur. Meditasyon oturuşu gerekmez ama sırtını dik tut.", "en": "Sit down. A meditation posture is not needed, but keep your back straight."}, "pause": 4},
+        {"id": "l2", "text": {"tr": "İstersen gözlerini kapat.", "en": "Close your eyes if you like."}, "pause": 3}
+      ],
+      "hold": null
+    },
+    {
+      "id": "centres",
+      "name": {"tr": "Göz ve Karın", "en": "Eye and Belly"},
+      "bell": "start",
+      "visual": {"id": "will-centre", "state": "eye-belly"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Kaşlarının arasında ve göbeğinin iki buçuk santim altında, irade merkezinde farkında ol.", "en": "Bring your awareness to the eye and to the will centre, one inch below your navel."}, "pause": 12}
+      ],
+      "hold": null
+    },
+    {
+      "id": "belly",
+      "name": {"tr": "Karın Nefesi", "en": "Belly Breathing"},
+      "bell": "soft",
+      "visual": {"id": "will-centre", "state": "eye-belly"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Nefesinin farkına var ve yalnızca karından nefes al.", "en": "Notice your breath, and let it come from your belly only."}, "pause": 4},
+        {"id": "l2", "text": {"tr": "Nefes alırken yalnızca karnın öne gelsin. Göğüs kafesin hareketsiz kalsın.", "en": "As you breathe in, only your belly moves forward. Your ribcage stays still."}, "pause": 5},
+        {"id": "l3", "text": {"tr": "Nefes alırken de verirken de göğsünde hiçbir şey kıpırdamasın.", "en": "Breathing in and breathing out, nothing moves in your chest."}, "pause": 3},
+        {"id": "l4", "text": {"tr": "Gövdeni izle ve karnın dışında hiçbir yerin kıpırdamadığından emin ol.", "en": "Watch your trunk and make sure nothing moves except your belly."}, "pause": 2}
+      ],
+      "hold": {
+        "param": "watch",
+        "every": 30,
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Yalnızca karın hareket ediyor, göğüs sakin.", "en": "Only the belly moves, the chest stays quiet."}},
+          {"id": "r2", "text": {"tr": "Nefes alırken karnın öne geliyor, kaburgaların yerinde.", "en": "Breathing in, the belly moves forward, the ribs stay where they are."}},
+          {"id": "r3", "text": {"tr": "Gövdende başka bir hareket var mı, izle.", "en": "Watch for any other movement in your trunk."}}
+        ]
+      }
+    },
+    {
+      "id": "fire",
+      "name": {"tr": "Karşı Basınç", "en": "Counter-pressure"},
+      "bell": "start",
+      "visual": {"id": "will-centre", "state": "eye-belly"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Şimdi göğsün kıpırdamadan, yalnızca karından nefes almayı sürdür.", "en": "Now keep breathing from the belly only, with no movement in your chest."}, "pause": 3},
+        {"id": "l2", "text": {"tr": "Her nefes alışta karın duvarının kaslarını kas ve karnındaki basıncı artır.", "en": "On every in-breath, tighten your abdominal wall so that pressure builds inside your belly."}, "pause": 4},
+        {"id": "l3", "text": {"tr": "Her nefes verişte her şeyi gevşet.", "en": "Each time you breathe out, relax everything."}, "pause": 6},
+        {"id": "l4", "text": {"tr": "Kendi normal ritminde nefes al. Nefesin her zamanki kadar derin, ya da biraz daha derin.", "en": "Keep your normal rhythm. The breath is as deep as usual, or slightly deeper."}, "pause": 5},
+        {"id": "l5", "text": {"tr": "Bu sırada kaşlarının arasındaki ve irade merkezindeki titreşimin farkında kal.", "en": "All the while, keep the eye and the will centre vibrating in your awareness."}, "pause": 2}
+      ],
+      "hold": {
+        "param": "fire",
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Nefes alırken kas, basınç karnında toplansın.", "en": "Breathing in, tighten, and let the pressure build in your belly."}},
+          {"id": "r2", "text": {"tr": "Nefes verirken bütün kasları bırak.", "en": "Breathing out, let all the muscles go."}},
+          {"id": "r3", "text": {"tr": "Göğsün hareketsiz. Yalnızca karın çalışıyor.", "en": "Chest still. Only the belly is working."}},
+          {"id": "r4", "text": {"tr": "Ritmin normal kalsın, zorlama.", "en": "Keep your normal rhythm. No forcing."}},
+          {"id": "r5", "text": {"tr": "Kaşlarının arasındaki titreşimin farkında kal.", "en": "Stay aware of the vibration in the eye."}},
+          {"id": "r6", "text": {"tr": "İrade merkezindeki titreşimi hisset, göbeğinin hemen altında.", "en": "Feel the vibration in the will centre, just below your navel."}},
+          {"id": "r7", "text": {"tr": "Sırtın dik kalsın.", "en": "Keep your back straight."}}
+        ]
+      }
+    },
+    {
+      "id": "close",
+      "name": {"tr": "Kapanış", "en": "Closing"},
+      "bell": "start",
+      "lines": [
+        {"id": "l1", "text": {"tr": "Kasmayı bırak ve doğal nefesine dön.", "en": "Stop tightening and return to your natural breath."}, "pause": 5},
+        {"id": "l2", "text": {"tr": "Birkaç nefes boyunca karnında uyanan enerjiyi fark et.", "en": "For a few breaths, notice the energy awakened in your belly."}, "pause": 8},
+        {"id": "l3", "text": {"tr": "Gözlerin kapalıysa hazır olduğunda aç.", "en": "If your eyes are closed, open them when you are ready."}, "pause": 2}
+      ],
+      "hold": null
+    }
+  ],
+  "notes": "Book 18.9 (tips also from 20.14 and 20.16). Watching the belly breath 'for one or two minutes' = param 'watch', default 2. The counter-pressure breathing can go on 'for as long as half an hour, or more if you wish': param 'fire', 1-60 min, default 10 as a practical everyday length, presets 10/20/30. The book does not mention the eyes; closing them is offered as an option. The 'warnings' restate the book's own cautions inside the technique (normal rhythm, usual or slightly deeper breath, chest still, contraction only on the in-breath); the book lists no medical contraindications for 18.9, so none were added. The closing is app-added. lastMinute stays on for the long counter-pressure hold."
+}

@@ -1,0 +1,673 @@
+{
+  "wave": "wave-1",
+  "sessions": [
+    {
+      "id": "w1-orientation",
+      "wave": "wave-1",
+      "no": 1,
+      "focus": [
+        "10"
+      ],
+      "title": {
+        "tr": "Yönlendirme",
+        "en": "Orientation"
+      },
+      "summary": {
+        "tr": "Serinin ilk oturumu: hazırlık süreci, enerji dönüşüm kutusu, rezonans ayarı ve Focus 10 tanıtılır. Sonraki her oturum bu temele oturur.",
+        "en": "The first session of the series: the preparatory process, the energy conversion box, resonant tuning and an introduction to Focus 10. Every later session builds on this."
+      },
+      "goal": {
+        "tr": "Hazırlık sürecini öğrenmek ve Focus 10 durumunu ilk kez deneyimlemek.",
+        "en": "Learning the preparatory process and experiencing the Focus 10 state for the first time."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda. Telefonu yanına al, ekranı kendine dönük kalsın.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room. Keep the phone beside you, screen facing you."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Kutu ve mırıldama her oturumda aynı şekilde yapılır; zamanla otomatikleşir.",
+          "en": "The box and the humming are done the same way in every session; they become automatic with time."
+        },
+        {
+          "tr": "Mırıldanırken çenen gevşek olsun; ses boğazında titreşsin.",
+          "en": "Keep your jaw loose while humming; let the sound vibrate in your throat."
+        },
+        {
+          "tr": "Oturumdan sonra acele kalkma; birkaç dakika dinlen.",
+          "en": "Don't rush up after a session; rest for a few minutes."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 10
+        },
+        {
+          "id": "settle",
+          "name": {
+            "tr": "Yerleşme",
+            "en": "Settling"
+          },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Şimdi on durumunda kal. Bedenin uyuyor, zihnin uyanık.",
+                "en": "Now stay in the state of ten. The body is asleep, the mind is awake."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "İlk kez bu durumda kaldığında hisler yabancı gelebilir. Bu normal.",
+                "en": "The sensations may feel unfamiliar the first time you stay in this state. That is normal."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Bedenin ağır, zihnin hafif.",
+                  "en": "The body is heavy, the mind is light."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Karıncalanma, sıcaklık, renkler olabilir. Hepsini izle.",
+                  "en": "There may be tingling, warmth, colours. Watch them all."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Hiçbir şey hissetmesen de durumdasın.",
+                  "en": "Even if you feel nothing, you are in the state."
+                }
+              },
+              {
+                "id": "r4",
+                "text": {
+                  "tr": "Nefesinle oyalanma. Onu izle.",
+                  "en": "Don't busy yourself with the breath. Just watch it."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Discovery #1 Orientation: introduces the series, the preparatory process and Focus 10. The explore hold stands in for the tape's guided settling tour."
+    },
+    {
+      "id": "w1-intro-10",
+      "wave": "wave-1",
+      "no": 2,
+      "focus": [
+        "10"
+      ],
+      "title": {
+        "tr": "Focus 10'a Giriş",
+        "en": "Introduction to Focus 10"
+      },
+      "summary": {
+        "tr": "Focus 10 durumunu derinleştirir: beden tamamen uyur, zihin uyanık kalır. Her gevşeme dalgası seni bir kat daha aşağı taşır.",
+        "en": "Deepens the Focus 10 state: the body falls fully asleep while the mind stays awake. Each wave of relaxation carries you one layer deeper."
+      },
+      "goal": {
+        "tr": "Focus 10'a geçişi kendi kendine, yardımsız yapabilmek.",
+        "en": "Being able to enter Focus 10 by yourself, without help."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w1-orientation"
+      ],
+      "tips": [
+        {
+          "tr": "On sayısını düşünmek giriş kapısıdır; her seferinde işe yarar.",
+          "en": "Thinking the number ten is the doorway; it works every time."
+        },
+        {
+          "tr": "Bedenin uyuduğunu hissetmek için acele etme.",
+          "en": "Don't rush to feel the body asleep."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 10
+        },
+        {
+          "id": "deepen",
+          "name": {
+            "tr": "Derinleşme",
+            "en": "Deepening"
+          },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Dikkatini ayak parmaklarına getir. Onlardan başlayarak yukarı doğru her bölgeyi uyut.",
+                "en": "Bring your attention to your toes. Starting there, put every region upward to sleep."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Ayak bilekleri, baldırlar, dizler, kalçalar.",
+                "en": "The ankles, the calves, the knees, the hips."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Her bölge ağırlaşıyor, eriyor, uyuyor.",
+                "en": "Each region grows heavy, melts, sleeps."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Bedenin bir battaniye gibi, sen onun dışındasın.",
+                  "en": "The body is like a blanket. You are outside it."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Zihnin uyanık, bu en değerli histir.",
+                  "en": "The mind awake, that is the most precious feeling."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Uykuya dalma. Uyanık kal.",
+                  "en": "Don't fall asleep. Stay awake."
+                }
+              },
+              {
+                "id": "r4",
+                "text": {
+                  "tr": "Gevşeme ve uyanıklık bir arada sürer.",
+                  "en": "Relaxation and wakefulness continue together."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Discovery #2 Introduction to Focus 10. The progressive body-scan paraphrases the tape's deepening guidance."
+    },
+    {
+      "id": "w1-advanced-10",
+      "wave": "wave-1",
+      "no": 3,
+      "focus": [
+        "10"
+      ],
+      "title": {
+        "tr": "İleri Focus 10",
+        "en": "Advanced Focus 10"
+      },
+      "summary": {
+        "tr": "Focus 10 içinde serbestçe dolaşırsın. Beden uyurken enerji hareketleri, titreşimler ve iç ışıklar hissedilir.",
+        "en": "You move freely inside Focus 10. While the body sleeps, energy movements, vibrations and inner lights are felt."
+      },
+      "goal": {
+        "tr": "Focus 10 içinde kendi başına dolaşabilmek, bedendeki ince enerjileri fark etmek.",
+        "en": "Being able to wander on your own inside Focus 10, noticing the subtle energies in the body."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w1-intro-10"
+      ],
+      "tips": [
+        {
+          "tr": "Bir amacı olmadan dolaş; amaç akışı bozar.",
+          "en": "Wander without a purpose; purpose disturbs the flow."
+        },
+        {
+          "tr": "Gördüklerini yargılama; sadece kaydet.",
+          "en": "Don't judge what you see; just record it."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 10
+        },
+        {
+          "id": "flow",
+          "name": {
+            "tr": "Serbest dolaşma",
+            "en": "Free movement"
+          },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Şimdi kendi kendine dolaş. Hiçbir yön yok, hiçbir hedef yok.",
+                "en": "Now wander on your own. There is no direction, no goal."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Enerji hareketlerini hisset. Karıncalanma, sıcaklık, hafiflik.",
+                "en": "Feel the movements of energy. Tingling, warmth, lightness."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Bir his seni çağırabilir. Git, ama zorlamadan.",
+                  "en": "A feeling may call you. Go, but without forcing."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Renkler, ışıklar, sesler gelebilir.",
+                  "en": "Colours, lights, sounds may come."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Ne gelirse gelsin, geçip gider.",
+                  "en": "Whatever comes, passes away."
+                }
+              },
+              {
+                "id": "r4",
+                "text": {
+                  "tr": "Zihnin uyanık, bedenin uykuda.",
+                  "en": "Mind awake, body asleep."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Discovery #3 Advanced Focus 10. Free-flow sensing inside Focus 10, paraphrased from the tape's guidance."
+    },
+    {
+      "id": "w1-release",
+      "wave": "wave-1",
+      "no": 4,
+      "focus": [
+        "10"
+      ],
+      "title": {
+        "tr": "Serbest Bırak ve Yeniden Doldur",
+        "en": "Release and Recharge"
+      },
+      "summary": {
+        "tr": "Günü ve üzerindeki yükleri serbest bırakır, sonra bedeni ve enerji bedenini yeniden doldurursun. Derin bir dinlenme ve tazelenme oturumu.",
+        "en": "You release the day and its burdens, then refill the body and the energy body. A session of deep rest and renewal."
+      },
+      "goal": {
+        "tr": "Gerginliği bırakmayı ve bedenini bilinçli olarak yeniden doldurmayı öğrenmek.",
+        "en": "Learning to release tension and to refill your body consciously."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w1-advanced-10"
+      ],
+      "tips": [
+        {
+          "tr": "Bırakırken nefes vermeye eşlik et; doldururken nefes almaya.",
+          "en": "Breathe out as you release; breathe in as you fill."
+        },
+        {
+          "tr": "Yeniden doldurma, bedeni değil, seni doldurur.",
+          "en": "The refilling fills you, not just the body."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 10
+        },
+        {
+          "id": "release",
+          "name": {
+            "tr": "Serbest bırakma",
+            "en": "Release"
+          },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Gün boyu biriken her şeyi düşün. Gerginlik, yorgunluk, telaş.",
+                "en": "Think of everything the day has accumulated. Tension, tiredness, rush."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Onları birer birer bırak. Nefes verirken dışarı sal.",
+                "en": "Release them one by one. Let them out as you breathe out."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Bir yükü bıraktığında bedenin hafifler.",
+                  "en": "When you release a burden, the body grows light."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Bırakabildiğin kadar bırak.",
+                  "en": "Release as much as you can release."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Zorlama yok.",
+                  "en": "No forcing."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "recharge",
+          "name": {
+            "tr": "Yeniden doldurma",
+            "en": "Recharge"
+          },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Şimdi nefes alırken parlak bir enerji çek. Bedenini onunla doldur.",
+                "en": "Now breathe in a bright energy. Fill your body with it."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Her nefesle bir kat daha doluyorsun. Hafifliyorsun.",
+                "en": "With every breath you fill one layer more. You grow light."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Enerji ellerine, ayaklarına doluyor.",
+                  "en": "The energy fills your hands, your feet."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Karnın, göğsün, başın doluyor.",
+                  "en": "Your belly, your chest, your head fill up."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Dolduğunda taşma. Kendiliğinden dengelenir.",
+                  "en": "When you are full, overflow. It balances itself."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Discovery #4 Release and Recharge. Two holds (release, recharge) paraphrase the tape's two movements."
+    },
+    {
+      "id": "w1-sleep",
+      "wave": "wave-1",
+      "no": 5,
+      "focus": [
+        "10"
+      ],
+      "title": {
+        "tr": "Keşif, Uyku",
+        "en": "Exploration, Sleep"
+      },
+      "summary": {
+        "tr": "Uyku, başka gerçekliklere açılan doğal bir kapıdır. Bu oturum, uykuya dalarken bilincin uyanık kalmasını ve sabah hatırlamayı amaçlar.",
+        "en": "Sleep is a natural gateway to other realities. This session aims for awareness to stay awake as you fall asleep, and to remember in the morning."
+      },
+      "goal": {
+        "tr": "Uykuya dalarken farkındalığı korumak; uyanırken geceyi hatırlamak.",
+        "en": "Keeping awareness as you fall asleep; remembering the night when you wake."
+      },
+      "setting": {
+        "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.",
+        "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep."
+      },
+      "prereq": [
+        "w1-release"
+      ],
+      "tips": [
+        {
+          "tr": "Oturumu yatakta, yatmadan hemen önce başlat.",
+          "en": "Start the session in bed, right before sleep."
+        },
+        {
+          "tr": "Sabah ilk işin günlüğe yazmak olsun.",
+          "en": "In the morning, write in your journal first thing."
+        }
+      ],
+      "warnings": [
+        {
+          "tr": "Uykuya dalmak bu oturumun amacıdır; çan sesi yoktur, ekran kararır.",
+          "en": "Falling asleep is the aim of this session; there is no bell and the screen dims."
+        }
+      ],
+      "night": true,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 10
+        },
+        {
+          "id": "drift",
+          "name": {
+            "tr": "Sürüklenme",
+            "en": "Drifting"
+          },
+          "bell": null,
+          "focus": 10,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Şimdi kendini bırak. Uyku seni alacak, zihnin uyanık kalacak.",
+                "en": "Now let yourself go. Sleep will take you, your mind will stay awake."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Bir niyet tut. Sabah uyanırken bu geceyi hatırlayacağım.",
+                "en": "Hold an intention. When I wake in the morning, I will remember this night."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "lastMinute": false,
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Nefesin yavaşlıyor, bedenin eriyor.",
+                  "en": "Your breath slows, your body melts."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Zihnin uyanık, bu yeter.",
+                  "en": "The mind awake, that is enough."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Bırak kendini.",
+                  "en": "Let yourself go."
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "notes": "Official Discovery #5 Exploration, Sleep. Night session: dark screen, no end bell, quiet ending. The return phase runs quietly after waking or when the session is ended."
+    },
+    {
+      "id": "w1-freeflow",
+      "wave": "wave-1",
+      "no": 6,
+      "focus": [
+        "10"
+      ],
+      "title": {
+        "tr": "Serbest Akış 10",
+        "en": "Free Flow 10"
+      },
+      "summary": {
+        "tr": "Hiçbir kural, hiçbir hedef. Focus 10 içinde tamamen serbestçe dolaşırsın; çanlar seni geri çağırır.",
+        "en": "No rules, no goal. You wander completely freely in Focus 10; the bells call you back."
+      },
+      "goal": {
+        "tr": "Yargısız, amaçsız farkındalığı tatmak.",
+        "en": "Tasting awareness without judgment and without purpose."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w1-sleep"
+      ],
+      "tips": [
+        {
+          "tr": "Serbest akış, her planlı keşfin arka planıdır.",
+          "en": "Free flow is the background of every planned exploration."
+        },
+        {
+          "tr": "Amacını önceden kararlaştırırsan dalga derinleşir.",
+          "en": "If you decide your purpose beforehand, the dive goes deeper."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 10
+        },
+        {
+          "use": "explore",
+          "focus": 10
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Discovery #6 Free Flow 10. Pure template session: prep, entry, generic free-flow hold, return."
+    }
+  ]
+}

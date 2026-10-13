@@ -1,0 +1,155 @@
+{
+  "id": "ch18-will-centre",
+  "chapter": 18,
+  "section": "18.6",
+  "category": "seated",
+  "title": {"tr": "İrade Merkezini Uyandırmak", "en": "Awakening the Will Centre"},
+  "summary": {
+    "tr": "Göbeğin yaklaşık iki buçuk santim altındaki irade merkezini önce masajla uyandırırsın; sonra kaşlarının arasında güçlü bir titreşim kurup gırtlak sürtünmesini bu merkeze bağlarsın. Karnının önünde üst üste duran ellerin birer yansıtıcı gibi çalışıp titreşimi orada yoğunlaştırır. Bu merkez güç, kararlılık, topraklanma ve korunma için kullanılır.",
+    "en": "You first wake up the will centre, about one inch below the navel, with a massage; then you build a strong vibration in the eye and connect the throat friction with this centre. Your hands, stacked in front of the belly, work as reflectors that concentrate the vibration there. The centre is used for strength, assertiveness, grounding and protection."
+  },
+  "setting": {
+    "tr": "Meditasyon oturuşu. Bu merkez için iyi bir duruş: dizlerinin üstüne çöküp kalçanı topuklarına ya da topuklarının arasına oturtmak (Hatha-yoga'da vajrasana). Sırtını dik tuttuğun sürece sandalye de olur. Gözler kapalı. Eller düz, biri diğerinin üstünde, karnına paralel ve irade merkezinden 5-8 cm uzakta.",
+    "en": "A meditation posture. A good one for this centre is kneeling with your buttocks on your heels, or between your heels (vajrasana in Hatha-yoga). A chair is fine as long as your back stays straight. Eyes closed. Hands flat and stacked, held parallel to the belly, 2-3 inches (5-8 cm) from the will centre."
+  },
+  "prereq": ["ch2-throat-friction", "ch3-meditation"],
+  "tips": [
+    {
+      "tr": "Merkezi bulmak için parmaklarınla göbeğinin yaklaşık 2,5 cm (bir inç) altını yokla: karın duvarının tam ortasında küçük bir çukur, bir çentik bulursun. İrade merkezi aşağı yukarı bu çentiğin çevresindedir. Karın kaslarını kasınca çentik daha kolay hissedilir; bölgede yağ dokusu fazlaysa hissetmek zorlaşır, o zaman yaklaşık yeri kullan (18.5).",
+      "en": "To find the centre, feel with your fingers about one inch (2.5 cm) below the navel: in the very centre of the belly wall there is a small hollow, like a notch. The will centre lies more or less around it. The notch is easier to feel when you tighten the abdominal muscles; with a lot of fatty tissue it gets hard to find, so just use the approximate spot (18.5)."
+    },
+    {
+      "tr": "Bu bölge akupunkturdaki Konsepsiyon 5 ve 6 noktalarına karşılık gelir ve dövüş sanatlarında enerjinin toplandığı hara ile ilişkilidir. Konsepsiyon 6'nın Çince adı qi hai, yani enerji denizidir: burada çok büyük bir enerji birikir ve doğru çalışmayla bedenin kullanımına açılabilir.",
+      "en": "The area corresponds to the acupuncture points Conception 5 and 6 and is linked with the hara, where martial artists learn to gather energy. Conception 6 is called qi hai in Chinese, the sea of energy: a huge store of energy sits here, and with the right training it can be made available to the body."
+    },
+    {
+      "tr": "Konsepsiyon 5'in adı shi men, yani taş kapıdır: her şeyin üzerine kurulabileceği temel taşı. Bu merkezin bir başka temel işlevi fiziksel topraklanmadır. Hem gündelik iradenin hem de doğanın olağan sınırlarını aşan büyücü iradesinin yeri burasıdır; Taocu simyacılar da ölümsüzlük embriyosu dedikleri fiziksel olmayan bedeni bu bölgede yapılandırmaya çalışır.",
+      "en": "Conception 5 is called shi men, the gate of stone: the foundation stone on which everything can be built. Physical grounding is another key function of this centre. It is the seat of will, both ordinary will and the wizard's will that acts beyond the usual laws of nature, and it is where Taoist alchemists work at building the embryo of immortality, a non-physical body."
+    },
+    {
+      "tr": "Günlük hayatta farkındalığını bu merkezde toplamak çok işe yarar: bedenen güçlü olman gereken bir işte; pazarlıkta, otorite göstermen ya da baskıcı birine direnmen gerektiğinde; kendini savunurken ve saldırgan insanlar karşısında sakin kalmak istediğinde; hastane gibi enerjisi ağır ve tehlikeli yerlerde kendini korumak için; yorgun ve güçsüz olduğunda (18.5).",
+      "en": "In daily life, gathering your awareness in this centre helps a great deal: for a task that needs physical strength; when negotiating, showing authority or resisting a domineering person; when standing up for yourself and staying calm with aggressive people; to protect yourself in places with heavy, risky energy such as a hospital; and when you are tired and weak (18.5)."
+    },
+    {
+      "tr": "Taocular, erkeklerin çocuk sahibi olduktan, kadınların doğum yaptıktan sonra enerjilerini toparlamak için bu merkez üzerinde çalışmasını da önerir.",
+      "en": "The Taoists also recommend working on this centre to rebuild your energy, for a man after fathering a child, for a woman after giving birth."
+    },
+    {
+      "tr": "Eller, duruşları sayesinde birer yansıtıcı gibi çalışır ve titreşimi irade merkezinde yoğunlaştırır. Masajdan sonra titreşimi en çok hissettiğin yer, sonra farkındalığını toplayacağın yerdir.",
+      "en": "Placed this way, the hands work as reflectors and concentrate the vibration in the will centre. The spot where you feel the vibration after the massage is where you later gather your awareness."
+    }
+  ],
+  "warnings": [],
+  "visual": "will-centre",
+  "night": false,
+  "partner": false,
+  "special": null,
+  "params": [
+    {"key": "eye", "label": {"tr": "Kaşların arasında titreşim", "en": "Vibration in the eye"}, "unit": "min", "min": 1, "max": 5, "step": 1, "def": 2},
+    {"key": "centre", "label": {"tr": "İrade merkezi", "en": "Will centre"}, "unit": "min", "min": 1, "max": 15, "step": 1, "def": 4}
+  ],
+  "presets": [],
+  "phases": [
+    {
+      "id": "prep",
+      "name": {"tr": "Hazırlık", "en": "Preparation"},
+      "bell": null,
+      "lines": [
+        {"id": "l1", "text": {"tr": "Meditasyon oturuşuna geç. Dizlerinin üstüne çöküp topuklarına ya da topuklarının arasına oturabilirsin.", "en": "Take a meditation posture. You can kneel and sit on your heels, or between them."}, "pause": 6},
+        {"id": "l2", "text": {"tr": "Sandalyede oturuyorsan sırtını dik tut.", "en": "If you sit on a chair, keep your back straight."}, "pause": 3},
+        {"id": "l3", "text": {"tr": "Gözlerini kapat.", "en": "Close your eyes."}, "pause": 3}
+      ],
+      "hold": null
+    },
+    {
+      "id": "massage",
+      "name": {"tr": "Masaj", "en": "Massage"},
+      "bell": "start",
+      "visual": {"id": "will-centre", "state": "massage"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Parmaklarınla göbeğinin yaklaşık iki buçuk santim altını yokla. Karnının tam ortasında küçük bir çukur bulabilirsin.", "en": "With your fingers, feel about one inch below your navel. You may find a small notch right in the middle of your belly."}, "pause": 6},
+        {"id": "l2", "text": {"tr": "Karın kaslarını hafifçe kas.", "en": "Slightly tighten your abdominal muscles."}, "pause": 3},
+        {"id": "l3", "text": {"tr": "Orta parmağının ucunu bu çukura koy ve küçük dairelerle ovala. Çukuru bulamazsan göbeğinin iki buçuk santim altını ovala.", "en": "Place the tip of your middle finger in the notch and massage it in small circles. If you cannot find it, simply massage one inch below the navel."}, "pause": 1}
+      ],
+      "hold": {"sec": 30, "lastMinute": false, "reminders": []}
+    },
+    {
+      "id": "feel",
+      "name": {"tr": "Titreşimi Hisset", "en": "Feel the Vibration"},
+      "bell": "soft",
+      "visual": {"id": "will-centre", "state": "massage"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Masajı bırak ve karnını gevşet.", "en": "Stop the massage and let your belly relax."}, "pause": 3},
+        {"id": "l2", "text": {"tr": "Şimdi bu bölgedeki titreşimi hissetmeye çalış.", "en": "Now try to feel the vibration in that area."}, "pause": 15}
+      ],
+      "hold": null
+    },
+    {
+      "id": "hands",
+      "name": {"tr": "Yansıtıcı Eller", "en": "Hands as Reflectors"},
+      "bell": null,
+      "visual": {"id": "will-centre", "state": "hands"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Ellerini birkaç saniye ovuştur.", "en": "Rub your hands together for a few seconds."}, "pause": 10},
+        {"id": "l2", "text": {"tr": "Şimdi ellerini düz tut, biri diğerinin üstünde, karnına paralel.", "en": "Now stack your flat hands, one over the other, parallel to your belly."}, "pause": 4},
+        {"id": "l3", "text": {"tr": "İrade merkezinden beş ile sekiz santim kadar uzakta dursunlar.", "en": "Keep them about two or three inches away from the will centre."}, "pause": 5}
+      ],
+      "hold": null
+    },
+    {
+      "id": "eye",
+      "name": {"tr": "Kaşların Arasında Titreşim", "en": "Vibration in the Eye"},
+      "bell": "soft",
+      "visual": {"id": "meditation-phases", "state": "eyebrows"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Gırtlak sürtünmesiyle nefes almaya başla.", "en": "Start breathing with the throat friction."}, "pause": 3},
+        {"id": "l2", "text": {"tr": "Sürtünmeyi kaşlarının arasındaki karıncalanmaya bağla.", "en": "Connect it with the tingling between your eyebrows."}, "pause": 4},
+        {"id": "l3", "text": {"tr": "Kaşlarının arasında güçlü bir titreşim kur.", "en": "Build up a strong vibration in the eye."}, "pause": 2}
+      ],
+      "hold": {
+        "param": "eye",
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Sürtünme kaşlarının arasındaki titreşimi beslesin.", "en": "Let the friction feed the vibration between your eyebrows."}},
+          {"id": "r2", "text": {"tr": "Ellerin karnının önünde, hareketsiz.", "en": "Your hands stay still in front of your belly."}},
+          {"id": "r3", "text": {"tr": "Titreşim güçlensin, yoğunlaşsın.", "en": "Let the vibration grow stronger and denser."}}
+        ]
+      }
+    },
+    {
+      "id": "centre",
+      "name": {"tr": "İrade Merkezi", "en": "Will Centre"},
+      "bell": "soft",
+      "visual": {"id": "will-centre", "state": "hands"},
+      "lines": [
+        {"id": "l1", "text": {"tr": "Sürtünmeyi sürdürürken farkındalığını göbeğinin hemen altına, masajdan sonra titreşim hissettiğin yere getir.", "en": "Keeping up the friction, become aware of the vibration one inch below your navel, where you felt it after the massage."}, "pause": 5},
+        {"id": "l2", "text": {"tr": "Gırtlak sürtünmesini irade merkezine bağla ve oradaki titreşimi büyüt.", "en": "Connect the throat friction with the will centre, and build up the vibration there."}, "pause": 5},
+        {"id": "l3", "text": {"tr": "Titreşimi ellerinde ve irade merkezinde hisset. Ellerin birer yansıtıcı gibi titreşimi orada topluyor.", "en": "Feel the vibration both in your hands and in the will centre. Placed like this, your hands work as reflectors that concentrate it."}, "pause": 3}
+      ],
+      "hold": {
+        "param": "centre",
+        "lastMinute": false,
+        "reminders": [
+          {"id": "r1", "text": {"tr": "Sürtünmeyle göbeğinin altındaki titreşimi güçlendir.", "en": "Use the friction to strengthen the vibration below your navel."}},
+          {"id": "r2", "text": {"tr": "Ellerin bir yansıtıcı gibi titreşimi irade merkezine geri gönderiyor.", "en": "Like reflectors, your hands send the vibration back into the will centre."}},
+          {"id": "r3", "text": {"tr": "Ellerin düz ve hareketsiz, karnından birkaç santim uzakta.", "en": "Hands flat and still, a few inches from your belly."}},
+          {"id": "r4", "text": {"tr": "Farkındalığın göbeğinin hemen altında, taş kapıda.", "en": "Your awareness rests just below the navel, at the gate of stone."}},
+          {"id": "r5", "text": {"tr": "Bir düşünceye kapılırsan sürtünmeye ve irade merkezine dön.", "en": "If a thought carries you off, come back to the friction and the will centre."}},
+          {"id": "r6", "text": {"tr": "Sırtın dik kalsın.", "en": "Keep your back straight."}}
+        ]
+      }
+    },
+    {
+      "id": "close",
+      "name": {"tr": "Kapanış", "en": "Closing"},
+      "bell": "start",
+      "lines": [
+        {"id": "l1", "text": {"tr": "Sürtünmeyi bırak ve ellerini kucağına indir.", "en": "Let the friction go and rest your hands in your lap."}, "pause": 4},
+        {"id": "l2", "text": {"tr": "Birkaç nefes boyunca irade merkezindeki titreşimin farkında kal.", "en": "For a few breaths, stay aware of the vibration in the will centre."}, "pause": 8},
+        {"id": "l3", "text": {"tr": "Hazır olduğunda gözlerini aç.", "en": "When you are ready, open your eyes."}, "pause": 2}
+      ],
+      "hold": null
+    }
+  ],
+  "notes": "Book 18.6, with locating the centre and its uses from 18.5 (no separate exercise for 18.5). The text does not mention the eyes; the book's drawing shows them closed, so they are closed here. Massage 'half a minute or so' = 30 s hold; 'a few seconds' of rubbing = 10 s pause. Vibration in the eye '2 or 3 minutes' = param 'eye', default 2. 'Keep on for a few minutes' with the hands as reflectors = param 'centre', default 4. '2 or 3 inches' is given as 5-8 cm in Turkish. 'One inch below the navel' is spoken as 'iki buçuk santim' in Turkish. The book gives no closing; the close phase only drops the friction, rests the hands, stays briefly with the vibration and opens the eyes."
+}

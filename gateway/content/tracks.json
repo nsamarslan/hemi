@@ -1,0 +1,660 @@
+{
+  "w1-orientation": [
+    "Orientation",
+    "Discovery 1",
+    "Discovery #1"
+  ],
+  "w1-intro-10": [
+    "Introduction to Focus 10",
+    "Intro to Focus 10",
+    "Discovery 2",
+    "Discovery #2"
+  ],
+  "w1-advanced-10": [
+    "Advanced Focus 10",
+    "Discovery 3",
+    "Discovery #3"
+  ],
+  "w1-release": [
+    "Release and Recharge",
+    "Discovery 4",
+    "Discovery #4"
+  ],
+  "w1-sleep": [
+    "Exploration, Sleep",
+    "Exploration Sleep",
+    "Discovery 5",
+    "Discovery #5"
+  ],
+  "w1-freeflow": [
+    "Free Flow 10",
+    "Focus 10 Free Flow",
+    "Discovery 6",
+    "Discovery #6"
+  ],
+  "w2-intro-12": [
+    "Introduction to Focus 12",
+    "Intro to Focus 12",
+    "Threshold 1",
+    "Threshold #1"
+  ],
+  "w2-problem": [
+    "Problem Solving",
+    "Threshold 2",
+    "Threshold #2"
+  ],
+  "w2-pattern-1m": [
+    "One Month Patterning",
+    "One-Month Patterning",
+    "Threshold 3",
+    "Threshold #3"
+  ],
+  "w2-color": [
+    "Color Breathing",
+    "Brain Power",
+    "Threshold 4",
+    "Threshold #4"
+  ],
+  "w2-ebt": [
+    "Energy Bar Tool",
+    "Threshold 5",
+    "Threshold #5"
+  ],
+  "w2-bodymap": [
+    "Living Body Map",
+    "Intro to Living Body Map",
+    "Threshold 6",
+    "Threshold #6"
+  ],
+  "w3-liftoff": [
+    "Lift Off",
+    "Liftoff",
+    "Freedom 1",
+    "Freedom #1"
+  ],
+  "w3-rv": [
+    "Remote Viewing",
+    "Freedom 2",
+    "Freedom #2"
+  ],
+  "w3-vectors": [
+    "Vectors",
+    "Freedom 3",
+    "Freedom #3"
+  ],
+  "w3-fiveq": [
+    "Five Questions",
+    "Freedom 4",
+    "Freedom #4"
+  ],
+  "w3-food": [
+    "Energy Food",
+    "Freedom 5",
+    "Freedom #5"
+  ],
+  "w3-separation": [
+    "First Stage Separation",
+    "First-Stage Separation",
+    "Freedom 6",
+    "Freedom #6"
+  ],
+  "w4-pattern-1y": [
+    "One Year Patterning",
+    "One-Year Patterning",
+    "Adventure 1",
+    "Adventure #1"
+  ],
+  "w4-messages": [
+    "Five Messages",
+    "Adventure 2",
+    "Adventure #2"
+  ],
+  "w4-freeflow12": [
+    "Free Flow 12",
+    "Adventure 3",
+    "Adventure #3"
+  ],
+  "w4-nvc1": [
+    "NVC I",
+    "NVC 1",
+    "Non-Verbal Communication I",
+    "Adventure 4",
+    "Adventure #4"
+  ],
+  "w4-nvc2": [
+    "NVC II",
+    "NVC 2",
+    "Non-Verbal Communication II",
+    "Adventure 5",
+    "Adventure #5"
+  ],
+  "w4-compoint": [
+    "Compoint",
+    "Adventure 6",
+    "Adventure #6"
+  ],
+  "w5x-adv12": [
+    "Advanced Focus 12",
+    "Exploring 1",
+    "Exploring #1"
+  ],
+  "w5x-intuition-a": [
+    "Discovering Intuition",
+    "Exploring 2",
+    "Exploring #2"
+  ],
+  "w5x-intuition-b": [
+    "Exploring Intuition",
+    "Exploring 3",
+    "Exploring #3"
+  ],
+  "w5x-intro15": [
+    "Introduction to Focus 15",
+    "Intro to Focus 15",
+    "Exploring 4",
+    "Exploring #4"
+  ],
+  "w5x-mission15": [
+    "Mission 15 Creation and Manifestation",
+    "Mission 15",
+    "Exploring 5",
+    "Exploring #5"
+  ],
+  "w5x-explore15": [
+    "Exploring Focus 15",
+    "Exploring 15",
+    "Exploring 6",
+    "Exploring #6"
+  ],
+  "w6-sensing": [
+    "Sensing Locale 1",
+    "Sensing Locale One",
+    "Odyssey 1",
+    "Odyssey #1"
+  ],
+  "w6-expansion": [
+    "Expansion in Locale 1",
+    "Expansion in Locale One",
+    "Expansion",
+    "Odyssey 2",
+    "Odyssey #2"
+  ],
+  "w6-departure": [
+    "Point of Departure",
+    "Odyssey 3",
+    "Odyssey #3"
+  ],
+  "w6-friends": [
+    "Nonphysical Friends",
+    "Non-Physical Friends",
+    "Odyssey 4",
+    "Odyssey #4"
+  ],
+  "w6-intro21": [
+    "Movement to Locale 2",
+    "Movement to Locale Two",
+    "Intro to Focus 21",
+    "Introduction to Focus 21",
+    "Odyssey 5",
+    "Odyssey #5"
+  ],
+  "w6-freeflow21": [
+    "Free Flow Journey in Focus 21",
+    "Free Flow in Focus 21",
+    "Odyssey 6",
+    "Odyssey #6"
+  ],
+  "w7-totalself": [
+    "Explore Total Self",
+    "Voyager 1",
+    "Voyager #1"
+  ],
+  "w7-focus23": [
+    "Intro to Focus 23",
+    "Introduction to Focus 23",
+    "Voyager 2",
+    "Voyager #2"
+  ],
+  "w7-focus25": [
+    "Intro to Focus 25",
+    "Introduction to Focus 25",
+    "Voyager 3",
+    "Voyager #3"
+  ],
+  "w7-focus27": [
+    "Intro to Focus 27",
+    "Introduction to Focus 27",
+    "Voyager 4",
+    "Voyager #4"
+  ],
+  "w7-retrieval": [
+    "Retrieval",
+    "Voyager 5",
+    "Voyager #5"
+  ],
+  "w7-beyond": [
+    "Messages From Beyond",
+    "Messages from Beyond",
+    "Voyager 6",
+    "Voyager #6"
+  ],
+  "w8-tour": [
+    "Special Tour",
+    "Union 1",
+    "Union #1"
+  ],
+  "w8-entry": [
+    "Meeting the Entry Director",
+    "Meeting with the Entry Director",
+    "Entry Director",
+    "Union 2",
+    "Union #2"
+  ],
+  "w8-education": [
+    "Educational Opportunities",
+    "Union 3",
+    "Union #3"
+  ],
+  "w8-healing": [
+    "Healing and Regeneration Center",
+    "Healing and Regeneration",
+    "Union 4",
+    "Union #4"
+  ],
+  "w8-planning": [
+    "The Planning Center",
+    "Planning Center",
+    "Union 5",
+    "Union #5"
+  ],
+  "w8-coordination": [
+    "Coordination Area",
+    "Union 6",
+    "Union #6"
+  ],
+  "w8-inner": [
+    "Inner Earth",
+    "Union 7",
+    "Union #7"
+  ],
+  "w8-beyond": [
+    "The Absolute",
+    "Absolute",
+    "Union 8",
+    "Union #8"
+  ],
+  "w8-freeflow27": [
+    "Free Flow 27",
+    "Free Flow in Focus 27",
+    "Free Flow Journey in Focus 27"
+  ],
+  "w5-mission10": [
+    "Mission 10"
+  ],
+  "w5-mission12": [
+    "Mission 12"
+  ],
+  "w5-missionday": [
+    "Mission Day"
+  ],
+  "w5-missionnight": [
+    "Mission Night"
+  ],
+  "w5-horizons": [
+    "Horizons"
+  ],
+  "w5-pathways": [
+    "Pathways"
+  ],
+  "ffp-metamorphosite": [
+    "Metamorphosite",
+    "Prospecting 1",
+    "Prospecting #1"
+  ],
+  "ffp-biobody": [
+    "Bio-Body",
+    "Bio Body",
+    "Biobody",
+    "Prospecting 2",
+    "Prospecting #2"
+  ],
+  "ffp-nullpoint": [
+    "Null Point",
+    "Prospecting 3",
+    "Prospecting #3"
+  ],
+  "ffp-pluspolarity": [
+    "Plus Polarity",
+    "Prospecting 4",
+    "Prospecting #4"
+  ],
+  "ffp-nearreaches": [
+    "Near Reaches",
+    "Prospecting 5",
+    "Prospecting #5"
+  ],
+  "ffp-farreaches": [
+    "Far Reaches",
+    "Prospecting 6",
+    "Prospecting #6"
+  ],
+  "hp-access-energy": [
+    "Access To Energy",
+    "Access to Energy"
+  ],
+  "hp-attention": [
+    "Attention"
+  ],
+  "hp-brain": [
+    "Brain Repair and Maintenance",
+    "Brain Repairs and Maintenance",
+    "Brain Repair & Maintenance",
+    "Brain: Support & Maintenance",
+    "Brain Support and Maintenance"
+  ],
+  "hp-buy-numbers": [
+    "Buy the Numbers"
+  ],
+  "hp-circulation": [
+    "Circulation"
+  ],
+  "hp-contemplation": [
+    "Contemplation"
+  ],
+  "hp-de-discomfort": [
+    "De-Discomfort",
+    "De Discomfort"
+  ],
+  "hp-de-hab": [
+    "De-Hab",
+    "De Hab"
+  ],
+  "hp-de-tox": [
+    "De-Tox Body",
+    "De-Tox",
+    "De Tox Body"
+  ],
+  "hp-do-this-now": [
+    "Do This Now"
+  ],
+  "hp-eat-no-eat": [
+    "Eat-No Eat",
+    "Eat No Eat",
+    "Eat/No Eat"
+  ],
+  "hp-eight-great": [
+    "Eight-Great",
+    "Eight Great"
+  ],
+  "hp-emergency-injury": [
+    "Emergency Injury",
+    "Emergency: Injury",
+    "Emergency-Injury"
+  ],
+  "hp-emergency-toxic": [
+    "Emergency Toxic",
+    "Emergency: Toxic",
+    "Emergency-Toxic"
+  ],
+  "hp-empathizing": [
+    "Empathizing"
+  ],
+  "hp-heart": [
+    "Heart Repair and Maintenance",
+    "Heart Repairs and Maintenance",
+    "Heart Repair & Maintenance",
+    "Heart: Support & Maintenance",
+    "Heart Support and Maintenance"
+  ],
+  "hp-hypertension": [
+    "Hypertension"
+  ],
+  "hp-immunizing": [
+    "Immunizing"
+  ],
+  "hp-imprint": [
+    "Imprint"
+  ],
+  "hp-let-go": [
+    "Let Go",
+    "Let-Go"
+  ],
+  "hp-light-foot": [
+    "Light Foot",
+    "Light-Foot"
+  ],
+  "hp-lungs": [
+    "Lungs Repair and Maintenance",
+    "Lungs Repairs and Maintenance",
+    "Lungs Support and Maintenance"
+  ],
+  "hp-make-your-day": [
+    "Make Your Day"
+  ],
+  "hp-moebius-west": [
+    "Moebius West",
+    "Möbius West",
+    "Mobius West"
+  ],
+  "hp-nutricia": [
+    "Nutricia"
+  ],
+  "hp-off-loading": [
+    "Off-Loading",
+    "Off Loading"
+  ],
+  "hp-options": [
+    "Options"
+  ],
+  "hp-recall": [
+    "Recall"
+  ],
+  "hp-recharge": [
+    "Recharge"
+  ],
+  "hp-regenerate": [
+    "Regenerate"
+  ],
+  "hp-relax": [
+    "Relax"
+  ],
+  "hp-release": [
+    "Release"
+  ],
+  "hp-reset": [
+    "Reset"
+  ],
+  "hp-restorative-sleep": [
+    "Restorative Sleep"
+  ],
+  "hp-see-be": [
+    "See-Be",
+    "See Be"
+  ],
+  "hp-sensory-hearing": [
+    "Sensory Hearing",
+    "Sensory-Hearing",
+    "Sensory: Hearing"
+  ],
+  "hp-sensory-seeing": [
+    "Sensory Seeing",
+    "Sensory-Seeing",
+    "Sensory: Seeing"
+  ],
+  "hp-sensory-smell": [
+    "Sensory Smell",
+    "Sensory-Smell",
+    "Sensory: Smell"
+  ],
+  "hp-sensory-taste": [
+    "Sensory Taste",
+    "Sensory-Taste",
+    "Sensory: Taste"
+  ],
+  "hp-sensory-touch": [
+    "Sensory Touch",
+    "Sensory-Touch",
+    "Sensory: Touch"
+  ],
+  "hp-sex-drive": [
+    "Sex Drive"
+  ],
+  "hp-short-fix": [
+    "Short Fix"
+  ],
+  "hp-sleep": [
+    "Sleep"
+  ],
+  "hp-sleep-easy": [
+    "Sleep Easy"
+  ],
+  "hp-speak-up": [
+    "Speak Up"
+  ],
+  "hp-stay-awake": [
+    "Stay Awake"
+  ],
+  "hp-strong-quick": [
+    "Strong-Quick",
+    "Strong Quick"
+  ],
+  "hp-sweet-dreams": [
+    "Sweet Dreams"
+  ],
+  "hp-synchronizing": [
+    "Synchronizing"
+  ],
+  "hp-think-fast": [
+    "Think Fast"
+  ],
+  "hp-tune-up": [
+    "Tune-Up",
+    "Tune Up"
+  ],
+  "hp-wake-know": [
+    "Wake-Know",
+    "Wake Know"
+  ],
+  "hp-zoning": [
+    "Zoning"
+  ],
+  "job-intro": [
+    "Introduction",
+    "Intro",
+    "Journeys Out of the Body 1",
+    "JOB 1"
+  ],
+  "job-relax": [
+    "Relaxation Exercise",
+    "Relaxation"
+  ],
+  "job-cond-a": [
+    "Condition A"
+  ],
+  "job-cond-b": [
+    "Condition B"
+  ],
+  "job-cond-c": [
+    "Condition C"
+  ],
+  "job-cond-d": [
+    "Condition D"
+  ],
+  "gv-intro": [
+    "Introductory Exercise",
+    "Gateway Voyage Introductory Exercise",
+    "Gateway Voyage Intro"
+  ],
+  "gv-open": [
+    "Open Exercise",
+    "Gateway Voyage Open Exercise",
+    "Gateway Open Exercise"
+  ],
+  "lucid-maba": [
+    "Mind Awake Body Asleep",
+    "Lucid Dreaming 1",
+    "Lucid Dreaming Exercise 1"
+  ],
+  "lucid-imagination": [
+    "Creative Imagination",
+    "Lucid Dreaming 2",
+    "Lucid Dreaming Exercise 2"
+  ],
+  "lucid-flying": [
+    "Flying Solo",
+    "Lucid Dreaming 3",
+    "Lucid Dreaming Exercise 3"
+  ],
+  "lucid-programming": [
+    "Programming Your Dream State",
+    "Lucid Dreaming 4",
+    "Lucid Dreaming Exercise 4"
+  ],
+  "chakra-extended": [
+    "Chakra Meditation Extended",
+    "Chakra Meditation Track 1",
+    "Chakra Meditation"
+  ],
+  "chakra-abridged": [
+    "Chakra Meditation Abridged",
+    "Chakra Meditation Track 2",
+    "Chakra Meditation Short"
+  ],
+  "chakra-heal": [
+    "Heal and Balance Extended",
+    "Heal and Balance"
+  ],
+  "fifthd-morning": [
+    "Morning Exercise"
+  ],
+  "fifthd-anxiety": [
+    "Releasing Early Morning Anxiety",
+    "Early Morning Anxiety"
+  ],
+  "fifthd-transformation": [
+    "Transformation Micah Sadigh",
+    "Transformation Sadigh"
+  ],
+  "fifthd-future": [
+    "Exploring Our Future"
+  ],
+  "ex-walk": [
+    "Energy Walks",
+    "Energy Walk"
+  ],
+  "ex-ground": [
+    "Need Grounding",
+    "Grounding"
+  ],
+  "ex-onebreath": [
+    "One-Breath Technique",
+    "One Breath Technique"
+  ],
+  "ex-scan": [
+    "Body Scan"
+  ],
+  "ex-boxbreath": [
+    "Box Breathing"
+  ],
+  "ex-pmr": [
+    "Progressive Muscle Relaxation",
+    "Progressive Relaxation"
+  ],
+  "ex-metta": [
+    "Loving Kindness",
+    "Metta Meditation"
+  ],
+  "ex-dreamjournal": [
+    "Dream Journal",
+    "Dream Journaling"
+  ],
+  "ex-wbtb": [
+    "Wake Back to Bed",
+    "WBTB",
+    "Wake-Induced Lucid Dreaming",
+    "WILD"
+  ],
+  "ex-evening": [
+    "Evening Review"
+  ]
+}

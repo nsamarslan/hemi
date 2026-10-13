@@ -1,0 +1,82 @@
+{
+  "id": "ch2-throat-friction",
+  "chapter": 2,
+  "section": "2.1",
+  "category": "seated",
+  "title": { "tr": "Gırtlak Sürtünmesi", "en": "Throat Friction" },
+  "summary": {
+    "tr": "Ağız hafif açıkken boğazın alt arka kısmında hafif bir sürtünmeyle nefes alıp vermek. Rüzgâr gibi bir ses; mırıltı ya da vızıltı yok. Kitaptaki üçüncü göz çalışmalarının hemen hepsi bunun üzerine kurulu.",
+    "en": "Breathing with a slight friction at the lower back of the throat while the mouth stays slightly open. A wind-like sound, with no humming or buzzing. Almost every third eye practice in the book builds on it."
+  },
+  "setting": {
+    "tr": "Oturarak, boyun dik ve omurgayla hizalı. Ağız hafif açık, alt çene gevşek, dişler birbirine değmiyor. Burundan, ağızdan ya da ikisinden birden nefes alabilirsin.",
+    "en": "Seated, neck upright and in line with the spine. Mouth slightly open, lower jaw relaxed, teeth not touching. Breathe through the nose, the mouth or both."
+  },
+  "prereq": [],
+  "tips": [
+    { "tr": "Mükemmel sürtünmeyi arama. Belirsiz bir sürtünme sesi yeterli; zamanla kendiliğinden oturur. Birkaç hafta sonra bu ipuçlarına dönüp ayrıntıyı düzeltebilirsin.", "en": "Don't hunt for the perfect friction. A vague friction sound is enough and it settles by itself with time. Come back to these tips after a few weeks to refine the details." },
+    { "tr": "Ses nefes alırken de verirken de aşağı yukarı aynıdır. Alçak tonlu olursa uzun süre sürdürmek kolaylaşır.", "en": "The sound is roughly the same on the in-breath and the out-breath. A low pitch is easier to keep up for a long time." },
+    { "tr": "Doğru sürtünme gırtlaktan ve boğazın alt arka kısmından gelir (şekilde L). Ağzın ortasından (M) ya da dişlerin yanından (F) gelen ses daha tiz, ıslığa yakındır. Burnun arkasından (N) gelirse sinüslerde yankılanır; bu da doğru değil.", "en": "The right friction comes from the larynx and the lower back of the throat (L in the picture). From the middle of the mouth (M) or near the teeth (F) it sounds higher, almost whistling. From behind the nose (N) it resonates in the sinuses, which is also not right." },
+    { "tr": "Âdem elmasına parmaklarınla hafifçe dokunduğunda küçük ama belirgin bir titreşim hissedebilirsin; başlarda nefes alırken daha net hissedilir.", "en": "Touching your Adam's apple lightly, you can often feel a tiny but distinct vibration; at first it is usually clearer on the in-breath." },
+    { "tr": "Nefesin derinliği ve ritmi normal kalsın. Başta biraz daha derin nefes sürtünmeyi netleştirebilir ama bu bir hiperventilasyon tekniği değil. Odak nefeste değil, gırtlakta.", "en": "Keep the depth and rhythm of the breath normal. Slightly deeper breathing can make the friction clearer at first, but this is not hyperventilation. The focus is on the larynx, not on the breath." },
+    { "tr": "Boyun ne kadar dik ve omurgayla hizalıysa gırtlakta o kadar çok güç açığa çıkar. Boynu hafifçe oynatırken titreşimin aniden güçlendiğini fark edebilirsin.", "en": "The straighter the neck and the better it lines up with the spine, the more power is released in the larynx. You may notice the vibration suddenly intensify as you adjust the neck slightly." },
+    { "tr": "Başta boğaz kuruyabilir ya da tahriş olabilir. Sürtünmeyi daha aşağıdan yap; günde birkaç kez birkaç dakika çalışınca birkaç günde geçer. Kaliteli bal da yatıştırır.", "en": "At first the throat may get dry or irritated. Make the friction lower down; practising a few minutes several times a day, this passes within days. Good-quality honey also soothes." },
+    { "tr": "Bu sürtünmeyi rutin bir iş gibi değil, gırtlağın gizemlerine doğru bir arayış gibi gör.", "en": "Don't treat the friction as routine; see it as a quest into the mysteries of the larynx." }
+  ],
+  "warnings": [],
+  "visual": "larynx",
+  "night": false,
+  "partner": false,
+  "params": [
+    { "key": "minutes", "label": { "tr": "Uygulama süresi", "en": "Practice time" }, "unit": "min", "min": 1, "max": 30, "step": 1, "def": 5 }
+  ],
+  "presets": [],
+  "phases": [
+    {
+      "id": "prep",
+      "name": { "tr": "Hazırlık", "en": "Preparation" },
+      "bell": null,
+      "lines": [
+        { "id": "l1", "text": { "tr": "Rahat bir oturuş pozisyonu al.", "en": "Sit in a comfortable position." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Boynunu dik tut. Boyun omurların sırtınla aynı hizada olsun.", "en": "Keep your neck upright, in line with the rest of your spine." }, "pause": 3 },
+        { "id": "l3", "text": { "tr": "Ağzını hafifçe aç. Alt çenen gevşek, dişlerin birbirine değmesin.", "en": "Open your mouth slightly. Let the lower jaw relax so that your teeth do not touch." }, "pause": 3 },
+        { "id": "l4", "text": { "tr": "Burnundan, ağzından ya da ikisinden birden, sana en doğal gelen şekilde nefes al.", "en": "Breathe through the nose, the mouth or both, whichever feels most natural." }, "pause": 3 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "friction",
+      "name": { "tr": "Sürtünme", "en": "Friction" },
+      "bell": "start",
+      "lines": [
+        { "id": "l1", "text": { "tr": "Şimdi boğazının alt arka kısmında hafif bir sürtünmeyle nefes al ve ver.", "en": "Now breathe with a slight friction at the lower back of your throat." }, "pause": 2 },
+        { "id": "l2", "text": { "tr": "Rüzgâr gibi bir ses. Ne mırıltı ne vızıltı.", "en": "A sound like the wind. No humming, no buzzing." }, "pause": 2 }
+      ],
+      "hold": {
+        "param": "minutes",
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Sürtünme gırtlaktan, boğazının alt arka kısmından gelsin. Ağzından ya da damağından değil.", "en": "Let the friction come from the larynx, low at the back of the throat, not from the mouth or the palate." } },
+          { "id": "r2", "text": { "tr": "Ses alçak ve derin olsun, tiz ya da ıslık gibi değil.", "en": "Keep the sound low and deep, not high or whistling." } },
+          { "id": "r3", "text": { "tr": "Nefesin normal derinliğinde. Zorlamana gerek yok.", "en": "Your breath stays at its normal depth. No need to force it." } },
+          { "id": "r4", "text": { "tr": "Boynunu dik tut. Tam dikliğe yaklaştıkça titreşim güçlenebilir.", "en": "Keep your neck upright. The closer you get to perfect uprightness, the stronger the vibration can become." } },
+          { "id": "r5", "text": { "tr": "Alt çene gevşek, ağız hafif açık.", "en": "Lower jaw relaxed, mouth slightly open." } },
+          { "id": "r6", "text": { "tr": "Mükemmel bir ses arama. Belirsiz bir sürtünme yeterli.", "en": "Don't look for a perfect sound. A vague friction is enough." } },
+          { "id": "r7", "text": { "tr": "İstersen parmaklarınla âdem elmasına hafifçe dokun ve titreşimi hisset.", "en": "If you like, touch your Adam's apple lightly and feel the vibration." } },
+          { "id": "r8", "text": { "tr": "Odak nefeste değil, gırtlakta. Gırtlağı uyandırıyorsun.", "en": "The focus is not on the breath but on the larynx. You are awakening the larynx." } },
+          { "id": "r9", "text": { "tr": "Boğazın kurursa sürtünmeyi biraz daha aşağıdan yap.", "en": "If your throat feels dry, make the friction a little lower down." } }
+        ]
+      }
+    },
+    {
+      "id": "close",
+      "name": { "tr": "Kapanış", "en": "Closing" },
+      "bell": "start",
+      "lines": [
+        { "id": "l1", "text": { "tr": "Sürtünmeyi bırak.", "en": "Let the friction go." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Birkaç nefes boyunca sessizce otur ve gırtlağındaki hissi fark et.", "en": "Sit quietly for a few breaths and notice the feeling in your larynx." }, "pause": 8 }
+      ],
+      "hold": null
+    }
+  ],
+  "notes": "Book: 2.1 gives no session length; it recommends a few minutes several times a day, so the default is 5 min. Reminders paraphrase the tips in 2.1."
+}

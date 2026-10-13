@@ -1,0 +1,553 @@
+{
+  "wave": "wave-7",
+  "sessions": [
+    {
+      "id": "w7-totalself",
+      "wave": "wave-7",
+      "no": 1,
+      "focus": [
+        "23",
+        "25",
+        "27"
+      ],
+      "title": {
+        "tr": "Tüm Kendini Keşfet",
+        "en": "Explore Total Self"
+      },
+      "summary": {
+        "tr": "Kendinin tüm katmanlarıyla karşılaşırsın: fiziksel beden, enerji beden ve ötesi. Kendini bir bütün olarak tanırsın.",
+        "en": "You meet all the layers of yourself: the physical body, the energy body and beyond. You know yourself as a whole."
+      },
+      "goal": {
+        "tr": "Kendinin bütününü, katman katman tanımak.",
+        "en": "Knowing the totality of yourself, layer by layer."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w6-freeflow21"
+      ],
+      "tips": [
+        {
+          "tr": "Kendinle karşılaşma, yargısız olmalıdır.",
+          "en": "Meeting yourself must be without judgment."
+        },
+        {
+          "tr": "Her katman, bir öncekinin devamıdır.",
+          "en": "Every layer is the continuation of the one before."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 23
+        },
+        {
+          "id": "self",
+          "name": {
+            "tr": "Kendinle buluşma",
+            "en": "Meeting yourself"
+          },
+          "bell": "soft",
+          "focus": 23,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Kendinin katmanlarıyla tek tek karşılaş.",
+                "en": "Meet the layers of yourself, one by one."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Her katmanı selamla. Hiçbirini atlama.",
+                "en": "Greet each layer. Skip none of them."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Kendin, sandığından geniştir.",
+                  "en": "You are wider than you think."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Bir katmanı tanıdıkça, ötekine geçersin.",
+                  "en": "As you know one layer, you pass to the next."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Kendinle barış, tüm keşiflerin temelidir.",
+                  "en": "Peace with yourself is the foundation of all exploration."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Voyager #1 Explore Total Self. Meeting the total self across its layers."
+    },
+    {
+      "id": "w7-focus23",
+      "wave": "wave-7",
+      "no": 2,
+      "focus": [
+        "23"
+      ],
+      "title": {
+        "tr": "Focus 23'e Giriş",
+        "en": "Intro to Focus 23"
+      },
+      "summary": {
+        "tr": "Geçiş bölgesine ilk adım. Fiziksel yaşamı yeni tamamlamışların bulunduğu bu bölgeyi tanır, gözlemlersin.",
+        "en": "The first step into the transition area. You get to know and observe this region inhabited by those who have just completed a physical life."
+      },
+      "goal": {
+        "tr": "Focus 23'ü tanımak; geçiş bölgesini gözlemlemek.",
+        "en": "Knowing Focus 23; observing the transition area."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w7-totalself"
+      ],
+      "tips": [
+        {
+          "tr": "Burada gözlemci ol; yargı, bu bölgede ağırlaşır.",
+          "en": "Be the observer here; judgment weighs heavy in this region."
+        },
+        {
+          "tr": "Geçiş bölgesi, kalıcı bir yer değildir; bir duraktır.",
+          "en": "The transition area is not a permanent place; it is a stop."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 23
+        },
+        {
+          "use": "explore",
+          "focus": 23
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Voyager #2 Intro to Focus 23. The transition reality of those who have just completed a physical life."
+    },
+    {
+      "id": "w7-focus25",
+      "wave": "wave-7",
+      "no": 3,
+      "focus": [
+        "25"
+      ],
+      "title": {
+        "tr": "Focus 25'e Giriş",
+        "en": "Intro to Focus 25"
+      },
+      "summary": {
+        "tr": "İnanç sistemlerinin topraklarına geçersin. İnançlarının kendi yapılarını, düşünce kalıplarını gözlemlersin.",
+        "en": "You pass into the territories of belief systems. You observe the structures of your own beliefs, your thought patterns."
+      },
+      "goal": {
+        "tr": "İnanç yapılarını gözlemlemek; onlardan özgürleşmenin ilk adımını atmak.",
+        "en": "Observing belief structures; taking the first step toward freedom from them."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w7-focus23"
+      ],
+      "tips": [
+        {
+          "tr": "İnanç, sorduğunda cevap verir; sorgulamadıkça görünmez.",
+          "en": "A belief answers when you ask; unquestioned, it stays invisible."
+        },
+        {
+          "tr": "Gözlem, inancı dönüştürmenin ilk adımıdır.",
+          "en": "Observation is the first step of transforming a belief."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 25
+        },
+        {
+          "id": "beliefs",
+          "name": {
+            "tr": "İnançlar",
+            "en": "Beliefs"
+          },
+          "bell": "soft",
+          "focus": 25,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "İnançlarının yapılarını gör. Her biri bir bina, bir kalıp.",
+                "en": "See the structures of your beliefs. Each one a building, a mould."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Onları gözlemle. Yıkma, anla.",
+                "en": "Observe them. Don't destroy them, understand them."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "İnanç, sorduğunda cevap verir.",
+                  "en": "A belief answers when you ask."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Gözlem, dönüşümün ilk adımıdır.",
+                  "en": "Observation is the first step of transformation."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Yıkılmayan yapı, dönüştürülemez.",
+                  "en": "A structure that is not destroyed cannot be transformed."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Voyager #3 Intro to Focus 25. The belief system territories."
+    },
+    {
+      "id": "w7-focus27",
+      "wave": "wave-7",
+      "no": 4,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "Focus 27'ye Giriş",
+        "en": "Intro to Focus 27"
+      },
+      "summary": {
+        "tr": "Yaşamlar arasındaki karşılama merkezine ulaşırsın. Burası dinlenme, değerlendirme ve bir sonraki adıma hazırlık yeridir.",
+        "en": "You arrive at the reception center between lives. This is a place of rest, review and preparation for the next step."
+      },
+      "goal": {
+        "tr": "Focus 27'yi tanımak; karşılama merkezini deneyimlemek.",
+        "en": "Knowing Focus 27; experiencing the reception center."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w7-focus25"
+      ],
+      "tips": [
+        {
+          "tr": "Burada acele yoktur; dinlen.",
+          "en": "There is no hurry here; rest."
+        },
+        {
+          "tr": "Karşılama merkezi, her yaşam arasında... ",
+          "en": "placeholder"
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "use": "explore",
+          "focus": 27
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Voyager #4 Intro to Focus 27. The reception center between physical lives."
+    },
+    {
+      "id": "w7-retrieval",
+      "wave": "wave-7",
+      "no": 5,
+      "focus": [
+        "23",
+        "27"
+      ],
+      "title": {
+        "tr": "Kurtarma",
+        "en": "Retrieval"
+      },
+      "summary": {
+        "tr": "Geçiş bölgesinde kalmış, ilerleyemeyen varlıklara yardım edersin. Onları bulur, ışığı gösterir, karşılama merkezine doğru yönlendirirsin.",
+        "en": "You help beings who remain stuck in the transition area, unable to move on. You find them, show them the light, guide them toward the reception center."
+      },
+      "goal": {
+        "tr": "Yardım ve rehberliği, uygulamalı olarak öğrenmek.",
+        "en": "Learning help and guidance in practice."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w7-focus27"
+      ],
+      "tips": [
+        {
+          "tr": "Yardım, zorla değil, davetle gelir.",
+          "en": "Help comes with invitation, not with force."
+        },
+        {
+          "tr": "Işık, her zaman oradadır; göstermek yeter.",
+          "en": "The light is always there; showing it is enough."
+        }
+      ],
+      "warnings": [
+        {
+          "tr": "Bu oturum, fiziksel olmayan bölgede yardım etme pratiğidir; olağanüstü iddialar gerektirmez.",
+          "en": "This session is a practice of helping in the nonphysical area; it makes no extraordinary claims."
+        }
+      ],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 23
+        },
+        {
+          "id": "retrieve",
+          "name": {
+            "tr": "Kurtarma",
+            "en": "Retrieval"
+          },
+          "bell": "soft",
+          "focus": 23,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Geçiş bölgesinde dolaş. İlerleyemeyen bir varlık ara.",
+                "en": "Wander the transition area. Look for a being who cannot move on."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Ona yaklaş. Işığı göster. Karşılama merkezini anlat.",
+                "en": "Approach it. Show the light. Describe the reception center."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Onu yönlendir. Sen gitmek zorunda değilsin. Göstermek yeter.",
+                "en": "Guide it. You don't have to go. Showing is enough."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Yardım, davetle başlar.",
+                  "en": "Help begins with an invitation."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Işık, her zaman oradadır.",
+                  "en": "The light is always there."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Yönlendirme, zorlama değildir.",
+                  "en": "Guiding is not forcing."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Voyager #5 Retrieval. Based on the Institute's Lifeline program: assisting those in Focus 23, guiding them beyond the earth experience. Kept abstract and gentle."
+    },
+    {
+      "id": "w7-beyond",
+      "wave": "wave-7",
+      "no": 6,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "Ötesinden Mesajlar",
+        "en": "Messages From Beyond"
+      },
+      "summary": {
+        "tr": "Focus 27'den mesaj gönderir ve alırsın. Kanal açılır, akış karşılıklı sürer; not almak, mesajın yarısıdır.",
+        "en": "You send and receive messages from beyond in Focus 27. The channel opens, the flow runs both ways; taking notes is half the message."
+      },
+      "goal": {
+        "tr": "Karşılıklı mesajlaşmayı deneyimlemek.",
+        "en": "Experiencing two-way messaging."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Yanında kağıt kalem olsun.",
+        "en": "Lie on your back, headphones on, volume low. Keep paper and pen nearby."
+      },
+      "prereq": [
+        "w7-retrieval"
+      ],
+      "tips": [
+        {
+          "tr": "Mesaj, gönderenin dilinde değil, alanın dilinde gelir.",
+          "en": "A message comes in the language of the receiver, not the sender."
+        },
+        {
+          "tr": "Gönderirken sal; alırken açık ol.",
+          "en": "Send and release; receive and be open."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "id": "messages",
+          "name": {
+            "tr": "Mesajlar",
+            "en": "Messages"
+          },
+          "bell": "soft",
+          "focus": 27,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Kanalını aç. Bir mesaj gönder, bir mesaj al.",
+                "en": "Open your channel. Send a message, receive a message."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Her geleni not al. Her gönderdiğini sal.",
+                "en": "Note everything that comes. Release everything you send."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Kanal açık, akış karşılıklı.",
+                  "en": "The channel is open, the flow is mutual."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Mesaj, alanın dilinde gelir.",
+                  "en": "A message comes in the language of the receiver."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Not, mesajın yarısıdır.",
+                  "en": "The note is half the message."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Voyager #6 Messages From Beyond. Sending and receiving messages as one returns through Focus 27."
+    }
+  ]
+}

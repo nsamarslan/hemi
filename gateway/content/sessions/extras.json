@@ -1,0 +1,470 @@
+{
+  "wave": "extras",
+  "sessions": [
+    {
+      "id": "ex-walk",
+      "wave": "extras",
+      "no": 1,
+      "focus": ["12"],
+      "title": { "tr": "Enerji Yürüyüşü", "en": "Energy Walk" },
+      "summary": {
+        "tr": "Gateway el kitabının 'Energy Walks' tekniği. Genişlemiş farkındalıkta yürüyüş yapar, çevreden enerji toplar, alanı hissedersin.",
+        "en": "The 'Energy Walks' technique from the Gateway Guidance Manual. You walk in expanded awareness, gather energy from the surroundings and feel the field."
+      },
+      "goal": {
+        "tr": "Farkındalıkta yürümek; çevreden enerji toplamak.",
+        "en": "Walking in awareness; gathering energy from the environment."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Yürüyüşü zihninde canlandır.",
+        "en": "Lie on your back, headphones on, volume low. Bring the walk to life in your mind."
+      },
+      "prereq": ["w2-intro-12"],
+      "tips": [
+        {
+          "tr": "Gerçek bir yürüyüşle birleştir: parkta, sahilde, ormanda.",
+          "en": "Combine it with a real walk: in a park, by the sea, in a forest."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        {
+          "id": "walk",
+          "name": { "tr": "Yürüyüş", "en": "The Walk" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Genişlemiş farkındalıkta bir yolda yürümeye başla.", "en": "Begin to walk a path in expanded awareness." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Her adımda çevreden enerji topla. Toprak, güneş, ağaçlar.", "en": "With every step, gather energy from the surroundings. Earth, sun, trees." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Adımların, yerin ritmine karışır.", "en": "Your steps merge with the rhythm of the earth." } },
+              { "id": "r2", "text": { "tr": "Çevre, sana enerji verir.", "en": "The surroundings give you energy." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Monroe technique: 'Energy Walks' section of the Gateway Experience Guidance Manual. Paraphrased as a short guided session."
+    },
+    {
+      "id": "ex-ground",
+      "wave": "extras",
+      "no": 2,
+      "focus": ["10"],
+      "title": { "tr": "Topraklanma", "en": "Grounding" },
+      "summary": {
+        "tr": "Gateway el kitabının 'Need Grounding?' bölümü. Oturumdan sonra bedenine dönmeyi, ayakların yere basmasını, yeniden dengelenmeyi sağlar.",
+        "en": "The 'Need Grounding?' section of the Gateway Guidance Manual. It helps you return to your body after a session, feel your feet on the ground and rebalance."
+      },
+      "goal": {
+        "tr": "Oturum sonrası bedene dönmek; topraklanmak.",
+        "en": "Returning to the body after a session; grounding."
+      },
+      "setting": {
+        "tr": "Oturumdan hemen sonra. Otururken ya da ayakta. Kulaklık takılıysa çıkar.",
+        "en": "Right after a session. Sitting or standing. Take the headphones off if you have them on."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Yalınayak yürümek, toprağa basmak en güçlü topraklanmadır.",
+          "en": "Walking barefoot, touching the earth, is the strongest grounding."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "ground",
+          "name": { "tr": "Topraklanma", "en": "Grounding" },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Ayak tabanlarından yerin içine bir kök sal.", "en": "Send a root from the soles of your feet into the earth." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Yerin enerjisi bedenine çıksın. Ağırlaş, rahatla.", "en": "Let the energy of the earth rise into your body. Grow heavy, settle." }, "pause": 4 }
+          ],
+          "hold": { "sec": 180 }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Monroe technique: 'Need Grounding?' section of the Gateway Experience Guidance Manual (what to do when you feel ungrounded after a session). Short paraphrased practice."
+    },
+    {
+      "id": "ex-onebreath",
+      "wave": "extras",
+      "no": 3,
+      "focus": ["10"],
+      "title": { "tr": "Tek Nefes Tekniği", "en": "The One-Breath Technique" },
+      "summary": {
+        "tr": "Gateway el kitabının 'One-Breath Technique'ı. Tek bir derin nefeste tüm bedenden enerji toplar, beyinde döndürür, üfler. Anında tazelenme.",
+        "en": "The 'One-Breath Technique' from the Gateway Guidance Manual. In one deep breath it gathers energy from the whole body, swirls it in the brain and breathes it out. Instant refreshment."
+      },
+      "goal": {
+        "tr": "Tek nefeste enerji toplama ve beyne yükleme pratiği.",
+        "en": "Practising energy gathering and brain-charging in a single breath."
+      },
+      "setting": {
+        "tr": "Otururken ya da ayakta. Kulaklık çıkarılabilir; bu bir nefes pratiğidir.",
+        "en": "Sitting or standing. Headphones can come off; this is a breathing practice."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Günde birkaç kez, yorgunluk anında.",
+          "en": "A few times a day, in moments of tiredness."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "id": "breathe",
+          "name": { "tr": "Nefes", "en": "Breath" },
+          "bell": null,
+          "focus": 10,
+          "bed": { "beat": "focus", "gain": 0.1 },
+          "lines": [
+            { "id": "l1", "text": { "tr": "Burnundan derin bir nefes al. Tüm bedenden enerji topla, başla tepeye taşı.", "en": "Take a deep breath in through your nose. Gather energy from the whole body, carry it up to the crown." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Nefesi tut, enerjiyi beyinde döndür.", "en": "Hold the breath, swirl the energy around your brain." }, "pause": 4 },
+            { "id": "l3", "text": { "tr": "Mırıldanarak ver. Boğazında titreşim olsun.", "en": "Breathe out with a hum. Let there be vibration in your throat." }, "pause": 4 }
+          ],
+          "hold": { "sec": 60 },
+          "breath": { "in": 5, "hold": 3, "out": 7, "tone": "hum" }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Monroe technique: 'The One-Breath Technique' from the Gateway Experience Guidance Manual (inhale gathering energy from the whole body up into the head, hold, swirl around the brain, exhale humming). Short paraphrased practice."
+    },
+    {
+      "id": "ex-scan",
+      "wave": "extras",
+      "no": 4,
+      "focus": ["10"],
+      "title": { "tr": "Vücut Taraması", "en": "Body Scan" },
+      "summary": {
+        "tr": "Tamamlayıcı pratik (Monroe dışı, bu projenin önerisi). Dikkati bedenin her bölgesine sırayla taşıyarak gevşeme ve farkındalık pratiği.",
+        "en": "Complementary practice (not Monroe material; this project's suggestion). A relaxation and awareness practice that carries attention through every part of the body in turn."
+      },
+      "goal": {
+        "tr": "Beden farkındalığı; derin gevşeme; zihin-beden birliği.",
+        "en": "Body awareness; deep relaxation; mind-body unity."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "scan",
+          "name": { "tr": "Tarama", "en": "The Scan" },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Dikkatini ayak parmaklarına getir. Oradan yukarı, her bölgeye uğra.", "en": "Bring your attention to your toes. From there upward, visit every region." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Gerginliği bul, nefese ver. Gevşe.", "en": "Find the tension, breathe it out. Loosen." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Ayaklar, baldırlar, dizler, karnın.", "en": "Feet, calves, knees, belly." } },
+              { "id": "r2", "text": { "tr": "Göğüs, eller, kollar, yüz, tepe.", "en": "Chest, hands, arms, face, crown." } },
+              { "id": "r3", "text": { "tr": "Hiçbir yeri atlama.", "en": "Skip no place." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Complementary practice (mindfulness body scan), clearly not Monroe material. Short paraphrased session; useful before Gateway exercises."
+    },
+    {
+      "id": "ex-boxbreath",
+      "wave": "extras",
+      "no": 5,
+      "focus": ["10"],
+      "title": { "tr": "Kutu Nefesi", "en": "Box Breathing" },
+      "summary": {
+        "tr": "Tamamlayıcı pratik (Monroe dışı). Dört eşit aşamalı nefes: al, tut, ver, tut. Sinir sistemini dengeler, odak kazandırır.",
+        "en": "Complementary practice (not Monroe material). Four equal phases of breath: inhale, hold, exhale, hold. Balances the nervous system, builds focus."
+      },
+      "goal": {
+        "tr": "Nefesle sinir sistemini dengelemek; odak ve sakin.",
+        "en": "Balancing the nervous system with breath; focus and calm."
+      },
+      "setting": {
+        "tr": "Otururken, sırt düz. Kulaklık çıkarılabilir; bu bir nefes pratiğidir.",
+        "en": "Sitting, back straight. Headphones can come off; this is a breathing practice."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Her fazı dört sayarak ver. Kutu, kare çizer.",
+          "en": "Give each phase four counts. The box draws a square."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "id": "box",
+          "name": { "tr": "Kutu", "en": "The Box" },
+          "bell": null,
+          "focus": 10,
+          "bed": { "beat": "focus", "gain": 0.1 },
+          "lines": [
+            { "id": "l1", "text": { "tr": "Dört say al. Dört say tut. Dört say ver. Dört say tut.", "en": "Four counts inhale. Four counts hold. Four counts exhale. Four counts hold." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Kutu tamamlandıkça zihnin durulur.", "en": "As the box completes, the mind grows still." }, "pause": 4 }
+          ],
+          "hold": { "sec": 300 },
+          "breath": { "in": 4, "hold": 4, "out": 4, "rest": 4, "tone": "tick" }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Complementary practice (box breathing / tactical breathing), not Monroe material. Short session; useful before Gateway exercises or in stressful moments."
+    },
+    {
+      "id": "ex-pmr",
+      "wave": "extras",
+      "no": 6,
+      "focus": ["10"],
+      "title": { "tr": "Aşamalı Gevşeme", "en": "Progressive Muscle Relaxation" },
+      "summary": {
+        "tr": "Tamamlayıcı pratik (Monroe dışı). Her kas grubunu sırayla gerip gevşeterek derin bedensel gevşeme sağlar.",
+        "en": "Complementary practice (not Monroe material). Deep physical relaxation by tensing and releasing each muscle group in turn."
+      },
+      "goal": {
+        "tr": "Bedensel gerginliği çözmek; derin gevşeme hali.",
+        "en": "Releasing physical tension; a deep state of relaxation."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "tense",
+          "name": { "tr": "Ger-Gevşe", "en": "Tense-Release" },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Ayak kaslarını ger, tut, bırak. Bir dalga gibi yukarı ilerle.", "en": "Tense your foot muscles, hold, release. Move up like a wave." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Gerginlik, bırakmayla çözülür.", "en": "Tension dissolves with release." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Bacaklar, karın, eller, kollar.", "en": "Legs, belly, hands, arms." } },
+              { "id": "r2", "text": { "tr": "Omuzlar, boyun, yüz, tepe.", "en": "Shoulders, neck, face, crown." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Complementary practice (progressive muscle relaxation, Jacobson-style), not Monroe material. Useful as a precursor to Focus 10."
+    },
+    {
+      "id": "ex-metta",
+      "wave": "extras",
+      "no": 7,
+      "focus": ["12"],
+      "title": { "tr": "Şefkat Meditasyonu", "en": "Loving-Kindness (Metta)" },
+      "summary": {
+        "tr": "Tamamlayıcı pratik (Monroe dışı, Budist geleneksel metta pratiği). Kendine, sevdiğin birine, nötr birine, zor birine, tüm varlıklara şefkat gönder.",
+        "en": "Complementary practice (not Monroe material; the traditional Buddhist metta practice). You send kindness to yourself, a loved one, a neutral one, a difficult one and all beings."
+      },
+      "goal": {
+        "tr": "Kalp merkezini açmak; şefkat ve iyi niyet geliştirmek.",
+        "en": "Opening the heart center; cultivating kindness and goodwill."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan veya otur, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie down or sit, headphones on, volume low. A quiet room."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Focus 18, Monroe'nun 'kalp seviyesi' dediği seviyedir; bu pratik oraya hazırlanır.",
+          "en": "Focus 18 is the 'heart level' in Monroe literature; this practice prepares you for it."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 12 },
+        {
+          "id": "metta",
+          "name": { "tr": "Şefkat", "en": "Kindness" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Kendine şefkat gönder. Mutlu ol. Huzurlu ol.", "en": "Send kindness to yourself. Be happy. Be peaceful." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Sevdiğine, nötr olana, zorlanana, tüm varlıklara.", "en": "To a loved one, a neutral one, a difficult one, all beings." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Kalp yumuşadıkça sınır çözülür.", "en": "As the heart softens, the boundary dissolves." } },
+              { "id": "r2", "text": { "tr": "Şefkat, evrensel bir dildir.", "en": "Kindness is a universal language." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Complementary practice (metta / loving-kindness meditation), not Monroe material. Pairs well with Focus 12 and the heart-oriented levels."
+    },
+    {
+      "id": "ex-dreamjournal",
+      "wave": "extras",
+      "no": 8,
+      "focus": ["10"],
+      "title": { "tr": "Rüya Günlüğü", "en": "Dream Journaling" },
+      "summary": {
+        "tr": "Tamamlayıcı pratik (Monroe dışı). Uyandığında rüyanı birkaç cümleyle not almak; rüya hatırasını ve farkındalığını güçlendirir.",
+        "en": "Complementary practice (not Monroe material). Noting your dream in a few sentences on waking; it strengthens dream recall and awareness."
+      },
+      "goal": {
+        "tr": "Rüya hatırasını artırmak; uyanık farkındalığı geceye taşımak.",
+        "en": "Increasing dream recall; carrying waking awareness into the night."
+      },
+      "setting": {
+        "tr": "Uyandığında, yatakta, kulaklık takılı. Işıklar sönük. Not defterin hazır olsun.",
+        "en": "On waking, in bed, headphones on. Lights off. Have your notebook ready."
+      },
+      "prereq": [],
+      "tips": [
+        {
+          "tr": "Hemen yaz. Bir dakika sonra rüya buharlaşır.",
+          "en": "Write immediately. In a minute the dream evaporates."
+        }
+      ],
+      "warnings": [],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "journal",
+          "name": { "tr": "Günlük", "en": "Journaling" },
+          "bell": null,
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Uyandın. Rüyan aklında ne kaldıysa onu tut.", "en": "You are awake. Hold whatever remains of the dream." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Bir cümleyle başla. Ne gördün, ne hissettin.", "en": "Begin with a sentence. What did you see, what did you feel." }, "pause": 4 }
+          ],
+          "hold": { "sec": 300, "lastMinute": false }
+        }
+      ],
+      "notes": "Complementary practice (dream journaling), not Monroe material. Night session. Pairs with the Lucid Dreaming series."
+    },
+    {
+      "id": "ex-wbtb",
+      "wave": "extras",
+      "no": 9,
+      "focus": ["10"],
+      "title": { "tr": "Uyan, Geri Dön (WBTB)", "en": "Wake Back to Bed (WBTB)" },
+      "summary": {
+        "tr": "Tamamlayıcı pratik (Monroe dışı, bilinçli rüya literatüründen). Gece 4-6 saat uyuduktan sonra kısa uyanıp bilinçli farkındalıkla tekrar uykuya dalma tekniği.",
+        "en": "Complementary practice (not Monroe material; from the lucid dreaming literature). After 4-6 hours of sleep, wake briefly and fall back asleep with conscious awareness."
+      },
+      "goal": {
+        "tr": "REM uykusuna bilinçli girmek; bilinçli rüya olasılığını artırmak.",
+        "en": "Entering REM sleep consciously; increasing the chance of a lucid dream."
+      },
+      "setting": {
+        "tr": "Gece, alarm ile 4-6 saat sonra uyan. Kulaklık takılı, ışıklar sönük.",
+        "en": "At night, wake with an alarm after 4-6 hours. Headphones on, lights off."
+      },
+      "prereq": ["lucid-maba"],
+      "tips": [
+        {
+          "tr": "Uyanışta 15-30 dakika uyanık kal, sonra uyu.",
+          "en": "Stay awake 15-30 minutes after waking, then sleep."
+        }
+      ],
+      "warnings": [],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "wbtb",
+          "name": { "tr": "Geri Dönüş", "en": "Going Back" },
+          "bell": null,
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Uyanıksın. Zihnin berrak. Niyetini kur.", "en": "You are awake. The mind is clear. Set your intention." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Uykuya dalarken bilincin uyanık kalsın. Rüya seni bekliyor.", "en": "As you fall asleep, let awareness stay awake. The dream awaits you." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "lastMinute": false,
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Bilinç, uykunun kapısından içeri girer.", "en": "Awareness enters through the door of sleep." } },
+              { "id": "r2", "text": { "tr": "Rüya, farkındalığı bekler.", "en": "The dream waits for awareness." } }
+            ]
+          }
+        }
+      ],
+      "notes": "Complementary practice (Wake Back To Bed, a standard lucid-dream induction technique), not Monroe material. Night session. Pairs with the Lucid Dreaming series."
+    },
+    {
+      "id": "ex-evening",
+      "wave": "extras",
+      "no": 10,
+      "focus": ["10"],
+      "title": { "tr": "Akşam Gözden Geçirme", "en": "Evening Review" },
+      "summary": {
+        "tr": "Tamamlayıcı pratik (Monroe dışı). Günün üzerinden geçme, şükran ve ders çıkarma pratiği. Uykuya hazırlanmanın nazik bir yolu.",
+        "en": "Complementary practice (not Monroe material). Reviewing the day, gratitude and lessons learned. A gentle way to prepare for sleep."
+      },
+      "goal": {
+        "tr": "Günü kapatmak; şükran ve içgörü ile uykuya hazırlanmak.",
+        "en": "Closing the day; preparing for sleep with gratitude and insight."
+      },
+      "setting": {
+        "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.",
+        "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep."
+      },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        {
+          "id": "review",
+          "name": { "tr": "Gözden Geçirme", "en": "Review" },
+          "bell": null,
+          "focus": 10,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Gün geride kaldı. Sabah neredeydin, şimdi neredesin.", "en": "The day is behind you. Where were you in the morning, where are you now." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Şükredeceğin bir şey bul. Yarın için bir niyet kur.", "en": "Find something to be grateful for. Set an intention for tomorrow." }, "pause": 4 }
+          ],
+          "hold": { "sec": 300, "lastMinute": false }
+        }
+      ],
+      "notes": "Complementary practice (evening review / gratitude reflection), not Monroe material. Night session."
+    }
+  ]
+}

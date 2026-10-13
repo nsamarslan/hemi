@@ -1,0 +1,889 @@
+{
+  "wave": "wave-8",
+  "sessions": [
+    {
+      "id": "w8-tour",
+      "wave": "wave-8",
+      "no": 1,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "Özel Tur",
+        "en": "Special Tour"
+      },
+      "summary": {
+        "tr": "Focus 27'nin ötesindeki bölgeye özel bir tur. Mekanı tanır, yönünü bulur, geri dönüş yolunu öğrenirsin.",
+        "en": "A special tour of the area beyond Focus 27. You get to know the space, find your bearings, learn the way back."
+      },
+      "goal": {
+        "tr": "Focus 27 ötesindeki bölgeyi tanımak.",
+        "en": "Getting to know the area beyond Focus 27."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w7-beyond"
+      ],
+      "tips": [
+        {
+          "tr": "Tur, tek seferde bitmez; her oturum bir bölüm görür.",
+          "en": "The tour does not end in one session; every session sees one part."
+        },
+        {
+          "tr": "Dönüş yolu, gidilen yoldan daha değerlidir.",
+          "en": "The way back is more valuable than the way there."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "id": "tour",
+          "name": {
+            "tr": "Tur",
+            "en": "Tour"
+          },
+          "bell": "soft",
+          "focus": 27,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Bir rehber eşliğinde bölgeyi dolaş. Her köşeyi sakince gör.",
+                "en": "Tour the region with a guide. See every corner calmly."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Nerede olduğunu, nereye döneceğini öğren.",
+                "en": "Learn where you are, and where you will return to."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Burası, haritanın kenarıdır.",
+                  "en": "This is the edge of the map."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Her tur, bir sonrakine yol açar.",
+                  "en": "Every tour opens the way to the next."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Dönüş yolu, çanlarla gelir.",
+                  "en": "The way back comes with the bells."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Union track 1, Special Tour (Wave VIII has eight exercises on four CDs; this app offers all eight plus a free-flow companion). A guided orientation tour beyond Focus 27."
+    },
+    {
+      "id": "w8-entry",
+      "wave": "wave-8",
+      "no": 2,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "Giriş Rehberiyle Buluşma",
+        "en": "Meeting at the Entry Point"
+      },
+      "summary": {
+        "tr": "Yaşamlar arası geçiş noktasında seni karşılayan rehber figürle buluşursun. Sorularını sorar, yönlendirmesini alırsın.",
+        "en": "You meet the guide figure who greets you at the entry point between lives. You ask your questions, you receive direction."
+      },
+      "goal": {
+        "tr": "Rehberlik ilişkisini deneyimlemek; soru sormayı öğrenmek.",
+        "en": "Experiencing the guidance relationship; learning to ask."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w8-tour"
+      ],
+      "tips": [
+        {
+          "tr": "Rehber, sen sormadan konuşmaz; sor.",
+          "en": "The guide does not speak before you ask; ask."
+        },
+        {
+          "tr": "Cevap, sorunun ardında gelir; sabırla bekle.",
+          "en": "The answer follows the question; wait patiently."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "id": "meeting",
+          "name": {
+            "tr": "Buluşma",
+            "en": "The Meeting"
+          },
+          "bell": "soft",
+          "focus": 27,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Giriş noktasına gel. Seni karşılayan rehberi gör.",
+                "en": "Arrive at the entry point. See the guide who greets you."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Sorularını sor. Yönlendirmesini iste.",
+                "en": "Ask your questions. Ask for direction."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Rehber, sen sormadan konuşmaz.",
+                  "en": "The guide does not speak before you ask."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Cevap, sorunun ardında gelir.",
+                  "en": "The answer follows the question."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Yönlendirme, emir değil, davettir.",
+                  "en": "Direction is an invitation, not a command."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Union track 2, Meeting with the Entry Director. Paraphrased: a meeting with a guide figure at the entry point between lives."
+    },
+    {
+      "id": "w8-education",
+      "wave": "wave-8",
+      "no": 3,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "Eğitim Fırsatları",
+        "en": "Educational Opportunities"
+      },
+      "summary": {
+        "tr": "Fiziksel ötesindeki öğrenme fırsatlarını keşfedersin. Her varlık, kendi hızında ve kendi yolunda öğrenir.",
+        "en": "You explore the educational opportunities beyond the physical. Every being learns at its own pace and on its own path."
+      },
+      "goal": {
+        "tr": "Öğrenme alanını tanımak; kendi eğitim yolunu görmek.",
+        "en": "Knowing the learning field; seeing your own path of study."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w8-entry"
+      ],
+      "tips": [
+        {
+          "tr": "Eğitim, tek bir yaşama sığmaz; birçok alana yayılır.",
+          "en": "Education does not fit into one life; it spreads across many fields."
+        },
+        {
+          "tr": "Merak, en iyi pusuladır.",
+          "en": "Curiosity is the best compass."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "id": "learn",
+          "name": {
+            "tr": "Öğrenme",
+            "en": "Learning"
+          },
+          "bell": "soft",
+          "focus": 27,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Öğrenme alanlarını dolaş. Fırsatları gör.",
+                "en": "Wander the fields of learning. See the opportunities."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Kendi eğitim yolunu hisset. Nerede, ne zaman, ne.",
+                "en": "Feel your own path of study. Where, when, what."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Eğitim, bir yaşama sığmaz.",
+                  "en": "Education does not fit into one life."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Merak, en iyi pusuladır.",
+                  "en": "Curiosity is the best compass."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Her varlık, kendi hızında öğrenir.",
+                  "en": "Every being learns at its own pace."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Union track 3, Educational Opportunities. Exploring learning opportunities beyond the physical."
+    },
+    {
+      "id": "w8-healing",
+      "wave": "wave-8",
+      "no": 4,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "İyileşme ve Yenilenme",
+        "en": "Healing and Regeneration"
+      },
+      "summary": {
+        "tr": "Enerji bedenini onarır, yenilersin. İyileşme, burada hem kendine hem başkalarına aktarılan bir akıştır.",
+        "en": "You heal and regenerate the energy body. Healing here is a flow, given to yourself and to others."
+      },
+      "goal": {
+        "tr": "Enerji bedenini iyileştirmeyi ve yenilemeyi öğrenmek.",
+        "en": "Learning to heal and regenerate the energy body."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w8-education"
+      ],
+      "tips": [
+        {
+          "tr": "İyileşme, niyetle başlar, kabul ile sürer.",
+          "en": "Healing begins with intention, continues with acceptance."
+        },
+        {
+          "tr": "Yenilenme, eskiyi atmak değil, tazelenmektir.",
+          "en": "Regeneration is not discarding the old, it is refreshing it."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "id": "heal",
+          "name": {
+            "tr": "İyileşme",
+            "en": "Healing"
+          },
+          "bell": "soft",
+          "focus": 27,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Enerji bedenindeki yaraları, düğümleri gör.",
+                "en": "See the wounds and knots in the energy body."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Onlara ışık tut. Kabul et, bırak, yenile.",
+                "en": "Hold light to them. Accept, release, renew."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "İyileşme, niyetle başlar.",
+                  "en": "Healing begins with intention."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Kabul, iyileşmenin yarısıdır.",
+                  "en": "Acceptance is half of healing."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Yenilenen, eskisinden güçlüdür.",
+                  "en": "What is renewed is stronger than before."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Union track 4, Healing and Regeneration. Healing and regenerating the energy body."
+    },
+    {
+      "id": "w8-planning",
+      "wave": "wave-8",
+      "no": 5,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "Planlama Merkezi",
+        "en": "The Planning Center"
+      },
+      "summary": {
+        "tr": "Yer kürenin yaşam sistemi enerji örüntülerini yöneten yeri gözlemlersin ve oraya katılırsın.",
+        "en": "You observe and take part in the place that oversees the energy patterns of the Earth life system."
+      },
+      "goal": {
+        "tr": "Planlama merkezini tanımak; örüntülerin düzenini hissetmek.",
+        "en": "Knowing the planning center; feeling the order of the patterns."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w8-healing"
+      ],
+      "tips": [
+        {
+          "tr": "Her örüntünün bir yeri ve bir amacı vardır; acele etme.",
+          "en": "Every pattern has its place and its purpose; don't rush."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "id": "planning",
+          "name": {
+            "tr": "Planlama Merkezi",
+            "en": "The Planning Center"
+          },
+          "bell": "soft",
+          "focus": 27,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Planlama merkezine gel. Yer kürenin enerji örüntülerini izle.",
+                "en": "Arrive at the planning center. Watch the energy patterns of the Earth."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Burada her örüntünün bir yeri, bir amacı vardır.",
+                "en": "Here every pattern has its place and its purpose."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Örüntü, niyetin izidir.",
+                  "en": "The pattern is the trace of intention."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Merkez, her şeyi bir arada tutar.",
+                  "en": "The center holds everything together."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Gözlemle, sonra katıl.",
+                  "en": "Observe first, then take part."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Union track 5, The Planning Center (Wave VIII, 2022, A.J. Honeycutt). Observe and participate in the place which oversees the energy patterns of the Earth life system."
+    },
+    {
+      "id": "w8-coordination",
+      "wave": "wave-8",
+      "no": 6,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "Koordinasyon Bölgesi",
+        "en": "Coordination Area"
+      },
+      "summary": {
+        "tr": "Focus 27 alanının bakımından ve yönetiminden sorumlu enerji varlıklarıyla tanışırsın; daha ileri büyüme fırsatları hakkında bilgi alırsın.",
+        "en": "You meet the energy beings responsible for maintaining and managing this area of Focus 27; you learn about opportunities for further growth."
+      },
+      "goal": {
+        "tr": "Koordinasyon bölgesini tanımak; büyüme fırsatlarını görmek.",
+        "en": "Knowing the coordination area; seeing the opportunities for growth."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w8-planning"
+      ],
+      "tips": [
+        {
+          "tr": "Her varlık, kendi görevinde ustadır; onlardan öğren.",
+          "en": "Every being is a master of its own task; learn from them."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "id": "coordination",
+          "name": {
+            "tr": "Koordinasyon Bölgesi",
+            "en": "Coordination Area"
+          },
+          "bell": "soft",
+          "focus": 27,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Koordinasyon bölgesine gel. Sorumlu varlıklarla tanış.",
+                "en": "Arrive at the coordination area. Meet the beings in charge."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Her varlık, kendi görevinde ustadır. Büyüme fırsatları seni bekler.",
+                "en": "Every being is a master of its own task. Opportunities for growth await you."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Uyum, her şeyin mayasıdır.",
+                  "en": "Harmony is the leaven of everything."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Fırsatlar, hazır olana gelir.",
+                  "en": "Opportunities come to the one who is ready."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Yönetim, hizmettir.",
+                  "en": "Administration is service."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Union track 6, Coordination Area (Wave VIII, 2022, A.J. Honeycutt). Meet the energy beings responsible for maintaining and managing this area of Focus 27 and learn about opportunities for further growth and development."
+    },
+    {
+      "id": "w8-inner",
+      "wave": "wave-8",
+      "no": 7,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "İç Dünya",
+        "en": "Inner Earth"
+      },
+      "summary": {
+        "tr": "Fiziksel Yer'i koruyan zekâlarla tanışırsın; iç merkeze doğru yol alırken mineraller âlemini keşfedersin.",
+        "en": "You meet the intelligences who maintain the physical Earth; on your way to the inner core you explore the mineral kingdoms."
+      },
+      "goal": {
+        "tr": "İç dünya yolculuğunu başlatmak; Yer'in zekâsıyla temas.",
+        "en": "Beginning the journey into the inner Earth; contact with the intelligence of the Earth."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w8-coordination"
+      ],
+      "tips": [
+        {
+          "tr": "Her katman, sabır ister; acele derinleşmez.",
+          "en": "Every layer asks for patience; rushing does not go deeper."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "id": "inner",
+          "name": {
+            "tr": "İç Dünya",
+            "en": "Inner Earth"
+          },
+          "bell": "soft",
+          "focus": 27,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Yerin içine doğru yolculuk başlasın. Rehberlerinle tanış.",
+                "en": "Let the journey into the Earth begin. Meet your guides."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Mineraller âlemi, sabrın ve sessizliğin yeridir.",
+                "en": "The mineral kingdom is the place of patience and silence."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Derin, sabır ister.",
+                  "en": "The deep asks for patience."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Her katman, bir bilgelik taşır.",
+                  "en": "Every layer carries a wisdom."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Merkez, Yer'in kalbidir.",
+                  "en": "The core is the heart of the Earth."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Union track 7, Inner Earth (Wave VIII, 2022, A.J. Honeycutt). Meet the intelligences who maintain the physical Earth and explore the different mineral kingdoms on the way to the inner Earth core."
+    },
+    {
+      "id": "w8-freeflow27",
+      "wave": "wave-8",
+      "no": 9,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "Serbest Akış 27",
+        "en": "Free Flow 27"
+      },
+      "summary": {
+        "tr": "Focus 27'de tamamen serbest akış. Zamanın ve mekanın ötesinde, hiçbir hedef olmadan dolaşırsın.",
+        "en": "Complete free flow in Focus 27. Beyond time and space, you wander without any goal."
+      },
+      "goal": {
+        "tr": "Yüksek seviyede amaçsız farkındalığı tatmak.",
+        "en": "Tasting purposeless awareness at a high level."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w8-beyond"
+      ],
+      "tips": [
+        {
+          "tr": "Burada yol, hedeften daha değerlidir.",
+          "en": "Here the way is more valuable than the goal."
+        },
+        {
+          "tr": "Sessizlik, bu seviyenin dilidir.",
+          "en": "Silence is the language of this level."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "use": "explore",
+          "focus": 27
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Free Flow 27. A free-flow companion session in Focus 27, added by this app; not one of the eight official Union exercises."
+    },
+    {
+      "id": "w8-beyond",
+      "wave": "wave-8",
+      "no": 8,
+      "focus": [
+        "27"
+      ],
+      "title": {
+        "tr": "Mutlak",
+        "en": "The Absolute"
+      },
+      "summary": {
+        "tr": "Yer yaşam sisteminden mezuniyetin eşsiz fırsatı. Nereden geldiğini, nereye gittiğini ve gerçek benliğini daha derinden anlarsın.",
+        "en": "The unique opportunity to experience graduating from the Earth life system. You come to know more deeply where you came from, where you are going, and your true self."
+      },
+      "goal": {
+        "tr": "Yer yaşam sisteminden mezuniyeti hissetmek; bilinci yanına taşımak.",
+        "en": "Feeling the graduation from the Earth life system; carrying awareness back with you."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w8-inner"
+      ],
+      "tips": [
+        {
+          "tr": "Ötesi, korkutucu değil, tanıdık bir sessizlik olabilir.",
+          "en": "The beyond may be not frightening but a familiar silence."
+        },
+        {
+          "tr": "Dönüş, cesarettir; sonsuzlukta kalmak değil.",
+          "en": "Returning is courage; not staying in the infinite."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 27
+        },
+        {
+          "id": "absolute",
+          "name": {
+            "tr": "Mutlak",
+            "en": "The Absolute"
+          },
+          "bell": "soft",
+          "focus": 27,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Yer yaşam sisteminden mezuniyet kapısına gel.",
+                "en": "Arrive at the graduation gate of the Earth life system."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Nereden geldiğini, nereye gittiğini gör. Gerçek benliğini tanı.",
+                "en": "See where you came from and where you are going. Know your true self."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Mezuniyet, bir son değil, yeni bir başlangıçtır.",
+                  "en": "Graduation is not an end, it is a new beginning."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Geri dönerken tüm bildiklerini yanına taşırsın.",
+                  "en": "As you return, you carry everything you have learned."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Mutlak, sınırların ötesindeki birliktir.",
+                  "en": "The Absolute is the union beyond all limits."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Union track 8, The Absolute: a unique opportunity to experience graduating from the Earth Life System. The app's original framing of the capstone exercise."
+    }
+  ]
+}

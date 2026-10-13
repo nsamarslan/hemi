@@ -1,0 +1,776 @@
+{
+  "wave": "wave-2",
+  "sessions": [
+    {
+      "id": "w2-intro-12",
+      "wave": "wave-2",
+      "no": 1,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Focus 12'ye Giriş",
+        "en": "Introduction to Focus 12"
+      },
+      "summary": {
+        "tr": "Focus 10'dan Focus 12'ye geçiş. Farkındalık bedenin ötesine uzanır; ilk kez çevreni, odanın ötesini hissedersin.",
+        "en": "The transition from Focus 10 to Focus 12. Awareness reaches beyond the body; for the first time you sense your surroundings, beyond the room."
+      },
+      "goal": {
+        "tr": "Focus 12'ye geçişi hissetmek; farkındalığın genişlediğini fark etmek.",
+        "en": "Feeling the transition into Focus 12; noticing awareness expand."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w1-freeflow"
+      ],
+      "tips": [
+        {
+          "tr": "Geçiş yavaş olur; acele edersen durum oturmaz.",
+          "en": "The transition is slow; if you rush, the state will not settle."
+        },
+        {
+          "tr": "Genişleme hissi tuhaf gelebilir; bu normal.",
+          "en": "The feeling of expansion may seem strange; it is normal."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "expand",
+          "name": {
+            "tr": "Genişleme",
+            "en": "Expansion"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Farkındalığın bedeninin dışına çıkıyor. Odayı, evi, gökyüzünü hisset.",
+                "en": "Your awareness is stepping outside your body. Feel the room, the house, the sky."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Sınırların yok. Nerede bittiğin belli değil.",
+                "en": "There are no boundaries. It is not clear where you end."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Farkındalık bir balon gibi genişliyor.",
+                  "en": "Awareness expands like a balloon."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Bir yere tutunmaya çalışma.",
+                  "en": "Don't try to hold on to a place."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Genişleme, daralmadan önce gelir.",
+                  "en": "Expansion comes before contraction."
+                }
+              },
+              {
+                "id": "r4",
+                "text": {
+                  "tr": "Zihnin uyanık, bu genişleme senin.",
+                  "en": "Mind awake, this expansion is yours."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Threshold #1 Introduction to Focus 12. The bed glides from the Focus 10 beat to the Focus 12 beat across the entry phase."
+    },
+    {
+      "id": "w2-problem",
+      "wave": "wave-2",
+      "no": 2,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Problem Çözme",
+        "en": "Problem Solving"
+      },
+      "summary": {
+        "tr": "Bir sorunu zihnin merkezine koyup tüm yönlere akıtarak serbest bırakırsın. Çözüm, zorlamadan gelir.",
+        "en": "You place a problem at the center of your mind, let it flow out in all directions and release it. The solution comes without forcing."
+      },
+      "goal": {
+        "tr": "Bir soruna yaklaşırken zihni serbest bırakmayı öğrenmek.",
+        "en": "Learning to let the mind go when approaching a problem."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w2-intro-12"
+      ],
+      "tips": [
+        {
+          "tr": "Soruyu bir cümleyle netleştir; bulanık soru bulanık cevap alır.",
+          "en": "Clarify the question in one sentence; a muddy question gets a muddy answer."
+        },
+        {
+          "tr": "Cevabı zorlama; akışın getirdiğine açık ol.",
+          "en": "Don't force the answer; be open to what the flow brings."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "flow",
+          "name": {
+            "tr": "Akış",
+            "en": "Flow"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Şimdi aklındaki soruyu bir cümleyle tut.",
+                "en": "Now hold the question on your mind in a single sentence."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Onu zihninin merkezine koy ve tüm yönlere akıt.",
+                "en": "Place it at the center of your mind and let it flow out in all directions."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Bırak gitsin. İzle, ama çözmeye çalışma.",
+                "en": "Let it go. Watch, but don't try to solve."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Soruyu bırak, akışa güven.",
+                  "en": "Release the question, trust the flow."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Cevap beklenmedik yerden gelir.",
+                  "en": "The answer comes from an unexpected place."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Zihin uğraşmayı bırakınca açılır.",
+                  "en": "The mind opens when it stops working."
+                }
+              },
+              {
+                "id": "r4",
+                "text": {
+                  "tr": "Sabır, bu oturumun kendisidir.",
+                  "en": "Patience is this session itself."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Threshold #2 Problem Solving. The free-flow method: place the question at the center of awareness, push it out, release it."
+    },
+    {
+      "id": "w2-pattern-1m",
+      "wave": "wave-2",
+      "no": 3,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Bir Aylık Örüntü",
+        "en": "One-Month Patterning"
+      },
+      "summary": {
+        "tr": "Önümüzdeki bir ay için bir örüntü kurarsın: bir niyet, bir durum, bir yön. Focus 12'de onu varmış gibi tutarsın.",
+        "en": "You set a pattern for the month ahead: an intention, a state, a direction. In Focus 12 you hold it as if it were already true."
+      },
+      "goal": {
+        "tr": "Bir niyeti Focus 12'de örüntü olarak kurmayı öğrenmek.",
+        "en": "Learning to set an intention as a pattern in Focus 12."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w2-problem"
+      ],
+      "tips": [
+        {
+          "tr": "Örüntüyü hissederek kur; kelimeler yetmez.",
+          "en": "Set the pattern by feeling it; words are not enough."
+        },
+        {
+          "tr": "Bir aylık çerçeve, her günkü odağı taşır.",
+          "en": "The one-month frame carries the daily focus."
+        },
+        {
+          "tr": "Zıt hisler gelirse örüntüyü tazele.",
+          "en": "If opposite feelings come, refresh the pattern."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "pattern",
+          "name": {
+            "tr": "Örüntü",
+            "en": "Patterning"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Önümüzdeki bir ayı düşün. O ayda nasıl bir hal içinde olmak istersin?",
+                "en": "Think of the month ahead. What state do you want to be in during that month?"
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "O hali şimdi hisset. Sanki o ay gelmiş gibi.",
+                "en": "Feel that state now. As if that month had already arrived."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Örüntü kuruldu. Bırak, o kendi yayılsın.",
+                "en": "The pattern is set. Release it. Let it spread on its own."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Örüntü seninle birlikte büyüyor.",
+                  "en": "The pattern grows together with you."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Hisset, tekrar hisset.",
+                  "en": "Feel it, feel it again."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Zaman bu örüntüye uyumlanıyor.",
+                  "en": "Time is aligning itself to this pattern."
+                }
+              },
+              {
+                "id": "r4",
+                "text": {
+                  "tr": "Şüphe gelirse örüntüyü tazele.",
+                  "en": "If doubt comes, refresh the pattern."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Threshold #3 One-Month Patterning. Patterning: hold the desired pattern in Focus 12 as if already accomplished."
+    },
+    {
+      "id": "w2-color",
+      "wave": "wave-2",
+      "no": 4,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Renk Nefesi",
+        "en": "Color Breathing"
+      },
+      "summary": {
+        "tr": "Renkleri nefesle bedenine alır, zihin ile beden arasında köprü kurarsın. Her renk, kendi enerjisini taşır.",
+        "en": "You take colours into your body with the breath; you build a bridge between mind and body. Each colour carries its own energy."
+      },
+      "goal": {
+        "tr": "Renklerle çalışmayı, beden ve zihin köprüsünü kurmayı öğrenmek.",
+        "en": "Learning to work with colours, to build the mind-body bridge."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w2-pattern-1m"
+      ],
+      "tips": [
+        {
+          "tr": "Renk seçerken içgüdünü izle; doğru renk seni çağırır.",
+          "en": "Choose the colour by instinct; the right colour calls you."
+        },
+        {
+          "tr": "Rengi hissetmek, adını bilmekten daha önemli.",
+          "en": "Feeling the colour matters more than knowing its name."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "breathe",
+          "breath": { "in": 5, "out": 7 },
+          "name": {
+            "tr": "Nefes",
+            "en": "Breathing"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Burnundan bir renk çek. Hangi renk seni çağırıyor?",
+                "en": "Breathe in a colour. Which colour is calling you?"
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Rengi bedenine yay. Neresi zayıfsa oraya gitsin.",
+                "en": "Spread the colour through your body. Let it go where it is weak."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Şimdi nefesi verirken, bedenindeki yorgunluğu dışarı sal.",
+                "en": "Now as you breathe out, release the tiredness in your body."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Renk nefesinle birlikte akıyor.",
+                  "en": "The colour flows with your breath."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Hangi renk eksik, o seni çağırır.",
+                  "en": "The colour that is missing calls you."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Renkler duyguları uyandırır.",
+                  "en": "Colours awaken feelings."
+                }
+              },
+              {
+                "id": "r4",
+                "text": {
+                  "tr": "Bir rengi tüm bedene yay.",
+                  "en": "Spread one colour through the whole body."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Threshold #4 Color Breathing. Colours are used to link psyche and soma and to activate one's own energy."
+    },
+    {
+      "id": "w2-ebt",
+      "wave": "wave-2",
+      "no": 5,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Enerji Çubuğu Aracı",
+        "en": "Energy Bar Tool"
+      },
+      "summary": {
+        "tr": "Avuçlarının arasında bir ışık noktası şarj edip çubuk haline getirirsin. Bu çubukla bedenine enerji yönlendirir, tarar ve iyileştirirsin.",
+        "en": "You charge a dot of light between your palms into a bar. With this bar you direct energy into your body, scan it and heal it."
+      },
+      "goal": {
+        "tr": "Enerji çubuğu aracını kurmayı ve bedeninde kullanmayı öğrenmek.",
+        "en": "Learning to create the energy bar tool and to use it in your body."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w2-color"
+      ],
+      "tips": [
+        {
+          "tr": "Nokta önce titreşir, sonra uzar. Sabır.",
+          "en": "The dot pulses first, then stretches. Patience."
+        },
+        {
+          "tr": "Çubuk elle tutulmaz; zihinle tutulur.",
+          "en": "The bar is not held by the hand; it is held by the mind."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "charge",
+          "name": {
+            "tr": "Şarj",
+            "en": "Charging"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Avuçlarını birbirine yaklaştır. Aralarında bir ışık noktası belirsin.",
+                "en": "Bring your palms close together. Let a dot of light appear between them."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Noktayı şarj et. Nefesinle besle. Titreşiyor, güçleniyor.",
+                "en": "Charge the dot. Feed it with your breath. It vibrates, it grows stronger."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Noktayı çubuk olana kadar uzat. Parlak, titreşen bir enerji çubuğu.",
+                "en": "Stretch the dot until it becomes a bar. A bright, vibrating bar of energy."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Çubuk avuçlarının arasında dönüyor.",
+                  "en": "The bar turns between your palms."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Titreşimi hisset.",
+                  "en": "Feel the vibration."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Çubuk senin bir uzantındır.",
+                  "en": "The bar is an extension of you."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "move",
+          "name": {
+            "tr": "Yönlendirme",
+            "en": "Directing"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Çubuğu bedeninin üzerine getir. Yavaşça dolaştır.",
+                "en": "Bring the bar over your body. Move it slowly."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Neresi yorgunsa, neresi hasta ise oraya enerji ver.",
+                "en": "Give energy where it is tired, where it is ill."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Tarama bitince çubuğu kendine al.",
+                "en": "When the scan is done, take the bar back into yourself."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Çubuk bir bölgeyi iyileştiriyor.",
+                  "en": "The bar is healing a region."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Soğuk çeken yer, çubuğu kendine çeker.",
+                  "en": "A cold place draws the bar toward itself."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Enerji aktıkça beden hafifler.",
+                  "en": "As energy flows, the body grows light."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Threshold #5 Energy Bar Tool. A charged dot of light extruded into a vibrating cylinder of energy, used to channel energy into body regions."
+    },
+    {
+      "id": "w2-bodymap",
+      "wave": "wave-2",
+      "no": 6,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Canlı Beden Haritası",
+        "en": "Living Body Map"
+      },
+      "summary": {
+        "tr": "Enerji çubuğuyla tüm bedenini tararsın. Her bölgeyi canlandırır, dengeler ve iyileştirirsin.",
+        "en": "With the energy bar you scan your whole body. You enliven, balance and heal every region."
+      },
+      "goal": {
+        "tr": "Beden haritasını kurmayı ve çubukla tarama yapmayı öğrenmek.",
+        "en": "Learning to build the living body map and to scan with the bar."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w2-ebt"
+      ],
+      "tips": [
+        {
+          "tr": "Harita zihinde kurulur; bedeni onunla tek tek tanı.",
+          "en": "The map is built in the mind; know the body with it, one region at a time."
+        },
+        {
+          "tr": "Ağrıyan yer haritada bir düğümdür.",
+          "en": "A hurting place is a knot on the map."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "scan",
+          "name": {
+            "tr": "Tarama",
+            "en": "Scanning"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Enerji çubuğunu kalbinin üzerine getir. Oradan başla.",
+                "en": "Bring the energy bar over your heart. Start there."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Yavaşça aşağı in. Karın, kalça, bacaklar, ayaklar.",
+                "en": "Slowly move down. Belly, hips, legs, feet."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Sonra yukarı. Göğüs, boğaz, baş. Tüm bedeni tara.",
+                "en": "Then upward. Chest, throat, head. Scan the whole body."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Her bölgeyi çubukla selamla.",
+                  "en": "Greet each region with the bar."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Düğümlere enerji ver, çözülmelerine izin ver.",
+                  "en": "Give energy to the knots, let them dissolve."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Bedenin hafızası çubukla uyanır.",
+                  "en": "The body's memory wakes with the bar."
+                }
+              },
+              {
+                "id": "r4",
+                "text": {
+                  "tr": "Taradıkça beden yeniden haritalanır.",
+                  "en": "As you scan, the body is mapped again."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Threshold #6 Introduction to Living Body Map. The bar is applied to energizing, balancing and healing the body's regions."
+    }
+  ]
+}

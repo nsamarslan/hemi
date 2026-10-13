@@ -1,0 +1,706 @@
+{
+  "wave": "human-plus",
+  "sessions": [
+    {
+      "id": "hp-recall",
+      "wave": "human-plus",
+      "no": 28,
+      "focus": ["11"],
+      "title": { "tr": "Anımsa", "en": "Recall" },
+      "command": { "tr": "Plus Recall", "en": "Plus Recall" },
+      "summary": { "tr": "Hafıza geri çağırma gücünü artıran fonksiyon. Öğrenme ve yaratıcılık için.", "en": "The function that enhances memory recall for learning and creativity." },
+      "goal": { "tr": "Anımsama komutunu kodlamak.", "en": "Encoding the recall command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Komutun plus recall. Anılarını geri çağıran komutu kazıyorsun.", "en": "Your command is plus recall. You are encoding the command that recalls your memories." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Plus recall.", "en": "Plus recall." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'RECALL' (1989 booklet). Command verified from the Monroe Institute UK master-command list: PLUS-RECALL."
+    },
+    {
+      "id": "hp-recharge",
+      "wave": "human-plus",
+      "no": 29,
+      "focus": ["11"],
+      "title": { "tr": "Enerji Dolumu", "en": "Recharge" },
+      "summary": { "tr": "Boşalan enerjini dolduran fonksiyon.", "en": "The function that recharges your spent energy." },
+      "goal": { "tr": "Enerji dolum komutunu kodlamak.", "en": "Encoding the recharge command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Enerjini dolduran komutu kazıyorsun. Yorgunluk anında çağır.", "en": "You are encoding the command that recharges your energy. Call on it in moments of tiredness." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'RECHARGE' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-regenerate",
+      "wave": "human-plus",
+      "no": 30,
+      "focus": ["11"],
+      "title": { "tr": "Yenilenme", "en": "Regenerate" },
+      "summary": { "tr": "Bedeninin kendini yenilemesini destekleyen fonksiyon.", "en": "The function that supports your body's regeneration." },
+      "goal": { "tr": "Yenilenme komutunu kodlamak.", "en": "Encoding the regeneration command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [{ "tr": "Bu bir tıbbi tedavi değil; sağlık sorunların için doktora danış.", "en": "This is not medical treatment; consult your doctor about health concerns." }],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Bedeninin yenilenmesini destekleyen komutu kazıyorsun.", "en": "You are encoding the command that supports the regeneration of your body." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'REGENERATE' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-relax",
+      "wave": "human-plus",
+      "no": 31,
+      "focus": ["11"],
+      "title": { "tr": "Rahatla", "en": "Relax" },
+      "command": { "tr": "Plus Relax", "en": "Plus Relax" },
+      "summary": { "tr": "Anında gevşeme sağlayan fonksiyon. Fiziksel, zihinsel ve duygusal stresi bırakır.", "en": "The function that releases tension instantly. It lets go of physical, mental and emotional stress." },
+      "goal": { "tr": "Anında gevşeme komutunu kodlamak.", "en": "Encoding the instant-relaxation command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Komutun plus relax. Anında gevşeyen komutu kazıyorsun.", "en": "Your command is plus relax. You are encoding the command that releases tension instantly." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Plus relax.", "en": "Plus relax." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'RELAX' (1989 booklet). Command verified from the Monroe Institute UK master-command list: PLUS-RELAX."
+    },
+    {
+      "id": "hp-release",
+      "wave": "human-plus",
+      "no": 32,
+      "focus": ["11"],
+      "title": { "tr": "Salıver", "en": "Release" },
+      "summary": { "tr": "İçinde biriktirdiğin yükleri salıveren fonksiyon.", "en": "The function that releases what you have held inside." },
+      "goal": { "tr": "Salıverme komutunu kodlamak.", "en": "Encoding the release command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "İçinde tuttuğun ne varsa salıveren komutu kazıyorsun.", "en": "You are encoding the command that releases whatever you hold inside." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'RELEASE' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-reset",
+      "wave": "human-plus",
+      "no": 33,
+      "focus": ["11"],
+      "title": { "tr": "Sıfırla", "en": "Reset" },
+      "summary": { "tr": "Zihnini ve bedenini sıfırlayan, yeni başlangıçlara alan açan fonksiyon.", "en": "The function that resets mind and body, opening space for fresh starts." },
+      "goal": { "tr": "Sıfırlama komutunu kodlamak.", "en": "Encoding the reset command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Sistemi sıfırlayan komutu kazıyorsun. Yeni başlangıçlar için.", "en": "You are encoding the command that resets the system. For fresh starts." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'RESET' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-restorative-sleep",
+      "wave": "human-plus",
+      "no": 34,
+      "focus": ["11"],
+      "title": { "tr": "Onarıcı Uyku", "en": "Restorative Sleep" },
+      "summary": { "tr": "Uyku sırasında bedenini onaran fonksiyon. Gece yatmadan hemen önce.", "en": "The function that restores your body during sleep. Right before bed at night." },
+      "goal": { "tr": "Onarıcı uyku komutunu kodlamak.", "en": "Encoding the restorative-sleep command." },
+      "setting": { "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.", "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [{ "tr": "Uykuya dalmak bu oturumun amacıdır; çan sesi yoktur, ekran kararır.", "en": "Falling asleep is the aim of this session; there is no bell and the screen dims." }],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Uyurken bedenini onaran komutu kazıyorsun.", "en": "You are encoding the command that restores your body while you sleep." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } }
+      ],
+      "notes": "Official H-Plus 'RESTORATIVE SLEEP' (1989 booklet). Command not shown (not verified from public sources). Night session."
+    },
+    {
+      "id": "hp-see-be",
+      "wave": "human-plus",
+      "no": 35,
+      "focus": ["11"],
+      "title": { "tr": "Gör-Ol", "en": "See-Be" },
+      "summary": { "tr": "Görme ve var olma halini birleştiren fonksiyon.", "en": "The function that unites seeing and being." },
+      "goal": { "tr": "Gör-ve-ol komutunu kodlamak.", "en": "Encoding the see-be command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Var olmayı ve görmeyi birleştiren komutu kazıyorsun.", "en": "You are encoding the command that unites seeing and being." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SEE-BE' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-sensory-hearing",
+      "wave": "human-plus",
+      "no": 36,
+      "focus": ["11"],
+      "title": { "tr": "Duyma Duyusu", "en": "Sensory: Hearing" },
+      "summary": { "tr": "Duyma duyusunu keskinleştiren fonksiyon.", "en": "The function that sharpens your sense of hearing." },
+      "goal": { "tr": "Duyma keskinliği komutunu kodlamak.", "en": "Encoding the hearing-sharpness command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Duyma keskinliğini artıran komutu kazıyorsun.", "en": "You are encoding the command that sharpens your sense of hearing." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SENSORY-HEARING' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-sensory-seeing",
+      "wave": "human-plus",
+      "no": 37,
+      "focus": ["11"],
+      "title": { "tr": "Görme Duyusu", "en": "Sensory: Seeing" },
+      "summary": { "tr": "Görme duyusunu keskinleştiren fonksiyon.", "en": "The function that sharpens your sense of seeing." },
+      "goal": { "tr": "Görme keskinliği komutunu kodlamak.", "en": "Encoding the seeing-sharpness command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Görme keskinliğini artıran komutu kazıyorsun.", "en": "You are encoding the command that sharpens your sense of seeing." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SENSORY-SEEING' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-sensory-smell",
+      "wave": "human-plus",
+      "no": 38,
+      "focus": ["11"],
+      "title": { "tr": "Koku Duyusu", "en": "Sensory: Smell" },
+      "summary": { "tr": "Koku duyusunu keskinleştiren fonksiyon.", "en": "The function that sharpens your sense of smell." },
+      "goal": { "tr": "Koku keskinliği komutunu kodlamak.", "en": "Encoding the smell-sharpness command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Koku keskinliğini artıran komutu kazıyorsun.", "en": "You are encoding the command that sharpens your sense of smell." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SENSORY-SMELL' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-sensory-taste",
+      "wave": "human-plus",
+      "no": 39,
+      "focus": ["11"],
+      "title": { "tr": "Tat Duyusu", "en": "Sensory: Taste" },
+      "summary": { "tr": "Tat duyusunu keskinleştiren fonksiyon.", "en": "The function that sharpens your sense of taste." },
+      "goal": { "tr": "Tat keskinliği komutunu kodlamak.", "en": "Encoding the taste-sharpness command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Tat keskinliğini artıran komutu kazıyorsun.", "en": "You are encoding the command that sharpens your sense of taste." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SENSORY-TASTE' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-sensory-touch",
+      "wave": "human-plus",
+      "no": 40,
+      "focus": ["11"],
+      "title": { "tr": "Dokunma Duyusu", "en": "Sensory: Touch" },
+      "summary": { "tr": "Dokunma duyusunu keskinleştiren fonksiyon.", "en": "The function that sharpens your sense of touch." },
+      "goal": { "tr": "Dokunma keskinliği komutunu kodlamak.", "en": "Encoding the touch-sharpness command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Dokunma keskinliğini artıran komutu kazıyorsun.", "en": "You are encoding the command that sharpens your sense of touch." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SENSORY-TOUCH' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-sex-drive",
+      "wave": "human-plus",
+      "no": 41,
+      "focus": ["11"],
+      "title": { "tr": "Cinsel Enerji", "en": "Sex Drive" },
+      "summary": { "tr": "Cinsel enerjini dengeleyen fonksiyon.", "en": "The function that directs and balances your sexual energy." },
+      "goal": { "tr": "Cinsel enerji komutunu kodlamak.", "en": "Encoding the sex-drive command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Cinsel enerjini yöneten komutu kazıyorsun.", "en": "You are encoding the command that directs your sexual energy." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SEX DRIVE' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-short-fix",
+      "wave": "human-plus",
+      "no": 42,
+      "focus": ["11"],
+      "title": { "tr": "Hızlı Çözüm", "en": "Short Fix" },
+      "summary": { "tr": "Kısa sürede tazelenmeni sağlayan fonksiyon.", "en": "The function that gives you a quick fix of refreshment." },
+      "goal": { "tr": "Hızlı tazelenme komutunu kodlamak.", "en": "Encoding the short-fix command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Hızlı bir tazelenme için komutu kazıyorsun.", "en": "You are encoding the command for a quick refresh." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SHORT FIX' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-sleep",
+      "wave": "human-plus",
+      "no": 43,
+      "focus": ["11"],
+      "title": { "tr": "Uyku", "en": "Sleep" },
+      "command": { "tr": "Plus 20 20", "en": "Plus 20 20" },
+      "summary": { "tr": "Uykuya dalmanı kolaylaştıran fonksiyon. Gece yatmadan hemen önce.", "en": "The function that makes falling asleep easy. Right before bed at night." },
+      "goal": { "tr": "Uyku komutunu kodlamak.", "en": "Encoding the sleep command." },
+      "setting": { "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.", "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [{ "tr": "Uykuya dalmak bu oturumun amacıdır; çan sesi yoktur, ekran kararır.", "en": "Falling asleep is the aim of this session; there is no bell and the screen dims." }],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Uykuya dalmanı kolaylaştıran komutu kazıyorsun. Komutunu bu ekranda görebilirsin.", "en": "You are encoding the command that makes falling asleep easy. You can see your command on this screen." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } }
+      ],
+      "notes": "Official H-Plus 'SLEEP' (1989 booklet). Command verified from community sources: PLUS 20 20 (shown on screen, not spoken aloud because of its digits). Night session."
+    },
+    {
+      "id": "hp-sleep-easy",
+      "wave": "human-plus",
+      "no": 44,
+      "focus": ["11"],
+      "title": { "tr": "Kolay Uyku", "en": "Sleep Easy" },
+      "summary": { "tr": "Yatağa girer girmez uyumanı sağlayan fonksiyon.", "en": "The function that puts you to sleep as soon as you lie down." },
+      "goal": { "tr": "Kolay uyku komutunu kodlamak.", "en": "Encoding the sleep-easy command." },
+      "setting": { "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.", "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [{ "tr": "Uykuya dalmak bu oturumun amacıdır; çan sesi yoktur, ekran kararır.", "en": "Falling asleep is the aim of this session; there is no bell and the screen dims." }],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Yatağa girer girmez uyumanı sağlayan komutu kazıyorsun.", "en": "You are encoding the command that puts you to sleep as soon as you lie down." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } }
+      ],
+      "notes": "Official H-Plus 'SLEEP EASY' (1989 booklet). Command not shown (not verified from public sources). Night session."
+    },
+    {
+      "id": "hp-speak-up",
+      "wave": "human-plus",
+      "no": 45,
+      "focus": ["11"],
+      "title": { "tr": "Sesini Yükselt", "en": "Speak Up" },
+      "summary": { "tr": "Topluluk önünde kendini ifade etme cesaretini artıran fonksiyon.", "en": "The function that strengthens your courage to speak up before groups of people." },
+      "goal": { "tr": "Konuşma cesareti komutunu kodlamak.", "en": "Encoding the speak-up command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Kendini ifade etme cesaretini artıran komutu kazıyorsun.", "en": "You are encoding the command that strengthens your courage to speak up." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SPEAK UP' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-stay-awake",
+      "wave": "human-plus",
+      "no": 46,
+      "focus": ["11"],
+      "title": { "tr": "Uyanık Kal", "en": "Stay Awake" },
+      "summary": { "tr": "Uyanık ve zinde kalmanı sağlayan fonksiyon.", "en": "The function that keeps you awake and alert." },
+      "goal": { "tr": "Uyanık kalma komutunu kodlamak.", "en": "Encoding the stay-awake command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Uyanık ve zinde kalmanı sağlayan komutu kazıyorsun.", "en": "You are encoding the command that keeps you awake and alert." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'STAY AWAKE' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-strong-quick",
+      "wave": "human-plus",
+      "no": 47,
+      "focus": ["11"],
+      "title": { "tr": "Güçlü ve Hızlı", "en": "Strong-Quick" },
+      "summary": { "tr": "Kısa sürede güç kazandıran fonksiyon.", "en": "The function that gives you strength quickly." },
+      "goal": { "tr": "Hızlı güç komutunu kodlamak.", "en": "Encoding the strong-quick command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Anında güç kazandıran komutu kazıyorsun.", "en": "You are encoding the command that gives you strength quickly." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'STRONG-QUICK' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-sweet-dreams",
+      "wave": "human-plus",
+      "no": 48,
+      "focus": ["11"],
+      "title": { "tr": "Tatlı Rüyalar", "en": "Sweet Dreams" },
+      "summary": { "tr": "Rahat ve tatlı bir uykuya dalmanı sağlayan fonksiyon.", "en": "The function that brings you a comfortable, sweet sleep." },
+      "goal": { "tr": "Tatlı rüya komutunu kodlamak.", "en": "Encoding the sweet-dreams command." },
+      "setting": { "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.", "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [{ "tr": "Uykuya dalmak bu oturumun amacıdır; çan sesi yoktur, ekran kararır.", "en": "Falling asleep is the aim of this session; there is no bell and the screen dims." }],
+      "night": true,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Tatlı rüyalar görmeni sağlayan komutu kazıyorsun.", "en": "You are encoding the command that brings you sweet dreams." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } }
+      ],
+      "notes": "Official H-Plus 'SWEET DREAMS' (1989 booklet). Command not shown (not verified from public sources). Night session."
+    },
+    {
+      "id": "hp-synchronizing",
+      "wave": "human-plus",
+      "no": 49,
+      "focus": ["11"],
+      "title": { "tr": "Senkronizasyon", "en": "Synchronizing" },
+      "summary": { "tr": "İki beyin yarıkürenin uyumunu artıran fonksiyon.", "en": "The function that increases the synchronization of your brain hemispheres." },
+      "goal": { "tr": "Senkronizasyon komutunu kodlamak.", "en": "Encoding the synchronizing command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "İki beyin yarıkürenin uyumunu sağlayan komutu kazıyorsun.", "en": "You are encoding the command that synchronizes your two brain hemispheres." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'SYNCHRONIZING' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-think-fast",
+      "wave": "human-plus",
+      "no": 50,
+      "focus": ["11"],
+      "title": { "tr": "Hızlı Düşün", "en": "Think Fast" },
+      "summary": { "tr": "Düşünce hızını ve berraklığını artıran fonksiyon.", "en": "The function that speeds up and clarifies your thought processes." },
+      "goal": { "tr": "Hızlı düşünme komutunu kodlamak.", "en": "Encoding the think-fast command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Düşünceni hızlandıran ve berraklaştıran komutu kazıyorsun.", "en": "You are encoding the command that speeds up and clarifies your thinking." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'THINK FAST' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-tune-up",
+      "wave": "human-plus",
+      "no": 51,
+      "focus": ["11"],
+      "title": { "tr": "Bedeni Ayarla", "en": "Tune-Up" },
+      "summary": { "tr": "Bedenini ve zihnini ayarlayan fonksiyon.", "en": "The function that tunes up your body and mind." },
+      "goal": { "tr": "Ayarlama komutunu kodlamak.", "en": "Encoding the tune-up command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Bedenini ve zihnini ayarlayan komutu kazıyorsun.", "en": "You are encoding the command that tunes up your body and mind." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'TUNE-UP' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-wake-know",
+      "wave": "human-plus",
+      "no": 52,
+      "focus": ["11"],
+      "title": { "tr": "Uyan ve Bil", "en": "Wake-Know" },
+      "summary": { "tr": "Uyandığın bilgiyle en iyi yolu sezmeni sağlayan fonksiyon.", "en": "The function that lets the answer or best course emerge clearly as you wake." },
+      "goal": { "tr": "Uyanık bilgi komutunu kodlamak.", "en": "Encoding the wake-know command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Uyanık bilgiyle gelen komutu kazıyorsun. En iyi yol, sezgiyle açılır.", "en": "You are encoding the command that brings waking knowledge. The best path opens with insight." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "Official H-Plus 'WAKE-KNOW' (1989 booklet). Command not shown (not verified from public sources)."
+    },
+    {
+      "id": "hp-zoning",
+      "wave": "human-plus",
+      "no": 53,
+      "focus": ["11"],
+      "title": { "tr": "Zoning", "en": "Zoning" },
+      "summary": { "tr": "Zihinsel odağını düzenleyen fonksiyon.", "en": "The function that organizes your mental focus." },
+      "goal": { "tr": "Zihinsel odak komutunu kodlamak.", "en": "Encoding the zoning command." },
+      "setting": { "tr": "Sırt üstü uzan veya başı destekli bir koltukta otur. Kulaklık takılı, ses çok düşük.", "en": "Lie down, or sit in a chair with your head supported. Headphones on, volume very low." },
+      "prereq": [],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 11 },
+        { "use": "encode", "lines": [
+          { "id": "l1", "text": { "tr": "Zihinsel odağını düzenleyen komutu kazıyorsun.", "en": "You are encoding the command that organizes your mental focus." }, "pause": 5 },
+          { "id": "l2", "text": { "tr": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.", "en": "In daily life, say this command to yourself whenever you need it. Its effect settles in over a few sessions." }, "pause": 4 }
+        ], "hold": { "reminders": [
+          { "id": "r1", "text": { "tr": "Komutun zihninde sessizce tekrarlansın.", "en": "Let your command repeat silently in your mind." } },
+          { "id": "r2", "text": { "tr": "Sabırla bekle. Sonuç hemen gelmeyebilir.", "en": "Wait patiently. The result may not come immediately." } }
+        ] } },
+        { "use": "return" }
+      ],
+      "notes": "H-Plus Function Exercise 'Zoning' (documented in community lists of the H-Plus catalogue). Command not shown (not verified from public sources)."
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "ch4-connected-rubbing",
+  "chapter": 4,
+  "section": "4.3",
+  "category": "seated",
+  "title": { "tr": "Bağlantılı Ovma", "en": "Connected Rubbing" },
+  "summary": {
+    "tr": "Ellerini güçlüce ovuşturup avuçlar yukarı, hareketsiz kalıyorsun; sonra gırtlak sürtünmesiyle avuçlardaki titreşimi kaşların arasındaki titreşime bağlıyorsun. Ellerdeki titreşim giderek incelir. Meridyen çalışmaları bu hazırlıkla başlar.",
+    "en": "You rub your hands together briskly, hold them still with the palms up, then use throat friction to link the vibration in the palms with the vibration between the eyebrows. The vibration in the hands grows ever finer. The meridian practices start with this."
+  },
+  "setting": {
+    "tr": "Sırt dik oturarak, gözler kapalı. Ovuşturduktan sonra eller avuçlar yukarı bakacak şekilde havada ve hareketsiz durur.",
+    "en": "Sitting with the back straight, eyes closed. After rubbing, the hands stay still in the air, palms up."
+  },
+  "prereq": ["ch2-throat-friction", "ch4-connected-shaking"],
+  "tips": [
+    { "tr": "Algı çalışmasının yanı sıra, masaj ya da elle yapılan herhangi bir şifa çalışmasıyla uğraşanlar bu egzersizi seanslarının başında yapmaktan fayda görür.", "en": "Beyond training perception, anyone who gives massage or any kind of hands-on healing will benefit from doing this at the start of their sessions." },
+    { "tr": "Kanal açma boyunca şunu aklında tut: ellerinden geçen enerjinin niteliği, kaşlarının arasındaki titreşimin niteliğine ve ikisi arasındaki bağa bağlı. Gözdeki titreşim ne kadar inceyse ellerdeki enerji de o kadar arınmış olur.", "en": "Throughout channel release, keep this in mind: what passes through your hands mirrors the eye. Its quality depends on how fine the vibration between your eyebrows is and on how well the two are linked. A subtler eye gives subtler hands." },
+    { "tr": "Kendin için ya da başkaları için güçlü bir şifa yolu: kaşlarının arasında bulabildiğin en ince titreşime uyumlan ve onu ellerinden aktar.", "en": "A strong way of healing, for yourself or for others: attune to the finest vibration you can find between your eyebrows and pass it on through your hands." },
+    { "tr": "Başlangıçta eterik titreşimin algısını uyandırmak için fiziksel uyarım kullanılır. Zamanla aynı titreşimi ovmadan ya da başka bir fiziksel uyarım olmadan hissedeceksin; titreşim içeriden gelecek.", "en": "At first, physical stimulation is used to awaken your sense of the etheric vibration. In time it will arise on its own, from inside, with no rubbing or other physical trigger." },
+    { "tr": "Ellerindeki ya da başka bir yerdeki titreşim inceliyor gibi geliyorsa, eterik bedenin daha derin ve daha ince katmanlarına dokunuyorsun demektir.", "en": "If the vibration, in the hands or anywhere else, appears to become finer, you are reaching deeper and subtler layers of the etheric body." },
+    { "tr": "Bu ilk aşamalarda titreşimin fiziksel mi, eterik mi, yoksa hayal ürünü mü olduğunu çok dert etme; deneyimine güven. Bu yaklaşımda inanılacak bir şey yok, dolayısıyla şüphe edilecek bir şey de yok. Önemli olan inandığın değil, algıladığın.", "en": "In these first stages, don't worry too much about whether the vibration is physical, etheric or imagined; trust your experience. This approach asks you to believe nothing, so there is nothing to doubt either. What counts is what you perceive, not what you believe." },
+    { "tr": "Titreşimin fiziksel olmadığının işaretleri zamanla gelir: onu hiç ovmadan bedeninin her yerinde, hatta bedeninin sınırlarının ötesinde, önce çevrende, sonra giderek daha uzak nesnelerde hissedersin.", "en": "Signs that the vibration is not physical come with time: you will feel it anywhere in the body without any rubbing, and even outside the body, first in the space around you and later in ever more distant objects." }
+  ],
+  "warnings": [],
+  "visual": "hands-triangle",
+  "night": false,
+  "partner": false,
+  "special": null,
+  "params": [
+    { "key": "rub", "label": { "tr": "Elleri ovma süresi", "en": "Rubbing time" }, "unit": "sec", "min": 10, "max": 40, "step": 5, "def": 20 },
+    { "key": "connect", "label": { "tr": "Bağlantı süresi", "en": "Connecting time" }, "unit": "min", "min": 1, "max": 10, "step": 1, "def": 3 }
+  ],
+  "presets": [],
+  "phases": [
+    {
+      "id": "prep",
+      "name": { "tr": "Hazırlık", "en": "Preparation" },
+      "bell": null,
+      "lines": [
+        { "id": "l1", "text": { "tr": "Sırtını dik tutarak otur.", "en": "Sit with your back straight." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Gözlerini kapat.", "en": "Close your eyes." }, "pause": 3 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "rub",
+      "name": { "tr": "Ovma", "en": "Rubbing" },
+      "bell": "start",
+      "visual": { "id": "hands-triangle", "state": "rub" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Avuçlarını birbirine bastırarak ellerini güçlüce ovuştur.", "en": "Press your palms together and rub them briskly." }, "pause": 1 }
+      ],
+      "hold": { "param": "rub", "reminders": [] }
+    },
+    {
+      "id": "observe",
+      "name": { "tr": "Gözlem", "en": "Observing" },
+      "bell": "soft",
+      "visual": { "id": "hands-triangle", "state": "still" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Dur. Avuçların yukarı baksın, ellerin hareketsiz kalsın.", "en": "Stop. Palms up, hands still." }, "pause": 2 },
+        { "id": "l2", "text": { "tr": "Birkaç saniye ellerindeki ve kaşlarının arasındaki titreşimin niteliğini gözlemle.", "en": "Take a few seconds to observe what the vibration feels like in your hands and between your eyebrows." }, "pause": 10 }
+      ],
+      "hold": null
+    },
+    {
+      "id": "friction",
+      "name": { "tr": "Sürtünme", "en": "Friction" },
+      "bell": null,
+      "visual": { "id": "hands-triangle", "state": "still" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Şimdi gırtlak sürtünmesiyle nefes almaya başla.", "en": "Now begin breathing with the throat friction." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Sürtünmeyi ellerindeki ve kaşlarının arasındaki titreşimle birleştir.", "en": "Join it with what you feel in your hands and between your eyebrows." }, "pause": 3 },
+        { "id": "l3", "text": { "tr": "Sürtünmenin ellerindeki titreşimde yarattığı ince değişimleri fark et.", "en": "Notice the fine changes the friction brings to your hands." }, "pause": 1 }
+      ],
+      "hold": {
+        "sec": 60,
+        "every": 30,
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Sürtünme gırtlaktan gelsin, nefesin doğal derinliğinde kalsın.", "en": "Let the friction come from the larynx, with your breath at its natural depth." } },
+          { "id": "r2", "text": { "tr": "Ellerin havada, avuçların yukarıda ve hareketsiz.", "en": "Hands in the air, palms up and still." } }
+        ]
+      }
+    },
+    {
+      "id": "connect",
+      "name": { "tr": "Bağlantı", "en": "Connecting" },
+      "bell": "soft",
+      "visual": { "id": "hands-triangle", "state": "connect" },
+      "lines": [
+        { "id": "l1", "text": { "tr": "Şimdi kaşlarının arasındaki titreşimi avuçlarındaki titreşime bağla.", "en": "Now link the vibration between your eyebrows with the vibration in your palms." }, "pause": 3 },
+        { "id": "l2", "text": { "tr": "Gırtlak sürtünmesiyle bu bağlantıyı yoğunlaştır.", "en": "Let the throat friction make this link more intense." }, "pause": 3 },
+        { "id": "l3", "text": { "tr": "Ellerindeki titreşimin giderek inceldiğini hisset.", "en": "Feel the vibration in your hands growing ever finer." }, "pause": 1 }
+      ],
+      "hold": {
+        "param": "connect",
+        "reminders": [
+          { "id": "r1", "text": { "tr": "Ellerine akan enerjinin niteliği, kaşlarının arasındaki titreşimin niteliğine bağlı.", "en": "How fine the energy in your hands is depends on how fine the vibration in your eye is." } },
+          { "id": "r2", "text": { "tr": "Kaşlarının arasında bulabildiğin en ince titreşime uyumlan ve onu ellerine taşı.", "en": "Attune to the finest vibration you can find in your eye and let it reach your hands." } },
+          { "id": "r3", "text": { "tr": "Sürtünmeyle göz ile avuçların arasındaki bağı güçlendir.", "en": "Use the friction to strengthen the bond between the eye and the palms." } },
+          { "id": "r4", "text": { "tr": "Titreşim inceldikçe eterik bedenin daha derin katmanlarına dokunuyorsun.", "en": "As the vibration grows subtler, you are touching deeper layers of the etheric body." } },
+          { "id": "r5", "text": { "tr": "Fiziksel mi, eterik mi diye düşünme. Algıladığına güven.", "en": "Don't wonder whether it is physical or etheric. Trust what you perceive." } },
+          { "id": "r6", "text": { "tr": "Ellerin havada ve hareketsiz, avuçların yukarıda.", "en": "Hands in the air and still, palms up." } },
+          { "id": "r7", "text": { "tr": "Hiçbir şey hayal etme. Ne varsa onu fark et ve geliştir.", "en": "Don't imagine anything. Notice what is there and develop it." } }
+        ]
+      }
+    },
+    {
+      "id": "close",
+      "name": { "tr": "Kapanış", "en": "Closing" },
+      "bell": "start",
+      "lines": [
+        { "id": "l1", "text": { "tr": "Sürtünmeyi bırak ve ellerini indir.", "en": "Let the friction go and lower your hands." }, "pause": 4 },
+        { "id": "l2", "text": { "tr": "Hazır olduğunda gözlerini aç.", "en": "Open your eyes when you are ready." }, "pause": 3 }
+      ],
+      "hold": null
+    }
+  ],
+  "notes": "Book 4.3. Rubbing 'up to 20 seconds, or more': param 10-40 s, default 20. 'A few seconds' of observation = 10 s pause. The book gives no length for the friction and connection parts: 60 s of friction on hands and eye, then the eye-palm connection with a default of 3 min (1-10). 4.3 does not restate the eyes, but 4.2 keeps them closed throughout and 4.6 repeats 4.3 with eyes closed, so eyes are closed here. The book gives no closing; the close phase only lowers the hands and opens the eyes. Tips 4-7 paraphrase 4.4 (vibration = etheric)."
+}

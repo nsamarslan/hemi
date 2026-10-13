@@ -1,0 +1,677 @@
+{
+ "clips": {
+  "025920e815a6": {
+   "dur": 3.08,
+   "text": "Komutun zihninde sessizce tekrarlansın.",
+   "batch": 1,
+   "check": "syl:13/13"
+  },
+  "031b467ca76f": {
+   "dur": 3.89,
+   "text": "Bırak gitsin. İzle, ama çözmeye çalışma.",
+   "batch": 4,
+   "check": "syl:14/14"
+  },
+  "0750e97345eb": {
+   "dur": 5.22,
+   "text": "Düzenli ve sabırlı ol. Her oturum bir sonrakine köprü kurar.",
+   "batch": 2,
+   "check": "syl:22/21"
+  },
+  "09a9291b6864": {
+   "dur": 6.2,
+   "text": "Zihninde yavaşça geriye say. Dokuz, sekiz, yedi, altı.",
+   "batch": 0,
+   "check": "syl:18/18"
+  },
+  "0a6a2a73d7f2": {
+   "dur": 2.87,
+   "text": "Cevap, sorunun ardında gelir.",
+   "batch": 1,
+   "check": "syl:12/10"
+  },
+  "0b2d93a1b91a": {
+   "dur": 4.76,
+   "text": "Gözlerini açmadan önce bedeninin her yerinde canlılığı hisset.",
+   "batch": 0,
+   "check": "syl:23/23"
+  },
+  "0b5e503aba92": {
+   "dur": 2.68,
+   "text": "Örüntü seninle birlikte büyüyor.",
+   "batch": 4,
+   "check": "syl:11/12"
+  },
+  "0c7faa30e3ce": {
+   "dur": 2.22,
+   "text": "Cevap beklenmedik yerden gelir.",
+   "batch": 4,
+   "check": "syl:10/10"
+  },
+  "1074e0094a24": {
+   "dur": 3.42,
+   "text": "Bedenin bir battaniye gibi, sen onun dışındasın.",
+   "batch": 3,
+   "check": "syl:14/17"
+  },
+  "1255cfe2fdf9": {
+   "dur": 2.765,
+   "text": "Şüphe gelirse örüntüyü tazele.",
+   "batch": 4,
+   "check": "syl:10/12"
+  },
+  "1335de70de35": {
+   "dur": 4.23,
+   "text": "Bedenin eriyor, zihnin izliyor.",
+   "batch": 2,
+   "check": "syl:13/11"
+  },
+  "1372fbcd1e25": {
+   "dur": 8.89,
+   "text": "On durumundan on iki durumuna geç. Zihninde yavaşça say. On, on bir, on iki.",
+   "batch": 1,
+   "check": "syl:27/26"
+  },
+  "13f95c417d90": {
+   "dur": 2.49,
+   "text": "Soruyu bırak, akışa güven.",
+   "batch": 4,
+   "check": "syl:8/10"
+  },
+  "159b54e50fc7": {
+   "dur": 4.41,
+   "text": "Bir his seni çağırabilir. Git, ama zorlamadan.",
+   "batch": 3,
+   "check": "syl:18/16"
+  },
+  "21dc2a6bc4e7": {
+   "dur": 4.31,
+   "text": "Burası, fiziksel yaşamı yeni tamamlamışların geçiş bölgesi.",
+   "batch": 1,
+   "check": "syl:21/22"
+  },
+  "227ec18c6e9c": {
+   "dur": 4.28,
+   "text": "Bir niyet tut. Sabah uyanırken bu geceyi hatırlayacağım.",
+   "batch": 4,
+   "check": "syl:15/20"
+  },
+  "27f805d0198f": {
+   "dur": 3.59,
+   "text": "Renkler, ışıklar, sesler gelebilir.",
+   "batch": 3,
+   "check": "syl:10/11"
+  },
+  "295e6c6e38cf": {
+   "dur": 5.05,
+   "text": "Şimdi kendini bırak. Uyku seni alacak, zihnin uyanık kalacak.",
+   "batch": 3,
+   "check": "syl:21/22"
+  },
+  "2b510f164a2a": {
+   "dur": 3.26,
+   "text": "Sınırların yok. Nerede bittiğin belli değil.",
+   "batch": 4,
+   "check": "syl:13/15"
+  },
+  "2d569dcc985f": {
+   "dur": 2.87,
+   "text": "Bir şey arama. Sadece fark et.",
+   "batch": 1,
+   "check": "syl:10/10"
+  },
+  "308cd3402c10": {
+   "dur": 5.71,
+   "text": "Kulaklığını tak. Sesi düşük tut, tüm oturum boyunca duyabileceğin kadar.",
+   "batch": 0,
+   "check": "syl:23/26"
+  },
+  "318bfb061cbc": {
+   "dur": 5.15,
+   "text": "Bedenin derin bir uykuya dalıyor, zihnin uyanık ve tetikte kalıyor.",
+   "batch": 0,
+   "check": "syl:25/24"
+  },
+  "32019cd88afc": {
+   "dur": 2.71,
+   "text": "Nefesinle oyalanma. Onu izle.",
+   "batch": 3,
+   "check": "syl:9/12"
+  },
+  "3548099f2440": {
+   "dur": 2.79,
+   "text": "Bir yükü bıraktığında bedenin hafifler.",
+   "batch": 3,
+   "check": "syl:11/14"
+  },
+  "3999e285827d": {
+   "dur": 4.67,
+   "text": "Zihnin uyanık, bedenin uykuda. Bu ikisi bir arada.",
+   "batch": 2,
+   "check": "syl:18/19"
+  },
+  "3e6389138a2d": {
+   "dur": 3.34,
+   "text": "Her nefesle daha derine in. Zorlama yok.",
+   "batch": 2,
+   "check": "syl:12/14"
+  },
+  "3ef9ddd4a6f7": {
+   "dur": 7.64,
+   "text": "On iki durumundan on beş durumuna geç. Zihninde yavaşça say. On üç, on dört, on beş.",
+   "batch": 1,
+   "check": "syl:27/27"
+  },
+  "434a2f7dd4c5": {
+   "dur": 3.351,
+   "text": "Sabırla bekle. Sonuç hemen gelmeyebilir.",
+   "batch": 1,
+   "check": "syl:12/14"
+  },
+  "48fe6f3327c0": {
+   "dur": 5.26,
+   "text": "Benden daha bilgili, daha geniş varlıklardan yardım ve rehberlik isterim.",
+   "batch": 1,
+   "check": "syl:23/24"
+  },
+  "4e46754da1ae": {
+   "dur": 6.33,
+   "text": "Rahatça uzan ya da başı destekli bir koltukta otur. Kulaklığını tak, sesi düşük tut.",
+   "batch": 0,
+   "check": "syl:27/29"
+  },
+  "4f168dabe5db": {
+   "dur": 6.33,
+   "text": "Farkındalığın genişliyor. Bedeninin sınırlarının ötesine, seni saran alana uzanıyor.",
+   "batch": 1,
+   "check": "syl:30/33"
+  },
+  "52537f926fb8": {
+   "dur": 2.97,
+   "text": "Genişleme, daralmadan önce gelir.",
+   "batch": 4,
+   "check": "syl:11/12"
+  },
+  "57549c000029": {
+   "dur": 4.05,
+   "text": "Oturum tamamlandı. Günlüğüne not düşmek ister misin?",
+   "batch": 0,
+   "check": "syl:17/18"
+  },
+  "58d4b87d0730": {
+   "dur": 6.43,
+   "text": "Beş, dört, üç, iki, bir. Uyanık bilince dönüyorsun.",
+   "batch": 0,
+   "check": "syl:17/16"
+  },
+  "5e725682b54b": {
+   "dur": 4.51,
+   "text": "Rahatça uzan. Kulaklığını tak, sesi düşük tut.",
+   "batch": 0,
+   "check": "syl:12/16"
+  },
+  "607c67461481": {
+   "dur": 1.53,
+   "text": "Son bir dakika.",
+   "batch": 0,
+   "check": "syl:5/5"
+  },
+  "6466be237e96": {
+   "dur": 2.76,
+   "text": "Zihnin uyanık, bu yeter.",
+   "batch": 4,
+   "check": "syl:8/8"
+  },
+  "694f966b3063": {
+   "dur": 2.52,
+   "text": "Tüm bildiklerini bir araya getir.",
+   "batch": 2,
+   "check": "syl:12/12"
+  },
+  "6badf49ac859": {
+   "dur": 1.91,
+   "text": "Bedenin ötesine hazırlan.",
+   "batch": 2,
+   "check": "syl:10/10"
+  },
+  "6fc3687cc8d5": {
+   "dur": 7.05,
+   "text": "Yirmi bire köprü kur. Bilincini bedeninin ötesine, başka enerji sistemlerine doğru ilerlet.",
+   "batch": 1,
+   "check": "syl:30/34"
+  },
+  "740adaea1290": {
+   "dur": 6.58,
+   "text": "Zihninin önüne bir kutu getir. Günün kaygılarını, aklına gelen her soruyu bu kutuya koy.",
+   "batch": 0,
+   "check": "syl:31/32"
+  },
+  "7488f30e28da": {
+   "dur": 5.46,
+   "text": "Kutunun kapağını kapat ve yanına bırak. Oturum bitene kadar orada kalacak.",
+   "batch": 0,
+   "check": "syl:24/29"
+  },
+  "77291ca8d664": {
+   "dur": 2.74,
+   "text": "Sınır uyku, beden dışı deneyimin kapısıdır.",
+   "batch": 2,
+   "check": "syl:15/16"
+  },
+  "79a417fe9b8f": {
+   "dur": 3.87,
+   "text": "Onları birer birer bırak. Nefes verirken dışarı sal.",
+   "batch": 3,
+   "check": "syl:18/18"
+  },
+  "7adf6a6eb0ac": {
+   "dur": 2.58,
+   "text": "Farkındalık bir balon gibi genişliyor.",
+   "batch": 4,
+   "check": "syl:13/13"
+  },
+  "7b579a134020": {
+   "dur": 7.37,
+   "text": "Şimdi uğultuya katıl. Burnundan uzun bir nefes al, mırıldanarak ver. Boğazında titreşim olsun.",
+   "batch": 1,
+   "check": "syl:26/32"
+  },
+  "7fdda4bf9c13": {
+   "dur": 5.7,
+   "text": "Enerji hareketlerini hisset. Karıncalanma, sıcaklık, hafiflik.",
+   "batch": 3,
+   "check": "syl:22/22"
+  },
+  "807e7a66a861": {
+   "dur": 4.76,
+   "text": "Bir hedef belirleme. Sadece akışa bırak, ne gelirse karşıla.",
+   "batch": 1,
+   "check": "syl:22/22"
+  },
+  "8447d5daf43a": {
+   "dur": 2.87,
+   "text": "Çanlar seni geri çağırana kadar burada kal.",
+   "batch": 1,
+   "check": "syl:15/16"
+  },
+  "84b8b4636077": {
+   "dur": 6.01,
+   "text": "Gün boyu biriken her şeyi düşün. Gerginlik, yorgunluk, telaş.",
+   "batch": 3,
+   "check": "syl:16/19"
+  },
+  "87228ac3bc2a": {
+   "dur": 5.389,
+   "text": "Fiziksel bedeninden fazlasın. Fiziksel algının ötesini hissedebilirsin.",
+   "batch": 0,
+   "check": "syl:24/26"
+  },
+  "88ca2470b0c5": {
+   "dur": 3.23,
+   "text": "Zihnin uyanık, bedenin uykuda.",
+   "batch": 1,
+   "check": "syl:12/11"
+  },
+  "8aaa0b45cedd": {
+   "dur": 2.34,
+   "text": "Zaman bu örüntüye uyumlanıyor.",
+   "batch": 4,
+   "check": "syl:11/12"
+  },
+  "8c0e7c928940": {
+   "dur": 6.92,
+   "text": "Dikkatini ayak parmaklarına getir. Onlardan başlayarak yukarı doğru her bölgeyi uyut.",
+   "batch": 3,
+   "check": "syl:27/31"
+  },
+  "8c91f865b50d": {
+   "dur": 4.53,
+   "text": "Bu seri, beden dışı deneyime giden yolu adım adım kurar.",
+   "batch": 2,
+   "check": "syl:19/21"
+  },
+  "8d8ba7d09ca9": {
+   "dur": 6.37,
+   "text": "Rahatça sırt üstü uzan. Başının altında alçak bir yastık olsun, kolların iki yanına düşsün.",
+   "batch": 0,
+   "check": "syl:31/31"
+  },
+  "8e8c6505fda6": {
+   "dur": 3.35,
+   "text": "Örüntü kuruldu. Bırak, o kendi yayılsın.",
+   "batch": 4,
+   "check": "syl:13/14"
+  },
+  "8eb6a657da88": {
+   "dur": 6.04,
+   "text": "Vücudunun ağırlaştığını, gevşediğini hisset. Zihnin tüm bedeni izliyor.",
+   "batch": 0,
+   "check": "syl:25/26"
+  },
+  "90daf6a6aa7c": {
+   "dur": 3.55,
+   "text": "Zihnin uyanık, bedenin uykuda kalsın.",
+   "batch": 1,
+   "check": "syl:13/13"
+  },
+  "913fab183523": {
+   "dur": 2.46,
+   "text": "Gevşeme, çabalamanı istemez.",
+   "batch": 2,
+   "check": "syl:10/11"
+  },
+  "95765f347c0a": {
+   "dur": 2.37,
+   "text": "Durum derinleşiyor, zorlama.",
+   "batch": 2,
+   "check": "syl:9/10"
+  },
+  "973f773f59b5": {
+   "dur": 3.7,
+   "text": "Nefesin kendiliğinden derinleşir, zorlama.",
+   "batch": 1,
+   "check": "syl:14/15"
+  },
+  "98206c3ae60e": {
+   "dur": 3.46,
+   "text": "Gevşeme ve uyanıklık bir arada sürer.",
+   "batch": 3,
+   "check": "syl:15/14"
+  },
+  "987829c661e0": {
+   "dur": 4.49,
+   "text": "Gözlerini kapat. Vücudunun her kasını tek tek gevşet.",
+   "batch": 0,
+   "check": "syl:18/18"
+  },
+  "99bc400870fd": {
+   "dur": 5.05,
+   "text": "Ayak bilekleri, baldırlar, dizler, kalçalar.",
+   "batch": 3,
+   "check": "syl:17/14"
+  },
+  "9a84920faddf": {
+   "dur": 2.5,
+   "text": "Görüntüler ve hisler akıp gidebilir.",
+   "batch": 1,
+   "check": "syl:10/13"
+  },
+  "a5641bb68db2": {
+   "dur": 6.27,
+   "text": "Günlük hayatta, bu komutu istediğin an içinden söyle. Etkisi birkaç oturumda yerleşir.",
+   "batch": 1,
+   "check": "syl:29/31"
+  },
+  "a67b705914c9": {
+   "dur": 2.97,
+   "text": "Bedenin ağır, zihnin hafif.",
+   "batch": 2,
+   "check": "syl:10/9"
+  },
+  "a914630a22db": {
+   "dur": 4.32,
+   "text": "İlk kez bu durumda kaldığında hisler yabancı gelebilir. Bu normal.",
+   "batch": 2,
+   "check": "syl:20/22"
+  },
+  "aa575d134aac": {
+   "dur": 5.88,
+   "text": "Farkındalığın bedeninin dışına çıkıyor. Odayı, evi, gökyüzünü hisset.",
+   "batch": 4,
+   "check": "syl:21/26"
+  },
+  "ac212f10012a": {
+   "dur": 4.82,
+   "text": "Birinci adım. Sınır uyku durumuna ulaş ve onu tut.",
+   "batch": 2,
+   "check": "syl:19/19"
+  },
+  "adeae5b050dc": {
+   "dur": 2.288,
+   "text": "Hiçbir şey hissetmesen de durumdasın.",
+   "batch": 2,
+   "check": "syl:12/12"
+  },
+  "af45c016025f": {
+   "dur": 2.73,
+   "text": "Zihin uyanık, beden uyur.",
+   "batch": 2,
+   "check": "syl:12/9"
+  },
+  "b09431ca7f45": {
+   "dur": 1.98,
+   "text": "Bir yere tutunmaya çalışma.",
+   "batch": 4,
+   "check": "syl:10/10"
+  },
+  "b1beb2adbf8f": {
+   "dur": 4.09,
+   "text": "Bedenini baştan aşağı gevşet. Her kası tek tek bırak.",
+   "batch": 2,
+   "check": "syl:16/18"
+  },
+  "bbeddd88659c": {
+   "dur": 1.98,
+   "text": "Sıradaki oturuma geçiyoruz.",
+   "batch": 0,
+   "check": "syl:8/12"
+  },
+  "bd00732e4ca3": {
+   "dur": 4.64,
+   "text": "Yöntemin adı sınır uyku. Beden uyur, zihin uyanık kalır.",
+   "batch": 2,
+   "check": "syl:23/20"
+  },
+  "be2e6e99e11d": {
+   "dur": 6.06,
+   "text": "Parmaklarını oynat, ayak parmaklarını kıpırdat. Enerjini bedenine geri getir.",
+   "batch": 0,
+   "check": "syl:29/29"
+  },
+  "bfa603960ed9": {
+   "dur": 5.11,
+   "text": "Fiziksel gerçekliğin ötesindeki sistemlere açılıyorsun. Sınırların çözülüyor.",
+   "batch": 1,
+   "check": "syl:24/29"
+  },
+  "c3c1316c94b4": {
+   "dur": 1.92,
+   "text": "Bırakabildiğin kadar bırak.",
+   "batch": 3,
+   "check": "syl:10/10"
+  },
+  "c739b3ad8b0d": {
+   "dur": 3.84,
+   "text": "Program tamamlandı. Günlüğüne not düşmek ister misin?",
+   "batch": 0,
+   "check": "syl:16/17"
+  },
+  "c83fcc9f1da3": {
+   "dur": 3.19,
+   "text": "Durum senin, tutabildiğin kadar tut.",
+   "batch": 2,
+   "check": "syl:12/12"
+  },
+  "c8cbc0da1ee2": {
+   "dur": 2.79,
+   "text": "Uykuya dalma. Uyanık kal.",
+   "batch": 3,
+   "check": "syl:8/9"
+  },
+  "cde68d176629": {
+   "dur": 2.45,
+   "text": "Hisset, tekrar hisset.",
+   "batch": 4,
+   "check": "syl:6/6"
+  },
+  "d250db66522c": {
+   "dur": 3.21,
+   "text": "Ne gelirse gelsin, geçip gider.",
+   "batch": 3,
+   "check": "syl:10/10"
+  },
+  "d2bb334e0f71": {
+   "dur": 1.19,
+   "text": "Zorlama yok.",
+   "batch": 3,
+   "check": "syl:4/4"
+  },
+  "d3958ffa7ce6": {
+   "dur": 5.25,
+   "text": "Karıncalanma, sıcaklık, renkler olabilir. Hepsini izle.",
+   "batch": 2,
+   "check": "syl:19/19"
+  },
+  "d5d717ffa737": {
+   "dur": 5.42,
+   "text": "Şimdi kendi kendine dolaş. Hiçbir yön yok, hiçbir hedef yok.",
+   "batch": 3,
+   "check": "syl:20/18"
+  },
+  "e05e8fc31260": {
+   "dur": 4.08,
+   "text": "Nefesin yavaşlıyor, bedenin eriyor.",
+   "batch": 4,
+   "check": "syl:14/13"
+  },
+  "e2e0b646833f": {
+   "dur": 1.09,
+   "text": "Bırak kendini.",
+   "batch": 4,
+   "check": "syl:3/5"
+  },
+  "e4016f0e29ba": {
+   "dur": 2.58,
+   "text": "Sabır, bu oturumun kendisidir.",
+   "batch": 4,
+   "check": "syl:10/11"
+  },
+  "e49352c5f2a6": {
+   "dur": 2.57,
+   "text": "Farkındalığını yirmi yediye taşı.",
+   "batch": 1,
+   "check": "syl:9/13"
+  },
+  "e7c934f06b89": {
+   "dur": 4.68,
+   "text": "Dördüncü adım. Tümünü tek bir egzersizde birleştir.",
+   "batch": 2,
+   "check": "syl:17/17"
+  },
+  "eb5807e0c6ac": {
+   "dur": 4.01,
+   "text": "Burada derin keşifler mümkün. Sınırın yok.",
+   "batch": 2,
+   "check": "syl:15/14"
+  },
+  "ec7aa10ef201": {
+   "dur": 3.25,
+   "text": "Uyanıklık, hafif bir tetikte olmaktır.",
+   "batch": 2,
+   "check": "syl:10/13"
+  },
+  "ec83f07d9cb3": {
+   "dur": 2.8,
+   "text": "Zihin uğraşmayı bırakınca açılır.",
+   "batch": 4,
+   "check": "syl:14/13"
+  },
+  "eec6d38cbdc8": {
+   "dur": 3.11,
+   "text": "Zihnin uyanık, bu en değerli histir.",
+   "batch": 3,
+   "check": "syl:11/12"
+  },
+  "eef476501230": {
+   "dur": 4.98,
+   "text": "Zamanın akışı yavaşlıyor. Geçmiş, şimdi ve gelecek bir arada.",
+   "batch": 1,
+   "check": "syl:21/22"
+  },
+  "ef522127a5a4": {
+   "dur": 4.63,
+   "text": "Her bölge ağırlaşıyor, eriyor, uyuyor.",
+   "batch": 3,
+   "check": "syl:14/14"
+  },
+  "ef6e991bdb7a": {
+   "dur": 4.53,
+   "text": "Sınır uyku, beden dışı deneyimin eşiğidir.",
+   "batch": 2,
+   "check": "syl:20/16"
+  },
+  "f301780c00cf": {
+   "dur": 4.63,
+   "text": "O hali şimdi hisset. Sanki o ay gelmiş gibi.",
+   "batch": 4,
+   "check": "syl:15/15"
+  },
+  "f39759008397": {
+   "dur": 4.9,
+   "text": "Şimdi geri dönmeye başla. Bulunduğun seviyeden on durumuna dön.",
+   "batch": 0,
+   "check": "syl:18/23"
+  },
+  "f3ac1dd576c7": {
+   "dur": 2.6,
+   "text": "Zamansızlıkta her şey bir aradadır.",
+   "batch": 1,
+   "check": "syl:12/12"
+  },
+  "f4c0b32c8756": {
+   "dur": 4.8,
+   "text": "Şimdi on durumunda kal. Bedenin uyuyor, zihnin uyanık.",
+   "batch": 2,
+   "check": "syl:21/19"
+  },
+  "f4dee1497e3b": {
+   "dur": 3.82,
+   "text": "Burası, iki yaşam arasındaki karşılama merkezi.",
+   "batch": 1,
+   "check": "syl:16/19"
+  },
+  "f4e612fefe9f": {
+   "dur": 7.43,
+   "text": "Şimdi on durumuna geç. Burnundan derin bir nefes al, zihninde on sayısını tut ve nefes ver.",
+   "batch": 0,
+   "check": "syl:29/30"
+  },
+  "f5c82f5786f4": {
+   "dur": 3.4,
+   "text": "Onu zihninin merkezine koy ve tüm yönlere akıt.",
+   "batch": 4,
+   "check": "syl:16/17"
+  },
+  "f6607cba8a4a": {
+   "dur": 5.48,
+   "text": "Önümüzdeki bir ayı düşün. O ayda nasıl bir hal içinde olmak istersin?",
+   "batch": 4,
+   "check": "syl:22/25"
+  },
+  "f94077803c12": {
+   "dur": 3.11,
+   "text": "Zihnin uyanık, bu genişleme senin.",
+   "batch": 4,
+   "check": "syl:11/12"
+  },
+  "fc7309d358ed": {
+   "dur": 2.13,
+   "text": "Farkındalığını yirmi üçe taşı.",
+   "batch": 1,
+   "check": "syl:9/12"
+  },
+  "fdcdcae240ac": {
+   "dur": 3.27,
+   "text": "Gözlerini kapat ve bedeninin ağırlaştığını hisset.",
+   "batch": 0,
+   "check": "syl:19/19"
+  },
+  "ffb680355b92": {
+   "dur": 2.7,
+   "text": "Şimdi aklındaki soruyu bir cümleyle tut.",
+   "batch": 4,
+   "check": "syl:12/14"
+  }
+ },
+ "voice": "voice-00 (Arena audition 00)"
+}

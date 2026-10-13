@@ -1,0 +1,378 @@
+{
+  "prep": {
+    "id": "prep",
+    "name": {
+      "tr": "Hazırlık süreci",
+      "en": "Preparatory process"
+    },
+    "bell": null,
+    "focus": 10,
+    "bed": {
+      "beat": "focus",
+      "gain": 0.1
+    },
+    "visual": {
+      "id": "gateway",
+      "state": "prep"
+    },
+    "lines": [
+      {
+        "id": "l1",
+        "text": {
+          "tr": "Rahatça sırt üstü uzan. Başının altında alçak bir yastık olsun, kolların iki yanına düşsün.",
+          "en": "Lie down comfortably on your back. Let a low pillow rest under your head and your arms fall to your sides."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l2",
+        "text": {
+          "tr": "Kulaklığını tak. Sesi düşük tut, tüm oturum boyunca duyabileceğin kadar.",
+          "en": "Put on your headphones. Keep the volume low, just loud enough to hear for the whole session."
+        },
+        "pause": 3
+      },
+      {
+        "id": "l3",
+        "text": {
+          "tr": "Gözlerini kapat. Vücudunun her kasını tek tek gevşet.",
+          "en": "Close your eyes. Relax every muscle of your body, one by one."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l4",
+        "text": {
+          "tr": "Zihninin önüne bir kutu getir. Günün kaygılarını, aklına gelen her soruyu bu kutuya koy.",
+          "en": "Bring a box to your mind. Put all of today's worries, every question on your mind, into the box."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l5",
+        "text": {
+          "tr": "Kutunun kapağını kapat ve yanına bırak. Oturum bitene kadar orada kalacak.",
+          "en": "Close the lid and set it aside. It will stay there until the session is over."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l6",
+        "text": {
+          "tr": "Fiziksel bedeninden fazlasın. Fiziksel algının ötesini hissedebilirsin.",
+          "en": "You are more than your physical body. You can perceive beyond physical sensing."
+        },
+        "pause": 3
+      },
+      {
+        "id": "l7",
+        "text": {
+          "tr": "Benden daha bilgili, daha geniş varlıklardan yardım ve rehberlik isterim.",
+          "en": "I ask for help and guidance from beings whose wisdom is greater than mine."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l8",
+        "text": {
+          "tr": "Şimdi uğultuya katıl. Burnundan uzun bir nefes al, mırıldanarak ver. Boğazında titreşim olsun.",
+          "en": "Now join the hum. Take a long breath in through your nose and hum as you breathe out. Let there be vibration in your throat."
+        },
+        "pause": 6
+      }
+    ],
+    "hold": {
+      "sec": 45
+    },
+    "breath": { "in": 4, "out": 6, "tone": "hum" }
+  },
+  "entry": {
+    "id": "entry",
+    "name": {
+      "tr": "Focus girişi",
+      "en": "Entering Focus"
+    },
+    "bell": "start",
+    "bed": {
+      "beat": "focus",
+      "glide": "phase"
+    },
+    "linesByFocus": {
+      "10": [
+        {
+          "id": "l1",
+          "text": {
+            "tr": "Şimdi on durumuna geç. Burnundan derin bir nefes al, zihninde on sayısını tut ve nefes ver.",
+            "en": "Now move to the state of ten. Take a deep breath in through your nose, hold the number ten in your mind, and breathe out."
+          },
+          "pause": 5
+        },
+        {
+          "id": "l2",
+          "text": {
+            "tr": "Bedenin derin bir uykuya dalıyor, zihnin uyanık ve tetikte kalıyor.",
+            "en": "Your body is sinking into deep sleep, while your mind stays awake and alert."
+          },
+          "pause": 4
+        },
+        {
+          "id": "l3",
+          "text": {
+            "tr": "Vücudunun ağırlaştığını, gevşediğini hisset. Zihnin tüm bedeni izliyor.",
+            "en": "Feel your body growing heavy and loose. Your mind watches over the whole body."
+          },
+          "pause": 4
+        }
+      ],
+      "12": [
+        {
+          "id": "l1",
+          "text": {
+            "tr": "On durumundan on iki durumuna geç. Zihninde yavaşça say. On, on bir, on iki.",
+            "en": "Move from the state of ten to the state of twelve. Count slowly in your mind. Ten, eleven, twelve."
+          },
+          "pause": 5
+        },
+        {
+          "id": "l2",
+          "text": {
+            "tr": "Farkındalığın genişliyor. Bedeninin sınırlarının ötesine, seni saran alana uzanıyor.",
+            "en": "Your awareness is expanding. It reaches beyond the limits of your body, into the space that surrounds you."
+          },
+          "pause": 4
+        }
+      ],
+      "15": [
+        {
+          "id": "l1",
+          "text": {
+            "tr": "On iki durumundan on beş durumuna geç. Zihninde yavaşça say. On üç, on dört, on beş.",
+            "en": "Move from the state of twelve to the state of fifteen. Count slowly in your mind. Thirteen, fourteen, fifteen."
+          },
+          "pause": 5
+        },
+        {
+          "id": "l2",
+          "text": {
+            "tr": "Zamanın akışı yavaşlıyor. Geçmiş, şimdi ve gelecek bir arada.",
+            "en": "The flow of time slows. Past, present and future exist together."
+          },
+          "pause": 4
+        }
+      ],
+      "21": [
+        {
+          "id": "l1",
+          "text": {
+            "tr": "Yirmi bire köprü kur. Bilincini bedeninin ötesine, başka enerji sistemlerine doğru ilerlet.",
+            "en": "Build a bridge to twenty-one. Project your awareness beyond your body, toward other energy systems."
+          },
+          "pause": 5
+        },
+        {
+          "id": "l2",
+          "text": {
+            "tr": "Fiziksel gerçekliğin ötesindeki sistemlere açılıyorsun. Sınırların çözülüyor.",
+            "en": "You are opening into systems beyond physical reality. Your boundaries are dissolving."
+          },
+          "pause": 4
+        }
+      ],
+      "23": [
+        {
+          "id": "l1",
+          "text": {
+            "tr": "Farkındalığını yirmi üçe taşı.",
+            "en": "Carry your awareness to twenty-three."
+          },
+          "pause": 4
+        },
+        {
+          "id": "l2",
+          "text": {
+            "tr": "Burası, fiziksel yaşamı yeni tamamlamışların geçiş bölgesi.",
+            "en": "This is the transition area of those who have just completed a physical life."
+          },
+          "pause": 4
+        }
+      ],
+      "25": [
+        {
+          "id": "l1",
+          "text": {
+            "tr": "Farkındalığını yirmi beşe taşı.",
+            "en": "Carry your awareness to twenty-five."
+          },
+          "pause": 4
+        },
+        {
+          "id": "l2",
+          "text": {
+            "tr": "Burası inanç sistemlerinin toprakları. İnançlarının kendi yapılarını gözlemleyeceksin.",
+            "en": "This is the territory of belief systems. You will observe the structures of your own beliefs."
+          },
+          "pause": 4
+        }
+      ],
+      "27": [
+        {
+          "id": "l1",
+          "text": {
+            "tr": "Farkındalığını yirmi yediye taşı.",
+            "en": "Carry your awareness to twenty-seven."
+          },
+          "pause": 4
+        },
+        {
+          "id": "l2",
+          "text": {
+            "tr": "Burası, iki yaşam arasındaki karşılama merkezi.",
+            "en": "This is the reception center between lives."
+          },
+          "pause": 4
+        }
+      ]
+    },
+    "hold": {
+      "param": "entry"
+    }
+  },
+  "encode": {
+    "id": "encode",
+    "name": {
+      "tr": "Fonksiyon kodlaması",
+      "en": "Function encoding"
+    },
+    "bell": "soft",
+    "focus": 11,
+    "bed": {
+      "beat": "focus",
+      "gain": 0.12
+    },
+    "lines": [],
+    "hold": {
+      "param": "explore",
+      "reminders": [],
+      "lastMinute": false
+    }
+  },
+  "explore": {
+    "id": "explore",
+    "name": {
+      "tr": "Serbest keşif",
+      "en": "Free exploration"
+    },
+    "bell": "start",
+    "bed": {
+      "beat": "focus"
+    },
+    "lines": [
+      {
+        "id": "l1",
+        "text": {
+          "tr": "Bir hedef belirleme. Sadece akışa bırak, ne gelirse karşıla.",
+          "en": "Set no goal. Simply let go into the flow and meet whatever comes."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l2",
+        "text": {
+          "tr": "Çanlar seni geri çağırana kadar burada kal.",
+          "en": "Stay here until the bells call you back."
+        },
+        "pause": 3
+      }
+    ],
+    "hold": {
+      "param": "explore",
+      "reminders": [
+        {
+          "id": "r1",
+          "text": {
+            "tr": "Zihnin uyanık, bedenin uykuda kalsın.",
+            "en": "Mind awake, body asleep."
+          }
+        },
+        {
+          "id": "r2",
+          "text": {
+            "tr": "Bir şey arama. Sadece fark et.",
+            "en": "Don't look for anything. Simply notice."
+          }
+        },
+        {
+          "id": "r3",
+          "text": {
+            "tr": "Görüntüler ve hisler akıp gidebilir.",
+            "en": "Images and sensations may flow through."
+          }
+        },
+        {
+          "id": "r4",
+          "text": {
+            "tr": "Nefesin kendiliğinden derinleşir, zorlama.",
+            "en": "Your breath deepens by itself, don't force it."
+          }
+        }
+      ]
+    }
+  },
+  "return": {
+    "id": "return",
+    "name": {
+      "tr": "Dönüş",
+      "en": "Return"
+    },
+    "bell": "soft",
+    "visual": {
+      "id": "gateway",
+      "state": "return"
+    },
+    "lines": [
+      {
+        "id": "l1",
+        "text": {
+          "tr": "Şimdi geri dönmeye başla. Bulunduğun seviyeden on durumuna dön.",
+          "en": "Now begin to return. Come back from where you are to the state of ten."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l2",
+        "text": {
+          "tr": "Zihninde yavaşça geriye say. Dokuz, sekiz, yedi, altı.",
+          "en": "Count slowly back in your mind. Nine, eight, seven, six."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l3",
+        "text": {
+          "tr": "Beş, dört, üç, iki, bir. Uyanık bilince dönüyorsun.",
+          "en": "Five, four, three, two, one. You are returning to waking awareness."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l4",
+        "text": {
+          "tr": "Parmaklarını oynat, ayak parmaklarını kıpırdat. Enerjini bedenine geri getir.",
+          "en": "Move your fingers, wiggle your toes. Bring your energy back into your body."
+        },
+        "pause": 4
+      },
+      {
+        "id": "l5",
+        "text": {
+          "tr": "Gözlerini açmadan önce bedeninin her yerinde canlılığı hisset.",
+          "en": "Before opening your eyes, feel the aliveness everywhere in your body."
+        },
+        "pause": 5
+      }
+    ],
+    "hold": {
+      "sec": 20
+    }
+  }
+}

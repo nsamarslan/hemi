@@ -1,0 +1,307 @@
+{
+  "wave": "ff-prospecting",
+  "sessions": [
+    {
+      "id": "ffp-metamorphosite",
+      "wave": "ff-prospecting",
+      "no": 1,
+      "focus": ["12"],
+      "title": { "tr": "Metamorfozit", "en": "Metamorphosite" },
+      "summary": {
+        "tr": "Değişim mücevherlerini avlarsın. İstediğin değişimi zihinsel düzeyde kurar, madene kazarsın. Serbest akış, sesli anlatım yok.",
+        "en": "You hunt the gems of change. You create the change you desire at the mental level, you engrave it into the mine. Free flow, no voice narration."
+      },
+      "goal": {
+        "tr": "Zihinsel düzeyde değişim niyetini kurmak ve serbest akışta tutmak.",
+        "en": "Establishing an intention of change at the mental level and holding it in free flow."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["w5-pathways"],
+      "tips": [
+        {
+          "tr": "Değişimi bir cümleyle niyet et; gerisini akışa bırak.",
+          "en": "State the change as a one-sentence intention; leave the rest to the flow."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "prospect",
+          "name": { "tr": "Madencilik", "en": "Prospecting" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Değişim mücevherlerini avla. İstediğin değişimi zihinsel düzeyde kur.", "en": "Hunt the gems of change. Build the change you desire at the mental level." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Niyetini madene kaz. Kazdıkça değişim gelir.", "en": "Engrave your intention into the mine. As you dig, the change comes." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Değişim, niyetle başlar.", "en": "Change begins with intention." } },
+              { "id": "r2", "text": { "tr": "Mücevher, kazdıkça bulunur.", "en": "The gem is found by digging." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Prospecting #1, Metamorphosite (original series Wave VI, 1984; 1996 remaster; replaced by voiced Odyssey in 2004). The Guidance Manual describes it as hunting the gems of metamorphosis and creating at the mental level the changes you desire."
+    },
+    {
+      "id": "ffp-biobody",
+      "wave": "ff-prospecting",
+      "no": 2,
+      "focus": ["12"],
+      "title": { "tr": "Biyo-Beden", "en": "Bio-Body" },
+      "summary": {
+        "tr": "Bedeninin hazinesini keşfedersin. Canlı beden haritasıyla bedenini inceler, enerji çubuğuyla ritimlerini tararsın.",
+        "en": "You explore the treasure that is your physical body. You examine your body with the living body map and scan its rhythms with the energy bar tool."
+      },
+      "goal": {
+        "tr": "Bedenini bilinçli bir inceleme alışkanlığına kavuşturmak.",
+        "en": "Bringing your body into a habit of conscious examination."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["ffp-metamorphosite"],
+      "tips": [
+        {
+          "tr": "Harita ve çubuk, Dalga II'den sonra tanıdığın araçlardır.",
+          "en": "The map and the bar are tools you know from Wave II."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "body",
+          "name": { "tr": "Beden İncelemesi", "en": "Body Examination" },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Bedenini canlı beden haritasıyla incele.", "en": "Examine your body with the living body map." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Enerji çubuğuyla bedenini tara. Ritimlerini tanı.", "en": "Sweep your body with the energy bar tool. Know its rhythms." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Beden, hazinedir.", "en": "The body is a treasure." } },
+              { "id": "r2", "text": { "tr": "Her taramada daha derine in.", "en": "With every sweep, go deeper." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Prospecting #2, Bio-Body. The Guidance Manual: explore the treasure trove that is your physical body, using the Living Body Map and the Energy Bar Tool."
+    },
+    {
+      "id": "ffp-nullpoint",
+      "wave": "ff-prospecting",
+      "no": 3,
+      "focus": ["12", "15"],
+      "title": { "tr": "Boşluk Noktası", "en": "Null Point" },
+      "summary": {
+        "tr": "Bedenin elektrik kutuplarının nötrleştiği nokta. Her yöne açılan bir pencere; yönünü sen seçersin. Focus 12'nin ötesine ilk geçiş.",
+        "en": "The point where the electric polarity of the body shifts into a neutral phase. A window open to any direction; you choose the direction. The first crossing beyond Focus 12."
+      },
+      "goal": {
+        "tr": "Boşluk noktasını tanımak; oradan yön seçebilmek.",
+        "en": "Knowing the null point; being able to choose a direction from it."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["ffp-biobody"],
+      "tips": [
+        {
+          "tr": "Kutupların nötrleştiğini hissettiğinde, pencere açılmıştır.",
+          "en": "When you feel the polarities neutralize, the window has opened."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "null",
+          "name": { "tr": "Boşluk Noktası", "en": "Null Point" },
+          "bell": "soft",
+          "focus": 15,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Kutuplar nötrleşiyor. Burası boşluk noktası.", "en": "The polarities are neutralizing. This is the null point." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Her yöne açılan bir pencere. Yönünü seç.", "en": "A window open to every direction. Choose your direction." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Nötr faz, tüm yönlerin kapısıdır.", "en": "The neutral phase is the door of all directions." } },
+              { "id": "r2", "text": { "tr": "Yön, niyetle çizilir.", "en": "Direction is drawn with intention." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Prospecting #3, Null Point. The Guidance Manual: the Null Point is where the body's electric polarity shifts into a neutral phase, a useful window for heading in any direction of mind activity; reached via the preparatory process, Focus 10, then Focus 12, then beyond. The app approximates the beyond-Focus-12 band with Focus 15 (beat glides down from Focus 12)."
+    },
+    {
+      "id": "ffp-pluspolarity",
+      "wave": "ff-prospecting",
+      "no": 4,
+      "focus": ["12", "15"],
+      "title": { "tr": "Artı Kutup", "en": "Plus Polarity" },
+      "summary": {
+        "tr": "Boşluk noktasından geçip başladığın kutbun tersine ulaşırsın. Ritimler seni her zaman başlangıç noktana geri taşır.",
+        "en": "You pass through the null point and reach the polarity opposite to where you started. The rhythms always carry you back to your starting point."
+      },
+      "goal": {
+        "tr": "Karşı kutbu deneyimlemek; dönüşü hissetmek.",
+        "en": "Experiencing the opposite polarity; feeling the return."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["ffp-nullpoint"],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "polarity",
+          "name": { "tr": "Karşı Kutup", "en": "Plus Polarity" },
+          "bell": "soft",
+          "focus": 15,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Boşluk noktasından geç. Karşı kutba ulaş.", "en": "Pass through the null point. Reach the opposite polarity." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Başladığın kutbun tersindesin. Ritimler seni geri taşır.", "en": "You are at the opposite of the pole you started from. The rhythms carry you back." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Karşı kutup, aynadır.", "en": "The opposite pole is a mirror." } },
+              { "id": "r2", "text": { "tr": "Dönüş, her zaman mümkün.", "en": "The return is always possible." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Prospecting #4, Plus Polarity. The Guidance Manual: leads you through the Null Point to the opposite polarity from where you started; the Hemi-Sync signals bring you back to your starting point."
+    },
+    {
+      "id": "ffp-nearreaches",
+      "wave": "ff-prospecting",
+      "no": 5,
+      "focus": ["12", "15"],
+      "title": { "tr": "Yakın Ufuklar", "en": "Near Reaches" },
+      "summary": {
+        "tr": "Fiziksel evrende kendi alanını kazıklarsın. Zamanın ve mekânın hazineleri, yakın ufuklardadır.",
+        "en": "You stake your personal claim in the physical universe. The treasures of time and space are in the near reaches."
+      },
+      "goal": {
+        "tr": "Zaman ve mekânın yakın ufuklarında gezinmek.",
+        "en": "Wandering the near reaches of time and space."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet room."
+      },
+      "prereq": ["ffp-pluspolarity"],
+      "tips": [],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "near",
+          "name": { "tr": "Yakın Ufuklar", "en": "Near Reaches" },
+          "bell": "soft",
+          "focus": 15,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Fiziksel evrende kendi alanını kazıkla.", "en": "Stake your own area in the physical universe." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Zamanın ve mekânın hazineleri yakın ufuklardadır.", "en": "The treasures of time and space are in the near reaches." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Alan, niyetle çizilir.", "en": "The area is drawn with intention." } },
+              { "id": "r2", "text": { "tr": "Yakın ufuk, uzakın başlangıcıdır.", "en": "The near reach is the beginning of the far." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Prospecting #5, Near Reaches. The Guidance Manual: stake your personal claim in the physical universe; passing through the Null Point from Focus 12 can lead to treasures in and of time and space."
+    },
+    {
+      "id": "ffp-farreaches",
+      "wave": "ff-prospecting",
+      "no": 6,
+      "focus": ["12", "15", "21"],
+      "title": { "tr": "Uzak Ufuklar", "en": "Far Reaches" },
+      "summary": {
+        "tr": "Fiziksel evrenin ötesinde, zamanın ve mekânın ötesinde sonsuz sistemler vardır. Boşluk noktasından geçip avına başlarsın.",
+        "en": "Beyond the physical universe, beyond time and space, there are infinite nonphysical energy systems. You pass through the null point and begin your hunt."
+      },
+      "goal": {
+        "tr": "Zamanın ve mekânın ötesindeki sistemlere açılmak.",
+        "en": "Opening into the systems beyond time and space."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": ["ffp-nearreaches"],
+      "tips": [
+        {
+          "tr": "Bu parça, özgün serinin en derine inenidir.",
+          "en": "This track goes deepest of the original series."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        { "use": "prep" },
+        { "use": "entry", "focus": 10 },
+        { "use": "entry", "focus": 12, "id": "entry12", "name": { "tr": "Focus 12'ye geçiş", "en": "Moving to Focus 12" } },
+        {
+          "id": "far",
+          "name": { "tr": "Uzak Ufuklar", "en": "Far Reaches" },
+          "bell": "soft",
+          "focus": 21,
+          "lines": [
+            { "id": "l1", "text": { "tr": "Fiziksel evrenin ötesinde sonsuz sistemler var.", "en": "Beyond the physical universe there are infinite systems." }, "pause": 5 },
+            { "id": "l2", "text": { "tr": "Zamanın ve mekânın ötesine yolculuk başlasın.", "en": "Let the journey beyond time and space begin." }, "pause": 4 }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              { "id": "r1", "text": { "tr": "Ötesi, sınırın arkasındadır.", "en": "The beyond is behind the limit." } },
+              { "id": "r2", "text": { "tr": "Köprü, diğer enerji sistemleridir.", "en": "The bridge is the other energy systems." } }
+            ]
+          }
+        },
+        { "use": "return" }
+      ],
+      "notes": "Official Prospecting #6, Far Reaches. The Guidance Manual: from the preparatory process, Focus 10 and Focus 12, pass through the Null Point and begin your hunt into the infinite nonphysical energy systems that go beyond time and space. The app models the far reaches in the Focus 21 band (bridge to other energy systems)."
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "wave": "wave-5",
+  "sessions": [
+    {
+      "id": "w5-mission10",
+      "wave": "wave-5",
+      "no": 1,
+      "focus": [
+        "10"
+      ],
+      "title": {
+        "tr": "Görev 10",
+        "en": "Mission 10"
+      },
+      "summary": {
+        "tr": "Focus 10'da bir görevle keşfe çıkarsın. Amaç netleşince, beden uykudayken zihnin o amaca doğru çalışır.",
+        "en": "You set out on a mission in Focus 10. When the purpose is clear, the mind works toward it while the body sleeps."
+      },
+      "goal": {
+        "tr": "Amaçlı keşfi Focus 10'da deneyimlemek.",
+        "en": "Experiencing purposeful exploration in Focus 10."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w4-compoint"
+      ],
+      "tips": [
+        {
+          "tr": "Görevi bir cümleyle netleştir; bulanık görev, dağınık keşif getirir.",
+          "en": "Clarify the mission in one sentence; a muddy mission brings a scattered exploration."
+        },
+        {
+          "tr": "Focus 10'da amaç, zihni uyanık tutan çividir.",
+          "en": "In Focus 10 the purpose is the nail that keeps the mind awake."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 10
+        },
+        {
+          "id": "mission",
+          "name": {
+            "tr": "Görev",
+            "en": "Mission"
+          },
+          "bell": "soft",
+          "focus": 10,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Bugünkü görevini bir cümleyle tut.",
+                "en": "Hold today's mission in a single sentence."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Onu zihninin önüne getir ve keşfe çık.",
+                "en": "Bring it before your mind and set out to explore."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Görev, zihnin pusulasıdır.",
+                  "en": "The mission is the compass of the mind."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Beden uyur, görev uyanık sürer.",
+                  "en": "The body sleeps, the mission continues awake."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Her bulduğunu görevine göre tart.",
+                  "en": "Weigh whatever you find against your mission."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Exploring #1 Mission 10. A purpose-driven exploration in Focus 10."
+    },
+    {
+      "id": "w5-mission12",
+      "wave": "wave-5",
+      "no": 2,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Görev 12",
+        "en": "Mission 12"
+      },
+      "summary": {
+        "tr": "Aynı görev, bu kez Focus 12'de: genişlemiş farkındalıkla. Algı alanın büyür, görev daha derine iner.",
+        "en": "The same mission, this time in Focus 12: with expanded awareness. The field of perception grows, the mission goes deeper."
+      },
+      "goal": {
+        "tr": "Görevi genişlemiş farkındalıkla sürdürmeyi öğrenmek.",
+        "en": "Learning to pursue the mission with expanded awareness."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w5-mission10"
+      ],
+      "tips": [
+        {
+          "tr": "Focus 12'de görev, tek bir soru kadar net olabilir.",
+          "en": "In Focus 12 the mission can be as sharp as a single question."
+        },
+        {
+          "tr": "Genişleme, görevin sınırlarını da genişletir.",
+          "en": "Expansion widens the boundaries of the mission too."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "mission",
+          "name": {
+            "tr": "Görev",
+            "en": "Mission"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Görevini bir soru olarak tut.",
+                "en": "Hold your mission as a question."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Farkındalığın genişledikçe, cevap her yönden gelebilir.",
+                "en": "As awareness expands, the answer may come from every direction."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Genişleyen alanda, her şey göreve temas eder.",
+                  "en": "In the expanding field, everything touches the mission."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Soruyu bırak. Cevap akışta gelir.",
+                  "en": "Release the question. The answer comes in the flow."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Görev tamamlanmaz, sürer.",
+                  "en": "A mission is not completed, it continues."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Exploring #2 Mission 12. The mission carried into expanded awareness."
+    },
+    {
+      "id": "w5-missionday",
+      "wave": "wave-5",
+      "no": 3,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Gün Görevi",
+        "en": "Mission Day"
+      },
+      "summary": {
+        "tr": "Günün görevini kurarsın: bugün nasıl bir gün olsun istiyorsun? Focus 12'de günü öyle başlatırsın.",
+        "en": "You set the day's mission: what kind of day do you want today to be? In Focus 12 you begin the day in that state."
+      },
+      "goal": {
+        "tr": "Günü bilinçli bir niyetle başlatmayı öğrenmek.",
+        "en": "Learning to begin the day with a conscious intention."
+      },
+      "setting": {
+        "tr": "Sabah, yataktan kalkmadan hemen önce. Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "In the morning, right before getting out of bed. Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w5-mission12"
+      ],
+      "tips": [
+        {
+          "tr": "Gün örüntüsü, haftanın ve yılın örüntüsünü taşır.",
+          "en": "The day's pattern carries the pattern of the week and the year."
+        },
+        {
+          "tr": "Günü kurduktan sonra kalk; gün seni izler.",
+          "en": "After you set the day, get up; the day will follow you."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "day",
+          "name": {
+            "tr": "Gün",
+            "en": "The Day"
+          },
+          "bell": "soft",
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Bugün nasıl bir gün olsun istiyorsun? O hali hisset.",
+                "en": "What kind of day do you want today to be? Feel that state."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Günü öyle başlat. Örüntü kuruldu.",
+                "en": "Begin the day in that state. The pattern is set."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Gün, senin ördüğün kumaşla dokunur.",
+                  "en": "The day weaves itself with the fabric you knit."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Zor anlarda günü hatırla. Örüntü seni taşır.",
+                  "en": "In hard moments, remember the day. The pattern carries you."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Akşam, gün örüntüsüne nasıl uydu, bakacaksın.",
+                  "en": "In the evening, you will see how the day matched the pattern."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Exploring #3 Mission Day. Setting the day's pattern in the morning, paraphrased from the manual."
+    },
+    {
+      "id": "w5-missionnight",
+      "wave": "wave-5",
+      "no": 4,
+      "focus": [
+        "12"
+      ],
+      "title": {
+        "tr": "Gece Görevi",
+        "en": "Mission Night"
+      },
+      "summary": {
+        "tr": "Geceye bir görev bırakırsın. Uykuya dalarken zihnin o görevle çalışır; sabah kalkanla birlikte hatırlarsın.",
+        "en": "You leave a mission for the night. As you fall asleep, the mind works with that mission; you remember it when you wake."
+      },
+      "goal": {
+        "tr": "Uykuya bir niyet bırakmayı öğrenmek.",
+        "en": "Learning to leave an intention for sleep."
+      },
+      "setting": {
+        "tr": "Yatağa uzan, kulaklık takılı. Işıklar sönük, telefon sessizde. Uyumadan hemen önce.",
+        "en": "Lie down in bed, headphones on. Lights off, phone silent. Right before sleep."
+      },
+      "prereq": [
+        "w5-missionday"
+      ],
+      "tips": [
+        {
+          "tr": "Gece görevi, sabahın ilk anı için kurulur.",
+          "en": "The night mission is set for the first moment of morning."
+        },
+        {
+          "tr": "Sabah uyanır uyanmaz günlüğe yaz.",
+          "en": "Write in your journal the moment you wake."
+        }
+      ],
+      "warnings": [
+        {
+          "tr": "Uykuya dalmak amaçtır; çan sesi yoktur, ekran kararır.",
+          "en": "Falling asleep is the aim; there is no bell and the screen dims."
+        }
+      ],
+      "night": true,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 12
+        },
+        {
+          "id": "night",
+          "name": {
+            "tr": "Gece",
+            "en": "The Night"
+          },
+          "bell": null,
+          "focus": 12,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Geceye bir görev bırak. Bir cümle yeter.",
+                "en": "Leave a mission for the night. A single sentence is enough."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Uykuya dal. Zihnin görevle çalışacak, sabah hatırlayacaksın.",
+                "en": "Fall asleep. The mind will work with the mission, and you will remember in the morning."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "lastMinute": false,
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Gece, görevini örüyor.",
+                  "en": "The night is weaving your mission."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Sabah, bu görevin iziyle uyanacaksın.",
+                  "en": "In the morning you will wake with the trace of this mission."
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "notes": "Official Exploring #4 Mission Night. A night session: dark screen, no end bell. Passing through the transition area is mentioned in the manual for this tape; here it stays a quiet night mission."
+    },
+    {
+      "id": "w5-horizons",
+      "wave": "wave-5",
+      "no": 5,
+      "focus": [
+        "12",
+        "15"
+      ],
+      "title": {
+        "tr": "Ufuklar",
+        "en": "Horizons"
+      },
+      "summary": {
+        "tr": "Farkındalığını ufuklara, zamanın ve mekanın ötesine taşırsın. Focus 15'e ilk dokunuş: zaman akmaz, her şey bir aradadır.",
+        "en": "You carry your awareness to the horizons, beyond time and space. First touch of Focus 15: time does not flow, everything is together."
+      },
+      "goal": {
+        "tr": "Zaman ve mekan ötesine ilk kez uzanmak.",
+        "en": "Reaching beyond time and space for the first time."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük. Sessiz ve loş bir oda.",
+        "en": "Lie on your back, headphones on, volume low. A quiet, dim room."
+      },
+      "prereq": [
+        "w5-missionnight"
+      ],
+      "tips": [
+        {
+          "tr": "Ufuk, yaklaştıkça uzaklaşır; kovalamak faydasız.",
+          "en": "The horizon recedes as you approach; chasing it is useless."
+        },
+        {
+          "tr": "Zamanın akmadığını hissetmek, bu seviyenin ilk belirtisidir.",
+          "en": "Feeling that time does not flow is the first sign of this level."
+        }
+      ],
+      "warnings": [],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 15
+        },
+        {
+          "id": "horizon",
+          "name": {
+            "tr": "Ufuk",
+            "en": "Horizon"
+          },
+          "bell": "soft",
+          "focus": 15,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Farkındalığını en uzağa taşı. Ufuklar, ötesi, ötesinin ötesi.",
+                "en": "Carry your awareness to the furthest. Horizons, beyond them, the beyond of beyond."
+              },
+              "pause": 5
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Zaman akmıyor. Geçmiş, şimdi ve gelecek bir arada.",
+                "en": "Time does not flow. Past, present and future are together."
+              },
+              "pause": 4
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Ufuk, yaklaştıkça uzaklaşır.",
+                  "en": "The horizon recedes as you approach."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Zamansızlıkta her şey bir aradadır.",
+                  "en": "In timelessness everything is together."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Geri dönüş, çanlarla gelir. Acele etme.",
+                  "en": "The return comes with the bells. Don't rush."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Exploring #5 Horizons. First contact with Focus 15 (No Time); the entry template glides the bed to the Focus 15 beat."
+    },
+    {
+      "id": "w5-pathways",
+      "wave": "wave-5",
+      "no": 6,
+      "focus": [
+        "12",
+        "15"
+      ],
+      "title": {
+        "tr": "Yollar",
+        "en": "Pathways"
+      },
+      "summary": {
+        "tr": "Beden dışı farkındalığın yolu açılır. Bir yolu izler, değişimleri not eder, çanlar seni eve çağırır.",
+        "en": "The path of out-of-body awareness opens. You follow a pathway, note the shifts, the bells call you home."
+      },
+      "goal": {
+        "tr": "Farkındalığı bir yol boyunca hareket ettirmeyi öğrenmek.",
+        "en": "Learning to move awareness along a pathway."
+      },
+      "setting": {
+        "tr": "Sırt üstü uzan, kulaklık takılı, ses düşük.",
+        "en": "Lie on your back, headphones on, volume low."
+      },
+      "prereq": [
+        "w5-horizons"
+      ],
+      "tips": [
+        {
+          "tr": "Yol, attığın adımla açılır; önceden görünmez.",
+          "en": "The path opens with the step you take; it is not visible beforehand."
+        },
+        {
+          "tr": "Farkındalıktaki her değişim, bir dönemeçtir.",
+          "en": "Every shift in awareness is a turning point."
+        }
+      ],
+      "warnings": [
+        {
+          "tr": "Yolda kalma; çanlar seni her zaman geri çağırır.",
+          "en": "Don't stay on the path; the bells always call you back."
+        }
+      ],
+      "night": false,
+      "phases": [
+        {
+          "use": "prep"
+        },
+        {
+          "use": "entry",
+          "focus": 15
+        },
+        {
+          "id": "path",
+          "name": {
+            "tr": "Yol",
+            "en": "Pathway"
+          },
+          "bell": "soft",
+          "focus": 15,
+          "lines": [
+            {
+              "id": "l1",
+              "text": {
+                "tr": "Önünde bir yol açılıyor. Yürümeye başla.",
+                "en": "A path opens before you. Start walking."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l2",
+              "text": {
+                "tr": "Her adımda farkındalığın değişir. Değişimleri not et.",
+                "en": "With every step your awareness shifts. Note the shifts."
+              },
+              "pause": 4
+            },
+            {
+              "id": "l3",
+              "text": {
+                "tr": "Yol seni nereye götüreceğini kendi seçer.",
+                "en": "The path chooses where it will take you."
+              },
+              "pause": 3
+            }
+          ],
+          "hold": {
+            "param": "explore",
+            "reminders": [
+              {
+                "id": "r1",
+                "text": {
+                  "tr": "Yol, attığın adımla açılır.",
+                  "en": "The path opens with your step."
+                }
+              },
+              {
+                "id": "r2",
+                "text": {
+                  "tr": "Farkındalıktaki her değişim, bir dönemeçtir.",
+                  "en": "Every shift in awareness is a turning point."
+                }
+              },
+              {
+                "id": "r3",
+                "text": {
+                  "tr": "Çanlar seni eve çağırır.",
+                  "en": "The bells call you home."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "use": "return"
+        }
+      ],
+      "notes": "Official Exploring #6 Pathways (Out-of-Body Experience Pathways). Moving between focus levels along a pathway; the Hemi-Sync signals mark the return."
+    }
+  ]
+}

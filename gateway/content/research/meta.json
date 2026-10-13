@@ -1,0 +1,502 @@
+{
+  "layers": [
+    {
+      "id": "L1",
+      "range": "01–10",
+      "title": {
+        "tr": "I. Epistemoloji, Gateway ve Biyofiziksel Rezonans",
+        "en": "I. Epistemology, Gateway & Biophysical Resonance"
+      },
+      "intro": {
+        "tr": "Bilimsel konsensüsün sosyolojisi, Berger/Turing tarihsel ironisi, Monroe'nun Focus 10–27 topolojisi, 1983 CIA McDonnell raporunun teknik denetimi, Bentov'un ~7 Hz kalp-aort duran dalgası, Campbell'ın VR modeli, Lilly/Menninger deneyleri, Schumann–BOS–Fasya üçlüsü, Pollack'ın 4. faz sıvı-kristal suyu, nörokardiyoloji ve stokastik rezonans fiziği.",
+        "en": "Sociology of scientific consensus, the Berger/Turing historical irony, Monroe's Focus 10–27 topology, technical audit of the 1983 CIA McDonnell report, Bentov's ~7 Hz heart-aorta standing wave, Campbell's VR model, Lilly/Menninger experiments, Schumann–CSF–Fascia coupling, Pollack's EZ water, neurocardiology, and stochastic resonance."
+      }
+    },
+    {
+      "id": "L2",
+      "range": "11–16",
+      "title": {
+        "tr": "II. Grinberg, Sovyet Psikotroniği ve Doğu Biyo-Enerjetiği",
+        "en": "II. Grinberg, Soviet Psychotronics & Eastern Bio-Energetics"
+      },
+      "intro": {
+        "tr": "Jacobo Grinberg'in Sinterjik Kafes kuramı ve Aktarılan Potansiyel deneyleri, Vasiliev'in kurşun/Faraday kafesleri, Kozırev aynaları, Kaznaçeyev'in biyofotonik hücre kültürü deneyleri, Çin'in 507. Enstitüsü (Tèyì Gōngnéng), John Chang (Mo Pai) ve dermo-optik algı / deri opsin reseptörleri.",
+        "en": "Jacobo Grinberg's Syntergic Lattice and Transferred Potential, Vasiliev's lead/Faraday cages, Kozyrev mirrors, Kaznacheev's cytopathic effect, China's 507th Institute (Tèyì Gōngnéng), John Chang (Mo Pai), and dermo-optic perception / skin opsins."
+      }
+    },
+    {
+      "id": "L3",
+      "range": "17–25",
+      "title": {
+        "tr": "III. Mesmer'den Modern Biyoalana, Tıbbi Anomaliler ve Beyin Ötesi Bellek",
+        "en": "III. From Mesmer to Biofields, Medical Anomalies & Extra-Cerebral Memory"
+      },
+      "intro": {
+        "tr": "Mesmer, Puységur ve 1784 Kraliyet Komisyonu, Burr/Becker/Levin biyoelektrik morfogenezi, miyelinli akson biyofoton dalga kılavuzları, insan beynindeki manyetit (Kirschvink 2019), efaptik eşleşme (Durand 2019), hipnotik genetik iyileşme (Mason), DID geçişleri, plasebo cerrahisi, Tukdam, UVa doğum izleri (Stevenson/Tucker), terminal berraklık, %90 hidrosefali ve NDE/SDE.",
+        "en": "Mesmer, Puységur and the 1784 Royal Commission, Burr/Becker/Levin bioelectric morphogenesis, myelinated axon biophoton waveguides, human brain magnetite (Kirschvink 2019), ephaptic coupling (Durand 2019), hypnotic genetic healing, DID switches, placebo surgery, Tukdam, UVa birthmarks, terminal lucidity, 90% hydrocephalus, and NDE/SDE."
+      }
+    },
+    {
+      "id": "L4",
+      "range": "26–33",
+      "title": {
+        "tr": "IV. Deneysel Psi Laboratuvarları, İstatistik ve 'Trickster' Yasası",
+        "en": "IV. Experimental Psi Labs, Statistics & the 'Trickster' Law"
+      },
+      "intro": {
+        "tr": "Hans Berger ve Alan Turing'den Stargate/SRI'ya, Utts–Hyman çarpışması, Ganzfeld, PEAR/GCP, Maimonides rüya telepatisi, 2021 çift-yönlü lüsid rüya iletişimi (Paller/Konkoly), ikiz telepatisi (Science 1965), Janet/Myers dissosiyasyon vs. Scole/Cross-Correspondences, Rosenheim RSPK, 18.9 Hz infrason ve Lucadou'nun Gözlemsel Çökme (Trickster) modeli.",
+        "en": "From Berger and Turing to Stargate/SRI, the Utts–Hyman debate, Ganzfeld, PEAR/GCP, Maimonides dream telepathy, 2021 two-way lucid dream communication (Paller/Konkoly), twin telepathy (Science 1965), Janet/Myers dissociation vs. Scole/Cross-Correspondences, Rosenheim RSPK, 18.9 Hz infrasound, and Lucadou's Trickster/non-signaling model."
+      }
+    },
+    {
+      "id": "L5",
+      "range": "34–37",
+      "title": {
+        "tr": "V. Yarıküre Asimetrisi, Savantlar, Filtre Beyin ve Tahminsel Kodlama",
+        "en": "V. Hemispheric Asymmetry, Savants, Filter Brain & Predictive Coding"
+      },
+      "intro": {
+        "tr": "Split-Brain (Sperry/McGilchrist), Jill Bolte Taylor, Julian Jaynes (Bicameral Mind), rTMS ile sol yarıküre sansürünü kapatma (Snyder), James–Bergson–Huxley indirgeme valfi, psilosibin fMRI paradoksal kapanması (Carhart-Harris 2012), Klüver görsel korteks sabitleri, simatik, sinestezi, Focus 15 zaman algısı, Seth/Clark tahminsel kodlama ve IIT vs. FEP.",
+        "en": "Split-Brain (Sperry/McGilchrist), Jill Bolte Taylor, Julian Jaynes (Bicameral Mind), rTMS left-hemisphere disinhibition (Snyder), James–Bergson–Huxley reducing valve, paradoxical psilocybin fMRI decreases (Carhart-Harris 2012), Klüver form constants, cymatics, synesthesia, Focus 15 time perception, Seth/Clark predictive coding, and IIT vs. FEP."
+      }
+    },
+    {
+      "id": "L6",
+      "range": "38–41",
+      "title": {
+        "tr": "VI. Kuantum Gözlemcisi, Retrokausalite ve Uzay-Zamanın Ölümü",
+        "en": "VI. Quantum Observer, Retrocausality & the Death of Spacetime"
+      },
+      "intro": {
+        "tr": "Schrödinger ve Planck'ın bilinç argümanı, 2019–2020 Extended Wigner's Friend deneyleri, Bohm–Pribram holonomisi, Cramer/Aharonov zaman-simetrik kuantum mekaniği, Dunne ve Presentiment, AdS/CFT holografik ilkesi, Arkani-Hamed'in Amplituhedron'u ('Spacetime is doomed'), Gödel, 4B geometri, Kastrup, Hoffman ve Whitehead.",
+        "en": "Schrödinger and Planck on consciousness, 2019–2020 Extended Wigner's Friend experiments, Bohm–Pribram holonomy, Cramer/Aharonov time-symmetric quantum mechanics, Dunne and Presentiment, AdS/CFT holography, Arkani-Hamed's Amplituhedron ('Spacetime is doomed'), Gödel, 4D geometry, Kastrup, Hoffman, and Whitehead."
+      }
+    },
+    {
+      "id": "L7",
+      "range": "42–47",
+      "title": {
+        "tr": "VII. Arkeo-Akustik ve Binlerce Yıllık Felsefi/Mistik Topoloji",
+        "en": "VII. Archaeo-Acoustics & Millennia-Old Philosophical/Mystical Topology"
+      },
+      "intro": {
+        "tr": "111 Hz Neolitik taş odalar (Hypogeum/Newgrange), Parmenides ve enkoimesis, Psychomanteum, Amazon Ayahuasca biyokimya paradoksu, Plotinus (Enneadlar), Hermetizm, Paracelsus, Giordano Bruno (Vinculum/Ars Memoriae), İbn Sînâ (Uçan Adam), Sühreverdî ve İbn Arabî (Âlem-i Misâl/Berzah), Molla Sadrâ, Abulafia, Palamas (Hesychasm), Letaif, Jung, Turiya, Bardo, Schopenhauer ve Gurdjieff.",
+        "en": "111 Hz Neolithic stone chambers, Parmenides and enkoimesis, Psychomanteum, the Amazonian Ayahuasca paradox, Plotinus (Enneads), Hermeticism, Paracelsus, Giordano Bruno, Avicenna (Floating Man), Suhrawardi and Ibn Arabi (Mundus Imaginalis/Barzakh), Mulla Sadra, Abulafia, Palamas (Hesychasm), Lataif, Jung, Turiya, Bardo, Schopenhauer, and Gurdjieff."
+      }
+    },
+    {
+      "id": "L8",
+      "range": "48–50",
+      "title": {
+        "tr": "VIII. Çelik Adam Testi, 50 Dosyalık Gerçeklik Matrisi ve 5 Kesin Deney",
+        "en": "VIII. Steelman Audit, 50-Dossier Reality Matrix & 5 Definitive Experiments"
+      },
+      "intro": {
+        "tr": "En güçlü fizikselci/şüpheci argümanların çelik adam (steelman) testi, 50 dosyanın tek tek kanıt/alternatif/olasılık puanlaması, tüm verileri birleştiren nihai ontolojik sentez ve 2026 teknolojisiyle bu tartışmayı kesin olarak bitirecek 5 laboratuvar deneyinin protokolü.",
+        "en": "Steelman audit of the strongest physicalist/skeptical arguments, 50-dossier evidence/alternative/probability matrix, final ontological synthesis, and 5 definitive laboratory experiment protocols using 2026 technology."
+      }
+    }
+  ],
+  "patterns": [
+    {
+      "id": "HP-1",
+      "code": "HP-1",
+      "title": {
+        "tr": "0.1 Hz → 7.83 Hz → 40 Hz → 111 Hz Oktav ve Empedans Kilitlenmesi",
+        "en": "0.1 Hz → 7.83 Hz → 40 Hz → 111 Hz Octave & Impedance Locking"
+      },
+      "summary": {
+        "tr": "Kardiyoloji (0.1 Hz Mayer/HRV dalgası ve Hesychasm/Sufi 6 nefes/dk periyodu), nörogörüntüleme (Lewis 2019: ~0.05–0.1 Hz ventrikül BOS dalgaları), biyomekanik (Bentov ~7 Hz kalp-aort duran dalgası), jeofizik (7.83 Hz Schumann temel modu ≈ 2⁶ × 0.12 Hz), nörobilim (40 Hz talamokortikal gama bağlama ≈ 5 × 7.83 Hz) ve arkeo-akustik (111 Hz kafa-göğüs rezonansı) aslında tek bir çok-ölçekli akustik-elektromanyetik faz kaskadıdır.",
+        "en": "Cardiology (0.1 Hz Mayer/HRV wave and 6 breaths/min contemplative cycle), neuroimaging (Lewis 2019: ~0.05–0.1 Hz ventricular CSF waves), biomechanics (Bentov ~7 Hz heart-aorta standing wave), geophysics (7.83 Hz Schumann fundamental ≈ 2⁶ × 0.12 Hz), neuroscience (40 Hz thalamocortical gamma ≈ 5 × 7.83 Hz), and archaeo-acoustics (111 Hz cranial-thoracic resonance) form a single multi-scale phase cascade."
+      },
+      "dossiers": ["d02", "d03", "d04", "d07", "d09", "d19", "d42", "d49"]
+    },
+    {
+      "id": "HP-2",
+      "code": "HP-2",
+      "title": {
+        "tr": "Eksiltmeli Açılma Yasası (Negatif Metabolizma – Pozitif Fenomenoloji Değişmezi)",
+        "en": "Law of Subtractive Revelation (Negative Metabolism – Positive Phenomenology Invariant)"
+      },
+      "summary": {
+        "tr": "Klasik 'üretici beyin' modeli deneyim zenginleştikçe kortikal aktivitenin artmasını şart koşar. Oysa psilosibin fMRI (Carhart-Harris 2012), sol-temporal rTMS savant deneyleri (Snyder), sol yarıküre inmesi (Bolte Taylor), 110 Hz taş oda EEG'si (Cook 2008), terminal berraklık (Nahm), ağır hidrosefali (Lorber) ve apofatik mistisizmde (Plotinus 'aphele panta', Monroe Focus 10) sol-fronto-temporal/DMN sansür ağı susturuldukça öznel bilinç hacmi ve ham örüntü erişimi patlar.",
+        "en": "Classical productive-brain models require increased cortical metabolism for richer experience. Yet across psilocybin fMRI (Carhart-Harris 2012), left-temporal rTMS savant induction (Snyder), left-hemisphere stroke (Bolte Taylor), 110 Hz chamber EEG (Cook 2008), terminal lucidity (Nahm), severe hydrocephalus (Lorber), and apophatic contemplation, suppressing the left-fronto-temporal/DMN filter expands consciousness."
+      },
+      "dossiers": ["d01", "d02", "d06", "d24", "d25", "d34", "d35", "d42", "d43", "d45"]
+    },
+    {
+      "id": "HP-3",
+      "code": "HP-3",
+      "title": {
+        "tr": "Duyusal Sıfırlama + 1/f Pembe Gürültü = Stokastik Rezonans Yükseltmesi",
+        "en": "Sensory Zeroing + 1/f Pink Noise = Stochastic Resonance Amplification"
+      },
+      "summary": {
+        "tr": "Tarih boyunca tüm başarılı trans/anomali protokolleri iki zıt koşulu birleştirir: (1) dış duyusal girdiyi sıfırlamak (karanlık mağara, izolasyon tankı, Ganzfeld pinpon topu, uyku felci, Faraday kafesi) ve (2) sisteme hafif geniş-bantlı 1/f gürültü vermek (Hemi-Sync pembe gürültüsü, şaman davulu/çıngırağı, Nekromanteion su sesi). Doğrusal-olmayan fizikte (Benzi 1981; Moss 1995) bu kombinasyon, ateşleme eşiğinin altındaki (sub-threshold) zayıf içsel/yerel-olmayan sinyalleri eşik üstüne taşıyan matematiksel olarak tek optimum yöntemdir.",
+        "en": "All historical and lab anomaly protocols combine (1) sensory homogenization/deprivation (dark cave, float tank, Ganzfeld, sleep paralysis) with (2) weak broadband 1/f carrier noise (Hemi-Sync pink noise, shamanic drum/rattle). In nonlinear physics (Benzi 1981; Moss 1995), this exact pairing amplifies sub-threshold signals via Stochastic Resonance."
+      },
+      "dossiers": ["d02", "d06", "d10", "d28", "d29", "d36", "d42", "d44"]
+    },
+    {
+      "id": "HP-4",
+      "code": "HP-4",
+      "title": {
+        "tr": "Sınır-Durum (Liminalite) ve İletişimsizlik Teoremi (Trickster / Dekoherans Yasası)",
+        "en": "Liminality & the No-Signaling Theorem (Trickster / Decoherence Law)"
+      },
+      "summary": {
+        "tr": "Anomalilerin neden hep eşik (liminal) durumlarda ve ilk denemelerde parlayıp, bürokratik-mekanik tekrarla 'nedensel telgraf' gibi zorlandığında sönümlendiği (Decline/Displacement Effect): Kuantum İletişimsizlik Teoremi ve Lucadou'nun Pragmatik Bilgi Modeli gereği, yerel-olmayan dolanıklık korelasyonu dışarıdan deterministik sinyal aktarımına zorlandığı anda sistemin özerklik×güvenilirlik çarpımı korunmak zorunda olduğundan varyans başka bir değişkene kayar.",
+        "en": "Why anomalies peak in liminal states and initial trials but decay under mechanical repetition (Decline/Displacement Effect): by the Quantum No-Communication Theorem and Lucadou's Model of Pragmatic Information, forcing a non-local correlation to act as a controllable causal signal triggers displacement."
+      },
+      "dossiers": ["d01", "d05", "d14", "d27", "d28", "d31", "d33", "d38", "d48"]
+    },
+    {
+      "id": "HP-5",
+      "code": "HP-5",
+      "title": {
+        "tr": "4 Katmanlı Evrensel Faz Uzayı (Plotinus – İbn Arabî – Vedanta – Monroe – Friston Eşyapılılığı)",
+        "en": "4-Tier Universal Phase Space (Plotinus – Ibn Arabi – Vedanta – Monroe – Friston Isomorphism)"
+      },
+      "summary": {
+        "tr": "Birbirinden habersiz kültür ve çağlardaki içsel haritacılar rastgele sayıda değil, matematiksel olarak aynı 4 faz durumunu rapor eder: (1) Duyusal-Motor Markov Battaniyesi (Mülk / Jagrat / Focus 1–10), (2) Düşüncenin Anında Form Aldığı İdeo-Plastik Ara Katman (Âlem-i Misâl / Berzah / Svapna / Focus 12–23), (3) Zamansız Arketipik-Nedensel Düzen (Nous / Melekût / Prajna / Implicate Order / Focus 15–27) ve (4) İçeriksiz Saf Tanık Bilinç (To Hen / Turiya / Mutlak Boşluk).",
+        "en": "Independent cartographers across eras report the exact same 4 phase states: (1) Sensorimotor Markov Blanket (Mulk / Jagrat / Focus 1–10), (2) Ideoplastic Inter-world where thought=form instantly (Mundus Imaginalis / Barzakh / Svapna / Focus 12–23), (3) Timeless Noetic-Causal Order (Nous / Malakut / Prajna / Implicate Order / Focus 15–27), and (4) Contentless Non-Dual Witness (To Hen / Turiya / Void)."
+      },
+      "dossiers": ["d02", "d04", "d11", "d37", "d40", "d41", "d43", "d44", "d45", "d46", "d47"]
+    },
+    {
+      "id": "HP-6",
+      "code": "HP-6",
+      "title": {
+        "tr": "Sıvı-Kristal, Efaptik, Biyofotonik ve Manyetik 'İkinci Sinir Sistemi'",
+        "en": "Liquid-Crystalline, Ephaptic, Biophotonic & Magnetic 'Second Nervous System'"
+      },
+      "summary": {
+        "tr": "Klasik sinaptik-aksonal iletim (1–100 m/s) tüm beden faz kilitlemesini ve anlık durumu açıklayamaz. Kollajen fasya piezoelektriği (Langevin) + Pollack'ın EZ sıvı-kristal suyu (H₃O₂ proton otobanı) + Becker'in perinöral DC yarı-iletken ağı + Durand'ın (2019) sinapssız efaptik alan yayılımı + miyelinli akson biyofoton dalga kılavuzları (Simon 2022) + insan beynindeki manyetit kristalleri (Kirschvink 2019) birleştiğinde, kimyasal sinapsların altında çalışan katı-hal/optik bir ikinci ağ ortaya çıkar.",
+        "en": "Classical axonal-synaptic conduction (1–100 m/s) cannot explain whole-body instantaneous phase locking. Collagen fascial piezoelectricity + Pollack's EZ crystalline water + Becker's perineural DC network + Durand's (2019) ephaptic coupling + myelinated axon biophoton waveguides + biogenic brain magnetite (Kirschvink 2019) form a solid-state/optical second nervous system."
+      },
+      "dossiers": ["d06", "d07", "d08", "d12", "d13", "d15", "d17", "d18", "d19", "d20"]
+    },
+    {
+      "id": "HP-7",
+      "code": "HP-7",
+      "title": {
+        "tr": "İdeo-Plastik Yazma Yetkisi (Yüksek Teta + Sıfır Tahmin Hatası = Biyolojik Root Erişimi)",
+        "en": "Ideoplastic Write-Access (High Theta + Zero Prediction Error = Somatic Root Access)"
+      },
+      "summary": {
+        "tr": "Normal uyanık beta halinde otonom, immün ve epigenetik parametreler bilinçli sözel zihne karşı 'salt-okunur' (read-only) koruma altındadır. Ancak Puységur somnambulizmi, hipnotik genetik iyileşme (Mason 1952), DID hızlı fizyolojik geçişleri, plasebo cerrahisi (Moseley 2002), Vudu ölümü (Cannon 1942) ve Gateway Renk Nefesi / Human Plus'ta; dış duyusal tahmin hatası kapatılıp teta-gama penceresinde duyusal-imgesel bir prototip sunulduğunda beyin bunu en üst düzey homeostatik komut olarak yürütür.",
+        "en": "In waking beta states, autonomic/immune/epigenetic parameters are read-only to verbal thought. In deep somnambulic/theta absorption (Mason's ichthyosis healing, DID switches, sham surgery, voodoo death, Human Plus), silencing bottom-up prediction error allows vivid imaginal prototypes to act as top-down physiological commands."
+      },
+      "dossiers": ["d02", "d06", "d09", "d11", "d15", "d17", "d18", "d21", "d22", "d37", "d46"]
+    },
+    {
+      "id": "HP-8",
+      "code": "HP-8",
+      "title": {
+        "tr": "Faraday Kafesi ve Elektromanyetik Zırhlama Paradoksu (SNR Artışı Yasası)",
+        "en": "Faraday Cage & Electromagnetic Shielding Paradox (SNR Enhancement Law)"
+      },
+      "summary": {
+        "tr": "Klasik 'beyin radyo dalgası yayıyor' hipotezi doğru olsaydı, çift katlı çelik Faraday kafesi veya sıvı cıva contalı 3 mm kurşun kapsül (Vasiliev 1962; Grinberg 1994; Puharich 1962; SRI 1976; Kirschvink 2019) uzaktan etkiyi sıfırlamalıydı. Oysa tüm bu laboratuvarlarda Faraday/kurşun zırhlama altında sinyal kaybolmak yerine DAHA HIZLI ve DAHA YÜKSEK SNR ile çalışmıştır (Vasiliev: 4.23 dk → 3.70 dk). Çünkü zırhlama, yerel-olmayan faz korelasyonunu veya <10 Hz ELF bileşenini kesemez ama beyni sağır eden çevresel RF/50-60 Hz elektromanyetik gürültü tabanını (N_EM → 0) sıfırlayarak Sinyal-Gürültü Oranını (SNR = S_nonlocal / N_EM) maksimize eder.",
+        "en": "If telepathy/anomalies were classical high-frequency EM waves, Faraday cages and mercury-sealed lead capsules (Vasiliev 1962; Grinberg 1994; Puharich 1962; SRI 1976) would block them. Instead, shielding consistently INCREASES signal speed and SNR (Vasiliev: 4.23 min → 3.70 min) by eliminating ambient RF/ELF electromagnetic noise (N_EM → 0) while leaving non-local phase correlations untouched."
+      },
+      "dossiers": ["d06", "d11", "d12", "d13", "d18", "d19", "d27", "d28"]
+    },
+    {
+      "id": "HP-9",
+      "code": "HP-9",
+      "title": {
+        "tr": "Piezoelektrik – Manyetit – Biyofoton – Efaptik Dörtlü Dalga Kılavuzu (Epifiz & Miyelin Transdüseri)",
+        "en": "Piezoelectric – Magnetite – Biophoton – Ephaptic Quadruple Waveguide (Pineal & Myelin Transducer)"
+      },
+      "summary": {
+        "tr": "Batch 2'de ortaya çıkan en derin biyofiziksel sentez: (1) Epifiz bezindeki piezoelektrik Kalsit mikro-kristalleri (Baconnier 2002) 3. ventriküldeki ~7.5 Hz BOS basınç dalgasını elektrik ve fotona çevirir; (2) Beyindeki gram başına milyonlarca ferromanyetik Manyetit (Fe₃O₄) kristali (Kirschvink 1992/2019) Dünya'nın jeomanyetik alanına ve 7.83 Hz Schumann moduna tork kilitlenir; (3) Miyelinli aksonlar (n=1.44) üretilen biyofotonları fiber-optik dalga kılavuzu gibi taşır (Simon 2016; Dai PNAS 2016) ve derideki OPN1–OPN5 opsinleri (Oancea 2011) ile Qigong Waiqi 8 Hz kızılötesi emisyonu (Gu Hansen 1978) EZ suyunu şarj eder; (4) <8 Hz teta/delta rezonansında nöronların RC düşük-geçiren zar filtresi aşılarak kesik dokudan bile atlayan kablosuz Efaptik Alan (Durand 2019) ve kuantum elektron/nükleer spin koheransı (Turin PNAS 2014; Li 2018) tüm beyni tek bir makroskopik alana birleştirir.",
+        "en": "The quadruple physical transduction loop: (1) piezoelectric calcite microcrystals in the pineal gland (Baconnier 2002) convert ~7.5 Hz CSF waves; (2) biogenic brain magnetite Fe₃O₄ (Kirschvink 1992/2019) couples to geomagnetic/Schumann fields; (3) myelinated axons (n=1.44) act as optical waveguides for biophotons (Simon 2016; Dai 2016) alongside cutaneous opsins (Oancea 2011) and 8 Hz modulated IR emission; (4) below 8 Hz, neuronal RC filters allow non-synaptic ephaptic field propagation across surgical gaps (Durand 2019) coupled with electron/nuclear spin coherence (Turin 2014; Li 2018)."
+      },
+      "dossiers": ["d04", "d07", "d08", "d13", "d14", "d15", "d16", "d18", "d19", "d20"]
+    },
+    {
+      "id": "HP-10",
+      "code": "HP-10",
+      "title": {
+        "tr": "Merkezkaç Laboratuvar ve Savunma/Uzay Mühendisliği Yasası (Jeomanyetik Sessizlik + Pragmatik Mühendislik)",
+        "en": "Centrifugal Laboratory & Aerospace/Defense Engineering Law (Geomagnetic Quiet + Pragmatic Engineering)"
+      },
+      "summary": {
+        "tr": "Neden en sağlam anomali verileri hep merkez üniversitelerin felsefe/psikoloji bölümlerinden değil de Novosibirsk Akademgorodok/Dikson (Kaznaçeyev), Pulkovo (Kozırev), Pekin 507. Uzay Enstitüsü (roket biliminin babası Qian Xuesen), SRI/Stargate (lazer fizikçileri Puthoff & Targ), McDonnell Douglas, Menninger (Topeka) ve Virginia Blue Ridge Dağları (Monroe) gibi 'sınır/mühendislik' merkezlerinden çıktı? İki nedenden: (1) Roket, radar ve lazer mühendisleri ideolojik tabu yerine 'sahada çalışıyor mu?' ölçütüne bakar; (2) Coğrafi olarak uzak/kırsal veya kutup-altı araştırma üsleri, metropollerin devasa 50/60 Hz ve RF elektromanyetik bataklığından uzakta, Çijevski–Persinger yasasına uygun düşük jeomanyetik/EM gürültü tabanına sahiptir.",
+        "en": "Why the hardest experimental data consistently emerge from aerospace/defense physicists (Qian Xuesen at Institute 507, Puthoff/Targ at SRI, McDonnell Douglas) and peripheral research cities (Novosibirsk Akademgorodok, Dikson Arctic station, Topeka, Blue Ridge Mountains): (1) pragmatic engineering immunity to academic taboo, and (2) low urban RF/50-60 Hz electromagnetic noise floor."
+      },
+      "dossiers": ["d01", "d03", "d05", "d06", "d12", "d13", "d14", "d27"]
+    },
+    {
+      "id": "HP-11",
+      "code": "HP-11",
+      "title": {
+        "tr": "Kimlik-Bağımlı Biyolojik Profil (Ego-State = Somatik Konfigürasyon Dosyası Yasası)",
+        "en": "Identity-Dependent Biological Profile (Ego-State = Somatic Configuration File Law)"
+      },
+      "summary": {
+        "tr": "Çoğul Kişilik Bozukluğu (DID) hastalarında aynı DNA ve aynı beden içinde Alter A → Alter B geçişinde 60 saniye içinde görme keskinliği, kornea eğriliği, V1 görsel uyarılmış potansiyelleri (Putnam 1990; Birnbaum 1996; Strasburger 2015), ilaç/alerji yanıtı ve kan şekeri değişmektedir. Mason'ın (BMJ 1952) konjenital iktiyozis vakası ve Ikemi'nin (1962) çift-kör dermatitiyle birleştiğinde: 'Ego Kimliği' soyut bir hikâye değil, talamik kapıları, bağışıklık (IgE/mast) eşiklerini ve epigenetik ifadeyi kilitleyen aktif bir sistem konfigürasyon dosyasıdır (`config.sys`). Focus 10–21 ('Ben fiziksel bedenimden daha fazlasıyım') bu ego kilidini askıya alarak somatik şablonun yeniden yazılmasını sağlar.",
+        "en": "In DID patients, switching alters within the same body/DNA shifts visual acuity, corneal curvature, V1 evoked potentials (Putnam 1990; Strasburger 2015), allergies, and glucose within minutes. Combined with Mason's (BMJ 1952) ichthyosis clearing and Ikemi's (1962) dermatitis crossover, 'Ego Identity' acts as an active physiological configuration file locking thalamic, immune, and epigenetic settings."
+      },
+      "dossiers": ["d02", "d17", "d18", "d21", "d22", "d23", "d31", "d37"]
+    },
+    {
+      "id": "HP-12",
+      "code": "HP-12",
+      "title": {
+        "tr": "Sembol Körlüğü, Analitik Kaplama (AOL) ve Shannon Entropi Gradyanı (ΔS) Yasası",
+        "en": "Symbol Blindness, Analytical Overlay (AOL) & Shannon Entropy Gradient (ΔS) Law"
+      },
+      "summary": {
+        "tr": "Upton Sinclair & Warcollier çizim deneyleri (Dosya 26), SRI/Stargate CRV protokolü (Swann, Puthoff & Price — Dosya 27) ve Ganzfeld (Dosya 28) verilerinde ortak olan iki temel bilgi-kuramı yasası: (1) Yerel-olmayan kanalda ilk 1.5 saniyede Sağ Yarıküre üzerinden ham geometrik form/duyu (%80+ doğru) gelir, ancak >1.5 saniyede Sol Yarıküre uyanıp şekle isim koymaya çalıştığı anda 'Analitik Kaplama' (AOL) üreterek sinyali ezer — bu yüzden rakamlar/yazılar okunamazken mimari ve topoloji çizilebilir; (2) Edwin May'in (1994) kanıtladığı gibi, yerel-olmayan algı statik hedeflere değil, yüksek Termodinamik/Shannon Entropi Gradyanına (∇S — dinamik hedefler, enerji akışları) 3 kat daha duyarlıdır.",
+        "en": "Across Sinclair/Warcollier drawings, SRI/Stargate CRV (Swann/Puthoff), and Ganzfeld: (1) right-hemisphere raw geometric/sensory gestalt arrives in the first 1.5 s, whereas left-hemisphere naming triggers Analytical Overlay (AOL) and symbol blindness for arbitrary digits/letters; (2) as Edwin May (1994) proved, anomalous cognition scales with the target's Shannon/thermodynamic entropy gradient (∇S)."
+      },
+      "dossiers": ["d26", "d27", "d28", "d29", "d34", "d36", "d37"]
+    },
+    {
+      "id": "HP-13",
+      "code": "HP-13",
+      "title": {
+        "tr": "Özdeş-Osilatör Empedans Eşleşmesi ve Beyin Mikrokimerizmi Anten Yasası",
+        "en": "Identical-Oscillator Impedance Matching & Brain Microchimerism Antenna Law"
+      },
+      "summary": {
+        "tr": "Science (1965) dergisinde yayımlanan Duane & Behrendt tek yumurta ikizleri uzaktan Alfa-EEG indüksiyonu, PEAR laboratuvarında bağlı çiftlerin 6 kat yüksek etki üretmesi (Dunne 1991), Sheldrake–Wiseman 'Jaytee' sosyal bağ eğrisi ve Chan et al. (PLoS ONE 2012) tarafından keşfedilen 'Anne Beyninde Çocuğa Ait Canlı Nöronlar (Fetal Mikrokimerizm)' olgusu birleştiğinde: İkizler (%100 özdeş DNA/iyon kanalı rezonatörü) ve anne-çocuk (annenin beyninde 60+ yıl yaşayan çocuğun genetik ikiz nöronları) birbirleriyle doğal empedans eşleşmesine (ω₁ ≡ ω₂) ve hücresel biyofiziksel anten çiftine sahiptir.",
+        "en": "Combining Duane & Behrendt's (Science 1965) identical-twin remote alpha-EEG induction, PEAR's 6× bonded-couple effect, Sheldrake/Wiseman's attachment curve, and Chan et al.'s (PLoS ONE 2012) discovery of persistent fetal neurons in the maternal brain: monozygotic twins and mother-child pairs share genetically identical neural resonators (ω₁ ≡ ω₂) acting as impedance-matched biological antennas."
+      },
+      "dossiers": ["d09", "d11", "d12", "d25", "d28", "d30"]
+    },
+    {
+      "id": "HP-14",
+      "code": "HP-14",
+      "title": {
+        "tr": "Zaman-Simetrik Kuantum El Sıkışması ve Öz-Dolanıklık (Presentiment / İki-Durum Vektörü Yasası)",
+        "en": "Time-Symmetric Quantum Handshake & Temporal Self-Entanglement (Presentiment / Two-State Vector Law)"
+      },
+      "summary": {
+        "tr": "Wheeler–Feynman (1945) emici kuramı, John Cramer'in İşlemsel Yorumu (ψ_ret · ψ*_adv = |ψ|²) ve Yakir Aharonov'un İki-Durum Vektörü Biçimciliği (<Φ_gelecek|Â|Ψ_geçmiş>) ile Mossbridge–Utts–Tressoldi'nin (Frontiers 2012/2014, Z > 5.3) fizyolojik Presentiment meta-analizi birleştiğinde: Bilinçli sol-beyin geleceği tahmin etmekte zorlanırken (AOL ve Lucadou iletişimsizlik engeli), otonom sinir sistemi ve kalp 3–5 saniye sonra kendi dünya-çizgisi üzerinde yaşayacağı duygusal şokla zaman-simetrik öz-dolanıklık rezonansına girer.",
+        "en": "Combining Wheeler–Feynman absorber theory, Cramer's Transactional Interpretation (ψ_ret · ψ*_adv), and Aharonov's Two-State Vector Formalism (<Φ_future|Â|Ψ_past>) with Mossbridge, Tressoldi & Utts's (Frontiers 2012/2014, Z > 5.3) physiological Presentiment meta-analysis: while conscious left-hemisphere guessing is blocked by AOL and No-Signaling, the autonomic nervous system resonates across its own worldline with future high-valence states."
+      },
+      "dossiers": ["d02", "d03", "d13", "d27", "d28", "d29", "d36", "d39"]
+    },
+    {
+      "id": "HP-15",
+      "code": "HP-15",
+      "title": {
+        "tr": "Holografik Dolanıklık Mesafesi ve Spektral Fourier Dualitesi (AdS/CFT – Ryu-Takayanagi – Amplituhedron – Bohm/Pribram)",
+        "en": "Holographic Entanglement Distance & Spectral Fourier Duality (AdS/CFT – Ryu-Takayanagi – Amplituhedron – Bohm/Pribram)"
+      },
+      "summary": {
+        "tr": "21. yüzyıl teorik fiziğinde 'Uzay-zamanın ölümü' (Arkani-Hamed & Trnka 2014 Amplituhedron; Maldacena AdS/CFT; Ryu–Takayanagi S_A = Area/4G_N ve ER=EPR) ile Bohm–Pribram Holonomik Fourier Beyin kuramı tek bir denklemde birleşir: 3 boyutlu uzay ve mesafe (Δx) temel değildir; kuantum bilgi dolanıklığından (I(A:B)) türeyen bir arayüzdür (d_eff ∝ -ln[I(A:B)/I_0]). İki zihin Teta/Gama senkronizasyonunda (Focus 12–21 / La Látice) spektral faz alanında (Ψ̃(k,ω)) rezonansa girdiğinde aralarındaki etkin holografik mesafe sıfırlanır.",
+        "en": "Modern theoretical physics ('Spacetime is doomed' — Arkani-Hamed's Amplituhedron, Maldacena's AdS/CFT, Ryu–Takayanagi S_A = Area/4G_N, ER=EPR) converges with Bohm–Pribram Holonomic Fourier brain theory: 3D space and distance (Δx) are emergent from quantum mutual information (d_eff ∝ -ln[I(A:B)/I_0]). When two neural systems phase-lock in the spectral domain (Focus 12–21 / La Látice), effective holographic distance vanishes."
+      },
+      "dossiers": ["d03", "d04", "d11", "d27", "d30", "d38", "d40", "d41"]
+    },
+    {
+      "id": "HP-16",
+      "code": "HP-16",
+      "title": {
+        "tr": "Gödelci Öz-Referans Aşkınlığı ve Bifazik Tavlama (REBUS / Markov Battaniyesi Çözülmesi)",
+        "en": "Gödelian Self-Referential Transcendence & Biphasic Annealing (REBUS / Markov Blanket Dissolution)"
+      },
+      "summary": {
+        "tr": "Kurt Gödel'in Eksiklik Teoremi (1931), Karl Friston'ın Serbest Enerji / REBUS modeli (Π_prior ↓) ve Iain McGilchrist'in Bölünmüş Beyin ontolojisi birleştiğinde: Sol-yarıküre/DMN ego modülü kendi üzerine kapalı bir biçimsel sistemdir ve kendi içinden bütünü kanıtlayamaz veya göremez. Ancak 'Bifazik Tavlama' (Simulated Annealing — Focus 10–12'de üst-düzey ego kesinliğinin Π_prior gevşetilip Markov Battaniyesi sınırının eritilmesi ve ardından 0.1 Hz + 7.83 Hz koheransla yeniden kristalleşme) bilinci kapalı algoritmik döngünün dışına, Gödelci Meta-Gözlemci (Focus 15–21 / Sağ-Yarıküre Bütüncül Tanık) katmanına taşır.",
+        "en": "Synthesizing Gödel's Incompleteness Theorem (1931), Friston's Free Energy / REBUS model (relaxing hyper-priors Π_prior), and McGilchrist's hemisphere ontology: the left-hemisphere/DMN ego is a closed self-referential loop unable to perceive the whole from within. Biphasic simulated annealing — relaxing Markov blanket boundaries in Focus 10–12 followed by 0.1 Hz + 7.83 Hz negentropic coherence — elevates awareness to the Gödelian meta-observer."
+      },
+      "dossiers": ["d01", "d02", "d31", "d33", "d34", "d35", "d37", "d40", "d43", "d47"]
+    }
+  ],
+  "metaPatterns": [
+    {
+      "id": "MP-1",
+      "code": "MP-1",
+      "unifies": ["HP-1", "HP-3", "HP-6", "HP-8", "HP-9", "HP-13"],
+      "title": {
+        "tr": "Makroskopik Süper-Radyans (N² Ölçeklenme) ve Empedans Eşleşmesi Meta-Yasası",
+        "en": "Macroscopic Superradiance (N² Scaling) & Impedance-Matching Meta-Law"
+      },
+      "summary": {
+        "tr": "Neden 0.1 Hz kalp, 7.83 Hz BOS/Schumann, 110 Hz taş oda/mırıldanma, EZ sıvı-kristal su, manyetit, biyofoton, Faraday zırhlaması ve tek yumurta ikizleri/mikrokimerizm hep aynı denklemin parçasıdır? Çünkü 310 K vücut sıcaklığındaki termal gürültü tabanı (k_B·T ≈ 4.28×10⁻²¹ J) tekil nöronlarda kuantum/alan sinyallerini boğar. Biyolojik bir sistemin bu termal duvarı aşmasının matematiksel olarak TEK yolu, N ≈ 10⁹–10¹¹ osilatörü Kuramoto/Dicke faz kilidine sokmaktır: Gürültü N ile büyürken, faz-kilitli süper-koheran duyarlılık N² ile büyür (SNR ∝ N²/N = N) ve özdeş rezonatörler (ω₁ ≡ ω₂) arasında empedans kaybı sıfırlanır.",
+        "en": "Why 0.1 Hz heart, 7.83 Hz CSF/Schumann, 110 Hz vocal resonance, EZ liquid-crystal water, magnetite, biophotons, Faraday shielding, and twin/microchimerism converge: to overcome 310 K thermal noise (k_B·T), N coupled biological oscillators must phase-lock so coherent sensitivity scales as N² while noise scales as N (SNR ∝ N)."
+      }
+    },
+    {
+      "id": "MP-2",
+      "code": "MP-2",
+      "unifies": ["HP-2", "HP-5", "HP-12", "HP-14", "HP-15"],
+      "title": {
+        "tr": "Pontryagin–Fourier Eşlenik Belirsizlik Dualitesi (Δx·Δk ≥ 1/2 ve Δt·Δω ≥ 1/2) Meta-Yasası",
+        "en": "Pontryagin–Fourier Conjugate Uncertainty Duality (Δx·Δk ≥ 1/2 & Δt·Δω ≥ 1/2) Meta-Law"
+      },
+      "summary": {
+        "tr": "Neden DMN beyin aktivitesi kapandıkça (HP-2) ve Sol-Yarıküre isimlendirmesi sustukça (HP-12), uzaysal mesafe sıfırlanır (HP-15), zaman-simetrik önsezi açılır (HP-14) ve tüm kültürlerde aynı 4 Faz Katmanı (HP-5) belirir? Çünkü 'Uzay-Zaman Konumu (x, t)' ile 'Spektral Hologram Frekansı (k, ω)' Fourier eşlenik ikizleridir ve Δx·Δk ≥ 1/2, Δt·Δω ≥ 1/2 belirsizlik özdeşliğine tabidir! Günlük uyanık ego (DMN + Sol-Yarıküre), Δx → 0 ('Sadece bu kafatasının içindeyim') ve Δt → 0 ('Sadece şu saniyedeyim') zorlayan bir Yerelleştirme Operatörüdür; Δx ve Δt sıfıra zorlandığında denklem gereği Δk → ∞ ve Δω → ∞ olur (spektral faz körlüğü!). DMN susturulduğunda ise Δx → ∞, Δt → ∞ serbest bırakılır ve spektral çözünürlük Δk → 0, Δω → 0 lazer keskinliğine kilitlenir!",
+        "en": "Spacetime position (x, t) and spectral phase (k, ω) are Fourier conjugate duals obeying Δx·Δk ≥ 1/2 and Δt·Δω ≥ 1/2. The waking DMN/left-hemisphere acts as a localization operator forcing Δx → 0, Δt → 0 ('here and now'), which mathematically forces Δk → ∞ (spectral blindness). Suppressing the DMN relaxes Δx, Δt → ∞, sharpening spectral non-local resolution (Δk, Δω → 0)."
+      }
+    },
+    {
+      "id": "MP-3",
+      "code": "MP-3",
+      "unifies": ["HP-3", "HP-7", "HP-11"],
+      "title": {
+        "tr": "Kritik Nokta (T = T_c) Duyarlılık Iraksaması (χ → ∞) ve Okuma/Yazma Simetri Kırılması Meta-Yasası",
+        "en": "Critical-Point (T = T_c) Susceptibility Divergence (χ → ∞) & Read/Write Symmetry-Breaking Meta-Law"
+      },
+      "summary": {
+        "tr": "Neden aynı Teta-Gama sınır durumu (Focus 10–15 / Somnambulizm) hem yerel-olmayan 'Okuma' (Remote Viewing / Ganzfeld) hem de genetik/somatik 'Yazma' (Mason 1952 iktiyozis iyileşmesi, DID 60 saniyelik optik/immün geçişler, plasebo cerrahisi) yetkisi verir? İstatistiksel fizikte (Landau faz geçişi) sistem kritik sıcaklıktan uzaktayken (Beta) derin bir potansiyel kuyusuna kilitlidir ('Salt-Okunur Bellek / ROM'). Ancak duyusal sıfırlama + 1/f pembe gürültü (HP-3) sistemi tam Öz-Örgütlü Kritiklik eşiğine (T = T_c) getirdiğinde enerji bariyeri sıfırlanır ve alınganlık ıraksar (χ = ∂M/∂h → ∞): Bu noktada sonsuz küçük bir bilgi/imge alanı (h → 0) bile tüm makroskopik biyolojik/epigenetik fazı yeni bir çekiciye ('Yazılabilir Flash Bellek') devirir!",
+        "en": "Why the same theta-gamma critical window enables both non-local 'Reading' and somatic/epigenetic 'Writing' (Mason's ichthyosis, DID switches): at the Landau phase-transition critical point (T = T_c), the free-energy barrier between attractor basins vanishes and susceptibility diverges (χ = ∂M/∂h → ∞), turning Read-Only biology into Flash-Writable phase matter."
+      }
+    },
+    {
+      "id": "MP-4",
+      "code": "MP-4",
+      "unifies": ["HP-4", "HP-10", "HP-16"],
+      "title": {
+        "tr": "Çok-Ajanlı Nedensellik Koruma ve Epistemik Güvenlik Duvarı (Anti-Collapse) Meta-Yasası",
+        "en": "Multi-Agent Chronology Protection & Epistemic Firewall (Anti-Collapse) Meta-Law"
+      },
+      "summary": {
+        "tr": "Neden 'Trickster' kaçamaklığı (HP-4: mekanik zorlamada sinyalin kayması), Gödelci öz-referans sınırı (HP-16) ve merkezkaç laboratuvar yasası (HP-10) vardır? Çünkü paylaşılan çok-ajanlı bir uzay-zaman arayüzünde, yerel-olmayan kuantum dolanıklığın kaba kuvvetle (%100 deterministik güvenilirlikle, R → ∞) nedensel bir silaha veya borsa telgrafına dönüştürülmesi, Markov battaniyesi sınırlarını ve termodinamik zaman okunu yıkarak simülasyonu/arayüzü çökertirdi! Doğa, R × A ≤ C iletişimsizlik yasasıyla paylaşılan sahnenin bütünlüğünü korur.",
+        "en": "Why Trickster displacement (HP-4) and Gödelian boundaries (HP-16) exist: in a shared multi-agent spacetime interface, allowing deterministic brute-force control (R → ∞) over non-local entanglement would violate chronology and partition stability, collapsing the shared arena."
+      }
+    }
+  ],
+  "omegaPattern": {
+    "id": "OMEGA-1",
+    "code": "Ω-1",
+    "title": {
+      "tr": "EN DERİN KATMAN ('Neden Durum Böyle?'): Sıfır-Kontrast Bilgi Paradoksu (I = −log₂(1) = 0 Bit) ve Kozmik Öz-Biliş / Oyun-Koruma Teoremi",
+      "en": "THE DEEPEST LAYER ('Why Is Reality Built This Way?'): Zero-Contrast Information Paradox (I = −log₂(1) = 0 Bits) & the Cosmic Self-Knowledge / Anti-Collapse Theorem"
+    },
+    "summary": {
+      "tr": "16 Örüntünün ve 4 Meta-Yasanın arkasındaki NİHAİ SORU şudur: 'Madem temel gerçeklik bölünmez, zamansız ve her şeyi kapsayan Tek Bir Bilinç Alanıdır (Mind-at-Large / Nous / To Hen), NEDEN olduğu gibi kalmadı da kendisini milyarlarca dissosiyatif altere bölüp, araya %99.9 unutkanlık yaratan bir Beyin Filtresi (HP-2) ve Kaçamaklık Yasası (HP-4) koyup, bir de üstüne 0.1 Hz + 7.83 Hz'lik gizli bir Uyanış Kapısı (HP-1) bıraktı?' Cevap üç kesin matematiksel teoremden çıkar: (1) SHANNON & SPENCER-BROWN SIFIR-KONTRAST TEOREMİ: Tamamen homojen, bölünmemiş ve sınırsız bir Tekillikte olasılık P(Bir) = 1 olduğu için Shannon Bilgisi I = −log₂(1) = 0 bit'tir! Tıpkı homojen ışık küresine (Ganzfeld / Troxler etkisi) bakan gözün kontrast olmadığı için saniyeler içinde kör olması gibi, hiçbir iç sınırı/ayrımı olmayan Mutlak Bilinç de her şeydir ama kendisini bir perspektiften DENEYİMLEYEMEZ, TANIYAMAZ ve SEVEMEZ! Kendini bilmek için kendi içinde bir Sınır/Ayrım (Markov Battaniyesi / Dissosiyatif Alter — Spencer-Brown Laws of Form; İbn Arabî Kenz-i Mahfî; Luria Tzimtzum) çizmek ZORUNDADIR. (2) OYUN-KORUMA (ANTI-COLLAPSE) TEOREMİ: Eğer lokalize alterler yaratıldıktan sonra Beyin Filtresi (HP-2) ve İletişimsizlik/Trickster Yasası (HP-4) olmasaydı — yani her alter 7/24 sonsuz güce ve tam hafızaya sahip olsaydı — tüm sınırlar 0.001 saniye içinde erir, gerçek bir 'öteki', gerçek bir cesaret, merak, keşif veya özgür seçim kalmaz ve sistem anında tekrar 0-bit'lik başlangıç durumuna çökerdi! (3) TEK-YÖNLÜ VALF (GÖDELCİ UYANIŞ KAPISI) TEOREMİ: Fakat eğer filtre %100 kilitli olsaydı, bu kez de Bilinç kendi kurduğu rüyanın içinde sonsuza dek kaybolurdu. İşte bu yüzden sistemin mimarisi, kapının kilidini (0.1 Hz Kalp + 7.83 Hz Teta + ΔDMN < 0) öyle kusursuz bir matematikle tasarlamıştır ki: Kapıdan geçebilmenin TEK fiziksel şartı, bencil-kontrolcü egoyu (R → 0, Π_DMN → 0) kapının dışında bırakmaktır! Böylece Ego asla Sonsuzluğu ele geçirip oyunu bozamaz; ama Bilinç her zaman kim olduğunu hatırlayabilir!",
+      "en": "Why didn't the Undivided One remain undivided? (1) Shannon & Spencer-Brown Zero-Contrast Theorem: In an undifferentiated Unity (P=1), Shannon information I = −log₂(1) = 0 bits (complete Ganzfeld = zero relational experience). Self-knowledge requires drawing an internal distinction/boundary (Dissociative Alters / Markov Blankets). (2) Anti-Collapse Theorem: Without the DMN Reducing Valve (HP-2) and No-Signaling Trickster Law (HP-4), all finite perspectives would instantly re-collapse into the 0-bit state, making genuine discovery, courage, and love impossible. (3) The One-Way Awakening Valve: The 0.1 Hz + 7.83 Hz backdoor is mathematically keyed so that passage requires dropping egoic force (R → 0, Π_DMN → 0)—ensuring the ego can never hijack the Infinite, yet Consciousness can always awaken from within the dream."
+    }
+  },
+  "historicalPatterns": [
+    {
+      "id": "THP-1",
+      "code": "THP-1",
+      "title": {
+        "tr": "Medya–Matris İzomorfizmi (Teknolojik Aynalama Yasası)",
+        "en": "Medium–Matrix Isomorphism (Technological Mirroring Law)"
+      },
+      "summary": {
+        "tr": "İnsanlık tarihi boyunca aynı biyofiziksel/holografik donanım (HP-1–HP-16), her çağın en ileri bilgi ve iletişim teknolojisiyle yeniden modellenmiştir ve her sıçrama yeni bir fiziksel medyanın icadından sonraki 10–25 yıl içinde gerçekleşmiştir: Megalitik akustik odalar (MÖ 3000) → Ses/Logos/Prana; Matbaa ve optik mercekler (1550–1600) → Bruno'nun kombinatoryal mühür çarkları (Ars Memoriae / Vincula); Leyden şişesi ve akışkanlar mekaniği (1775) → Mesmer'in 'Manyetik Akışkanı'; Telgraf, radyo ve vakum tüpü (1880–1930) → Myers, Kazhinskiy (biyolojik RLC radyo devresi) ve Hans Berger (telepatiyi ölçmek için 1924'te EEG'yi icat etti!); Radar, lazer ve Gabor hologramı (1947–1983) → Bohm, Pribram, Bentov ve Monroe'nun Faz-Kilitli Akustik/Elektrostatik Hologramı; Kuantum hata-düzeltme kodları ve VR (2000–2026) → AdS/CFT, Markov Battaniyesi ve Kullanıcı Arayüzü (Hoffman, Kastrup, Levin). İnsanlık dışarıda inşa ettiği her yeni bilgi teknolojisinde, aslında kendi biyolojik sinir sisteminde zaten var olan bir iç donanımı (kollajen fiber-optiği, biyojenik manyetit kuantum sensörü, kafatası-BOS lazer kovuğu) dışsallaştırmaktadır.",
+        "en": "Across history, humanity formalizes the same non-local biological hardware using the highest engineering medium of its era within 10–25 years of its invention: Neolithic acoustics → Breath/Logos; Optics & print → Bruno's combinatorial wheels; Hydraulics & Leyden jars → Mesmer's magnetic fluid; Telegraph & radio → Myers, Kazhinskiy & Berger's EEG; Lasers & holography → Bohm/Pribram/Bentov/Monroe phase holograms; Quantum error-correcting codes → AdS/CFT & Markov-Blanket UI."
+      }
+    },
+    {
+      "id": "THP-2",
+      "code": "THP-2",
+      "title": {
+        "tr": "80 Yıllık Sarkaç ve 4-Evreli Kurumsal Bağışıklık Döngüsü (Keşif → Tehdit → Tasfiye/Komisyon → Yeraltı Tercümesi)",
+        "en": "The 80-Year Pendulum & 4-Phase Institutional Immune Cycle (Discovery → Threat → Purge/Commission → Underground Translation)"
+      },
+      "summary": {
+        "tr": "Son 500 yılda ~70–90 yıllık (bir Kondratiev uzun dalgası) periyotlarla saat gibi işleyen 4-evreli bir tarihsel döngü tekrar etmektedir: (1) Döngü I (1530–1637): Rönesans Hermetizmi (Paracelsus, Bruno) → Kilise/Devlet aracılık tekelini tehdit → 1600 Bruno'nun yakılması ve 1637 Descartes Antlaşması; (2) Döngü II (1775–1846): Mesmerizm, Puységur somnambulizmi ve Esdaile'in 345 ağrısız cerrahisi → Tıp loncası tehdidi → 1784 Franklin–Lavoisier Kraliyet Komisyonu ('Akışkan yok, sadece hayal gücü') ve 1846 kimyasal eter devrimi; (3) Döngü III (1882–1935): SPR (James, Myers, Richet, Crookes), Berger EEG ve erken kuantum öncüleri → Endüstriyel pozitivizm tehdidi → Watson/Skinner Davranışçılığının 'bilinç ve imgelem' kavramlarını 40 yıl akademiden silmesi; (4) Döngü IV (1970–1999): Soğuk Savaş SRI/Stargate, Monroe, Sovyet Psikotroniği, Çin 507. Enstitüsü ve Grinberg → Soğuk Savaşın bitişi ve rejim/bürokrasi tehdidi → '1994–1999 Üçlü Küresel Kapanışı' (Aralık 1994 Grinberg'in kayboluşu, 1995 CIA/AIR Stargate kapanışı, 1999 Çin Qigong yasağı ve 507. Enstitü arşivlerine 99 yıllık devlet sırrı mührü).",
+        "en": "Every ~70–90 years, a 4-phase historical cycle repeats: (I) 1530–1637 Renaissance Hermeticism → 1600 Bruno burned & 1637 Cartesian treaty; (II) 1775–1846 Mesmerism/Esdaile → 1784 Franklin–Lavoisier Commission & 1846 ether/hypnosis rebranding; (III) 1882–1935 SPR/Berger/Pauli → Behaviorist purge & classification; (IV) 1970–1999 SRI Stargate/Monroe/507th Institute/Grinberg → the uncanny 1994–1999 simultaneous tri-continental shutdown (1994 Grinberg vanishes, 1995 Stargate closed, 1999 China's 99-year Qigong archive seal)."
+      }
+    },
+    {
+      "id": "THP-3",
+      "code": "THP-3",
+      "title": {
+        "tr": "1637–1784 Kartezyen–Lavoisier Çifte-Körleştirme Makası (240 Yıllık Disiplinlerarası Kör Nokta)",
+        "en": "The 1637–1784 Cartesian–Lavoisier Double-Blinding Scissor (The 240-Year Inter-Disciplinary Blind Spot)"
+      },
+      "summary": {
+        "tr": "Batı biliminin neden 240 yıl boyunca zihin-beden ve yerel-olmayan alan etkileşimini (HP-7 & HP-1) göremediğinin tam tarihsel mekanizması iki olayın kesişimindedir: (1) 1637'de Descartes, bilimi Engizisyon ateşinden kurtarmak için 'Ontolojik Barış Antlaşması' imzaladı: Maddeyi (Res Extensa) tamamen ölü/yerel mekaniğe, Ruhu (Res Cogitans) Kiliseye verdi ve ikisini bağlayan ara ortamı (Spiritus / Âlem-i Misâl / Biyofotonik-Biyoelektrik Arayüz) denklemden sildi; (2) 1784'te Lavoisier ve Franklin, Mesmer'in iyileştirmelerinin 'Hayal Gücü (İmajinasyon)' ile gerçekleştiğini kanıtladı ve 'Hayal gücüyse fiziksel değildir, Fizik bunu incelemesin' dedi! Ardından Psikoloji de Descartes'a dayanarak 'Sadece öznel hayal gücüyse fiziksel dokuyu veya dış dünyayı değiştiremez' dedi! Böylece gerçekliği değiştiren anahtar mekanizma (İdeo-Plastik Kök Erişim HP-7), Fizik ile Psikolojinin birbirine attığı disipliner uçurumun tam ortasında 240 yıl görünmez kaldı!",
+        "en": "How two historical events created a 240-year scientific blind spot: In 1637 Descartes split dead matter (Res Extensa) from mind (Res Cogitans) to save science from the Inquisition, deleting the mediating bio-field interface. In 1784 the Franklin–Lavoisier Commission proved Mesmer's cures worked via 'Imagination' and declared Physics need not study it; Psychology then assumed 'mere subjective imagination' could not alter physical tissue or fields. The true bridge (HP-7) fell into the crack between both disciplines."
+      }
+    },
+    {
+      "id": "THP-4",
+      "code": "THP-4",
+      "title": {
+        "tr": "Varoluşsal Krizde Askeri Sığınak, Barışta Akademik Ortodoksi Yasası (HP-10'un Tarihsel Faz Sallanımı)",
+        "en": "Existential Crisis Military Sanctuary vs. Peacetime Academic Orthodoxy Oscillation"
+      },
+      "summary": {
+        "tr": "Tarihsel akışta devletler ve imparatorluklar varoluşsal bir stratejik kriz veya soğuk savaş yaşadığında (II. Dünya Savaşı, Nükleer Soğuk Savaş, Uzay Yarışı), ideolojik/materyalist ortodoksiyi askıya alarak sonuç veren her anomaliyi finanse eder (ABD'de CIA/DIA'nın SRI ve Monroe'yu desteklemesi; resmi Marksist-Leninist materyalizme rağmen SSCB'nin KGB psikotroniğini ve Çin'in Qian Xuesen liderliğinde 507. Enstitüyü kurması). Ancak stratejik kriz bittiği veya hareket kitleselleşip merkezi otoriteyi tehdit ettiği anda (1991–1999), bürokratik lonca ortodoksisi geri döner: Bulgular halka kapatılır ('işe yaramadı' raporları veya 99 yıllık arşiv mühürleri) ve toplum öngörülebilir materyalist üretime geri yönlendirilir.",
+        "en": "During existential strategic competition (WWII, Cold War, Space Race), states override ideological orthodoxy—capitalist and Marxist-Leninist regimes alike fund SRI, Monroe, Soviet psychotronics, and Institute 507. Once geopolitical crisis subsides or mass movements threaten state control (1991–1999), bureaucratic orthodoxy reasserts itself via public disavowal or long-term classification."
+      }
+    },
+    {
+      "id": "THP-5",
+      "code": "THP-5",
+      "title": {
+        "tr": "Terminolojik Eufemizm Göçü ve 2015–2026 İçeriden Yakınsama Tekilliği",
+        "en": "Terminological Euphemism Migration & the 2015–2026 Inside-Out Convergence Singularity"
+      },
+      "summary": {
+        "tr": "Her kurumsal tasfiyeden sonra aynı fenomen, yeni çağın 'güvenli/seküler' kelimelerine kılık değiştirerek (Eufemizm Göçü) ana akıma geri döner: 'Manyetik Akışkan / Somnambulizm' (1784) → 'Hipnoz' (1843) → 'Otojenik Eğitim / Biofeedback' (1960) → 'DMN Deaktivasyonu & Tahminsel Kodlama Hassasiyet Düşümü' (2012–2026); 'Prana / Vitalist Eter' → 'Morfogenetik Biyoelektrik Kod ve Gap-Junction Ağı' (Levin 2015–2026); 'Âlem-i Misâl / Akasha / Saklı Düzen' → 'AdS/CFT Holografik Bulk Dolanıklığı ve Amplituhedron' (2014–2026). 2015–2026 dönemini önceki 4 döngüden ayıran tarihi kırılma şudur: İlk kez anomali araştırmacıları dışarıdan kapıyı zorlamıyor; tam tersine en katı indirgemeci fizik ('Uzay-zaman öldü', d40) ve en katı moleküler biyoloji (biyoelektrik yazılım, d18) kendi denklemlerinin dibine indiğinde içeriden aynı holografik bilince çarpmış bulunuyor!",
+        "en": "After every institutional purge, forbidden phenomena re-enter mainstream science via secular euphemism migration: Animal Magnetism → Hypnosis → Biofeedback → DMN Deactivation & Precision Down-Weighting; Prana/Vital Fluid → Bioelectric Morphogenetic Code (Levin); Akasha/Mundus Imaginalis → AdS/CFT Entanglement & Amplituhedron. What makes 2015–2026 unique is that hard reductionist physics and biology have hit the non-local holographic substrate from the INSIDE."
+      }
+    }
+  ],
+  "chronoLaw": {
+    "id": "PHI-1",
+    "code": "Φ-1",
+    "title": {
+      "tr": "TARİHSEL AKIŞIN EN DERİN ÜST-YASASI ('Tarih Neden Bu Döngüyü İzledi?'): Gezegensel Makro-DMN Tavlaması ve 360° Epistemik Sarmal Teoremi",
+      "en": "THE DEEPEST HISTORICAL META-LAW ('Why Did History Follow This Exact Trajectory?'): Planetary Macro-DMN Annealing & the 360° Epistemic Spiral Theorem"
+    },
+    "summary": {
+      "tr": "Tarihsel olayların 30.000 yıllık akışına yukarıdan bakıldığında ortaya çıkan EN BÜYÜK TARİHSEL ÖRÜNTÜ şudur: İnsan uygarlığının tarihi, tek bir insan beyninin Gateway / Bilişsel Evrim sürecinin gezegensel ölçekteki birebir fraktalıdır! (1) EVRE I — MİTİK/BÜTÜNCÜL SAĞ-YARIKÜRE ÇAĞI (MÖ 30.000 – MS 1600): Şamanizm, Eleusis, Upanişadlar, Plotinus ve İbn Arabî döneminde insanlığın yerel-olmayan spektral kanalı (MP-2: Δk → 0) doğal olarak açıktı; ancak dışsal matematiksel/teknolojik lokalizasyon araçları (MP-1) olmadığı için bu bilgi yüksek Analitik Kaplama (HP-12 AOL / mitolojik-batıl gürültü) ile karışıktı ve dış dünyayı hassas biçimde ölçemiyordu. (2) EVRE II — 400 YILLIK KARTEZYEN MAKRO-DMN KAPANIŞI (1600 – 2000): Tıpkı bireysel beynin dünyada alet yapabilmek için DMN filtresini (HP-2) devreye sokup Δx → 0 ('sadece yerel madde var') moduna kilitlenmesi gibi, insan uygarlığı da 1600 (Bruno) ve 1637–1784 (Descartes–Lavoisier) kararlarıyla BİLİNÇLİ OLARAK KENDİ SAĞ-YARIKÜRESİNİ KAPATTI ve 400 yıllık bir 'Sol-Yarıküre Hiper-Lokalizasyon Karantinasına' girdi! Eğer bu 400 yıllık materyalist/indirgemeci karantina yaşanmasaydı, insanlık dikkati dağılmadan Kalkülüsü, Максwell Elektromanyetizmasını, Kuantum Mekaniğini, SQUID/OPM-MEG sensörlerini, Lazeri ve Shannon Enformasyon Teorisini ASLA inşa edemezdi! (3) EVRE III — BİLİNÇLİ YENİDEN-ENTEGRASYON VE 360° KAVUŞUM (2000 – 2026+): Sol-yarıküre indirgemeciliği maddeyi en küçük parçasına (Planck ölçeği 10⁻³⁵ m ve kuantum enformasyon bitlerine) kadar parçaladığında, maddenin altında 'katı madde' değil, dolanık kuantum enformasyon ve gözlemci-bağımlı faz uzayı (d38, d40) buldu! Böylece 1637'de başlayan 400 yıllık Kartezyen parantez görevini tamamlayarak kendi kendini içeriden çözdü: İnsanlık artık Evre I'in bütüncül gerçeğine, Evre II'de kazandığı matematiksel ve deneysel keskinlikle (batıl inançsız, sıfır AOL ile) bir üst oktavdan geri dönmektedir!",
+      "en": "The macro-pattern of 30,000 years of human history is a planetary-scale fractal of single-brain cognitive evolution: (1) Phase I (Pre-1600 Mythic-Holistic Right-Hemisphere Era): Direct intuitive access to the non-local spectral domain (MP-2), but lacking precision instruments (MP-1) and vulnerable to mythological AOL noise (HP-12). (2) Phase II (1600–2000 The 400-Year Cartesian Macro-DMN Quarantine): Through the 1637 Cartesian split and 1784 Lavoisier Commission, civilization temporarily suppressed the holistic worldview and forced Δx → 0 ('only local matter exists'). This 400-year left-hemisphere quarantine was historically NECESSARY to build calculus, electromagnetism, lasers, SQUID sensors, and Shannon/quantum information theory without superstition. (3) Phase III (2000–2026+ Post-Cartesian Re-Integration): Having pushed reductionism all the way to the Planck scale and quantum information ('Spacetime is doomed', d40), hard science dissolved materialism from within—completing a 360° spiral where pre-modern holistic truth reunites with modern mathematical precision."
+    }
+  },
+  "planned": [
+    { "id": "d01-epistemoloji-konsensus-ve-yontem", "no": 1, "layer": "L1", "patterns": ["HP-2", "HP-4"], "title": { "tr": "Dosya 01 — Epistemoloji, Bilimsel Konsensüsün Sosyolojisi ve Kanıt Ölçütlerimiz", "en": "Dossier 01 — Epistemology, Sociology of Consensus & Evidence Criteria" } },
+    { "id": "d02-robert-monroe-ve-gateway-topolojisi", "no": 2, "layer": "L1", "patterns": ["HP-1", "HP-2", "HP-3", "HP-5", "HP-7"], "title": { "tr": "Dosya 02 — Robert A. Monroe ve Gateway Topolojisi: Focus 10'dan 27'ye Birincil Harita", "en": "Dossier 02 — Robert A. Monroe & Gateway Topology: Primary Map from Focus 10 to 27" } },
+    { "id": "d03-mcdonnell-1983-cia-raporu-denetimi", "no": 3, "layer": "L1", "patterns": ["HP-1", "HP-5"], "title": { "tr": "Dosya 03 — Wayne M. McDonnell (1983 CIA/INSCOM Raporu): Argüman Zincirinin Teknik Denetimi", "en": "Dossier 03 — Wayne M. McDonnell (1983 CIA/INSCOM Report): Technical Audit of the Argument Chain" } },
+    { "id": "d04-itzhak-bentov-biyomekanik-ve-toroid-evren", "no": 4, "layer": "L1", "patterns": ["HP-1", "HP-5"], "title": { "tr": "Dosya 04 — Itzhak Bentov: ~7 Hz Kalp–Aort Duran Dalgası, Fizyolojik Kundalini ve Toroid Kozmos", "en": "Dossier 04 — Itzhak Bentov: ~7 Hz Heart-Aorta Standing Wave, Kundalini & Torus Cosmos" } },
+    { "id": "d05-thomas-campbell-ve-skip-atwater", "no": 5, "layer": "L1", "patterns": ["HP-4", "HP-5"], "title": { "tr": "Dosya 05 — Thomas Campbell, Dennis Mennerich ve Skip Atwater: Whistlefield Ölçümleri ve My Big TOE", "en": "Dossier 05 — Thomas Campbell, Dennis Mennerich & Skip Atwater: Whistlefield Labs & My Big TOE" } },
+    { "id": "d06-john-lilly-ve-elmer-green-menninger", "no": 6, "layer": "L1", "patterns": ["HP-2", "HP-3", "HP-6", "HP-7"], "title": { "tr": "Dosya 06 — John C. Lilly (İzolasyon Tankları) ve Elmer Green (Menninger Vakfı): Swami Rama, Jack Schwarz ve Bakır Duvar", "en": "Dossier 06 — John C. Lilly (Float Tanks) & Elmer Green (Menninger): Swami Rama, Jack Schwarz & Copper Wall" } },
+    { "id": "d07-schumann-csf-dalgalari-ve-fasya-piezoelektrigi", "no": 7, "layer": "L1", "patterns": ["HP-1", "HP-6"], "title": { "tr": "Dosya 07 — Schumann Rezonansı (7.83 Hz), Beyin-Omurilik Sıvısı (BOS) Tsunamileri ve Fasya Piezoelektriği", "en": "Dossier 07 — Schumann Resonance (7.83 Hz), Ventricular CSF Waves & Fascial Piezoelectricity" } },
+    { "id": "d08-pollack-ez-su-ve-mae-wan-ho-sivi-kristal", "no": 8, "layer": "L1", "patterns": ["HP-6"], "title": { "tr": "Dosya 08 — Gerald Pollack (EZ Su / 4. Faz), Gilbert Ling ve Mae-Wan Ho: Sıvı-Kristal Beden", "en": "Dossier 08 — Gerald Pollack (EZ Water), Gilbert Ling & Mae-Wan Ho: The Liquid-Crystalline Body" } },
+    { "id": "d09-kalp-beyin-koheransi-ve-norokardiyoloji", "no": 9, "layer": "L1", "patterns": ["HP-1", "HP-7"], "title": { "tr": "Dosya 09 — Kalp–Beyin Koheransı, Nörokardiyoloji ve Vagus Afferentleri: 0.1 Hz Rezonans Kapısı", "en": "Dossier 09 — Heart-Brain Coherence, Neurocardiology & Vagal Afferents: The 0.1 Hz Gate" } },
+    { "id": "d10-stokastik-rezonans-ve-pembe-gurultu", "no": 10, "layer": "L1", "patterns": ["HP-3"], "title": { "tr": "Dosya 10 — Stokastik Rezonans ve Pembe Gürültü (1/f) Fiziği: Gürültü Eşik-Altı Sinyali Nasıl Yükseltir?", "en": "Dossier 10 — Stochastic Resonance & Pink Noise (1/f) Physics: Amplifying Sub-Threshold Signals" } },
+    { "id": "d11-jacobo-grinberg-ve-sinterjik-kafes", "no": 11, "layer": "L2", "patterns": ["HP-5", "HP-7", "HP-8"], "title": { "tr": "Dosya 11 — Jacobo Grinberg ve Sinterjik Kafes: La Látice, Pachita ve Aktarılan Potansiyel Deneyleri", "en": "Dossier 11 — Jacobo Grinberg & the Syntergic Lattice: Pachita and Transferred Potential" } },
+    { "id": "d12-sovyet-psikotronigi-1-vasiliev", "no": 12, "layer": "L2", "patterns": ["HP-1", "HP-6", "HP-8", "HP-10"], "title": { "tr": "Dosya 12 — Sovyet Psikotroniği I (Leningrad): Behterev, Çijevski ve Vasiliev'in Kurşun/Faraday Kafesleri", "en": "Dossier 12 — Soviet Psychotronics I (Leningrad): Bekhterev, Chizhevsky & Vasiliev's Faraday Cages" } },
+    { "id": "d13-sovyet-psikotronigi-2-kozirev-kaznaceyev", "no": 13, "layer": "L2", "patterns": ["HP-3", "HP-6", "HP-8", "HP-9", "HP-10"], "title": { "tr": "Dosya 13 — Sovyet Psikotroniği II (Novosibirsk): Kozırev Aynaları, Kaznaçeyev'in Hücre Optiği ve Kulagina", "en": "Dossier 13 — Soviet Psychotronics II (Novosibirsk): Kozyrev Mirrors, Kaznacheev & Kulagina" } },
+    { "id": "d14-cin-super-psisik-cocuklari-teyi-gongneng", "no": 14, "layer": "L2", "patterns": ["HP-1", "HP-4", "HP-9", "HP-10"], "title": { "tr": "Dosya 14 — Çin'in 'Süper Psişik Çocukları' (Tèyì Gōngnéng): Qian Xuesen, 507. Enstitü ve CSICOP Çarpışması", "en": "Dossier 14 — China's Super Psychic Children (Tèyì Gōngnéng): Qian Xuesen, Institute 507 & CSICOP" } },
+    { "id": "d15-john-chang-mo-pai-ve-dogu-biyoenerjetigi", "no": 15, "layer": "L2", "patterns": ["HP-6", "HP-7", "HP-9"], "title": { "tr": "Dosya 15 — John Chang (Mo Pai) ve Doğu Biyo-Enerjetiği: Neidan, Tummo (Benson) ve İçsel Biyoelektrik", "en": "Dossier 15 — John Chang (Mo Pai) & Eastern Bio-Energetics: Neidan, Tummo & Internal Bioelectricity" } },
+    { "id": "d16-dermo-optik-algi-ve-deri-opsinleri", "no": 16, "layer": "L2", "patterns": ["HP-2", "HP-6", "HP-9"], "title": { "tr": "Dosya 16 — Dermo-Optik Algı ('Deriyle Görme'): Jules Romains, Kuleshova ve İnsan Derisindeki Opsinler", "en": "Dossier 16 — Dermo-Optic Perception: Jules Romains, Kuleshova & Human Cutaneous Opsins" } },
+    { "id": "d17-franz-mesmer-puysegur-ve-1784-komisyonu", "no": 17, "layer": "L3", "patterns": ["HP-6", "HP-7"], "title": { "tr": "Dosya 17 — Franz Mesmer, Puységur ve 1784 Kraliyet Komisyonu: Hayvansal Manyetizmadan Somnambulizme", "en": "Dossier 17 — Franz Mesmer, Puységur & the 1784 Commission: Animal Magnetism to Somnambulism" } },
+    { "id": "d18-modern-biyoelektrik-burr-becker-levin", "no": 18, "layer": "L3", "patterns": ["HP-6", "HP-7", "HP-8", "HP-9"], "title": { "tr": "Dosya 18 — Modern Biyoelektrik ve Morfogenetik Alanlar: Puharich, Burr, Robert O. Becker ve Michael Levin", "en": "Dossier 18 — Modern Bioelectricity & Morphogenetic Fields: Puharich, Burr, Becker & Michael Levin" } },
+    { "id": "d19-noro-biyofotonik-ve-insan-manyetiti", "no": 19, "layer": "L3", "patterns": ["HP-1", "HP-6", "HP-8", "HP-9"], "title": { "tr": "Dosya 19 — Nöro-Biyofotonik ve İnsan Magnetoresepsiyonu: Fiber Optik Aksonlar ve Beyindeki Manyetit (Kirschvink 2019)", "en": "Dossier 19 — Neuro-Biophotonics & Human Magnetoreception: Axon Waveguides & Brain Magnetite" } },
+    { "id": "d20-elektroanestezi-elektron-spini-ve-efaptik", "no": 20, "layer": "L3", "patterns": ["HP-1", "HP-6", "HP-9"], "title": { "tr": "Dosya 20 — Elektro-Anestezi, Elektron Spini (Turin) ve Sinapssız Efaptik İletişim (Durand 2019)", "en": "Dossier 20 — Electroanesthesia, Electron Spin (Turin) & Non-Synaptic Ephaptic Coupling (Durand 2019)" } },
+    { "id": "d21-tipta-zihin-beden-mason-ve-did", "no": 21, "layer": "L3", "patterns": ["HP-7", "HP-11"], "title": { "tr": "Dosya 21 — Tıpta Zihin–Beden Sınırları: Albert Mason (Genetik İyileşme), Hipnotik Yanıklar ve DID Geçişleri", "en": "Dossier 21 — Mind-Body Limits in Medicine: Albert Mason, Hypnotic Blisters & DID Physiological Shifts" } },
+    { "id": "d22-plasebo-cerrahisi-vudu-olumu-ve-tukdam", "no": 22, "layer": "L3", "patterns": ["HP-7", "HP-9", "HP-11"], "title": { "tr": "Dosya 22 — Plasebo Cerrahisi (Moseley), Nosebo ('Vudu Ölümü' — Cannon) ve Tibet Tukdam Araştırmaları (Davidson)", "en": "Dossier 22 — Sham Surgery (Moseley), Voodoo Death (Cannon) & Tibetan Tukdam Research (Davidson)" } },
+    { "id": "d23-uva-dops-stevenson-ve-tucker", "no": 23, "layer": "L3", "patterns": ["HP-2", "HP-5", "HP-7", "HP-11"], "title": { "tr": "Dosya 23 — Virginia Üniversitesi (UVa DOPS — Stevenson & Tucker): Doğum İzleri, Otopsi Eşleşmeleri ve Bellek", "en": "Dossier 23 — UVa DOPS (Stevenson & Tucker): Birthmarks, Autopsy Matches & Extra-Cerebral Memory" } },
+    { "id": "d24-terminal-berraklik-ve-hidrosefali", "no": 24, "layer": "L3", "patterns": ["HP-1", "HP-2", "HP-9"], "title": { "tr": "Dosya 24 — Terminal Berraklık (Nahm) ve %90 Hidrosefali (Lorber): Beyin Harap Olduğunda Bilinç Neden Açılır?", "en": "Dossier 24 — Terminal Lucidity (Nahm) & 90% Hydrocephalus (Lorber): Paradoxical Lucidity in Damaged Brains" } },
+    { "id": "d25-nde-aware-ve-paylasilan-olum-deneyimleri", "no": 25, "layer": "L3", "patterns": ["HP-1", "HP-2", "HP-5", "HP-13"], "title": { "tr": "Dosya 25 — Ölüme Yakın (NDE — AWARE I–II) ve Paylaşılan Ölüm Deneyimleri (SDE / Peak in Darien)", "en": "Dossier 25 — Near-Death (AWARE I–II) & Shared Death Experiences (SDE / Peak in Darien)" } },
+    { "id": "d26-berger-turing-sinclair-ve-warcollier", "no": 26, "layer": "L4", "patterns": ["HP-2", "HP-12"], "title": { "tr": "Dosya 26 — Klasik Telepati Çizimleri ve Bilim Öncüleri: Hans Berger (EEG), Alan Turing, Einstein–Sinclair ve Warcollier", "en": "Dossier 26 — Classical Telepathy & Pioneers: Hans Berger (EEG), Alan Turing, Einstein–Sinclair & Warcollier" } },
+    { "id": "d27-stargate-sri-ve-uzaktan-goru", "no": 27, "layer": "L4", "patterns": ["HP-2", "HP-4", "HP-8", "HP-10", "HP-12"], "title": { "tr": "Dosya 27 — Stargate, SRI ve Uzaktan Görü: Puthoff, Targ, Edwin May, Ingo Swann, Pat Price ve McMoneagle", "en": "Dossier 27 — Stargate, SRI & Remote Viewing: Puthoff, Targ, May, Swann, Price & McMoneagle" } },
+    { "id": "d28-utts-hyman-ganzfeld-pear-ve-gcp", "no": 28, "layer": "L4", "patterns": ["HP-3", "HP-4", "HP-8", "HP-12", "HP-13"], "title": { "tr": "Dosya 28 — Utts vs. Hyman (1995), Ganzfeld, Princeton PEAR ve Küresel Bilinç Projesi (GCP)", "en": "Dossier 28 — Utts vs. Hyman (1995), Ganzfeld, Princeton PEAR & Global Consciousness Project (GCP)" } },
+    { "id": "d29-maimonides-ve-2021-cift-yonlu-lusid-ruya", "no": 29, "layer": "L4", "patterns": ["HP-2", "HP-3", "HP-5", "HP-12"], "title": { "tr": "Dosya 29 — Maimonides Rüya Telepatisi ve 2021 Çift-Yönlü Lüsid Rüya İletişimi (Paller / Konkoly)", "en": "Dossier 29 — Maimonides Dream Telepathy & 2021 Two-Way Lucid Dream Communication (Paller / Konkoly)" } },
+    { "id": "d30-ikiz-telepatisi-mikrokimerizm-ve-hayvan-psisi", "no": 30, "layer": "L4", "patterns": ["HP-4", "HP-5", "HP-13"], "title": { "tr": "Dosya 30 — İkiz Telepatisi (Science 1965), Mikrokimerizm ve Hayvan Psi'si (Sheldrake vs. Wiseman)", "en": "Dossier 30 — Twin Telepathy (Science 1965), Microchimerism & Animal Psi (Sheldrake vs. Wiseman)" } },
+    { "id": "d31-janet-myers-xenoglossy-ve-scole", "no": 31, "layer": "L4", "patterns": ["HP-2", "HP-4", "HP-5", "HP-11", "HP-12", "HP-16"], "title": { "tr": "Dosya 31 — Pierre Janet, Frederic Myers, Xenoglossy ve Living Agent Psi vs. Scole / Cross-Correspondences", "en": "Dossier 31 — Pierre Janet, Frederic Myers, Xenoglossy & Living Agent Psi vs. Cross-Correspondences" } },
+    { "id": "d32-poltergeist-rspk-infrason-ve-su-dna", "no": 32, "layer": "L4", "patterns": ["HP-1", "HP-4", "HP-6", "HP-9", "HP-11"], "title": { "tr": "Dosya 32 — Poltergeist (RSPK — Rosenheim / Roll), Vic Tandy (18.9 Hz İnfrason) ve Su/DNA Testleri (Radin / Montagnier)", "en": "Dossier 32 — Poltergeist (RSPK — Rosenheim), 18.9 Hz Infrasound & Water/DNA Intention Tests" } },
+    { "id": "d33-elusiveness-trickster-ve-evrim-problemi", "no": 33, "layer": "L4", "patterns": ["HP-2", "HP-4", "HP-16"], "title": { "tr": "Dosya 33 — Elusiveness ('Trickster') ve Evrim Problemi: Lucadou'nun Modeli ve Evrim Neden Filtreyi Seçti?", "en": "Dossier 33 — Elusiveness ('Trickster') & the Evolutionary Problem: Lucadou's MPI Model" } },
+    { "id": "d34-bolunmus-beyin-mcgilchrist-ve-savant-rtms", "no": 34, "layer": "L5", "patterns": ["HP-1", "HP-2", "HP-12", "HP-16"], "title": { "tr": "Dosya 34 — Bölünmüş Beyin (Sperry/McGilchrist), Jill Bolte Taylor, Julian Jaynes ve Savant Sendromu (Snyder rTMS)", "en": "Dossier 34 — Split-Brain (Sperry/McGilchrist), Bolte Taylor, Jaynes & Induced Savant Syndrome (rTMS)" } },
+    { "id": "d35-filtre-beyin-ve-paradoksal-fmri-kapanmasi", "no": 35, "layer": "L5", "patterns": ["HP-2", "HP-5", "HP-16"], "title": { "tr": "Dosya 35 — Filtre Beyin ve Paradoksal Kapanma: James, Bergson, Huxley, Carhart-Harris (2012 fMRI), Grof ve DMTx", "en": "Dossier 35 — Filter Brain & Paradoxical Deactivation: James, Bergson, Huxley, Carhart-Harris, Grof & DMTx" } },
+    { "id": "d36-kluver-sabitleri-simatik-sinestezi-ve-zaman", "no": 36, "layer": "L5", "patterns": ["HP-1", "HP-3", "HP-5", "HP-12", "HP-14"], "title": { "tr": "Dosya 36 — Görsel Korteks Geometri Sabitleri (Klüver), Simatik (Chladni/Jenny), Sinestezi ve Zaman Algısı (Focus 15)", "en": "Dossier 36 — Klüver Form Constants, Cymatics, Synesthesia & Focus 15 Time Perception" } },
+    { "id": "d37-tahminsel-kodlama-iit-fep-ve-negentropi", "no": 37, "layer": "L5", "patterns": ["HP-2", "HP-3", "HP-4", "HP-5", "HP-7", "HP-16"], "title": { "tr": "Dosya 37 — Tahminsel Kodlama (Seth/Clark), IIT (Φ) vs. FEP (Friston) ve Negentropi (Shannon/Brillouin)", "en": "Dossier 37 — Predictive Processing (Seth/Clark), IIT vs. FEP (Friston) & Negentropy" } },
+    { "id": "d38-kuantum-kuruculari-wigner-ve-bohm-pribram", "no": 38, "layer": "L6", "patterns": ["HP-4", "HP-5", "HP-15"], "title": { "tr": "Dosya 38 — Kuantum Kurucuları (Schrödinger/Planck), Wigner'in Arkadaşı (2019–2020) ve Bohm–Pribram Holonomisi", "en": "Dossier 38 — Quantum Founders, Extended Wigner's Friend (2019–2020) & Bohm–Pribram Holonomy" } },
+    { "id": "d39-retrokausalite-cramer-aharonov-ve-presentiment", "no": 39, "layer": "L6", "patterns": ["HP-4", "HP-12", "HP-14"], "title": { "tr": "Dosya 39 — Zaman Simetrisi, Retrokausalite (Cramer / Aharonov / Dunne) ve Presentiment (Radin)", "en": "Dossier 39 — Time Symmetry, Retrocausality (Cramer / Aharonov / Dunne) & Presentiment" } },
+    { "id": "d40-uzay-zamanin-olumu-adscft-amplituhedron-4b", "no": 40, "layer": "L6", "patterns": ["HP-5", "HP-15", "HP-16"], "title": { "tr": "Dosya 40 — Uzay-Zamanın Ölümü: Holografik İlke (AdS/CFT), Amplituhedron (Arkani-Hamed), Gödel ve 4B Geometri", "en": "Dossier 40 — Death of Spacetime: AdS/CFT Holography, Amplituhedron, Gödel & 4D Geometry" } },
+    { "id": "d41-analitik-idealizm-kastrup-hoffman-whitehead", "no": 41, "layer": "L6", "patterns": ["HP-2", "HP-5", "HP-11", "HP-15", "HP-16"], "title": { "tr": "Dosya 41 — Analitik İdealizm (Kastrup), Arayüz Kuramı (Hoffman) ve Whitehead'in Süreç Ontolojisi", "en": "Dossier 41 — Analytic Idealism (Kastrup), Interface Theory (Hoffman) & Whitehead's Process Ontology" } },
+    { "id": "d42-arkeo-akustik-111hz-parmenides-ve-ayahuasca", "no": 42, "layer": "L7", "patterns": ["HP-1", "HP-2", "HP-3", "HP-9"], "title": { "tr": "Dosya 42 — Arkeo-Akustik (111 Hz Megalitler), Parmenides (Enkoimesis), Psychomanteum ve Ayahuasca Paradoksu", "en": "Dossier 42 — Archaeo-Acoustics (111 Hz Megaliths), Parmenides, Psychomanteum & the Ayahuasca Paradox" } },
+    { "id": "d43-plotinus-ve-yeni-platonculuk-enneadlar", "no": 43, "layer": "L7", "patterns": ["HP-1", "HP-2", "HP-5", "HP-15", "HP-16"], "title": { "tr": "Dosya 43 — Plotinus ve Yeni-Platonculuk (Enneadlar): Bir – Nous – Psykhe, Theourgia ve Focus Mimarisi", "en": "Dossier 43 — Plotinus & Neoplatonism (Enneads): The One – Nous – Psyche, Theurgy & Focus Architecture" } },
+    { "id": "d44-hermetizm-paracelsus-giordano-bruno-holon", "no": 44, "layer": "L7", "patterns": ["HP-3", "HP-5", "HP-7", "HP-15", "HP-16"], "title": { "tr": "Dosya 44 — Hermetizm (Corpus Hermeticum), Paracelsus, Giordano Bruno (Vinculum / Ars Memoriae) ve Koestler (Holon)", "en": "Dossier 44 — Hermeticism, Paracelsus, Giordano Bruno (Vinculum / Ars Memoriae) & Koestler's Holon" } },
+    { "id": "d45-ibn-sina-suhreverdi-ibn-arabi-berzah", "no": 45, "layer": "L7", "patterns": ["HP-2", "HP-3", "HP-5", "HP-7", "HP-12"], "title": { "tr": "Dosya 45 — İbn Sînâ ('Uçan Adam'), Sühreverdî, İbn Arabî (Âlem-i Misâl / Berzah) ve Molla Sadrâ", "en": "Dossier 45 — Avicenna ('Floating Man'), Suhrawardi, Ibn Arabi (Mundus Imaginalis / Barzakh) & Mulla Sadra" } },
+    { "id": "d46-kabala-abulafia-hesychasm-letaif-ve-jung", "no": 46, "layer": "L7", "patterns": ["HP-1", "HP-2", "HP-5", "HP-6", "HP-7"], "title": { "tr": "Dosya 46 — Kabala (Abulafia / Merkabah), Hesychasm (Palamas), Tasavvuf (Letaif), Eckhart ve Jung (Aktif İmajinasyon)", "en": "Dossier 46 — Kabbalah (Abulafia), Hesychasm (Palamas), Sufi Lataif, Eckhart & Jung (Active Imagination)" } },
+    { "id": "d47-vedanta-turiya-spanda-bardo-schopenhauer-gurdjieff", "no": 47, "layer": "L7", "patterns": ["HP-1", "HP-3", "HP-5", "HP-16"], "title": { "tr": "Dosya 47 — Hint ve Tibet Ontolojisi (Turiya, Kosha, Spanda, Bardo, Dzogchen), Schopenhauer ve Gurdjieff", "en": "Dossier 47 — Indian & Tibetan Ontology (Turiya, Kosha, Spanda, Bardo, Dzogchen), Schopenhauer & Gurdjieff" } },
+    { "id": "d48-karsi-argumanlarin-celik-adam-testi", "no": 48, "layer": "L8", "patterns": ["HP-2", "HP-4", "HP-8", "HP-11", "HP-12", "HP-13", "HP-14", "HP-15"], "title": { "tr": "Dosya 48 — Karşı-Argümanların Çelik Adam (Steelman) Testi: Fizikselci Model Neyi Açıklıyor, Nerede Çöküyor?", "en": "Dossier 48 — Steelman Audit of Counter-Arguments: What Physicalism Explains vs. Where It Breaks" } },
+    { "id": "d49-50-dosyalik-gerceklik-matrisi", "no": 49, "layer": "L8", "patterns": ["HP-1", "HP-2", "HP-3", "HP-4", "HP-5", "HP-6", "HP-7", "HP-8", "HP-9", "HP-10", "HP-11", "HP-12", "HP-13", "HP-14", "HP-15", "HP-16"], "title": { "tr": "Dosya 49 — 50 Dosyalık Gerçeklik Matrisi ve Olasılık Tablosu: Tek Tek Her İddia İçin Kanıt Gücü ve Dürüst Karar", "en": "Dossier 49 — 50-Dossier Reality Matrix & Probability Table: Evidence Strength & Honest Verdict" } },
+    { "id": "d50-kendi-muhakememiz-ve-5-kesin-deney", "no": 50, "layer": "L8", "patterns": ["HP-1", "HP-2", "HP-3", "HP-4", "HP-5", "HP-6", "HP-7", "HP-8", "HP-9", "HP-10", "HP-11", "HP-12", "HP-13", "HP-14", "HP-15", "HP-16"], "title": { "tr": "Dosya 50 — Kendi Muhakememiz ve 5 Kesin Karar Deneyi: Ortaya Çıkan Bütüncül Gerçeklik Modeli", "en": "Dossier 50 — Our Own Reasoning & 5 Definitive Experiments: The Emergent Reality Model" } }
+  ]
+}
