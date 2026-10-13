@@ -13,6 +13,12 @@ const when = at => new Date(at).toLocaleString(locale(), { dateStyle: "medium", 
 const isDream = e => e.kind === "dream";
 /** Dream-sign label: preset keys translate, custom signs are shown as typed. */
 const signLabel = k => (DREAM_SIGN_KEYS.includes(k) ? t(k) : k);
+// Entries can come from an imported or PC-pulled backup, so every field is untrusted here:
+/** Drawings are canvas PNG data URLs; anything else is not shown. */
+const imgSrc = s => (typeof s === "string" && /^data:image\/(png|jpeg|webp);base64,[A-Za-z0-9+/=]+$/.test(s) ? s : "");
+/** Lucidity / recall as an integer 0…max. */
+const level = (v, max) => Math.min(max, Math.max(0, Math.trunc(Number(v)) || 0));
+const list = v => (Array.isArray(v) ? v : []);
 
 let mode = "sessions";          // "sessions" | "dreams"
 let editing = null;             // entry id being edited
@@ -117,29 +123,31 @@ export async function renderJournal() {
 
 function entryCard(en) {
   const dream = isDream(en);
-  const tags = dream ? (en.signs || []).map(signLabel) : (en.tags || []).map(k => t(k));
+  const tags = dream ? list(en.signs).map(signLabel) : list(en.tags).map(k => t(k));
+  const lucid = level(en.lucid, 3), recall = level(en.recall, 3), img = imgSrc(en.drawing);
   return `<article class="entry ${dream ? "dream" : ""}" data-id="${esc(en.id)}">
     <header><b>${dream ? "☾ " + esc(en.title || t("dreamTitle")) : esc(en.title ? L(en.title) : t("programTab"))}</b>
       <small class="muted">${when(en.at)}${dream ? "" : " · " + fmtClock(en.sec)}${en.editedAt ? ` · ${t("edited")}` : ""}</small></header>
-    ${dream ? `<div class="tag-pills static"><span class="pill lucid l${en.lucid || 0}">${t("lucid" + (en.lucid || 0))}</span>${en.recall ? `<span class="pill">${t("recallLevel")}: ${t("recall" + en.recall)}</span>` : ""}</div>` : ""}
+    ${dream ? `<div class="tag-pills static"><span class="pill lucid l${lucid}">${t("lucid" + lucid)}</span>${recall ? `<span class="pill">${t("recallLevel")}: ${t("recall" + recall)}</span>` : ""}</div>` : ""}
     ${tags.length ? `<div class="tag-pills static">${tags.map(x => `<span class="pill on">${esc(x)}</span>`).join("")}</div>` : ""}
-    ${en.text ? `<p>${esc(en.text)}</p>` : ""}${en.drawing ? `<img src="${en.drawing}" alt="">` : ""}
+    ${en.text ? `<p>${esc(en.text)}</p>` : ""}${img ? `<img src="${img}" alt="">` : ""}
     <div class="row-btns"><button class="link" data-edit="${esc(en.id)}">${t("editEntry")}</button><button class="link danger" data-del="${esc(en.id)}">${t("deleteEntry")}</button></div>
   </article>`;
 }
 
 function editForm(en) {
   const dream = isDream(en);
-  const chosen = new Set(dream ? en.signs || [] : en.tags || []);
+  const chosen = new Set(dream ? list(en.signs) : list(en.tags));
   const pills = dream ? [...DREAM_SIGN_KEYS, ...dreamSigns.custom(), ...[...chosen].filter(k => !DREAM_SIGN_KEYS.includes(k) && !dreamSigns.custom().includes(k))] : TAG_KEYS;
+  const img = imgSrc(en.drawing);
   return `<article class="entry edit-form" data-kind="${dream ? "dream" : "session"}">
     <header><b>${t("editEntry")}</b><small class="muted">${when(en.at)}</small></header>
-    ${dream ? lucidRow(en.lucid || 0, en.recall || 2) : ""}
+    ${dream ? lucidRow(level(en.lucid, 3), level(en.recall, 3) || 2) : ""}
     <p class="small"><b>${dream ? t("dreamSigns") : t("tags")}</b></p>
     <div class="tag-pills">${pills.map(k => `<button type="button" class="pill ${chosen.has(k) ? "on" : ""}" data-tag="${esc(k)}">${esc(dream ? signLabel(k) : t(k))}</button>`).join("")}</div>
     ${dream ? `<div class="row-inline"><input type="text" data-customsign placeholder="${t("customSign")}" maxlength="40"></div>` : ""}
     <textarea rows="4" placeholder="${dream ? t("dreamPlaceholder") : t("notePlaceholder")}">${esc(en.text || "")}</textarea>
-    ${en.drawing ? `<img src="${en.drawing}" alt=""><button class="link" data-rmdraw>${t("removeDrawing")}</button>` : ""}
+    ${img ? `<img src="${img}" alt=""><button class="link" data-rmdraw>${t("removeDrawing")}</button>` : ""}
     <div class="row-btns"><button class="btn" data-cancel>${t("cancel")}</button><button class="btn primary" data-saveedit>${t("save")}</button></div>
   </article>`;
 }
@@ -194,9 +202,9 @@ function wireComposer(box) {
 }
 function paintDreamStats(entries) {
   const el = $("dreamStats"); if (!el) return;
-  const lucid = entries.filter(e => (e.lucid || 0) >= 2).length;
+  const lucid = entries.filter(e => level(e.lucid, 3) >= 2).length;
   const freq = new Map();
-  entries.forEach(e => (e.signs || []).forEach(s => freq.set(s, (freq.get(s) || 0) + 1)));
+  entries.forEach(e => list(e.signs).forEach(s => freq.set(s, (freq.get(s) || 0) + 1)));
   const top = [...freq.entries()].sort((a, b) => b[1] - a[1]).slice(0, 6);
   el.innerHTML = `<div class="stats left"><div><b>${entries.length}</b><span>${t("dreamCount")}</span></div><div><b>${lucid}</b><span>${t("lucidCount")}</span></div><div><b>${freq.size}</b><span>${t("signCount")}</span></div></div>
     ${top.length ? `<div class="panel top-signs"><p class="small"><b>${t("topSigns")}</b></p><div class="tag-pills static">${top.map(([s, n]) => `<span class="pill on">${esc(signLabel(s))} · ${n}</span>`).join("")}</div><p class="muted small">${t("topSignsHint")}</p></div>` : ""}`;
@@ -265,13 +273,14 @@ export async function toMarkdown(entries) {
   for (const en of [...entries].sort((a, b) => b.at - a.at)) {
     const dream = isDream(en);
     out.push(`## ${when(en.at)} — ${dream ? "☾ " + (en.title || t("dreamTitle")) : (en.title ? L(en.title) : t("programTab"))}${dream ? "" : ` (${fmtClock(en.sec)})`}`, "");
-    if (dream) out.push(`- **${t("lucidity")}:** ${t("lucid" + (en.lucid || 0))}`, en.recall ? `- **${t("recallLevel")}:** ${t("recall" + en.recall)}` : null);
-    const tags = dream ? (en.signs || []).map(signLabel) : (en.tags || []).map(k => t(k));
+    const recall = level(en.recall, 3), img = imgSrc(en.drawing);
+    if (dream) out.push(`- **${t("lucidity")}:** ${t("lucid" + level(en.lucid, 3))}`, recall ? `- **${t("recallLevel")}:** ${t("recall" + recall)}` : null);
+    const tags = dream ? list(en.signs).map(signLabel) : list(en.tags).map(k => t(k));
     if (tags.length) out.push(`- **${dream ? t("dreamSigns") : t("tags")}:** ${tags.join(", ")}`);
     if (en.editedAt) out.push(`- _${t("edited")}: ${when(en.editedAt)}_`);
     out.push("");
-    if (en.text) out.push(en.text.replace(/\r?\n/g, "  \n"), "");
-    if (en.drawing) out.push(`![${t("draw")}](${en.drawing})`, "");
+    if (en.text) out.push(String(en.text).replace(/\r?\n/g, "  \n"), "");
+    if (img) out.push(`![${t("draw")}](${img})`, "");
   }
   return out.filter(x => x !== null).join("\n");
 }

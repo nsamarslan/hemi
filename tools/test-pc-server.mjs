@@ -83,8 +83,14 @@ try {
     const head = await fetch(`${B}/play/${rel}?mode=raw`, { method: "HEAD" });
     ok(head.status === 200 && head.headers.get("content-length") === String(44 + 1600), "HEAD returns headers without body");
 
-    // CORS
-    ok(raw.headers.get("access-control-allow-origin") === "*", "CORS header present (app may run on another origin)");
+    // CORS: the packaged app and pages on this host may call the API; other sites may not
+    const fromApp = await fetch(B + "/ping", { headers: { Origin: "https://localhost" } });
+    ok(fromApp.status === 200 && fromApp.headers.get("access-control-allow-origin") === "https://localhost", "CORS allows the Android app origin (https://localhost)");
+    const sameHost = await fetch(B + "/ping", { headers: { Origin: "http://127.0.0.1:8123" } });
+    ok(sameHost.status === 200 && sameHost.headers.get("access-control-allow-origin") === "http://127.0.0.1:8123", "CORS allows a page on the same host (another port)");
+    const foreign = await fetch(B + "/backups.json", { headers: { Origin: "https://evil.example" } });
+    ok(foreign.status === 403 && !foreign.headers.get("access-control-allow-origin"), "a foreign web origin is refused (403, no CORS header)");
+    ok(!raw.headers.get("access-control-allow-origin") && raw.status === 200, "requests without an Origin (audio elements, native) still work");
 
     // traversal and non-audio refused
     const trav = await fetch(B + "/play/" + encodeURIComponent("../fake.flac") + "?mode=raw");
@@ -139,10 +145,17 @@ try {
     ok((await fetch(B + "/backup?device=Phone%20A").then(r => r.json())).backup.format === "gateway-backup/1", "GET /backup?device= picks that device");
     ok((await post("/backup", { device: "x", backup: { nope: 1 } })).status === 400, "a non-backup object is refused (400)");
     ok(existsSync(join(data, "backups", "Phone-A.json")), "backup persisted under --data/backups/<device>.json");
+    // a web page elsewhere must not be able to plant a backup (the app would import it on "restore from PC")
+    const planted = await fetch(B + "/backup", { method: "POST", headers: { "Content-Type": "application/json", Origin: "https://evil.example" }, body: JSON.stringify({ device: "Evil", backup: bk }) });
+    ok(planted.status === 403 && !existsSync(join(data, "backups", "Evil.json")), "POST /backup from a foreign origin is refused (403)");
+    const simple = await fetch(B + "/backup", { method: "POST", headers: { "Content-Type": "text/plain" }, body: JSON.stringify({ device: "Plain", backup: bk }) });
+    ok(simple.status === 415 && !existsSync(join(data, "backups", "Plain.json")), "a text/plain POST (no CORS preflight) is refused (415)");
 
     // CORS preflight for POST
-    const pre = await fetch(B + "/matches", { method: "OPTIONS" });
-    ok(pre.status === 204 && /POST/.test(pre.headers.get("access-control-allow-methods") || "") && /content-type/i.test(pre.headers.get("access-control-allow-headers") || ""), "OPTIONS preflight allows POST with Content-Type");
+    const pre = await fetch(B + "/matches", { method: "OPTIONS", headers: { Origin: "https://localhost", "Access-Control-Request-Method": "POST" } });
+    ok(pre.status === 204 && pre.headers.get("access-control-allow-origin") === "https://localhost" && /POST/.test(pre.headers.get("access-control-allow-methods") || "") && /content-type/i.test(pre.headers.get("access-control-allow-headers") || ""), "OPTIONS preflight allows POST with Content-Type from the app");
+    const preEvil = await fetch(B + "/matches", { method: "OPTIONS", headers: { Origin: "https://evil.example", "Access-Control-Request-Method": "POST" } });
+    ok(preEvil.status === 403 && !preEvil.headers.get("access-control-allow-origin"), "OPTIONS preflight from a foreign origin is refused");
 
     // app static serving (only when www/ exists)
     const home = await fetch(B + "/");

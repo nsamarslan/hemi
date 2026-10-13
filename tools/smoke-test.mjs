@@ -3,8 +3,8 @@
 //
 // Dev dependencies (NOT part of the app): jsdom + esbuild, installed in a scratch dir:
 //   mkdir /tmp/smoke && cd /tmp/smoke && npm init -y && npm i jsdom esbuild
-//   npx esbuild <repo>/gateway/www/js/app.js --bundle --format=iife --outfile=/tmp/smoke/app.bundle.js
-//   SMOKE_DIR=/tmp/smoke node <repo>/gateway/tools/smoke-test.mjs
+//   npx esbuild <repo>/www/js/app.js --bundle --format=iife --outfile=/tmp/smoke/app.bundle.js
+//   SMOKE_DIR=/tmp/smoke node <repo>/tools/smoke-test.mjs
 import { createRequire } from "node:module";
 import { readFileSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
@@ -167,6 +167,24 @@ ok($("#bkExport") != null && $("#bkImport") != null, "journal backup buttons pre
   $("#bkFile").dispatchEvent(new window.Event("change"));
   await sleep(300);
   ok(/değil|not a Gateway backup/.test($("#bkMsg")?.textContent || ""), "import rejects a non-backup file");
+  // a crafted backup (hand-edited file, or a slot on the PC server) must not inject markup into the journal
+  const evil = { format: "gateway-backup/1", log: [], journal: [
+    { id: "xss-s", at: 1000, exId: "w1-orientation", sec: 60, text: "s", tags: ["<b id=xssT>"], drawing: "data:x\" onerror=\"window.__xss=1" },
+    { id: "xss-d", at: 2000, kind: "dream", text: "d", signs: "not-a-list", lucid: "<img id=xssL src=x onerror=\"window.__xss=2\">", recall: "<i id=xssR>", drawing: "javascript:alert(1)" },
+  ] };
+  Object.defineProperty($("#bkFile"), "files", { value: [new window.File([JSON.stringify(evil)], "evil.json", { type: "application/json" })], configurable: true });
+  $("#bkFile").dispatchEvent(new window.Event("change"));
+  await sleep(1300);
+  const sCard = $('.entry[data-id="xss-s"]');
+  ok(sCard != null && !sCard.querySelector("img") && !$("#xssT") && sCard.textContent.includes("<b id=xssT>"), "imported session entry: unknown tag shown as text, non-image drawing dropped");
+  $('[data-jmode="dreams"]').click(); await sleep(300);
+  const dCard = $('.entry[data-id="xss-d"]');
+  ok(dCard != null && !dCard.querySelector("img") && !$("#xssL") && !$("#xssR") && dCard.querySelector(".pill.lucid.l0") != null, "imported dream entry: lucidity/recall coerced to numbers, no injected markup");
+  ok(window.__xss === undefined, "no script ran from the crafted backup");
+  dCard?.querySelector("[data-del]")?.click(); await sleep(300);
+  $('[data-jmode="sessions"]').click(); await sleep(300);
+  $('.entry[data-id="xss-s"] [data-del]')?.click(); await sleep(300);
+  ok(!$('.entry[data-id="xss-s"]'), "crafted entries removed again");
 }
 
 // ---------- journal: edit an entry ----------

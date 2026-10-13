@@ -4,10 +4,10 @@ local network, so the app can play the real tracks instead of synthesising the b
 Nothing is copied into the app; the audio streams straight from this PC over Wi-Fi.
 
 Usage:
-    python3 tools/pc-server.py --audio "/path/to/Hemi-Sync" [--app ../www] [--port 8700]
+    python3 tools/pc-server.py --audio "/path/to/Hemi-Sync" [--app ../www] [--port 8700] [--allow-origin URL]
 
 Then, on your phone (same Wi-Fi), open http://<this-pc-ip>:8700/ — the app itself is served from
---app (default: ../www next to this script, i.e. gateway/www) and the audio plays from /play/... .
+--app (default: ../www next to this script, i.e. www/ at the repo root) and the audio plays from /play/... .
 The app can also run from anywhere else: Settings → Audio source → "Play from the PC", then enter
 this address. (If the app page is on https, browsers block plain-http fetches — open the app from
 the PC address instead.)
@@ -33,6 +33,11 @@ Small state kept on this PC (under --data, default ~/.gateway-pc) so every phone
 Only .flac/.wav/.mp3/.ogg/.m4a/.aac/.opus files under --audio are served; every other path is
 refused. Standard library only. Transcoded WAVs are cached in the system temp dir. There is no
 authentication: run it only on a network you trust (your home Wi-Fi) — backups contain your journal.
+
+Web pages may call it only from the app this server serves, a page on this same host (any port),
+the Android app (https://localhost) or an origin given with --allow-origin; requests from any
+other site are refused (403), so a web page you happen to open cannot read or plant a backup.
+POST bodies must be sent as application/json.
 """
 import argparse
 import hashlib
@@ -58,6 +63,8 @@ CONTENT_TYPES = {
     ".flac": "audio/flac", ".wav": "audio/wav", ".mp3": "audio/mpeg", ".ogg": "audio/ogg",
     ".m4a": "audio/mp4", ".aac": "audio/aac", ".opus": "audio/ogg",
 }
+# Origins of the packaged app (Capacitor serves it from localhost: https on Android, capacitor:// on iOS).
+APP_ORIGINS = ("https://localhost", "http://localhost", "capacitor://localhost")
 STATIC_TYPES = {
     ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8",
     ".css": "text/css; charset=utf-8", ".json": "application/json; charset=utf-8",
@@ -297,8 +304,27 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, fmt, *args):
         sys.stderr.write("[%s] %s\n" % (self.log_date_time_string(), fmt % args))
 
+    def _origin_allowed(self):
+        """No Origin header (native clients, <audio> tags, same-origin GETs), the packaged app, an
+        --allow-origin entry, or a page on the host this server was reached by (e.g. the app served here)."""
+        origin = self.headers.get("Origin")
+        if not origin:
+            return True
+        allowed = self.server.allowed_origins
+        if "*" in allowed or origin.rstrip("/") in allowed:
+            return True
+        try:
+            host = urlparse("//" + (self.headers.get("Host") or "")).hostname
+            return bool(host) and urlparse(origin).hostname == host
+        except ValueError:
+            return False
+
     def _cors(self):
-        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Vary", "Origin")
+        origin = self.headers.get("Origin")
+        if not origin or not self._origin_allowed():
+            return
+        self.send_header("Access-Control-Allow-Origin", origin)
         self.send_header("Access-Control-Allow-Methods", "GET, HEAD, POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Range, Content-Type")
 
@@ -406,7 +432,7 @@ class Handler(BaseHTTPRequestHandler):
 
     # ---------- routes ----------
     def do_OPTIONS(self):
-        self.send_response(204)
+        self.send_response(204 if self._origin_allowed() else 403)
         self._cors()
         self.send_header("Content-Length", "0")
         self.end_headers()
@@ -416,6 +442,8 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_GET(self):
         try:
+            if not self._origin_allowed():
+                return self._error(403, "origin not allowed (see --allow-origin)")
             self._route()
         except BrokenPipeError:
             pass
@@ -443,6 +471,11 @@ class Handler(BaseHTTPRequestHandler):
                 pass
 
     def _read_json(self):
+        # A cross-site page could otherwise POST a "simple" text/plain request without any preflight.
+        if not self._origin_allowed():
+            raise BodyError(403, "origin not allowed (see --allow-origin)")
+        if (self.headers.get("Content-Type") or "").split(";")[0].strip().lower() != "application/json":
+            raise BodyError(415, "Content-Type must be application/json")
         try:
             n = int(self.headers.get("Content-Length") or 0)
         except ValueError:
@@ -558,7 +591,7 @@ INFO_PAGE = """<!doctype html><meta charset="utf-8"><title>Gateway PC audio serv
 <li><code>/play/&lt;file&gt;?mode=raw|wav</code> — play a track</li>
 <li><a href="/matches.json">/matches.json</a>, <a href="/positions.json">/positions.json</a>, <a href="/backups.json">/backups.json</a> — state shared between your devices (manual matches, resume positions, app backups)</li>
 </ul>
-<p>Open the app itself from <code>--app</code> (default: <code>gateway/www</code>) — e.g.
+<p>Open the app itself from <code>--app</code> (default: the repo's <code>www/</code>, built with <code>npm run build</code>) — e.g.
 <code>http://%(ip)s:%(port)s/</code> on your phone.</p>
 </body>"""
 
@@ -570,6 +603,8 @@ def main():
     ap.add_argument("--host", default="0.0.0.0")
     ap.add_argument("--port", type=int, default=8700)
     ap.add_argument("--data", default=None, help="folder for shared state: manual matches, resume positions, app backups (default: ~/.gateway-pc)")
+    ap.add_argument("--allow-origin", action="append", default=[], metavar="URL",
+                    help="also accept requests from this web origin, e.g. http://192.168.1.30:8123 (repeatable; '*' accepts any site — not recommended)")
     args = ap.parse_args()
 
     audio_root = os.path.realpath(os.path.expanduser(args.audio))
@@ -599,6 +634,7 @@ def main():
     httpd.audio_root = audio_root
     httpd.app_root = app_root
     httpd.state = State(data_root)
+    httpd.allowed_origins = set(APP_ORIGINS) | {o.rstrip("/") for o in args.allow_origin}
     port = httpd.server_address[1]
     ip = lan_ip()
 
