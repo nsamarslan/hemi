@@ -254,6 +254,29 @@ ok(/out at the crown/.test(SB.renderFrame("rebal", 2, "en")) && /tepeden çık/.
   ok(rt2.breath.length === 2 && rt2.breath[1].t0 > rt2.breath[0].t1 && rt2.breath.every(b => rt2.phases.some(p => p.holdStart === b.t0 && p.holdEnd === b.t1)), `routine keeps both breath segments aligned with their holds (${rt2.breath.length})`);
 }
 
+// ---------- player: a seek into another chunk must not leak its offset into the following chunks ----------
+{
+  class FakeAudio {     // just enough of HTMLAudioElement: setting src fires loadedmetadata asynchronously
+    constructor() { this.currentTime = 0; this.paused = true; this.onloadedmetadata = null; this.onended = null; this._src = ""; }
+    get src() { return this._src; }
+    set src(u) { this._src = u; this.currentTime = 0; setTimeout(() => this.onloadedmetadata?.(), 0); }
+    setAttribute() {} removeAttribute() { this._src = ""; } load() {}
+    play() { this.paused = false; return Promise.resolve(); }
+    pause() { this.paused = true; }
+  }
+  globalThis.Audio = FakeAudio;
+  globalThis.document ??= { body: { appendChild() {} } };
+  const ptl = { duration: 400, events: [], breath: [], phases: [], bed: [{ t0: 0, len: 400.5, glide: 0, fade: 2, gain: 0.14, f0L: 180, f1L: 180, f0R: 188, f1R: 188, phaseL: 0, phaseR: 0 }] };
+  const pl = new audio.SessionPlayer(ptl, "en", { title: "t", artist: "a" });
+  await pl.start();
+  await pl.seek(200);                                     // second chunk (150–300 s), 50 s in
+  ok(pl.i === 1 && close(pl.time(), 200, 1e-9), `seek lands in the second chunk at 200 s (${pl.time()})`);
+  await pl.advance();                                     // that chunk ended → the third one starts
+  await new Promise(r => setTimeout(r, 20));              // let any pending loadedmetadata handler run
+  ok(pl.i === 2 && close(pl.time(), 300, 1e-9), `the next chunk plays from its start, not from the old seek offset (${pl.time()})`);
+  pl.stop();
+}
+
 // ---------- write artifacts for manual listening (gitignored build/) ----------
 mkdirSync(join(root, "build"), { recursive: true });
 writeFileSync(join(root, "build", "test-bed-60s.wav"), Buffer.from(await audio.toWav(audio.renderChunkSamples(tl, a, a + 60, "en", O)).arrayBuffer()));

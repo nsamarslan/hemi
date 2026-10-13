@@ -349,7 +349,8 @@ export class SessionPlayer extends EventTarget {
     const url = await this.render(i);
     if (this.stopped) return;
     this.a.src = url;
-    if (offset > 0) await new Promise(r => { this.a.onloadedmetadata = () => { this.a.currentTime = offset; r(); }; });
+    // one-shot: a handler left on the shared element would jump every later chunk (and the sleep wait) to `offset`
+    if (offset > 0) await new Promise(r => { this.a.onloadedmetadata = () => { this.a.onloadedmetadata = null; this.a.currentTime = offset; r(); }; });
     // free chunks that are no longer needed
     this.urls.forEach((u, k) => { if (u && k < i - 1) { URL.revokeObjectURL(u); this.urls[k] = null; this.renders[k] = null; } });
   }
@@ -378,7 +379,7 @@ export class SessionPlayer extends EventTarget {
   }
   stop() {
     this.stopped = true;
-    this.a.onended = null;
+    this.a.onended = null; this.a.onloadedmetadata = null;
     this.a.pause();
     this.a.removeAttribute("src"); this.a.load();
     this.urls.forEach(u => u && URL.revokeObjectURL(u));

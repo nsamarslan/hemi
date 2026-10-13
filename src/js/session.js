@@ -280,7 +280,7 @@ class Session {
   finish(completed, extra = {}) {
     if (this.done) return;
     this.done = true;
-    const cap = this.spec.track ? (this.player?.duration || this.tl?.duration || 0) : this.tl.duration;
+    const cap = this.spec.track ? (this.player?.duration || this.tl?.duration || 0) : (this.tl?.duration || 0);   // no tl when build() failed
     const sec = this.waiter ? this.sessionSec : (this.player ? Math.min(this.player.time(), cap) : 0);
     if (this.spec.track?.onPosition && this.player) { try { this.spec.track.onPosition(sec, this.player.duration || 0, completed); } catch {} }
     this.stop();
