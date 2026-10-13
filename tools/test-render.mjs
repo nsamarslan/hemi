@@ -266,6 +266,7 @@ ok(/out at the crown/.test(SB.renderFrame("rebal", 2, "en")) && /tepeden çık/.
   }
   globalThis.Audio = FakeAudio;
   globalThis.document ??= { body: { appendChild() {} } };
+  if (typeof navigator === "undefined") globalThis.navigator = {};     // Node < 21 has no navigator global
   const ptl = { duration: 400, events: [], breath: [], phases: [], bed: [{ t0: 0, len: 400.5, glide: 0, fade: 2, gain: 0.14, f0L: 180, f1L: 180, f0R: 188, f1R: 188, phaseL: 0, phaseR: 0 }] };
   const pl = new audio.SessionPlayer(ptl, "en", { title: "t", artist: "a" });
   await pl.start();
