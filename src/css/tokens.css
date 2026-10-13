@@ -1,40 +1,61 @@
-/* Layout: single-column phone app — tabs (Exercises / Programme / Journal / Settings) → exercise detail → full-screen session.
-   Night-indigo ground, honey accent; the night mode swaps to near-black with a dim ember accent. */
+/* Gateway theme: deep-space indigo ground, violet portal accent. Light scheme = beeswax paper. */
 :root {
-  --bg: #f3efe4;          /* beeswax paper */
-  --surface: #fbf8f1;
-  --surface-2: #efe8d8;
-  --line: #ddd5c2;
-  --ink: #1d1a33;         /* indigo ink */
-  --muted: #625d78;
-  --accent: #a8650f;      /* honey */
-  --accent-soft: #f0dfbf;
-  --on-accent: #fffaf0;
-  --glow: rgba(168, 101, 15, .28);
-  --violet: #5b3f9e;      /* purple space */
-  --ring-track: #e2d9c4;
-  --good: #3f7a4a;
-  --danger: #a2382d;
+  --bg: #0e0c1d;          /* deep indigo night */
+  --surface: #171432;
+  --surface-2: #201c44;
+  --line: #2e2957;
+  --ink: #ece8f7;
+  --muted: #a29fc0;
+  --accent: #8f7bff;      /* portal violet */
+  --accent-soft: #2a2450;
+  --on-accent: #0e0c1d;
+  --glow: rgba(143, 123, 255, .30);
+  --violet: #b7a6ff;
+  --ring-track: #2c2950;
+  --good: #7fc28b;
+  --danger: #e8806f;
   --font-display: "Marcellus", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-body: "Nunito Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --r: 14px;
-  color-scheme: light;
+  color-scheme: dark;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #14122a; --surface: #1d1b38; --surface-2: #26234a; --line: #312e55; --ink: #ece8f7; --muted: #a29fc0;
-    --accent: #e8a94a; --accent-soft: #3a3048; --on-accent: #1a1426; --glow: rgba(232, 169, 74, .30);
-    --violet: #9b7fe0; --ring-track: #2c2950; --good: #7fc28b; --danger: #e8806f;
-    color-scheme: dark;
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #f3efe4; --surface: #fbf8f1; --surface-2: #efe8d8; --line: #ddd5c2; --ink: #1d1a33; --muted: #625d78;
+    --accent: #6a4fd8; --accent-soft: #e6defa; --on-accent: #fffaf0; --glow: rgba(106, 79, 216, .25);
+    --violet: #5b3f9e; --ring-track: #e2d9c4; --good: #3f7a4a; --danger: #a2382d;
+    color-scheme: light;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #14122a; --surface: #1d1b38; --surface-2: #26234a; --line: #312e55; --ink: #ece8f7; --muted: #a29fc0;
-  --accent: #e8a94a; --accent-soft: #3a3048; --on-accent: #1a1426; --glow: rgba(232, 169, 74, .30);
-  --violet: #9b7fe0; --ring-track: #2c2950; --good: #7fc28b; --danger: #e8806f;
+  --bg: #0e0c1d; --surface: #171432; --surface-2: #201c44; --line: #2e2957; --ink: #ece8f7; --muted: #a29fc0;
+  --accent: #8f7bff; --accent-soft: #2a2450; --on-accent: #0e0c1d; --glow: rgba(143, 123, 255, .30);
+  --violet: #b7a6ff; --ring-track: #2c2950; --good: #7fc28b; --danger: #e8806f;
   color-scheme: dark;
 }
-/* Night practice screen: always dark, dim ember */
+:root[data-theme="light"] {
+  --bg: #f3efe4; --surface: #fbf8f1; --surface-2: #efe8d8; --line: #ddd5c2; --ink: #1d1a33; --muted: #625d78;
+  --accent: #6a4fd8; --accent-soft: #e6defa; --on-accent: #fffaf0; --glow: rgba(106, 79, 216, .25);
+  --violet: #5b3f9e; --ring-track: #e2d9c4; --good: #3f7a4a; --danger: #a2382d;
+  color-scheme: light;
+}
+/* The session screen stays dark in every theme (eyes closed, less light in the room). */
+.session {
+  --bg: #0e0c1d; --surface: #171432; --surface-2: #201c44; --line: #2e2957; --ink: #ece8f7; --muted: #a29fc0;
+  --accent: #8f7bff; --accent-soft: #2a2450; --on-accent: #0e0c1d; --glow: rgba(143, 123, 255, .30);
+  --violet: #b7a6ff; --ring-track: #2c2950; --good: #7fc28b; --danger: #e8806f;
+  color-scheme: dark;
+}
+/* Reduced motion: the system preference (unless the user forces "full"), or the in-app setting "reduce". */
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion="full"]) *, :root:not([data-motion="full"]) *::before, :root:not([data-motion="full"]) *::after {
+    animation-duration: .001s !important; animation-iteration-count: 1 !important; transition-duration: .001s !important; scroll-behavior: auto !important;
+  }
+}
+:root[data-motion="reduce"] *, :root[data-motion="reduce"] *::before, :root[data-motion="reduce"] *::after {
+  animation-duration: .001s !important; animation-iteration-count: 1 !important; transition-duration: .001s !important; scroll-behavior: auto !important;
+}
+/* Sleep sessions: always near-black, dim ember */
 .night {
   --bg: #050407; --surface: #0d0a10; --surface-2: #140f16; --line: #221a20; --ink: #b8705a; --muted: #6e4638;
   --accent: #9a4a2e; --accent-soft: #24130f; --on-accent: #050407; --glow: rgba(154, 74, 46, .25);

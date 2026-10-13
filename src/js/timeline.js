@@ -1,8 +1,14 @@
-// Turns an exercise (+ params, language, settings) into an exact timeline of sounds and phases.
-// Times are in seconds from the start of the session.
+// Turns an exercise (+ params, language, settings) into an exact timeline of sounds, phases and the
+// binaural bed. Times are in seconds from the start of the session.
+//
+// The binaural bed is continuous across the whole session: one segment per phase, overlapping by
+// BED_FADE seconds (crossfade), with the beat frequency gliding from the previous segment's frequency
+// to this segment's target. Each segment records the absolute oscillator phase at its start, so any
+// chunk can be rendered independently with exact phase continuity (see audio.js).
 import { content } from "./content.js";
 
 export const BELL = { start: { len: 7, gap: 3.5 }, soft: { len: 3, gap: 1.2 }, end: { len: 7, gap: 3 }, beep: { len: 0.5, gap: 0 } };
+export const BED_FADE = 8; // crossfade seconds between bed segments
 
 function rng(seed) {
   let a = seed >>> 0;
@@ -35,12 +41,60 @@ export function holdSeconds(ex, hold, params) {
   return hold.sec || 0;
 }
 
+// ---------- binaural bed ----------
+// Integral of a linearly gliding frequency f0→f1 (over g seconds) from 0 to T — used for exact phases.
+export const freqIntegral = (f0, f1, g, T) =>
+  g > 0 ? (T <= g ? f0 * T + (f1 - f0) * T * T / (2 * g) : f0 * g + (f1 - f0) * g / 2 + f1 * (T - g)) : f0 * T;
+
+function bedSpecFor(ex, ph, inherited) {
+  const spec = ph.bed || inherited || { beat: "focus" };
+  const focusId = String(ph.focus ?? ex.focus?.[0] ?? "10");
+  const beat = spec.beat === "focus" ? (content.common.focusBeats?.[focusId] ?? 7.5) : spec.beat;
+  const carrier = spec.carrier ?? (content.common.focusCarrier?.[focusId] ?? 180);
+  return {
+    beat, carrier, focusId,
+    gain: spec.gain ?? content.common.bedDefaultGain ?? 0.14,
+    glide: spec.glide ?? null,   // seconds, or "phase" = whole phase
+    fade: spec.fade ?? BED_FADE,
+  };
+}
+
 /**
- * @param o { lang, mode: "partner"|"mirror", pauseScale, remindEvery (0 = off), nightBeep, dur(key, text) → sec,
- *            seed, ending: "done" | "none" | "routineDone" }
+ * @param o { lang, pauseScale, remindEvery (0 = off), dur(key, text) → sec, seed,
+ *            ending: "done" | "none" | "routineDone", sleepFade (seconds, night sessions; default 120) }
  */
+export const FADE_PHASE = { tr: "Sönümlenme", en: "Fading out" };
+/** Normalised breathing pattern of a phase (seconds per stage) or null. */
+export function breathPattern(ph) {
+  const b = ph && ph.breath;
+  if (!b || !(b.in > 0) || !(b.out > 0)) return null;
+  const p = { in: +b.in, hold: +b.hold || 0, out: +b.out, rest: +b.rest || 0, tone: b.tone === "hum" || b.tone === "tick" ? b.tone : null };
+  p.period = p.in + p.hold + p.out + p.rest;
+  return p;
+}
+/**
+ * Where the breath guide stands at time `now`: null outside paced-breathing holds, otherwise
+ * { seg, stage: "in"|"hold"|"out"|"rest", k (0–1 within the stage), left (s left in the stage), level (0–1 lung fill), cycle }.
+ */
+export function breathAt(tl, now) {
+  const seg = (tl.breath || []).find(b => now >= b.t0 && now < b.t1);
+  if (!seg) return null;
+  const τ = (now - seg.t0) % seg.period, cycle = Math.floor((now - seg.t0) / seg.period);
+  const stages = [["in", seg.in], ["hold", seg.hold], ["out", seg.out], ["rest", seg.rest]];
+  let acc = 0;
+  for (const [stage, len] of stages) {
+    if (len > 0 && τ < acc + len) {
+      const k = (τ - acc) / len;
+      const level = stage === "in" ? k : stage === "hold" ? 1 : stage === "out" ? 1 - k : 0;
+      return { seg, stage, k, left: acc + len - τ, level, cycle };
+    }
+    acc += len;
+  }
+  return { seg, stage: "rest", k: 1, left: 0, level: 0, cycle };
+}
+
 export function buildTimeline(ex, params, o) {
-  const events = [], phases = [];
+  const events = [], phases = [], breath = [];
   const rand = rng(o.seed ?? 1);
   let t = 0;
   const scalePause = p => (p >= 3 ? p * o.pauseScale : p);
@@ -53,19 +107,20 @@ export function buildTimeline(ex, params, o) {
   const bell = (kind, at) => { events.push({ t: at, type: "bell", kind, dur: BELL[kind].len }); return BELL[kind].gap; };
 
   for (const ph of expandPhases(ex, params)) {
-    const rec = { uid: ph.uid, name: ph.name, iter: ph.iter, iters: ph.iters, visual: ph.visual || null, start: t, holdStart: null, holdEnd: null, lines: [] };
+    const rec = { uid: ph.uid, name: ph.name, iter: ph.iter, iters: ph.iters, visual: ph.visual || null, focus: ph.focus ?? null, bed: ph.bed ?? null, start: t, holdStart: null, holdEnd: null, lines: [] };
     if (ph.bell) t += bell(ph.bell, t);
     for (const l of ph.lines || []) {
       if (l.when === "first" && ph.iter !== 0) continue;
       if (l.when === "notFirst" && ph.iter === 0) continue;
       if (l.when === "last" && ph.iter !== ph.iters - 1) continue;
-      if (l.mode && l.mode !== o.mode) continue;
       const d = clip(l.text, l.audio, t);
       t += d + scalePause(l.pause ?? 2);
     }
     const hs = holdSeconds(ex, ph.hold, params);
     if (hs > 0) {
       rec.holdStart = t; rec.holdEnd = t + hs;
+      const bp = breathPattern(ph);
+      if (bp) { rec.breath = bp; breath.push({ ...bp, t0: t, t1: t + hs, phase: ph.uid }); }
       const h = ph.hold;
       const every = h.essential ? (h.every || 90) : (o.remindEvery ? (h.every || o.remindEvery) : 0);
       const lastMin = h.lastMinute !== false && !ex.night && hs >= 180 ? rec.holdEnd - 60 : null;
@@ -90,31 +145,59 @@ export function buildTimeline(ex, params, o) {
     phases.push(rec);
   }
 
-  if (o.ending !== "none" && !ex.night) {
+  if (ex.night) {
+    // sleep sessions never count back up or ring: the bed fades out slowly while the sleeper drifts off
+    const fadeSec = Math.max(10, o.sleepFade ?? 120);
+    const prev = phases[phases.length - 1];
+    phases.push({ uid: "fade", name: FADE_PHASE, iter: 0, iters: 1, visual: null, focus: prev?.focus ?? null, bed: null, start: t, holdStart: t, holdEnd: t + fadeSec, lines: [], fadeOut: true, end: t + fadeSec });
+    t += fadeSec;
+  } else if (o.ending !== "none") {
     t += 1;
     t += bell("end", t);
     const c = content.common.lines[o.ending === "routineDone" ? "routineDone" : "done"];
     t += clip(c, c.audio, t) + 2;
-  } else if (o.ending === "routineDone") {
-    const c = content.common.lines.routineDone;
-    t += 2 + clip(c, c.audio, t + 2) + 2;
   } else {
-    t += ex.night ? 8 : 2;
-  }
-
-  if (ex.night && o.nightBeep) {
-    for (let at = 300; at < t - 30; at += 300) {
-      const clash = events.some(e => e.type === "clip" && at < e.t + e.dur + 0.5 && at + 0.6 > e.t);
-      events.push({ t: clash ? at + 6 : at, type: "bell", kind: "beep", dur: BELL.beep.len });
-    }
+    t += 2;
   }
   events.sort((a, b) => a.t - b.t);
-  return { events, phases, duration: t };
+
+  // ---------- binaural bed: one continuous segment per phase ----------
+  const bed = [];
+  let prevF = null, prevPhase = null, inheritedSpec = null;
+  for (const rec of phases) {
+    const explicit = rec.bed || null;
+    const spec = bedSpecFor(ex, rec, explicit ? null : inheritedSpec);
+    inheritedSpec = explicit || inheritedSpec;
+    const f1L = spec.carrier, f1R = spec.carrier + spec.beat;
+    const f0L = prevF ? prevF.fL : f1L, f0R = prevF ? prevF.fR : f1R;
+    const phaseLen = rec.end - rec.start;
+    let glide = spec.glide === "phase" ? Math.max(1, phaseLen) : spec.glide;
+    if (glide == null) glide = prevF && (f0L !== f1L || f0R !== f1R) ? Math.min(600, Math.max(30, phaseLen / 2)) : 0;
+    const isLast = rec === phases[phases.length - 1];
+    const len = (isLast ? (t - rec.start) + 4 : phaseLen + BED_FADE);
+    const fade = Math.min(spec.fade, len / 3);
+    const seg = {
+      t0: rec.start, len, glide, fade, gain: spec.gain,
+      f0L, f1L, f0R, f1R,
+      phaseL: prevPhase ? prevPhase.phaseL : 0,
+      phaseR: prevPhase ? prevPhase.phaseR : 0,
+    };
+    if (rec.fadeOut) seg.fadeOut = len;    // the whole segment is one long fade-out (sleep ending)
+    bed.push(seg);
+    prevF = { fL: f1L, fR: f1R };
+    prevPhase = {
+      phaseL: seg.phaseL + 2 * Math.PI * freqIntegral(f0L, f1L, glide, len),
+      phaseR: seg.phaseR + 2 * Math.PI * freqIntegral(f0R, f1R, glide, len),
+    };
+    rec.bed = { beat: spec.beat, focus: spec.focusId };
+  }
+
+  return { events, phases, bed, breath, duration: t };
 }
 
-/** Concatenate several exercises (a programme) into one timeline. */
+/** Concatenate several exercises (a programme or a whole wave) into one timeline. */
 export function buildRoutine(items, getEx, getParams, o) {
-  const events = [], phases = [];
+  const events = [], phases = [], bed = [], breath = [];
   let t = 0;
   items.forEach((it, i) => {
     const ex = getEx(it.id);
@@ -130,10 +213,28 @@ export function buildRoutine(items, getEx, getParams, o) {
     }
     const last = i === items.length - 1;
     const preset = it.preset && (ex.presets || []).find(p => p.id === it.preset);
-    const tl = buildTimeline(ex, Object.assign(getParams(ex), preset ? preset.values : {}, it.params || {}), { ...o, mode: it.mode || "mirror", ending: last ? "routineDone" : "none", seed: (o.seed || 1) + i });
+    const tl = buildTimeline(ex, Object.assign(getParams(ex), preset ? preset.values : {}, it.params || {}), { ...o, ending: last ? "routineDone" : "none", seed: (o.seed || 1) + i });
+    // keep the bed continuous across the transition clips: extend the previous session's last
+    // segment through the gap and carry frequency + oscillator phase into this session's first segment
+    if (i > 0 && bed.length && tl.bed.length) {
+      const prev = bed[bed.length - 1];
+      const gap = t - prev.t0 - prev.len + 4; // seconds from the previous segment's end (+4 tail) to this session's start
+      if (gap > 0) prev.len += gap;
+      const contL = prev.phaseL + 2 * Math.PI * freqIntegral(prev.f0L, prev.f1L, prev.glide, t - prev.t0);
+      const contR = prev.phaseR + 2 * Math.PI * freqIntegral(prev.f0R, prev.f1R, prev.glide, t - prev.t0);
+      const first = tl.bed[0];
+      first.phaseL = contL; first.phaseR = contR;
+      if (first.f0L !== prev.f1L || first.f0R !== prev.f1R) {
+        first.f0L = prev.f1L; first.f0R = prev.f1R;
+        first.glide = Math.min(600, Math.max(30, first.len / 2));
+      }
+    }
     tl.events.forEach(e => events.push({ ...e, t: e.t + t }));
     tl.phases.forEach(p => phases.push({ ...p, start: p.start + t, end: p.end + t, holdStart: p.holdStart == null ? null : p.holdStart + t, holdEnd: p.holdEnd == null ? null : p.holdEnd + t, exId: ex.id }));
+    tl.bed.forEach(s => bed.push({ ...s, t0: s.t0 + t }));
+    (tl.breath || []).forEach(b => breath.push({ ...b, t0: b.t0 + t, t1: b.t1 + t }));
     t += tl.duration;
   });
-  return { events, phases, duration: t };
+  events.sort((a, b) => a.t - b.t);
+  return { events, phases, bed, breath, duration: t };
 }

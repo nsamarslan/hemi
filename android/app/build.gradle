@@ -1,14 +1,28 @@
+import groovy.json.JsonSlurper
+
 apply plugin: 'com.android.application'
 
+// Version comes from gateway/package.json (0.7.0 -> versionCode 700).
+def gwPkg = new JsonSlurper().parse(file("../../package.json"))
+def gwVersion = gwPkg.version as String
+def gwParts = gwVersion.tokenize('.').collect { it.replaceAll(/\D.*/, '').toInteger() }
+def gwCode = gwParts[0] * 10000 + gwParts[1] * 100 + gwParts[2]
+
+// Signing: the repo ships a development keystore (android/keystore/gateway.p12) so every CI build can update
+// the previous one in place. Override with GATEWAY_KEYSTORE_FILE / GATEWAY_KEYSTORE_PASS / GATEWAY_KEY_ALIAS /
+// GATEWAY_KEY_PASS (GitHub secrets) for a private key.
+def gwKsFile = rootProject.file(System.getenv("GATEWAY_KEYSTORE_FILE") ?: "keystore/gateway.p12")
+def gwKsPass = System.getenv("GATEWAY_KEYSTORE_PASS") ?: "gateway-dev"
+
 android {
-    namespace = "com.nsamarslan.ucuncugoz"
+    namespace = "dev.nsamarslan.gateway"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.nsamarslan.ucuncugoz"
+        applicationId "dev.nsamarslan.gateway"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 4
-        versionName "0.4"
+        versionCode gwCode
+        versionName gwVersion
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
@@ -16,25 +30,25 @@ android {
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
-    // Release signing key lives in keystore/ (private repo) so every new APK installs over the previous one.
-    def ksFile = rootProject.file("keystore/keystore.properties")
     signingConfigs {
         release {
-            if (ksFile.exists()) {
-                def ks = new Properties()
-                ks.load(new FileInputStream(ksFile))
-                storeFile file(ks["storeFile"])
-                storePassword ks["storePassword"]
-                keyAlias ks["keyAlias"]
-                keyPassword ks["keyPassword"]
-            }
+            storeFile gwKsFile
+            storeType "PKCS12"
+            storePassword gwKsPass
+            keyAlias System.getenv("GATEWAY_KEY_ALIAS") ?: "gateway"
+            keyPassword System.getenv("GATEWAY_KEY_PASS") ?: gwKsPass
         }
     }
     buildTypes {
         release {
-            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = "gateway-${gwVersion}-${variant.buildType.name}.apk"
         }
     }
 }
@@ -51,9 +65,6 @@ dependencies {
     implementation "androidx.coordinatorlayout:coordinatorlayout:$androidxCoordinatorLayoutVersion"
     implementation "androidx.core:core-splashscreen:$coreSplashScreenVersion"
     implementation project(':capacitor-android')
-    testImplementation "junit:junit:$junitVersion"
-    androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
     implementation project(':capacitor-cordova-android-plugins')
 }
 

@@ -1,12 +1,1 @@
-node_modules/
-build/
-www/
-audio/report.json.bak
-android/app/src/main/assets/public/
-android/app/build/
-android/build/
-android/.gradle/
-android/capacitor-cordova-android-plugins/
-android/local.properties
-*.apk
-audio/report*.json
+__pycache__/

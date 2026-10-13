@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">Üçüncü Göz</string>
-    <string name="title_activity_main">Üçüncü Göz</string>
-    <string name="package_name">com.nsamarslan.ucuncugoz</string>
-    <string name="custom_url_scheme">com.nsamarslan.ucuncugoz</string>
+    <string name="app_name">Gateway</string>
+    <string name="title_activity_main">Gateway</string>
+    <string name="session_channel">Gateway</string>
+    <string name="package_name">dev.nsamarslan.gateway</string>
+    <string name="custom_url_scheme">dev.nsamarslan.gateway</string>
 </resources>
