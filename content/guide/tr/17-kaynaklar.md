@@ -34,9 +34,9 @@ Bu rehber, kamuya açık yüzlerce belgenin sentezidir. Aşağıda türlerine g�
 
 ## D. Bu uygulamanın kendi belgeleri
 
-- `gateway/ANALYSIS.md` — kaynak analizi, frekans yaklaşımları, sürüm notları (v0.1–v0.4), sorumluluk reddi.
-- `gateway/content/SCHEMA.md` — oturum, teknik ve rehber şemaları; içerik kuralları (özgün metin, iki dil, sesli satır sınırları).
-- `gateway/README.md` — kurulum, PC ses kaynağı, görsel paketler, test ve ekleme adımları.
+- `ANALYSIS.md` — kaynak analizi, frekans yaklaşımları, sürüm notları (v0.1–v0.4), sorumluluk reddi.
+- `content/SCHEMA.md` — oturum, teknik ve rehber şemaları; içerik kuralları (özgün metin, iki dil, sesli satır sınırları).
+- `README.md` — kurulum, PC ses kaynağı, görsel paketler, test ve ekleme adımları.
 
 ## E. Nasıl okunmalı?
 

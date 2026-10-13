@@ -2,7 +2,7 @@ import groovy.json.JsonSlurper
 
 apply plugin: 'com.android.application'
 
-// Version comes from gateway/package.json (0.7.0 -> versionCode 700).
+// Version comes from the repo's package.json (0.7.0 -> versionCode 700).
 def gwPkg = new JsonSlurper().parse(file("../../package.json"))
 def gwVersion = gwPkg.version as String
 def gwParts = gwVersion.tokenize('.').collect { it.replaceAll(/\D.*/, '').toInteger() }

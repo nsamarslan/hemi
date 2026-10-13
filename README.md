@@ -12,7 +12,6 @@ bağlantılı değildir. Tüm metinler özgün yazılmıştır; ritim değerleri
 ## Hızlı başlangıç
 
 ```bash
-cd gateway
 npm run build     # içerik doğrulama + şablon açma + www/ derlemesi
 npm run serve     # derle ve http://localhost:8123 üzerinde sun (önizleme)
 ```
@@ -141,7 +140,7 @@ telefona 30–40 GB olarak koymadan, evdeki PC'nizden akıtabilirsiniz:
    ```bash
    python3 tools/pc-server.py --audio "/path/to/Hemi-Sync"     # Windows: tools\pc-server.bat'e çift tık
    ```
-   Sunucu uygulamayı da servis eder (`--app`, varsayılan `gateway/www`).
+   Sunucu uygulamayı da servis eder (`--app`, varsayılan depo kökündeki `www/`; önce `npm run build`).
 2. **Telefon tarayıcısından** (aynı Wi-Fi) `http://<pc-ip>:8700/` adresini açın — uygulama PC'den yüklenir.
 3. **Ayarlar → Ses kaynağı** → "PC'den çalsın (yerel ağ)" seçin, adresi girin, "Bağlantıyı test et"e dokunun.
 4. Bir oturumu başlattığınızda, oturumun resmi egzersiz adıyla eşleşen kayıt PC'den akar
@@ -164,6 +163,11 @@ Notlar:
   elle eşleşmeler (`matches.json`), kaldığın yer (`positions.json`), cihaz başına uygulama yedeği
   (`backups/<cihaz>.json`). Uç noktalar: `GET/POST /matches`, `/positions`, `/backup`,
   `/backups.json`. Kimlik doğrulama yoktur; yedek günlüğünüzü içerir — yalnızca güvendiğiniz ağda.
+- Tarayıcıdan gelen istekler yalnızca sunucunun kendi servis ettiği uygulamadan, aynı makinedeki bir
+  sayfadan (başka port olabilir) ve Android uygulamasından (`https://localhost`) kabul edilir; başka
+  bir siteden gelen istek 403 alır (açtığınız bir web sayfası yedeğinizi okuyamaz ya da sahte yedek
+  bırakamaz). Uygulamayı başka bir makineden servis ediyorsanız onu ekleyin:
+  `--allow-origin http://192.168.1.30:8123` (tekrarlanabilir).
 
 ## Android uygulaması (APK)
 
@@ -194,9 +198,11 @@ oluşan GitHub sürümünden indir. Telefonda dosyayı aç, "bilinmeyen kaynakla
 bildirim izni istenir (Android 13+). Sürüm `package.json`'dan gelir (`0.7.0` → `versionCode 700`).
 
 **İmza:** depo, her CI çıktısının bir öncekinin üzerine kurulabilmesi için bir geliştirme anahtarı
-taşır (`android/keystore/gateway.p12`, parola `gateway-dev`; depo özel). Kendi anahtarın için depo
-gizli değişkenleri: `GATEWAY_KEYSTORE_B64` (base64 .p12/.jks), `GATEWAY_KEYSTORE_PASS`,
-`GATEWAY_KEY_ALIAS`, `GATEWAY_KEY_PASS`. Anahtar değişince eski kurulum kaldırılıp yeniden kurulur.
+taşır (`android/keystore/gateway.p12`, parola `gateway-dev`). **Depo herkese açık olduğu için bu anahtar
+gizli değildir:** onunla herkes, kurulu uygulamanın üzerine "güncelleme" olarak kurulan bir APK
+imzalayabilir. Gerçek kullanım için kendi anahtarını üretip depo gizli değişkenlerine koy:
+`GATEWAY_KEYSTORE_B64` (base64 .p12/.jks), `GATEWAY_KEYSTORE_PASS`, `GATEWAY_KEY_ALIAS`,
+`GATEWAY_KEY_PASS`. Anahtar değişince eski kurulum kaldırılıp yeniden kurulur (önce yedek al).
 
 **Yerelde derleme:** Node 22+ (Capacitor CLI 8), Android Studio + JDK 21: `npm ci && npm run build &&
 npx cap sync android && cd android && ./gradlew assembleRelease` (ya da `npx cap open android`). CI işi:
@@ -300,7 +306,8 @@ derleme `www/guide/index.json`'u kendisi üretir.
 
 ## Sürekli test ve yayınlama
 
-`.github/workflows/gateway.yml` her itmede (ve PR'da) `gateway/` için şunları koşar: içerik doğrulama,
+`.github/workflows/gateway.yml`, uygulama dosyalarına (`src/`, `content/`, `tools/`, `android/`,
+`package*.json`, `capacitor.config.json`) dokunan her itmede (ve PR'da) şunları koşar: içerik doğrulama,
 derleme, derleme çıktısı testleri (servis çalışanı ön-önbellek listesi), Node render testleri, ses paketi
 testleri, parça eşleştirme, PC sunucu testleri, Android köprüsü testi ve jsdom duman testleri (web +
 sahte Capacitor köprüsüyle Android akışı). Derlenen

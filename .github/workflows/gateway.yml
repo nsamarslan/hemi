@@ -1,9 +1,9 @@
-# gateway/ — validate, build and test on every push; publish www/ as an artifact; build the Android APK;
-# deploy to GitHub Pages when enabled.
+# Gateway — validate, build and test on every push that touches the app; publish www/ as an artifact; build the
+# Android APK; deploy to GitHub Pages when enabled.
 #
 # Android: every push builds a signed release APK (artifact "gateway-android-apk"). A tag `gateway-v<version>`
 # (or workflow_dispatch with release=true) also publishes it as a GitHub release. The APK is signed with the
-# development keystore in gateway/android/keystore/ unless these secrets are set: GATEWAY_KEYSTORE_B64
+# development keystore in android/keystore/ unless these secrets are set: GATEWAY_KEYSTORE_B64
 # (base64 of a .p12/.jks), GATEWAY_KEYSTORE_PASS, GATEWAY_KEY_ALIAS, GATEWAY_KEY_PASS.
 #
 # Pages: Settings → Pages → Source: "GitHub Actions"; then Settings → Secrets and variables → Actions → Variables:
@@ -16,9 +16,9 @@ on:
   push:
     branches: ["**"]
     tags: ["gateway-v*"]
-    paths: ["gateway/**", ".github/workflows/gateway.yml"]
+    paths: ["src/**", "content/**", "tools/**", "android/**", "package.json", "package-lock.json", "capacitor.config.json", ".github/workflows/gateway.yml"]
   pull_request:
-    paths: ["gateway/**", ".github/workflows/gateway.yml"]
+    paths: ["src/**", "content/**", "tools/**", "android/**", "package.json", "package-lock.json", "capacitor.config.json", ".github/workflows/gateway.yml"]
   workflow_dispatch:
     inputs:
       release:
@@ -37,9 +37,6 @@ jobs:
   test:
     name: validate · build · tests · smoke
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: gateway
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -53,7 +50,7 @@ jobs:
       - name: Smoke tests (jsdom end-to-end — web, then the Android bridge with a fake Capacitor)
         run: |
           mkdir -p /tmp/smoke && cd /tmp/smoke && npm init -y >/dev/null && npm i --no-audit --no-fund jsdom esbuild
-          cd "$GITHUB_WORKSPACE/gateway"
+          cd "$GITHUB_WORKSPACE"
           /tmp/smoke/node_modules/.bin/esbuild www/js/app.js --bundle --format=iife --outfile=/tmp/smoke/app.bundle.js
           set +e
           SMOKE_DIR=/tmp/smoke SMOKE_BUNDLE=/tmp/smoke/app.bundle.js node tools/smoke-test.mjs > /tmp/smoke/out.txt 2>&1
@@ -67,7 +64,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gateway-www
-          path: gateway/www
+          path: www
           retention-days: 14
 
   android:
@@ -77,16 +74,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    defaults:
-      run:
-        working-directory: gateway
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v5
         with:
           node-version: 22              # Capacitor CLI 8 needs Node 22+
           cache: npm
-          cache-dependency-path: gateway/package-lock.json
+          cache-dependency-path: package-lock.json
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
@@ -127,7 +121,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gateway-android-apk
-          path: gateway/android/app/build/outputs/apk/release/*.apk
+          path: android/app/build/outputs/apk/release/*.apk
           retention-days: 30
       - name: Publish a GitHub release
         if: startsWith(github.ref, 'refs/tags/gateway-v') || (github.event_name == 'workflow_dispatch' && inputs.release)
@@ -163,10 +157,10 @@ jobs:
         with:
           node-version: 20
       - name: Build
-        run: cd gateway && node tools/build.mjs
+        run: node tools/build.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: gateway/www
+          path: www
       - id: deployment
         uses: actions/deploy-pages@v4

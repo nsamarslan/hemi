@@ -34,9 +34,9 @@ This guide is a synthesis of hundreds of publicly available documents. Below is 
 
 ## D. This app's own documents
 
-- `gateway/ANALYSIS.md` — source analysis, frequency approximations, release notes (v0.1–v0.4), disclaimer.
-- `gateway/content/SCHEMA.md` — session, technique and guide schemas; content rules (original text, two languages, spoken-line limits).
-- `gateway/README.md` — setup, PC audio source, visual packs, testing and steps for adding content.
+- `ANALYSIS.md` — source analysis, frequency approximations, release notes (v0.1–v0.4), disclaimer.
+- `content/SCHEMA.md` — session, technique and guide schemas; content rules (original text, two languages, spoken-line limits).
+- `README.md` — setup, PC audio source, visual packs, testing and steps for adding content.
 
 ## E. How to read
 

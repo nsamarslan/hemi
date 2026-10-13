@@ -1,1 +1,12 @@
 __pycache__/
+# npm ci
+node_modules/
+# tools/build.mjs output (also what `npx cap sync` copies into android/)
+www/
+# tools/test-render.mjs listening samples
+build/
+# unprocessed voice recordings (docs/VOICE-PACK-HANDOFF.md)
+content/voice/raw/
+*.apk
+# CI writes the keystore from secrets here (android/app/build.gradle reads GATEWAY_KEYSTORE_FILE)
+android/keystore/ci.keystore

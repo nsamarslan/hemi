@@ -1,6 +1,6 @@
 # Sesli rehber kayıtlarını tamamlama — PC'de çalışacak yapay zekâ için görev notu
 
-Bu not, `gateway/` uygulamasının **kayıtlı sesli rehber paketlerini** (Türkçe + İngilizce) bir PC'de,
+Bu not, Gateway uygulamasının **kayıtlı sesli rehber paketlerini** (Türkçe + İngilizce) bir PC'de,
 internet erişimi olan bir yapay zekâ ajanıyla tamamlamak içindir. Aşağıdaki "Agent brief" bölümü
 İngilizcedir; ajana doğrudan verilebilir.
 
@@ -27,7 +27,7 @@ satırında kapsama oranı görünür.
 ## Seçenek A (önerilen, PC'de ~15 dakika): Edge nöral sesleriyle satır satır üretim
 
 ```bash
-cd gateway
+# depo kökünde
 pip install edge-tts numpy soundfile imageio-ffmpeg
 edge-tts --list-voices | grep -i "tr-TR\|en-GB\|en-US"
 # Türkçe: tr-TR-EmelNeural (kadın) veya tr-TR-AhmetNeural (erkek); İngilizce: en-GB-SoniaNeural, en-US-JennyNeural, en-GB-RyanNeural
@@ -72,9 +72,9 @@ sürdürülür; tur başına ≈ 4 + 4 toplu iş (≈ 100 + 100 satır).
 
 ## Agent brief (English)
 
-You are completing the recorded voice packs of the `gateway/` PWA in this repository (branch
+You are completing the recorded voice packs of the Gateway PWA in this repository (branch
 `arena/7bfeab7d-eye`). Spoken guidance lines (Turkish and English, 534 + 533 unique lines) are stored as
-one MP3 clip per line under `gateway/content/voice/<lang>/<key>.mp3`, where `key = sha1(NFC(text))[:12]`.
+one MP3 clip per line under `content/voice/<lang>/<key>.mp3`, where `key = sha1(NFC(text))[:12]`.
 `tools/build.mjs` merges the clips into packs and the app mixes them into the session audio.
 Currently 112 (tr) and 109 (en) lines are recorded with Arena's neural voices.
 
@@ -82,7 +82,7 @@ Recommended route: regenerate **all** lines per language with one consistent Mic
 (`pip install edge-tts`), import them, build, test, commit:
 
 ```bash
-cd gateway
+# from the repository root
 pip install edge-tts numpy soundfile imageio-ffmpeg
 python tools/voice-edge-tts.py --lang tr --voice tr-TR-EmelNeural --rate -8% --out /tmp/voice-tr --all
 python tools/voice-edge-tts.py --lang en --voice en-GB-SoniaNeural --rate -8% --out /tmp/voice-en --all

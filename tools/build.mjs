@@ -192,7 +192,7 @@ if (existsSync(join(resSrc, "meta.json"))) {
     topics: [...resTopics, ...horizonTopics]
   }, null, 2) + "\n");
 
-  // Compile standalone Horizon master markdown file: gateway/RESEARCH-HORIZON.md
+  // Compile standalone Horizon master markdown file: RESEARCH-HORIZON.md
   if (horizon) {
     const hzReady = horizonTopics.filter(t => !t.hz.final && t.ready).length;
     const hzMd = [
@@ -248,7 +248,7 @@ if (existsSync(join(resSrc, "meta.json"))) {
     }
   }
 
-  // Compile standalone master markdown file: gateway/RESEARCH-REALITY.md
+  // Compile standalone master markdown file: RESEARCH-REALITY.md
   const readyCount = resTopics.filter(t => t.ready).length;
   const masterMd = [
     "# Gateway, Bilinç ve Gerçeklik Araştırması: 50 Dosyalık Bağımsız Muhakeme ve Gizli Örüntü Atlası",
