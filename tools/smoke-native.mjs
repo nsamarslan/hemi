@@ -17,7 +17,7 @@ const html = readFileSync(`${WWW}/index.html`, "utf8");
 const contentJs = readFileSync(`${WWW}/content.js`, "utf8");
 const bundle = readFileSync(BUNDLE, "utf8");
 
-const dom = new JSDOM(html, { url: "https://localhost/", runScripts: "dangerously", pretendToBeVisual: true });
+const dom = new JSDOM(html, { url: "http://localhost/", runScripts: "dangerously", pretendToBeVisual: true });
 const { window } = dom;
 const { document } = window;
 window.URL.createObjectURL = () => "blob:smoke";

@@ -173,7 +173,7 @@ Notlar:
 - `tools\pc-server.bat` önce `py` başlatıcısını kullanır (python.org kurulumunda her zaman vardır);
   Microsoft Store'un `python` kısayoluna takılırsa bunu söyler.
 - Tarayıcıdan gelen istekler yalnızca sunucunun kendi servis ettiği uygulamadan, aynı makinedeki bir
-  sayfadan (başka port olabilir) ve Android uygulamasından (`https://localhost`) kabul edilir; başka
+  sayfadan (başka port olabilir) ve Android uygulamasından (`http://localhost`) kabul edilir; başka
   bir siteden gelen istek 403 alır (açtığınız bir web sayfası yedeğinizi okuyamaz ya da sahte yedek
   bırakamaz). Uygulamayı başka bir makineden servis ediyorsanız onu ekleyin:
   `--allow-origin http://192.168.1.30:8123` (tekrarlanabilir).
@@ -197,8 +197,10 @@ Web uygulamasının birebir aynısı, Capacitor 8 ile Android paketi olarak (`an
 - **Paylaşım** — Markdown/JSON dışa aktarma ve yedek, indirme yerine Android paylaşım sayfasına
   gider (Drive, e-posta, Dosyalar…). Yedek yükleme dosya seçiciyle çalışır.
 - **Geri tuşu** — uygulama içi geçmiş; kökte uygulamayı küçültür (kapatmaz).
-- **PC kaynağı** — `http://` PC adresi WebView'da serbesttir (`allowMixedContent` +
-  `usesCleartextTraffic`); https/karışık içerik uyarısı yoktur.
+- **PC kaynağı** — uygulama WebView'da `http://localhost` adresinden çalışır (`androidScheme: "http"`):
+  https bir sayfadan evdeki PC'nin `http://` ses akışı engellenir ya da https'e çevrilip düşer (liste gelir
+  ama kayıt yüklenmez); http sayfada bu sorun yoktur. Not: bu adres değişikliğiyle önceki (`https://localhost`)
+  kurulumun yerel verisi görünmez — güncellemeden önce Günlük → yedekle, sonra geri yükle.
 - Ayarlar → **Android** paneli: bildirim izni, alarm izni, sürüm; pil kısıtlaması notu.
 
 **Kurulum:** Actions → son `gateway` çalışması → `gateway-android-apk` artefaktı (zip içinde
