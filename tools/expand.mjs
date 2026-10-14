@@ -77,7 +77,7 @@ export function expandContent(dir = root) {
     });
   }
 
-  return attachVoiceKeys({ common, focus, waves, series, defaults, tracks, techniques, reference, sessions, built: new Date().toISOString() });
+  return attachVoiceKeys({ common, focus, waves, series, defaults, tracks, techniques, reference, sessions });   // no build timestamp: identical content keeps the same service-worker cache name
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {

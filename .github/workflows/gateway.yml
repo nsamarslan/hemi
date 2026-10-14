@@ -41,7 +41,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -49,7 +49,7 @@ jobs:
         run: npm test
       - name: Smoke tests (jsdom end-to-end — web, then the Android bridge with a fake Capacitor)
         run: |
-          mkdir -p /tmp/smoke && cd /tmp/smoke && npm init -y >/dev/null && npm i --no-audit --no-fund jsdom esbuild
+          mkdir -p /tmp/smoke && cd /tmp/smoke && npm init -y >/dev/null && npm i --no-audit --no-fund jsdom@29.1.1 esbuild@0.28.2   # pinned: a new jsdom major can drop Node versions
           cd "$GITHUB_WORKSPACE"
           /tmp/smoke/node_modules/.bin/esbuild www/js/app.js --bundle --format=iife --outfile=/tmp/smoke/app.bundle.js
           set +e
@@ -130,6 +130,10 @@ jobs:
         run: |
           VER=$(node -p "require('./package.json').version")
           TAG="gateway-v$VER"
+          # a pushed tag must match package.json (the APK's version comes from there); never overwrite another release
+          if [ "$GITHUB_REF_TYPE" = "tag" ] && [ "$GITHUB_REF_NAME" != "$TAG" ]; then
+            echo "::error::Tag $GITHUB_REF_NAME does not match package.json version ($TAG). Bump package.json, then tag."; exit 1
+          fi
           APK=$(ls android/app/build/outputs/apk/release/*.apk | head -n 1)
           if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release upload "$TAG" "$APK" --clobber --repo "$GITHUB_REPOSITORY"
@@ -155,7 +159,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Build
         run: node tools/build.mjs
       - uses: actions/configure-pages@v5

@@ -16,12 +16,14 @@ npm run build     # içerik doğrulama + şablon açma + www/ derlemesi
 npm run serve     # derle ve http://localhost:8123 üzerinde sun (önizleme)
 ```
 
-Telefonundan `http://<bilgisayarının-ipsi>:8123` adresine gir, kulaklığını tak, uygulamayı ana
-ekranına ekle (PWA). İnternet ve hücre verisi gerektirmez; ilk yüklemeden sonra çevrimdışı çalışır.
+Telefonundan `http://<bilgisayarının-ipsi>:8123` adresine gir ve kulaklığını tak — önizleme için yeterli.
+Ama tarayıcılar düz `http://` adreste servis çalışanına, bildirimlere ve ekranı açık tutmaya izin vermez:
+bu yolla **çevrimdışı çalışma, bildirim ve ekran kilidi koruması yoktur**. Çevrimdışı PWA için uygulamayı
+https üzerinden (GitHub Pages) aç; ancak https sayfa evdeki PC'nin `http://` ses sunucusuna erişemez.
 
-Android'de PWA yerine **APK** da kurabilirsin (arka plan servisi, gerçek alarm, uygulama kapalıyken
-bildirim, yerel TTS): GitHub Actions her itmede `gateway-android-apk` artefaktını üretir; bkz.
-[Android uygulaması](#android-uygulaması-apk).
+**Telefon + evdeki PC için önerilen yol Android APK'dır** (arka plan servisi, gerçek alarm, uygulama
+kapalıyken bildirim, yerel TTS, PC ses kaynağı): GitHub Actions her itmede `gateway-android-apk`
+artefaktını üretir; bkz. [Android uygulaması](#android-uygulaması-apk).
 
 ## Ne yapar?
 
@@ -145,6 +147,7 @@ telefona 30–40 GB olarak koymadan, evdeki PC'nizden akıtabilirsiniz:
 3. **Ayarlar → Ses kaynağı** → "PC'den çalsın (yerel ağ)" seçin, adresi girin, "Bağlantıyı test et"e dokunun.
 4. Bir oturumu başlattığınızda, oturumun resmi egzersiz adıyla eşleşen kayıt PC'den akar
    (örneğin "Focus 10'a Giriş" → `Wave I Discovery/02 Introduction to Focus 10.flac`).
+   Kütüphanende o oturumun kaydı yoksa başka bir kayıt çalınmaz, uygulama sentezler.
    Eşleşme bulunamazsa otomatik olarak uygulama sentezler.
 
 Notlar:
@@ -163,6 +166,12 @@ Notlar:
   elle eşleşmeler (`matches.json`), kaldığın yer (`positions.json`), cihaz başına uygulama yedeği
   (`backups/<cihaz>.json`). Uç noktalar: `GET/POST /matches`, `/positions`, `/backup`,
   `/backups.json`. Kimlik doğrulama yoktur; yedek günlüğünüzü içerir — yalnızca güvendiğiniz ağda.
+- **Telefon bağlanamıyorsa (Windows):** sunucu konsolda `READY` dese bile Windows Güvenlik Duvarı 8700
+  portunu engelliyor olabilir. Ev Wi-Fi'sinin ağ profilini **Özel (Private)** yapın ya da ilk açılıştaki
+  izin penceresinde "Ortak ağlar"ı da işaretleyin; elle kural için (yönetici komut istemi):
+  `netsh advfirewall firewall add rule name="Gateway PC" dir=in action=allow protocol=TCP localport=8700`.
+- `tools\pc-server.bat` önce `py` başlatıcısını kullanır (python.org kurulumunda her zaman vardır);
+  Microsoft Store'un `python` kısayoluna takılırsa bunu söyler.
 - Tarayıcıdan gelen istekler yalnızca sunucunun kendi servis ettiği uygulamadan, aynı makinedeki bir
   sayfadan (başka port olabilir) ve Android uygulamasından (`https://localhost`) kabul edilir; başka
   bir siteden gelen istek 403 alır (açtığınız bir web sayfası yedeğinizi okuyamaz ya da sahte yedek
@@ -324,9 +333,10 @@ planı ister; herkese açık depoda ücretsizdir. (Kendi sunucun: `www/` dizinin
 statik sunucuya kopyalaman yeterlidir.)
 
 **Çevrimdışı:** servis çalışanı derlemede üretilen tam listeyi (uygulama kabuğu, tüm JS modülleri,
-17 + 17 rehber konusu, görseller, ikonlar — 67 dosya) kurulumda ön-önbelleğe alır; önbellek adı
+17 + 17 rehber konusu, araştırma dosyaları, görseller, ikonlar) kurulumda ön-önbelleğe alır; önbellek adı
 dosya içeriklerinin karmasıdır, dolayısıyla her derleme kendiliğinden yeni sürüm olarak kurulur.
-Ses paketleri ayrı bir cache-first önbellekte ilk kullanımda iner.
+Ses paketleri ayrı bir cache-first önbellekte ilk kullanımda iner. Ağ önce denenir, ama 3 saniyede yanıt
+gelmezse (Wi-Fi var, internet yok) önbellekteki dosya kullanılır; yazı tipleri ilk çizimi bekletmez.
 
 ## Sorumluluk reddi
 

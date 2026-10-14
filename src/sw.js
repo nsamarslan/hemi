@@ -20,8 +20,9 @@ self.addEventListener("install", e => {
   // the core files must be there; the rest (guide topics, images) is best effort so one missing file cannot block the install
   const core = ["./", "index.html", "content.js", "guide/index.json", "css/app.css", "css/tokens.css", "js/app.js", "manifest.webmanifest"];
   e.waitUntil(caches.open(CACHE).then(async c => {
-    await c.addAll(core);
-    await Promise.allSettled(PRECACHE.filter(u => !core.includes(u)).map(u => c.add(u)));
+    // cache: "reload" — never fill a new version's cache from stale HTTP-cache copies
+    await c.addAll(core.map(u => new Request(u, { cache: "reload" })));
+    await Promise.allSettled(PRECACHE.filter(u => !core.includes(u)).map(u => c.add(new Request(u, { cache: "reload" }))));
   }).then(() => self.skipWaiting()));
 });
 self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && k !== VOICE).map(k => caches.delete(k)))).then(() => self.clients.claim())); });
@@ -31,5 +32,10 @@ self.addEventListener("fetch", e => {
   if (req.method !== "GET" || url.origin !== location.origin) return;
   if (/\/voice\/[a-z]{2}\/[\w.-]+\.mp3$/.test(url.pathname)) { e.respondWith(voiceFirst(req, url)); return; }
   const put = res => { if (res.ok) { const c = res.clone(); caches.open(CACHE).then(x => x.put(req, c)); } return res; };
-  e.respondWith(fetch(req).then(put).catch(() => caches.match(req).then(r => r || caches.match("index.html"))));
+  const cached = () => caches.match(req).then(r => r || caches.match("index.html"));
+  // network first, but a Wi-Fi without internet (DNS/TCP hanging) must not stall the app: after 3 s use the cache
+  // when it has the file, and keep waiting for the network when it does not
+  const net = fetch(req, { cache: "no-cache" }).then(put);
+  net.catch(() => {});
+  e.respondWith(Promise.race([net, new Promise(r => setTimeout(r, 3000)).then(() => caches.match(req).then(r => r || net))]).catch(cached));
 });

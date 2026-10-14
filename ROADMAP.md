@@ -165,7 +165,7 @@ Her parça kendi başına test edilip itilir; sıra kullanıcı isteğine göre 
   `ic_stat_gateway` durum simgesi, sürüm `package.json`'dan (`0.7.0` → 700), çıktı adı
   `gateway-<sürüm>-release.apk`, imza: depodaki geliştirme anahtarı (`keystore/gateway.p12`) ya da
   `GATEWAY_KEYSTORE_*` gizli değişkenleri.
-- ✅ CI `android` işi: Node 20 + Temurin 21 + Android SDK 36 + Gradle önbelleği; `npm ci` → derle →
+- ✅ CI `android` işi: Node 22 + Temurin 21 + Android SDK 36 + Gradle önbelleği; `npm ci` → derle →
   `cap sync` → `assembleRelease`; `gateway-android-apk` artefaktı (30 gün); `gateway-v*` etiketi ya da
   "release" girdisiyle GitHub sürümü. Testler: `tools/test-native.mjs` (14 denetim; web no-op'ları,
   sahte köprüyle servis/hatırlatıcı/alarm/paylaşım/TTS, proje dosyaları) `npm test`e eklendi;
