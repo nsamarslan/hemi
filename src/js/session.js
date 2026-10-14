@@ -1,9 +1,9 @@
 // Full-screen guided session: builds the timeline, renders audio, plays it and keeps the screen in sync.
 import { t, L, fmtClock } from "./i18n.js";
 import { settings, logSession } from "./store.js";
-import { speak } from "./tts.js";
+import { speak, stopSpeaking } from "./tts.js";
 import { content, focusById } from "./content.js";
-import { loadPacks, clipDur, SessionPlayer, TrackPlayer, SleepWaiter, unlockAudio, warmTrack } from "./audio.js";
+import { loadPacks, clipDur, hasClip, SessionPlayer, TrackPlayer, SleepWaiter, unlockAudio, warmTrack } from "./audio.js";
 import { keepAwake, sessionService, onServiceStop, scheduleWake, cancelWake, isNative } from "./native.js";
 import { renderVisual } from "./visuals.js";
 import { breathAt } from "./timeline.js";
@@ -75,14 +75,16 @@ class Session {
         r.querySelector(".s-next").textContent = this.spec.track.path || "";
       } else {
         await loadPacks(this.lang, ["common", ...this.spec.packs]);
+        if (this.done) return;                         // stopped while the voice packs were loading
         this.player = new SessionPlayer(this.tl, this.lang, { title: this.spec.title, artist: t("appName") });
       }
       this.player.addEventListener("end", () => this.onEnd());
       this.player.addEventListener("stoprequest", () => this.finish(false));
-      this.player.addEventListener("state", () => this.paint());
+      this.player.addEventListener("state", () => { if (this.player.paused) stopSpeaking(); this.paint(); });   // pause here or on the lock screen
       await this.player.start();
+      if (this.done) { this.player.stop(); return; }
     } catch (e) {
-      r.querySelector(".s-say").textContent = String(e && e.message || e);
+      if (!this.done) r.querySelector(".s-say").textContent = String(e && e.message || e);
       return;
     }
     if (settings.keepAwake && !this.spec.night) keepAwake(true);
@@ -117,7 +119,11 @@ class Session {
     r.querySelector(".s-hint").before(box);
     r.querySelector(".s-hint").textContent = t("sleepHint");
     this.waiter = new SleepWaiter(this.spec.sleep.wakeAt, this.lang, { title: this.spec.title, artist: t("sleepWaiting", { time: clock(this.spec.sleep.wakeAt, this.lang) }), kind: this.spec.sleep.kind });
-    this.waiter.addEventListener("ring", () => { this.paintSleep(); try { navigator.vibrate?.([600, 400, 600, 400, 600]); } catch {} });
+    this.waiter.addEventListener("ring", () => {
+      this.paintSleep();
+      try { navigator.vibrate?.([600, 400, 600, 400, 600]); } catch {}
+      if (!this.waiter.spoken && this.waiter.text) setTimeout(() => { if (this.waiter?.ringing && !this.done) speak(this.waiter.text, this.lang); }, 8000);   // no recorded wake line: say it after the first bells
+    });
     this.waiter.addEventListener("timeout", () => this.finish(true, { woke: false }));
     this.waiter.start();
     // Android: a real alarm at the same moment backs up the in-app bell (survives the system killing the web view)
@@ -153,12 +159,14 @@ class Session {
     if (a === "pause") { this.player.paused ? this.player.resume() : this.player.pause(); }
     if (a === "restart" && this.spec.track) {
       this.player.restart?.();
+      this.lastPosAt = 0;                              // keep saving the position from the new start
       r.querySelector('[data-a="restart"]').hidden = true;
       this.sayText = t("trackModeHint"); r.querySelector(".s-say").textContent = this.sayText;
     }
     if (a === "skip" && !this.spec.track) {
       const now = this.player.time();
       const next = this.tl.phases.find(p => p.start > now + 0.5);
+      stopSpeaking();                                  // the rest of the current line would delay the next phase's guidance
       this.player.seek(next ? next.start : this.tl.duration - 1);
     }
     if (a === "stop") { r.querySelector(".s-controls").hidden = true; r.querySelector(".s-confirm").hidden = false; }
@@ -225,7 +233,7 @@ class Session {
     const sayEl = r.querySelector(".s-say");
     const txt = said ? said.text : "";
     if (sayEl.textContent !== txt) sayEl.textContent = txt;
-    if (said && said.missing && !this.spoken.has(said) && now - said.t < 2 && !this.player.paused) this.speakLive(said);
+    if (said && (said.missing || !hasClip(this.lang, said.key)) && !this.spoken.has(said) && now - said.t < 2 && !this.player.paused) this.speakLive(said);
     // dial: hold countdown, otherwise quiet
     const time = r.querySelector(".s-time"), bar = r.querySelector(".bar");
     const inHold = ph && ph.holdStart != null && now >= ph.holdStart && now < ph.holdEnd;
@@ -272,6 +280,7 @@ class Session {
     if (this.raf && typeof cancelAnimationFrame === "function") cancelAnimationFrame(this.raf);
     this.waiter?.stop();
     this.player?.stop();
+    stopSpeaking();
     document.removeEventListener("visibilitychange", this.onVis);
     keepAwake(false);
     sessionService(false);

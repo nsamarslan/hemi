@@ -43,6 +43,8 @@ export function loadPack(lang, pack) {
   return pr;
 }
 export const loadPacks = (lang, packs) => Promise.all([...new Set(packs)].map(p => loadPack(lang, p)));
+/** Is this line's recorded clip decoded and in use? (A pack that failed to load or decode leaves it to device TTS.) */
+export const hasClip = (lang, key) => !!(key && settings.recordedVoice !== false && decoded.get(`${lang}/${key}`));
 
 /** Duration lookup used by the timeline builder. */
 export function clipDur(lang) {
@@ -228,7 +230,7 @@ export function alarmSamples(lang, kind = "morning", o = {}) {
   const buf = key && settings.recordedVoice !== false && decoded.get(`${lang}/${key}`);
   if (buf) addClip(L, R, 0, buf, 24, (o.voiceVol ?? settings.voiceVol ?? 1) * 0.9);
   for (let i = 0; i < L.length; i++) { if (L[i] > 1) L[i] = 1; else if (L[i] < -1) L[i] = -1; if (R[i] > 1) R[i] = 1; else if (R[i] < -1) R[i] = -1; }
-  return { L, R, text: line ? line[lang] : "" };
+  return { L, R, text: line ? line[lang] : "", spoken: !!buf };
 }
 
 /**
@@ -247,6 +249,13 @@ export class SleepWaiter extends EventTarget {
     this.a.onended = () => this.next();
     this.setupMediaSession();
     this.next();
+    // 'ended' alone is not enough: a paused stream (lock-screen pause, earbuds disconnecting) never ends,
+    // so also ring by the clock and restart a silent stream the system paused
+    this.watch = setInterval(() => {
+      if (this.stopped || this.ringing) return;
+      if (Date.now() >= this.wakeAt - 500) this.ring();
+      else if (this.a.paused) playSafe(this.a);
+    }, 15e3);
   }
   swap(url, loop) {
     if (this.url) { try { URL.revokeObjectURL(this.url); } catch {} }
@@ -260,10 +269,10 @@ export class SleepWaiter extends EventTarget {
     this.ring();
   }
   ring() {
-    if (this.stopped) return;
+    if (this.stopped || this.ringing) return;
     this.ringing = true;
     const s = alarmSamples(this.lang, this.meta.kind);
-    this.text = s.text;
+    this.text = s.text; this.spoken = s.spoken;
     this.swap(URL.createObjectURL(toWav(s)), true);
     this.dispatchEvent(new Event("ring"));
     clearTimeout(this.timer);
@@ -277,13 +286,18 @@ export class SleepWaiter extends EventTarget {
     this.next();
   }
   stop() {
-    this.stopped = true; this.ringing = false; clearTimeout(this.timer);
+    this.stopped = true; this.ringing = false; clearTimeout(this.timer); clearInterval(this.watch);
     this.a.onended = null; this.a.loop = false; this.a.pause();
     if (this.url) { try { URL.revokeObjectURL(this.url); } catch {} this.url = null; }
   }
   setupMediaSession() {
     if (!("mediaSession" in navigator)) return;
-    try { navigator.mediaSession.metadata = new MediaMetadata({ title: this.meta.title || "", artist: this.meta.artist || "", artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }] }); } catch {}
+    try {
+      navigator.mediaSession.metadata = new MediaMetadata({ title: this.meta.title || "", artist: this.meta.artist || "", artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }] });
+      // replace the finished session player's handlers: pausing the silent wait would strand the bell
+      navigator.mediaSession.setActionHandler("play", () => playSafe(this.a));
+      navigator.mediaSession.setActionHandler("pause", () => { if (this.ringing) this.a.pause(); });
+    } catch {}
   }
 }
 
@@ -465,6 +479,28 @@ export class TrackPlayer extends EventTarget {
     let p = null;
     try { p = a.play(); } catch { p = null; }
     if (p && p.catch) p.catch(err => { if (this.adopted && !this.stopped && err && err.name === "NotAllowedError") this.rescue(); });
+    // a Wi-Fi drop or a sleeping PC mid-track either errors or just stalls: reload at the last position
+    a.onerror = () => this.recover();
+    this.lastPos = a.currentTime || 0; this.stuck = 0;
+    this.watch = setInterval(() => {
+      if (this.stopped || this.ended || this.a.paused) { this.stuck = 0; return; }
+      const now = this.a.currentTime || 0;
+      if (now !== this.lastPos) { this.lastPos = now; this.stuck = 0; this.tries = 0; }   // moved (also after a seek back)
+      else if (++this.stuck >= 4) this.recover();                 // 20 s without progress
+    }, 5e3);
+  }
+  /** Reload the track where it stopped (three tries, a few seconds apart), then give up and end the session. */
+  recover() {
+    if (this.stopped || this.ended || this.pending) return;
+    this.stuck = 0;
+    if ((this.tries = (this.tries || 0) + 1) > 3) return this.dispatchEvent(new Event("stoprequest"));
+    const a = this.a, at = a.currentTime || this.lastPos || 0;
+    this.pending = setTimeout(() => {
+      this.pending = 0;
+      if (this.stopped) return;
+      a.onloadedmetadata = () => { a.onloadedmetadata = null; try { a.currentTime = at; } catch {} playSafe(a); };
+      a.src = this.url;
+    }, 3000);
   }
   /** The pre-buffered element was refused (no gesture — e.g. iPadOS with a desktop UA): continue on the unlocked shared element. */
   rescue() {
@@ -474,7 +510,7 @@ export class TrackPlayer extends EventTarget {
     const a = this.a;
     a.loop = false; a.src = this.url;
     a.onloadedmetadata = () => { this.duration = Number.isFinite(a.duration) ? a.duration : 0; try { a.currentTime = at; } catch {} playSafe(a); };
-    a.onerror = () => this.dispatchEvent(new Event("stoprequest"));
+    a.onerror = () => this.recover();
     a.onended = () => { this.ended = true; this.dispatchEvent(new Event("end")); };
   }
   time() { return this.ended ? this.duration : (this.a.currentTime || 0); }
@@ -486,6 +522,7 @@ export class TrackPlayer extends EventTarget {
   restart() { this.startedAt = 0; this.seek(0); }
   stop() {
     this.stopped = true;
+    clearInterval(this.watch); clearTimeout(this.pending);
     this.a.onended = null; this.a.onerror = null; this.a.onloadedmetadata = null;
     this.a.pause();
     this.a.removeAttribute("src"); this.a.load();

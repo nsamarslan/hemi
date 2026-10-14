@@ -181,7 +181,7 @@ export async function shareFile(text, name, type, title) {
 }
 
 // ---------- device TTS through the native engine ----------
-let voiceList = null, voicesPromise = null;
+let voiceList = null, voicesPromise = null, speakGen = 0;   // speakGen: lines waiting for the voice list are dropped by stop()
 const bcp = lang => (lang === "tr" ? "tr-TR" : "en-US");
 export const nativeTts = {
   available: () => !!plugin("TextToSpeech"),
@@ -190,20 +190,27 @@ export const nativeTts = {
   load(cb) {
     const tts = plugin("TextToSpeech");
     if (!tts) return Promise.resolve([]);
-    if (!voicesPromise) voicesPromise = tts.getSupportedVoices().then(r => { voiceList = (r && r.voices) || []; return voiceList; }).catch(() => { voiceList = []; return voiceList; });
+    // an empty list (engine not ready yet right after a cold start) is not cached, so the next call asks again
+    if (!voicesPromise) voicesPromise = tts.getSupportedVoices().then(r => { voiceList = (r && r.voices) || []; if (!voiceList.length) voicesPromise = null; return voiceList; }).catch(() => { voiceList = []; voicesPromise = null; return voiceList; });
     if (cb) voicesPromise.then(() => cb());
     return voicesPromise;
   },
   speak(text, lang, { rate = 0.9, voiceURI = "" } = {}) {
     const tts = plugin("TextToSpeech");
     if (!tts) return false;
+    // the chosen voice is an index into the voice list: load it first if Settings has not done so in this run
+    if (voiceURI && !voiceList?.length) { const gen = speakGen; this.load().then(() => { if (gen === speakGen) this.speakNow(tts, text, lang, rate, voiceURI); }); return true; }
+    this.speakNow(tts, text, lang, rate, voiceURI);
+    return true;
+  },
+  speakNow(tts, text, lang, rate, voiceURI) {
     const opts = { text, lang: bcp(lang), rate: Number(rate) || 0.9, pitch: 1, volume: 1, queueStrategy: 1 };
     const idx = voiceURI && voiceList ? voiceList.findIndex(v => v.voiceURI === voiceURI) : -1;
     if (idx >= 0) opts.voice = idx;
     tts.speak(opts).catch(() => {});
     return true;
   },
-  stop() { const tts = plugin("TextToSpeech"); if (tts) tts.stop().catch(() => {}); },
+  stop() { speakGen++; const tts = plugin("TextToSpeech"); if (tts) tts.stop().catch(() => {}); },
 };
 
 // ---------- app lifecycle ----------
@@ -213,6 +220,7 @@ export const nativeTts = {
  */
 export async function initNative(cfg = {}) {
   if (!isNative) return false;
+  nativeTts.load();                     // the chosen TTS voice must be known before the first session line
   await ensureChannels(cfg.channels || {});
   const app = plugin("App"), ln = plugin("LocalNotifications");
   try {

@@ -185,7 +185,7 @@ await okAsync("android: share writes to the cache dir and opens the sheet", asyn
 });
 await okAsync("android: native text-to-speech", async () => {
   assert.equal(nat.nativeTts.available(), true);
-  assert.deepEqual(nat.nativeTts.voices("tr"), []);                             // not loaded yet
+  assert.equal(count("TTS", "voices"), 1);                                      // initNative already loaded the voice list
   let cbs = 0;
   const vs = await nat.nativeTts.load(() => cbs++);
   await Promise.resolve();
