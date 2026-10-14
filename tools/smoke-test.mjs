@@ -694,7 +694,8 @@ $('[data-act="back"]').click(); await sleep(150);
 ok($('[data-act="library"]') != null, "home offers the PC library card in PC mode");
 $('[data-act="library"]').click(); await sleep(500);
 ok($("#lq") != null && $$(".lib-folder").length === 4, `library lists the PC folders (${$$(".lib-folder").length})`);
-ok(/5/.test($("#libSum")?.textContent || "") && /3/.test($("#libSum")?.textContent || ""), `library summary counts files and matched files (${$("#libSum")?.textContent})`);
+// 2 matched: Focus 10 and Attention ("Super Sleep" is not Human Plus "Sleep")
+ok(/5/.test($("#libSum")?.textContent || "") && /\b2\b/.test($("#libSum")?.textContent || ""), `library summary counts files and matched files (${$("#libSum")?.textContent})`);
 ok($('.lib-session[data-open="w1-intro-10"]') != null && $('.lib-session[data-open="hp-attention"]') != null, "files show the session they are matched to");
 $("#lq").value = "super"; $("#lq").dispatchEvent(new window.Event("input", { bubbles: true })); await sleep(50);
 ok($$(".lib-folder").length === 1 && $$("[data-libplay]").length === 1, "library search narrows to the matching file");

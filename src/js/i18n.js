@@ -27,7 +27,7 @@ const S = {
   researchHorizonBatch: { tr: "Parti {n}", en: "Batch {n}" },
   researchHorizonReady: { tr: "Hazır", en: "Ready" },
   researchHorizonLegend: { tr: "Termometre ölçeği", en: "Thermometer scale" },
-  researchCardSum: { tr: "{ready}/{total} derin monografi · 16 HP + 4 MP + Ω-1 İlk Neden + 5 Tarihsel Akış Yasası (Φ-1) + 40 Alanlı Ufuk Kazısı programı (UA-01 – UA-40)", en: "{ready}/{total} deep monographs · 16 HP + 4 MP + Ω-1 First Cause + 5 Historical Flow Laws (Φ-1) + the 40-area Horizon Excavation program (UA-01 – UA-40)" },
+  researchCardSum: { tr: "{n} derin monografi · 16 HP + 4 MP + Ω-1 İlk Neden + 5 Tarihsel Akış Yasası (Φ-1) + 40 Alanlı Ufuk Kazısı programı (UA-01 – UA-40)", en: "{n} deep monographs · 16 HP + 4 MP + Ω-1 First Cause + 5 Historical Flow Laws (Φ-1) + the 40-area Horizon Excavation program (UA-01 – UA-40)" },
   techniquesIntro: { tr: "Gateway araçları ve teknikleri — her biri ne işe yarar, nasıl yapılır, ne zaman kullanılır. Her tekniğin adım adım animasyonu var: REBAL'ın enerji döngüsü, kutuya giren kaygılar, bedeni tarayan çubuk… Bir tekniğe dokun, nasıl göründüğünü izle.", en: "The Gateway tools and techniques — what each is for, how to do it, when to use it. Every technique has a step-by-step animation: the REBAL energy loop, worries going into the box, the bar scanning the body… Tap a technique and watch what it looks like." },
   techStoryboard: { tr: "Nasıl görünür?", en: "What it looks like" },
   techStoryboardHint: { tr: "Sahneler kendiliğinden ilerler; dokunarak da geçebilirsin. Gözler açıkken izle, sonra gözlerini kapatıp aynı sahneyi içinden canlandır.", en: "The scenes advance by themselves; tap to step through. Watch with eyes open, then close your eyes and replay the same scene inside." },

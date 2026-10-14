@@ -205,6 +205,8 @@ class State:
         with self.lock:
             m = self.matches()
             if path:
+                for other in [k for k, v in m.items() if v == path]:   # one session per file: a reassignment replaces the old one
+                    m.pop(other)
                 m[sid] = path
             else:
                 m.pop(sid, None)

@@ -23,7 +23,12 @@ let current = null;     // session in detail view
 let searchQ = "";
 
 // ---------- helpers ----------
-const practicedCount = id => getLog().filter(x => x.id === id).length;
+// times each session was practised: parsed once per synchronous render (renderHome asks for it ~900 times)
+let logCounts = null;
+const practicedCount = id => {
+  if (!logCounts) { logCounts = new Map(); for (const x of getLog()) logCounts.set(x.id, (logCounts.get(x.id) || 0) + 1); queueMicrotask(() => { logCounts = null; }); }
+  return logCounts.get(id) || 0;
+};
 const estimateFor = (ex, params) => buildTimeline(ex, params, timelineOpts()).duration;
 function timelineOpts(extra = {}) {
   return Object.assign({ lang: settings.lang, pauseScale: settings.pauseScale, remindEvery: settings.remind, dur: clipDur(settings.lang), seed: Date.now() % 100000, ending: "done", sleepFade: sleepFadeSec() }, extra);
@@ -84,6 +89,7 @@ const focusChip = f => `<i class="tag focus-chip">F${esc(f)}</i>`;
 // counts the entries we own; leaving for a tab root unwinds them all at once.
 let subView = null, popGuard = 0, histDepth = 0;
 let refFrom = null;              // session id to return to when the catalogue was opened from a detail backlink
+let backTo = null;               // reopens the parent when a sub-view was pushed on top of another (detail → gallery, library → detail)
 function pushHist(kind) { try { history.pushState({ v: kind }, ""); histDepth++; } catch {} }
 function enter(kind, opts = {}) {
   if (subView && !opts.push) { try { history.replaceState({ v: kind }, ""); } catch {} }
@@ -99,7 +105,8 @@ function unwindHist(n = histDepth) {
 }
 function go(name) {
   unwindHist();
-  subView = null; refFrom = null;
+  subView = null; refFrom = null; backTo = null;
+  guideStack.length = 0; resStack.length = 0;      // a cross-link trail belongs to the topic it was made in
   tab = name; store.set("tab", name);
   current = null; currentTech = null;
   applyLang();
@@ -108,9 +115,10 @@ function go(name) {
 }
 /** UI back buttons: one level up — the guide/research cross-link stack first, then the tab root. */
 function uiBack() {
-  if (resStack.length) { unwindHist(1); return openResearchTopic(resStack.pop(), { pop: true }); }
-  if (guideStack.length) { unwindHist(1); return openGuideTopic(guideStack.pop(), { pop: true }); }
+  if (subView === "rtopic" && resStack.length) { unwindHist(1); return openResearchTopic(resStack.pop(), { pop: true }); }
+  if (subView === "topic" && guideStack.length) { unwindHist(1); return openGuideTopic(guideStack.pop(), { pop: true }); }
   if (subView === "reference" && refFrom) { const id = refFrom; refFrom = null; unwindHist(1); return openDetail(id); }
+  if (backTo) { const f = backTo; backTo = null; unwindHist(1); return f(); }
   if (subView) return go(tab);
 }
 function mountSheet(sheet) {
@@ -129,9 +137,10 @@ window.addEventListener("popstate", () => {
   const sheet = document.querySelector(".sheet-wrap");
   if (sheet) { sheet.remove(); return; }
   if ($("session") && !$("session").hidden) { pushHist("session"); return; }   // back never kills a running session
-  if (resStack.length) return openResearchTopic(resStack.pop(), { pop: true });
-  if (guideStack.length) return openGuideTopic(guideStack.pop(), { pop: true });
+  if (subView === "rtopic" && resStack.length) return openResearchTopic(resStack.pop(), { pop: true });
+  if (subView === "topic" && guideStack.length) return openGuideTopic(guideStack.pop(), { pop: true });
   if (subView === "reference" && refFrom) { const id = refFrom; refFrom = null; return openDetail(id); }
+  if (backTo) { const f = backTo; backTo = null; return f(); }
   if (subView) return go(tab);
   if (history.state && history.state.v) { try { history.back(); } catch {} }   // stale entry (e.g. after a reload)
 });
@@ -238,7 +247,7 @@ function renderHome() {
     <div class="list">${items.map(exCard).join("")}</div>`).join("")}
   </section>`).join("")}
   ${!blocks.length && !favs.length ? `<p class="muted">${t("noResults")}</p>` : ""}
-  ${!q ? `<section class="ref-entry"><button class="ref-card" data-act="reference"><span class="ex-ref">♪</span><span class="ex-main"><span class="ex-title">${t("refTitle")}</span><span class="ex-sum">${t("refCard", { n: reference.items.length })}</span></span></button><button class="ref-card" data-act="research"><span class="ex-ref">✦</span><span class="ex-main"><span class="ex-title">${t("researchCardTitle")}</span><span class="ex-sum">${t("researchCardSum", { ready: 10, total: 50 })}</span></span></button>${pcConfigured() ? `<button class="ref-card" data-act="library"><span class="ex-ref">▤</span><span class="ex-main"><span class="ex-title">${t("libTitle")}</span><span class="ex-sum">${t("libCard")}</span></span></button>` : ""}</section>` : ""}
+  ${!q ? `<section class="ref-entry"><button class="ref-card" data-act="reference"><span class="ex-ref">♪</span><span class="ex-main"><span class="ex-title">${t("refTitle")}</span><span class="ex-sum">${t("refCard", { n: reference.items.length })}</span></span></button><button class="ref-card" data-act="research"><span class="ex-ref">✦</span><span class="ex-main"><span class="ex-title">${t("researchCardTitle")}</span><span class="ex-sum">${t("researchCardSum", { n: 50 })}</span></span></button>${pcConfigured() ? `<button class="ref-card" data-act="library"><span class="ex-ref">▤</span><span class="ex-main"><span class="ex-title">${t("libTitle")}</span><span class="ex-sum">${t("libCard")}</span></span></button>` : ""}</section>` : ""}
   </div>`;
   const qi = $("q");
   qi.oninput = () => { searchQ = qi.value; const pos = qi.selectionStart; renderHome(); const n = $("q"); n.focus(); n.setSelectionRange(pos, pos); };
@@ -281,9 +290,11 @@ view.addEventListener("click", e => {
     const id = hp.closest(".hp-card")?.dataset.hpid;
     if (hp.dataset.hp === "practiced" && id) practiced(id);
     if (hp.dataset.hp === "shuffle") shuffleCommand();
+    scheduleCommandReminders();                       // Android notifications carry today's command text
     return refreshHpCard();
   }
   const o = e.target.closest("[data-open]");
+  if (o && subView === "library") { backTo = () => { enter("library"); renderLibrary(); }; return openDetail(o.dataset.open, { push: true }); }
   if (o) return openDetail(o.dataset.open);
   const tg = e.target.closest("[data-tech]");
   if (tg) return openTechnique(tg.dataset.tech);
@@ -320,7 +331,12 @@ view.addEventListener("click", e => {
   if (a === "research") return go("research");
   if (a === "reference") return openReference();
   if (a === "library") return openLibrary();
-  if (a === "gallery") { enter("gallery"); return renderGallery(); }
+  if (a === "gallery") {
+    const from = subView === "detail" && current ? current.id : null;
+    if (from) backTo = () => openDetail(from);
+    enter("gallery", { push: !!from });
+    return renderGallery();
+  }
   if (a === "gchapters") return openChapterSheet();
   if (a === "gmark") return toggleGuideMark(null);
   if (a === "gresume") return resumeGuidePosition();
@@ -336,11 +352,11 @@ view.addEventListener("click", e => {
 });
 
 // ---------- detail ----------
-function openDetail(id) {
+function openDetail(id, opts = {}) {
   const ex = getEx(id);
   if (!ex) return;
   current = ex;
-  enter("detail");
+  enter("detail", opts);
   renderDetail();
   window.scrollTo(0, 0);
 }
@@ -495,7 +511,7 @@ function openCommandSheet(ex) {
     <label class="search"><span class="sr">${t("funcCommand")}</span><input id="hpCmdInput" type="text" maxlength="60" autocomplete="off" placeholder="${t("hpCmdPlaceholder")}" value="${esc(userCommands.get(ex.id))}"></label>
     <div class="row-btns"><button class="btn" data-close>${t("cancel")}</button><button class="btn primary" data-cmdsave>${t("save")}</button></div></div>`;
   mountSheet(sheet);
-  sheet.querySelector("[data-cmdsave]").onclick = () => { userCommands.set(ex.id, $("hpCmdInput").value); closeSheet(sheet); toast(t("saved")); if (current === ex) renderDetailKeep(); };
+  sheet.querySelector("[data-cmdsave]").onclick = () => { userCommands.set(ex.id, $("hpCmdInput").value); scheduleCommandReminders(); closeSheet(sheet); toast(t("saved")); if (current === ex) renderDetailKeep(); };
   $("hpCmdInput").focus();
 }
 view.addEventListener("change", e => {
@@ -516,14 +532,20 @@ function renderDetailKeep() {
   window.scrollTo(0, y);
 }
 
+let starting = false;                    // a PC lookup is pending: a second tap must not start the session twice
 async function startExercise(ex, after) {
   const params = paramsFor(ex);
   let track = null;
   if (settings.audioSource === "pc" && settings.pcUrl) {
+    if (starting) return;
     unlockAudio();                       // still inside the tap: the awaits below would otherwise lose iOS's playback permission
-    track = await findTrackFor(ex.id);
-    if (!track) toast(t("pcNoTrackFallback"));
-    else await withResume(track);
+    const btn = view.querySelector('[data-d="start"]'); if (btn) btn.disabled = true;
+    starting = true;
+    try {
+      track = await findTrackFor(ex.id);
+      if (!track) toast(t("pcNoTrackFallback"));
+      else await withResume(track);
+    } finally { starting = false; if (btn) btn.disabled = false; }
   }
   const plan = ex.night ? nightPlan() : null, wakeAt = plan ? wakeAtFor(plan) : null;
   startSession({
@@ -777,7 +799,7 @@ function renderSettings() {
   <button class="btn big" id="sFocus">${t("focusLevels")}</button>
   <details class="panel warn"><summary>${t("safety")}</summary><p>${t("safetyText")}</p></details>
   <details class="panel"><summary>${t("about")}</summary><p>${t("aboutText")}</p></details>`;
-  const bind = (id, key, conv) => { $(id).onchange = e => { settings[key] = conv(e.target); saveSettings(); if (key === "lang") { applyLang(); renderSettings(); } if (key === "theme" || key === "motion" || key === "fontScale") applyAppearance(); }; };
+  const bind = (id, key, conv) => { $(id).onchange = e => { settings[key] = conv(e.target); saveSettings(); if (key === "lang") { applyLang(); renderSettings(); scheduleCommandReminders(); scheduleRealityChecks(); } if (key === "theme" || key === "motion" || key === "fontScale") applyAppearance(); }; };
   bind("sLang", "lang", el => el.value);
   bind("sVoice", "voiceVol", el => +el.value);
   bind("sRec", "recordedVoice", el => el.checked);
@@ -974,7 +996,7 @@ function openGalleryFull() {
     sheet.querySelectorAll("[data-fstate]").forEach(b => b.classList.toggle("on", b.dataset.fstate === galState));
     sheet.querySelector("#galFullState").textContent = visStateLabel(galState);
     view.querySelectorAll("[data-vstate]").forEach(b => b.classList.toggle("on", b.dataset.vstate === galState));
-    paint();
+    paint(); paintGallery();                          // the grid behind follows the newly picked state
   });
   mountSheet(sheet);
   paint();
@@ -1715,7 +1737,7 @@ function paintLibrary() {
 document.addEventListener("click", async e => {
   if (subView !== "library" && !e.target.closest(".sheet-wrap")) return;
   const rs = e.target.closest("[data-lib=\"rescan\"]");
-  if (rs) { rs.disabled = true; try { const n = await pcRescan(); toast(t("libRescanned", { n })); } catch { toast(t("pcFailed")); } return renderLibrary(true); }
+  if (rs) { rs.disabled = true; try { const n = await pcRescan(); toast(t("libRescanned", { n })); } catch { toast(t("pcFailed")); } if (subView === "library") renderLibrary(true); return; }
   const pa = e.target.closest("[data-libplayall]");
   if (pa) { e.preventDefault(); const f = libData?.folders.find(x => x.path === pa.dataset.libplayall); if (f) playLibraryFile(f.files.map(x => x.path), 0); return; }
   const pl = e.target.closest("[data-libplay]");
@@ -1767,7 +1789,10 @@ function openAssignSheet(path) {
     const r = await saveMatch(a ? a.dataset.assign : curId, a ? path : null);
     toast(a ? t(r.shared ? "pcMatchSaved" : "pcMatchLocal") : t("pcMatchCleared"));
     closeSheet(sheet);
-    if (subView === "library") renderLibrary(true);
+    if (subView === "library") {                      // repaint in place: keep the list and the scroll position
+      try { libData = await pcLibrary(); } catch {}
+      if (subView === "library") paintLibrary();
+    }
   });
 }
 // ---------- boot ----------

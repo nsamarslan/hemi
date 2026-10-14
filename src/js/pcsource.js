@@ -10,7 +10,7 @@ import { settings, store } from "./store.js";
 import { tracks } from "./content.js";
 import { findTrack, findAlbum, scoreFile } from "./trackmatch.js";
 
-let indexCache = null, indexAt = 0;
+let indexCache = null, indexAt = 0, indexFailAt = 0;
 const INDEX_TTL = 60_000;
 const DAY = 86_400_000;
 
@@ -35,10 +35,14 @@ export async function pcPing() {
 /** Track index from the PC: { files: [{ path, size }] }. Cached for INDEX_TTL. */
 export async function pcIndex(force = false) {
   if (!force && indexCache && Date.now() - indexAt < INDEX_TTL) return indexCache;
-  const r = await fetchTimeout(base() + "/index.json", 8000);
-  if (!r.ok) throw new Error("index " + r.status);
-  indexCache = await r.json();
-  indexAt = Date.now();
+  // PC asleep or off: fail fast for a while instead of waiting the full timeout on every start
+  if (!force && Date.now() - indexFailAt < 30_000) throw new Error("index unreachable");
+  try {
+    const r = await fetchTimeout(base() + "/index.json", 8000);
+    if (!r.ok) throw new Error("index " + r.status);
+    indexCache = await r.json();
+  } catch (e) { indexFailAt = Date.now(); throw e; }
+  indexAt = Date.now(); indexFailAt = 0;
   return indexCache;
 }
 /** Ask the PC to re-read its audio folder, then refresh the index. Returns the new file count. */
@@ -89,7 +93,8 @@ export const matchesShared = () => matchShared;
 /** Set (path) or clear (null) the file for a session. Local first, then the PC; { shared } says whether the PC took it. */
 export async function saveMatch(sessionId, path) {
   const local = store.get("pcMatches", {});
-  if (path) local[sessionId] = path; else delete local[sessionId];
+  if (path) { for (const [id, p] of Object.entries(local)) if (p === path) delete local[id]; local[sessionId] = path; }   // one session per file
+  else delete local[sessionId];
   store.set("pcMatches", local);
   matchCache = local; matchAt = Date.now();
   try {
