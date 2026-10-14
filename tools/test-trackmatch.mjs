@@ -1,5 +1,6 @@
 // Unit tests for the PC-track matcher (src/js/trackmatch.js).
 // Usage: node tools/test-trackmatch.mjs
+import { readFileSync } from "node:fs";
 import { tokens, scoreHint, scoreFile, findTrack, findAlbum } from "../src/js/trackmatch.js";
 
 let pass = 0, fail = 0;
@@ -80,6 +81,16 @@ eq(findAlbum(["Catnapper", "Cat Napper"], lib), ["Mind Food/Catnapper Deluxe Edi
 eq(findAlbum(["Surf"], lib), ["Hemi-Sync Surf.flac"], "Hemi-Sync prefix stripped on basename match");
 eq(findAlbum(["Moment of Revelation"], lib), [], "no match → empty list");
 eq(findAlbum(["Focus"], []), [], "empty library → empty list");
+
+// a session whose own recording is missing must not pick another exercise's file (real tracks.json hints)
+{
+  const T = JSON.parse(readFileSync(new URL("../content/tracks.json", import.meta.url), "utf8"));
+  const H = id => T.tracks?.[id] || T[id];
+  eq(findTrack(H("w8-freeflow27"), ["Odyssey/06 Free Flow Journey in Focus 21.flac"]), null, "Free Flow 27 does not take the Focus 21 file");
+  eq(findTrack(H("w5x-intro15"), ["5th Dimension/04 Exploring Our Future.flac"]), null, "a track number does not stand in for a number in the title");
+  eq(findTrack(H("hp-sleep"), ["Wave I Discovery/05 Exploration Sleep.flac"]), null, "one-word Human Plus title does not match a longer title");
+  eq(findTrack(H("hp-sleep"), ["Human Plus/05 Exploration Sleep.flac", "Human Plus/H-PLUS Sleep.flac"]), "Human Plus/H-PLUS Sleep.flac", "one-word title still matches its own file");
+}
 
 console.log(`\n${pass} passed, ${fail} failed`);
 process.exit(fail ? 1 : 0);

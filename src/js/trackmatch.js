@@ -45,12 +45,20 @@ function stripPrefixes(toks) {
   return toks.slice(i);
 }
 
-/** Score one hint against one file's basename tokens. -1 = no match. */
-export function scoreHint(hint, fileTokens) {
+/** Score one hint against one file's basename tokens. -1 = no match. `strict` (picking a session's track):
+ *  numbers in the hint must be in the name and a one-word hint must be the whole name. */
+export function scoreHint(hint, fileTokens, strict = false) {
   const h = tokens(hint);
   if (!h.length) return -1;
   const f = stripPrefixes(fileTokens);
   if (!f.length) return -1;
+  if (strict) {
+    // the name without its track number ("04 Exploring Our Future" → exploring our future): otherwise a missing
+    // session would play another one ("Free Flow 27" → the Focus 21 file, "Sleep" → "Exploration Sleep")
+    const core = stripPrefixes(/^\d+$/.test(fileTokens[0]) && fileTokens.length > 1 ? fileTokens.slice(1) : fileTokens);
+    if (h.some(t => /^\d+$/.test(t) && !core.includes(t))) return -1;
+    if (h.length === 1 && core.length > 1) return -1;
+  }
   const fs = new Set(f);
   const matched = h.filter(t => fs.has(t));
   const recall = matched.length / h.length;
@@ -61,14 +69,14 @@ export function scoreHint(hint, fileTokens) {
 
 /** Best score of any hint against a full path ("Series/01 Name.flac"). -1 = no match. */
 const tokenMemo = new Map();   // basename → tokens (the library view scores every file against every session)
-export function scoreFile(hints, path) {
+export function scoreFile(hints, path, strict = false) {
   const base = String(path).split("/").pop().replace(/\.[a-z0-9]+$/i, "");
   let fileTokens = tokenMemo.get(base);
   if (!fileTokens) { if (tokenMemo.size > 20000) tokenMemo.clear(); fileTokens = tokens(base); tokenMemo.set(base, fileTokens); }
   const fileKey = fileTokens.join(" ");
   let best = -1;
   for (const hint of hints) {
-    let s = scoreHint(hint, fileTokens);
+    let s = scoreHint(hint, fileTokens, strict);
     if (s >= 0 && tokens(hint).join(" ") === fileKey) s += EXACT_BONUS;
     if (s > best) best = s;
   }
@@ -80,7 +88,7 @@ export function findTrack(hints, files) {
   if (!Array.isArray(hints) || !hints.length || !Array.isArray(files)) return null;
   let best = null, bestScore = ACCEPT;
   for (const path of files) {
-    const s = scoreFile(hints, path);
+    const s = scoreFile(hints, path, true);
     if (s > bestScore) { bestScore = s; best = path; }
   }
   return best;
