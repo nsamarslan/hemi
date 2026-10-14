@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 390" role="img" aria-label="Nedensel taşınabilirlik sentezi"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+        <rect x="5" y="5" width="670" height="380" rx="13" fill="var(--surface)" stroke="var(--line)"/>
+        <text x="340" y="28" text-anchor="middle" fill="var(--accent)" font-size="11" font-weight="700">Φ-2 · 40 DOSYA / 5 KANIT TÜRÜ</text>
+        <g font-size="8" font-weight="700" text-anchor="middle">
+          <rect x="20" y="48" width="115" height="39" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/><text x="78" y="72" fill="var(--ink)">FİZYOLOJİ</text>
+          <rect x="151" y="48" width="115" height="39" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/><text x="209" y="72" fill="var(--ink)">YAŞANTI</text>
+          <rect x="282" y="48" width="115" height="39" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/><text x="340" y="72" fill="var(--ink)">SOSYAL KAYIT</text>
+          <rect x="413" y="48" width="115" height="39" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/><text x="471" y="72" fill="var(--ink)">FİZİK</text>
+          <rect x="544" y="48" width="115" height="39" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/><text x="602" y="72" fill="var(--ink)">ANOMALİLER</text>
+        </g>
+        <text x="340" y="109" text-anchor="middle" fill="var(--violet)" font-size="18">↓</text>
+        <rect x="20" y="122" width="640" height="111" rx="10" fill="var(--surface-2)" stroke="var(--violet)"/>
+        <text x="340" y="143" text-anchor="middle" fill="var(--violet)" font-size="10" font-weight="700">NEDENSEL TAŞINABİLİRLİK FİLTRESİ</text>
+        <g font-size="9" text-anchor="middle" fill="var(--ink)">
+          <rect x="40" y="155" width="154" height="33" rx="6" fill="var(--surface)" stroke="var(--line)"/><text x="117" y="176">Girdi X</text>
+          <text x="206" y="177" fill="var(--violet)">→</text>
+          <rect x="222" y="155" width="154" height="33" rx="6" fill="var(--surface)" stroke="var(--line)"/><text x="299" y="176">Aracı M</text>
+          <text x="388" y="177" fill="var(--violet)">→</text>
+          <rect x="404" y="155" width="235" height="33" rx="6" fill="var(--surface)" stroke="var(--line)"/><text x="521" y="176">Çıktı Y</text>
+        </g>
+        <text x="340" y="215" text-anchor="middle" fill="var(--muted)" font-size="8">Aktif kontrol · beklenti · kayıt · yeni bağlam</text>
+        <g font-size="8.5" text-anchor="middle" font-weight="700">
+          <rect x="20" y="251" width="202" height="55" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/><text x="121" y="281" fill="var(--ok)">K · Koşullu mekanizma</text>
+          <rect x="239" y="251" width="202" height="55" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/><text x="340" y="281" fill="var(--warn)">B · Bağlam ve raporlama</text>
+          <rect x="458" y="251" width="202" height="55" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/><text x="559" y="281" fill="var(--bad)">D · Dış kanal (kanıtsız)</text>
+        </g>
+        <text x="340" y="348" text-anchor="middle" fill="var(--muted)" font-size="9">Çürütülürse yerel bulgular kalır; evrensel alan çıkmaz.</text>
+      </svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Two keys one lock psychedelic schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">İKİNCİ ANAHTAR, TEK KİLİT (HZ-14): MADDE İÇERİK EKLEMEZ — TABANI GÖSTERİR</text>
+
+      <rect x="18" y="38" width="150" height="96" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="28" y="54" fill="var(--violet)" font-size="7.8" font-weight="700">KİMYASAL ANAHTAR</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="28" y="70">• Psilosibin (5-HT2A)</text>
+        <text x="28" y="83">• DMT, LSD</text>
+        <text x="28" y="96">• Hızlı, şiddetli, istemsiz</text>
+        <text x="28" y="109">• Yan etki profili yüksek</text>
+        <text x="28" y="124" fill="var(--muted)">• Denetim: protokol + gözetim</text>
+      </g>
+
+      <rect x="18" y="146" width="150" height="96" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="28" y="162" fill="var(--accent)" font-size="7.8" font-weight="700">ODAK ANAHTARI</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="28" y="178">• Derin odak (Focus 15–21)</text>
+        <text x="28" y="191">• Duyusal yoksunluk, Ganzfeld</text>
+        <text x="28" y="204">• Hipnogojik eşik</text>
+        <text x="28" y="217">• Yavaş, eğitilebilir, geri çağrılabilir</text>
+        <text x="28" y="232" fill="var(--muted)">• Denetim: beceri + tekrar</text>
+      </g>
+
+      <path d="M170 86 C 200 86, 210 120, 236 128" fill="none" stroke="var(--violet)" stroke-width="1.8" marker-end="url(#hz14a)"/>
+      <path d="M170 194 C 200 194, 210 160, 236 152" fill="none" stroke="var(--accent)" stroke-width="1.8" marker-end="url(#hz14b)"/>
+      <defs>
+        <marker id="hz14a" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="var(--violet)"/></marker>
+        <marker id="hz14b" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="var(--accent)"/></marker>
+      </defs>
+
+      <rect x="240" y="104" width="120" height="68" rx="10" fill="var(--surface-2)" stroke="var(--good)" stroke-width="2"/>
+      <text x="300" y="128" text-anchor="middle" fill="var(--good)" font-size="8.4" font-weight="700">TEK KİLİT</text>
+      <text x="300" y="142" text-anchor="middle" fill="var(--ink)" font-size="7.4">DMN filtre kazancı ↓</text>
+      <text x="300" y="156" text-anchor="middle" fill="var(--muted)" font-size="6.9">Π_DMN → 0</text>
+      <text x="300" y="188" text-anchor="middle" fill="var(--muted)" font-size="6.8">Aynı kilit, farklı anahtar</text>
+
+      <path d="M362 138 L 396 138" stroke="var(--good)" stroke-width="1.8" marker-end="url(#hz14a)"/>
+
+      <rect x="400" y="38" width="128" height="150" rx="8" fill="var(--surface-2)" stroke="var(--ink)"/>
+      <text x="410" y="54" fill="var(--ink)" font-size="7.8" font-weight="700">TABANA MARUZ KALMA</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="410" y="70">Form sabitleri (V1 eigenmod)</text>
+        <text x="410" y="84">🌀 spiral · 🕳️ tünel</text>
+        <text x="410" y="98">🕸️ kafes · 🍯 petek</text>
+        <text x="410" y="114">Ego çözülmesi (anlatıcı ↓)</text>
+        <text x="410" y="130">Kesinlik ağırlığı ↓ (REBUS)</text>
+        <text x="410" y="146">Aktivite entropisi ↑</text>
+        <text x="410" y="162" fill="var(--muted)">İçerik yorumu kültürel, biçim evrensel</text>
+        <text x="410" y="178" fill="var(--muted)">Mistik puanlar yüksek ama örneklem küçük</text>
+      </g>
+
+      <rect x="540" y="38" width="122" height="150" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="550" y="54" fill="var(--warn)" font-size="7.8" font-weight="700">DÜRÜSTLÜK NOTLARI</text>
+      <g font-size="6.8" fill="var(--ink)">
+        <text x="550" y="70">• Mikrodoz: kontrollü</text>
+        <text x="550" y="82">  çalışmalarda beklentiden</text>
+        <text x="550" y="94">  ayrışmadı (Szigeti 2021)</text>
+        <text x="550" y="110">• Varlık karşılaşmaları</text>
+        <text x="550" y="122">  test edilebilir içerik</text>
+        <text x="550" y="134">  iddiası üretmez</text>
+        <text x="550" y="150">• Terapötik etki bileşen-</text>
+        <text x="550" y="162">  lerine ayrıştırılmadı</text>
+        <text x="550" y="178" fill="var(--muted)">• Risk: panik, psikoz tetiği, HPPD</text>
+      </g>
+
+      <rect x="18" y="254" width="644" height="86" rx="8" fill="var(--surface-2)" stroke="var(--good)" stroke-width="1.4"/>
+      <text x="30" y="270" fill="var(--good)" font-size="8" font-weight="700">AYIRT EDİCİ TEST (HZ-14/1): YÖNTEM BAĞIMSIZLIĞI + YOĞUNLUĞUN ARACILIK TESTİ</text>
+      <g font-size="7" fill="var(--ink)">
+        <text x="30" y="288">Dört kol: (A) psilosibin · (B) deneyimli uygulayıcı Focus 15–21 · (C) duyusal yoksunluk · (D) hipnogojik eşik</text>
+        <text x="30" y="302">Öngörü 1: form-sabiti raporları dört kolda benzer dağılır; anlatı içeriği yönteme göre değişir.</text>
+        <text x="30" y="316">Öngörü 2: yoğunluk, dozdan değil DMN düşüşünden gelir — doz → DMN ↓ → deneyim yoğunluğu aracılık zinciri.</text>
+        <text x="30" y="330" fill="var(--muted)">Öngörü 3: entropi artışı, DMN düşüşü ile ego çözülmesi arasındaki ilişkiye aracılık eder (meditation testi).</text>
+      </g>
+    </svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 350" role="img" aria-label="TPJ self-model gateway schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="338" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">TPJ ÖZ-MODELİ GEÇİDİ (HZ-39): ÖZ-KONUM BİR KESTİRİMDİR — VE KESTİRİM KAYABİLİR</text>
+
+      <!-- multisensory inputs -->
+      <rect x="18" y="38" width="200" height="120" rx="8" fill="var(--surface-2)" stroke="var(--ink)"/>
+      <text x="28" y="54" fill="var(--ink)" font-size="7.8" font-weight="700">ÇOK-DUYULU GİRDİLER (her biri ağırlıklı)</text>
+      <g font-size="7" fill="var(--ink)">
+        <text x="28" y="72">👁️ Görsel (öncelikli referans)</text>
+        <text x="28" y="88">✋ Dokunsal (senkron sınayıcı)</text>
+        <text x="28" y="104">🌀 Vestibüler (yerçekimi/denge)</text>
+        <text x="28" y="120">💪 Propriyoseptif (eklem-kas)</text>
+      </g>
+      <text x="28" y="138" fill="var(--muted)" font-size="6.8">Vestibüler bozukluklarda OBE ve otoskopi daha sık</text>
+      <text x="28" y="150" fill="var(--muted)" font-size="6.8">(Lopez ve Blanke 2011): referans zayıflar, model kayar.</text>
+
+      <!-- TPJ estimator -->
+      <rect x="238" y="52" width="150" height="92" rx="10" fill="var(--surface-2)" stroke="var(--good)" stroke-width="1.8"/>
+      <text x="313" y="76" text-anchor="middle" fill="var(--good)" font-size="8" font-weight="700">TPJ · TPJ</text>
+      <text x="313" y="92" text-anchor="middle" fill="var(--ink)" font-size="7.2">ağırlıklı kestirim</text>
+      <text x="313" y="106" text-anchor="middle" fill="var(--muted)" font-size="6.8">argmax_g [ Π_g × L_g ]</text>
+      <text x="313" y="124" text-anchor="middle" fill="var(--muted)" font-size="6.8">bileşenler: konum · sahiplik · perspektif</text>
+      <line x1="220" y1="90" x2="236" y2="90" stroke="var(--ink)" stroke-width="1.2" marker-end="url(#hz39a)"/>
+      <defs><marker id="hz39a" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="var(--ink)"/></marker></defs>
+      <line x1="390" y1="90" x2="406" y2="90" stroke="var(--good)" stroke-width="1.4" marker-end="url(#hz39b)"/>
+      <defs><marker id="hz39b" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="var(--good)"/></marker></defs>
+
+      <!-- output states -->
+      <rect x="410" y="38" width="252" height="120" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="420" y="54" fill="var(--violet)" font-size="7.8" font-weight="700">ÇIKTI DURUMLARI (çelişki büyüklüğüne göre)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="420" y="72">Çelişki &lt; E_esik → normal öz-konum (bedenimdeyim)</text>
+        <text x="420" y="88">Çelişki ≈ E_esik → kararsız bölge (baş dönmesi, sallanma)</text>
+        <text x="420" y="104" fill="var(--good)" font-weight="700">Çelişki &gt; E_esik → öz-konum kayar (beden-dışı görünüm)</text>
+        <text x="420" y="120">Kanıt: TPJ stimülasyonu (Blanke 2002) · gölge kişi (Arzy 2006)</text>
+        <text x="420" y="134">VR: dakikalar içinde kayma (Lenggenhager 2007; Ehrsson 2007)</text>
+        <text x="420" y="148" fill="var(--muted)">Öngörü: geçiş ANİdir (eşik benzeri), aşamalı değil.</text>
+      </g>
+
+      <!-- channel separation -->
+      <rect x="18" y="172" width="644" height="76" rx="8" fill="var(--surface-2)" stroke="var(--warn)" stroke-width="1.6"/>
+      <text x="30" y="188" fill="var(--warn)" font-size="8" font-weight="700">KRİTİK AYRIM: MODEL KAYMASI ≠ DOĞRULANABİLİR ALGI (bu ikisi birbirini ne kanıtlar ne çürütür)</text>
+      <g font-size="7">
+        <text x="30" y="206" fill="var(--ink)">İddia 1 (kanıtlanmış): öz-konum üretilebilir ve kaydırılabilir → "bedenimde değilim" hissi üretilebilir bir öz-model olayıdır.</text>
+        <text x="30" y="220" fill="var(--ink)">İddia 2 (açık): bazı spontan/NDE vakalarında hastaların göremeyecekleri şeyleri doğru bildiği öne sürülür → test: gizli hedefler.</text>
+        <text x="30" y="236" fill="var(--muted)">Uyarı: tam-beden yanılsaması, spontan OBE'lerin tüm özelliklerini üretmez (dış görsel ipucu gerektirir) → "tek mekanizma" aşırı basitleştirmedir.</text>
+      </g>
+
+      <!-- hidden target accounting -->
+      <rect x="18" y="262" width="644" height="86" rx="8" fill="var(--surface-2)" stroke="var(--good)" stroke-width="1.4"/>
+      <text x="30" y="278" fill="var(--good)" font-size="8" font-weight="700">GİZLİ HEDEF MUHASEBESİ (iddianın tek dürüst sınavı)</text>
+      <g font-size="7">
+        <text x="30" y="296" fill="var(--ink)">AWARE (Parnia 2014, 2060 kalp durması): 9 hatırlama bildirimi, 2 oditoryal; gizli hedefler hiçbir vakada doğrulanmadı.</text>
+        <text x="30" y="310" fill="var(--ink)">AWARE-II (Parnia 2023, 567 hasta): 53'ünde bilinç işareti, 1 hastada doğrulanmış anı dizisi (tablet ekranı, dış ses, EEG penceresiyle uyumlu).</text>
+        <text x="30" y="324" fill="var(--green, var(--good))" font-weight="700">Mevcut tablo: kitlesel doğrulama yok, tek güçlü vaka var → dosya bu noktada AÇIK kalır; test büyütülmüş protokolle karar verir.</text>
+        <text x="30" y="340" fill="var(--muted)">İki yön de bilgi üretir: doğrulama çıkarsa projenin en yüksek etkili sonucu; çıkmazsa öz-model nörobilimi yine kazançlıdır.</text>
+      </g>
+    </svg>

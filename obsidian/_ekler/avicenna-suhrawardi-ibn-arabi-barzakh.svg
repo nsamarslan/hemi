@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Avicenna Floating Man and Ibn Arabi Barzakh"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Ibn Sina Floating Man -->
+      <rect x="20" y="22" width="300" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="8.8" font-weight="700">A. İBN SÎNÂ: "UÇAN ADAM" (EL-RECÜLÜ'L-MUALLAK, 1027)</text>
+      <circle cx="88" cy="112" r="38" fill="var(--accent)" fill-opacity="0.1" stroke="var(--accent)" stroke-dasharray="3,2"/>
+      <circle cx="88" cy="98" r="9" fill="none" stroke="var(--good)" stroke-width="1.8"/>
+      <line x1="88" y1="107" x2="88" y2="132" stroke="var(--good)" stroke-width="1.8"/>
+      <line x1="72" y1="116" x2="104" y2="116" stroke="var(--good)" stroke-width="1.8"/>
+      <text x="88" y="164" text-anchor="middle" fill="var(--good)" font-size="7.3" font-weight="700">0 Duyu · 0 Yerçekimi</text>
+      <text x="138" y="66" fill="var(--ink)" font-size="7.6" font-weight="700">Düşünce Deneyi (Kitâbü'ş-Şifâ):</text>
+      <text x="138" y="80" fill="var(--muted)" font-size="7.4">• Gözleri örtülü, kulakları sağır,</text>
+      <text x="138" y="92" fill="var(--muted)" font-size="7.4">  uzuvları birbirine değmeden</text>
+      <text x="138" y="104" fill="var(--muted)" font-size="7.4">  boşlukta asılı yaratılan insan:</text>
+      <text x="138" y="120" fill="var(--good)" font-size="7.6" font-weight="700">• Bedeninin veya dış dünyanın</text>
+      <text x="138" y="132" fill="var(--good)" font-size="7.6" font-weight="700">  varlığını bilmez ama KENDİ</text>
+      <text x="138" y="144" fill="var(--good)" font-size="7.6" font-weight="700">  BENLİĞİNİN ("Enâniyyet") varlığını</text>
+      <text x="138" y="156" fill="var(--good)" font-size="7.6" font-weight="700">  %100 kesintisiz bilir!</text>
+      <text x="32" y="184" fill="var(--accent)" font-size="7.6" font-weight="700">→ Lilly İzolasyon Tankı + Monroe Focus 10'un 1027 yılındaki formülü!</text>
+
+      <!-- Right: Suhrawardi &amp; Ibn Arabi Barzakh -->
+      <rect x="330" y="22" width="310" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="342" y="42" fill="var(--violet)" font-size="8.8" font-weight="700">B. SÜHREVERDÎ &amp; İBNÜ'L-ARABÎ: ÂLEM-İ MİSÂL / BERZAH</text>
+      <rect x="344" y="54" width="282" height="30" rx="5" fill="var(--surface)" stroke="var(--good)"/>
+      <text x="485" y="73" text-anchor="middle" fill="var(--good)" font-size="7.8" font-weight="700">1. ÂLEM-İ ERVÂH / CEBERÛT (Saf Nûr / Soyut Anlam — Focus 21+)</text>
+      <rect x="344" y="92" width="282" height="44" rx="5" fill="var(--violet)" fill-opacity="0.16" stroke="var(--violet)" stroke-width="1.8"/>
+      <text x="485" y="109" text-anchor="middle" fill="var(--violet)" font-size="8.2" font-weight="700">2. ÂLEM-İ MİSÂL / BERZAH (Hûrkalyâ — Focus 12–27)</text>
+      <text x="485" y="123" text-anchor="middle" fill="var(--ink)" font-size="7.3">"Ruhların/anlamların cisimleştiği, cisimlerin ruhlaştığı İdeo-Plastik Kıstak"</text>
+      <rect x="344" y="144" width="282" height="28" rx="5" fill="var(--surface)" stroke="var(--warn)"/>
+      <text x="485" y="162" text-anchor="middle" fill="var(--warn)" font-size="7.8" font-weight="700">3. ÂLEM-İ ŞEHÂDET / MÜLK (Kaba Duyusal Madde — C-1)</text>
+      <text x="344" y="187" fill="var(--good)" font-size="7.6" font-weight="700">• Molla Sadrâ (Hareket-i Cevherî): Madde donmuş ışıktır; bilinç evrimleşir.</text>
+    </svg>

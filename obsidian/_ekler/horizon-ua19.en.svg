@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Physics of place schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">MEKÂNIN FİZİĞİ (HZ-19): AKUSTİK TERCİH GERÇEK, SABİT FREKANS DEĞİL</text>
+
+      <rect x="18" y="38" width="212" height="140" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="54" fill="var(--warn)" font-size="8" font-weight="700">GERÇEK: TERCİH İZİ (🟡)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Mağara resimleri en YANKILI bölgede</text>
+        <text x="30" y="85" fill="var(--muted)">  (Reznikoff &amp; Dauvois 1988; çok mağara)</text>
+        <text x="30" y="101">Hal Saflieni oda rezonansı ≈ 110 Hz</text>
+        <text x="30" y="114" fill="var(--muted)">  (Jahn 1996 — tek yapı, yerinde ölçüm)</text>
+        <text x="30" y="130">Chavín galerileri ≈ 120 Hz (Kolar)</text>
+        <text x="30" y="146">Seçici olan: yankı süresi + bas dokusu</text>
+        <text x="30" y="162" fill="var(--good)">sabit tepe frekansı değil</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="252" y="54" fill="var(--bad)" font-size="8" font-weight="700">110 Hz İDDİASI (🟠)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Cook 2008: EEG (fMRI DEĞİL), n=30</text>
+        <text x="252" y="86">110 Hz → sağ ön baskınlık kayması</text>
+        <text x="252" y="102" fill="var(--bad)">17 yıldır bağımsız replikasyon YOK</text>
+        <text x="252" y="118">SBRG denemesi: tepeler KİŞİYE ÖZEL</text>
+        <text x="252" y="131" fill="var(--muted)">  (90 / 105 / 120 Hz; ortalama ~105)</text>
+        <text x="252" y="147" fill="var(--bad)">110 Hz öne ÇIKMADI → sabit sayı</text>
+        <text x="252" y="160" fill="var(--muted)">okuması düşer (tek lab, küçük n)</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="54" fill="var(--bad)" font-size="8" font-weight="700">NUMEROLOJİ SINIRI (🔴)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">'110 = φ = kutsallık' zinciri:</text>
+        <text x="468" y="86">ölçüm değil VARSAYIM hiyerarşisi</text>
+        <text x="468" y="102">φ bağı gösterilmedi (düşük katman)</text>
+        <text x="468" y="118">Gerçek etki: mekân bir KAZANÇ'tır</text>
+        <text x="468" y="132" fill="var(--muted)">  ritüelin sesi mekânla güçlenir</text>
+        <text x="468" y="148">Mesaj değil: sürdürme + bas dokusu</text>
+        <text x="468" y="164" fill="var(--muted)">+ infrases beden etkisi (bulantı uyarısı)</text>
+      </g>
+
+      <rect x="18" y="188" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="204" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="222" fill="var(--ink)" font-weight="700">T_mekân ≈ P(yankı süresi, düşük-yüz Hz zenginliği, yalıtım) · ∂(etki)/∂(sabit frekans) ≈ 0</text>
+        <text x="30" y="238" fill="var(--ink)">/1 20+ mekân: RT60 + bas eğrisi + subjektif/EEG → kutsallık yüklemi yankı süresinde, tepe frekansında değil</text>
+        <text x="30" y="253" fill="var(--ink)">/2 110 Hz vs kişisel tepe vs eşlenik, çift-kör n≥80 → 110 Hz ayrışmamalı (Cook bulgusu replike edilmez)</text>
+      </g>
+
+      <rect x="18" y="272" width="644" height="68" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="288" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="305" fill="var(--warn)">🟡 resim-yankı + yerinde ölçüm · 🟠 nöral frekans özgüllüğü · 🔴 sayısal mistisizm</text>
+        <text x="30" y="319" fill="var(--ink)">/3 Mağara arşivi: yankı + ışık + erişim BİRLİKTE modellenir; infrases için güvenlik uyarısı geçerli.</text>
+        <text x="30" y="333" fill="var(--muted)">Çürütülürse: akustik tercih örüntüsü tek başına kullanışlı mimari bilgi olarak kalır.</text>
+      </g>
+    </svg>

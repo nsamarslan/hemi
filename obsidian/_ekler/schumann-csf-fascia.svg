@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Schumann CSF Fascia Coupling"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <g transform="translate(20,24)">
+        <rect x="0" y="0" width="196" height="170" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+        <text x="12" y="20" fill="var(--accent)" font-size="9.2" font-weight="700">1. JEOFİZİKSEL KAVİTE (SCHUMANN)</text>
+        <text x="12" y="38" fill="var(--ink)" font-size="8.5">f₁ = 7.83 Hz (Temel Mod)</text>
+        <text x="12" y="52" fill="var(--muted)" font-size="8">f₂ = 14.3 Hz · f₃ = 20.8 Hz</text>
+        <text x="12" y="66" fill="var(--muted)" font-size="8">f₄ = 27.3 Hz · f₅ = 33.8 Hz</text>
+        <path d="M12 106 Q36 80 60 106 T108 106 T156 106" fill="none" stroke="var(--accent)" stroke-width="2"/>
+        <text x="12" y="136" fill="var(--ink)" font-size="8">Herbert König (1979):</text>
+        <text x="12" y="149" fill="var(--muted)" font-size="7.8">7.83 Hz ELF dalgası ile insan</text>
+        <text x="12" y="161" fill="var(--muted)" font-size="7.8">alfa/teta EEG faz-sürüklemesi.</text>
+
+        <rect x="212" y="0" width="196" height="170" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+        <text x="224" y="20" fill="var(--violet)" font-size="9.2" font-weight="700">2. BOS TSUNAMİLERİ (SCIENCE 2019)</text>
+        <text x="224" y="38" fill="var(--ink)" font-size="8.5">Fultz &amp; Lewis (Boston Üniv.):</text>
+        <text x="224" y="54" fill="var(--muted)" font-size="8">1. Nöronlar yavaş dalgada susar</text>
+        <text x="224" y="68" fill="var(--muted)" font-size="8">2. Serebral kan hacmi çekilir</text>
+        <text x="224" y="82" fill="var(--muted)" font-size="8">3. 4. Ventrikülden beyne dev</text>
+        <text x="224" y="96" fill="var(--ink)" font-size="8" font-weight="700">   ~0.05–0.1 Hz BOS dalgası dolar!</text>
+        <text x="224" y="122" fill="var(--good)" font-size="8">✓ Bentov'un 1977 "ventrikül</text>
+        <text x="224" y="135" fill="var(--good)" font-size="8">  hidrodinamik osilatörü"nün</text>
+        <text x="224" y="148" fill="var(--good)" font-size="8">  7-Tesla fMRI doğrulaması.</text>
+
+        <rect x="424" y="0" width="196" height="170" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+        <text x="436" y="20" fill="var(--good)" font-size="9.2" font-weight="700">3. FASYA PİEZOELEKTRİĞİ</text>
+        <text x="436" y="38" fill="var(--ink)" font-size="8.5">Fukada (1957) &amp; Langevin (Harvard):</text>
+        <text x="436" y="54" fill="var(--muted)" font-size="8">• Kollajen üçlü sarmalı mekanik</text>
+        <text x="436" y="67" fill="var(--muted)" font-size="8">  gerilim/ses altında elektrik</text>
+        <text x="436" y="80" fill="var(--muted)" font-size="8">  kutuplanması (piezo) üretir.</text>
+        <text x="436" y="98" fill="var(--ink)" font-size="8">• Resonant Tuning (mırıldanma) +</text>
+        <text x="436" y="111" fill="var(--ink)" font-size="8">  kalp darbesi → kraniyosakral</text>
+        <text x="436" y="124" fill="var(--ink)" font-size="8">  dura mater zarından ventriküllere</text>
+        <text x="436" y="137" fill="var(--ink)" font-size="8">  elektromekanik transdüksiyon.</text>
+      </g>
+    </svg>

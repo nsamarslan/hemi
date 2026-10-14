@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Mesmer 1784 Commission and Puysegur"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: 1784 Commission -->
+      <rect x="20" y="22" width="298" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9" font-weight="700">1. 1784 FRANKLIN–LAVOISIER KÖR AĞAÇ TESTİ</text>
+      <text x="32" y="62" fill="var(--ink)" font-size="8.2">• Bahçedeki 1 ağaç "manyetize" edildi; gözü bağlı denek</text>
+      <text x="32" y="75" fill="var(--muted)" font-size="7.9">  manyetize edilmemiş 4. ağaca sarıldığında "manyetik</text>
+      <text x="32" y="88" fill="var(--muted)" font-size="7.9">  kriz" geçirip bayıldı; gerçek ağaca değince hiçbir şey</text>
+      <text x="32" y="101" fill="var(--muted)" font-size="7.9">  hissetmedi.</text>
+      <text x="32" y="121" fill="var(--danger)" font-size="8.2" font-weight="700">• Komisyonun Kararı: "Sıvı yok, her şey İmajinasyon!"</text>
+      <text x="32" y="139" fill="var(--good)" font-size="8">• Bilim Tarihinin Kör Noktası: Eğer "salt imajinasyon"</text>
+      <text x="32" y="152" fill="var(--good)" font-size="7.9">  saniyeler içinde otonom nöbet, anestezi ve iyileşme</text>
+      <text x="32" y="165" fill="var(--good)" font-size="7.9">  üretebiliyorsa, asıl incelenmesi gereken dev güç</text>
+      <text x="32" y="178" fill="var(--good)" font-size="7.9">  İmajinasyonun biyolojik yazma yetkisidir (HP-7)!</text>
+
+      <!-- Right: Puysegur Somnambulism -->
+      <rect x="332" y="22" width="308" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="344" y="42" fill="var(--violet)" font-size="9" font-weight="700">2. PUYSÉGUR &amp; VICTOR RACE (MAYIS 1784 — BUZANCY)</text>
+      <text x="344" y="62" fill="var(--ink)" font-size="8.2">• Çırpınmalı kriz yerine derin, berrak "Uyurgezer Uyanıklık"</text>
+      <text x="344" y="75" fill="var(--muted)" font-size="7.9">  (Somnambulisme Artificiel = Monroe'nun Focus 10–12'si!).</text>
+      <text x="344" y="94" fill="var(--ink)" font-size="8.2">• Gözlemlenen 3 Temel Fenomen:</text>
+      <text x="352" y="109" fill="var(--good)" font-size="8">1. Üstün Zihinsel Berraklık: Eğitimsiz köylü Victor'un</text>
+      <text x="352" y="121" fill="var(--muted)" font-size="7.8">   trans halinde akıcı ve analitik bir kişiliğe bürünmesi.</text>
+      <text x="352" y="136" fill="var(--good)" font-size="8">2. Sözsüz Niyet Aktarımı (Communauté de sensation):</text>
+      <text x="352" y="148" fill="var(--muted)" font-size="7.8">   Puységur'ün içinden geçirdiği komutları ses çıkarmadan</text>
+      <text x="352" y="160" fill="var(--muted)" font-size="7.8">   yerine getirmesi.</text>
+      <text x="352" y="175" fill="var(--good)" font-size="8">3. İçsel Tıbbi Teşhis ve Amnezik Kapanış.</text>
+    </svg>

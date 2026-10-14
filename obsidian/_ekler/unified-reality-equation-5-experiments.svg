@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Unified Reality Equation and 5 Definitive Experiments"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Unified Model Equation -->
+      <rect x="20" y="22" width="312" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="8.8" font-weight="700">A. BÜYÜK BİRLEŞİK GERÇEKLİK VE BİLİNÇ DENKLEMİ</text>
+      <rect x="32" y="52" width="288" height="44" rx="6" fill="var(--surface)" stroke="var(--good)" stroke-width="1.6"/>
+      <text x="176" y="70" text-anchor="middle" fill="var(--good)" font-size="8.2" font-weight="700" font-family="monospace">SNR_psi = [ Φ_koherans(0.1Hz, 7.83Hz) · I(A:B) ]</text>
+      <text x="176" y="86" text-anchor="middle" fill="var(--accent)" font-size="8.2" font-weight="700" font-family="monospace">          ÷ [ Π_DMN/Sol-Sansür · N_EM · R_zorlama ]</text>
+      <text x="32" y="112" fill="var(--ink)" font-size="7.6">• Pay (Sinyal Kaynağı): Spektral/Holografik Faz Uzayında (HP-5,</text>
+      <text x="32" y="124" fill="var(--muted)" font-size="7.4">  HP-15) 0.1 Hz Kalp–BOS–Schumann kilidi (HP-1) + Sıvı-Kristal</text>
+      <text x="32" y="136" fill="var(--muted)" font-size="7.4">  EZ/Biyofoton/Manyetit/Efaptik dalga kılavuzu (HP-6, HP-9) +</text>
+      <text x="32" y="148" fill="var(--muted)" font-size="7.4">  Stokastik 1/f rezonans (HP-3) ve Özdeş Rezonatör (HP-13).</text>
+      <text x="32" y="164" fill="var(--warn)" font-size="7.6" font-weight="700">• Payda (Engeller): DMN/Sol-Yarıküre AOL Sansürü (HP-2, HP-12)</text>
+      <text x="32" y="176" fill="var(--warn)" font-size="7.5">  + Çevresel EM Gürültü (HP-8) + Lucadou Zorlaması R (HP-4)!</text>
+      <text x="32" y="190" fill="var(--good)" font-size="7.6" font-weight="700">→ Paydayı sıfıra yaklaştırdığınız anda SNR_psi patlar!</text>
+
+      <!-- Right: 5 Definitive 2026 Experiments -->
+      <rect x="342" y="22" width="298" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="354" y="42" fill="var(--good)" font-size="8.8" font-weight="700">B. 2026 TEKNOLOJİSİYLE 5 KESİN KARAR DENEYİ</text>
+      <text x="354" y="61" fill="var(--ink)" font-size="7.6" font-weight="700">Deney 1 (Hiper-Zırhlı OPM-MEG İkiz/Çift):</text>
+      <text x="354" y="73" fill="var(--muted)" font-size="7.3">  Mu-metal + Faraday odasında 0.1 Hz + 7.83 Hz kilitli tek yumurta</text>
+      <text x="354" y="84" fill="var(--muted)" font-size="7.3">  ikizlerinde Kuantum OPM-MEG ile Grinberg ERP testi.</text>
+      <text x="354" y="100" fill="var(--ink)" font-size="7.6" font-weight="700">Deney 2 (1 Hz rTMS Sol-LATL Susturma + CRV/Ganzfeld):</text>
+      <text x="354" y="112" fill="var(--muted)" font-size="7.3">  Snyder'ın rTMS protokolüyle AOL sansürünü kapatıp Ganzfeld</text>
+      <text x="354" y="123" fill="var(--muted)" font-size="7.3">  isabet oranının %32'den &gt;%55'e çıkıp çıkmadığının testi.</text>
+      <text x="354" y="139" fill="var(--ink)" font-size="7.6" font-weight="700">Deney 3 (Konkoly Çift-Yönlü REM + Uzaktan EOG Hedefi):</text>
+      <text x="354" y="151" fill="var(--muted)" font-size="7.3">  Lüsid rüyadaki deneğin hedefi uyanmadan EOG Mors ile bildirmesi.</text>
+      <text x="354" y="167" fill="var(--ink)" font-size="7.6" font-weight="700">Deney 4 (İnsan iPSC Beyin Organoidleri + Biyofoton/Faraday)</text>
+      <text x="354" y="182" fill="var(--ink)" font-size="7.6" font-weight="700">Deney 5 (7-Tesla BOS/Epifiz + Zaman-Simetrik Presentiment)</text>
+    </svg>

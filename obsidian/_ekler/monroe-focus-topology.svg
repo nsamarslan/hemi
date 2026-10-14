@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 240" role="img" aria-label="Monroe Focus Topology"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="224" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Axis -->
+      <line x1="36" y1="195" x2="628" y2="195" stroke="var(--line)" stroke-width="1.5"/>
+      <text x="36" y="214" fill="var(--muted)" font-size="8.5">Duyusal Girdi &amp; DMN (Ego Filtresi) → Sıfıra İner</text>
+      <text x="455" y="214" fill="var(--accent)" font-size="8.5">İdeo-Plastiklik &amp; Faz Tutarlılığı → Maksimum</text>
+      <!-- Stages -->
+      <g transform="translate(26,28)">
+        <rect x="0" y="96" width="104" height="60" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+        <text x="10" y="114" fill="var(--accent)" font-size="10" font-weight="700">Focus 10</text>
+        <text x="10" y="128" fill="var(--ink)" font-size="8.2">Beden Uykuda, Zihin</text>
+        <text x="10" y="140" fill="var(--muted)" font-size="7.8">Uyanık · ~4–7 Hz Teta</text>
+
+        <rect x="122" y="74" width="104" height="82" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+        <text x="132" y="92" fill="var(--accent)" font-size="10" font-weight="700">Focus 12</text>
+        <text x="132" y="106" fill="var(--ink)" font-size="8.2">Genişlemiş Farkındalık</text>
+        <text x="132" y="119" fill="var(--muted)" font-size="7.8">Parietal sınır azalır;</text>
+        <text x="132" y="131" fill="var(--muted)" font-size="7.8">Teta + Alfa/Gama patlaması</text>
+
+        <rect x="244" y="52" width="104" height="104" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+        <text x="254" y="70" fill="var(--accent)" font-size="10" font-weight="700">Focus 15</text>
+        <text x="254" y="84" fill="var(--ink)" font-size="8.2">"Zaman Yok" (No-Time)</text>
+        <text x="254" y="98" fill="var(--muted)" font-size="7.8">İnsula &amp; DMN saat</text>
+        <text x="254" y="110" fill="var(--muted)" font-size="7.8">sayacı susar; derin</text>
+        <text x="254" y="122" fill="var(--muted)" font-size="7.8">delta-teta koheransı</text>
+
+        <rect x="366" y="30" width="108" height="126" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+        <text x="376" y="48" fill="var(--violet)" font-size="10" font-weight="700">Focus 21</text>
+        <text x="376" y="62" fill="var(--ink)" font-size="8.2">Uzay-Zaman Sınırı</text>
+        <text x="376" y="76" fill="var(--muted)" font-size="7.8">Fiziksel Markov</text>
+        <text x="376" y="88" fill="var(--muted)" font-size="7.8">battaniyesi ile Berzah</text>
+        <text x="376" y="100" fill="var(--muted)" font-size="7.8">(Locale II) arasındaki</text>
+        <text x="376" y="112" fill="var(--muted)" font-size="7.8">eşik / köprü durumu</text>
+
+        <rect x="492" y="6" width="118" height="150" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+        <text x="502" y="24" fill="var(--violet)" font-size="10" font-weight="700">Focus 23–27</text>
+        <text x="502" y="38" fill="var(--ink)" font-size="8.2">İdeo-Plastik Katman</text>
+        <text x="502" y="53" fill="var(--muted)" font-size="7.8">• F23: Sabit inanç/tutku</text>
+        <text x="502" y="65" fill="var(--muted)" font-size="7.8">• F24–26: Kolektif inanç</text>
+        <text x="502" y="77" fill="var(--muted)" font-size="7.8">  sistemleri (Âlem-i Misâl)</text>
+        <text x="502" y="91" fill="var(--ink)" font-size="8">• F27: "Park / Kabul</text>
+        <text x="502" y="103" fill="var(--ink)" font-size="8">  Merkezi" — ortak</text>
+        <text x="502" y="115" fill="var(--ink)" font-size="8">  arke-tipik geçiş üssü</text>
+      </g>
+    </svg>

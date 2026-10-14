@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Self-vector alignment schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">AKIŞ HALİ (HZ-32): ÖZ-VEKTÖR HİZALANMASI</text>
+
+      <rect x="18" y="38" width="212" height="150" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="54" fill="var(--warn)" font-size="8" font-weight="700">A) "HİPOFRONTALİTE" (🟠 KARIŞIK)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Dietrich 2003/2004: geçici düşüş hipotezi</text>
+        <text x="30" y="85">Limb &amp; Braun 2008: 6 cazcı — DL-PFC ↓</text>
+        <text x="30" y="101">Ulrich 2014: mPFC + amigdala ↓ AMA</text>
+        <text x="30" y="114">  IFG + putamen + insula ↑</text>
+        <text x="30" y="130">Göreve bağlı: bazı çalışmalarda PFC ↑</text>
+        <text x="30" y="146" fill="var(--muted)">n = 6-30; laboratuvar indüksiyonu zayıf</text>
+        <text x="30" y="159" fill="var(--muted)">Doğru okuma: öz-izleme kısılır, dikkat açık</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="252" y="54" fill="var(--ok)" font-size="8" font-weight="700">B) SAĞLAM ÇEKİRDEK (🟢)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Beilock &amp; Carr 2001: içsel izleme → çöküş</text>
+        <text x="252" y="85">Çift görev (dikkat dağıtma) performansı korur</text>
+        <text x="252" y="101">Beilock 2002: iç odak uzmana zarar,</text>
+        <text x="252" y="114">  yeni başlayana yarar</text>
+        <text x="252" y="130">Wulf: dış odak üstünlüğü (15 yıllık derleme)</text>
+        <text x="252" y="146">Sessiz göz süresi performansı öngörür</text>
+        <text x="252" y="159" fill="var(--muted)">Yips: bilinçli müdahalenin klinik ucu</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="468" y="54" fill="var(--warn)" font-size="8" font-weight="700">C) ZAMAN VE BENLİK (🟡)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">Öz-kaybı: tutarlı rapor + mPFC ↓ (yön)</text>
+        <text x="468" y="85">"Benlik çözülür" → ölçümün ötesinde iddia</text>
+        <text x="468" y="101">Zaman: ölçüm çoğunlukla geçmişe dönük</text>
+        <text x="468" y="117">İçsel saat: daha az sinyal → sıkışma</text>
+        <text x="468" y="133">Korkuda ters yön: zaman yavaşlar</text>
+        <text x="468" y="149" fill="var(--muted)">Prospektif deneyler seyrek — "zaman</text>
+        <text x="468" y="162" fill="var(--muted)">kayboldu" bulgusu yönteme duyarlı</text>
+      </g>
+
+      <rect x="18" y="198" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="214" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="232" fill="var(--ink)" font-weight="700">P_zirve ≈ D_otomatiklik × (1 − M_iç-izleme) × A_dış-kilit · T_öznel/T_gerçek ≈ 1/(1 + β·A_emilim)</text>
+        <text x="30" y="248" fill="var(--ink)">/1 Uzman × odak: normal / kameralı öz-izleme / dış odak — performans + göz izleme + anlık örnekleme</text>
+        <text x="30" y="263" fill="var(--ink)">/2 Prospektif zaman blokları vs geçmişe dönük tahmin — emilim ölçeğiyle kovaryans</text>
+      </g>
+
+      <rect x="18" y="282" width="644" height="58" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="298" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="315" fill="var(--warn)">🟢 otomatiklik/choking/dış odak · 🟡 öz-kaybı · 🟠 hipofrontalite (küresel iddia) · 🔴 "bilinç kapanır / zaman bükülür"</text>
+        <text x="30" y="330" fill="var(--muted)">Çürütülürse: dört eğitilebilir kaldıraç kalır — dış odak, sessiz göz, ön-performans rutini, çift görev.</text>
+      </g>
+    </svg>

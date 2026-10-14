@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 225" role="img" aria-label="Grinberg Syntergic Lattice and Transferred Potential"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="209" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Syntergic Lattice -->
+      <rect x="20" y="22" width="298" height="180" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9.2" font-weight="700">A. SİNTERJİK KURAM (LA LÁTICE × NÖRONAL ALAN)</text>
+      <g stroke="var(--line)" stroke-width="0.9">
+        <line x1="36" y1="62" x2="296" y2="62"/><line x1="36" y1="82" x2="296" y2="82"/><line x1="36" y1="102" x2="296" y2="102"/><line x1="36" y1="122" x2="296" y2="122"/>
+        <line x1="66" y1="52" x2="66" y2="132"/><line x1="116" y1="52" x2="116" y2="132"/><line x1="166" y1="52" x2="166" y2="132"/><line x1="216" y1="52" x2="216" y2="132"/><line x1="266" y1="52" x2="266" y2="132"/>
+      </g>
+      <circle cx="166" cy="92" r="28" fill="var(--accent)" fill-opacity="0.18" stroke="var(--accent)" stroke-width="1.8"/>
+      <circle cx="166" cy="92" r="14" fill="none" stroke="var(--violet)" stroke-dasharray="3 2"/>
+      <text x="32" y="152" fill="var(--ink)" font-size="8.2">• Düşük Sinterji (Ego/Beta): Kafes yerel olarak bükülür →</text>
+      <text x="32" y="165" fill="var(--muted)" font-size="7.9">  "Katı ve ayrı nesneler" yanılsaması (Normal Algı).</text>
+      <text x="32" y="181" fill="var(--good)" font-size="8.2">• Yüksek Sinterji (Şaman/Pachita/F15): Nöronal alan kafesle</text>
+      <text x="32" y="194" fill="var(--good)" font-size="7.9">  izomorfik olur → Yerel-olmayan doğrudan etkileşim.</text>
+
+      <!-- Right: Transferred Potential -->
+      <rect x="332" y="22" width="308" height="180" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="344" y="42" fill="var(--violet)" font-size="9.2" font-weight="700">B. AKTARILAN POTANSİYEL (PHYSICS ESSAYS, 1994)</text>
+      <rect x="348" y="56" width="112" height="84" rx="6" fill="var(--surface)" stroke="var(--accent)" stroke-dasharray="4 2"/>
+      <text x="404" y="72" text-anchor="middle" fill="var(--accent)" font-size="8" font-weight="700">Faraday Kafesi A</text>
+      <text x="404" y="88" text-anchor="middle" fill="var(--danger)" font-size="8">⚡ 100 Işık Çakması</text>
+      <path d="M362 118 L382 118 L390 98 L398 130 L408 106 L418 118 L444 118" fill="none" stroke="var(--accent)" stroke-width="1.8"/>
+      <text x="404" y="134" text-anchor="middle" fill="var(--muted)" font-size="7.5">Uyarılmış Potansiyel (ERP)</text>
+
+      <rect x="512" y="56" width="112" height="84" rx="6" fill="var(--surface)" stroke="var(--good)" stroke-dasharray="4 2"/>
+      <text x="568" y="72" text-anchor="middle" fill="var(--good)" font-size="8" font-weight="700">Faraday Kafesi B</text>
+      <text x="568" y="88" text-anchor="middle" fill="var(--muted)" font-size="8">Karanlık &amp; Sessiz (14.5 m)</text>
+      <path d="M526 118 L546 118 L554 103 L562 127 L572 109 L582 118 L608 118" fill="none" stroke="var(--good)" stroke-width="1.8"/>
+      <text x="568" y="134" text-anchor="middle" fill="var(--good)" font-size="7.5">Aktarılan Potansiyel (p&lt;0.01)</text>
+
+      <line x1="462" y1="98" x2="510" y2="98" stroke="var(--violet)" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <text x="486" y="92" text-anchor="middle" fill="var(--violet)" font-size="7.5">EM=0</text>
+      <text x="344" y="160" fill="var(--ink)" font-size="8">• Ön-koşul: İki denek birlikte 20 dk meditasyon yapıp bağ kurar.</text>
+      <text x="344" y="174" fill="var(--ink)" font-size="8">• Bağımsız Replikasyonlar: Wackermann (2003), Standish &amp;</text>
+      <text x="344" y="187" fill="var(--muted)" font-size="7.8">  Richards (2004 — fMRI V1 aktivasyonu), Radin (2004).</text>
+    </svg>

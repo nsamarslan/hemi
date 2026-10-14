@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Tuned receiver schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">ZİHİN-ZİHİN HAVUZU (HZ-27): HAVUZ DEĞİL, AYARLI ALICI</text>
+
+      <rect x="18" y="38" width="212" height="150" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="54" fill="var(--warn)" font-size="8" font-weight="700">ARŞİV (🟡)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">1974-2020: etki 0,018-0,133 arası değişir</text>
+        <text x="30" y="85">Kayıtlı rapor: ~0,08 (%95 CI 0,04-0,12)</text>
+        <text x="30" y="98" fill="var(--muted)">  hakemlik: 2 onay, 1 onay-dışı</text>
+        <text x="30" y="114">Milton &amp; Wiseman 1999: 30 çalışma, 0,013</text>
+        <text x="30" y="127">  → anlamsız (z = 0,70; p = 0,24)</text>
+        <text x="30" y="143" fill="var(--bad)">Gürültü azaltma modeli on yılda DOĞRULANMADI</text>
+        <text x="30" y="156" fill="var(--muted)">Autoganzfeld isabet %32,2 · şans %25</text>
+        <text x="30" y="172" fill="var(--muted)">Etki, veri-tabanı kurallarına bağlı</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="252" y="54" fill="var(--bad)" font-size="8" font-weight="700">PROSPEKTİF SINAV (🟠 KAYBEDİLDİ)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Bem 2011: 9 deney, 8 anlamlı, d = 0,22</text>
+        <text x="252" y="85">Galak 2012: 7 deney, N = 3 289, d = 0,04</text>
+        <text x="252" y="98" fill="var(--bad)">  → sıfırdan farksız; etki replike EDİLEMEDİ</text>
+        <text x="252" y="114">JPSP: "yalnız replikasyon" yayımlamayı reddetti</text>
+        <text x="252" y="130">Rüya laboratuvarı: Maimonides anlamlı ama</text>
+        <text x="252" y="143" fill="var(--bad)">  körlük hatası (Hansel); bağımsız testler NEGATİF</text>
+        <text x="252" y="159" fill="var(--muted)">Watt-Wiseman: "tam bir başarısızlık"</text>
+        <text x="252" y="175" fill="var(--muted)">Alcock: "veri aşırı dağınık, replikasyon yok"</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="468" y="54" fill="var(--ok)" font-size="8" font-weight="700">İKİZ ÇALIŞMALARI (ANLATI/ŞANS)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">Bildirim: MZ beşte bir · DZ onda bir</text>
+        <text x="468" y="85" fill="var(--muted)">  → bildirim oranı, performans değil</text>
+        <text x="468" y="101">Blackmore 1993: benzer düşünme örüntüsü</text>
+        <text x="468" y="114">Eaves &amp; Last: partner tahmini şans düzeyi</text>
+        <text x="468" y="130">Hedefi deneyci seçince isabet şansa indi</text>
+        <text x="468" y="146">Bouchard 1990: ayrı büyüyen MZ benzer</text>
+        <text x="468" y="159" fill="var(--muted)">  → ortak kalıtım, ortak çıktı</text>
+        <text x="468" y="175" fill="var(--muted)">TV deneyleri: anlatı, kanıt değil</text>
+      </g>
+
+      <rect x="18" y="198" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="214" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="232" fill="var(--ink)" font-weight="700">d_gözlem ≈ (K_çift × S_durum × L_deneyci) − B_yanlılık · laboratuvar terimi örnekleme hatasından büyük mü?</text>
+        <text x="30" y="248" fill="var(--ink)">/1 Hasım-işbirliği: 4 laboratuvar, ortak ön kayıtlı protokol, inanan + şüpheci deneyci, ≥ 2 000 deneme</text>
+        <text x="30" y="263" fill="var(--ink)">/2 Ajansız kol (insan gönderici yok) · /3 Yayımlanmış protokollerin birebir replikasyonu</text>
+      </g>
+
+      <rect x="18" y="282" width="644" height="58" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="298" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="315" fill="var(--warn)">🟡 arşiv sapması (on yıllara yayılmış, küçük) · 🟠 prospektif replikasyon (başarısız) · 🔴 mekanizma (taşıyıcı yok)</text>
+        <text x="30" y="330" fill="var(--muted)">Çürütülürse: meta-bilim mirası, REM uyandırma metodolojisi ve davranış genetiği kalır.</text>
+      </g>
+    </svg>

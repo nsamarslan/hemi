@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Microtubule anesthesia evidence ladder"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="26" text-anchor="middle" fill="var(--accent)" font-size="11" font-weight="700">UA-21 · MİKROTÜBÜL KANIT MERDİVENİ</text>
+      <rect x="20" y="49" width="146" height="105" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="30" y="68" fill="var(--ok)" font-size="9" font-weight="700">1 · İLAÇ</text>
+      <text x="30" y="92" fill="var(--ink)" font-size="8">Sıçan +69 s</text><text x="30" y="109" fill="var(--ink)" font-size="8">Fare +29 s</text><text x="30" y="130" fill="var(--muted)" font-size="7">LORR, öznel ölçü değil</text>
+      <text x="171" y="102" fill="var(--violet)" font-size="16">→</text>
+      <rect x="189" y="49" width="146" height="105" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="199" y="68" fill="var(--warn)" font-size="9" font-weight="700">2 · MT YOLU</text>
+      <text x="199" y="92" fill="var(--ink)" font-size="8">İskelet / reseptör</text><text x="199" y="109" fill="var(--ink)" font-size="8">Çok hedefli anestezi</text><text x="199" y="130" fill="var(--muted)" font-size="7">Seçici kontrol gerekli</text>
+      <text x="340" y="102" fill="var(--violet)" font-size="16">→</text>
+      <rect x="358" y="49" width="146" height="105" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="368" y="68" fill="var(--warn)" font-size="9" font-weight="700">3 · OPTİK MOD</text>
+      <text x="368" y="92" fill="var(--ink)" font-size="8">UV, in vitro</text><text x="368" y="109" fill="var(--ink)" font-size="8">Uyanık beyin: açık</text><text x="368" y="130" fill="var(--muted)" font-size="7">Aracılık henüz yok</text>
+      <text x="509" y="102" fill="var(--violet)" font-size="16">→</text>
+      <rect x="527" y="49" width="133" height="105" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="537" y="68" fill="var(--bad)" font-size="9" font-weight="700">4 · ORCH-OR</text>
+      <text x="537" y="92" fill="var(--ink)" font-size="8">Objektif indirgenme</text><text x="537" y="109" fill="var(--ink)" font-size="8">Bilinç anı: ölçülmedi</text><text x="537" y="130" fill="var(--muted)" font-size="7">Kanıt zinciri eksik</text>
+      <rect x="20" y="184" width="640" height="98" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="32" y="207" fill="var(--violet)" font-size="9" font-weight="700">HZ-21 · ΔLORR ≈ α·ΔM_klasik + β·ΔQ_optik + γ·ΔR_reseptör + ε</text>
+      <text x="32" y="233" fill="var(--ink)" font-size="8">Ön kayıtlı: kör / randomize / iki cins / bağımsız ekip / izofluran doz-yanıtı</text>
+      <text x="32" y="255" fill="var(--ink)" font-size="8">Ayırıcı: MT stabilitesi eşitken optik imzayı seçici değiştir; EEG + uyanma ölç</text>
+      <text x="32" y="317" fill="var(--muted)" font-size="8">Çürütülürse: MT'nin hücresel işlevi ve in vitro optiği kalır; bilinç teoremi kanıt olmaz.</text>
+    </svg>

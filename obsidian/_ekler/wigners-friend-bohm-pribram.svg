@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Extended Wigners Friend and Bohm Pribram Holonomy"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Extended Wigner's Friend -->
+      <rect x="20" y="22" width="320" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="8.8" font-weight="700">A. GENİŞLETİLMİŞ WIGNER'İN ARKADAŞI (2019–2020)</text>
+      <text x="32" y="57" fill="var(--muted)" font-size="7.6">Proietti et al. (Sci. Adv. 2019) &amp; Bong et al. (Nat. Phys. 2020):</text>
+      <!-- Two Labs with Friends inside and Wigners outside -->
+      <rect x="34" y="68" width="134" height="62" rx="6" fill="var(--surface)" stroke="var(--good)"/>
+      <text x="101" y="84" text-anchor="middle" fill="var(--good)" font-size="7.8" font-weight="700">Laboratuvar A (İçerideki</text>
+      <text x="101" y="96" text-anchor="middle" fill="var(--ink)" font-size="7.5">Arkadaş: "Foton = |0⟩ kesin!")</text>
+      <text x="101" y="114" text-anchor="middle" fill="var(--accent)" font-size="7.5" font-weight="700">Dışarıdaki Wigner A:</text>
+      <text x="101" y="125" text-anchor="middle" fill="var(--muted)" font-size="7.2">"Hayır, hâlâ süperpozisyonda!"</text>
+
+      <rect x="192" y="68" width="134" height="62" rx="6" fill="var(--surface)" stroke="var(--violet)"/>
+      <text x="259" y="84" text-anchor="middle" fill="var(--violet)" font-size="7.8" font-weight="700">Laboratuvar B (İçerideki</text>
+      <text x="259" y="96" text-anchor="middle" fill="var(--ink)" font-size="7.5">Arkadaş: "Foton = |1⟩ kesin!")</text>
+      <text x="259" y="114" text-anchor="middle" fill="var(--accent)" font-size="7.5" font-weight="700">Dışarıdaki Wigner B:</text>
+      <text x="259" y="125" text-anchor="middle" fill="var(--muted)" font-size="7.2">Girişim testi yapıyor!</text>
+
+      <!-- Entanglement line -->
+      <line x1="168" y1="98" x2="192" y2="98" stroke="var(--warn)" stroke-width="2" stroke-dasharray="3 2"/>
+      <text x="32" y="148" fill="var(--good)" font-size="8" font-weight="700">• Sonuç (&gt;5 Sigma Eşitsizlik İhlali):</text>
+      <text x="32" y="162" fill="var(--ink)" font-size="7.7">  İçerideki gözlemcinin "kesin olgusu" ile dışarıdaki gözlemcinin</text>
+      <text x="32" y="175" fill="var(--ink)" font-size="7.7">  olgusu tek bir "gözlemciden bağımsız gerçeklikte" BİRLEŞEMEZ!</text>
+
+      <!-- Right: Bohm-Pribram Holonomy -->
+      <rect x="352" y="22" width="288" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="364" y="42" fill="var(--violet)" font-size="8.8" font-weight="700">B. BOHM (ÖRTÜK DÜZEN) &amp; PRIBRAM (HOLONOMİK BEYİN)</text>
+      <text x="364" y="60" fill="var(--ink)" font-size="8" font-weight="700">1. David Bohm — Holomovement:</text>
+      <text x="364" y="74" fill="var(--muted)" font-size="7.7">• Örtük Düzen (Implicate Order): Uzay ve zamanın henüz</text>
+      <text x="364" y="87" fill="var(--muted)" font-size="7.7">  açılmadığı (enfolded) saf frekans/faz alanı (Focus 15–27).</text>
+      <text x="364" y="100" fill="var(--muted)" font-size="7.7">• Açık Düzen (Explicate Order): 3B uzay-zaman projeksiyonu.</text>
+      <text x="364" y="120" fill="var(--good)" font-size="8" font-weight="700">2. Karl Pribram — Dendritik Gabor Hologramı:</text>
+      <text x="364" y="135" fill="var(--ink)" font-size="7.8" font-family="monospace">   g(t,ω) = exp(−(t−t₀)²/α²) · exp(iω₀t)</text>
+      <text x="364" y="152" fill="var(--muted)" font-size="7.7">• Beyin anıları "çekmecelerde" değil, dendritik ağlardaki</text>
+      <text x="364" y="165" fill="var(--muted)" font-size="7.7">  dalga girişim saçaklarında (Fourier/Gabor) saklar;</text>
+      <text x="364" y="178" fill="var(--good)" font-size="7.7" font-weight="700">  bu yüzden korteksin %90'ı kesilse de (Dosya 24) anı silinmez!</text>
+    </svg>

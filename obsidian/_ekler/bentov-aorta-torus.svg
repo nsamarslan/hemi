@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" role="img" aria-label="Bentov Aorta Standing Wave and Torus"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="214" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Aorta Standing Wave -->
+      <rect x="20" y="20" width="305" height="190" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="40" fill="var(--accent)" font-size="9.5" font-weight="700">A. KALP–AORT ÇATALLANMASI DURAN DALGASI (~7 Hz)</text>
+      <!-- Body silhouette / aorta -->
+      <circle cx="92" cy="74" r="18" fill="none" stroke="var(--violet)" stroke-width="1.8"/>
+      <path d="M84 70 Q92 60 100 70 Q92 80 84 70" fill="none" stroke="var(--accent)" stroke-width="1.4"/>
+      <line x1="92" y1="92" x2="92" y2="164" stroke="var(--accent)" stroke-width="2.5"/>
+      <line x1="92" y1="164" x2="72" y2="194" stroke="var(--accent)" stroke-width="2"/>
+      <line x1="92" y1="164" x2="112" y2="194" stroke="var(--accent)" stroke-width="2"/>
+      <circle cx="92" cy="112" r="6" fill="var(--danger)"/>
+      <!-- Standing wave curve -->
+      <path d="M122 92 Q138 110 122 128 Q106 146 122 164" fill="none" stroke="var(--good)" stroke-width="1.8"/>
+      <path d="M122 92 Q106 110 122 128 Q138 146 122 164" fill="none" stroke="var(--good)" stroke-width="1.8" stroke-dasharray="3 2"/>
+      <text x="148" y="66" fill="var(--ink)" font-size="8.3">4. Beyin Ventrikülleri &amp; Korpus</text>
+      <text x="148" y="78" fill="var(--muted)" font-size="7.8">Kallozum: Akustik teta sürüklemesi</text>
+      <text x="148" y="102" fill="var(--ink)" font-size="8.3">3. Fizyolojik Kundalini Döngüsü</text>
+      <text x="148" y="114" fill="var(--muted)" font-size="7.8">Duyu korteksi homunkulus halkası</text>
+      <text x="148" y="138" fill="var(--ink)" font-size="8.3">2. Kalp Sol Ventrikül Atımı</text>
+      <text x="148" y="150" fill="var(--muted)" font-size="7.8">Nefes tutulunca/yavaşlayınca kilitlenir</text>
+      <text x="148" y="174" fill="var(--ink)" font-size="8.3">1. İliak Çatallanma Yansıması</text>
+      <text x="148" y="186" fill="var(--muted)" font-size="7.8">Giden + dönen basınç = Duran Dalga</text>
+
+      <!-- Right: Torus Cosmos -->
+      <rect x="338" y="20" width="302" height="190" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="350" y="40" fill="var(--violet)" font-size="9.5" font-weight="700">B. BENTOV TOROİD EVRENİ &amp; SARKAÇ SIFIR NOKTASI</text>
+      <ellipse cx="488" cy="118" rx="96" ry="52" fill="none" stroke="var(--violet)" stroke-width="1.6"/>
+      <ellipse cx="488" cy="118" rx="58" ry="44" fill="none" stroke="var(--accent)" stroke-width="1.3" stroke-dasharray="4 3"/>
+      <path d="M488 74 C470 96, 470 140, 488 162 C506 140, 506 96, 488 74 Z" fill="var(--accent)" fill-opacity="0.18" stroke="var(--accent)" stroke-width="1.5"/>
+      <circle cx="488" cy="118" r="4" fill="var(--good)"/>
+      <text x="352" y="186" fill="var(--ink)" font-size="8.2">• Sarkaç uç noktada: v = 0, ivme = max → Faz hızı v_p = c²/v → ∞</text>
+      <text x="352" y="200" fill="var(--muted)" font-size="8">• Merkezdeki "Beyaz Delik / Kara Delik" Boşluğu = Focus 15/21 Köprüsü</text>
+    </svg>

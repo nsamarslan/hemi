@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="External-green calibration schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">DOĞA TEMASI (HZ-33): DIŞ-YEŞİL KALİBRASYON</text>
+
+      <rect x="18" y="38" width="212" height="150" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="30" y="54" fill="var(--ok)" font-size="8" font-weight="700">A) YEŞİLLENDİRME RCT (🟢)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Branas 2018: 541 arsa — silah şiddeti %29 ↓</text>
+        <text x="30" y="85">  bina iyileştirmesi %39 ↓ · ~1 600 dolar/arsa</text>
+        <text x="30" y="101">South 2018: depresyon %41,5 ↓,</text>
+        <text x="30" y="114">  kötü ruh sağlığı %62,8 ↓; temizlik kolu boş</text>
+        <text x="30" y="130">White 2019: ≥120 dk/hafta eşiği</text>
+        <text x="30" y="146" fill="var(--muted)">80 çalışma: ~30 dk sonrası restorasyon</text>
+        <text x="30" y="159" fill="var(--muted)">Doz: 200-300 dk sonrası azalan marjinal getiri</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="252" y="54" fill="var(--warn)" font-size="8" font-weight="700">B) ORMAN FİZYOLOJİSİ (🟡)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Li: NK %17,3 → %26,5 (+%53), 7-30 gün</text>
+        <text x="252" y="85">Antonelli 2019: kortizol −0,05 µg/dl,</text>
+        <text x="252" y="98">  I² = %88; "plasebo rol oynayabilir"</text>
+        <text x="252" y="114">Ruh sağlığı meta: g = −8,81 → imkânsız</text>
+        <text x="252" y="127">  büyük; güçlü yanlılık artefaktı sinyali</text>
+        <text x="252" y="143" fill="var(--muted)">Körleme imkânsız, takip yok, küçük n —</text>
+        <text x="252" y="156" fill="var(--muted)">yön tutarlı, kesinlik zayıf</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="54" fill="var(--bad)" font-size="8" font-weight="700">C) ARACI İDDİALAR (🟠/🔴)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">İyon: Terman RCT depresyon ↓ AMA</text>
+        <text x="468" y="85">  doz-yanıt yok; ev cihazı yoğunluğu düşük</text>
+        <text x="468" y="101">Topraklanma: 10 nanoamper vs onlarca amper</text>
+        <text x="468" y="114">  yüksüz radikaller; aşırı yük yüzeyde kalır</text>
+        <text x="468" y="130">2015 derleme satıcı bağlantılı; 2021 inceleme</text>
+        <text x="468" y="143">  zayıf + çıkar çatışmalı; kas pilotu n = 8</text>
+        <text x="468" y="159" fill="var(--muted)">M. vaccae: fare verisi var, insan verisi yok</text>
+      </g>
+
+      <rect x="18" y="198" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="214" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="232" fill="var(--ink)" font-weight="700">E_sağlık ≈ (G_yeşil × T_doz × A_aktivite) × (1 + K_bağlam) / (1 + B_yanlılık) · aracılar eklendiğinde etki büyümez</text>
+        <text x="30" y="248" fill="var(--ink)">/1 Çok-merkezli biyobelirteçli yeşillendirme RCT (≥24 ay): iyon/topraklanma kovaryansı YOK</text>
+        <text x="30" y="263" fill="var(--ink)">/2 İyon-eşitlenmiş orman vs park yürüyüşü · /3 Üçlü kör topraklanma yatağı (n ≥ 200)</text>
+      </g>
+
+      <rect x="18" y="282" width="644" height="58" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="298" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="315" fill="var(--warn)">🟢 yeşillendirme RCT · 🟡 orman fizyolojisi · 🟠 negatif iyon depresyonu · 🔴 topraklanma/elektron kanalı</text>
+        <text x="30" y="330" fill="var(--muted)">Çürütülürse: öznel/davranışsal fayda ve kamu sağlığı kanıtı kalır; "elektron/iyon" anlatısı kanıtsız kalır.</text>
+      </g>
+    </svg>

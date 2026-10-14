@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Heart Brain Coherence"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Incoherent vs Coherent HRV -->
+      <rect x="22" y="24" width="290" height="172" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="34" y="44" fill="var(--danger)" font-size="9" font-weight="700">A. Dağınık (Beta/Stres) HRV Spektrumu</text>
+      <polyline points="34,76 52,58 64,84 78,62 92,88 108,55 122,79 138,72 154,89 170,60 188,82 204,64 222,86 242,58 264,80 288,68" fill="none" stroke="var(--danger)" stroke-width="1.6"/>
+      <text x="34" y="114" fill="var(--good)" font-size="9" font-weight="700">B. 0.1 Hz Koherans (10 sn Nefes · Hesychasm / Focus 10)</text>
+      <path d="M34 150 Q66 118 98 150 T162 150 T226 150 T290 150" fill="none" stroke="var(--good)" stroke-width="2.2"/>
+      <text x="34" y="182" fill="var(--muted)" font-size="8">Tek tepe: 0.10 Hz (Mayer dalgası + Baroreseptör rezonansı)</text>
+
+      <!-- Right: Vagus &amp; Garfinkel Gate -->
+      <rect x="328" y="24" width="308" height="172" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="342" y="44" fill="var(--violet)" font-size="9.5" font-weight="700">KALP → BEYİN AFFERENT OTOBANI</text>
+      <text x="342" y="64" fill="var(--ink)" font-size="8.4">• Armour (1991): Kalpte ~40.000 otonom nöron</text>
+      <text x="342" y="80" fill="var(--ink)" font-size="8.4">• Vagus Siniri: %80 Afferent (Kalpten → NTS →</text>
+      <text x="342" y="93" fill="var(--muted)" font-size="8">  Talamus → Amigdala &amp; İnsula → Ön Korteks)</text>
+      <text x="342" y="112" fill="var(--ink)" font-size="8.4">• Manyetik Alan: Kalp (~50 pT) &gt; Beyin (~0.5 pT)</text>
+      <text x="342" y="132" fill="var(--good)" font-size="8.4" font-weight="700">• Garfinkel &amp; Critchley (Sistol / Diyastol Kapısı):</text>
+      <text x="342" y="146" fill="var(--muted)" font-size="8">  Kalp her kasıldığında (sistol) baroreseptör darbesi</text>
+      <text x="342" y="159" fill="var(--muted)" font-size="8">  dış duyusal acıyı/girdiyi bastırır; diyastolde içsel</text>
+      <text x="342" y="172" fill="var(--muted)" font-size="8">  sezgisel sinyal talamustan kortekse geçer.</text>
+    </svg>

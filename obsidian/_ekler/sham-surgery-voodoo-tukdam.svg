@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Sham Surgery Voodoo Death and Tukdam"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Col 1: Sham Surgery -->
+      <rect x="20" y="22" width="200" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="32" y="42" fill="var(--good)" font-size="8.8" font-weight="700">1. PLASEBO CERRAHİSİ (NEJM 2002)</text>
+      <text x="32" y="60" fill="var(--ink)" font-size="8">Dr. Bruce Moseley (180 hasta, 2 yıl):</text>
+      <text x="32" y="76" fill="var(--muted)" font-size="7.8">• Grup 1: Tam artroskopik kazıma</text>
+      <text x="32" y="90" fill="var(--muted)" font-size="7.8">• Grup 2: Yalnızca eklem yıkama</text>
+      <text x="32" y="104" fill="var(--good)" font-size="7.9" font-weight="700">• Grup 3 (Sahte Cerrahi): Deriye 3 kesi</text>
+      <text x="32" y="117" fill="var(--muted)" font-size="7.6">  atılıp hiçbir kıkırdağa dokunmadan dikildi.</text>
+      <text x="32" y="138" fill="var(--ink)" font-size="8" font-weight="700">24 Ay Sonucu (Ağrı &amp; Yürüme):</text>
+      <text x="32" y="152" fill="var(--good)" font-size="8">Sahte Cerrahi ≥ Gerçek Ameliyat!</text>
+      <text x="32" y="170" fill="var(--muted)" font-size="7.5">(Sihvonen NEJM 2013 menisküs ve</text>
+      <text x="32" y="181" fill="var(--muted)" font-size="7.5">Al-Lamee Lancet 2017 anjiyoplasti!)</text>
+
+      <!-- Col 2: Voodoo Death -->
+      <rect x="230" y="22" width="200" height="176" rx="9" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="242" y="42" fill="var(--warn)" font-size="8.8" font-weight="700">2. NOSEBO / VUDU ÖLÜMÜ (1942)</text>
+      <text x="242" y="60" fill="var(--ink)" font-size="8">Walter Cannon (Harvard) &amp; Curt Richter:</text>
+      <text x="242" y="76" fill="var(--muted)" font-size="7.8">• Mutlak çaresizlik ve ölüm telkini</text>
+      <text x="242" y="90" fill="var(--muted)" font-size="7.8">• Faz 1: Aşırı sempatik-adrenalin</text>
+      <text x="242" y="103" fill="var(--muted)" font-size="7.8">  fırtınası (kapiller spazm, hipovolemi)</text>
+      <text x="242" y="118" fill="var(--warn)" font-size="7.9" font-weight="700">• Faz 2 (Richter, 1957): Parasempatik</text>
+      <text x="242" y="131" fill="var(--warn)" font-size="7.8">  Vagal Aşırı-Frenleme → Kalp diyastolde</text>
+      <text x="242" y="144" fill="var(--warn)" font-size="7.8">  aniden durur (Asistoli)!</text>
+      <text x="242" y="164" fill="var(--ink)" font-size="7.8">• Takotsubo ("Kırık Kalp") Kardiyomiyo-</text>
+      <text x="242" y="177" fill="var(--muted)" font-size="7.6">  patisi: Sol ventrikülün akut felci.</text>
+
+      <!-- Col 3: Tukdam -->
+      <rect x="440" y="22" width="200" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="452" y="42" fill="var(--accent)" font-size="8.8" font-weight="700">3. TUKDAM (DAVIDSON &amp; LOMAS 2021)</text>
+      <text x="452" y="60" fill="var(--ink)" font-size="8">Tibetli ustaların ölüm anı meditasyonu:</text>
+      <text x="452" y="76" fill="var(--muted)" font-size="7.8">• Kalp, solunum ve beyin sapı EEG'si</text>
+      <text x="452" y="89" fill="var(--muted)" font-size="7.8">  tamamen durduktan (klinik ölüm)</text>
+      <text x="452" y="102" fill="var(--good)" font-size="7.9" font-weight="700">  sonra 7–21 gün boyunca rigor mortis,</text>
+      <text x="452" y="115" fill="var(--good)" font-size="7.9" font-weight="700">  koku ve çürüme başlamaz!</text>
+      <text x="452" y="134" fill="var(--ink)" font-size="7.8">• Lomas, Davidson et al. (Frontiers 2021)</text>
+      <text x="452" y="147" fill="var(--muted)" font-size="7.6">  &amp; Medvedev: Ölüm öncesi derin hipoksi-</text>
+      <text x="452" y="160" fill="var(--muted)" font-size="7.6">  vagal adaptasyon otoliz enzimlerini ve</text>
+      <text x="452" y="173" fill="var(--muted)" font-size="7.6">  hücre zarı yıkımını günlerce kilitler.</text>
+    </svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Two-phase noetic compression schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">İKİ FAZLI NOETİK SIKIŞTIRMA (HZ-02): KİLİTLENME → EŞİK → TEK SEMBOL → GECİKMELİ AÇILIM</text>
+
+      <rect x="18" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--muted)"/>
+      <text x="30" y="54" fill="var(--muted)" font-size="8" font-weight="700">FAZ 1 — KİLİTLENME</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Yoğun, uzun odak: keskin çözüm arayışı</text>
+        <text x="30" y="88">Mental set / Einstellung: tek yol kilitlenir</text>
+        <text x="30" y="104">Denetim yüksek, DMN yüksek → temsil SERT</text>
+        <text x="30" y="120" fill="var(--muted)">Problem kendini çözemez: her yol aynı</text>
+        <text x="30" y="131" fill="var(--muted)">temsilin içinden türetilir.</text>
+        <text x="30" y="152" fill="var(--accent)">Çıktı: çözülemeyen ama yüklü bir temsil</text>
+        <text x="30" y="166" fill="var(--ink)">("ısıtılmış"), çözüm hazır ama bağlı.</text>
+      </g>
+
+      <rect x="234" y="38" width="212" height="140" rx="8" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="246" y="54" fill="var(--good)" font-size="8" font-weight="700">FAZ 2 — N1 PENCERESİ</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="246" y="72">Uyku eşiği: seri bağ çözülür, denetim kalır</text>
+        <text x="246" y="88">İmza: ORTA ALFA + DÜŞÜK DELTA</text>
+        <text x="246" y="104">DMN düşer → temsil PARALEL / DUYUSAL formata</text>
+        <text x="246" y="115" fill="var(--muted)">  sıkıştırılır (tek görüntü, tek söz, tek sahne)</text>
+        <text x="246" y="132" fill="var(--warn)">Ters U: ~15 s tepe · erken uyanma eksik,</text>
+        <text x="246" y="143" fill="var(--warn)">  N2'ye geçiş etkiyi sıfırlar (Lacaux 2021)</text>
+        <text x="246" y="160" fill="var(--good)">Kanıt: N1 ≥ 15 s → çözüm olasılığı ×3</text>
+        <text x="246" y="172" fill="var(--ink)">Dormio (2023): hedefli inkübasyon ↑ performans</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="468" y="54" fill="var(--violet)" font-size="8" font-weight="700">ÇIKTI — SEMBOL VE GECİKME</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">Çözüm DEĞİL, çözümün ADRESİ indirilir:</text>
+        <text x="468" y="84" fill="var(--muted)">  kendi kuyruğunu ısıran yılan (Kekulé)</text>
+        <text x="468" y="96" fill="var(--muted)">  gece yarısı deney tasarımı (Loewi)</text>
+        <text x="468" y="108" fill="var(--muted)">  "Yesterday" melodisi (McCartney)</text>
+        <text x="468" y="124" fill="var(--ink)">Açılım GECİKMELİ: ortalama ~90 deneme</text>
+        <text x="468" y="140" fill="var(--warn)">Anlatılar: hayatta kalma yanlılığı —</text>
+        <text x="468" y="151" fill="var(--muted)">  sadece işe yarayan rüyalar anlatılır</text>
+        <text x="468" y="167" fill="var(--good)">İki zaman ölçeği: gece (Wagner 2004)</text>
+      </g>
+
+      <rect x="18" y="188" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="30" y="204" fill="var(--accent)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="222" fill="var(--ink)" font-weight="700">İçgörü ≈ K_odak × f(N1_süre) × (1 − D_delta)   →   K_odak: faz 1 yükü · f: ters U (tepe ≈ 15 s)</text>
+        <text x="30" y="238" fill="var(--ink)">/1 N1 titrasyonu (ön kayıtlı): 5 s vs 15 s vs N2 sonrası uyandırma — ters U bekleniyor</text>
+        <text x="30" y="253" fill="var(--ink)">/2 İmza aracılığı: uyanış anındaki alfa/delta örüntüsü + (alt örneklem) DMN düşüşü, içgörüyü kestirmeli</text>
+      </g>
+
+      <rect x="18" y="272" width="644" height="68" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="288" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="7">
+        <text x="30" y="305" fill="var(--good)">🟡 Laboratuvar kanadı üç tasarımdan destekli; ama replikasyon sınırlı ve tarihsel vakalar anekdot.</text>
+        <text x="30" y="319" fill="var(--ink)">/3 Sıkıştırma kodlaması: içgörüyle biten oturumlarda "tek sembol" rapor oranı yüksek olmalı (kör kodlayıcı).</text>
+        <text x="30" y="333" fill="var(--muted)">Çürütülürse: ters U bulunamazsa model "eşik" değil "süre" modeline iner — dosya bunu kabul eder.</text>
+      </g>
+    </svg>

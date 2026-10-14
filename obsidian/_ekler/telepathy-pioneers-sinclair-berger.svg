@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Telepathy Pioneers and Warcollier Gestalt"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Science Pioneers Table -->
+      <rect x="20" y="22" width="320" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9" font-weight="700">A. MODERN BİLİMİ DOĞURAN TELEPATİ ÖNCÜLERİ</text>
+      <text x="32" y="62" fill="var(--ink)" font-size="8" font-weight="700">1. Charles Richet (Nobel Tıp 1913):</text>
+      <text x="32" y="75" fill="var(--muted)" font-size="7.7">   1884'te bilimde ilk olasılık hesabını telepati kartlarında kullandı!</text>
+      <text x="32" y="93" fill="var(--ink)" font-size="8" font-weight="700">2. Hans Berger (EEG'nin Mucidi, 1924):</text>
+      <text x="32" y="106" fill="var(--muted)" font-size="7.7">   1893'te kız kardeşiyle yaşadığı kriz-telepatisinin fiziksel dalgasını</text>
+      <text x="32" y="118" fill="var(--muted)" font-size="7.7">   bulmak için 30 yıl çalışıp Alfa/Beta EEG dalgalarını keşfetti!</text>
+      <text x="32" y="136" fill="var(--ink)" font-size="8" font-weight="700">3. Albert Einstein &amp; Upton Sinclair (Mental Radio, 1930):</text>
+      <text x="32" y="149" fill="var(--muted)" font-size="7.7">   290 çizim testinde %23 tam + %53 kısmi isabet; önsöz Einstein'dan!</text>
+      <text x="32" y="167" fill="var(--good)" font-size="8" font-weight="700">4. Alan Turing (Mind, 1950 — Yapay Zekâ Makalesi):</text>
+      <text x="32" y="180" fill="var(--muted)" font-size="7.7">   "Telepati için istatistiksel kanıtlar kahir ekseriyetle güçlüdür!"</text>
+
+      <!-- Right: Sinclair / Warcollier Drawing Law -->
+      <rect x="352" y="22" width="288" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="364" y="42" fill="var(--violet)" font-size="9" font-weight="700">B. SINCLAIR &amp; WARCOLLIER ÇİZİM KANUNU</text>
+      <text x="364" y="58" fill="var(--muted)" font-size="7.8">Zihin "kelimeyi" değil, ham GEOMETRİK FORMU alır,</text>
+      <text x="364" y="70" fill="var(--muted)" font-size="7.8">sol yarıküre ise üzerine yanlış isim (AOL) yapıştırır:</text>
+      <!-- Target drawing -->
+      <rect x="372" y="84" width="112" height="72" rx="6" fill="var(--surface)" stroke="var(--accent)"/>
+      <circle cx="428" cy="112" r="14" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      <line x1="406" y1="112" x2="450" y2="112" stroke="var(--accent)" stroke-width="1.5"/>
+      <line x1="428" y1="90" x2="428" y2="134" stroke="var(--accent)" stroke-width="1.5"/>
+      <text x="428" y="149" text-anchor="middle" fill="var(--accent)" font-size="7.5" font-weight="700">Hedef: Pusula / Dümen</text>
+
+      <!-- Receiver drawing -->
+      <rect x="510" y="84" width="112" height="72" rx="6" fill="var(--surface)" stroke="var(--good)"/>
+      <circle cx="566" cy="112" r="14" fill="none" stroke="var(--good)" stroke-width="2" stroke-dasharray="4 2"/>
+      <line x1="544" y1="112" x2="588" y2="112" stroke="var(--good)" stroke-width="1.5"/>
+      <line x1="566" y1="90" x2="566" y2="134" stroke="var(--good)" stroke-width="1.5"/>
+      <text x="566" y="149" text-anchor="middle" fill="var(--good)" font-size="7.5" font-weight="700">Alıcı: "Dilimli Elma?"</text>
+
+      <text x="364" y="175" fill="var(--ink)" font-size="7.8">→ Sağ Yarıküre şekli %100 doğru çizer; Sol Yarıküre</text>
+      <text x="364" y="187" fill="var(--good)" font-size="7.8" font-weight="700">   (Analitik Kaplama — AOL) yanlış isimlendirir!</text>
+    </svg>

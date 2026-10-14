@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Reverse phase transition window schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">TERS FAZ GEÇİŞİ PENCERESİ (HZ-15): ENERJİ ÇÖKERKEN DÜZEN GÖRÜNÜR OLUR — AÇILMA DEĞİL, KISIT ÇÖKÜŞÜ</text>
+
+      <rect x="18" y="38" width="318" height="140" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="30" y="54" fill="var(--accent)" font-size="8" font-weight="700">OLAY ZAMAN ÇİZGİSİ (BAĞIMSIZ VERİLER)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Kardiyak arrest · serebral kan akımı durur</text>
+        <text x="30" y="89">0–30 s: senkronize gama patlaması, frontal-posterior bağlantı ↑</text>
+        <text x="30" y="102" fill="var(--muted)">  (Borjigin 2013, PNAS 110:14432 — fare; bazı hayvanlarda uyanıktan yüksek güç)</text>
+        <text x="30" y="119">İnsan: 4 komadaki hastadan 2'sinde gama patlaması; TPJ "sıcak bölge"</text>
+        <text x="30" y="132" fill="var(--muted)">  (Xu 2023, PNAS 120:e2216268120; bir hastada gama gücü ~300 kat)</text>
+        <text x="30" y="149">Tek vaka: kan akımı durduktan sonra da alfa/teta modülasyonu</text>
+        <text x="30" y="162" fill="var(--muted)">  (Vicente, Rizzuto, Sarica ve ark. 2022, Front. Aging Neurosci. 14:813531)</text>
+        <text x="30" y="176" fill="var(--good)">Sonuç: ölüm geçişi sessizlik değil — kısa ve YAPILI bir olay</text>
+      </g>
+
+      <rect x="346" y="38" width="316" height="140" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="358" y="54" fill="var(--bad)" font-size="8" font-weight="700">ZORUNLU ELEŞTİRİ (DÜRÜSTLÜK KAYDI)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="358" y="72">• Patlama, hemen öncesindeki toplam gücün çok küçük bir kesridir</text>
+        <text x="358" y="85" fill="var(--muted)">  → "hiper-uyanıklık" demek yanıltıcıdır (Dunseath 2013, PNAS 110:E4405)</text>
+        <text x="358" y="101">• Anestezili fareler deseni göstermedi; tüm fareler üretti ama</text>
+        <text x="358" y="114" fill="var(--muted)">  insanların yalnızca %10–20'si NDE bildiriyor → birebir eşleşme yok</text>
+        <text x="358" y="130">• Tek vaka: hematom, nöbet geçmişi, ilaçlar, kan gazı confound'ları</text>
+        <text x="358" y="143" fill="var(--muted)">  (Greyson, van Lommel &amp; Fenwick 2022 — yorum yazısı)</text>
+        <text x="358" y="159" fill="var(--warn)">• Koherans ↑ ≠ ayrışma ↑: nöbette de hipersenkroni var, bilinçle negatif</text>
+        <text x="358" y="172" fill="var(--muted)">  → "koherans arttı, bilinç açıldı" çıkarımı ölçümün kendi mantığında geçersiz</text>
+      </g>
+
+      <rect x="18" y="188" width="644" height="86" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="204" fill="var(--violet)" font-size="8" font-weight="700">DÜZELTİLMİŞ ADAY YASA: KISIT ÇÖKÜŞÜ İMZASI</text>
+      <g font-size="7.1">
+        <text x="30" y="221" fill="var(--ink)" font-weight="700">P_toplam ↓ · Koherans ↑ · Ayrışma ↓   →   Deneyim ~ İçerik × Ayrışma</text>
+        <text x="30" y="237" fill="var(--ink)">Ölüm geçişinde birleşik, söz-ötesi, benliksiz raporlar beklenir — bu, iki okumaya da uyar; ayrım ancak içerik testiyle yapılır.</text>
+        <text x="30" y="252" fill="var(--good)">Kritik öngörü (bugün test edilebilir): koherans artarken entropi/Komplekslik DÜŞMELİ — mevcut verilerde yeniden analiz.</text>
+        <text x="30" y="267" fill="var(--muted)">İkinci hat: terminal berraklaşma — geriye dönük vaka serisi (Nahm 2012); ileriye dönük kohortta insidans bilinmiyor.</text>
+      </g>
+
+      <rect x="18" y="282" width="644" height="58" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="298" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="7">
+        <text x="30" y="314" fill="var(--good)">🟢 Peri-arrest olay: türler ve laboratuvarlar arasında tekrarlandı. 🟡 Deneyim yorumu açık (ayrışma ölçütleri henüz uygulanmadı).</text>
+        <text x="30" y="330" fill="var(--bad)">🟠 Doğrulanabilir algı: binlerce arrest içinde tek doğrulanmış vaka (AWARE-II) — UA-39'un defteri.</text>
+      </g>
+    </svg>

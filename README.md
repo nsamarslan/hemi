@@ -39,22 +39,19 @@ artefaktını üretir; bkz. [Android uygulaması](#android-uygulaması-apk).
   kutuya konup kapağın kapatılması ve kutunun kenara itilmesi, EBT'de bedeni tarayan ışık çubuğu,
   ayrışma yöntemleri, enerji yürüyüşü, topraklanma… 84 sahne, iki dilli altyazı; sahneler kendiliğinden
   ilerler, dokunarak ya da ok/nokta düğmeleriyle gezilir, duraklatılır. Liste kartlarında küçük
-  önizleme; rehber konularında ilgili bölümün hemen altında aynı animasyon.
+  önizleme.
 - **Görsel paketleri galerisi** (Teknikler sekmesinin üstündeki kart, Ayarlar → Galeriyi aç, her
   oturum sayfasındaki önizleme) — oturum sırasında ekranın ortasında duran 6 animasyonlu görsel
   (Portal, Enerji Akışı, Kutu/ECB, Renk Dalgaları, Beden Haritası, Kozmik Görseller); her durumda
   (Hazırlık, Focus 10–27, Keşif, Dönüş) nasıl göründüğünü izle, dokunarak seç, oturum boyutunda
   dene. Görseller video/GIF değil, cihazda çizilen hafif SVG/CSS animasyonlarıdır (çevrimdışı, pil
   dostu); Kozmik Görseller paketi üretilmiş üç resim kullanır.
-- **Rehber sekmesi** — internetteki binlerce sayfa dokümanın iki dilli (Türkçe/İngilizce) sentezi,
-  17 konu başlığı altında (tarihçe, bilimsel zemin, focus seviyeleri, tüm teknikler, programlar,
-  maksimum verim, sorun giderme, SSS, güvenlik, sözlük, kaynaklar). Tüm konuların tam metninde
-  **arama** (Türkçe karakter duyarsız: "isik" → ışık; eşleşen bölüme atlar ve terimi işaretler),
-  metin içindeki **"8. konu" / "topic 8" göndermeleri tıklanabilir** (geri tuşu geldiğin konuya
-  döner), her konunun altında önceki/sonraki konu. Her konunun başında **İçindekiler** (bölüme
-  atla), okurken sağ altta **Bölümler** düğmesi (bulunduğun bölüm işaretli; başa dön; önceki/sonraki
-  konu).
-- **Telefon geri tuşu** — detay, teknik, rehber konusu, katalog, galeri ve açık paneller geri
+- **Rehber ve araştırma → Obsidian** — 17 konuluk iki dilli rehber ve araştırma dosyaları (50 dosya,
+  40 alanlı Ufuk Kazısı, Φ-2 sentezi) uygulamadan çıkarıldı; `obsidian/` klasörü bir Obsidian kasasıdır.
+  Obsidian'da *Open folder as vault* ile bu klasörü aç, `Başlangıç.md`'den başla (İngilizce:
+  `English/Start.md`). Diyagramlar ve teknik çizimleri `_ekler/` içinde SVG olarak gömülüdür;
+  `Toplu/` tüm araştırmanın tek dosyalık sürümlerini içerir.
+- **Telefon geri tuşu** — detay, teknik, katalog, galeri ve açık paneller geri
   tuşu/hareketiyle bir üst seviyeye döner; çalışan bir oturumu geri tuşu kapatmaz.
 - **Hemi-Sync referans kataloğu** (Katalog sekmesinin altında) — uygulamada oturumu olmayan
   175 Hemi-Sync başlığı: Mind Food, İngilizce Metamusic hattının tamamı (sanatçı ve katalog
@@ -101,8 +98,6 @@ artefaktını üretir; bkz. [Android uygulaması](#android-uygulaması-apk).
   gün serisi; oturum sayfasında 7 günlük çubuklar, Program sekmesinde özet), komutu doğrulanmamış
   fonksiyonlar için kendi komut notun, Ayarlar'dan 1–4 saatte bir komut hatırlatıcısı (web: uygulama
   açıkken, izin verirsen bildirimle; Android uygulamasında kapalıyken de bildirim).
-- **Rehberde okuma takibi** — konu başına okuma yüzdesi ve ✓, "Kaldığın yer" kartı, konu ve bölüm
-  yer imleri (★), okurken A− / A+ yazı boyutu; hepsi yedeğe girer.
 - **Günlük** — her oturumdan sonra etiketler (titreşim, görüntü, temas, içgörü…), not ve çizim;
   kayıtlar sonradan düzenlenir, tüm günlük Markdown olarak indirilir veya yazdırılır / PDF yapılır.
 - **Rüya günlüğü** — Günlük sekmesindeki Rüyalar modu: sabah girişi, rüya işaretleri (ön ayarlar +
@@ -224,9 +219,7 @@ npx cap sync android && cd android && ./gradlew assembleRelease` (ya da `npx cap
 ```
 content/            iki dilli içerik: series.json, waves.json, focus.json, common.json,
                     templates.json, defaults.json, tracks.json (PC kaynak eşleme adları),
-                    techniques-a/b.json (21 teknik), guide/tr + guide/en (rehber konuları, iki dil;
-                    [[storyboard:id]] satırı ilgili tekniğin animasyonunu gömer),
-                    sessions/*.json (kompakt, şablon referanslı)
+                    techniques-a/b.json (21 teknik), sessions/*.json (kompakt, şablon referanslı)
 content/SCHEMA.md   içerik kuralları (özgün metin, sesli metin kuralları, şema)
 content/voice/      kayıtlı sesli rehber klipleri (tr/, en/: <anahtar>.mp3 + index.json)
 tools/              expand.mjs (şablon açma + ses anahtarları), validate-content.mjs, build.mjs
@@ -236,7 +229,8 @@ src/js/             i18n, store (localStorage + IndexedDB), content, timeline (o
                     audio (saf-JS stereo WAV renderer + SessionPlayer + TrackPlayer),
                     session, app, visuals (6 görsel paketi), visuals/gateway|aura|box|waves|body|img,
                     storyboard (21 tekniğin adım adım açıklayıcı animasyonları + oynatıcı),
-                    md (rehber yorumlayıcı), trackmatch (PC parça eşleştirme), pcsource (PC istemcisi)
+                    trackmatch (PC parça eşleştirme), pcsource (PC istemcisi)
+obsidian/           rehber + araştırma: Obsidian kasası (uygulamada değil)
 src/                index.html, css, manifest.webmanifest, sw.js, icons
 ANALYSIS.md         Gateway Experience derinlemesine analizi (Türkçe)
 ```
@@ -311,9 +305,8 @@ SMOKE_DIR=/tmp/smoke SMOKE_BUNDLE=/tmp/smoke/app.bundle.js node tools/smoke-nati
 Yeni oturum eklemek için `content/sessions/` dizinindeki bir dosyaya kompakt bir oturum ekle
 (şablonlar: `prep`, `entry`, `encode`, `explore`, `return`); kurallar için `content/SCHEMA.md`.
 Yeni bir dalga eklerken onu `content/waves.json`'a (ve gerekliyse `content/series.json`'a) kaydet.
-Yeni teknik: `content/techniques-a.json` veya `techniques-b.json`'a ekle. Yeni rehber konusu:
-`content/guide/tr/<konu>.md` ve `content/guide/en/<konu>.md` olarak aynı dosya adıyla ekle;
-derleme `www/guide/index.json`'u kendisi üretir.
+Yeni teknik: `content/techniques-a.json` veya `techniques-b.json`'a ekle. Rehber ve araştırma notları
+`obsidian/` kasasında doğrudan Obsidian'da düzenlenir.
 
 ## Sürekli test ve yayınlama
 
@@ -335,7 +328,7 @@ planı ister; herkese açık depoda ücretsizdir. (Kendi sunucun: `www/` dizinin
 statik sunucuya kopyalaman yeterlidir.)
 
 **Çevrimdışı:** servis çalışanı derlemede üretilen tam listeyi (uygulama kabuğu, tüm JS modülleri,
-17 + 17 rehber konusu, araştırma dosyaları, görseller, ikonlar) kurulumda ön-önbelleğe alır; önbellek adı
+görseller, ikonlar) kurulumda ön-önbelleğe alır; önbellek adı
 dosya içeriklerinin karmasıdır, dolayısıyla her derleme kendiliğinden yeni sürüm olarak kurulur.
 Ses paketleri ayrı bir cache-first önbellekte ilk kullanımda iner. Ağ önce denenir, ama 3 saniyede yanıt
 gelmezse (Wi-Fi var, internet yok) önbellekteki dosya kullanılır; yazı tipleri ilk çizimi bekletmez.

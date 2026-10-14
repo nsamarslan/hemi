@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="AdS CFT Holography and Amplituhedron"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: AdS/CFT &amp; Ryu-Takayanagi -->
+      <rect x="20" y="22" width="312" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="8.8" font-weight="700">A. AdS/CFT HOLOGRAFİSİ VE RYU–TAKAYANAGI (2006)</text>
+      <!-- Holographic Cylinder / Disk -->
+      <circle cx="105" cy="112" r="46" fill="var(--accent)" fill-opacity="0.1" stroke="var(--accent)" stroke-width="2.2"/>
+      <!-- Minimal surface geodesic inside bulk -->
+      <path d="M 72,80 Q 112,112 72,144" fill="none" stroke="var(--good)" stroke-width="2.2"/>
+      <text x="108" y="114" text-anchor="middle" fill="var(--ink)" font-size="7.5" font-weight="700">3B İç Uzay (Bulk)</text>
+      <text x="54" y="114" text-anchor="middle" fill="var(--good)" font-size="7.2" font-weight="700">γ_A</text>
+      <text x="172" y="74" fill="var(--ink)" font-size="7.8" font-weight="700">Ryu–Takayanagi Denklemi:</text>
+      <text x="172" y="92" fill="var(--good)" font-size="8.5" font-weight="700" font-family="monospace">S_dolanıklık(A) = Area(γ_A) / 4G_N</text>
+      <text x="172" y="112" fill="var(--muted)" font-size="7.6">• Van Raamsdonk (2010): Sınırdaki</text>
+      <text x="172" y="125" fill="var(--muted)" font-size="7.6">  kuantum dolanıklığı sıfırlarsanız,</text>
+      <text x="172" y="138" fill="var(--warn)" font-size="7.6" font-weight="700">  3B uzay-zaman dokusu yırtılıp</text>
+      <text x="172" y="151" fill="var(--warn)" font-size="7.6" font-weight="700">  ikiye kopar!</text>
+      <text x="32" y="182" fill="var(--good)" font-size="7.8" font-weight="700">→ Uzay ve mesafe temel değildir; Kuantum Dolanıklık temeldir!</text>
+
+      <!-- Right: Amplituhedron -->
+      <rect x="344" y="22" width="296" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="356" y="42" fill="var(--violet)" font-size="8.8" font-weight="700">B. AMPLITUHEDRON (ARKANI-HAMED &amp; TRNKA, 2013)</text>
+      <!-- Faceted Polyhedron (Amplituhedron) -->
+      <g stroke="var(--violet)" stroke-width="1.5" fill="var(--violet)" fill-opacity="0.15">
+        <polygon points="415,64 452,82 442,126 392,134 374,92"/>
+        <line x1="415" y1="64" x2="412" y2="104" stroke="var(--good)"/>
+        <line x1="452" y1="82" x2="412" y2="104" stroke="var(--good)"/>
+        <line x1="442" y1="126" x2="412" y2="104" stroke="var(--good)"/>
+        <line x1="392" y1="134" x2="412" y2="104" stroke="var(--good)"/>
+        <line x1="374" y1="92" x2="412" y2="104" stroke="var(--good)"/>
+      </g>
+      <text x="466" y="72" fill="var(--ink)" font-size="7.8" font-weight="700">Pozitif Grassmannian Uzay:</text>
+      <text x="466" y="88" fill="var(--muted)" font-size="7.5">• Klasik Feynman diyagramlarında</text>
+      <text x="466" y="100" fill="var(--muted)" font-size="7.5">  uzay-zaman içinde yüzlerce</text>
+      <text x="466" y="112" fill="var(--muted)" font-size="7.5">  sayfalık denklem gerekirken,</text>
+      <text x="466" y="126" fill="var(--good)" font-size="7.6" font-weight="700">• Uzay ve Zamanı denklemden</text>
+      <text x="466" y="139" fill="var(--good)" font-size="7.6" font-weight="700">  ATTIKLARINDA cevap tek</text>
+      <text x="466" y="152" fill="var(--good)" font-size="7.6" font-weight="700">  bir kristal hacmine indi!</text>
+      <text x="356" y="182" fill="var(--ink)" font-size="7.7">• Nima Arkani-Hamed (IAS): "Spacetime is doomed!" (Uzay-zaman</text>
+      <text x="356" y="193" fill="var(--good)" font-size="7.7" font-weight="700">  birincil gerçeklik değil, daha derin bir geometrinin gölgesidir!)</text>
+    </svg>

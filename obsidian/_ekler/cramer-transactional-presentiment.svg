@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Cramer Transactional Interpretation and Presentiment"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Cramer Retarded &amp; Advanced Wave Handshake -->
+      <rect x="20" y="22" width="312" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="8.8" font-weight="700">A. CRAMER İŞLEMSEL YORUM &amp; AHARONOV ÇİFT-VEKTÖR</text>
+      <!-- Emitter t1 and Absorber t2 -->
+      <circle cx="56" cy="108" r="10" fill="var(--accent)"/>
+      <text x="56" y="132" text-anchor="middle" fill="var(--accent)" font-size="7.6" font-weight="700">Şimdi (t₁)</text>
+      <circle cx="292" cy="108" r="10" fill="var(--violet)"/>
+      <text x="292" y="132" text-anchor="middle" fill="var(--violet)" font-size="7.6" font-weight="700">Gelecek (t₂)</text>
+      <!-- Forward wave -->
+      <path d="M 68,96 Q 120,72 174,96 T 280,96" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      <text x="174" y="76" text-anchor="middle" fill="var(--accent)" font-size="7.5" font-weight="700">İleri Teklif Dalgası: ψ(t) ~ exp(−iωt) →</text>
+      <!-- Backward wave -->
+      <path d="M 280,120 Q 228,144 174,120 T 68,120" fill="none" stroke="var(--violet)" stroke-width="2" stroke-dasharray="4 2"/>
+      <text x="174" y="148" text-anchor="middle" fill="var(--violet)" font-size="7.5" font-weight="700">← Geri Onay Dalgası: ψ*(t) ~ exp(+iωt)</text>
+      <text x="32" y="168" fill="var(--ink)" font-size="7.7">• Aharonov (TSVF): Şimdiki kuantum durumu hem geçmiş ⟨Ψ|</text>
+      <text x="32" y="181" fill="var(--good)" font-size="7.7" font-weight="700">  hem de gelecekteki sınır koşulu |Φ⟩ tarafından belirlenir!</text>
+
+      <!-- Right: Radin &amp; Mossbridge Presentiment Curve -->
+      <rect x="344" y="22" width="296" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="356" y="42" fill="var(--good)" font-size="8.8" font-weight="700">B. PRESENTIMENT (ÖN-HİS) META-ANALİZİ (MOSSBRIDGE 2012)</text>
+      <!-- Time axis with t=0 stimulus line -->
+      <line x1="364" y1="152" x2="624" y2="152" stroke="var(--muted)" stroke-width="1.2"/>
+      <line x1="516" y1="58" x2="516" y2="158" stroke="var(--warn)" stroke-width="1.8" stroke-dasharray="3 2"/>
+      <text x="516" y="54" text-anchor="middle" fill="var(--warn)" font-size="7.5" font-weight="700">t = 0 (RNG Seçimi &amp; Resim!)</text>
+      <!-- Calm curve (flat until t=0) -->
+      <path d="M 368,144 L 516,143 Q 550,136 618,140" fill="none" stroke="var(--accent)" stroke-width="1.8"/>
+      <text x="415" y="138" fill="var(--accent)" font-size="7.3">Sakin Resim Öncesi</text>
+      <!-- Emotional curve (rises at t = -3s BEFORE RNG!) -->
+      <path d="M 368,144 L 420,142 Q 475,112 516,96 Q 555,62 618,84" fill="none" stroke="var(--warn)" stroke-width="2.4"/>
+      <text x="446" y="102" fill="var(--warn)" font-size="7.5" font-weight="700">t = −3 sn: Erken Sıçrama!</text>
+      <text x="356" y="172" fill="var(--ink)" font-size="7.6">• 26 çalışma (Mossbridge 2012) &amp; Bem (2011, 90 deney):</text>
+      <text x="356" y="185" fill="var(--good)" font-size="7.7" font-weight="700">  Gelecekteki kendi duygusal şokunuza otonom geri-yansıma (Z &gt; 6)!</text>
+    </svg>

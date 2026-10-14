@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="China 507 Institute Teyi Gongneng"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <g transform="translate(20,22)">
+        <rect x="0" y="0" width="196" height="174" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+        <text x="12" y="20" fill="var(--accent)" font-size="9" font-weight="700">1. QIAN XUESEN &amp; 507. ENSTİTÜ</text>
+        <text x="12" y="38" fill="var(--ink)" font-size="8">• Caltech JPL kurucusu &amp; Çin</text>
+        <text x="12" y="51" fill="var(--ink)" font-size="8">  uzay/füze programının babası.</text>
+        <text x="12" y="68" fill="var(--ink)" font-size="8">• "Renti Kexue" (Bedensel Bilim):</text>
+        <text x="12" y="81" fill="var(--muted)" font-size="7.8">  İnsan bedenini "Açık, Karmaşık</text>
+        <text x="12" y="94" fill="var(--muted)" font-size="7.8">  Dev Sistem" olarak modeller;</text>
+        <text x="12" y="107" fill="var(--muted)" font-size="7.8">  Qigong + Tèyì Gōngnéng +</text>
+        <text x="12" y="120" fill="var(--muted)" font-size="7.8">  Geleneksel Tıp birleşimi.</text>
+        <text x="12" y="144" fill="var(--good)" font-size="8">• Pekin Üniv. (Chen Shouliang):</text>
+        <text x="12" y="157" fill="var(--muted)" font-size="7.8">  Mühürlü PVC tüplerde p &lt; 10⁻⁹.</text>
+
+        <rect x="210" y="0" width="198" height="174" rx="8" fill="var(--surface-2)" stroke="var(--danger)"/>
+        <text x="222" y="20" fill="var(--danger)" font-size="9" font-weight="700">2. YAKALANAN HİLELER (SINIF E)</text>
+        <text x="222" y="38" fill="var(--ink)" font-size="8">• 1988 CSICOP (Randi, Hyman,</text>
+        <text x="222" y="51" fill="var(--ink)" font-size="8">  Kurtz) &amp; He Zuoxiu testleri:</text>
+        <text x="222" y="68" fill="var(--muted)" font-size="7.8">• Kağıt katlama veya sıradan</text>
+        <text x="222" y="81" fill="var(--muted)" font-size="7.8">  zarf verildiğinde çocukların</text>
+        <text x="222" y="94" fill="var(--muted)" font-size="7.8">  koltuk altında zarfı açıp</text>
+        <text x="222" y="107" fill="var(--muted)" font-size="7.8">  baktığı gizli kamerayla</text>
+        <text x="222" y="120" fill="var(--muted)" font-size="7.8">  yakalandı (Tang Yu dahil).</text>
+        <text x="222" y="144" fill="var(--danger)" font-size="8">• Performans baskısı = Hileye</text>
+        <text x="222" y="157" fill="var(--danger)" font-size="8">  başvurma (Trickster Yasası).</text>
+
+        <rect x="422" y="0" width="198" height="174" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+        <text x="434" y="20" fill="var(--violet)" font-size="9" font-weight="700">3. KALAN ÇEKİRDEK ANOMALİ</text>
+        <text x="434" y="38" fill="var(--ink)" font-size="8">• Tüm çocuklarda ortak rapor:</text>
+        <text x="434" y="53" fill="var(--good)" font-size="8" font-weight="700">  "Alında 3. Göz Ekranı (Tianmu)"</text>
+        <text x="434" y="68" fill="var(--muted)" font-size="7.8">• Harf "deriyle" değil, 15–40 dk</text>
+        <text x="434" y="81" fill="var(--muted)" font-size="7.8">  sonra alnın ortasında önce</text>
+        <text x="434" y="94" fill="var(--muted)" font-size="7.8">  bulanık, sonra aniden netleşen</text>
+        <text x="434" y="107" fill="var(--muted)" font-size="7.8">  bir içsel ekran flaşı olarak</text>
+        <text x="434" y="120" fill="var(--muted)" font-size="7.8">  görülür (CRV &amp; Focus 12 ile</text>
+        <text x="434" y="133" fill="var(--muted)" font-size="7.8">  birebir aynı fenomenoloji!).</text>
+      </g>
+    </svg>

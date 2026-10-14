@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Interfacial water evidence and energy budget"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="26" text-anchor="middle" fill="var(--accent)" font-size="11" font-weight="700">UA-23 · ARAYÜZ ELEKTRİĞİ / EZ SU</text>
+      <rect x="20" y="49" width="205" height="126" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="32" y="69" fill="var(--ok)" font-size="9" font-weight="700">🟢 YÜZEY / İYON</text>
+      <text x="32" y="95" fill="var(--ink)" font-size="8">Nafion → H⁺ gradyanı</text><text x="32" y="116" fill="var(--ink)" font-size="8">Difüzyoforez → küre dışı</text><text x="32" y="139" fill="var(--muted)" font-size="8">Parçacık ≠ suyun yapısı</text>
+      <rect x="238" y="49" width="205" height="126" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="250" y="69" fill="var(--warn)" font-size="9" font-weight="700">🟠 GÜÇ / BİYOLOJİ</text>
+      <text x="250" y="95" fill="var(--ink)" font-size="8">Potansiyel × akım = güç</text><text x="250" y="116" fill="var(--ink)" font-size="8">Işık + asit + ısı: girdi</text><text x="250" y="139" fill="var(--muted)" font-size="8">Net ATP katkısı: bilinmiyor</text>
+      <rect x="456" y="49" width="204" height="126" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="69" fill="var(--bad)" font-size="9" font-weight="700">🔴 FAZ / HAFIZA</text>
+      <text x="468" y="95" fill="var(--ink)" font-size="8">H₃O₂ fazı doğrulanmadı</text><text x="468" y="116" fill="var(--ink)" font-size="8">Benveniste kör tekrar: null</text><text x="468" y="139" fill="var(--muted)" font-size="8">50 fs: bulk H-bağı belleği</text>
+      <rect x="20" y="195" width="640" height="88" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="32" y="216" fill="var(--violet)" font-size="9" font-weight="700">HZ-23 · J_i = difüzyon + elektriksel sürüklenme + konveksiyon</text>
+      <text x="32" y="239" fill="var(--ink)" font-size="8">W_net = W_çıkış − W_gradyan_girdisi · gradyan bedava değildir</text>
+      <text x="32" y="262" fill="var(--ink)" font-size="8">/A İyon eşitle · /B yükte gücü ölç · /C kör örnekle hafızayı sınama</text>
+      <text x="32" y="316" fill="var(--muted)" font-size="8">Çürütülürse: yüzey kimyası ve mikroakışkan ayırma kalır; şifa/bilinç çıkmaz.</text>
+    </svg>

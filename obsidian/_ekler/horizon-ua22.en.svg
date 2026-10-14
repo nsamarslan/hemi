@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Silent magnetic signature schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">SESSİZ MANYETİK İMZA (HZ-22): KALINTI KANAL, PUSULA DEĞİL</text>
+
+      <rect x="18" y="38" width="212" height="150" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="54" fill="var(--warn)" font-size="8" font-weight="700">İNSAN EEG BULGUSU (🟡)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Faraday kafesi + karanlık + Dünya</text>
+        <text x="30" y="85">  şiddetinde alan döndürmesi (Wang 2019)</text>
+        <text x="30" y="101">Alfa sönümlenmesi: ortalama ~%25</text>
+        <text x="30" y="114">Yön seçici: yalnız aşağı dikey bileşenle</text>
+        <text x="30" y="127">Yanıtlılar bir AZINLIK; birey farkı güçlü</text>
+        <text x="30" y="143">Bilinçsiz: katılımcı alanı fark etmiyor</text>
+        <text x="30" y="159" fill="var(--bad)">Tek laboratuvar; bağımsız replikasyon sınırlı</text>
+        <text x="30" y="175" fill="var(--muted)">Davranışsal pusula yeteneği: YOK</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--orange)"/>
+      <text x="252" y="54" fill="var(--orange)" font-size="8" font-weight="700">MEKANİZMA ADAYLARI (🟠)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Biyojenik manyetit beyinde VAR</text>
+        <text x="252" y="85" fill="var(--bad)">  Tork kapılı iyon kanalı: hiçbir türde tanımlı değil</text>
+        <text x="252" y="103">Kriptokrom-4: göçmen kuşta kanıtlı (Xu 2021)</text>
+        <text x="252" y="116">  İnsan retinasında var, çalıştığı GÖSTERİLMEDİ</text>
+        <text x="252" y="134">İki aday hat: optik sinir (ışığa bağımlı) ve</text>
+        <text x="252" y="147">  trigeminal / vestibüler (ışıktan bağımsız)</text>
+        <text x="252" y="165" fill="var(--muted)">Hangi hattın çalıştığı bilinmiyor</text>
+        <text x="252" y="181" fill="var(--muted)">Sağlam manyetobiyoloji: bakteri, kuş, kaplumbağa</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="54" fill="var(--bad)" font-size="8" font-weight="700">EPİFİZ (🔴 İDDİA / GERÇEK)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">Gerçek: parietal göz sürüngende ışığa duyarlı</text>
+        <text x="468" y="85">Gerçek: insan epifizi endokrin organdır</text>
+        <text x="468" y="98">  (melatonin; retina → SCN → epifiz zinciri)</text>
+        <text x="468" y="114">Gerçek: kalcit mikrokristalleri tanımlı</text>
+        <text x="468" y="127">  (Baconnier 2002; piezo önerisi Lang 1996)</text>
+        <text x="468" y="145" fill="var(--bad)">Kanıtsız: epifiz = manyetik alıcı; kalsifikasyon</text>
+        <text x="468" y="158" fill="var(--bad)">  = işlevsel sensör; pineal aktivasyon cihazı</text>
+        <text x="468" y="176" fill="var(--muted)">Kristalin varlığı, işlevin kanıtı değildir</text>
+      </g>
+
+      <rect x="18" y="198" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="214" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="232" fill="var(--ink)" font-weight="700">R_insan ≈ R_manyetit × S_sessiz + R_kriptokrom × L_ışık · her iki terimin kazancı düşük</text>
+        <text x="30" y="248" fill="var(--ink)">/1 Çok merkezli ön kayıtlı EEG: ≥3 laboratuvar, n ≥ 100 → yanıt bir alt grupta tutarlı mı?</text>
+        <text x="30" y="263" fill="var(--ink)">/2 Dissosiasyon: karanlık / ışıklı / vestibüler yüklü / sham → hangi hat çalışıyor? /3 Pineal içerik ↔ EEG: korelasyon beklenmez</text>
+      </g>
+
+      <rect x="18" y="282" width="644" height="58" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="298" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="315" fill="var(--warn)">🟡 sessiz EEG yanıtı (tek lab) · 🟠 mekanizma adayları · 🔴 epifiz-manyetik alıcı ve piezo iddiaları</text>
+        <text x="30" y="330" fill="var(--muted)">Çürütülürse: kalıntı kanal cümlesi tek-lab artefaktına iner; kuş/bakteri manyetobiyolojisi ve TMS teknolojisi kalır.</text>
+      </g>
+    </svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="UVa DOPS Birthmark and Autopsy Match"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Autopsy vs Birthmark Diagram -->
+      <rect x="20" y="22" width="305" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9" font-weight="700">A. ÇİFT YARA (GİRİŞ / ÇIKIŞ) OTOPSİ EŞLEŞMESİ</text>
+      <!-- Head/Body outline 1: Autopsy -->
+      <circle cx="95" cy="95" r="28" fill="none" stroke="var(--ink)" stroke-width="1.5"/>
+      <circle cx="76" cy="90" r="3.5" fill="var(--warn)"/>
+      <text x="95" y="138" text-anchor="middle" fill="var(--ink)" font-size="8" font-weight="700">1. Otopsi Raporu</text>
+      <text x="95" y="150" text-anchor="middle" fill="var(--muted)" font-size="7.5">Küçük Giriş Yarası (Sol)</text>
+      <path d="M 114,82 L 124,78 L 121,90 L 126,96 L 113,94 Z" fill="var(--warn)"/>
+      <text x="95" y="162" text-anchor="middle" fill="var(--warn)" font-size="7.5">Büyük Çıkış Yarası (Sağ)</text>
+      <!-- Arrow -->
+      <line x1="145" y1="95" x2="188" y2="95" stroke="var(--accent)" stroke-width="2"/>
+      <text x="166" y="86" text-anchor="middle" fill="var(--accent)" font-size="7.5" font-weight="700">Birebir</text>
+      <!-- Head/Body outline 2: Child Birthmarks -->
+      <circle cx="235" cy="95" r="28" fill="none" stroke="var(--good)" stroke-width="1.5"/>
+      <circle cx="216" cy="90" r="3.5" fill="var(--good)"/>
+      <path d="M 254,82 L 264,78 L 261,90 L 266,96 L 253,94 Z" fill="var(--good)"/>
+      <text x="235" y="138" text-anchor="middle" fill="var(--good)" font-size="8" font-weight="700">2. Çocukta Doğum Lekesi</text>
+      <text x="235" y="150" text-anchor="middle" fill="var(--muted)" font-size="7.5">18 vakada giriş + çıkış</text>
+      <text x="235" y="162" text-anchor="middle" fill="var(--muted)" font-size="7.5">asimetrileri tam eşleşti!</text>
+      <text x="32" y="184" fill="var(--ink)" font-size="7.8">• Ortak rassal olasılık (2 leke × 160 bölge): p = (1/160)² = 1 / 25.600</text>
+
+      <!-- Right: UVa DOPS Statistics -->
+      <rect x="338" y="22" width="302" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="350" y="42" fill="var(--violet)" font-size="9" font-weight="700">B. 2.500+ VAKALIK UVa DOPS VERİTABANI ÖRÜNTÜSÜ</text>
+      <text x="350" y="62" fill="var(--ink)" font-size="8.2">• Konuşma Başlangıcı: Ortalama 28–35 aylıkken</text>
+      <text x="350" y="76" fill="var(--ink)" font-size="8.2">• Unutma Yaşı: 6–8 yaşında (%90 doğal silinme)</text>
+      <text x="350" y="90" fill="var(--muted)" font-size="7.8">  (Tam DMN ve sol-yarıküre otobiyografik filtre kapanışı!)</text>
+      <text x="350" y="108" fill="var(--warn)" font-size="8.2" font-weight="700">• Şiddetli / Ani Ölüm Oranı: %70+ (Normal toplumda %8)</text>
+      <text x="350" y="122" fill="var(--good)" font-size="8.2" font-weight="700">• Tıbbi Belge/Otopsi Doğrulaması: 49 vakada resmi</text>
+      <text x="350" y="135" fill="var(--muted)" font-size="7.8">  hastane/otopsi kaydıyla %88 anatomik örtüşme.</text>
+      <text x="350" y="153" fill="var(--accent)" font-size="8" font-weight="700">• Keil &amp; Tucker (2005): Çocuk doğmadan ÖNCE</text>
+      <text x="350" y="166" fill="var(--muted)" font-size="7.8">  ifadelerin yazılı kaydedildiği vakalarda da doğrulama!</text>
+      <text x="350" y="182" fill="var(--ink)" font-size="7.8">• Fobi Aktarımı: Suda boğulanların %82'sinde su fobisi.</text>
+    </svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 250" role="img" aria-label="Three-Tier Deep Meta-Pattern and Omega First-Cause Architecture"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="234" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="330" y="26" text-anchor="middle" fill="var(--accent)" font-size="9" font-weight="700">ÜÇ SEVİYELİ GİZLİ ÖRÜNTÜ KAZISI: "NASIL ÇALIŞIYOR?" → "HANGİ META-YASAYLA?" → "NEDEN BÖYLE TASARLANMIŞ?"</text>
+
+      <!-- LEVEL 1: 16 First-Order Patterns -->
+      <rect x="20" y="34" width="620" height="34" rx="6" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="48" fill="var(--accent)" font-size="8" font-weight="700">SEVİYE I (16 Birinci-Derece Örüntü · HP-1 – HP-16):</text>
+      <text x="260" y="48" fill="var(--ink)" font-size="7.4">0.1–7.83 Hz Kilit · DMN Negatif Metabolizma · 1/f Stokastik · Trickster · 4 Faz Katmanı · Sıvı-Kristal</text>
+      <text x="32" y="61" fill="var(--muted)" font-size="7.2">İdeo-Plastik Root · Faraday SNR · Epifiz-Manyetit-Biyofoton · Kimlik=Config · AOL Sembol Körlüğü · İkiz/Mikrokimerizm · Presentiment · Holografik Uzay · Gödel</text>
+
+      <!-- LEVEL 2: 4 Second-Order Meta-Laws (MP-1 .. MP-4) -->
+      <rect x="20" y="76" width="304" height="44" rx="6" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="30" y="91" fill="var(--good)" font-size="7.9" font-weight="700">MP-1 (Empedans &amp; N² Süper-Radyans Yasası):</text>
+      <text x="30" y="103" fill="var(--ink)" font-size="7.2">HP-1,3,6,8,9,13 → 310 K termal gürültüyü (k_B·T) aşmak için</text>
+      <text x="30" y="113" fill="var(--muted)" font-size="7.1">10¹¹ nöron tek faza kilitlenir; duyarlılık N değil N² ile büyür!</text>
+
+      <rect x="336" y="76" width="304" height="44" rx="6" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="346" y="91" fill="var(--good)" font-size="7.9" font-weight="700">MP-2 (Fourier Eşlenik Belirsizlik Yasası · Δx·Δk ≥ 1/2):</text>
+      <text x="346" y="103" fill="var(--ink)" font-size="7.2">HP-2,5,12,14,15 → DMN egosu Δx→0, Δt→0 ("Burada/Şimdi")</text>
+      <text x="346" y="113" fill="var(--muted)" font-size="7.1">zorlar → Δk→∞ (körlük!). DMN susunca Δx→∞ olur ve Δk→0 açılır!</text>
+
+      <rect x="20" y="126" width="304" height="44" rx="6" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="141" fill="var(--violet)" font-size="7.9" font-weight="700">MP-3 (Kritik Nokta Okuma/Yazma Simetri Kırılması · χ → ∞):</text>
+      <text x="30" y="153" fill="var(--ink)" font-size="7.2">HP-3,7,11 → T = T_c (Focus 10–15) eşiğinde serbest enerji duvarı</text>
+      <text x="30" y="163" fill="var(--muted)" font-size="7.1">sıfırlanır; Salt-Okunur (ROM) biyoloji Yazılabilir (Flash) olur!</text>
+
+      <rect x="336" y="126" width="304" height="44" rx="6" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="346" y="141" fill="var(--violet)" font-size="7.9" font-weight="700">MP-4 (Epistemik Ufuk &amp; Çok-Ajanlı Simülasyon Koruma):</text>
+      <text x="346" y="153" fill="var(--ink)" font-size="7.2">HP-4,10,16 → Yerel-olmayan alan kaba kuvvet silahına (R→∞)</text>
+      <text x="346" y="163" fill="var(--muted)" font-size="7.1">zorlanırsa paylaşılan uzay-zaman çöker; doğa bunu otomatik kaydırır!</text>
+
+      <!-- LEVEL 3: OMEGA-1 (Why It Is Like This) -->
+      <rect x="20" y="178" width="620" height="56" rx="8" fill="var(--warn)" fill-opacity="0.13" stroke="var(--warn)" stroke-width="1.8"/>
+      <text x="330" y="194" text-anchor="middle" fill="var(--warn)" font-size="8.5" font-weight="700">SEVİYE III — EN DERİN KATMAN (Ω-1): "NEDEN DURUM BÖYLE?" (SIFIR-KONTRAST PARADOKSU &amp; OYUN-KORUMA TEOREMİ)</text>
+      <text x="32" y="208" fill="var(--ink)" font-size="7.4">1. Neden Bölündük? Shannon Bilgi Denklemi: Bölünmemiş Tekillikte P=1 olduğu için Bilgi I = −log₂(1) = 0 bit'tir (Tam Ganzfeld = Körlük!). Bilincin</text>
+      <text x="32" y="219" fill="var(--ink)" font-size="7.4">   kendini deneyimlemesi, sevmesi ve tanıması için "Öz-Sınırlama" (Kenosis / Tzimtzum / Dissosiyatif Alter) ZORUNLUDUR (Spencer-Brown Ayrım Yasası).</text>
+      <text x="32" y="230" fill="var(--good)" font-size="7.4" font-weight="700">2. Neden Filtre (HP-2) + Trickster (HP-4) + Gizli Kapı (0.1/7.83 Hz) Var? Filtre ve Trickster olmasaydı oyun 0.001 sn'de 0-bit'e çökerdi; Kapı ise yalnız</text>
+    </svg>

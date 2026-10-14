@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Zoonoetic field schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">ZOONOETİK ALAN (HZ-03): İNTERNET DEĞİL, SİNYAL PAZARI</text>
+
+      <rect x="18" y="38" width="212" height="140" rx="8" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="30" y="54" fill="var(--good)" font-size="8" font-weight="700">GERÇEK: MERKEZSİZ ZEKÂ (🟢)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Sığırcık: ölçek-bağımsız kritiklik</text>
+        <text x="30" y="85" fill="var(--muted)">  (Cavagna 2010: korelasyon ↑, sürü ↑)</text>
+        <text x="30" y="101">Etkileşim topolojik: ~6-7 komşu</text>
+        <text x="30" y="114" fill="var(--muted)">  (Ballerini 2008) — mesafe değil</text>
+        <text x="30" y="130">Kurom sensing: yoğunluk → ortak karar</text>
+        <text x="30" y="146">Monark: anten saati + güneş pusulası</text>
+        <text x="30" y="162" fill="var(--good)">  saat kaydırılırsa yön kayar (Merlin 2009)</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="252" y="54" fill="var(--warn)" font-size="8" font-weight="700">MİKORİZA AĞI (🟡)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Ağ var; karbon akışı var — ama küçük</text>
+        <text x="252" y="88">26 çalışma: fidan yararı zayıf,</text>
+        <text x="252" y="101">  en sık sonuç NÖTR (Karst 2023)</text>
+        <text x="252" y="117" fill="var(--bad)">Uyarı sinyali iddiası: hakemli saha</text>
+        <text x="252" y="130" fill="var(--bad)">  kanıtı SIFIR — pozitif atıf yanlılığı</text>
+        <text x="252" y="146">Karşı taraf: mykoheterotroflar CMN</text>
+        <text x="252" y="159" fill="var(--muted)">  işlevinin doğal kanıtı (Nat Plants 24)</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="54" fill="var(--bad)" font-size="8" font-weight="700">ALAN İDDİASI (🟠-🔴)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">Bir biyosfer interneti alanı:</text>
+        <text x="468" y="85" fill="var(--bad)">  ölçüm yok, mekanizma yok</text>
+        <text x="468" y="101">Kriptokrom-4: koherans gerçek,</text>
+        <text x="468" y="114" fill="var(--muted)">  dolanıklık ağı dili pop-fizik</text>
+        <text x="468" y="130">Mantar spike'ları: iletişim iddiası</text>
+        <text x="468" y="143" fill="var(--muted)">  kanıtlanmadı (Adamatzky 2022)</text>
+        <text x="468" y="159" fill="var(--good)">Gerçek: yerel sinyaller + kritiklik</text>
+      </g>
+
+      <rect x="18" y="188" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="204" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="222" fill="var(--ink)" font-weight="700">K_etki ≈ Σ (Y_yerel × A_alıcı) · ∂(etki)/∂(küresel yayın) ≈ 0</text>
+        <text x="30" y="238" fill="var(--ink)">/1 Mikoriza: izotop + genotip → transfer küçük ve alıcıya bağlı çıkmalı; fidan performansını ışık/besin yordamalı</text>
+        <text x="30" y="253" fill="var(--ink)">/2 Sürü: tek birey pertürbasyonu kritiklik yasalarıyla yayılmalı — 'alan modu' görünmemeli (Cavagna hattı)</text>
+      </g>
+
+      <rect x="18" y="272" width="644" height="68" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="288" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="305" fill="var(--good)">🟢 sürü fiziği + kurom sensing · 🟡 CMN varlığı/akışı · 🟠 anne-ağaç iddiası · 🔴 bilinçli alan</text>
+        <text x="30" y="319" fill="var(--ink)">/3 Mantar elektriği kör işlev testi. Transfer büyük ve alıcıdan bağımsız çıkarsa HZ-03 zayıflar.</text>
+        <text x="30" y="333" fill="var(--muted)">Çürütülürse: ölçek-bağımsız kritiklik, kurom sensing ve pusula mekanizmaları programdan bağımsız kalır.</text>
+      </g>
+    </svg>

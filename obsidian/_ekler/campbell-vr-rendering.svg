@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 215" role="img" aria-label="Campbell MBT VR Architecture"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="199" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <g transform="translate(22,24)">
+        <rect x="0" y="0" width="186" height="165" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+        <text x="12" y="22" fill="var(--accent)" font-size="9.5" font-weight="700">1. BÜYÜK BİLİNÇ SİSTEMİ (LCS)</text>
+        <text x="12" y="40" fill="var(--ink)" font-size="8.3">• Temel töz: Dijital / Hücresel</text>
+        <text x="12" y="53" fill="var(--ink)" font-size="8.3">  Otomat Bilgi Ağı (Bit / Qubit)</text>
+        <text x="12" y="70" fill="var(--ink)" font-size="8.3">• Evrim Ölçütü: Sistem Entropisini</text>
+        <text x="12" y="83" fill="var(--ink)" font-size="8.3">  Düşürmek (Negentropi = İşbirliği)</text>
+        <text x="12" y="102" fill="var(--muted)" font-size="8">• Gelecek Olabilirlik Veritabanı</text>
+        <text x="12" y="115" fill="var(--muted)" font-size="8">  (Future Probable Database)</text>
+        <text x="12" y="131" fill="var(--muted)" font-size="8">• Geçmiş Gerçekleşen Veritabanı</text>
+        <text x="12" y="144" fill="var(--muted)" font-size="8">  (Akashic / İmpilike Kayıt)</text>
+
+        <rect x="214" y="0" width="186" height="165" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+        <text x="226" y="22" fill="var(--violet)" font-size="9.5" font-weight="700">2. KURAL SETİ &amp; RENDER MOTORU</text>
+        <text x="226" y="40" fill="var(--ink)" font-size="8.3">• Hesaplama Tasarrufu Yasası:</text>
+        <text x="226" y="53" fill="var(--muted)" font-size="8">  Gözlemlenmeyen iç detaylar</text>
+        <text x="226" y="65" fill="var(--muted)" font-size="8">  olasılık dalgası (Ψ) olarak kalır.</text>
+        <text x="226" y="84" fill="var(--ink)" font-size="8.3">• Kuantum Çift-Yarık &amp; c Hızı:</text>
+        <text x="226" y="97" fill="var(--muted)" font-size="8">  c = Simülasyonun maksimum</text>
+        <text x="226" y="109" fill="var(--muted)" font-size="8">  piksel/adım yenileme hızı (Δx/Δt).</text>
+        <text x="226" y="128" fill="var(--good)" font-size="8.2">• Psi-Belirsizlik İlkesi (PUB):</text>
+        <text x="226" y="141" fill="var(--muted)" font-size="7.8">  Kural setini bozacak kaba mucize</text>
+        <text x="226" y="153" fill="var(--muted)" font-size="7.8">  gürültü maskesiyle engellenir.</text>
+
+        <rect x="428" y="0" width="188" height="165" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+        <text x="440" y="22" fill="var(--good)" font-size="9.5" font-weight="700">3. FİZİKSEL ARAYÜZ &amp; FOCUS API</text>
+        <text x="440" y="40" fill="var(--ink)" font-size="8.3">• Beden/Beyin = Avatar İstemcisi</text>
+        <text x="440" y="55" fill="var(--muted)" font-size="8">• Normal Uyanıklık (F1): Yalnızca</text>
+        <text x="440" y="67" fill="var(--muted)" font-size="8">  5 duyusal veri akışını okur.</text>
+        <text x="440" y="86" fill="var(--ink)" font-size="8.3">• Focus 12–21 Modu:</text>
+        <text x="440" y="99" fill="var(--muted)" font-size="8">  Avatar veri akışı susturulur →</text>
+        <text x="440" y="111" fill="var(--muted)" font-size="8">  Niyet (Intent) sorgusu doğrudan</text>
+        <text x="440" y="123" fill="var(--muted)" font-size="8">  veritabanı olasılıklarını okur</text>
+        <text x="440" y="135" fill="var(--muted)" font-size="8">  (Uzaktan Görü) veya hafifçe</text>
+        <text x="440" y="147" fill="var(--muted)" font-size="8">  kaydırır (REG / İyileşme).</text>
+      </g>
+    </svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="50 Dossier Reality Matrix and Bayesian Distribution"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="330" y="28" text-anchor="middle" fill="var(--accent)" font-size="9.2" font-weight="700">50 DOSYALIK GERÇEKLİK MATRİSİ: KANIT SINIFI VE BAYESÇİ SONSAL OLASILIK SPEKTRUMU</text>
+      <!-- 5 Horizontal Bars -->
+      <!-- Class A -->
+      <rect x="24" y="40" width="612" height="28" rx="5" fill="var(--surface-2)"/>
+      <rect x="24" y="40" width="590" height="28" rx="5" fill="var(--good)" fill-opacity="0.22" stroke="var(--good)"/>
+      <text x="34" y="58" fill="var(--good)" font-size="8" font-weight="700">SINIF A (P = %95–100 · Kesinleşmiş Biyofizik &amp; Nörobilim):</text>
+      <text x="292" y="58" fill="var(--ink)" font-size="7.5">0.1 Hz HRV, BOS/Schumann, EZ Su, DMN fMRI Kapanışı, Snyder rTMS, Efaptik, Manyetit, AdS/CFT</text>
+
+      <!-- Class B -->
+      <rect x="24" y="74" width="612" height="28" rx="5" fill="var(--surface-2)"/>
+      <rect x="24" y="74" width="490" height="28" rx="5" fill="var(--accent)" fill-opacity="0.22" stroke="var(--accent)"/>
+      <text x="34" y="92" fill="var(--accent)" font-size="8" font-weight="700">SINIF B (P = %75–90 · Çoklu-Lab İstatistiksel Anomali):</text>
+      <text x="285" y="92" fill="var(--ink)" font-size="7.5">Ganzfeld (p&lt;10⁻¹³), Stargate CRV, Maimonides REM, Presentiment (Z=5.3), Grinberg/Vasiliev Faraday</text>
+
+      <!-- Class C -->
+      <rect x="24" y="108" width="612" height="28" rx="5" fill="var(--surface-2)"/>
+      <rect x="24" y="108" width="340" height="28" rx="5" fill="var(--violet)" fill-opacity="0.22" stroke="var(--violet)"/>
+      <text x="34" y="126" fill="var(--violet)" font-size="8" font-weight="700">SINIF C (P = %40–65 · Güçlü Klinik/Tarihsel Vaka Kanıtı):</text>
+      <text x="285" y="126" fill="var(--ink)" font-size="7.5">UVa DOPS Doğum İzleri, AWARE/Pam Reynolds NDE, Cross-Correspondences, Rosenheim RSPK, Tukdam</text>
+
+      <!-- Class D -->
+      <rect x="24" y="142" width="612" height="28" rx="5" fill="var(--surface-2)"/>
+      <rect x="24" y="142" width="180" height="28" rx="5" fill="var(--warn)" fill-opacity="0.2" stroke="var(--warn)"/>
+      <text x="34" y="160" fill="var(--warn)" font-size="8" font-weight="700">SINIF D (P = %10–30 · Açık/Bağımsız Replikasyonu Eksik):</text>
+      <text x="285" y="160" fill="var(--muted)" font-size="7.5">Kozırev Aynası, Kaznaçeyev UV Hücre, Montagnier DNA-PCR, John Chang Mo Pai, Scole Fiziksel</text>
+
+      <!-- Class E -->
+      <rect x="24" y="176" width="612" height="26" rx="5" fill="var(--surface-2)" stroke="var(--line)"/>
+      <rect x="24" y="176" width="52" height="26" rx="5" fill="var(--warn)" fill-opacity="0.35"/>
+      <text x="34" y="193" fill="var(--warn)" font-size="8" font-weight="700">SINIF E (P &lt; %3 · Çürütülmüş İddia / Yanılsama):</text>
+      <text x="265" y="193" fill="var(--muted)" font-size="7.5">Loosh Korku Çiftliği (Harfiyen), Emoto Çift-Kör Olmayan Su Kristali, Kuleshova Göz Aralığı, 18.9 Hz Hayalet</text>
+    </svg>

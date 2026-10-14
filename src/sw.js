@@ -18,7 +18,7 @@ async function voiceFirst(req, url) {
 }
 self.addEventListener("install", e => {
   // the core files must be there; the rest (guide topics, images) is best effort so one missing file cannot block the install
-  const core = ["./", "index.html", "content.js", "guide/index.json", "css/app.css", "css/tokens.css", "js/app.js", "manifest.webmanifest"];
+  const core = ["./", "index.html", "content.js", "css/app.css", "css/tokens.css", "js/app.js", "manifest.webmanifest"];
   e.waitUntil(caches.open(CACHE).then(async c => {
     // cache: "reload" — never fill a new version's cache from stale HTTP-cache copies
     await c.addAll(core.map(u => new Request(u, { cache: "reload" })));

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Release threshold schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">FASYA VE SPONTAN HAREKET (HZ-20): SERBEST BIRAKMA EŞİĞİ</text>
+
+      <rect x="18" y="38" width="212" height="150" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="30" y="54" fill="var(--ok)" font-size="8" font-weight="700">A) FASYA: DUYU AĞI (🟢 ÖLÇÜLDÜ)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Yoğun mekanoreseptör: Ruffini, Pacini,</text>
+        <text x="30" y="85">  tip III/IV interstisyel reseptörler</text>
+        <text x="30" y="101">Miyofibroblast kasılması: 0,02 N/cm²</text>
+        <text x="30" y="114">  kastan ~10 000 kat zayıf, dakikalar sürer</text>
+        <text x="30" y="130">Hayvan modeli: kuvvetin %30'una kadar</text>
+        <text x="30" y="146" fill="var(--muted)">İnsan kanıtı sınırlı; "Anatomy Trains":</text>
+        <text x="30" y="159" fill="var(--muted)">tanımlayıcı model, doğrulanmış yol değil</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="252" y="54" fill="var(--warn)" font-size="8" font-weight="700">B) SPONTAN HAREKET (🟡 FENOMEN)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Kriya: seğirme, sallanma, sarsılma</text>
+        <text x="252" y="85">Nefes alkalozu: CO₂ düşer → tetani, spazm</text>
+        <text x="252" y="101">Hipnagojik sarsılma: sınır uzun açık kalır</text>
+        <text x="252" y="117">FND gerçek: temaruz değil, tedavisi var</text>
+        <text x="252" y="133">Kundalini sendromu: indeks sınıflar, ölçmez</text>
+        <text x="252" y="149" fill="var(--muted)">İstem dışılık + ısı + derin rahatlama</text>
+        <text x="252" y="162" fill="var(--muted)">→ "içimden aktı" tarifini zorunlu kılar</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="468" y="54" fill="var(--warn)" font-size="8" font-weight="700">C) KOLEKTİF YAYILIM (🟠)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">1518 Strasbourg: 50-400 kişi (Waller)</text>
+        <text x="468" y="85">Kıtlık + veba korkusu + St Vitus inancı</text>
+        <text x="468" y="101">Ergot tezi elendi: semptom deseni uymuyor</text>
+        <text x="468" y="117">Le Roy 2011: konversiyon + sosyal medya</text>
+        <text x="468" y="133">TikTok tikleri: görsel maruziyet dozu</text>
+        <text x="468" y="149" fill="var(--muted)">Yayılım görsel kanalla: "alan" gerekmez</text>
+        <text x="468" y="162" fill="var(--muted)">Kanal kesme mantığı (HZ-26) ile aynı sınav</text>
+      </g>
+
+      <rect x="18" y="198" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="214" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="232" fill="var(--ink)" font-weight="700">H_kriya ≈ (A_uyarılma − K_denetim) × (1 − D_izleme) × S_sosyal · fasya katkı verir, hareketi kurmaz</text>
+        <text x="30" y="248" fill="var(--ink)">/1 Retreat, üç kol: serbest bırakma / bastırma / normokapni klampi → EMG + kapnografi</text>
+        <text x="30" y="263" fill="var(--ink)">/2 Fasya-özgüllük: gerçek vs şam miyofasyal manipülasyon → kriya oranı değişmemeli</text>
+      </g>
+
+      <rect x="18" y="282" width="644" height="58" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="298" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="315" fill="var(--warn)">🟢 fasya inervasyonu/mekanoresepsiyon · 🟡 kriya fenomenolojisi · 🟠 kitle psikojenisi modeli · 🔴 "enerji kanalı" iddiası</text>
+        <text x="30" y="330" fill="var(--muted)">Çürütülürse: fasya duyu organı ve FND kliniği kalır; "enerji" anlatısı ilk ciddi deneysel sınavını kaybeder.</text>
+      </g>
+    </svg>

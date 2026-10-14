@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Mandukya Turiya Spanda Bardo and Dzogchen"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Mandukya 4 States + 5 Koshas -->
+      <rect x="20" y="22" width="310" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="8.8" font-weight="700">A. MANDUKYA UPANİŞAD (A-U-M + SESSİZLİK = TURİYA)</text>
+      <rect x="34" y="54" width="282" height="24" rx="4" fill="var(--surface)" stroke="var(--warn)"/>
+      <text x="44" y="70" fill="var(--warn)" font-size="7.6" font-weight="700">1. JAGRAT [A] — Dışsal Uyanıklık (Beta, 13–30 Hz) ⟺ C-1</text>
+      <rect x="34" y="82" width="282" height="24" rx="4" fill="var(--surface)" stroke="var(--accent)"/>
+      <text x="44" y="98" fill="var(--accent)" font-size="7.6" font-weight="700">2. SVAPNA [U] — İçsel İdeo-Plastik Alan (Teta, 4–8 Hz) ⟺ Focus 10–12</text>
+      <rect x="34" y="110" width="282" height="24" rx="4" fill="var(--surface)" stroke="var(--violet)"/>
+      <text x="44" y="126" fill="var(--violet)" font-size="7.6" font-weight="700">3. SUSHUPTI [M] — Nedensel/Zamansız Tohum (Delta) ⟺ Focus 15</text>
+      <rect x="34" y="140" width="282" height="44" rx="6" fill="var(--good)" fill-opacity="0.16" stroke="var(--good)" stroke-width="1.8"/>
+      <text x="175" y="157" text-anchor="middle" fill="var(--good)" font-size="8.2" font-weight="700">4. TURİYA [Sessizlik] — Üçünü de Aydınlatan Saf Tanık</text>
+      <text x="175" y="172" text-anchor="middle" fill="var(--ink)" font-size="7.3">Delta/Teta zemin üzerinde 40 Hz Gama Senkronu ⟺ Focus 21–27</text>
+
+      <!-- Right: Spanda, Bardo/Dzogchen &amp; Gurdjieff -->
+      <rect x="340" y="22" width="300" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="352" y="42" fill="var(--good)" font-size="8.8" font-weight="700">B. SPANDA, DZOGCHEN (RİGPA) &amp; GURDJIEFF</text>
+      <text x="352" y="62" fill="var(--ink)" font-size="7.8" font-weight="700">1. Keşmir Şivacılığı (Vijñāna Bhairava Tantra — 112 Teknik):</text>
+      <text x="352" y="75" fill="var(--muted)" font-size="7.5">• İki nefesin ve iki düşüncenin arasındaki "Duraklama Noktası"</text>
+      <text x="352" y="87" fill="var(--good)" font-size="7.5" font-weight="700">  (Madhya = Bentov/McDonnell Sıfır-Noktası!) içinde Spanda açılır.</text>
+      <text x="352" y="106" fill="var(--ink)" font-size="7.8" font-weight="700">2. Tibet Bardo Thödol &amp; Dzogchen (Sem vs. Rigpa):</text>
+      <text x="352" y="119" fill="var(--muted)" font-size="7.5">• Sem (DMN/Sol-beyin tepkisel zihin) vs. Rigpa (Ayna-benzeri</text>
+      <text x="352" y="131" fill="var(--muted)" font-size="7.5">  saf farkındalık). Bardo vizyonları "kendi zihninin yansımasıdır"!</text>
+      <text x="352" y="150" fill="var(--ink)" font-size="7.8" font-weight="700">3. Schopenhauer (İrade) &amp; Gurdjieff (Dördüncü Yol):</text>
+      <text x="352" y="163" fill="var(--warn)" font-size="7.5" font-weight="700">• Normal insan "uyanık" değildir; hipnotik bir "Uyanık Uyku"</text>
+      <text x="352" y="176" fill="var(--good)" font-size="7.5" font-weight="700">  içindedir; çıkış yolu "Kendini Hatırlama" (Bölünmüş Dikkat)'tir!</text>
+    </svg>

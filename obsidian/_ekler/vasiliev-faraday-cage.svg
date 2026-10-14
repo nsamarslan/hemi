@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Vasiliev Faraday Lead Capsule"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Shielded Capsule -->
+      <rect x="22" y="22" width="296" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="34" y="42" fill="var(--accent)" font-size="9.2" font-weight="700">1. ÇİFT ZIRHLI KURŞUN &amp; CIVA KAPSÜLÜ (LENİNGRAD)</text>
+      <rect x="44" y="56" width="126" height="96" rx="6" fill="none" stroke="var(--muted)" stroke-width="2" stroke-dasharray="5 3"/>
+      <rect x="56" y="66" width="102" height="76" rx="4" fill="var(--surface)" stroke="var(--accent)" stroke-width="2.5"/>
+      <text x="107" y="84" text-anchor="middle" fill="var(--accent)" font-size="8" font-weight="700">3 mm Kurşun Zırh</text>
+      <text x="107" y="98" text-anchor="middle" fill="var(--good)" font-size="7.8">+ Cıva Oluklu Mühür</text>
+      <text x="107" y="114" text-anchor="middle" fill="var(--ink)" font-size="8">Alıcı (İvanova / Fedorova)</text>
+      <text x="107" y="128" text-anchor="middle" fill="var(--muted)" font-size="7.5">Pnömograf / Aktograf</text>
+      <text x="190" y="78" fill="var(--ink)" font-size="8">• Gönderici (Tomashevsky):</text>
+      <text x="190" y="92" fill="var(--muted)" font-size="7.8">  Başka binada veya</text>
+      <text x="190" y="104" fill="var(--muted)" font-size="7.8">  1.700 km ötede (Sevastopol)</text>
+      <text x="190" y="120" fill="var(--ink)" font-size="8">• Rastgele dönen çark</text>
+      <text x="190" y="132" fill="var(--muted)" font-size="7.8">  dakikayı belirler.</text>
+      <text x="34" y="172" fill="var(--good)" font-size="8.2" font-weight="700">Sonuç: Kurşun kafes açıkken de kapalıyken de p &lt; 0.001!</text>
+      <text x="34" y="186" fill="var(--muted)" font-size="7.8">→ Klasik EM / Radyo Dalgası (Cazzamalli) hipotezi elendi.</text>
+
+      <!-- Right: Chizhevsky &amp; Geomagnetic Window -->
+      <rect x="332" y="22" width="308" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="344" y="42" fill="var(--violet)" font-size="9.2" font-weight="700">2. ÇİJEVSKİ GÜNEŞ–JEOMANYETİK KORELASYONU</text>
+      <text x="344" y="62" fill="var(--ink)" font-size="8.2">• Aleksandr Çijevski (1915–1936): 11 yıllık güneş lekesi ve</text>
+      <text x="344" y="75" fill="var(--muted)" font-size="7.9">  jeomanyetik fırtınalar insan otonom sinir sistemini sürer.</text>
+      <text x="344" y="95" fill="var(--ink)" font-size="8.2">• Gizli Örüntü (HP-8): Faraday kafesi neden telepatiyi</text>
+      <text x="344" y="108" fill="var(--ink)" font-size="8.2">  engellemediği gibi bazen isabeti artırır (Puharich / SRI)?</text>
+      <text x="344" y="126" fill="var(--good)" font-size="8">  Çünkü kafes "sinyali" değil, beynin alıcı hassasiyetini</text>
+      <text x="344" y="139" fill="var(--good)" font-size="8">  bozan dış RF/endüstriyel elektromanyetik gürültüyü</text>
+      <text x="344" y="152" fill="var(--good)" font-size="8">  keser! (Sinyal EM taşıyıcılı değil, yerel-olmayan fazdır).</text>
+      <text x="344" y="176" fill="var(--muted)" font-size="7.8">Vasiliev, Experiments in Mental Suggestion (1962 / 1963 İng.)</text>
+    </svg>

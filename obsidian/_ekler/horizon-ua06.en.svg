@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Harmonic isolation schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">HARMONİK İZOLASYON (HZ-06): RASYONEL ORANLAR KAPI, İRRASYONEL ORANLAR DUVAR</text>
+
+      <rect x="18" y="38" width="212" height="140" rx="8" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="30" y="54" fill="var(--good)" font-size="8" font-weight="700">GERÇEK MATEMATİK: ARNOLD DİLLERİ</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">φ = [1; 1, 1, 1, …] → en yavaş yakınsayan</text>
+        <text x="30" y="88">p/q küçük payda → GENİŞ dil = KAPI</text>
+        <text x="30" y="104">q büyür → dil daralır (W ~ q⁻²) = DUVAR</text>
+        <text x="30" y="120">φ oranı → en dayanıklı yörünge:</text>
+        <text x="30" y="132" fill="var(--good)">  KAM'da en SON kırılan (Greene 1979)</text>
+        <text x="30" y="150" fill="var(--ink)">Kuplaj fiziği net: 1:1, 2:1, 3:2 iletişim;</text>
+        <text x="30" y="162" fill="var(--muted)">yüksek payda + φ izolasyon.</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="252" y="54" fill="var(--warn)" font-size="8" font-weight="700">BEYİN DÜZEYİ: ÖLÇÜLMEMİŞ</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Oktav merdiveni YAKLAŞIK gerçek:</text>
+        <text x="252" y="86" fill="var(--muted)">  4 → 8 tam kat; 13 ve 30 kırılıyor</text>
+        <text x="252" y="102">"2.5 · 5 · 10 · 20 · 40" = STİLİZE merkezler</text>
+        <text x="252" y="118">Bireysel alfa tepesi 8–12 Hz (değişken)</text>
+        <text x="252" y="134" fill="var(--bad)">Tepelerin φ'ye oturduğuna dair kanıt YOK</text>
+        <text x="252" y="150">Çapraz-frekans kuplaj GERÇEK (teta-gama)</text>
+        <text x="252" y="164" fill="var(--good)">→ ilke doğru, ama doğru düzeyde test edilmeli</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="54" fill="var(--bad)" font-size="8" font-weight="700">KANIT BİLANÇOSU</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72" fill="var(--bad)">Binaural beat: 14 EEG çalışması → 5 lehte,</text>
+        <text x="468" y="83" fill="var(--bad)">  8 aleyhte, 1 karışık (Ingendoh 2023)</text>
+        <text x="468" y="99">Sıralama: isochronal &gt; monaural &gt; binaural</text>
+        <text x="468" y="112" fill="var(--muted)">  (Orozco Perez 2020)</text>
+        <text x="468" y="128">40 Hz GENUS: nöral yanıt GERÇEK, klinik</text>
+        <text x="468" y="139" fill="var(--muted)">  fayda zayıf/kontrolsüz (Chan 2025, n=5)</text>
+        <text x="468" y="155" fill="var(--bad)">Kutsal mimari φ iddiası: yakıştırma</text>
+        <text x="468" y="166" fill="var(--muted)">  (Markowsky 1992) — gerçek olan oda akustiği</text>
+      </g>
+
+      <rect x="18" y="188" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="204" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="222" fill="var(--ink)" font-weight="700">P_kilit(α) ≈ 1 eğer |α − p/q| &lt; W_pq (W ~ q⁻²) · φ'de izolasyon tepe yapar</text>
+        <text x="30" y="238" fill="var(--ink)">/1 Sürücü frekans taraması: IAF'ın katları (1:1, 2:1, 3:2) vs φ oranları → PLV rasyonelde yüksek, φ'de dip</text>
+        <text x="30" y="253" fill="var(--ink)">/2 Bireysel frekans örgüsü: alfa/teta/gama tepelerinin oranları rasyonel değerlere yığılmalı (yüzlerce kişi)</text>
+      </g>
+
+      <rect x="18" y="272" width="644" height="68" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="288" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="7">
+        <text x="30" y="305" fill="var(--good)">🟢 matematik · 🟡 beyin düzeyi · 🟠 doğrudan uygulama (kanal/geçit metaforu)</text>
+        <text x="30" y="319" fill="var(--ink)">/3 Uygulama sınavı: isochronal/monaural/binaural × rasyonel/φ beat — φ kolu güçlü entrainment üretirse HZ-06 YANLIŞLANIR.</text>
+        <text x="30" y="333" fill="var(--muted)">Çürütülürse: KAM matematiği ve genel kuplaj fizyolojisi programdan bağımsız ayakta kalır.</text>
+      </g>
+    </svg>

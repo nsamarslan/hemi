@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 230" role="img" aria-label="Bayesian Epistemology"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="214" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Formula Box -->
+      <rect x="24" y="24" width="290" height="86" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="38" y="45" fill="var(--accent)" font-size="10" font-weight="700">BAYES TEOREMİ VE "SIFIR ÖNSEL" TUZAĞI</text>
+      <text x="38" y="66" fill="var(--ink)" font-size="11" font-family="monospace">P(H|E) = [P(E|H) · P(H)] / P(E)</text>
+      <text x="38" y="85" fill="var(--muted)" font-size="8.5">• İnanççı Hata: P(H) ≈ 1 → Her gürültüyü mucize sayar</text>
+      <text x="38" y="99" fill="var(--muted)" font-size="8.5">• Sözde-Şüpheci Hata: P(H) = 0 → P(H|E) daima 0 kalır!</text>
+      <!-- Berger Timeline -->
+      <rect x="332" y="24" width="304" height="86" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="346" y="45" fill="var(--violet)" font-size="10" font-weight="700">BİLİM TARİHİ İRONİSİ: HANS BERGER (EEG)</text>
+      <text x="346" y="64" fill="var(--ink)" font-size="8.8">1892: Topçu kazası anında ablasının uzaktan panik telgrafı</text>
+      <text x="346" y="80" fill="var(--ink)" font-size="8.8">1924: "Psişik enerjiyi" ararken insan EEG'sini (Alfa) icat eder</text>
+      <text x="346" y="96" fill="var(--muted)" font-size="8.5">1950: Alan Turing (Mind) — ESP'yi AI testinin 1. engeli sayar</text>
+      <!-- 5-tier scale -->
+      <text x="24" y="134" fill="var(--ink)" font-size="9.5" font-weight="700">BU ARAŞTIRMADA KULLANILAN 5 KADEMELİ KANIT CETVELİ:</text>
+      <g transform="translate(24,145)">
+        <rect x="0" y="0" width="118" height="58" rx="7" fill="var(--surface-2)" stroke="var(--good)"/>
+        <text x="10" y="18" fill="var(--good)" font-size="9" font-weight="700">Sınıf A · Kesin</text>
+        <text x="10" y="33" fill="var(--ink)" font-size="8">Bağımsız çoklu</text>
+        <text x="10" y="45" fill="var(--muted)" font-size="7.8">replikasyon + mekanizma</text>
+
+        <rect x="126" y="0" width="118" height="58" rx="7" fill="var(--surface-2)" stroke="var(--accent)"/>
+        <text x="136" y="18" fill="var(--accent)" font-size="9" font-weight="700">Sınıf B · Güçlü Anomali</text>
+        <text x="136" y="33" fill="var(--ink)" font-size="8">p &lt; 10⁻⁶ meta-analiz,</text>
+        <text x="136" y="45" fill="var(--muted)" font-size="7.8">mekanizma tartışmalı</text>
+
+        <rect x="252" y="0" width="118" height="58" rx="7" fill="var(--surface-2)" stroke="var(--violet)"/>
+        <text x="262" y="18" fill="var(--violet)" font-size="9" font-weight="700">Sınıf C · Sınır Veri</text>
+        <text x="262" y="33" fill="var(--ink)" font-size="8">Klinik/gözlemsel vaka,</text>
+        <text x="262" y="45" fill="var(--muted)" font-size="7.8">kısmi kontrol</text>
+
+        <rect x="378" y="0" width="118" height="58" rx="7" fill="var(--surface-2)" stroke="var(--line)"/>
+        <text x="388" y="18" fill="var(--ink)" font-size="9" font-weight="700">Sınıf D · İzomorfik</text>
+        <text x="388" y="33" fill="var(--ink)" font-size="8">Felsefi/matematiksel</text>
+        <text x="388" y="45" fill="var(--muted)" font-size="7.8">model eşyapılılığı</text>
+
+        <rect x="504" y="0" width="108" height="58" rx="7" fill="var(--surface-2)" stroke="var(--danger)"/>
+        <text x="514" y="18" fill="var(--danger)" font-size="9" font-weight="700">Sınıf E · Çürütülmüş</text>
+        <text x="514" y="33" fill="var(--ink)" font-size="8">Hile, duyusal sızıntı</text>
+        <text x="514" y="45" fill="var(--muted)" font-size="7.8">veya fizik hatası</text>
+      </g>
+    </svg>

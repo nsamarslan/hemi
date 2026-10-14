@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Onco-bioelectric alienation schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">ONKO-BİYOELEKTRİK YABANCILAŞMA (HZ-09): ÇOK KATMANLI AĞ SAPMASI</text>
+
+      <rect x="18" y="38" width="212" height="140" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="54" fill="var(--warn)" font-size="8" font-weight="700">MODEL BİYOLOJİSİ (🟡)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Xenopus: onkogen → depolarizasyon</text>
+        <text x="30" y="85" fill="var(--warn)">Depolarizasyon engellenirse TÜMÖR OLUŞMAZ</text>
+        <text x="30" y="98" fill="var(--muted)">  (Chernet &amp; Levin 2013; 2014)</text>
+        <text x="30" y="114">Etki uzun menzilli: serotonin +</text>
+        <text x="30" y="127">  bütirat-HDAC yolu önerilir</text>
+        <text x="30" y="143">Metastaz benzeri uzak dönüşüm</text>
+        <text x="30" y="156" fill="var(--muted)">  (Lobikin 2012; Blackiston 2011)</text>
+        <text x="30" y="170" fill="var(--bad)">UYARI: Xenopus ≠ insan kanseri</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="252" y="54" fill="var(--bad)" font-size="8" font-weight="700">İNSAN DOKUSU (🟠)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">İyon kanalları onkogen (insan verisi):</text>
+        <text x="252" y="85" fill="var(--muted)">  Kv10.1/EAG1, hERG, Nav1.5</text>
+        <text x="252" y="101">Gap-junction kaybı: kırk yıllık gözlem</text>
+        <text x="252" y="114">ama connexin İKİ YÜZLÜ: baskılayıcı</text>
+        <text x="252" y="127">  da olabilir, metastaz destekçisi de</text>
+        <text x="252" y="143">V_mem ölçümü zor; kohort yok; klinik</text>
+        <text x="252" y="156" fill="var(--bad)">biyoelektrik modülatör çalışması YOK</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="140" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="54" fill="var(--bad)" font-size="8" font-weight="700">ANLATI KATMANI (🔴)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">'Kimlik dönüşümü / NDE sonrası</text>
+        <text x="468" y="85">  spontan remisyon kümesi': KANIT YOK</text>
+        <text x="468" y="101">Kayıt yanlılığı: yalnız çarpıcı vakalar</text>
+        <text x="468" y="114">  anlatılır; sessiz çoğunluk görünmez</text>
+        <text x="468" y="130">Psikososyal destek: yaşam kalitesi ↑,</text>
+        <text x="468" y="143" fill="var(--bad)">  sağkalım etkisi YOK (Goodwin 2001)</text>
+        <text x="468" y="159" fill="var(--muted)">Spontan remisyon gerçek: immün/hormonal</text>
+      </g>
+
+      <rect x="18" y="188" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="204" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="222" fill="var(--ink)" font-weight="700">P_onkogen ≈ f(M, V, G, İ, K) · fraktal kopuş: junction → hücre → doku → organizma</text>
+        <text x="30" y="238" fill="var(--ink)">/1 Xenopus uzun-menzil modeli bağımsız laboratuvarlarda replike edilir; serotonin/bütirat yolu ayrı yöntemlerle sınanır</text>
+        <text x="30" y="253" fill="var(--ink)">/2 İnsan organoidi: V_mem haritası + connexin + mutasyon paneli → biyoelektrik imza bağımsız katman mı?</text>
+      </g>
+
+      <rect x="18" y="272" width="644" height="68" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="288" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="305" fill="var(--warn)">🟡 model biyolojisi · 🟠 insan translasyonu · 🔴 psikojenik remisyon kümesi</text>
+        <text x="30" y="319" fill="var(--bad)">EN KRİTİK UYARI: bu dosya tedavi önermez; tanı sonrası kanıta dayalı tedaviye tam uyum esastır.</text>
+        <text x="30" y="333" fill="var(--muted)">Çürütülürse: iyon kanalı onkogenleri ve Xenopus bulguları programdan bağımsız ayakta kalır.</text>
+      </g>
+    </svg>

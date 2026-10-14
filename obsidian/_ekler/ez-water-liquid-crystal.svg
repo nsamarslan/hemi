@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 215" role="img" aria-label="EZ Water and Liquid Crystal Body"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="199" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Hydrophilic surface + EZ layers -->
+      <rect x="24" y="26" width="24" height="162" rx="4" fill="var(--violet)"/>
+      <text x="36" y="112" text-anchor="middle" fill="var(--on-accent)" font-size="8.5" font-weight="700" transform="rotate(-90 36 112)">KOLLAJEN / MİYELİN ZARI</text>
+      <!-- EZ Zone -->
+      <rect x="48" y="26" width="166" height="162" fill="var(--accent)" fill-opacity="0.16" stroke="var(--accent)"/>
+      <text x="131" y="45" text-anchor="middle" fill="var(--accent)" font-size="9.5" font-weight="700">EZ SUYU (H₃O₂) · -150 mV</text>
+      <text x="131" y="61" text-anchor="middle" fill="var(--ink)" font-size="8">Altıgen Sıvı-Kristal Kafes</text>
+      <g fill="var(--accent)" font-size="11" font-family="monospace">
+        <text x="64" y="86">⊖  ⊖  ⊖  ⊖  ⊖</text>
+        <text x="64" y="110">⊖  ⊖  ⊖  ⊖  ⊖</text>
+        <text x="64" y="134">⊖  ⊖  ⊖  ⊖  ⊖</text>
+        <text x="64" y="158">⊖  ⊖  ⊖  ⊖  ⊖</text>
+      </g>
+      <text x="131" y="178" text-anchor="middle" fill="var(--muted)" font-size="7.8">Yarı-iletken elektron/eksiton iletimi</text>
+      <!-- Bulk Water Proton Zone -->
+      <rect x="214" y="26" width="110" height="162" fill="var(--surface-2)" stroke="var(--line)"/>
+      <text x="269" y="45" text-anchor="middle" fill="var(--good)" font-size="9" font-weight="700">PROTON BÖLGESİ</text>
+      <g fill="var(--good)" font-size="11" font-family="monospace">
+        <text x="230" y="86">⊕  ⊕  ⊕</text>
+        <text x="230" y="110">⊕  ⊕  ⊕</text>
+        <text x="230" y="134">⊕  ⊕  ⊕</text>
+        <text x="230" y="158">⊕  ⊕  ⊕</text>
+      </g>
+      <text x="269" y="178" text-anchor="middle" fill="var(--muted)" font-size="7.8">Grotthuss H⁺ otobanı</text>
+      <!-- Right Explanation -->
+      <rect x="340" y="26" width="296" height="162" rx="9" fill="var(--surface-2)" stroke="var(--line)"/>
+      <text x="354" y="46" fill="var(--ink)" font-size="9.5" font-weight="700">NEDEN KİLİT ÖNEMDE? (GİZLİ ÖRÜNTÜ HP-6)</text>
+      <text x="354" y="66" fill="var(--ink)" font-size="8.3">1. Klasik akson iletimi (1–100 m/s) tüm beden</text>
+      <text x="354" y="79" fill="var(--muted)" font-size="8">   koheransı için çok yavaştır.</text>
+      <text x="354" y="97" fill="var(--ink)" font-size="8.3">2. EZ su katmanları boyunca proton atlaması</text>
+      <text x="354" y="110" fill="var(--muted)" font-size="8">   (Grotthuss mekanizması) kimyasal difüzyondan</text>
+      <text x="354" y="123" fill="var(--muted)" font-size="8">   binlerce kat hızlı kolektif faz geçişi sağlar.</text>
+      <text x="354" y="141" fill="var(--good)" font-size="8.3">3. Mae-Wan Ho: Canlı doku polarize ışıkta tek</text>
+      <text x="354" y="154" fill="var(--good)" font-size="8">   bir kuantum-uyumlu sıvı kristal gibi parlar;</text>
+      <text x="354" y="167" fill="var(--good)" font-size="8">   genel anestezikler tam bu su katmanını çözer!</text>
+    </svg>

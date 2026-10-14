@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Three rival models of shared mind schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">PAYLAŞILAN ZİHİN (HZ-26): ÜÇ RAKİP MODEL, TEK KANAL</text>
+
+      <rect x="18" y="38" width="212" height="150" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="30" y="54" fill="var(--bad)" font-size="8" font-weight="700">A) AYNA MODELİ (🟠 ÇÖKTÜ)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">Maymunlarda eylem-anlama varsayımı</text>
+        <text x="30" y="85">  hiç doğrudan test EDİLMEDİ (Hickok 2009)</text>
+        <text x="30" y="101">Ayna nöronlar pandomime yanıt vermez</text>
+        <text x="30" y="114">İnsanda varlığı tartışmalı (Dinstein 2008)</text>
+        <text x="30" y="130" fill="var(--bad)">Mu supresyonu geçerli ölçü değil:</text>
+        <text x="30" y="143" fill="var(--bad)">  güçsüz, bant kayması, dikkat karışması</text>
+        <text x="30" y="159" fill="var(--muted)">Heyes &amp; Catmur 2022: ayna = öğrenme ürünü</text>
+        <text x="30" y="175" fill="var(--muted)">Hücreler var; "her şeyi açıklar" çöktü</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="252" y="54" fill="var(--ok)" font-size="8" font-weight="700">B) KANAL MODELİ (🟢/🟡 ÖLÇÜLDÜ)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Mimikri otomatik (Dimberg 1990)</text>
+        <text x="252" y="85">Duygu bulaşıcılığı: laboratuvarda gerçek</text>
+        <text x="252" y="101">Stephens 2010: konuşucu-dinleyici kuplajı</text>
+        <text x="252" y="114">  anlama başarısını ÖNGÖRÜR</text>
+        <text x="252" y="130">Bazı dinleyici tepkileri konuşucudan ÖNCE</text>
+        <text x="252" y="143">  → öngörücü ortak kod</text>
+        <text x="252" y="159">Hasson 2012: kuplaj çevreden sinyalle kurulur</text>
+        <text x="252" y="175" fill="var(--muted)">Senkron yürüyüş işbirliğini artırır (2009)</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="54" fill="var(--bad)" font-size="8" font-weight="700">C) MORFİK ALAN (🔴)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">İddia: bakılma hissi %53-60 (şans %50)</text>
+        <text x="468" y="85" fill="var(--bad)">Lobach &amp; Bierman 2004: replike EDİLEMEDİ</text>
+        <text x="468" y="101" fill="var(--bad)">  "kolayca replike edilir bir paradigma değil"</text>
+        <text x="468" y="117">Diziler rastgele değil (Marks &amp; Colwell 2000)</text>
+        <text x="468" y="133">Jaytee: aynı veri, zıt okumalar — kayıt yok</text>
+        <text x="468" y="149">Shermer 2005: yanlışlanamaz çerçeve</text>
+        <text x="468" y="165" fill="var(--muted)">Jung arşivi: kültürel malzeme, veri tabanı değil</text>
+      </g>
+
+      <rect x="18" y="198" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="214" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="232" fill="var(--ink)" font-weight="700">Z_paylaşım ≈ K_ortakkod × T_kanal × G_geçmiş · kanal sıfırlanınca paylaşım şansa iner</text>
+        <text x="30" y="248" fill="var(--ink)">/1 Kanal kesme: tam kanal / tek yönlü metin / hiç kanal → alan modeli (c) kolunda da şans üstü bekler</text>
+        <text x="30" y="263" fill="var(--ink)">/2 Permüte eşleşme: gerçek çiftler uç değer mi? /3 Bakılma: gerçek rastgele dizi + ısı kontrolü</text>
+      </g>
+
+      <rect x="18" y="282" width="644" height="58" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="298" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="315" fill="var(--warn)">🟢 bulaşıcılık/mimikri · 🟡 beyinler arası kuplaj · 🟠 ayna kuramı (işlev iddiası çöktü) · 🔴 morfik rezonans</text>
+        <text x="30" y="330" fill="var(--muted)">Çürütülürse: kanal modeli sarsılır; empati eğitimi ve senkron çalışma kendi ölçütleriyle ayakta kalır.</text>
+      </g>
+    </svg>

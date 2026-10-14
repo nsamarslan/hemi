@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Stargate SRI Remote Viewing Architecture"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: CRV Stages 1-6 vs AOL -->
+      <rect x="20" y="22" width="355" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9" font-weight="700">A. INGO SWANN &amp; PUTHOFF CRV AŞAMALARI (SİNYAL vs. AOL)</text>
+      <!-- Timeline of 2 seconds -->
+      <rect x="34" y="54" width="160" height="58" rx="6" fill="var(--surface)" stroke="var(--good)"/>
+      <text x="44" y="70" fill="var(--good)" font-size="8.2" font-weight="700">t = 0.0 – 1.5 sn (SAĞ YARIKÜRE)</text>
+      <text x="44" y="84" fill="var(--ink)" font-size="7.8">• Aşama 1: Otonom İdeogram</text>
+      <text x="44" y="96" fill="var(--ink)" font-size="7.8">• Aşama 2: Ham Duyular (Soğuk,</text>
+      <text x="44" y="107" fill="var(--muted)" font-size="7.5">  metalik, dikey, uğultulu, sarı)</text>
+
+      <rect x="204" y="54" width="158" height="58" rx="6" fill="var(--surface)" stroke="var(--warn)"/>
+      <text x="214" y="70" fill="var(--warn)" font-size="8.2" font-weight="700">t &gt; 1.5 sn (SOL YARIKÜRE TUZAĞI)</text>
+      <text x="214" y="84" fill="var(--warn)" font-size="7.8">• Analitik Kaplama (AOL):</text>
+      <text x="214" y="96" fill="var(--muted)" font-size="7.6">  "Soğuk + dikey + metalik =</text>
+      <text x="214" y="107" fill="var(--warn)" font-size="7.6">  Kesin Eyfel Kulesi!" (YANLIŞ!)</text>
+
+      <text x="34" y="132" fill="var(--good)" font-size="8" font-weight="700">• CRV Kuralı: İsim koymak YASAKTIR! Sadece sıfat ve çizim</text>
+      <text x="34" y="146" fill="var(--ink)" font-size="7.8">  (Aşama 3–4 Boyutsal Eskiz); AOL gelirse kağıdın sağ kenarına</text>
+      <text x="34" y="159" fill="var(--ink)" font-size="7.8">  "AOL Break" yazılıp sol yarıküre tampon belleği boşaltılır!</text>
+      <text x="34" y="178" fill="var(--accent)" font-size="7.8">• Pat Price (Semipalatinsk 1974) &amp; McMoneagle (Typhoon Denizaltısı)</text>
+
+      <!-- Right: Edwin May Entropy Gradient -->
+      <rect x="387" y="22" width="253" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="399" y="42" fill="var(--violet)" font-size="9" font-weight="700">B. EDWIN MAY: ENTROPİ GRADYANI (ΔS)</text>
+      <text x="399" y="60" fill="var(--ink)" font-size="8">SAIC / SRI fizikçisi Dr. Edwin May'in</text>
+      <text x="399" y="73" fill="var(--ink)" font-size="8">keşfi: Uzaktan görü "statik bilgiyi" değil,</text>
+      <text x="399" y="86" fill="var(--good)" font-size="8" font-weight="700">Termodinamik / Shannon Entropi</text>
+      <text x="399" y="99" fill="var(--good)" font-size="8" font-weight="700">Değişimini (∇S) en güçlü algılar!</text>
+      <text x="399" y="118" fill="var(--muted)" font-size="7.8">• Tıpkı göz retinasının sabit ışığa kör</text>
+      <text x="399" y="131" fill="var(--muted)" font-size="7.8">  olup yalnızca kontrast sınırlarını (∇I)</text>
+      <text x="399" y="144" fill="var(--muted)" font-size="7.8">  görmesi gibi, yerel-olmayan algı da</text>
+      <text x="399" y="157" fill="var(--ink)" font-size="7.8">  yüksek enerji/entropi gradyanına sahip</text>
+      <text x="399" y="170" fill="var(--ink)" font-size="7.8">  hedeflerde (nükleer reaktör, şelale, roket)</text>
+      <text x="399" y="183" fill="var(--good)" font-size="7.8" font-weight="700">  3 kat daha yüksek etki büyüklüğü verir!</text>
+    </svg>

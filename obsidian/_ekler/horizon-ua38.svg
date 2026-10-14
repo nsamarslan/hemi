@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Suggestopedia versus active practice and delayed transfer"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="27" text-anchor="middle" fill="var(--accent)" font-size="11" font-weight="700">UA-38 · ÖĞRENME DURUMU / TRANSFER</text>
+      <rect x="20" y="47" width="197" height="128" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="32" y="67" fill="var(--ok)" font-size="9" font-weight="700">🟢 GÜÇLÜ DAYANAK</text>
+      <g font-size="8" fill="var(--ink)"><text x="32" y="91">Aralıklı geri çağırma</text><text x="32" y="113">Aktif uygulama testi</text><text x="32" y="137">Kalıcı bilgi ayrı ölçülür</text></g>
+      <rect x="238" y="47" width="204" height="128" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="250" y="67" fill="var(--warn)" font-size="9" font-weight="700">🟡 SINIRLI BAĞLAM</text>
+      <g font-size="8" fill="var(--ink)"><text x="250" y="91">Çevre belleği: d≈0,28</text><text x="250" y="113">Rahatlık ≠ yeni bilgi</text><text x="250" y="137">Yeni oda transferi gerekli</text></g>
+      <rect x="463" y="47" width="197" height="128" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="475" y="67" fill="var(--bad)" font-size="9" font-weight="700">🔴 BÜYÜK İDDİA</text>
+      <g font-size="8" fill="var(--ink)"><text x="475" y="91">25 kat ezber: Lozanov</text><text x="475" y="113">Bağımsız etki değil</text><text x="475" y="137">Müzik / telkin ayrılmalı</text></g>
+      <rect x="20" y="195" width="640" height="85" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="32" y="217" fill="var(--violet)" font-size="9" font-weight="700">HZ-38 · Eşit zaman: paket A / aktif ders B / aralıklı geri çağırma C</text>
+      <text x="32" y="241" fill="var(--ink)" font-size="8">4–6 hafta sonra yeni cümle + yeni oda / konuşmacı · kör puanlayıcı</text>
+      <text x="32" y="263" fill="var(--ink)" font-size="8">İddia: A − B pozitif mi? Öğrenci + öğretmen maliyeti ve ayrılma sayılsın.</text>
+      <text x="32" y="316" fill="var(--muted)" font-size="8">Çürütülürse: destekleyici ortam kalır; özel hızlandırıcı gösterilmemiş olur.</text>
+    </svg>

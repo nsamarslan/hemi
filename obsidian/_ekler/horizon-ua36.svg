@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 350" role="img" aria-label="Interoceptive main channel schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="338" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">İÇ DUYUM ANA KANALI (HZ-36): FARKINDALIK, BİR KANAL SEÇME İŞİDİR</text>
+
+      <!-- anatomy chain -->
+      <rect x="18" y="38" width="150" height="118" rx="8" fill="var(--surface-2)" stroke="var(--ink)"/>
+      <text x="28" y="54" fill="var(--ink)" font-size="7.8" font-weight="700">ANATOMİK ZİNCİR</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="28" y="70">Beden içi afferentler</text>
+        <text x="28" y="84">↓ lamina I spinotalamik</text>
+        <text x="28" y="98">Arka insula (beden haritası)</text>
+        <text x="28" y="112">↓</text>
+        <text x="28" y="126">Ön insula (öznel "beden hissi")</text>
+        <text x="28" y="144" fill="var(--muted)">"Bedeni kim olduğun değil,</text>
+        <text x="28" y="154" fill="var(--muted)">ne durumda olduğun gösterilir."</text>
+      </g>
+
+      <!-- three dimensions -->
+      <rect x="180" y="38" width="190" height="118" rx="8" fill="var(--surface-2)" stroke="var(--good)" stroke-width="1.4"/>
+      <text x="190" y="54" fill="var(--good)" font-size="7.8" font-weight="700">ÜÇ BOYUT (Garfinkel 2015)</text>
+      <g font-size="7">
+        <text x="190" y="72" fill="var(--ink)">① Doğruluk: nesnel algı kalitesi</text>
+        <text x="190" y="88" fill="var(--ink)">② Duyarlılık: kendi algına güven</text>
+        <text x="190" y="104" fill="var(--ink)">③ Farkındalık: doğruluk ↔ güven uyumu</text>
+      </g>
+      <text x="190" y="124" fill="var(--warn)" font-size="6.9">Uyumsuzluk = klinik sinyal:</text>
+      <text x="190" y="136" fill="var(--warn)" font-size="6.9">yüksek güven + düşük doğruluk → panik riski</text>
+      <text x="190" y="148" fill="var(--muted)" font-size="6.8">Tek "iç duyum puanı" öngörü gücünü düşürür.</text>
+
+      <!-- channels profile -->
+      <rect x="382" y="38" width="280" height="118" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="392" y="54" fill="var(--accent)" font-size="7.8" font-weight="700">KANAL PROFİLİ (alt kanallar ayrışır)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="392" y="72">❤️ Kalp atışı algılama (en çok ölçülen, en yanlı)</text>
+        <text x="392" y="88">🫁 Solunum farkındalığı (burun akımı)</text>
+        <text x="392" y="104">🫄 Mide/bağırsak duyumu (elektrogastrogram)</text>
+      </g>
+      <text x="392" y="122" fill="var(--muted)" font-size="6.8">Öngörü: kanallar arası korelasyon düşük-orta → "iç duyum" tek özellik değil, bir profil.</text>
+      <text x="392" y="136" fill="var(--muted)" font-size="6.8">Meditasyon eğitimi kalp/solunum kanalını güçlendirir; mide kanalı aynı hızda artmayabilir.</text>
+      <text x="392" y="150" fill="var(--good)" font-size="6.9" font-weight="700">İşlev: duygu etiketi = K_beden × Kavram (Barrett 2017)</text>
+
+      <!-- measurement-effect coupling -->
+      <rect x="18" y="168" width="316" height="86" rx="8" fill="var(--surface-2)" stroke="var(--warn)" stroke-width="1.4"/>
+      <text x="28" y="184" fill="var(--warn)" font-size="7.8" font-weight="700">ÖLÇÜM-ETKİ ÇİFTLENİMİ (alanın yapısal kısıtı)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="28" y="202">Kalp sayma görevi yanlılığa açık (Zamariola 2018):</text>
+        <text x="28" y="216">kendinden emin ama hatalı cevaplar; stratejik tahmin.</text>
+        <text x="28" y="230">A) "Bedenini gözle" talimatı → rapor sayısı ↑</text>
+        <text x="28" y="244">B) "Nesnel performans testi" talimatı → rapor sayısı ↓</text>
+      </g>
+
+      <!-- outputs -->
+      <rect x="346" y="168" width="316" height="86" rx="8" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="356" y="184" fill="var(--good)" font-size="7.8" font-weight="700">FONKSİYONEL ÇIKTILAR (kanıt güçlü)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="356" y="202">• Duygu düzenleme kapasitesiyle ilişki (Füstös 2013)</text>
+        <text x="356" y="216">• Belirsizlik altında karar performansı (Werner 2009)</text>
+        <text x="356" y="230">• Kaygı = aşırı ağırlık; aleksitimi = yetersiz ağırlık</text>
+        <text x="356" y="244">• 8 haftalık gövde taraması sonrası doğruluk artışı (Fischer 2017)</text>
+      </g>
+
+      <!-- caution -->
+      <rect x="18" y="266" width="644" height="82" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="282" fill="var(--violet)" font-size="8" font-weight="700">NEDEN BÖYLE? İÇ SİNYAL NESNEL BİR REFERANSA SAHİP DEĞİLDİR</text>
+      <g font-size="7.1">
+        <text x="30" y="300" fill="var(--ink)">Kalp atışı gerçektir, ama algısı yoruma açıktır. Sistem iki katman kurar: (1) ham iç sinyal (kardiyak, respiratuar, enterik) sürekli akar;</text>
+        <text x="30" y="314" fill="var(--ink)">(2) dikkat, sinyali "önemli" etiketlediğinde onu yükseltir (amplifikasyon). Bu yüzden iç duyum ham ölçüm değil, filtreli ve ağırlıklı bir kanaldır —</text>
+        <text x="30" y="328" fill="var(--ink)">ve ölçüm-etki çiftlenimi mimarinin kendisinde yer alır. Klinik uyarı: kalbe aşırı odaklanma bazı kişilerde kaygıyı artırır (panik, hipokondriyazis).</text>
+        <text x="30" y="342" fill="var(--muted)">Sonuç: "daha fazla iç duyum her zaman daha iyi" yanlıştır; hedef, kanal seçme esnekliğidir.</text>
+      </g>
+    </svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Ephaptic Coupling and Turin Electron Spin"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Durand 2019 Ephaptic Coupling -->
+      <rect x="20" y="22" width="302" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9" font-weight="700">A. SİNAPSSIZ EFAPTİK DALGA YAYILIMI (DURAND, 2019)</text>
+      <!-- Two severed halves -->
+      <rect x="38" y="60" width="106" height="54" rx="8" fill="var(--surface)" stroke="var(--accent)" stroke-width="1.8"/>
+      <text x="91" y="84" text-anchor="middle" fill="var(--ink)" font-size="8" font-weight="700">Hipokampüs Parça 1</text>
+      <path d="M48 102 Q70 84 92 102 T134 102" fill="none" stroke="var(--good)" stroke-width="1.8"/>
+
+      <line x1="158" y1="52" x2="158" y2="122" stroke="var(--danger)" stroke-width="2.5" stroke-dasharray="4 2"/>
+      <text x="158" y="134" text-anchor="middle" fill="var(--danger)" font-size="7.5" font-weight="700">TAM BIÇAK KESİĞİ (Sinaps=0)</text>
+
+      <rect x="172" y="60" width="106" height="54" rx="8" fill="var(--surface)" stroke="var(--accent)" stroke-width="1.8"/>
+      <text x="225" y="84" text-anchor="middle" fill="var(--ink)" font-size="8" font-weight="700">Hipokampüs Parça 2</text>
+      <path d="M182 102 Q204 84 226 102 T268 102" fill="none" stroke="var(--good)" stroke-width="1.8"/>
+
+      <path d="M138 72 Q158 54 178 72" fill="none" stroke="var(--good)" stroke-width="2"/>
+      <text x="32" y="154" fill="var(--good)" font-size="8.2" font-weight="700">• Dalga kesiğin üzerinden elektrik alanıyla atlar (~0.1 m/s)!</text>
+      <text x="32" y="168" fill="var(--muted)" font-size="7.8">• Kanıt: Sinaptik blokerler (CNQX/APV) dalgayı durduramaz;</text>
+      <text x="32" y="181" fill="var(--muted)" font-size="7.8">  yalnızca ters elektrik alanı uygulandığında dalga durur.</text>
+
+      <!-- Right: Turin 2014 Electron Spin -->
+      <rect x="336" y="22" width="304" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="348" y="42" fill="var(--violet)" font-size="9" font-weight="700">B. GENEL ANESTEZİDE ELEKTRON SPİNİ (TURIN, PNAS 2014)</text>
+      <text x="348" y="62" fill="var(--ink)" font-size="8.2">• Soru: Kimyasal olarak tamamen asal olan Ksenon (Xe)</text>
+      <text x="348" y="75" fill="var(--muted)" font-size="7.9">  gazı hiçbir kovalent bağ kurmadan bilinci nasıl kapatır?</text>
+      <text x="348" y="94" fill="var(--accent)" font-size="8.2" font-weight="700">• Deney (Turin, Skoulakis &amp; Horsfield, PNAS 2014):</text>
+      <text x="348" y="108" fill="var(--muted)" font-size="7.9">  Canlı Drosophila sinekleri Elektron Paramanyetik Rezonans</text>
+      <text x="348" y="121" fill="var(--muted)" font-size="7.9">  (EPR) spektrometresine konup anestezik gaz verildiğinde</text>
+      <text x="348" y="134" fill="var(--good)" font-size="8" font-weight="700">  g ≈ 2.003 serbest elektron spin sinyalinde keskin sıçrama!</text>
+      <text x="348" y="152" fill="var(--ink)" font-size="8">• Li et al. (Anesthesiology, 2018): Nükleer spini sıfır olan</text>
+      <text x="348" y="165" fill="var(--muted)" font-size="7.8">  ¹³²Xe/¹³⁴Xe izotopları, spini 1/2 olan ¹²⁹Xe'den çok daha</text>
+      <text x="348" y="178" fill="var(--muted)" font-size="7.8">  güçlü anestezi yapar! → Bilinç kuantum spinine duyarlıdır.</text>
+    </svg>

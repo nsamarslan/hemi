@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" role="img" aria-label="Gut-brain second channel and ultradian lock schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="368" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">İKİNCİ KANAL (HZ-24): BEDEN BEYNE RAPOR VERİR — VE ÖĞÜN SAYISI RAPORUN GÜRÜLTÜSÜNÜ BELİRLER</text>
+
+      <rect x="190" y="38" width="120" height="34" rx="7" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="250" y="59" text-anchor="middle" fill="var(--accent)" font-size="8.6" font-weight="700">BEYİN (DMN)</text>
+      <rect x="190" y="126" width="120" height="34" rx="7" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="250" y="147" text-anchor="middle" fill="var(--good)" font-size="8.6" font-weight="700">BAĞIRSAK (ENS)</text>
+      <line x1="250" y1="126" x2="250" y2="74" stroke="var(--good)" stroke-width="2.2" marker-end="url(#hzArrow2)"/>
+      <line x1="272" y1="74" x2="272" y2="124" stroke="var(--muted)" stroke-width="1" stroke-dasharray="3 3" marker-end="url(#hzArrow3)"/>
+      <defs>
+        <marker id="hzArrow2" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="var(--good)"/></marker>
+        <marker id="hzArrow3" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="var(--muted)"/></marker>
+      </defs>
+      <text x="258" y="104" fill="var(--good)" font-size="7.4" font-weight="700">VAGUS · ~%80–90 afferent</text>
+      <text x="258" y="116" fill="var(--muted)" font-size="6.9">vagotomi → flora etkisi kaybolur (Bravo 2011)</text>
+
+      <rect x="330" y="38" width="336" height="122" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="342" y="54" fill="var(--violet)" font-size="8" font-weight="700">İKİ MOD: KALİBRASYON ANAHTARI</text>
+      <rect x="342" y="62" width="150" height="42" rx="6" fill="var(--surface)" stroke="var(--warn)"/>
+      <text x="352" y="78" fill="var(--warn)" font-size="7.6" font-weight="700">TOK MOD (yakıt işleme)</text>
+      <text x="352" y="92" fill="var(--ink)" font-size="7">Kanal: glikoz, insülin, GLP-1 · gürültü yüksek</text>
+      <rect x="504" y="62" width="150" height="42" rx="6" fill="var(--surface)" stroke="var(--good)"/>
+      <text x="514" y="78" fill="var(--good)" font-size="7.6" font-weight="700">AÇ MOD (tarama/onarım)</text>
+      <text x="514" y="92" fill="var(--ink)" font-size="7">Kanal: keton, ghrelin, otofaji · gürültü düşük</text>
+      <path d="M492 78 L 504 78" stroke="var(--ink)" stroke-width="1.4" marker-end="url(#hzArrow2)"/>
+      <path d="M504 96 L 492 96" stroke="var(--ink)" stroke-width="1.4" marker-end="url(#hzArrow3)"/>
+      <text x="342" y="122" fill="var(--ink)" font-size="7.2">G_intero(t) ≈ G0 · M(t) / (1 + N_öğün): öğün sayısı arttıkça iç sinyal gürültüsü artar.</text>
+      <text x="342" y="136" fill="var(--muted)" font-size="7.1">Sürekli atıştırma, bağırsağın ev temizliği programını (MMK) sürekli askıya alır.</text>
+      <text x="342" y="150" fill="var(--muted)" font-size="7.1">Bağımsız gelenekler (Ramazan, Perhiz, Yom Kippur, Ekadashi, uposatha, Jain) aynı üçlüyü bulmuş: yoksunluk + sessizlik + anlamlı dikkat.</text>
+
+      <rect x="18" y="176" width="646" height="126" rx="8" fill="var(--surface-2)" stroke="var(--good)" stroke-width="1.5"/>
+      <text x="30" y="192" fill="var(--good)" font-size="8" font-weight="700">ALT YASA HZ-24a: ÜÇ AYRI SİSTEM, AYNI DOKSAN DAKİKA — ULTRADİYEN KİLİT ADAYI</text>
+      <g font-size="7.2" fill="var(--ink)">
+        <text x="30" y="212">1. Bağırsak — MMK (migratuar motor kompleks)</text>
+        <text x="30" y="248">2. Uyku — NREM/REM döngüsü</text>
+        <text x="30" y="284">3. Gündüz — BRAC (dinlenme-aktivite)</text>
+      </g>
+      <g stroke="var(--accent)" stroke-width="1.2">
+        <line x1="250" y1="206" x2="650" y2="206"/><line x1="250" y1="242" x2="650" y2="242"/><line x1="250" y1="278" x2="650" y2="278"/>
+      </g>
+      <g stroke="var(--good)" stroke-width="1.4" stroke-dasharray="4 3">
+        <line x1="310" y1="200" x2="310" y2="284"/><line x1="400" y1="200" x2="400" y2="284"/><line x1="490" y1="200" x2="490" y2="284"/><line x1="580" y1="200" x2="580" y2="284"/>
+      </g>
+      <g fill="var(--muted)" font-size="6.8">
+        <text x="300" y="298">~90 dk</text><text x="390" y="298">~90 dk</text><text x="480" y="298">~90 dk</text><text x="570" y="298">~90 dk</text>
+      </g>
+      <text x="430" y="222" fill="var(--muted)" font-size="6.9">açlıkta süpürme dalgası · tokken durur</text>
+      <text x="430" y="258" fill="var(--muted)" font-size="6.9">faz kilidi sabit veya kaymalı-kilitli mi?</text>
+      <text x="430" y="294" fill="var(--muted)" font-size="6.9">aday metronom: bağırsak (beyinsiz de çalışır)</text>
+
+      <rect x="18" y="310" width="646" height="52" rx="8" fill="var(--surface-2)" stroke="var(--line)"/>
+      <text x="30" y="326" fill="var(--accent)" font-size="8" font-weight="700">AYIRT EDİCİ TEST ÖNGÖRÜSÜ (HZ-24/2)</text>
+      <text x="30" y="342" fill="var(--ink)" font-size="7.2">Sürekli beslenme vs 3 öğün vs 16:8 vs 24 saat oruç: kalp atışı tespit doğruluğu (interosepsiyon) ve vagal ton, öğün sayısıyla TERS, oruç derinliğiyle DOĞRU ilişkili çıkmalıdır.</text>
+      <text x="30" y="356" fill="var(--muted)" font-size="7.1">Etki MMK döngüsüyle modüle olmalıdır; bu, geleneklerin oruç mimarisini fizyolojik olarak yeniden üretilebilir kılar: anlam, mekanizmanın bir bileşenidir.</text>
+    </svg>

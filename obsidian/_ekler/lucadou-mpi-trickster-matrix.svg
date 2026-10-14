@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Lucadou Pragmatic Information and Trickster Law"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Hyperbola R x A <= const -->
+      <rect x="20" y="22" width="308" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9" font-weight="700">A. LUCADOU PRAGMATİK BİLGİ DENKLEMİ (I = R × A)</text>
+      <line x1="48" y1="162" x2="305" y2="162" stroke="var(--muted)" stroke-width="1.3"/>
+      <line x1="48" y1="58" x2="48" y2="162" stroke="var(--muted)" stroke-width="1.3"/>
+      <text x="54" y="66" fill="var(--good)" font-size="7.5" font-weight="700">A: Özerklik / Anomali (Novelty)</text>
+      <text x="195" y="176" fill="var(--accent)" font-size="7.5" font-weight="700">R: Mekanik Zorlama / Tekrar (Reliability)</text>
+      <!-- Hyperbola curve -->
+      <path d="M 65,68 Q 95,142 292,155" fill="none" stroke="var(--violet)" stroke-width="2.6"/>
+      <circle cx="80" cy="86" r="5" fill="var(--good)"/>
+      <text x="138" y="86" fill="var(--good)" font-size="7.6" font-weight="700">İlk Denemeler / Liminal Hal</text>
+      <text x="138" y="98" fill="var(--muted)" font-size="7.3">(Yüksek A, Düşük Zorlama → Güçlü Sinyal!)</text>
+      <circle cx="255" cy="153" r="5" fill="var(--warn)"/>
+      <text x="225" y="138" text-anchor="middle" fill="var(--warn)" font-size="7.6" font-weight="700">10.000. Mekanik Tekrar</text>
+      <text x="225" y="149" text-anchor="middle" fill="var(--muted)" font-size="7.2">(Sinyal Kayması / Decline Effect!)</text>
+      <text x="32" y="191" fill="var(--ink)" font-size="7.6">• Kuantum Karşılığı: Eberhard İletişimsizlik Teoremi (No-Signaling)</text>
+
+      <!-- Right: Evolutionary Filter Reason -->
+      <rect x="340" y="22" width="300" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="352" y="42" fill="var(--good)" font-size="9" font-weight="700">B. EVRİM NEDEN BEYİN FİLTRESİNİ SEÇTİ? (BERGSON)</text>
+      <text x="352" y="62" fill="var(--ink)" font-size="8">Soru: "Eğer telepati ve yerel-olmayan algı gerçekse,</text>
+      <text x="352" y="75" fill="var(--ink)" font-size="8">Darwinci doğal seçilim neden bunu tam açmadı?"</text>
+      <text x="352" y="96" fill="var(--warn)" font-size="8" font-weight="700">1. Filtresiz Beyin = Biyolojik Ölüm:</text>
+      <text x="352" y="110" fill="var(--muted)" font-size="7.7">   Eğer ormanda size saldıran kaplandan kaçarken</text>
+      <text x="352" y="123" fill="var(--muted)" font-size="7.7">   aynı anda 500 km uzaktaki kabilenin duygularını ve</text>
+      <text x="352" y="136" fill="var(--muted)" font-size="7.7">   Focus 21 vizyonlarını görseydiniz, kaplana yem olurdunuz!</text>
+      <text x="352" y="156" fill="var(--good)" font-size="8" font-weight="700">2. Çözüm (İndirgeme Valfi + Acil Durum Kapısı):</text>
+      <text x="352" y="170" fill="var(--ink)" font-size="7.7">   Evrim uyanık Beta halinde filtreyi %99 kapattı; yalnız</text>
+      <text x="352" y="183" fill="var(--good)" font-size="7.7" font-weight="700">   uykuda, ölüm krizinde ve derin Teta'da valfi açar!</text>
+    </svg>

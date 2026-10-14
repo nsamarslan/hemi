@@ -121,20 +121,6 @@ const seg15 = ntl.bed.find(s => close(s.f1L, 160, 1e-9) && close(s.f1R, 162.8, 1
 ok(!!seg15, "Null Point segment glides down to the Focus 15 carrier (160/162.8 Hz)");
 ok(seg15 && close(seg15.f0L, 170, 1e-9), "Null Point glide starts from the Focus 12 carrier (170 Hz)");
 
-// ---------- markdown renderer (guide) ----------
-const { renderMd, chapters } = await import("../src/js/md.js");
-const mdOut = renderMd("# T\n\nintro **b**\n\n| | A | B |\n|---|---|---|\n| State | Focus 12 | waking |\n\nafter\n- li\n\n## Chap");
-ok(/<table><thead><tr><th><\/th><th>A<\/th><th>B<\/th><\/tr><\/thead><tbody><tr><td>State<\/td><td>Focus 12<\/td><td>waking<\/td><\/tr><\/tbody><\/table>/.test(mdOut), "md: pipe table renders with header + body (separator row dropped)");
-ok(/<p>after<\/p>\n<ul><li>li<\/li><\/ul>/.test(mdOut) && /<p>intro <b>b<\/b><\/p>/.test(mdOut), "md: paragraphs, bold and lists still render around a table");
-ok(chapters("## A\n## B c").length === 2, "md: chapters() lists ## headings");
-ok(/<li>☐ a<\/li><li>☑ b<\/li>/.test(renderMd("- [ ] a\n- [x] b")), "md: task-list items render as checkboxes");
-ok(renderMd("## H\n\n[[storyboard:rebal]]\n\ntext") === '<h2 id="ch-h">H</h2>\n<div class="sb-embed" data-sb-embed="rebal"></div>\n<p>text</p>', "md: [[storyboard:id]] directive becomes an embed box");
-ok(renderMd("## D\n\n[[diagram:epistemic-bayes-filter]]\n\n> **🔍 GİZLİ ÖRÜNTÜ HP-1:** test") === '<h2 id="ch-d">D</h2>\n<div class="diag-embed" data-diag-embed="epistemic-bayes-filter"></div>\n<blockquote class="hp-callout"><b>🔍 GİZLİ ÖRÜNTÜ HP-1:</b> test</blockquote>', "md: [[diagram:id]] and hp-callout blockquote render");
-const DG = await import("../src/js/diagrams.js");
-ok(Object.keys(DG.DIAGRAMS).length === 95 && Object.keys(DG.DIAGRAMS).every(id => /<figure class="res-fig"/.test(DG.renderDiagram(id, "tr")) && /<svg viewBox=/.test(DG.renderDiagram(id, "en"))), `all ${Object.keys(DG.DIAGRAMS).length} research diagrams render valid figure+svg`);
-
-ok(/Input X/.test(DG.renderDiagram("horizon-phi2", "en")) && /Girdi X/.test(DG.renderDiagram("horizon-phi2", "tr")), "Φ-2 diagram renders labels in the selected language");
-
 // ---------- technique storyboards: every technique has one, every scene renders valid SVG ----------
 const SB = await import("../src/js/storyboard.js");
 // strict XML parsing when jsdom is around (SMOKE_DIR, same as smoke-test.mjs); otherwise a tag-balance check
@@ -145,7 +131,6 @@ const wellFormed = svg => {
   const open = tag => (svg.match(new RegExp(`<${tag}[\\s>]`, "g")) || []).length, close = tag => (svg.match(new RegExp(`</${tag}>`, "g")) || []).length;
   return ["svg", "g", "text"].every(tg => open(tg) === close(tg)) && !/&(?!amp;|lt;|gt;|quot;|#\d+;)/.test(svg);
 };
-ok(["tr", "en"].every(lang => wellFormed(DG.DIAGRAMS["horizon-phi2"].svg(lang))), "Φ-2 diagram is well-formed SVG in both languages");
 const techIds = ["a", "b"].flatMap(k => JSON.parse(readFileSync(join(root, "content", `techniques-${k}.json`), "utf8")).techniques.map(x => x.id));
 ok(techIds.length === 21 && techIds.every(id => SB.storyboards[id]), `storyboards cover all ${techIds.length} techniques`);
 let scenes = 0, badScene = null;

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Retrocausality conditional versus marginal schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="27" text-anchor="middle" fill="var(--accent)" font-size="11" font-weight="700">UA-29 · GELECEK VERİYE KOŞULLAMA</text>
+      <rect x="20" y="45" width="203" height="129" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="32" y="65" fill="var(--ok)" font-size="9" font-weight="700">🟢 LABORATUVAR</text>
+      <g font-size="8" fill="var(--ink)"><text x="32" y="88">Hazırlama → ara ölçüm</text><text x="32" y="109">Son seçim → alt grup</text><text x="32" y="132">Girişim / zayıf değer</text><text x="32" y="153">Marjinal aynı kalır</text></g>
+      <rect x="238" y="45" width="203" height="129" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="250" y="65" fill="var(--warn)" font-size="9" font-weight="700">🟡 BEDENSEL SINYAL</text>
+      <g font-size="8" fill="var(--ink)"><text x="250" y="88">26 rapor: d ≈ 0,21</text><text x="250" y="109">Önceki deneme artığı?</text><text x="250" y="132">Sıra / beklenti etkisi?</text><text x="250" y="153">2015 yöntem testi: null</text></g>
+      <rect x="456" y="45" width="204" height="129" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="65" fill="var(--bad)" font-size="9" font-weight="700">🔴 SIÇRAMA</text>
+      <g font-size="8" fill="var(--ink)"><text x="468" y="88">Alt grup ≠ geçmiş mesaj</text><text x="468" y="109">Korelasyon ≠ mekanizma</text><text x="468" y="132">Bilinç ile köprü yok</text><text x="468" y="153">Erken etiket tahmini şart</text></g>
+      <rect x="20" y="194" width="640" height="88" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="32" y="215" fill="var(--violet)" font-size="9" font-weight="700">HZ-29 · P(X_erken | S_son) değişebilir; P(X_erken | do(S_son)) sabit kalır</text>
+      <text x="32" y="238" fill="var(--ink)" font-size="8">/A Tekil fotonları mühürle → son seçim kör sınıflandırılabiliyor mu?</text>
+      <text x="32" y="260" fill="var(--ink)" font-size="8">/B Donanım rastgeleliği + mühürlü ön fizyoloji + dış merkez doğrulaması</text>
+      <text x="32" y="318" fill="var(--muted)" font-size="8">Çürütülürse: kuantum koşullu matematik ve normal beklenti fizyolojisi kalır.</text>
+    </svg>

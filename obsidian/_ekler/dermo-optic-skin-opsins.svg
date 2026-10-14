@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Dermo Optic Perception and Skin Opsins"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Nose Peek vs Opaque Box -->
+      <rect x="20" y="22" width="298" height="176" rx="9" fill="var(--surface-2)" stroke="var(--danger)"/>
+      <text x="32" y="42" fill="var(--danger)" font-size="9" font-weight="700">1. OPTİK FİZİK SINIRI: MERCEKSİZ GÖRÜNTÜ OLMAZ</text>
+      <text x="32" y="62" fill="var(--ink)" font-size="8.2">• Kuleshova &amp; Göz Bağı Gösterileri (1960'lar):</text>
+      <text x="32" y="76" fill="var(--muted)" font-size="7.9">  Tek kat göz bağı burun kemerinin iki yanında 1–2 mm</text>
+      <text x="32" y="89" fill="var(--muted)" font-size="7.9">  aşağı doğru görüş konisi bırakır (Gardner, 1966).</text>
+      <text x="32" y="109" fill="var(--ink)" font-size="8.2">• Optik Kanun: Deride kornea/mercek (lens) yoktur!</text>
+      <text x="32" y="122" fill="var(--muted)" font-size="7.9">  Mercek olmadan harften saçılan fotonlar deride üst üste</text>
+      <text x="32" y="135" fill="var(--muted)" font-size="7.9">  biner (bulanık aydınlanma); uzamsal "A harfi" görüntüsü</text>
+      <text x="32" y="148" fill="var(--muted)" font-size="7.9">  (spatial focus) oluşturamaz.</text>
+      <text x="32" y="172" fill="var(--good)" font-size="8">→ Kapalı kutuda harf biliniyorsa bu "deri optiği" değil,</text>
+      <text x="32" y="185" fill="var(--good)" font-size="8">   dokunsal mikrokabartı ya da merkezi durugörüdür (CRV).</text>
+
+      <!-- Right: Genuine Skin Opsins -->
+      <rect x="332" y="22" width="308" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="344" y="42" fill="var(--good)" font-size="9" font-weight="700">2. BİYOLOJİK SÜRPRİZ: DERİDEKİ 4 OPSİN (SINIF A)</text>
+      <text x="344" y="62" fill="var(--ink)" font-size="8.2">• Elena Oancea (Brown Üniv., Current Biology 2011):</text>
+      <text x="344" y="76" fill="var(--muted)" font-size="7.9">  Gözdeki retinanın kullandığı G-protein bağlı ışık</text>
+      <text x="344" y="89" fill="var(--muted)" font-size="7.9">  reseptörleri insan epidermisinde de aktif olarak çalışır!</text>
+      <text x="344" y="108" fill="var(--accent)" font-size="8.2" font-weight="700">• OPN2 (Rodopsin) &amp; OPN3 (Encephalopsin): Mavi/Yeşil</text>
+      <text x="344" y="123" fill="var(--violet)" font-size="8.2" font-weight="700">• OPN4 (Melanopsin) &amp; OPN5 (Nöropsin): UVA (380 nm)</text>
+      <text x="344" y="142" fill="var(--ink)" font-size="8">• Ne Yapabilir? Harf okuyamaz ama ışığın rengini/frekansını,</text>
+      <text x="344" y="155" fill="var(--muted)" font-size="7.9">  kızılötesi/UV foton akısını algılar, Ca²⁺ dalgası ve</text>
+      <text x="344" y="168" fill="var(--muted)" font-size="7.9">  Nitrik Oksit (NO) salgılayarak damarları/sinirleri uyarır!</text>
+      <text x="344" y="184" fill="var(--good)" font-size="7.8">→ Gateway "Renk Nefesi"nin gerçek fotobiyolojik zemini.</text>
+    </svg>

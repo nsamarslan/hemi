@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Kozyrev Mirror and Kaznacheev Quartz Cell"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Kozyrev Spiral -->
+      <rect x="20" y="22" width="298" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9.2" font-weight="700">A. KOZIREV AYNASI (1.5 SARIM ARŞİMET SPİRALİ)</text>
+      <path d="M165 112 m -52 0 a 52 52 0 1 1 92 32 a 38 38 0 1 0 -68 -24 a 22 22 0 1 1 36 14" fill="none" stroke="var(--accent)" stroke-width="3"/>
+      <circle cx="168" cy="112" r="6" fill="var(--good)"/>
+      <text x="32" y="168" fill="var(--ink)" font-size="8">• Alüminyum silindir (h=2.6 m) odak noktasında denek:</text>
+      <text x="32" y="182" fill="var(--muted)" font-size="7.8">  Akustik + termal IR + biyofoton + EM ekranlama odağı.</text>
+
+      <!-- Right: Kaznacheev Cytopathic Mirror Effect -->
+      <rect x="332" y="22" width="308" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="344" y="42" fill="var(--violet)" font-size="9.2" font-weight="700">B. KAZNAÇEYEV "SİTOPATİK AYNA ETKİSİ" (15.000 DENEY)</text>
+      <rect x="352" y="60" width="106" height="72" rx="6" fill="var(--surface)" stroke="var(--danger)"/>
+      <text x="405" y="80" text-anchor="middle" fill="var(--danger)" font-size="8" font-weight="700">Kültür A (Enfekte)</text>
+      <text x="405" y="96" text-anchor="middle" fill="var(--ink)" font-size="7.8">Virüs / HgCl₂ / UV</text>
+      <text x="405" y="114" text-anchor="middle" fill="var(--muted)" font-size="7.5">Hücre ölümü başlar</text>
+
+      <rect x="462" y="56" width="14" height="80" rx="2" fill="var(--accent)" fill-opacity="0.4" stroke="var(--accent)"/>
+      <text x="469" y="148" text-anchor="middle" fill="var(--accent)" font-size="7.5" font-weight="700">KUVARS CAM</text>
+
+      <rect x="480" y="60" width="106" height="72" rx="6" fill="var(--surface)" stroke="var(--good)"/>
+      <text x="533" y="80" text-anchor="middle" fill="var(--good)" font-size="8" font-weight="700">Kültür B (Steril)</text>
+      <text x="533" y="96" text-anchor="middle" fill="var(--ink)" font-size="7.8">Kimyasal temas = 0</text>
+      <text x="533" y="114" text-anchor="middle" fill="var(--danger)" font-size="7.8">~%75 Aynı Patoloji!</text>
+
+      <text x="344" y="168" fill="var(--ink)" font-size="8">• Kontrol: Normal pencere camı (UV geçirmez) konursa etki = %0!</text>
+      <text x="344" y="182" fill="var(--good)" font-size="7.9">→ Kanıt: Mekanizma mistik değil, 200–350 nm UV Biyofoton iletişimidir.</text>
+    </svg>

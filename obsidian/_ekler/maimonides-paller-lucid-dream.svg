@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Maimonides and 2021 Lucid Dream Communication"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Maimonides Dream Lab -->
+      <rect x="20" y="22" width="302" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="32" y="42" fill="var(--violet)" font-size="9" font-weight="700">A. MAIMONIDES RÜYA LABORATUVARI (1962–1978)</text>
+      <text x="32" y="60" fill="var(--ink)" font-size="8">Dr. Montague Ullman &amp; Stanley Krippner:</text>
+      <text x="32" y="76" fill="var(--muted)" font-size="7.8">1. Alıcı ses geçirmez odada uyur; EEG/EOG ile</text>
+      <text x="32" y="89" fill="var(--muted)" font-size="7.8">   REM rüya evresine girdiği an tespit edilir.</text>
+      <text x="32" y="104" fill="var(--muted)" font-size="7.8">2. Uzak odadaki gönderici rastgele seçilen sanat</text>
+      <text x="32" y="117" fill="var(--muted)" font-size="7.8">   tablosuna (veya multisensör kutuya) odaklanır.</text>
+      <text x="32" y="132" fill="var(--muted)" font-size="7.8">3. REM bitiminde denek uyandırılıp rüyası kaydedilir.</text>
+      <text x="32" y="152" fill="var(--good)" font-size="8" font-weight="700">• 450 Gece Meta-Analizi (Sherwood &amp; Roe, 2003):</text>
+      <text x="32" y="166" fill="var(--good)" font-size="8">  %63 isabet (Şans = %50, p &lt; 10⁻⁶)!</text>
+      <text x="32" y="182" fill="var(--ink)" font-size="7.6">• Jeomanyetik sakin gecelerde (Kp &lt; 2) başarı zirvede!</text>
+
+      <!-- Right: 2021 Paller &amp; Konkoly Current Biology -->
+      <rect x="334" y="22" width="306" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="346" y="42" fill="var(--good)" font-size="9" font-weight="700">B. 2021 ÇİFT-YÖNLÜ LÜSİD RÜYA İLETİŞİMİ (CELL / CUR. BIOL.)</text>
+      <text x="346" y="60" fill="var(--ink)" font-size="8">Northwestern, Sorbonne, Osnabrück &amp; Radboud Üniv.:</text>
+      <!-- Signal lines -->
+      <rect x="348" y="70" width="278" height="72" rx="6" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="358" y="86" fill="var(--accent)" font-size="7.8" font-weight="700">1. Deneyci Sesi (Dışarıdan): "Sekiz eksi altı kaçtır? (8 − 6 = ?)"</text>
+      <text x="358" y="102" fill="var(--violet)" font-size="7.8" font-weight="700">2. EEG (Alfa/Teta/Gama): Denek %100 REM uykusunda!</text>
+      <text x="358" y="118" fill="var(--good)" font-size="7.8" font-weight="700">3. EOG (Göz Kasları — Felçli Olmayan Tek Kanal!):</text>
+      <path d="M 364,132 L 385,132 L 392,123 L 400,139 L 408,123 L 416,139 L 424,132 L 600,132" fill="none" stroke="var(--good)" stroke-width="2"/>
+      <text x="495" y="129" fill="var(--good)" font-size="7.6" font-weight="700">Sol-Sağ × 2 kez ("Cevap = 2"!)</text>
+      <text x="346" y="158" fill="var(--ink)" font-size="7.8">• 36 denekte 158 sorgu: %18.4 tam doğru gerçek-zamanlı yanıt!</text>
+      <text x="346" y="172" fill="var(--good)" font-size="7.8" font-weight="700">• Focus 10/21 "Zihin Uyanık – Beden Uykuda" durumunun</text>
+      <text x="346" y="185" fill="var(--good)" font-size="7.8" font-weight="700">  nörobilimde %100 kanıtlanmış laboratuvar karşılığı!</text>
+    </svg>

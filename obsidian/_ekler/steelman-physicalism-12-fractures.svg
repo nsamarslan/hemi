@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Steelman Physicalism vs 12 Empirical Fractures"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Where Physicalism Succeeds -->
+      <rect x="20" y="22" width="296" height="176" rx="9" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="32" y="42" fill="var(--warn)" font-size="8.6" font-weight="700">A. FİZİKSELCİ ŞÜPHECİLİĞİN HAKLI OLDUĞU ALANLAR</text>
+      <text x="32" y="60" fill="var(--ink)" font-size="7.6">✓ Ticari medyumların %95'i: Soğuk Okuma (Cold Reading) +</text>
+      <text x="32" y="72" fill="var(--muted)" font-size="7.4">  Forer/Barnum etkisi ve subjektif doğrulama yanlılığı.</text>
+      <text x="32" y="87" fill="var(--ink)" font-size="7.6">✓ Kanallık / Regresyonların %90'ı: Kriptomnezi (Flournoy</text>
+      <text x="32" y="99" fill="var(--muted)" font-size="7.4">  1899 Hélène Smith) ve Janet dissosiyatif alt-kişilikleri.</text>
+      <text x="32" y="114" fill="var(--ink)" font-size="7.6">✓ "Perili Ev" Gölgeleri: 18.98 Hz İnfrason göz küresi</text>
+      <text x="32" y="126" fill="var(--muted)" font-size="7.4">  rezonansı (Tandy 1998), karbonmonoksit ve uyku felci.</text>
+      <text x="32" y="141" fill="var(--ink)" font-size="7.6">✓ Sahne Zihin Okuma / Kaşık Bükme: İllüzyon hileleri</text>
+      <text x="32" y="153" fill="var(--muted)" font-size="7.4">  (Randi Project Alpha) ve ideomotor etki (Faraday 1853).</text>
+      <text x="32" y="168" fill="var(--ink)" font-size="7.6">✓ McDonnell CIA Raporu (D03): "Planck mesafesi" fiziği</text>
+      <text x="32" y="180" fill="var(--muted)" font-size="7.4">  hatalıdır; Emoto'nun su fotoğrafları çift-kör değildir.</text>
+
+      <!-- Right: 12 Fracture Points -->
+      <rect x="326" y="22" width="314" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="338" y="42" fill="var(--good)" font-size="8.6" font-weight="700">B. İNDİRGEMECİLİĞİN ÇÖKTÜĞÜ 12 AMPİRİK KIRILMA NOKTASI</text>
+      <text x="338" y="59" fill="var(--ink)" font-size="7.4">1. Carhart-Harris (PNAS 2012) &amp; Urgesi (2010): Negatif metabolizma!</text>
+      <text x="338" y="71" fill="var(--ink)" font-size="7.4">2. Snyder rTMS Savant (2003–2012): Sol lob susunca açılan deha.</text>
+      <text x="338" y="83" fill="var(--ink)" font-size="7.4">3. Terminal Berraklık &amp; Lorber Hidrosefali (%90 korteks kaybı).</text>
+      <text x="338" y="95" fill="var(--ink)" font-size="7.4">4. Mason İktiyozis (BMJ 1952) &amp; DID VEP/Optik geçişleri (Putnam).</text>
+      <text x="338" y="107" fill="var(--ink)" font-size="7.4">5. Kirschvink (2019) Beyin Manyetiti &amp; Durand (2019) Efaptik Dalga.</text>
+      <text x="338" y="119" fill="var(--ink)" font-size="7.4">6. Vasiliev Kurşun/Faraday &amp; Grinberg (1994) Aktarılan Potansiyel.</text>
+      <text x="338" y="131" fill="var(--ink)" font-size="7.4">7. Duane &amp; Behrendt (Science 1965) İkiz EEG &amp; Fetal Mikrokimerizm.</text>
+      <text x="338" y="143" fill="var(--ink)" font-size="7.4">8. SRI/Stargate (Utts 1995) &amp; Ganzfeld Meta-Analizi (p &lt; 10⁻¹³).</text>
+      <text x="338" y="155" fill="var(--ink)" font-size="7.4">9. Maimonides REM &amp; Konkoly (Curr. Biol. 2021) Çift-Yönlü Rüya.</text>
+      <text x="338" y="167" fill="var(--ink)" font-size="7.4">10. Mossbridge–Utts (Frontiers 2012) Fizyolojik Presentiment (Z=5.3).</text>
+      <text x="338" y="179" fill="var(--ink)" font-size="7.4">11. UVa DOPS Stevenson/Tucker Otopsi Eşleşmeli Doğum İzleri.</text>
+      <text x="338" y="191" fill="var(--good)" font-size="7.4" font-weight="700">12. Wigner's Friend (Nature Phys 2020, 5σ) &amp; Ryu–Takayanagi Uzayı.</text>
+    </svg>

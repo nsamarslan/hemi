@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="UAP record selection funnel schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="27" text-anchor="middle" fill="var(--accent)" font-size="11" font-weight="700">UA-31 · KAYIT SEÇİLİM HUNİSİ</text>
+      <rect x="20" y="45" width="203" height="132" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="32" y="65" fill="var(--ok)" font-size="9" font-weight="700">🟢 TÜM OLAYLAR</text>
+      <g font-size="8" fill="var(--ink)"><text x="32" y="89">Bilinen + bilinmeyen</text><text x="32" y="111">Tanık ilk ifadesi</text><text x="32" y="133">Sensör / zaman / menzil</text><text x="32" y="155">Kör sıralı kayıt</text></g>
+      <rect x="238" y="45" width="203" height="132" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="250" y="65" fill="var(--warn)" font-size="9" font-weight="700">🟡 İKİ FİLTRE</text>
+      <g font-size="8" fill="var(--ink)"><text x="250" y="89">/1 Şaşırtıcıysa raporla</text><text x="250" y="111">/2 İyi belgeli → çöz</text><text x="250" y="133">Zayıf belge → açık kalır</text><text x="250" y="155">Stigma raporu azaltır</text></g>
+      <rect x="456" y="45" width="204" height="132" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="468" y="65" fill="var(--bad)" font-size="9" font-weight="700">🟠 AÇIK DOSYALAR</text>
+      <g font-size="8" fill="var(--ink)"><text x="468" y="89">Belirsizlik oranı yüksek</text><text x="468" y="111">Motif tek başına ontoloji yok</text><text x="468" y="133">Açık ≠ açıklanamaz</text><text x="468" y="155">Hilebaz fail kanıtı yok</text></g>
+      <rect x="20" y="195" width="640" height="86" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="32" y="216" fill="var(--violet)" font-size="9" font-weight="700">HZ-31 · P(açık | kaliteli kayıt) ve P(açık | zayıf kayıt) ayrı ölçülür</text>
+      <text x="32" y="239" fill="var(--ink)" font-size="8">/1 Prospektif tüm kayıtlar + iki kalibre sensör · /2 Bağımsız ilk ifadeler</text>
+      <text x="32" y="261" fill="var(--ink)" font-size="8">/3 Bilinen uydu/meteor/dron negatif kontrolleri</text>
+      <text x="32" y="316" fill="var(--muted)" font-size="8">Çürütülürse: iyi kaydedilen dirençli olay ayrıca araştırılır; tanıklar yok sayılmaz.</text>
+    </svg>

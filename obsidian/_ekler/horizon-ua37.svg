@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Voice experience attribution and textual selection diagram"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="27" text-anchor="middle" fill="var(--accent)" font-size="11" font-weight="700">UA-37 · SESİ KİM ADLANDIRDI?</text>
+      <rect x="20" y="49" width="200" height="128" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="32" y="70" fill="var(--ok)" font-size="9" font-weight="700">🟢 YAŞANTI</text>
+      <g font-size="8" fill="var(--ink)"><text x="32" y="94">Bugün AVH / iç konuşma</text><text x="32" y="116">Kaynak izleme araştırılır</text><text x="32" y="138">Antik beyin: ölçülemez</text></g>
+      <text x="222" y="117" fill="var(--violet)" font-size="16">→</text>
+      <rect x="242" y="49" width="200" height="128" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="254" y="70" fill="var(--warn)" font-size="9" font-weight="700">🟡 ATIF</text>
+      <g font-size="8" fill="var(--ink)"><text x="254" y="94">Tanrı / ata / kendi sözüm</text><text x="254" y="116">Otorite + kültür çerçevesi</text><text x="254" y="138">Tanı veya devre değil</text></g>
+      <text x="444" y="117" fill="var(--violet)" font-size="16">→</text>
+      <rect x="464" y="49" width="196" height="128" rx="8" fill="var(--surface-2)" stroke="var(--bad)"/>
+      <text x="476" y="70" fill="var(--bad)" font-size="9" font-weight="700">🟠 KAYIT</text>
+      <g font-size="8" fill="var(--ink)"><text x="476" y="94">Destan / mektup / yasa</text><text x="476" y="116">Yazı + koruma yanlılığı</text><text x="476" y="138">Metin ≠ insan prevalansı</text></g>
+      <rect x="20" y="195" width="640" height="85" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="32" y="217" fill="var(--violet)" font-size="9" font-weight="700">HZ-37 · Kayıt oranı ≈ yaşantı × kaynak atfı × tür seçilimi</text>
+      <text x="32" y="241" fill="var(--ink)" font-size="8">/1 Kör kod: aynı türde tarihsel değişim mi? /2 Modern: işitme ve atıf ayrı mı?</text>
+      <text x="32" y="263" fill="var(--ink)" font-size="8">Sağ / sol beyin ve bilinç yokluğu için bu metinler yeterli kanıt değil.</text>
+      <text x="32" y="316" fill="var(--muted)" font-size="8">Çürütülürse: kaynak atfı araştırması kalır; tür etkisi büyük tezi küçültür.</text>
+    </svg>

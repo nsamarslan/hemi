@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="John Chang Mo Pai and Tummo"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Mo Pai Bio-Capacitor -->
+      <rect x="20" y="22" width="302" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9.2" font-weight="700">A. MO PAI (NEİDAN) ALT DANTİAN BİYO-KAPASİTÖRÜ</text>
+      <circle cx="92" cy="116" r="36" fill="var(--accent)" fill-opacity="0.16" stroke="var(--accent)" stroke-width="2"/>
+      <path d="M56 116 A36 36 0 0 1 128 116" fill="var(--danger)" fill-opacity="0.25"/>
+      <text x="92" y="106" text-anchor="middle" fill="var(--danger)" font-size="8.5" font-weight="700">YANG (+)</text>
+      <text x="92" y="132" text-anchor="middle" fill="var(--accent)" font-size="8.5" font-weight="700">YİN (−)</text>
+      <text x="142" y="66" fill="var(--ink)" font-size="8">1. Alt Dantian (Göbek altı ~5 cm):</text>
+      <text x="142" y="79" fill="var(--muted)" font-size="7.8">   Enterik Sinir Sistemi (~500 milyon</text>
+      <text x="142" y="91" fill="var(--muted)" font-size="7.8">   nöron) + Mezenterik Kollajen Fasya</text>
+      <text x="142" y="103" fill="var(--muted)" font-size="7.8">   + EZ Su (H₃O₂) dielektrik zarları.</text>
+      <text x="142" y="122" fill="var(--ink)" font-size="8">2. Seviye 1–4 Eğitim: Meditasyon +</text>
+      <text x="142" y="135" fill="var(--muted)" font-size="7.8">   diyafram/perineum piezoelektrik</text>
+      <text x="142" y="147" fill="var(--muted)" font-size="7.8">   sıkıştırması (elektrikli yılanbalığı</text>
+      <text x="142" y="159" fill="var(--muted)" font-size="7.8">   elektrosit dizilimi analojisi).</text>
+      <text x="32" y="184" fill="var(--good)" font-size="7.9">• 1988/1996 Kayıtları: LED yakma, denek kasında istemsiz tetani.</text>
+
+      <!-- Right: Benson Harvard Tummo -->
+      <rect x="336" y="22" width="304" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="348" y="42" fill="var(--violet)" font-size="9.2" font-weight="700">B. HARVARD TUMMO ÖLÇÜMÜ (BENSON, NATURE 1982)</text>
+      <line x1="364" y1="146" x2="612" y2="146" stroke="var(--muted)"/>
+      <line x1="364" y1="146" x2="364" y2="62" stroke="var(--muted)"/>
+      <path d="M366 134 L412 132 L442 74 L536 68 L586 112 L610 124" fill="none" stroke="var(--good)" stroke-width="2.2"/>
+      <text x="450" y="64" fill="var(--good)" font-size="8.2" font-weight="700">+8.3°C Artış (Parmak/Ayak Ucu)</text>
+      <text x="348" y="166" fill="var(--ink)" font-size="8">• Soğuk odada ıslak çarşafları sırtında kurutan rahipler</text>
+      <text x="348" y="180" fill="var(--muted)" font-size="7.8">• Wim Hof (Kox et al., PNAS 2014): İradi adrenalin + IL-10 artışı</text>
+    </svg>

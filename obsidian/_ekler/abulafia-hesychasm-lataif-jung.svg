@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Abulafia Hesychasm Lataif and Jung"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- 4 Quadrants -->
+      <rect x="20" y="22" width="304" height="84" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="40" fill="var(--accent)" font-size="8.4" font-weight="700">1. ABRAHAM ABULAFIA: HOKHMAT HA-TZERUF (1280)</text>
+      <text x="32" y="55" fill="var(--ink)" font-size="7.6">• Yöntem: Anlamsız harf matrislerini (א-ב-ג) hızlı nefes, baş</text>
+      <text x="32" y="67" fill="var(--muted)" font-size="7.4">  hareketleri ve ses perdeleriyle (Resonant Tuning!) döndürmek.</text>
+      <text x="32" y="81" fill="var(--good)" font-size="7.6" font-weight="700">• Nörobilimsel Sır: Sol-beyin Broca/Wernicke dil tamponunu</text>
+      <text x="32" y="93" fill="var(--good)" font-size="7.6" font-weight="700">  (buffer overflow) kilitleyip Sağ-Yarıküre vizyonunu açar!</text>
+
+      <rect x="336" y="22" width="304" height="84" rx="8" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="348" y="40" fill="var(--good)" font-size="8.4" font-weight="700">2. GREGORIOS PALAMAS: HESYCHASM KALP DUASI (1340)</text>
+      <text x="348" y="55" fill="var(--ink)" font-size="7.6">• Yöntem: Çene göğse bastırılır (Karotid sinüs / Vagus uyarımı!),</text>
+      <text x="348" y="67" fill="var(--muted)" font-size="7.4">  bakış kalp merkezine indirilir ve dakikada ~6 nefesle dua okunur.</text>
+      <text x="348" y="81" fill="var(--good)" font-size="7.6" font-weight="700">• Sonuç: 0.1 Hz Kalp-Beyin Koheransı (Bernardi BMJ 2001) +</text>
+      <text x="348" y="93" fill="var(--good)" font-size="7.6" font-weight="700">  "Tabor Işığı" (Epifiz/V1 içsel biyofotonik parlaması!)</text>
+
+      <rect x="20" y="114" width="304" height="84" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="32" y="132" fill="var(--violet)" font-size="8.4" font-weight="700">3. TASAVVUF LETÂİF-İ HAMSE &amp; MEISTER ECKHART</text>
+      <text x="32" y="147" fill="var(--ink)" font-size="7.6">• Kalb (Sol göğüs) → Rûh (Sağ göğüs) → Sırr → Hafî → Ahfâ</text>
+      <text x="32" y="159" fill="var(--muted)" font-size="7.4">  (Göğüs ve kafa içi otonom/endokrin pleksus odaklaması).</text>
+      <text x="32" y="173" fill="var(--good)" font-size="7.6" font-weight="700">• Eckhart ("Gelassenheit" &amp; "Seelengrund"): Tüm imgeleri</text>
+      <text x="32" y="185" fill="var(--good)" font-size="7.6" font-weight="700">  boşaltarak Ruhun Dibi'nde (Focus 21/Mutlak) doğuş.</text>
+
+      <rect x="336" y="114" width="304" height="84" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="348" y="132" fill="var(--warn)" font-size="8.4" font-weight="700">4. C. G. JUNG: AKTİF İMAJİNASYON (LIBER NOVUS, 1913)</text>
+      <text x="348" y="147" fill="var(--ink)" font-size="7.6">• Pasif hayal kurma DEĞİL: Uyanık egoyu koruyarak hipnogojik</text>
+      <text x="348" y="159" fill="var(--muted)" font-size="7.4">  derinliğe inmek ve özerk arketiplerle (Philemon) gerçek</text>
+      <text x="348" y="171" fill="var(--muted)" font-size="7.4">  bir etik/felsefi diyalog yürütmek.</text>
+      <text x="348" y="185" fill="var(--good)" font-size="7.6" font-weight="700">→ Monroe'nun Focus 12–27 "Explorer" protokolünün tam ikizi!</text>
+    </svg>

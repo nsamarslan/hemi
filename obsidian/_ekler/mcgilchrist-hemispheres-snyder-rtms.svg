@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="McGilchrist Hemispheres and Snyder rTMS Savant"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: McGilchrist Two Hemispheres -->
+      <rect x="20" y="22" width="318" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9" font-weight="700">A. SPERRY &amp; McGILCHRIST: SOL (ELÇİ) vs. SAĞ (EFENDİ)</text>
+      <!-- Left Hemisphere Box -->
+      <rect x="32" y="54" width="142" height="114" rx="6" fill="var(--surface)" stroke="var(--warn)"/>
+      <text x="103" y="70" text-anchor="middle" fill="var(--warn)" font-size="8.2" font-weight="700">SOL YARIKÜRE ("Elçi")</text>
+      <text x="40" y="86" fill="var(--muted)" font-size="7.5">• Dar Lazer Odak (Av yakalama)</text>
+      <text x="40" y="99" fill="var(--muted)" font-size="7.5">• Sözel Etiket &amp; Kategori</text>
+      <text x="40" y="112" fill="var(--muted)" font-size="7.5">• Parçalara Böler (Statik/Ölü)</text>
+      <text x="40" y="125" fill="var(--warn)" font-size="7.5" font-weight="700">• Analitik Kaplama (AOL)</text>
+      <text x="40" y="138" fill="var(--warn)" font-size="7.5" font-weight="700">• Bilmediğini İnkâr Eder</text>
+      <text x="40" y="151" fill="var(--muted)" font-size="7.4">  (Konfabülasyon / Yorumcu)</text>
+
+      <!-- Right Hemisphere Box -->
+      <rect x="184" y="54" width="142" height="114" rx="6" fill="var(--surface)" stroke="var(--good)"/>
+      <text x="255" y="70" text-anchor="middle" fill="var(--good)" font-size="8.2" font-weight="700">SAĞ YARIKÜRE ("Efendi")</text>
+      <text x="192" y="86" fill="var(--ink)" font-size="7.5">• 360° Panoramik / Bütüncül</text>
+      <text x="192" y="99" fill="var(--ink)" font-size="7.5">• Sözsüz Dalga, Ritim &amp; Faz</text>
+      <text x="192" y="112" fill="var(--ink)" font-size="7.5">• Canlı Bağlam &amp; Metafor</text>
+      <text x="192" y="125" fill="var(--good)" font-size="7.5" font-weight="700">• Ham Gestalt &amp; Empati</text>
+      <text x="192" y="138" fill="var(--good)" font-size="7.5" font-weight="700">• Bolte Taylor İnmesi (1996):</text>
+      <text x="192" y="151" fill="var(--muted)" font-size="7.4">  Sol susunca: Kozmik Birlik!</text>
+
+      <text x="32" y="185" fill="var(--ink)" font-size="7.6">→ Hemi-Sync: Sol yarıküreyi Sağ yarıkürenin fazına kilitler!</text>
+
+      <!-- Right: Allan Snyder rTMS Savant -->
+      <rect x="350" y="22" width="290" height="176" rx="9" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="362" y="42" fill="var(--violet)" font-size="9" font-weight="700">B. ALLAN SNYDER: rTMS İLE "SAVANT" AÇMA (2003–12)</text>
+      <text x="362" y="60" fill="var(--ink)" font-size="8">Sydney Üniv. Prof. Allan Snyder'ın Deneyi:</text>
+      <text x="362" y="75" fill="var(--muted)" font-size="7.7">Sağlıklı üniversite öğrencilerinin SOL Ön Temporal</text>
+      <text x="362" y="88" fill="var(--muted)" font-size="7.7">Lobuna (LATL) 15 dk boyunca 1 Hz ketleyici rTMS</text>
+      <text x="362" y="101" fill="var(--muted)" font-size="7.7">(veya katodal tDCS) uygulanarak sol sansür kapatıldı:</text>
+      <rect x="362" y="112" width="266" height="58" rx="6" fill="var(--surface)" stroke="var(--good)"/>
+      <text x="372" y="128" fill="var(--good)" font-size="8" font-weight="700">Sol Lob Susturulduğu Anda Ortaya Çıkanlar:</text>
+      <text x="372" y="142" fill="var(--ink)" font-size="7.7">1. Perspektif ve doğalcı çizim yeteneğinde ani sıçrama!</text>
+      <text x="372" y="155" fill="var(--ink)" font-size="7.7">2. 9 nokta bulmacasında %0 → %40 çözüm + hızlı nokta sayma!</text>
+      <text x="362" y="185" fill="var(--good)" font-size="7.8" font-weight="700">→ Kanıt (HP-2): Ham deha hepimizde var; Sol Lob sansürlüyor!</text>
+    </svg>

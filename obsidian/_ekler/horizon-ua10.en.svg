@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Descent myth neuro-topology schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">İNİŞ MİTLERİ (HZ-10): ORTAK DENEYİM, ORTAK İSKELET</text>
+
+      <rect x="18" y="38" width="212" height="150" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="30" y="54" fill="var(--accent)" font-size="8" font-weight="700">DÖRT AŞAMALI İSKELET</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="30" y="72">1 · Çağrı ve eşik</text>
+        <text x="30" y="88">2 · İniş ve kapılar / geçişler</text>
+        <text x="30" y="104">3 · Yargı ve ölüm</text>
+        <text x="30" y="120">4 · Dönüş ve hediye (ya da yarım dönüş)</text>
+        <text x="30" y="140" fill="var(--muted)">İnanna: yedi kapı · Osiris: parçalanma</text>
+        <text x="30" y="153" fill="var(--muted)">Orpheus: yasak · Popol Vuh: Xibalba</text>
+        <text x="30" y="170" fill="var(--muted)">Benzerlik gerçek; kaynağı tartışmalı</text>
+      </g>
+
+      <rect x="240" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="252" y="54" fill="var(--warn)" font-size="8" font-weight="700">YAPISAL HAT vs ELEŞTİRİ</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="252" y="72">Propp 1928: 31 işlev, 196 masal</text>
+        <text x="252" y="85">Campbell 1949: monomit (ayrılma–</text>
+        <text x="252" y="98">  inisiyasyon–dönüş) · Eliade: ölüm/yenidoğuş</text>
+        <text x="252" y="116" fill="var(--bad)">Dundes 2005: tür karışımı, seçici örnek,</text>
+        <text x="252" y="129" fill="var(--bad)">  nicel doğrulama YOK</text>
+        <text x="252" y="145">ATU: olasılıksal benzerlik · filogeni</text>
+        <text x="252" y="158">  (Tehrani 2013): yayılım, evrensellik değil</text>
+        <text x="252" y="176" fill="var(--muted)">Difüzyon alternatifi çoğu benzerliğe yeter</text>
+      </g>
+
+      <rect x="456" y="38" width="206" height="150" rx="8" fill="var(--surface-2)" stroke="var(--ok)"/>
+      <text x="468" y="54" fill="var(--ok)" font-size="8" font-weight="700">NÖRO-FENOMENOLOJİ (🟢)</text>
+      <g font-size="6.9" fill="var(--ink)">
+        <text x="468" y="72">Hipnagoji: eşik ve kapı imgelemi</text>
+        <text x="468" y="85">Uyku felci: basınç ve varlık hissi</text>
+        <text x="468" y="98">NDE: tünel, ışık, yaşam gözden geçirmesi,</text>
+        <text x="468" y="111">  geri dönüş kararı (Greyson ölçekleri)</text>
+        <text x="468" y="127">DMN çözülmesi: ego sınırı geçirgenleşir</text>
+        <text x="468" y="140">Vestibüler: düşme, aşağı çekilme hissi</text>
+        <text x="468" y="158" fill="var(--muted)">Ortak kaynak havuzu: bilincin çözülme</text>
+        <text x="468" y="171" fill="var(--muted)">  ve yeniden kurulma anları</text>
+      </g>
+
+      <rect x="18" y="198" width="644" height="74" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="30" y="214" fill="var(--violet)" font-size="8" font-weight="700">ADAY YASA VE AYIRICI TESTLER</text>
+      <g font-size="7.1">
+        <text x="30" y="232" fill="var(--ink)" font-weight="700">M_örüntü ≈ Σ (F_deneyim × D_dikiş) · dikiş dilde yoğunlaşır, çekirdek sırada değil</text>
+        <text x="30" y="248" fill="var(--ink)">/1 Kör yapısal kodlama + shuffle taban çizgisi: aşamaların SIRASI rastgele permütasyonlardan iyi mi?</text>
+        <text x="30" y="263" fill="var(--ink)">/2 Fenomenolojik örtüşme: 500+ NDE ve 500+ hipnagoji raporunda geçit/dönüş işaretleri fazla mı temsil ediliyor?</text>
+      </g>
+
+      <rect x="18" y="282" width="644" height="58" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="298" fill="var(--warn)" font-size="8" font-weight="700">TERMOMETRE VE ÇÜRÜTME KUTUSU</text>
+      <g font-size="6.9">
+        <text x="30" y="315" fill="var(--warn)">🟢 fenomenoloji · 🟡 motif yaygınlığı (sınıflama-bağımlı) · 🟠 dört aşama iddiası · 🔴 mit = nöral devre şeması</text>
+        <text x="30" y="330" fill="var(--muted)">Çürütülürse: iskelet folklorist eleştiriye devredilir; nöro-fenomenolojik ortak-kaynak havuzu ve klinik değeri kalır.</text>
+      </g>
+    </svg>

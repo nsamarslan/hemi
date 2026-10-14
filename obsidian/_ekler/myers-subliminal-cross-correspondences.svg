@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Myers Subliminal Self and Cross Correspondences"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Myers Subliminal Iceberg/Spectrum -->
+      <rect x="20" y="22" width="295" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="9" font-weight="700">A. FREDERIC MYERS: SUBLIMINAL SELF (1903)</text>
+      <!-- Threshold line (Limen) -->
+      <line x1="34" y1="92" x2="300" y2="92" stroke="var(--warn)" stroke-width="1.8" stroke-dasharray="4 3"/>
+      <text x="248" y="86" fill="var(--warn)" font-size="7.5" font-weight="700">EŞİK (LIMEN)</text>
+      <!-- Supraliminal tip -->
+      <polygon points="145,52 115,92 175,92" fill="var(--accent)" fill-opacity="0.3" stroke="var(--accent)" stroke-width="1.5"/>
+      <text x="145" y="82" text-anchor="middle" fill="var(--ink)" font-size="7.5" font-weight="700">Uyanık Ego</text>
+      <!-- Subliminal base -->
+      <polygon points="115,92 65,168 225,168 175,92" fill="var(--violet)" fill-opacity="0.22" stroke="var(--violet)" stroke-width="1.5"/>
+      <text x="145" y="114" text-anchor="middle" fill="var(--violet)" font-size="8.2" font-weight="700">SUBLIMINAL SELF (Eşik-Altı Benlik)</text>
+      <text x="145" y="130" text-anchor="middle" fill="var(--ink)" font-size="7.6">• Kızılötesi Uç: Otonom/hücresel kontrol (Janet)</text>
+      <text x="145" y="144" text-anchor="middle" fill="var(--good)" font-size="7.6" font-weight="700">• Morötesi Uç: Deha, Telepati, Xenoglossy</text>
+      <text x="145" y="158" text-anchor="middle" fill="var(--muted)" font-size="7.4">  ve Kozmik Süreklilik (Focus 12–27)</text>
+      <text x="32" y="185" fill="var(--ink)" font-size="7.6">→ William James (1901): "Psikolojinin en büyük adımı!"</text>
+
+      <!-- Right: Cross-Correspondences Jigsaw -->
+      <rect x="327" y="22" width="313" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="339" y="42" fill="var(--good)" font-size="8.8" font-weight="700">B. ÇAPRAZ-YAZIŞMALAR (CROSS-CORRESPONDENCES, 1901–32)</text>
+      <text x="339" y="57" fill="var(--muted)" font-size="7.5">"Yaşayanlardan telepati (Living-Agent Psi)" itirazını</text>
+      <text x="339" y="69" fill="var(--muted)" font-size="7.5">test etmek için dağıtık şifreli yapboz protokolü:</text>
+      <!-- 3 Automatist nodes -->
+      <rect x="341" y="80" width="90" height="42" rx="5" fill="var(--surface)" stroke="var(--accent)"/>
+      <text x="386" y="96" text-anchor="middle" fill="var(--accent)" font-size="7.6" font-weight="700">Mrs. Verrall</text>
+      <text x="386" y="110" text-anchor="middle" fill="var(--muted)" font-size="7.2">(Cambridge): Parça A</text>
+
+      <rect x="439" y="80" width="90" height="42" rx="5" fill="var(--surface)" stroke="var(--violet)"/>
+      <text x="484" y="96" text-anchor="middle" fill="var(--violet)" font-size="7.6" font-weight="700">Mrs. Holland</text>
+      <text x="484" y="110" text-anchor="middle" fill="var(--muted)" font-size="7.2">(Hindistan!): Parça B</text>
+
+      <rect x="537" y="80" width="90" height="42" rx="5" fill="var(--surface)" stroke="var(--warn)"/>
+      <text x="582" y="96" text-anchor="middle" fill="var(--warn)" font-size="7.6" font-weight="700">Mrs. Piper</text>
+      <text x="582" y="110" text-anchor="middle" fill="var(--muted)" font-size="7.2">(Boston): Parça C</text>
+
+      <!-- Converging arrows to central solution -->
+      <line x1="386" y1="122" x2="465" y2="144" stroke="var(--good)" stroke-width="1.5"/>
+      <line x1="484" y1="122" x2="484" y2="144" stroke="var(--good)" stroke-width="1.5"/>
+      <line x1="582" y1="122" x2="503" y2="144" stroke="var(--good)" stroke-width="1.5"/>
+      <rect x="360" y="144" width="248" height="42" rx="6" fill="var(--surface)" stroke="var(--good)" stroke-width="1.8"/>
+      <text x="484" y="160" text-anchor="middle" fill="var(--good)" font-size="8" font-weight="700">Merkezde Birleşen Klasik Yunanca/Latince Anahtar!</text>
+      <text x="484" y="174" text-anchor="middle" fill="var(--ink)" font-size="7.4">(Ör. "Hope Star &amp; Browning" / "Kulak Memesi" Testi)</text>
+    </svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Stochastic Resonance Curve"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Panel 1: Zero Noise -->
+      <rect x="20" y="22" width="192" height="174" rx="8" fill="var(--surface-2)" stroke="var(--line)"/>
+      <text x="30" y="40" fill="var(--muted)" font-size="8.8" font-weight="700">1. Gürültü Yok (D = 0)</text>
+      <line x1="30" y1="74" x2="200" y2="74" stroke="var(--danger)" stroke-dasharray="4 3"/>
+      <text x="32" y="68" fill="var(--danger)" font-size="7.8">Ateşleme Eşiği Θ</text>
+      <path d="M30 126 Q58 98 86 126 T142 126 T198 126" fill="none" stroke="var(--accent)" stroke-width="1.8"/>
+      <text x="30" y="164" fill="var(--ink)" font-size="8">Zayıf sinyal S(t) eşiği</text>
+      <text x="30" y="177" fill="var(--muted)" font-size="7.8">hiç aşamaz → Çıktı = 0 (Kör)</text>
+
+      <!-- Panel 2: Optimal Pink Noise -->
+      <rect x="224" y="22" width="204" height="174" rx="8" fill="var(--surface-2)" stroke="var(--good)" stroke-width="1.5"/>
+      <text x="234" y="40" fill="var(--good)" font-size="8.8" font-weight="700">2. Optimum Pembe Gürültü (D_opt)</text>
+      <line x1="234" y1="74" x2="416" y2="74" stroke="var(--danger)" stroke-dasharray="4 3"/>
+      <path d="M234 126 L246 105 L254 62 L262 56 L270 98 L286 142 L302 150 L318 118 L334 95 L344 58 L352 64 L362 110 L382 146 L402 132 L416 96" fill="none" stroke="var(--good)" stroke-width="1.6"/>
+      <circle cx="258" cy="58" r="4" fill="var(--good)"/>
+      <circle cx="348" cy="60" r="4" fill="var(--good)"/>
+      <text x="234" y="164" fill="var(--good)" font-size="8" font-weight="700">✓ Faz-Kilitli Ateşleme!</text>
+      <text x="234" y="177" fill="var(--muted)" font-size="7.8">Hemi-Sync / Ganzfeld / Şaman davulu</text>
+
+      <!-- Panel 3: SNR Bell Curve -->
+      <rect x="440" y="22" width="200" height="174" rx="8" fill="var(--surface-2)" stroke="var(--violet)"/>
+      <text x="450" y="40" fill="var(--violet)" font-size="8.8" font-weight="700">3. Sinyal-Gürültü Oranı (SNR)</text>
+      <line x1="460" y1="154" x2="622" y2="154" stroke="var(--muted)"/>
+      <line x1="460" y1="154" x2="460" y2="56" stroke="var(--muted)"/>
+      <path d="M462 150 C482 148, 495 62, 520 62 C548 62, 575 136, 618 148" fill="none" stroke="var(--violet)" stroke-width="2.2"/>
+      <line x1="520" y1="62" x2="520" y2="154" stroke="var(--good)" stroke-dasharray="3 2"/>
+      <text x="520" y="168" text-anchor="middle" fill="var(--good)" font-size="8" font-weight="700">D_opt (1/f)</text>
+      <text x="450" y="184" fill="var(--muted)" font-size="7.6">Benzi (1981) · Moss &amp; Wiesenfeld (Nature 1995)</text>
+    </svg>

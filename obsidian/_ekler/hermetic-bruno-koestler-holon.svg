@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 220" role="img" aria-label="Giordano Bruno Memory Wheels and Koestler Holon"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="8" y="8" width="644" height="204" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <!-- Left: Bruno Concentric Wheels -->
+      <rect x="20" y="22" width="306" height="176" rx="9" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="32" y="42" fill="var(--accent)" font-size="8.8" font-weight="700">A. GIORDANO BRUNO: ARS MEMORIAE &amp; VINCULUM (1591)</text>
+      <circle cx="96" cy="116" r="54" fill="none" stroke="var(--accent)" stroke-width="1.5"/>
+      <circle cx="96" cy="116" r="38" fill="none" stroke="var(--violet)" stroke-width="1.5" stroke-dasharray="4,2"/>
+      <circle cx="96" cy="116" r="22" fill="none" stroke="var(--good)" stroke-width="1.8"/>
+      <circle cx="96" cy="116" r="5" fill="var(--warn)"/>
+      <text x="96" y="182" text-anchor="middle" fill="var(--accent)" font-size="7.3" font-weight="700">30 Eşmerkezli Mühür Çarkı</text>
+      <text x="164" y="68" fill="var(--ink)" font-size="7.7" font-weight="700">• Sonsuz Evren &amp; Monas:</text>
+      <text x="164" y="81" fill="var(--muted)" font-size="7.4">  Evrenin merkezi her yerdir; her</text>
+      <text x="164" y="93" fill="var(--muted)" font-size="7.4">  birim (Monad) bütünü yansıtır.</text>
+      <text x="164" y="110" fill="var(--good)" font-size="7.7" font-weight="700">• De Vinculis in Genere (Bağlar):</text>
+      <text x="164" y="123" fill="var(--muted)" font-size="7.4">  Zihinler arası etki kaba kuvvetle</text>
+      <text x="164" y="135" fill="var(--muted)" font-size="7.4">  değil, Ses (Voce) + İmge (Phantasia)</text>
+      <text x="164" y="147" fill="var(--good)" font-size="7.4" font-weight="700">  + Eros (Duygusal Faz Kilidi) ile</text>
+      <text x="164" y="159" fill="var(--good)" font-size="7.4" font-weight="700">  "Vinculum" (Alan Bağı) kurar!</text>
+
+      <!-- Right: Koestler Holon -->
+      <rect x="336" y="22" width="304" height="176" rx="9" fill="var(--surface-2)" stroke="var(--good)"/>
+      <text x="348" y="42" fill="var(--good)" font-size="8.8" font-weight="700">B. ARTHUR KOESTLER: JANUS YÜZLÜ "HOLON" (1967)</text>
+      <!-- Nested Holarchy -->
+      <rect x="352" y="56" width="272" height="74" rx="8" fill="var(--good)" fill-opacity="0.08" stroke="var(--good)"/>
+      <text x="488" y="71" text-anchor="middle" fill="var(--good)" font-size="7.8" font-weight="700">ÜST-HOLON (Kolektif / Kozmik Zihin — Bütünleşme [IT])</text>
+      <rect x="382" y="78" width="212" height="44" rx="6" fill="var(--surface)" stroke="var(--accent)"/>
+      <text x="488" y="94" text-anchor="middle" fill="var(--accent)" font-size="7.8" font-weight="700">BİREYSEL ZİHİN HOLONU (Janus İki-Yüzlü Denge)</text>
+      <text x="488" y="110" text-anchor="middle" fill="var(--muted)" font-size="7.2">↙ Aşağıya karşı: "Bütün" (Özerklik)   |   ↗ Yukarıya karşı: "Parça" (Katılım)</text>
+      <text x="348" y="148" fill="var(--ink)" font-size="7.7">• Kanser / Nevrotik Ego Patolojisi: Holonun "Bütünleşme (IT)"</text>
+      <text x="348" y="160" fill="var(--warn)" font-size="7.6" font-weight="700">  yüzünü reddedip sadece "Öz-İddia (SAT / Ego)" yüzüne saplanması!</text>
+      <text x="348" y="176" fill="var(--good)" font-size="7.7" font-weight="700">• Gateway Focus 12–27: Bireysel Holonu silmeden Üst-Holona</text>
+      <text x="348" y="188" fill="var(--good)" font-size="7.7" font-weight="700">  faz kilitleme ("Farklılaşmış Bütünleşme" = Maksimum Φ!)</text>
+    </svg>

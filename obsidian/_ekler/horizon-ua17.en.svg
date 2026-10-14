@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Closed-loop phase-locked auditory stimulation schematic"><style>:root{--bg:#0e0c1d;--surface:#171432;--surface-2:#201c44;--line:#2e2957;--ink:#ece8f7;--muted:#a29fc0;--accent:#8f7bff;--on-accent:#0e0c1d;--violet:#b7a6ff;--good:#7fc28b;--danger:#e8806f;--warn:#e8a94a;--bad:#e2655f;--ok:#7fc28b;--orange:#f08a3c}</style><rect x="-50%" y="-50%" width="200%" height="200%" fill="#0e0c1d"/>
+      <rect x="6" y="6" width="668" height="348" rx="12" fill="var(--surface)" stroke="var(--line)"/>
+      <text x="340" y="24" text-anchor="middle" fill="var(--accent)" font-size="9.4" font-weight="700">FAZ VEKÂLETİ (HZ-17): BELİRLEYİCİ OLAN FREKANS DEĞİL, FAZIN SAHİBİDİR</text>
+
+      <rect x="18" y="36" width="330" height="86" rx="8" fill="var(--surface-2)" stroke="var(--warn)"/>
+      <text x="30" y="52" fill="var(--warn)" font-size="8" font-weight="700">A) AÇIK DÖNGÜ — sabit fark frekansı (ör. 10 Hz alfa varsayımı)</text>
+      <path d="M30 92 q10 -16 20 0 q10 16 20 0 q10 -16 20 0 q10 16 20 0 q10 -16 20 0 q10 16 20 0 q10 -16 20 0 q10 16 20 0 q10 -16 20 0 q10 16 20 0 q10 -16 20 0 q10 16 20 0 q10 -16 20 0 q10 16 20 0 q10 -16 20 0" fill="none" stroke="var(--accent)" stroke-width="1.3"/>
+      <path d="M30 104 q21 -14 42 2 q21 16 42 -1 q21 -15 42 1 q21 16 42 -2 q21 -15 42 1 q21 16 42 -1 q21 -15 42 2 q20 16 39 0" fill="none" stroke="var(--warn)" stroke-width="1.3" stroke-dasharray="4 3"/>
+      <text x="30" y="76" fill="var(--muted)" font-size="7.2">Beynin kişisel tepe frekansı 8,3 Hz ise 10 Hz uyaran hedefi ıskalar: sürüş yerine yalnızca vuruş (beat) ve sürüklenme üretir.</text>
+
+      <rect x="18" y="132" width="330" height="96" rx="8" fill="var(--surface-2)" stroke="var(--good)" stroke-width="1.5"/>
+      <text x="30" y="148" fill="var(--good)" font-size="8" font-weight="700">B) KAPALI DÖNGÜ — EEG fazına tetiklenen ses patlaması</text>
+      <path d="M34 208 q22 -34 44 0 q22 34 44 0 q22 -34 44 0 q22 34 44 0 q22 -34 44 0 q22 34 44 0 q22 -34 44 0" fill="none" stroke="var(--ink)" stroke-width="1.4"/>
+      <g stroke="var(--good)" stroke-width="1.4">
+        <line x1="78" y1="176" x2="78" y2="160"/><line x1="166" y1="176" x2="166" y2="160"/><line x1="254" y1="176" x2="254" y2="160"/><line x1="342" y1="176" x2="342" y2="160"/>
+      </g>
+      <g fill="var(--good)" font-size="6.6">
+        <text x="60" y="156">ses</text><text x="148" y="156">ses</text><text x="236" y="156">ses</text><text x="324" y="156">ses</text>
+      </g>
+      <path d="M348 200 q-96 34 -192 0" fill="none" stroke="var(--good)" stroke-width="1.2" stroke-dasharray="3 3" marker-end="url(#hzArrow)"/>
+      <defs><marker id="hzArrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 z" fill="var(--good)"/></marker></defs>
+      <text x="30" y="166" fill="var(--muted)" font-size="7.2">Ölçüm → tetikleme → uyaran: geri besleme halkası kapanır, L(Φ) maksimize edilir.</text>
+      <text x="30" y="222" fill="var(--muted)" font-size="7.2">Yavaş osilasyon yükselen tepesi (0,5–1 Hz) + iğcik yoğunluğu artışı + ertesi gün bellek kazancı.</text>
+
+      <rect x="360" y="36" width="304" height="192" rx="8" fill="var(--surface-2)" stroke="var(--accent)"/>
+      <text x="372" y="52" fill="var(--accent)" font-size="8" font-weight="700">C) YAKALAMA BANDI (Arnold dili) — Δω = bireysel tepe − verilen frekans</text>
+      <line x1="384" y1="196" x2="648" y2="196" stroke="var(--line)"/>
+      <line x1="516" y1="70" x2="516" y2="196" stroke="var(--line)" stroke-dasharray="3 3"/>
+      <path d="M516 196 C 470 120, 470 120, 420 74" fill="none" stroke="var(--good)" stroke-width="1.6"/>
+      <path d="M516 196 C 562 120, 562 120, 612 74" fill="none" stroke="var(--good)" stroke-width="1.6"/>
+      <path d="M420 74 C 470 92, 562 92, 612 74" fill="none" stroke="var(--good)" stroke-width="1.0" stroke-dasharray="4 3"/>
+      <text x="516" y="212" text-anchor="middle" fill="var(--ink)" font-size="7.4">Δω = 0 (kilit en güçlü)</text>
+      <text x="424" y="222" text-anchor="middle" fill="var(--muted)" font-size="7">geniş bant · kişisel tepe</text>
+      <text x="612" y="222" text-anchor="middle" fill="var(--muted)" font-size="7">bandın dışı · yalnız gölge</text>
+      <text x="372" y="92" fill="var(--ink)" font-size="7.3">Kilit bölgesi: beyin uyarana uyar (sürüş gerçek, bilişsel içerik taşınır).</text>
+      <text x="372" y="106" fill="var(--ink)" font-size="7.3">Gölge bölgesi: EEG'de genlik artışı görünür ama faz kilitlenmez; davranış değişmez.</text>
+      <text x="372" y="124" fill="var(--muted)" font-size="7.1">Gürültü (pembe 1/f, HP-3) yakalama bandını genişletir; bu yüzden uykuda kilit daha kolay kurulur (DMN faz gürültüsü düşer, HP-2).</text>
+
+      <rect x="18" y="240" width="646" height="102" rx="8" fill="var(--surface-2)" stroke="var(--line)"/>
+      <text x="30" y="256" fill="var(--accent)" font-size="8" font-weight="700">ÇIKTI: KİLİT KURULDUĞUNDA vs KURULMADIĞINDA (ön-kayıtlı dört kollu test öngörüsü)</text>
+      <g font-size="7.2">
+        <text x="30" y="276" fill="var(--ink)">Kapalı döngü (A):</text>
+        <rect x="150" y="266" width="240" height="12" rx="3" fill="var(--good)" fill-opacity="0.8"/><text x="398" y="276" fill="var(--good)">bellek ↑↑ · iğcik ↑↑</text>
+        <text x="30" y="296" fill="var(--ink)">Yoked eşleştirme (B):</text>
+        <rect x="150" y="286" width="46" height="12" rx="3" fill="var(--muted)" fill-opacity="0.6"/><text x="204" y="296" fill="var(--muted)">etki yok</text>
+        <text x="30" y="316" fill="var(--ink)">Sabit fark frekansı (C):</text>
+        <rect x="150" y="306" width="58" height="12" rx="3" fill="var(--warn)" fill-opacity="0.7"/><text x="216" y="316" fill="var(--warn)">küçük ve tutarsız</text>
+        <text x="30" y="336" fill="var(--ink)">Sessizlik (D):</text>
+        <rect x="150" y="326" width="40" height="12" rx="3" fill="var(--line)"/><text x="198" y="336" fill="var(--muted)">taban çizgisi</text>
+      </g>
+    </svg>

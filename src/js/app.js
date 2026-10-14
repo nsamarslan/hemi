@@ -1,5 +1,5 @@
 import { t, L, fmtDur, fmtClock, TAG_KEYS } from "./i18n.js";
-import { settings, saveSettings, store, paramsFor, saveParams, getLog, dayKey, favorites, journal, logSession, reading, bookmarks } from "./store.js";
+import { settings, saveSettings, store, paramsFor, saveParams, getLog, dayKey, favorites, journal, logSession } from "./store.js";
 import { content, waves, focusLevels, getEx, allIds, waveOf, focusById, routineDefault, series } from "./content.js";
 import { speak, ttsVoices, onVoices, ttsSupported } from "./tts.js";
 import { renderJournal, scheduleRealityChecks, openDreamComposer } from "./journal.js";
@@ -8,8 +8,6 @@ import { buildTimeline, buildRoutine, expandPhases, holdSeconds, FADE_PHASE, bre
 import { clipDur, playTest, unlockAudio } from "./audio.js";
 import { runSession } from "./session.js";
 import { findTrackFor, findTracksForHints, pcConfigured, pcPing, pcIndex, pcLibrary, pcRescan, saveMatch, rankFilesFor, nextInFolder, trackOf, pcPositions, savePosition, resumePointFor, deviceName } from "./pcsource.js";
-import { renderMd, slug } from "./md.js";
-import { renderDiagram, hydrateDiagrams } from "./diagrams.js";
 import { packs, renderVisual } from "./visuals.js";
 import { storyboards, renderThumb, createPlayer, sweepPlayers } from "./storyboard.js";
 import { techniques, reference } from "./content.js";
@@ -77,14 +75,14 @@ function applyLang() {
   document.documentElement.lang = settings.lang;
   document.title = t("appName");
   document.querySelectorAll("[data-tab]").forEach(b => {
-    b.querySelector("span").textContent = t({ home: "tabExercises", techniques: "tabTechniques", guide: "tabGuide", research: "tabResearch", program: "tabProgram", journal: "tabJournal", settings: "tabSettings" }[b.dataset.tab]);
+    b.querySelector("span").textContent = t({ home: "tabExercises", techniques: "tabTechniques", program: "tabProgram", journal: "tabJournal", settings: "tabSettings" }[b.dataset.tab]);
     b.setAttribute("aria-current", b.dataset.tab === tab ? "page" : "false");
   });
 }
 const focusChip = f => `<i class="tag focus-chip">F${esc(f)}</i>`;
 
 // ---------- navigation ----------
-// Sub-views (detail, technique, guide topic, reference, gallery, session/done) push a history entry
+// Sub-views (detail, technique, reference, gallery, library, session/done) push a history entry
 // so the phone's back button/gesture goes one level up instead of leaving the app. `histDepth`
 // counts the entries we own; leaving for a tab root unwinds them all at once.
 let subView = null, popGuard = 0, histDepth = 0;
@@ -103,20 +101,19 @@ function unwindHist(n = histDepth) {
   popGuard++; histDepth -= n;
   try { history.go(-n); } catch { popGuard--; }
 }
+const TABS = { home: () => renderHome(), techniques: () => renderTechniques(), program: () => renderProgram(), journal: () => renderJournal(), settings: () => renderSettings() };
 function go(name) {
+  if (!TABS[name]) name = "home";        // e.g. a stored "guide"/"research" tab (moved to the Obsidian vault in obsidian/)
   unwindHist();
   subView = null; refFrom = null; backTo = null;
-  guideStack.length = 0; resStack.length = 0;      // a cross-link trail belongs to the topic it was made in
   tab = name; store.set("tab", name);
   current = null; currentTech = null;
   applyLang();
-  ({ home: renderHome, techniques: renderTechniques, guide: renderGuide, research: renderResearch, program: renderProgram, journal: renderJournal, settings: renderSettings }[name] || renderHome)();
+  TABS[name]();
   window.scrollTo(0, 0);
 }
-/** UI back buttons: one level up — the guide/research cross-link stack first, then the tab root. */
+/** UI back buttons: one level up — a parent sub-view first, then the tab root. */
 function uiBack() {
-  if (subView === "rtopic" && resStack.length) { unwindHist(1); return openResearchTopic(resStack.pop(), { pop: true }); }
-  if (subView === "topic" && guideStack.length) { unwindHist(1); return openGuideTopic(guideStack.pop(), { pop: true }); }
   if (subView === "reference" && refFrom) { const id = refFrom; refFrom = null; unwindHist(1); return openDetail(id); }
   if (backTo) { const f = backTo; backTo = null; unwindHist(1); return f(); }
   if (subView) return go(tab);
@@ -137,8 +134,6 @@ window.addEventListener("popstate", () => {
   const sheet = document.querySelector(".sheet-wrap");
   if (sheet) { sheet.remove(); return; }
   if ($("session") && !$("session").hidden) { pushHist("session"); return; }   // back never kills a running session
-  if (subView === "rtopic" && resStack.length) return openResearchTopic(resStack.pop(), { pop: true });
-  if (subView === "topic" && guideStack.length) return openGuideTopic(guideStack.pop(), { pop: true });
   if (subView === "reference" && refFrom) { const id = refFrom; refFrom = null; return openDetail(id); }
   if (backTo) { const f = backTo; backTo = null; return f(); }
   if (subView) return go(tab);
@@ -247,7 +242,7 @@ function renderHome() {
     <div class="list">${items.map(exCard).join("")}</div>`).join("")}
   </section>`).join("")}
   ${!blocks.length && !favs.length ? `<p class="muted">${t("noResults")}</p>` : ""}
-  ${!q ? `<section class="ref-entry"><button class="ref-card" data-act="reference"><span class="ex-ref">♪</span><span class="ex-main"><span class="ex-title">${t("refTitle")}</span><span class="ex-sum">${t("refCard", { n: reference.items.length })}</span></span></button><button class="ref-card" data-act="research"><span class="ex-ref">✦</span><span class="ex-main"><span class="ex-title">${t("researchCardTitle")}</span><span class="ex-sum">${t("researchCardSum", { n: 50 })}</span></span></button>${pcConfigured() ? `<button class="ref-card" data-act="library"><span class="ex-ref">▤</span><span class="ex-main"><span class="ex-title">${t("libTitle")}</span><span class="ex-sum">${t("libCard")}</span></span></button>` : ""}</section>` : ""}
+  ${!q ? `<section class="ref-entry"><button class="ref-card" data-act="reference"><span class="ex-ref">♪</span><span class="ex-main"><span class="ex-title">${t("refTitle")}</span><span class="ex-sum">${t("refCard", { n: reference.items.length })}</span></span></button>${pcConfigured() ? `<button class="ref-card" data-act="library"><span class="ex-ref">▤</span><span class="ex-main"><span class="ex-title">${t("libTitle")}</span><span class="ex-sum">${t("libCard")}</span></span></button>` : ""}</section>` : ""}
   </div>`;
   const qi = $("q");
   qi.oninput = () => { searchQ = qi.value; const pos = qi.selectionStart; renderHome(); const n = $("q"); n.focus(); n.setSelectionRange(pos, pos); };
@@ -298,18 +293,6 @@ view.addEventListener("click", e => {
   if (o) return openDetail(o.dataset.open);
   const tg = e.target.closest("[data-tech]");
   if (tg) return openTechnique(tg.dataset.tech);
-  const gd = e.target.closest("[data-guide]");
-  if (gd) { e.preventDefault(); return openGuideTopic(gd.dataset.guide, { ch: gd.dataset.ch, q: gd.dataset.ch != null && gd.classList.contains("g-hit") ? guideQ : "", push: gd.classList.contains("xref"), resume: gd.dataset.resume != null }); }
-  const rs = e.target.closest("[data-res]");
-  if (rs) { e.preventDefault(); return openResearchTopic(rs.dataset.res, { ch: rs.dataset.ch, q: rs.dataset.ch != null && rs.classList.contains("g-hit") ? resQ : "", push: rs.classList.contains("xref"), resume: rs.dataset.resume != null }); }
-  const rl = e.target.closest("[data-rlayer]");
-  if (rl) { resLayer = rl.dataset.rlayer; return runResearchSearch(resQ.trim()); }
-  const rpat = e.target.closest("[data-rpat]");
-  if (rpat) { resPat = resPat === rpat.dataset.rpat ? "" : rpat.dataset.rpat; return runResearchSearch(resQ.trim()); }
-  const um = e.target.closest("[data-unmark]");
-  if (um) { bookmarks.remove(um.dataset.unmark); toast(t("unbookmarked")); return tab === "research" ? runResearchSearch(resQ.trim()) : runGuideSearch(guideQ.trim()); }
-  const mc = e.target.closest("[data-markch]");
-  if (mc) { e.preventDefault(); return toggleGuideMark(mc.dataset.markch, mc.dataset.title || ""); }
   const rp = e.target.closest("[data-refplay]");
   if (rp) return playRefTrack(rp.dataset.refplay, Number(rp.dataset.i || 0));
   const rc = e.target.closest("[data-refcat]");
@@ -328,7 +311,6 @@ view.addEventListener("click", e => {
   if (a === "next") { const id = suggestedNext(); if (id) return openDetail(id); return go("program"); }
   if (a === "wave") return go("program");
   if (a === "headphones") return openSafetySheet();
-  if (a === "research") return go("research");
   if (a === "reference") return openReference();
   if (a === "library") return openLibrary();
   if (a === "gallery") {
@@ -337,14 +319,8 @@ view.addEventListener("click", e => {
     enter("gallery", { push: !!from });
     return renderGallery();
   }
-  if (a === "gchapters") return openChapterSheet();
-  if (a === "gmark") return toggleGuideMark(null);
-  if (a === "gresume") return resumeGuidePosition();
-  if (a === "fontUp" || a === "fontDown") return stepFont(a === "fontUp" ? 1 : -1);
   if (a === "galfull") return openGalleryFull();
   if (a === "gback" || a === "back") return uiBack();
-  const jp = e.target.closest("[data-jump]");
-  if (jp) { e.preventDefault(); return jumpTo(jp.dataset.jump); }
   const vs = e.target.closest("[data-vstate]");
   if (vs) { galState = vs.dataset.vstate; view.querySelectorAll("[data-vstate]").forEach(b => b.classList.toggle("on", b.dataset.vstate === galState)); return paintGallery(); }
   const vp = e.target.closest("[data-vpack]");
@@ -944,15 +920,6 @@ function mountStoryboard(el, id) {
   if (!el || !storyboards[id]) return null;
   return createPlayer(el, id, settings.lang, sbLabels());
 }
-/** Hydrate every `[[storyboard:id]]` box the markdown renderer left in a guide topic. */
-function hydrateStoryboards(root) {
-  sweepPlayers();
-  root.querySelectorAll("[data-sb-embed]").forEach(el => {
-    const id = el.dataset.sbEmbed;
-    if (storyboards[id]) createPlayer(el, id, settings.lang, sbLabels());
-    else el.remove();
-  });
-}
 
 // ---------- visual gallery: every pack in every session state, select by tapping ----------
 const VIS_STATES = ["prep", "focus10", "focus12", "focus15", "focus21", "focus27", "explore", "return"];
@@ -1000,602 +967,6 @@ function openGalleryFull() {
   });
   mountSheet(sheet);
   paint();
-}
-
-// ---------- guide tab (bilingual topics rendered in-app, full-text search, cross-links) ----------
-let guideIndex = null;
-const guideCache = new Map();
-let guideQ = "", guideCurrent = null, guideTimer = null;
-const guideStack = [];           // topics opened through in-text cross-links ("8. konu" / "topic 8")
-const guideLang = () => settings.lang === "tr" ? "tr" : "en";
-const shortTitle = tp => L(tp.title).split(" — ")[0];
-async function ensureGuideIndex() {
-  if (!guideIndex) {
-    const r = await fetch("guide/index.json");
-    if (!r.ok) throw new Error(r.status);
-    guideIndex = (await r.json()).topics;
-  }
-  return guideIndex;
-}
-async function loadTopic(id, lang = guideLang()) {
-  const key = lang + "/" + id;
-  if (!guideCache.has(key)) {
-    let r = await fetch(`guide/${lang}/${id}.md`);
-    if (!r.ok && lang !== "tr") r = await fetch(`guide/tr/${id}.md`);
-    if (!r.ok) throw new Error(r.status);
-    guideCache.set(key, await r.text());
-  }
-  return guideCache.get(key);
-}
-/** Character-by-character folding (length-preserving): lower-case (Turkish rules), strip diacritics, ı→i. */
-const foldChar = c => { const n = c.toLocaleLowerCase("tr").normalize("NFD").replace(/[\u0300-\u036f]/g, ""); const k = n[0] || c; return k === "ı" ? "i" : k; };
-const foldStr = s => String(s).split("").map(foldChar).join("");
-const plainMd = s => String(s).replace(/\[\[[^\]]*\]\]/g, "").replace(/\[([^\]]+)\]\([^)]*\)/g, "$1").replace(/[*_`>#|]/g, "").replace(/\s+/g, " ").trim();
-/** Split a topic into its intro (under the # title) and its ## chapters. */
-function guideChapters(md) {
-  const out = []; let cur = null;
-  for (const ln of String(md).split("\n")) {
-    const h1 = /^#\s+(.+)/.exec(ln), h2 = /^##\s+(.+)/.exec(ln);
-    if (h1 && !cur) { cur = { title: h1[1].trim(), id: "", text: [] }; out.push(cur); continue; }
-    if (h2) { cur = { title: h2[1].trim(), id: "ch-" + slug(h2[1]), text: [] }; out.push(cur); continue; }
-    if (cur) cur.text.push(ln);
-  }
-  return out.map(c => ({ title: c.title, id: c.id, text: c.text.join("\n") }));
-}
-/** HTML of `plain` with every occurrence of the (folded) terms wrapped in <mark>. */
-function markTerms(plain, terms) {
-  const folded = foldStr(plain), ranges = [];
-  for (const tm of terms) { let i = 0; while ((i = folded.indexOf(tm, i)) >= 0) { ranges.push([i, i + tm.length]); i += tm.length; } }
-  ranges.sort((a, b) => a[0] - b[0]);
-  let html = "", pos = 0;
-  for (const [a, b] of ranges) { if (a < pos) continue; html += esc(plain.slice(pos, a)) + "<mark>" + esc(plain.slice(a, b)) + "</mark>"; pos = b; }
-  return html + esc(plain.slice(pos));
-}
-function guideTerms(q) { return foldStr(q).split(/\s+/).filter(x => x.length >= 2); }
-async function searchGuide(q) {
-  const terms = guideTerms(q);
-  const idx = await ensureGuideIndex(), lang = guideLang();
-  await Promise.all(idx.map(tp => loadTopic(tp.id, lang).catch(() => null)));
-  const results = [];
-  for (const tp of idx) {
-    const md = guideCache.get(lang + "/" + tp.id);
-    if (!md) continue;
-    const hits = [];
-    for (const ch of guideChapters(md)) {
-      const plain = plainMd(ch.title + ". " + ch.text), folded = foldStr(plain);
-      if (!terms.length || !terms.every(tm => folded.includes(tm))) continue;
-      const pos = folded.indexOf(terms[0]);
-      const a = Math.max(0, pos - 70), b = Math.min(plain.length, pos + 110);
-      hits.push({ id: ch.id, title: ch.title, html: (a ? "… " : "") + markTerms(plain.slice(a, b), terms) + (b < plain.length ? " …" : "") });
-    }
-    if (hits.length) results.push({ tp, hits });
-  }
-  return results;
-}
-const topicById = id => (guideIndex && guideIndex.find(x => x.id === id)) || (resData && resData.topics.find(x => x.id === id));
-/** "Where you left off" card: the last topic read, with its chapter and progress. */
-function guideResumeCard() {
-  const last = reading.last(); const tp = last && guideIndex && guideIndex.find(x => x.id === last.id);
-  if (!tp) return "";
-  return `<button class="ex-card g-resume" data-guide="${tp.id}" data-resume="1"><span class="ex-ref">▸</span><span class="ex-main"><span class="ex-title">${t("guideResume")}: ${esc(L(tp.title))}</span><span class="ex-sum">${last.chTitle ? esc(last.chTitle) + " · " : ""}${t("guidePct", { n: last.pct || 0 })}</span></span></button>`;
-}
-function guideBookmarksBlock() {
-  const list = bookmarks.all().filter(b => guideIndex && guideIndex.find(x => x.id === b.id));
-  if (!list.length) return "";
-  return `<details class="g-marks" open><summary>★ ${t("guideBookmarks")} (${list.length})</summary><ul class="g-marklist">${list.map(b => `<li>
-      <button class="link" data-guide="${b.id}" ${b.ch ? `data-ch="${esc(b.ch)}"` : ""}>${esc(L(topicById(b.id).title))}${b.ch ? ` › ${esc(b.title)}` : ""}</button>
-      <button class="link danger" data-unmark="${esc(bookmarks.key(b.id, b.ch))}" aria-label="${t("removeBookmark")}">✕</button></li>`).join("")}</ul></details>`;
-}
-function guideTopicList() {
-  const ids = guideIndex.map(x => x.id), read = reading.readCount(ids), marked = new Set(bookmarks.all().map(b => b.id));
-  return `${guideResumeCard()}
-  <div class="g-overall"><span class="g-bar ${read === ids.length ? "done" : ""}"><i style="width:${Math.round(read / ids.length * 100)}%"></i></span><span class="muted small">${t("guideReadCount", { read, n: ids.length })}</span></div>
-  ${guideBookmarksBlock()}
-  <div class="list">${guideIndex.map((tp, i) => { const p = reading.get(tp.id), pct = p ? p.pct : 0, done = pct >= 90; return `<button class="ex-card g-topic ${done ? "read" : ""}" data-guide="${tp.id}">
-    <span class="ex-ref">${done ? "✓" : String(i + 1).padStart(2, "0")}</span>
-    <span class="ex-main"><span class="ex-title">${marked.has(tp.id) ? "★ " : ""}${esc(L(tp.title))}</span>
-    <span class="ex-sum">${esc(L(tp.summary))}</span>${pct > 0 ? `<span class="g-bar small ${done ? "done" : ""}" title="${t("guidePct", { n: pct })}"><i style="width:${pct}%"></i></span>` : ""}</span></button>`; }).join("")}</div>`;
-}
-async function runGuideSearch(q) {
-  const box = $("gres");
-  if (!box) return;
-  if (q.length < 2) { box.innerHTML = guideTopicList(); return; }
-  box.innerHTML = `<p class="muted">${t("guideSearching")}</p>`;
-  const results = await searchGuide(q);
-  if (guideQ.trim() !== q || !$("gres")) return; // stale
-  const n = results.reduce((a, r) => a + r.hits.length, 0);
-  $("gres").innerHTML = !n ? `<p class="muted">${t("guideNoMatch")}</p>` : `<p class="muted small">${t("guideMatches", { n })}</p>
-    ${results.map(({ tp, hits }) => `<section class="g-res"><h3 class="sec-h">${esc(L(tp.title))}</h3><div class="list">
-      ${hits.map(h => `<button class="ex-card g-hit" data-guide="${tp.id}" data-ch="${esc(h.id)}"><span class="ex-main"><span class="ex-title">${esc(h.title)}</span><span class="ex-sum">${h.html}</span></span></button>`).join("")}
-    </div></section>`).join("")}`;
-}
-async function renderGuide() {
-  guideCurrent = null; guideStack.length = 0;
-  view.innerHTML = `<h1>${t("tabGuide")}</h1><p class="muted">${t("guideIntro")}</p><p class="muted">${t("guideLoading")}</p>`;
-  try {
-    await ensureGuideIndex();
-    view.innerHTML = `<h1>${t("tabGuide")}</h1><p class="muted">${t("guideIntro")}</p>
-      <label class="search"><span class="sr">${t("guideSearch")}</span><input id="gq" type="search" placeholder="${t("guideSearch")}" value="${esc(guideQ)}" autocomplete="off"></label>
-      <div id="gres"></div>`;
-    const qi = $("gq");
-    qi.oninput = () => { guideQ = qi.value; clearTimeout(guideTimer); guideTimer = setTimeout(() => runGuideSearch(guideQ.trim()), 180); };
-    runGuideSearch(guideQ.trim());
-  } catch {
-    view.innerHTML = `<h1>${t("tabGuide")}</h1><p class="muted">${t("guideError")}</p>`;
-  }
-}
-/** Turn "8. konu" / "4. ve 10. konu" / "topic 8" / "topics 2 and 3" in the rendered text into links. */
-function linkTopicRefs(root) {
-  if (!root || !guideIndex) return;
-  const byNo = new Map(guideIndex.map((tp, i) => [i + 1, tp.id]));
-  const tr = guideLang() === "tr";
-  const re = tr
-    ? /\b(?:\d{1,2}\.?\s*(?:,|ve|–|-)\s*)*\d{1,2}\.\s*konu(?:larının|larına|larından|larında|ların|ları|lara|larda|lar|sunda|suna|nun|dan|da|ya|yu|su)?(?![a-zçğıöşü])/gi
-    : /\btopics?\s+\d{1,2}(?:\s*(?:,|and|&|–|-)\s*\d{1,2})*/gi;
-  const mk = (txt, no) => { const a = document.createElement("a"); a.className = "xref"; a.href = "#"; a.dataset.guide = byNo.get(no); a.title = t("guideXref"); a.textContent = txt; return a; };
-  const build = phrase => {
-    const frag = document.createDocumentFragment();
-    const nums = [...phrase.matchAll(/\d{1,2}/g)].filter(x => byNo.has(Number(x[0])));
-    if (!nums.length) { frag.appendChild(document.createTextNode(phrase)); return frag; }
-    if (nums.length === 1) { frag.appendChild(mk(phrase, Number(nums[0][0]))); return frag; }
-    let pos = 0;
-    nums.forEach((x, i) => {
-      const start = x.index; let end = start + x[0].length;
-      if (tr && phrase[end] === ".") end++;
-      if (i === nums.length - 1) end = phrase.length;      // the last link carries the noun ("10. konu")
-      frag.appendChild(document.createTextNode(phrase.slice(pos, start)));
-      frag.appendChild(mk(phrase.slice(start, end), Number(x[0])));
-      pos = end;
-    });
-    frag.appendChild(document.createTextNode(phrase.slice(pos)));
-    return frag;
-  };
-  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-  const nodes = []; let n;
-  while ((n = walker.nextNode())) if (!n.parentElement.closest("a, code, pre, h1")) nodes.push(n);
-  for (const node of nodes) {
-    const text = node.nodeValue;
-    re.lastIndex = 0;
-    if (!re.test(text)) continue;
-    re.lastIndex = 0;
-    const frag = document.createDocumentFragment(); let last = 0, m;
-    while ((m = re.exec(text))) { frag.appendChild(document.createTextNode(text.slice(last, m.index))); frag.appendChild(build(m[0])); last = m.index + m[0].length; }
-    frag.appendChild(document.createTextNode(text.slice(last)));
-    node.parentNode.replaceChild(frag, node);
-  }
-}
-/** Wrap search terms in <mark> inside the rendered topic (text nodes only). */
-function highlightTerms(root, q) {
-  const terms = guideTerms(q);
-  if (!root || !terms.length) return;
-  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-  const nodes = []; let n;
-  while ((n = walker.nextNode())) if (!n.parentElement.closest("code, pre")) nodes.push(n);
-  for (const node of nodes) {
-    const text = node.nodeValue, folded = foldStr(text), ranges = [];
-    for (const tm of terms) { let i = 0; while ((i = folded.indexOf(tm, i)) >= 0) { ranges.push([i, i + tm.length]); i += tm.length; } }
-    if (!ranges.length) continue;
-    ranges.sort((a, b) => a[0] - b[0]);
-    const frag = document.createDocumentFragment(); let pos = 0;
-    for (const [a, b] of ranges) { if (a < pos) continue; frag.appendChild(document.createTextNode(text.slice(pos, a))); const mk = document.createElement("mark"); mk.textContent = text.slice(a, b); frag.appendChild(mk); pos = b; }
-    frag.appendChild(document.createTextNode(text.slice(pos)));
-    node.parentNode.replaceChild(frag, node);
-  }
-}
-/** Chapter list (## headings) at the top of a topic + a floating "chapters" button for long topics. */
-function addTopicContents(body) {
-  const hs = [...body.querySelectorAll("h2")];
-  if (hs.length < 2) return;
-  const toc = document.createElement("details");
-  toc.className = "g-toc"; toc.open = true;
-  toc.innerHTML = `<summary>${t("guideContents", { n: hs.length })}</summary><ol>${hs.map(h => `<li><a href="#${esc(h.id)}" data-jump="${esc(h.id)}">${esc(hTitle(h))}</a></li>`).join("")}</ol>`;
-  const h1 = body.querySelector("h1");
-  if (h1) h1.insertAdjacentElement("afterend", toc); else body.prepend(toc);
-  const fab = document.createElement("button");
-  fab.className = "g-fab"; fab.dataset.act = "gchapters"; fab.setAttribute("aria-label", t("guideChapters"));
-  fab.innerHTML = `<span>☰</span> ${t("guideChapters")}`;
-  view.appendChild(fab);
-}
-function currentChapterId() {
-  const hs = [...view.querySelectorAll(".guide-body h2")];
-  let cur = null;
-  for (const h of hs) { if (h.getBoundingClientRect().top <= 110) cur = h; else break; }
-  return cur ? cur.id : null;
-}
-function jumpTo(id) {
-  const el = id === "top" ? view.querySelector(".guide-body h1") : document.getElementById(id);
-  closeSheet(document.querySelector(".sheet-wrap"));
-  try { if (el && el.scrollIntoView) el.scrollIntoView({ block: "start", behavior: "smooth" }); else window.scrollTo(0, 0); } catch {}
-}
-function openChapterSheet() {
-  const hs = [...view.querySelectorAll(".guide-body h2")];
-  const cur = currentChapterId();
-  const isRes = !!(resData && resData.topics.some(x => x.id === guideCurrent));
-  const pool = isRes ? resData.topics.filter(x => x.ready) : (guideIndex || []);
-  const i = pool.findIndex(x => x.id === guideCurrent);
-  const prev = i > 0 ? pool[i - 1] : null, next = i >= 0 ? pool[i + 1] : null;
-  const attr = isRes ? "data-res" : "data-guide";
-  const sheet = document.createElement("div");
-  sheet.className = "sheet-wrap";
-  sheet.innerHTML = `<div class="sheet" role="dialog" aria-modal="true">
-    <h2>${t("guideChapters")}</h2>
-    <ol class="g-chapters">
-      <li><button class="link" data-jump="top">↑ ${t("guideTop")}</button></li>
-      ${hs.map(h => `<li class="${h.id === cur ? "cur" : ""}"><button class="link" data-jump="${esc(h.id)}">${esc(hTitle(h))}</button></li>`).join("")}
-    </ol>
-    <div class="g-nav">${prev ? `<button class="btn" ${attr}="${prev.id}" data-close>‹ ${esc(shortTitle(prev))}</button>` : "<span></span>"}${next ? `<button class="btn" ${attr}="${next.id}" data-close>${esc(shortTitle(next))} ›</button>` : "<span></span>"}</div>
-    <button class="btn big" data-close>${t("back")}</button></div>`;
-  sheet.addEventListener("click", e => {
-    const jp = e.target.closest("[data-jump]");
-    if (jp) { e.preventDefault(); return jumpTo(jp.dataset.jump); }
-    const gd = e.target.closest("[data-guide]");
-    if (gd) { closeSheet(sheet); return openGuideTopic(gd.dataset.guide); }
-    const rs = e.target.closest("[data-res]");
-    if (rs) { closeSheet(sheet); return openResearchTopic(rs.dataset.res); }
-  });
-  mountSheet(sheet);
-}
-const hTitle = h => h.dataset.title || h.textContent.trim();
-const FONT_STEPS = [0.9, 1, 1.15, 1.3];
-function stepFont(dir) {
-  const cur = Number(settings.fontScale) || 1;
-  let i = FONT_STEPS.findIndex(x => Math.abs(x - cur) < 0.01); if (i < 0) i = 1;
-  const next = FONT_STEPS[Math.max(0, Math.min(FONT_STEPS.length - 1, i + dir))];
-  if (next === cur) return;
-  settings.fontScale = next; saveSettings(); applyAppearance(); paintFontChips();
-}
-function paintFontChips() {
-  const f = Number(settings.fontScale) || 1;
-  const dn = view.querySelector('[data-act="fontDown"]'), up = view.querySelector('[data-act="fontUp"]');
-  if (dn) dn.disabled = f <= FONT_STEPS[0] + 0.01;
-  if (up) up.disabled = f >= FONT_STEPS[FONT_STEPS.length - 1] - 0.01;
-}
-/** Toolbar under the back button: bookmark, text size, "go to where you left off". */
-function guideTools(id, saved, opts) {
-  const showResume = saved && saved.pct >= 5 && saved.pct < 90 && saved.ch && !opts.resume && !opts.ch;
-  return `<div class="g-tools">
-    <button class="chip ${bookmarks.has(id) ? "on" : ""}" data-act="gmark" aria-pressed="${bookmarks.has(id)}">★ ${t("bookmark")}</button>
-    <span class="g-font"><button class="chip" data-act="fontDown" aria-label="${t("fontSmaller")}">A−</button><button class="chip" data-act="fontUp" aria-label="${t("fontLarger")}">A+</button></span>
-    ${showResume ? `<button class="chip" data-act="gresume">↓ ${t("guideGoLast")} · ${saved.pct}%</button>` : ""}
-  </div>`;
-}
-/** A star on every ## heading to bookmark that section. */
-function addChapterMarks(body) {
-  for (const h of body.querySelectorAll("h2")) {
-    h.dataset.title = h.textContent.trim();
-    const b = document.createElement("button");
-    b.className = "g-chmark" + (bookmarks.has(guideCurrent, h.id) ? " on" : ""); b.type = "button";
-    b.dataset.markch = h.id; b.dataset.title = h.dataset.title; b.title = t("bookmarkChapter"); b.setAttribute("aria-label", t("bookmarkChapter")); b.textContent = "★";
-    h.appendChild(b);
-  }
-}
-function toggleGuideMark(ch, title) {
-  if (!guideCurrent) return;
-  const tp = topicById(guideCurrent);
-  const on = bookmarks.toggle({ id: guideCurrent, ch, title: ch ? title : (tp ? L(tp.title) : "") });
-  toast(t(on ? "bookmarked" : "unbookmarked"));
-  if (ch) { const b = view.querySelector(`[data-markch="${ch}"]`); if (b) b.classList.toggle("on", on); }
-  else { const b = view.querySelector('[data-act="gmark"]'); if (b) { b.classList.toggle("on", on); b.setAttribute("aria-pressed", String(on)); } }
-}
-/** How much of the open topic has scrolled past the bottom of the viewport (0–100), or null without layout. */
-function guideReadPct() {
-  const body = view.querySelector(".guide-body");
-  if (!body || !guideCurrent) return null;
-  const r = body.getBoundingClientRect();
-  if (!(r.height > 0)) return null;
-  return Math.max(0, Math.min(100, Math.round((window.innerHeight - r.top) / r.height * 100)));
-}
-function trackReading() {
-  const pct = guideReadPct();
-  if (pct == null) return;
-  const r = view.querySelector(".guide-body").getBoundingClientRect();
-  const chId = currentChapterId(), chEl = chId ? document.getElementById(chId) : null;
-  reading.update(guideCurrent, { pct, ch: chId, chTitle: chEl ? hTitle(chEl) : "", y: Math.max(0, Math.min(1, -r.top / r.height)) });
-  const fill = $("gReadFill"); if (fill) fill.style.width = pct + "%";
-}
-let readTimer = 0;
-window.addEventListener("scroll", () => { if (!guideCurrent || readTimer) return; readTimer = setTimeout(() => { readTimer = 0; trackReading(); }, 250); }, { passive: true });
-function resumeGuidePosition() {
-  const saved = reading.get(guideCurrent); if (!saved) return;
-  const el = saved.ch ? document.getElementById(saved.ch) : null;
-  if (el) return jumpTo(saved.ch);
-  const body = view.querySelector(".guide-body"); if (!body) return;
-  const r = body.getBoundingClientRect();
-  try { window.scrollTo(0, window.scrollY + r.top + (saved.y || 0) * r.height); } catch {}
-}
-async function openGuideTopic(id, opts = {}) {
-  if (opts.push && guideCurrent && guideCurrent !== id) guideStack.push(guideCurrent);
-  else if (!opts.push && !opts.pop) guideStack.length = 0;
-  if (!opts.pop) enter("topic", { push: !!opts.push });
-  guideCurrent = id;
-  const backLabel = () => guideStack.length ? `‹ ${t("back")} · ${esc(shortTitle(guideIndex.find(x => x.id === guideStack[guideStack.length - 1]) || { title: "" }))}` : `‹ ${t("back")}`;
-  view.innerHTML = `<button class="back" data-act="gback">‹ ${t("back")}</button><p class="muted">${t("guideLoading")}</p>`;
-  try {
-    await ensureGuideIndex();
-    const md = await loadTopic(id);
-    const i = guideIndex.findIndex(x => x.id === id), prev = guideIndex[i - 1], next = guideIndex[i + 1];
-    const saved = reading.get(id);
-    view.innerHTML = `<div class="g-readbar" aria-hidden="true"><i id="gReadFill" style="width:${saved ? saved.pct : 0}%"></i></div>
-      <button class="back" data-act="gback">${backLabel()}</button>
-      ${guideTools(id, saved, opts)}
-      <article class="guide-body">${renderMd(md)}</article>
-      <nav class="g-nav">${prev ? `<button class="btn" data-guide="${prev.id}">‹ ${esc(shortTitle(prev))}</button>` : "<span></span>"}${next ? `<button class="btn" data-guide="${next.id}">${esc(shortTitle(next))} ›</button>` : "<span></span>"}</nav>`;
-    const body = view.querySelector(".guide-body");
-    linkTopicRefs(body);
-    hydrateStoryboards(body);
-    if (opts.q) highlightTerms(body, opts.q);
-    addTopicContents(body);
-    addChapterMarks(body);
-    paintFontChips();
-    const target = opts.ch ? document.getElementById(opts.ch) : null;
-    try { if (target && target.scrollIntoView) target.scrollIntoView({ block: "start" }); else window.scrollTo(0, 0); } catch {}
-    if (opts.resume && !target) resumeGuidePosition();
-    setTimeout(trackReading, 50);
-  } catch {
-    view.innerHTML = `<button class="back" data-act="gback">‹ ${t("back")}</button><p class="muted">${t("guideError")}</p>`;
-  }
-}
-
-// ---------- research tab (50-dossier Reality Investigation & Cross-Domain Hidden-Pattern Atlas) ----------
-let resData = null;
-const resCache = new Map();
-let resQ = "", resLayer = "all", resPat = "", resTimer = null;
-const resStack = [];
-async function ensureResearchIndex() {
-  if (!resData) {
-    const r = await fetch("research/index.json");
-    if (!r.ok) throw new Error(r.status);
-    resData = await r.json();
-  }
-  return resData;
-}
-async function loadResearchTopic(id, lang = guideLang()) {
-  const key = lang + "/" + id;
-  if (!resCache.has(key)) {
-    let r = await fetch(`research/${lang}/${id}.md`);
-    if (!r.ok && lang !== "tr") r = await fetch(`research/tr/${id}.md`);
-    if (!r.ok) throw new Error(r.status);
-    resCache.set(key, await r.text());
-  }
-  return resCache.get(key);
-}
-async function searchResearch(q) {
-  const terms = guideTerms(q);
-  const idx = (await ensureResearchIndex()).topics.filter(x => x.ready), lang = guideLang();
-  await Promise.all(idx.map(tp => loadResearchTopic(tp.id, lang).catch(() => null)));
-  const results = [];
-  for (const tp of idx) {
-    const md = resCache.get(lang + "/" + tp.id);
-    if (!md) continue;
-    const hits = [];
-    for (const ch of guideChapters(md)) {
-      const plain = plainMd(ch.title + ". " + ch.text), folded = foldStr(plain);
-      if (!terms.length || !terms.every(tm => folded.includes(tm))) continue;
-      const pos = folded.indexOf(terms[0]);
-      const a = Math.max(0, pos - 70), b = Math.min(plain.length, pos + 110);
-      hits.push({ id: ch.id, title: ch.title, html: (a ? "… " : "") + markTerms(plain.slice(a, b), terms) + (b < plain.length ? " …" : "") });
-    }
-    if (hits.length) results.push({ tp, hits });
-  }
-  return results;
-}
-function resResumeCard() {
-  const last = reading.last();
-  const tp = last && resData && resData.topics.find(x => x.id === last.id && x.ready);
-  if (!tp) return "";
-  return `<button class="ex-card g-resume" data-res="${tp.id}" data-resume="1"><span class="ex-ref">▸</span><span class="ex-main"><span class="ex-title">${t("guideResume")}: ${esc(L(tp.title))}</span><span class="ex-sum">${last.chTitle ? esc(last.chTitle) + " · " : ""}${t("guidePct", { n: last.pct || 0 })}</span></span></button>`;
-}
-function resBookmarksBlock() {
-  const list = bookmarks.all().filter(b => resData && resData.topics.some(x => x.id === b.id));
-  if (!list.length) return "";
-  return `<details class="g-marks" open><summary>★ ${t("guideBookmarks")} (${list.length})</summary><ul class="g-marklist">${list.map(b => `<li>
-      <button class="link" data-res="${b.id}" ${b.ch ? `data-ch="${esc(b.ch)}"` : ""}>${esc(L(topicById(b.id).title))}${b.ch ? ` › ${esc(b.title)}` : ""}</button>
-      <button class="link danger" data-unmark="${esc(bookmarks.key(b.id, b.ch))}" aria-label="${t("removeBookmark")}">✕</button></li>`).join("")}</ul></details>`;
-}
-function hzIcon(v) { return v === "G" ? "🟢" : v === "Y" ? "🟡" : v === "O" ? "🟠" : "🔴"; }
-function resPatternAtlasHtml() {
-  const pats = resData.patterns || [];
-  const mps = resData.metaPatterns || [];
-  const om = resData.omegaPattern || null;
-  const hps = resData.historicalPatterns || [];
-  const ch = resData.chronoLaw || null;
-  const deepHtml = (mps.length || om) ? `<details class="hp-atlas hp-deep">
-    <summary><span>Ω ${t("researchDeepTitle")}</span><small class="muted">MP-1 … MP-4 · Ω-1</small></summary>
-    <div class="hp-atlas-body">
-      <p class="muted small">${t("researchDeepHint")}</p>
-      ${renderDiagram("deep-meta-patterns-omega", guideLang())}
-      ${mps.length ? `<div class="hp-grid">${mps.map(mp => `<div class="hp-item mp-item">
-        <span class="hp-item-head"><span class="hp-code">${esc(mp.code)}</span><span>${esc(L(mp.title))}</span></span>
-        <span class="muted small">${esc(L(mp.summary))}</span>
-        <span class="r-pats">${(mp.unifies || []).map(c => `<i class="r-pat-badge">${esc(c)}</i>`).join("")}</span>
-      </div>`).join("")}</div>` : ""}
-      ${om ? `<div class="hp-item omega-item">
-        <span class="hp-item-head"><span class="hp-code">${esc(om.code)}</span><span>${esc(L(om.title))}</span></span>
-        <span class="muted small">${esc(L(om.summary))}</span>
-      </div>` : ""}
-    </div>
-  </details>` : "";
-  const histHtml = (hps.length || ch) ? `<details class="hp-atlas hp-hist">
-    <summary><span>🏛️ ${t("researchHistTitle")}</span><small class="muted">THP-1 … THP-${hps.length} · Φ-1</small></summary>
-    <div class="hp-atlas-body">
-      <p class="muted small">${t("researchHistHint")}</p>
-      ${renderDiagram("historical-flow-macro-cycle", guideLang())}
-      ${hps.length ? `<div class="hp-grid">${hps.map(hp => `<div class="hp-item thp-item">
-        <span class="hp-item-head"><span class="hp-code">${esc(hp.code)}</span><span>${esc(L(hp.title))}</span></span>
-        <span class="muted small">${esc(L(hp.summary))}</span>
-      </div>`).join("")}</div>` : ""}
-      ${ch ? `<div class="hp-item phi-item">
-        <span class="hp-item-head"><span class="hp-code">${esc(ch.code)}</span><span>${esc(L(ch.title))}</span></span>
-        <span class="muted small">${esc(L(ch.summary))}</span>
-      </div>` : ""}
-    </div>
-  </details>` : "";
-  const hz = resData.horizon || null;
-  const hzAreas = (hz && hz.areas) || [];
-  const hzHtml = hzAreas.length ? `<details class="hp-atlas hp-horizon" ${resLayer === "HZ" ? "open" : ""}>
-    <summary><span>🌐 ${t("researchHorizonTitle")}</span><small class="muted">${esc((hz.thermometer || []).map(x => x.icon).join(" "))}</small></summary>
-    <div class="hp-atlas-body">
-      <p class="muted small">${t("researchHorizonHint")}</p>
-      ${renderDiagram("horizon-areas-map", guideLang())}
-      <div class="hp-grid">${hzAreas.map(a => `<button type="button" class="hp-item hz-item ${a.ready ? "ready" : ""}" ${a.ready ? `data-res="${esc(a.id)}"` : `data-hz="${esc(a.code)}"`}>
-        <span class="hp-item-head"><span class="hp-code">${esc(a.code)}</span><span>${esc(L(a.title))}</span></span>
-        <span class="muted small">${esc(L(a.cross))} ${esc(L(a.anomaly))}</span>
-        <span class="r-pats"><i class="r-pat-badge">${hzIcon(a.thermometer)}</i><i class="r-pat-badge">${t("researchHorizonBatch", { n: a.batch })}</i><i class="r-pat-badge">${esc(a.law)}</i>${a.ready ? `<i class="r-pat-badge">✓ ${t("researchHorizonReady")}</i>` : ""}</span>
-      </button>`).join("")}</div>
-      ${hz.final?.ready ? `<button type="button" class="hp-item hz-final" data-res="${esc(hz.final.id)}">
-        <span class="hp-item-head"><span class="hp-code">${esc(hz.final.code)}</span><span>${esc(L(hz.final.title))}</span></span>
-        <span class="muted small">${esc(L(hz.final.summary))}</span>
-        <span class="r-pats"><i class="r-pat-badge">🟠 ${t("researchHorizonFinal")}</i><i class="r-pat-badge">${t("researchHorizonBatch", { n: 16 })}</i></span>
-      </button>` : ""}
-      <div class="muted small">${t("researchHorizonLegend")}: ${(hz.thermometer || []).map(x => `${x.icon} ${esc(L(x))}`).join(" · ")}</div>
-    </div>
-  </details>` : "";
-  return `<details class="hp-atlas" ${resPat ? "open" : ""}>
-    <summary><span>🔍 ${t("researchAtlasTitle")}</span><small class="muted">${resPat || `HP-1 … HP-${pats.length}`}</small></summary>
-    <div class="hp-atlas-body">
-      <p class="muted small">${t("researchAtlasHint")}</p>
-      ${renderDiagram("master-hidden-patterns", guideLang())}
-      <div class="hp-grid">${pats.map(p => `<button type="button" class="hp-item ${resPat === p.id ? "on" : ""}" data-rpat="${esc(p.id)}" aria-pressed="${resPat === p.id}">
-        <span class="hp-item-head"><span class="hp-code">${esc(p.code)}</span><span>${esc(L(p.title))}</span></span>
-        <span class="muted small">${esc(L(p.summary))}</span>
-      </button>`).join("")}</div>
-    </div>
-  </details>${deepHtml}${histHtml}${hzHtml}`;
-}
-function resTopicCard(tp, marked) {
-  const p = reading.get(tp.id), pct = p ? p.pct : 0, done = pct >= 90;
-  const num = tp.hz ? String(tp.hz.code).replace(/^UA-/, "") : String(tp.no).padStart(2, "0");
-  const badges = (tp.patterns || []).map(c => `<i class="r-pat-badge">${esc(c)}</i>`).join("") +
-    (tp.hz ? `<i class="r-pat-badge">${hzIcon(tp.hz.thermometer)} ${esc(tp.hz.code)}</i><i class="r-pat-badge">${esc(tp.hz.law)}</i>` : "");
-  if (!tp.ready) {
-    return `<div class="ex-card g-topic r-topic upcoming" data-no="${tp.no}">
-      <span class="ex-ref">${num}</span>
-      <span class="ex-main"><span class="ex-title">${esc(L(tp.title))}</span>
-      <span class="ex-sum">${t("researchUpcoming")} · ${esc(L(tp.summary))}</span>
-      ${badges ? `<span class="r-pats">${badges}</span>` : ""}</span></div>`;
-  }
-  return `<button class="ex-card g-topic r-topic ${done ? "read" : ""}" data-res="${tp.id}">
-    <span class="ex-ref">${done ? "✓" : num}</span>
-    <span class="ex-main"><span class="ex-title">${marked.has(tp.id) ? "★ " : ""}${esc(L(tp.title))}</span>
-    <span class="ex-sum">${esc(L(tp.summary))}</span>
-    ${badges ? `<span class="r-pats">${badges}</span>` : ""}
-    ${pct > 0 ? `<span class="g-bar small ${done ? "done" : ""}" title="${t("guidePct", { n: pct })}"><i style="width:${pct}%"></i></span>` : ""}</span></button>`;
-}
-function resTopicList() {
-  const all = resData.topics || [];
-  const readyIds = all.filter(x => x.ready).map(x => x.id);
-  const read = reading.readCount(readyIds);
-  const marked = new Set(bookmarks.all().map(b => b.id));
-  const pass = tp => (resLayer === "all" || (resLayer === "ready" ? tp.ready : tp.layer === resLayer)) && (!resPat || (tp.patterns || []).includes(resPat));
-  const layers = (resData.layers || []).map(l => ({ l, items: all.filter(tp => tp.layer === l.id && pass(tp)) })).filter(x => x.items.length);
-  return `${resResumeCard()}
-  <div class="g-overall"><span class="g-bar ${read === readyIds.length && readyIds.length ? "done" : ""}"><i style="width:${readyIds.length ? Math.round(read / readyIds.length * 100) : 0}%"></i></span><span class="muted small">${t("researchStatus", { ready: readyIds.length, total: all.length, read })}</span></div>
-  ${resBookmarksBlock()}
-  ${resPatternAtlasHtml()}
-  <div class="seg ref-cats" role="tablist">
-    <button class="pill ${resLayer === "all" ? "on" : ""}" data-rlayer="all">${t("researchAllLayers", { n: all.length })}</button>
-    <button class="pill ${resLayer === "ready" ? "on" : ""}" data-rlayer="ready">${t("researchReadyOnly", { n: readyIds.length })}</button>
-    ${(resData.layers || []).map(l => `<button class="pill ${resLayer === l.id ? "on" : ""}" data-rlayer="${esc(l.id)}">${esc(l.id)} (${esc(l.range)})</button>`).join("")}
-  </div>
-  ${resPat ? `<p class="muted small filter-sum">🔍 <b>${esc(resPat)}</b> · <button class="link" data-rpat="${esc(resPat)}">${t("clearFilters")}</button></p>` : ""}
-  ${layers.map(({ l, items }) => `<section class="series-block">
-    <h2 class="sec-h r-layer-h">${esc(L(l.title))}</h2>
-    <p class="muted small r-layer-intro">${esc(L(l.intro))}</p>
-    <div class="list">${items.map(tp => resTopicCard(tp, marked)).join("")}</div>
-  </section>`).join("")}`;
-}
-async function runResearchSearch(q) {
-  const box = $("rres");
-  if (!box) return;
-  if (q.length < 2) { box.innerHTML = resTopicList(); return; }
-  box.innerHTML = `<p class="muted">${t("guideSearching")}</p>`;
-  const results = await searchResearch(q);
-  if (resQ.trim() !== q || !$("rres")) return;
-  const n = results.reduce((a, r) => a + r.hits.length, 0);
-  $("rres").innerHTML = !n ? `<p class="muted">${t("guideNoMatch")}</p>` : `<p class="muted small">${t("guideMatches", { n })}</p>
-    ${results.map(({ tp, hits }) => `<section class="g-res"><h3 class="sec-h">${esc(L(tp.title))}</h3><div class="list">
-      ${hits.map(h => `<button class="ex-card g-hit" data-res="${tp.id}" data-ch="${esc(h.id)}"><span class="ex-main"><span class="ex-title">${esc(h.title)}</span><span class="ex-sum">${h.html}</span></span></button>`).join("")}
-    </div></section>`).join("")}`;
-}
-async function renderResearch() {
-  guideCurrent = null; resStack.length = 0;
-  view.innerHTML = `<h1>${t("tabResearch")}</h1><p class="muted">${t("researchIntro")}</p><p class="muted">${t("guideLoading")}</p>`;
-  try {
-    await ensureResearchIndex();
-    view.innerHTML = `<h1>${t("tabResearch")}</h1><p class="muted">${t("researchIntro")}</p>
-      <label class="search"><span class="sr">${t("researchSearch")}</span><input id="resq" type="search" placeholder="${t("researchSearch")}" value="${esc(resQ)}" autocomplete="off"></label>
-      <div id="rres"></div>`;
-    const qi = $("resq");
-    qi.oninput = () => { resQ = qi.value; clearTimeout(resTimer); resTimer = setTimeout(() => runResearchSearch(resQ.trim()), 180); };
-    runResearchSearch(resQ.trim());
-  } catch {
-    view.innerHTML = `<h1>${t("tabResearch")}</h1><p class="muted">${t("guideError")}</p>`;
-  }
-}
-/** Turn "Dosya 04" / "Dosya 7" / "4. dosya" / "Dossier 4" in rendered research text into links to ready dossiers. */
-function linkResearchRefs(root) {
-  if (!root || !resData) return;
-  const byNo = new Map(resData.topics.filter(x => x.ready).map(tp => [tp.no, tp.id]));
-  const re = /\b(?:Dosya|Dossier)\s+0?(\d{1,2})\b|\b0?(\d{1,2})\.\s*dosya(?:da|dan|nın|ya|yı|sında)?(?![a-zçğıöşü])/gi;
-  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-  const nodes = []; let n;
-  while ((n = walker.nextNode())) if (!n.parentElement.closest("a, code, pre, h1")) nodes.push(n);
-  for (const node of nodes) {
-    const text = node.nodeValue;
-    re.lastIndex = 0;
-    if (!re.test(text)) continue;
-    re.lastIndex = 0;
-    const frag = document.createDocumentFragment(); let last = 0, m;
-    while ((m = re.exec(text))) {
-      frag.appendChild(document.createTextNode(text.slice(last, m.index)));
-      const no = Number(m[1] || m[2]);
-      if (byNo.has(no)) {
-        const a = document.createElement("a");
-        a.className = "xref"; a.href = "#"; a.dataset.res = byNo.get(no); a.title = t("guideXref"); a.textContent = m[0];
-        frag.appendChild(a);
-      } else {
-        frag.appendChild(document.createTextNode(m[0]));
-      }
-      last = m.index + m[0].length;
-    }
-    frag.appendChild(document.createTextNode(text.slice(last)));
-    node.parentNode.replaceChild(frag, node);
-  }
-}
-async function openResearchTopic(id, opts = {}) {
-  if (opts.push && guideCurrent && guideCurrent !== id) resStack.push(guideCurrent);
-  else if (!opts.push && !opts.pop) resStack.length = 0;
-  if (!opts.pop) enter("rtopic", { push: !!opts.push });
-  guideCurrent = id;
-  const backLabel = () => resStack.length ? `‹ ${t("back")} · ${esc(shortTitle(resData.topics.find(x => x.id === resStack[resStack.length - 1]) || { title: "" }))}` : `‹ ${t("back")}`;
-  view.innerHTML = `<button class="back" data-act="gback">‹ ${t("back")}</button><p class="muted">${t("guideLoading")}</p>`;
-  try {
-    await ensureResearchIndex();
-    const md = await loadResearchTopic(id);
-    const readyList = resData.topics.filter(x => x.ready);
-    const i = readyList.findIndex(x => x.id === id), prev = readyList[i - 1], next = readyList[i + 1];
-    const saved = reading.get(id);
-    view.innerHTML = `<div class="g-readbar" aria-hidden="true"><i id="gReadFill" style="width:${saved ? saved.pct : 0}%"></i></div>
-      <button class="back" data-act="gback">${backLabel()}</button>
-      ${guideTools(id, saved, opts)}
-      <article class="guide-body">${renderMd(md)}</article>
-      <nav class="g-nav">${prev ? `<button class="btn" data-res="${prev.id}">‹ ${esc(shortTitle(prev))}</button>` : "<span></span>"}${next ? `<button class="btn" data-res="${next.id}">${esc(shortTitle(next))} ›</button>` : "<span></span>"}</nav>`;
-    const body = view.querySelector(".guide-body");
-    hydrateDiagrams(body, guideLang());
-    hydrateStoryboards(body);
-    linkResearchRefs(body);
-    linkTopicRefs(body);
-    if (opts.q) highlightTerms(body, opts.q);
-    addTopicContents(body);
-    addChapterMarks(body);
-    paintFontChips();
-    const target = opts.ch ? document.getElementById(opts.ch) : null;
-    try { if (target && target.scrollIntoView) target.scrollIntoView({ block: "start" }); else window.scrollTo(0, 0); } catch {}
-    if (opts.resume && !target) resumeGuidePosition();
-    setTimeout(trackReading, 50);
-  } catch {
-    view.innerHTML = `<button class="back" data-act="gback">‹ ${t("back")}</button><p class="muted">${t("guideError")}</p>`;
-  }
 }
 
 // ---------- Hemi-Sync reference catalogue (titles without a session; playable from the PC source) ----------
