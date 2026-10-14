@@ -77,10 +77,10 @@ function addBed(L, R, a, seg, bedVol) {
   const i1 = Math.min(L.length, Math.floor((Math.min(seg.t0 + seg.len, a + L.length / SR) - a) * SR));
   if (i1 <= i0) return;
   for (const [ch, f0, f1, ph0] of [[L, seg.f0L, seg.f1L, seg.phaseL], [R, seg.f0R, seg.f1R, seg.phaseR]]) {
-    const g = seg.glide > 0 ? seg.glide : 1;
-    const fAt = g > 0 && seg.glide > 0 ? τ => f0 + (f1 - f0) * Math.min(τ / g, 1) : () => f0;
+    const g = seg.glide, h = seg.hold || 0;
+    const fAt = g > 0 ? τ => (τ <= h ? f0 : f0 + (f1 - f0) * Math.min((τ - h) / g, 1)) : () => f0;
     const τ0 = Math.max(0, a - seg.t0);
-    let phi = ph0 + 2 * Math.PI * freqIntegral(f0, f1, seg.glide, τ0);
+    let phi = ph0 + 2 * Math.PI * freqIntegral(f0, f1, g, τ0, h);
     for (let i = i0; i < i1; i++) {
       const τ = (a + i / SR) - seg.t0;
       phi += 2 * Math.PI * fAt(τ) / SR;

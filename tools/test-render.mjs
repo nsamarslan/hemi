@@ -9,7 +9,7 @@ import { expandContent } from "./expand.mjs";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const B = expandContent();
 globalThis.window = { APP_CONTENT: B };
-const { buildTimeline, buildRoutine, expandPhases } = await import("../src/js/timeline.js");
+const { buildTimeline, buildRoutine, expandPhases, BED_FADE } = await import("../src/js/timeline.js");
 const audio = await import("../src/js/audio.js");
 
 let pass = 0, fail = 0;
@@ -50,7 +50,7 @@ ok(tl.events.every((e, i) => i === 0 || tl.events[i - 1].t <= e.t), "events sort
 const hold = tl.phases.filter(p => p.holdStart != null).sort((a, b) => (b.holdEnd - b.holdStart) - (a.holdEnd - a.holdStart))[0];
 const seg = tl.bed.find(s => s.t0 <= hold.holdStart + 10 && s.t0 + s.len >= hold.holdStart + 40);
 // after the glide (a glide with f0 === f1 is a no-op, so no need to wait for it), inside the segment
-const a = Math.max(hold.holdStart + 8, seg.f0L === seg.f1L ? seg.t0 + 2 : seg.t0 + seg.glide + 2);
+const a = Math.max(hold.holdStart + 8, seg.f0L === seg.f1L ? seg.t0 + 2 : seg.t0 + (seg.hold || 0) + seg.glide + 2);
 const b = a + 30;
 const bellsIn = tl.events.filter(e => e.type === "bell" && e.t < b && e.t + e.dur > a);
 ok(bellsIn.length === 0 && b <= seg.t0 + seg.len - 1, `clean render window [${a.toFixed(0)}, ${b.toFixed(0)}] inside one segment, no bells`);
@@ -252,6 +252,37 @@ ok(/out at the crown/.test(SB.renderFrame("rebal", 2, "en")) && /tepeden çık/.
   // routines carry breath segments with their offsets (two Wave I sessions, each with a tuning hold)
   const rt2 = buildRoutine([{ id: "w1-orientation" }, { id: "w1-intro-10" }], id => B.sessions[id], e => paramsOf(e), opts);
   ok(rt2.breath.length === 2 && rt2.breath[1].t0 > rt2.breath[0].t1 && rt2.breath.every(b => rt2.phases.some(p => p.holdStart === b.t0 && p.holdEnd === b.t1)), `routine keeps both breath segments aligned with their holds (${rt2.breath.length})`);
+}
+
+// ---------- bed level across segment crossfades: phase changes, glides and routine transitions ----------
+{
+  const Ob = { bedVol: 1, bellVol: 0, voiceVol: 0, ambience: 0, breathCue: false };
+  // worst 0.25 s peak per ear from 4 s before to 4 s after each crossfade, in dB below the quieter of the two segments
+  // (an in-phase crossfade moves monotonically between the two gains; partial cancellation dips below both)
+  const worstDip = (t, max = 4) => {
+    let worst = Infinity;
+    for (const s of t.bed.slice(1, max + 1)) {
+      const p = t.bed[t.bed.indexOf(s) - 1];
+      if (p.fadeOut || s.fadeOut) continue;
+      const { L, R } = audio.renderChunkSamples(t, Math.max(0, s.t0 - 4), Math.min(t.duration, s.t0 + BED_FADE + 4), "en", Ob);
+      for (const ch of [L, R]) {
+        const w = Math.floor(0.25 * SR); let lo = Infinity;
+        for (let k = 0; k + w <= ch.length; k += w) { let m = 0; for (let j = k; j < k + w; j++) m = Math.max(m, Math.abs(ch[j])); lo = Math.min(lo, m); }
+        worst = Math.min(worst, 20 * Math.log10(lo / Math.min(p.gain, s.gain)));
+      }
+    }
+    return worst;
+  };
+  const d15 = worstDip(buildTimeline(B.sessions["w5x-intro15"], paramsOf(B.sessions["w5x-intro15"]), opts));
+  ok(d15 > -1.5, `Focus 15 phase crossfades keep the bed level in both ears (worst ${d15.toFixed(1)} dB)`);
+  const d21 = worstDip(buildTimeline(B.sessions["w6-intro21"], paramsOf(B.sessions["w6-intro21"]), opts));
+  ok(d21 > -1.5, `Focus 21 phase crossfades keep the bed level in both ears (worst ${d21.toFixed(1)} dB)`);
+  const d12 = worstDip(tl);
+  ok(d12 > -1.5, `gliding crossfades (Focus 10 → 12) keep the bed level (worst ${d12.toFixed(1)} dB)`);
+  const rt = buildRoutine([{ id: "job-intro" }, { id: "job-relax" }], id => B.sessions[id], e => paramsOf(e), opts);
+  const firstOfSecond = rt.bed.find(s => s.t0 > 0 && rt.phases.find(p => p.start === s.t0)?.exId === "job-relax");
+  const dr = worstDip({ ...rt, bed: rt.bed.slice(rt.bed.indexOf(firstOfSecond) - 1) }, 2);
+  ok(firstOfSecond && dr > -1.5, `routine transition keeps the bed level (worst ${dr.toFixed(1)} dB)`);
 }
 
 // ---------- player: a seek into another chunk must not leak its offset into the following chunks ----------

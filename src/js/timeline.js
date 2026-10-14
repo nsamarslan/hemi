@@ -43,8 +43,21 @@ export function holdSeconds(ex, hold, params) {
 
 // ---------- binaural bed ----------
 // Integral of a linearly gliding frequency f0→f1 (over g seconds) from 0 to T — used for exact phases.
-export const freqIntegral = (f0, f1, g, T) =>
-  g > 0 ? (T <= g ? f0 * T + (f1 - f0) * T * T / (2 * g) : f0 * g + (f1 - f0) * g / 2 + f1 * (T - g)) : f0 * T;
+// Cycles an oscillator completes in T seconds: f0 for the first `hold` seconds, then a linear glide to f1 over g seconds.
+export const freqIntegral = (f0, f1, g, T, hold = 0) => {
+  if (T <= hold) return f0 * T;
+  const u = T - hold;
+  return f0 * hold + (g > 0 ? (u <= g ? f0 * u + (f1 - f0) * u * u / (2 * g) : f0 * g + (f1 - f0) * g / 2 + f1 * (u - g)) : f0 * u);
+};
+/** Start each bed segment at the phase the previous one's oscillator has at that moment, so their crossfade does not cancel. */
+function chainPhases(bed) {
+  for (let i = 1; i < bed.length; i++) {
+    const p = bed[i - 1], s = bed[i], T = s.t0 - p.t0;
+    s.phaseL = (p.phaseL + 2 * Math.PI * freqIntegral(p.f0L, p.f1L, p.glide, T, p.hold)) % (2 * Math.PI);
+    s.phaseR = (p.phaseR + 2 * Math.PI * freqIntegral(p.f0R, p.f1R, p.glide, T, p.hold)) % (2 * Math.PI);
+  }
+  return bed;
+}
 
 function bedSpecFor(ex, ph, inherited) {
   const spec = ph.bed || inherited || { beat: "focus" };
@@ -163,7 +176,7 @@ export function buildTimeline(ex, params, o) {
 
   // ---------- binaural bed: one continuous segment per phase ----------
   const bed = [];
-  let prevF = null, prevPhase = null, inheritedSpec = null;
+  let prevF = null, inheritedSpec = null;
   for (const rec of phases) {
     const explicit = rec.bed || null;
     const spec = bedSpecFor(ex, rec, explicit ? null : inheritedSpec);
@@ -174,25 +187,19 @@ export function buildTimeline(ex, params, o) {
     let glide = spec.glide === "phase" ? Math.max(1, phaseLen) : spec.glide;
     if (glide == null) glide = prevF && (f0L !== f1L || f0R !== f1R) ? Math.min(600, Math.max(30, phaseLen / 2)) : 0;
     const isLast = rec === phases[phases.length - 1];
+    // a glide waits out the crossfade (both segments at the same frequency) and ends by the next segment's start
+    const hold = prevF && glide > 0 ? BED_FADE : 0;
+    if (glide > 0 && !isLast) glide = Math.max(1, Math.min(glide, phaseLen - hold));
     const len = (isLast ? (t - rec.start) + 4 : phaseLen + BED_FADE);
     const fade = Math.min(spec.fade, len / 3);
-    const seg = {
-      t0: rec.start, len, glide, fade, gain: spec.gain,
-      f0L, f1L, f0R, f1R,
-      phaseL: prevPhase ? prevPhase.phaseL : 0,
-      phaseR: prevPhase ? prevPhase.phaseR : 0,
-    };
+    const seg = { t0: rec.start, len, glide, hold, fade, gain: spec.gain, f0L, f1L, f0R, f1R, phaseL: 0, phaseR: 0 };
     if (rec.fadeOut) seg.fadeOut = len;    // the whole segment is one long fade-out (sleep ending)
     bed.push(seg);
     prevF = { fL: f1L, fR: f1R };
-    prevPhase = {
-      phaseL: seg.phaseL + 2 * Math.PI * freqIntegral(f0L, f1L, glide, len),
-      phaseR: seg.phaseR + 2 * Math.PI * freqIntegral(f0R, f1R, glide, len),
-    };
     rec.bed = { beat: spec.beat, focus: spec.focusId };
   }
 
-  return { events, phases, bed, breath, duration: t };
+  return { events, phases, bed: chainPhases(bed), breath, duration: t };
 }
 
 /** Concatenate several exercises (a programme or a whole wave) into one timeline. */
@@ -214,19 +221,18 @@ export function buildRoutine(items, getEx, getParams, o) {
     const last = i === items.length - 1;
     const preset = it.preset && (ex.presets || []).find(p => p.id === it.preset);
     const tl = buildTimeline(ex, Object.assign(getParams(ex), preset ? preset.values : {}, it.params || {}), { ...o, ending: last ? "routineDone" : "none", seed: (o.seed || 1) + i });
-    // keep the bed continuous across the transition clips: extend the previous session's last
-    // segment through the gap and carry frequency + oscillator phase into this session's first segment
+    // keep the bed continuous across the transition clips: extend the previous session's last segment through the
+    // gap so it fades out exactly while this session's first segment fades in, and carry the frequency over
+    // (oscillator phases are chained over the whole routine at the end)
     if (i > 0 && bed.length && tl.bed.length) {
       const prev = bed[bed.length - 1];
-      const gap = t - prev.t0 - prev.len + 4; // seconds from the previous segment's end (+4 tail) to this session's start
+      const gap = t - prev.t0 - prev.len + BED_FADE;
       if (gap > 0) prev.len += gap;
-      const contL = prev.phaseL + 2 * Math.PI * freqIntegral(prev.f0L, prev.f1L, prev.glide, t - prev.t0);
-      const contR = prev.phaseR + 2 * Math.PI * freqIntegral(prev.f0R, prev.f1R, prev.glide, t - prev.t0);
       const first = tl.bed[0];
-      first.phaseL = contL; first.phaseR = contR;
       if (first.f0L !== prev.f1L || first.f0R !== prev.f1R) {
         first.f0L = prev.f1L; first.f0R = prev.f1R;
-        first.glide = Math.min(600, Math.max(30, first.len / 2));
+        first.hold = BED_FADE;
+        first.glide = Math.max(1, Math.min(600, Math.max(30, first.len / 2), first.len - 2 * BED_FADE));
       }
     }
     tl.events.forEach(e => events.push({ ...e, t: e.t + t }));
@@ -236,5 +242,5 @@ export function buildRoutine(items, getEx, getParams, o) {
     t += tl.duration;
   });
   events.sort((a, b) => a.t - b.t);
-  return { events, phases, bed, breath, duration: t };
+  return { events, phases, bed: chainPhases(bed), breath, duration: t };
 }
