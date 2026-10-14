@@ -10,3 +10,5 @@ content/voice/raw/
 *.apk
 # CI writes the keystore from secrets here (android/app/build.gradle reads GATEWAY_KEYSTORE_FILE)
 android/keystore/ci.keystore
+# agent worktrees created by Claude Code
+.claude/worktrees/
